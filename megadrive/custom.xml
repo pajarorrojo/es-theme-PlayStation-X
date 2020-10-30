@@ -1,0 +1,40 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+
+		<text name="system_description" extra="true" >
+			<text>The Sega Mega Drive, known as the Sega Geneis in North America, is a 16-bit fourth-generation home video game console developed and sold by Sega. Is Sega's third console and the successor to the Master System. Sega released it as the Mega Drive in Japan in 1988, and later as the Genesis in North America in 1989.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Mega Drive, conocida en diversos territorios de América como Genesis, es una clásica videoconsola de sobremesa de 16 bits desarrollada por Sega Enterprises, Ltd. Mega Drive fue la tercera consola de Sega y la sucesora de Master System. 
+
+Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta generación. La primera versión fue lanzada en Japón en 1988, sucedida por el lanzamiento en Norteamérica bajo el renombramiento de Genesis en 1989.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>La Mega Drive (メガドライブ, Mega Doraibu?)cn 1, ou Genesis en Amérique du Nord, est une console de jeux vidéo de quatrième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La Mega Drive est la troisième console de Sega, elle succède à la Master System.</text>
+		</text>
+
+			    <text name="system_description" extra="true" lang="pt" >
+			<text>Mega Drive (メガドライブ Mega Doraibu?), conhecido como Sega Genesis na América do Norte, é um console de video game de 16 bits da Sega que concorria diretamente com o Super Nintendo Entertainment System. O console fez grande sucesso na década de 1990, perdendo espaço após o surgimento e popularização da nova geração de consoles de 32 bits, como o PlayStation da Sony.</text>
+		</text>
+
+		
+
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true" >
+			<text>Sega Mega Drive</text>
+		</text>
+	</view>
+</theme>

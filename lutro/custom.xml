@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>Lutro is an experimental lua game framework for libretro following the LÖVE API.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Lutro es un motor lua experimental basado en la arquitectura libretro usando la LÖVE API como referencia.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Lutro est un framework de jeu lua expérimental pour libretro suivant l'API LÖVE.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>Lutro é uma engine lua experimental baseada na arquitetura libretro usando a LÖVE API como referência.</text>
+		</text>
+
+		
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>LUTRO</text>
+		</text>
+	</view>
+</theme>
