@@ -1,0 +1,177 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="screen">
+    <text name="clock" >
+       <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+       <fontSize>0.032</fontSize>
+      <pos>0.922 0.0687</pos>
+       <color>ffffff</color>
+       <zIndex>20</zIndex>  
+   </text>
+</view>
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <pos>-0.48 0.15</pos>
+		<origin>0 0</origin>
+        <size>1.5 1</size>
+        <logoScale>1.85</logoScale>
+        <logoSize>0.20 0.20</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>9</maxLogoCount>
+ 		<logoAlignment>top</logoAlignment>
+		<zIndex>80</zIndex>
+		<defaultTransition>instant</defaultTransition>			
+      </carousel>
+
+  
+
+      <text name="systemInfo">
+         <alignment>left</alignment>
+         <pos>0.21 0.080</pos>
+         <size>0.430 0.035</size>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	     <fontSize>0.037</fontSize>
+        <forceUppercase>false</forceUppercase>
+         <zIndex>60</zIndex>	              
+      </text>	 
+
+  
+
+
+
+
+
+<text name="username" extra="true"><!-- usuario-->
+   <size>0.0840 0.035</size>
+   <pos>0.656 0.08</pos>
+   <color>ffffff</color>
+   <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+   <fontSize>0.028</fontSize>
+   <alignment>left</alignment>
+   <zIndex>60</zIndex>        
+</text>	
+
+      <image name="avatar" extra="true">
+         <pos>0.618 0.0710</pos>
+         <maxSize>0.055 0.055</maxSize>
+         <path>./../_theme_inc/your-avatar.png</path>
+         <zIndex>60</zIndex>
+      </image>
+
+      <image name="background-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+
+
+            <path>./../$system/background.jpg</path>
+      </image>	  
+	  
+	<image name="logo">
+		<path>./../$system/caratula.png</path>
+      
+	</image>
+   	<image name="logo2" extra="true">
+		<path>./../$system/logo.png</path>
+      	<pos>0.825 0.8</pos> 
+
+      
+      <alignment>right</alignment>
+      <verticalAlignment>center</verticalAlignment>
+		<maxSize>0.155 0.12</maxSize>
+      <origin>0 0</origin>
+		<path>./../$system/logo.png</path>
+      <reflexion>240</reflexion>
+      <zIndex>100</zIndex>
+	</image>
+
+	  
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+
+         <path>./../_theme_inc/images/overlay.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	  
+
+      <text name="version" extra="true"><!-- version-->
+         <text>Ver. 1.0</text>
+         <pos>0.95 0.95</pos>
+         <color>444444</color>
+         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+	     <fontSize>0.0220</fontSize>
+         <alignment>left</alignment>
+         <zIndex>41</zIndex>        
+      </text>	  
+	  
+      <helpsystem name="help">
+         <textColor>DFDCDC</textColor>
+         <iconColor>ffffff</iconColor>
+		 <pos>0.06 0.960</pos>
+		 <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+		 <fontSize>0.030</fontSize>
+      </helpsystem>	 
+	  
+	   <text name="start" extra="true">
+     <text>Start</text>
+     <text lang="es">Iniciar</text>
+     <text lang="fr">Démarrer</text>
+     <text lang="pt">Iniciar</text>
+     <!--only for recalbox, multilingual not supported,-->
+     
+     <text lang="recalbox">Start</text>
+     
+<!-- -->
+     
+        <size>0.207 0.07</size>
+        <backgroundColor>000000cc</backgroundColor>
+	     <alignment>center</alignment> 
+	     <pos>0.166 0.535</pos>
+	     <color>FFFFFF</color>
+        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	     <fontSize>0.037</fontSize>   
+        <zIndex>45</zIndex>        
+      </text>
+      	   
+      <text name="system_name" extra="true">
+	     <alignment>left</alignment> 
+	     <pos>0.385 0.535</pos>
+	     <color>FFFFFF</color>
+        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	     <fontSize>0.068</fontSize>  
+                       <storyboard>
+                <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+                <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+                <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+            </storyboard> 
+        <zIndex>45</zIndex>        
+      </text>
+            
+            <text name="system_description" extra="true">
+           <alignment>left</alignment> 
+	     <pos>0.385 0.65</pos>
+     <verticalAlignment>top</verticalAlignment>
+	     <color>FFFFFF</color>
+        <size>0.430 0.2</size>
+        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	     <fontSize>0.023</fontSize>   
+         <lineSpacing>1.1</lineSpacing>
+        <zIndex>50</zIndex>     
+             </text>
+
+
+
+
+
+
+ 
+ 
+
+</view>
+
+</theme>
