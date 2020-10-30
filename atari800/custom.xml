@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true" >
+			<text>The Atari 800 was a microcomputer developed by Atari for the domestic audience, launched in conjunction with the Atari 400.
+</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>El Atari 800 fue un microcomputador desarrollado por Atari para el público doméstico, lanzado conjuntamente con el Atari 400.
+</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>L'Atari 800 était un micro-ordinateur développé par Atari pour le public domestique, lancé conjointement avec l'Atari 400.
+</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O Atari 800 foi um microcomputador desenvolvido pela Atari para o público doméstico, lançado conjuntamente com o Atari 400.
+</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Atari 800</text>
+		</text>
+	</view>
+</theme>

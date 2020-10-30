@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+		<text name="system_description" extra="true" >
+			<text>The Dreamcast is a home video game console released by Sega on November 27, 1998 in Japan, September 9, 1999 in North America. It was the first in the sixth generation of video game consoles.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="pt">
+			<text>Foi o último console de videogames da Sega e o sucessor do Sega Saturn. Era o console mais avançado de sua época e o mais completo de sua geração quando lançado.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es" >
+			<text>Dreamcast es la sexta y última consola de videojuegos hasta ahora producida por Sega. Es la sucesora de Sega Saturn y fue lanzada al mercado para ganar terreno a PlayStation de Sony y Nintendo 64 de Nintendo, y competir con los sistemas sucesores a estos. 
+
+Pertenece a la sexta generación de consolas. El sistema fue el primero en tener un módem incorporado para jugar en línea. Se detuvo su producción el 31 de marzo de 2001 tras la decisión de Sega de dedicarse en exclusiva a la programación de videojuegos. </text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Dreamcast (ドリームキャスト) est une console de jeux vidéo développée par Sega, et est le successeur de la Saturn. Commercialisée dès novembre 1998 au Japon, elle est la première console de sixième génération.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Sega Dreamcast</text>
+		</text>
+	</view>
+</theme>
