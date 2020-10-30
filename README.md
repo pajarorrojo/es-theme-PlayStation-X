@@ -25,9 +25,13 @@ For change the username string, open the file "your-username-here.xml" with a te
 
 
 ————  SUPPORTED LANGUAGES ———— 
+
 English (EN) (default for not supported languages)
+
 Spanish (ES)
+
 French (FR)
+
 Portuguese (PT)
 
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -58,7 +62,11 @@ Para cambiar la cadena de nombre de usuario, abre el archivo "your-username-here
 
 
 ———— IDIOMAS COMPATIBLES ————
+
 Inglés (EN) (predeterminado para idiomas no compatibles)
+
 Español (ES)
+
 Francés (FR)
+
 Portugués (PT)
