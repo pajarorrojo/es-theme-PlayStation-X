@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+			<text>Solarus was specifically designed with cult 2D action-RPG classics in mind, such as The Legend of Zelda: A Link to the Past and Secret of Mana on the Super Nintendo, or Soleil on the Sega Megadrive/Genesis.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Solarus se diseñó específicamente teniendo en cuenta los clásicos de los juegos de rol de acción 2D, como The Legend of Zelda: A Link to the Past and Secret of Mana en Super Nintendo, o Soleil en Sega Megadrive / Genesis.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Solarus a été spécialement conçu pour les classiques 2D d'action-RPG cultes, tels que La légende de Zelda: un lien vers le passé et le secret de Mana sur Super Nintendo ou de Soleil sur Sega Megadrive / Genesis.</text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+			<text>Solarus foi projetado especificamente com clássicos cult de RPG de ação em 2D, como The Legend of Zelda: A Link to the Past and Secret of Mana no Super Nintendo, ou Soleil no Sega Megadrive / Genesis.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Solarus</text>
+		</text>
+	</view>
+</theme>

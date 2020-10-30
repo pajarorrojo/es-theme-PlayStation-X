@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>Is a home video game console released by Nintendo on November 19, 2006. As a seventh-generation console, the Wii competed with Microsoft's Xbox 360 and Sony's PlayStation 3.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Wii (ウィー Uī) es una videoconsola producida por Nintendo y estrenada el 19 de noviembre de 2006 en Norteamérica y el 8 de diciembre del mismo año en Europa. Perteneciente a la séptima generación de consolas.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Wii (ウィー, Wī) est une console de jeux de salon du fabricant japonais Nintendo, sortie en 2006. Console de la septième génération, tout comme la Xbox 360 et la PlayStation 3 avec lesquelles elle est en rivalité.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>É um console de videogame doméstico produzido pela Nintendo e lançado em 2006. É um videogame da sétima geração e o quinto console da Nintendo. Seus principais concorrentes são o Xbox 360 e o Playstation 3.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Nintendo Wii U</text>
+		</text>
+	</view>
+</theme>

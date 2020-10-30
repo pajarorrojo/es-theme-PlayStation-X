@@ -1,0 +1,43 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>The 32X is an add-on for the Sega Genesis video game console. Codenamed "Project Mars", the 32X was designed to expand the power of the Genesis and serve as a transitional console into the 32-bit.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Mega Drive 32X, también llamada Sega 32X (en América) o Super 32X (en Japón), es un periférico lanzado por Sega en 1994, que ofrecía una ampliación de 32 bits para la consola de 16 bits Sega Mega Drive.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Est une extension de la Mega Drive, console du constructeur japonais Sega. La 32X utilise indépendamment de la Mega Drive ses propres cartouches de jeu et dispose d'une ludothèque de quarante jeux vidéo.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>Sega 32x é um acessório para o console da Sega, o Mega Drive, Genesis Na América do Norte. O acessório deveria ser inserido na entrada de cartucho do Mega Drive, recebendo cartuchos próprios ou do Mega Drive.</text>
+		</text>
+		
+
+	
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Mega Drive 32X</text>
+		</text>
+
+		<text name="system_name" extra="true" lang="pt,en">
+			<text>Sega 32X</text>
+		</text>
+
+	</view>
+	
+</theme>

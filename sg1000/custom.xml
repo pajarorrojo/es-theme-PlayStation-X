@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+
+		<text name="system_description" extra="true" >
+			<text>The SG-1000[a] is a home video game console manufactured by Sega and released in Japan, Australia, New Zealand, and other regions. It was Sega's first entry into the home video game hardware business. Introduced in 1983, the SG-1000 was released on the same day that Nintendo released the Family Computer in Japan.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>La SG-1000 (エスジー・セン, Esujī Sen?), également connue sous le nom Sega Game 1000, est une console de jeux vidéo de troisième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La console marque l'entrée de Sega dans le jeu vidéo à domicile et constitue une base pour la plus fructueuse Master System.</text>
+		</text>
+
+		
+		<text name="system_description" extra="true" lang="es">
+			<text>SG-1000, fue la primera videoconsola de sobremesa desarrollada por Sega. Fue primero lanzada al mercado en una primera fase de pruebas en Japón en 1981 y finalmente lanzada al mercado japonés en julio de 1983 por 15.000¥. 
+
+La consola no consiguió gran éxito en ese mercado. Sin embargo, el sistema se vendió bien en Asia hasta 1985. Fue también comercializada en Australia por John Sands, en Nueva Zelanda por Grandstand Leisure Limited, y en otros países como Italia, España, y Sudáfrica. La consola en su versión original nunca llegó a Norteamérica, su nombre es el acrónimo de Sega Game 1000. </text>
+		</text>
+
+			    <text name="system_description" extra="true" lang="pt" >
+			<text>O SG-1000 foi um console de videogame da terceira geração, lançado pela Sega em 1981 (na sua versão de testes) e em 1983 (para o mercado japonês). Este console não obteve grande representatividade. Porém, seu sucessor (o Master System) alcançou grande sucesso no mercado dos consoles.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Sega SG-1000</text>
+		</text>
+	</view>
+</theme>
