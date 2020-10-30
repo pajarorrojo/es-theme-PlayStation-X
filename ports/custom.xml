@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>Porting is also the term used when a video game designed to run on one platform, be it an arcade, video game console, or personal computer, is converted to run on a different platform.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>"Port" es un videojuego que ha sido convertido o "portado" de la plataforma para la que ha sido desarrollada originalmente a una nueva plataforma, sin sufrir ningún cambio significativo en su estructura.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Plusieurs développeurs ont publié le code source sur bon nombre de leurs anciens titres, leur permettant d’exécuter des applications natives sur de nombreuses plates-formes alternatives, y compris Linux.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>Vários desenvolvedores lançaram o código-fonte para muitos de seus títulos clássicos, permitindo que eles sejam nativos para muitas plataformas alternativas, incluindo o Linux.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Ports</text>
+		</text>
+	</view>
+</theme>

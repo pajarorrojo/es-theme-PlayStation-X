@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. Part of the fifth generation of video game consoles, it was the successor to the successful Sega Genesis.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Sega Saturn es la quinta videoconsola de sobremesa producida por Sega. Fue desarrollada para suceder a la Mega Drive y competir contra la 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation, y más adelante Nintendo 64, entre otras.
+
+Fue lanzada al mercado en noviembre de 1994 en Japón, y en mayo de 1995 en Norteamérica. Se vendieron 170.000 máquinas el primer día de venta en Japón, siendo sacada anticipadamente para intentar imponerse a la PlayStation de Sony. Esto propició que hubiese muy pocos juegos desarrollados para el día de su estreno y que la calidad de estos no reflejaran las verdaderas capacidades de la máquina. </text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>La Saturn ou Sega Saturn (セガサターン, Sega Satān) est une console de jeux vidéo de cinquième génération commercialisée par Sega. Quatrième console de salon conçue par l'entreprise japonaise, succédant à la Mega Drive, elle sort le 22 novembre 1994 au Japon, le 11 mai 1995 en Amérique du Nord et le 8 juillet 1995 en Europe</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O Sega Saturn foi um console de videogame da quinta geração com 32 bits, lançado pela empresa Sega em 22 de Novembro de 1994 no Japão. Meses depois foi lançado em outros países em: 11 de Maio de 1995 na América do Norte, 30 de agosto de 1995 no Brasil e, 8 de Julho na Europa. </text>
+		</text>
+
+		
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Sega Saturn</text>
+		</text>
+	</view>
+</theme>

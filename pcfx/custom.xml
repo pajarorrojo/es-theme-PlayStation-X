@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>It is a 32-bit home console made by NEC. It is the successor to PC Engine, known as TurboGrafx-16 in North America.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Es una consola doméstica de 32 bits hecha por NEC. Es el sucesor del PC Engine, conocido como TurboGrafx-16 en América del Norte.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>C'est une console domestique 32 bits créée par NEC. C'est le successeur de PC Engine, connu sous le nom de TurboGrafx-16 en Amérique du Nord.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>É um console doméstico de 32 bits feito pela NEC. É o sucessor do PC Engine, conhecido como TurboGrafx-16 na América do Norte.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>PC-FX</text>
+		</text>
+	</view>
+</theme>
