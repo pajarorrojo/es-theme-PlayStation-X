@@ -1,7 +1,7 @@
 <!--
 Theme by pajarorrojo
 Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, 
-background musics and much more for Batocera and Recalbox. Works fine with all the features in Batocera!
+background musics and much more for Batocera, Recalbox, Retropie and any otrher EmulationStation frontend . Works fine in Batocera!
 
 Hope you enjoy! any suggestion is fully welcomed.
 
@@ -42,7 +42,7 @@ Portuguese (PT)
 
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
-   <formatVersion>4</formatVersion>
+   <formatVersion>7</formatVersion>
    <include>./config.xml</include>
    <include>./$system/custom.xml</include>
    <include>./_theme_inc/your-username-here.xml</include>
@@ -60,12 +60,6 @@ Portuguese (PT)
   <sound name="bgsound">
         <path>./$system/bgmusic.mp3</path>
       </sound>
-		<sound name="scroll">
-		<path>./_theme_inc/sound-effects/scroll.wav</path>
-	</sound>
-	<sound name="launch">
-		<path>./_theme_inc/sound-effects/scroll.wav</path>
-	</sound> 
    </view>
 
    
