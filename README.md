@@ -36,7 +36,7 @@ Portuguese (PT)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, música de fondo y mucho más para Batocera, Recalbox, Retropie y cualquier otro front-end de EmulationStation. Funciona mejor en Batocera. Cualquier sugerencia es bienvenida.
+Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, música de fondo y mucho más para Batocera, y Recalbox. Funciona mejor y con todas las funcionalidades en Batocera. Cualquier sugerencia es bienvenida.
 
 ———— ¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO? ————
 
