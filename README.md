@@ -6,7 +6,7 @@ Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and userna
 -You can change the avatar and username showed in theme, the files are located in the “/_theme_inc/” folder.
 
 For change the avatar image simply overwrite the file "your-avatar.png" in the “/_theme_inc/” folder.
-For change the username string, open the file "your-username-here.xml" with a text editor and change “pajarorrojo” for the desired username
+For change the username string, open the file "your-username-here.xml" with a text editor and change “username” for the desired username
 
 
 
@@ -43,7 +43,7 @@ Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario
 -Puedes cambiar el avatar y el nombre de usuario que se muestran en el tema, los archivos se encuentran en la carpeta “/ _theme_inc /”.
 
 Para cambiar la imagen del avatar, simplemente sobrescribe el archivo "your-avatar.png" en la carpeta "/ _theme_inc /".
-Para cambiar la cadena de nombre de usuario, abre el archivo "your-username-here.xml" con un editor de texto y cambia "pajarorrojo" por el nombre de usuario que desees.
+Para cambiar la cadena de nombre de usuario, abre el archivo "your-username-here.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
 
 
 
