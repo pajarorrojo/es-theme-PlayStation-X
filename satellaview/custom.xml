@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text></text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>El Satellaview fue un satmódem producido por Nintendo para la Super Famicom lanzado en 1995 únicamente en Japón. Salió al precio de ¥ 14.000 (unos 99,59 euros o dólares americanos).
+
+Con 1 megabit de espacio de ROM y 512 kB adicionales de RAM, Satellaview permitía a los jugadores descargar juegos, revistas y otras formas de contenido a través de emisiones vía satélite proporcionadas por la compañía japonesa St.GIGA. Para utilizar Satellaview, los jugadores tenían que comprar un sintonizador especial de satélite (BS) directamente de St.GIGA o alquilar uno por una cuota de seis meses, y pagar cuotas mensuales de mantenimiento tanto a St.GIGA como a Nintendo.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Satellaview est un périphérique qui a servi de modem satellite pour le système Super Famicom de Nintendo sorti au Japon en 1995.</text>
+		</text>
+		
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Satellaview é um periférico que funcionava como um modem via satélite para o sistema Super Famicom da Nintendo que foi lançado em Japão em 1995.</text>
+		</text>	
+
+		
+						<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Super Nintendo Satellaview</text>
+		</text>
+		</view>
+</theme>

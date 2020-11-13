@@ -1,0 +1,46 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+	<include>./$system/custom.xml</include>
+   	<include>./_theme_inc/your-username-here.xml</include>
+
+	<include>./_theme_inc/iconsets/psx.xml</include>
+	<include>./_theme_gamelistview/detailed.xml</include>
+
+
+	<include>./_theme_systemview/1-black.xml</include>
+	
+
+
+	
+
+<subset name="Sounds Navigation System" displayName="${subset.Sounds Navigation System}">
+	<include name="NO" displayName="${none}"/>
+	<include name="YES">./_theme_options/scroll-sound-1.xml</include>
+    <include name="DEFAULT">./_theme_options/scroll-sound-2.xml</include>
+</subset>
+
+<subset name="video-background" displayName="Spot Video in system view">
+	<include name="BACKGROUND VIDEO">./_theme_options/enable-video-bg-mute.xml</include>
+	<include name="SMALL SCREEN">./_theme_options/enable-video-small-mute.xml</include>
+	<include name="SMALL SCREEN WITH AUDIO">./_theme_options/enable-video-small.xml</include>
+	<include name="NO" displayName="${none}">./_theme_options/no-video.xml</include>
+</subset>
+
+<subset name="system-description" displayName="Show System description">
+	<include name="YES">./_theme_options/enable-system-description.xml</include>
+	<include name="NO"/>
+</subset>
+ <view name="system">
+      <text name="version" extra="true">
+         <text>Ver. 2.0</text>
+         <pos>0.95 0.95</pos>
+         <color>444444</color>
+         <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
+	     <fontSize>0.0220</fontSize>
+         <alignment>left</alignment>
+         <zIndex>41</zIndex>        
+      </text>
+ </view>	  
+	
+</theme>

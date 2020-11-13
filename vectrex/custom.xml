@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>The Vectrex is a vector display-based home video game console that was developed by Western Technologies/Smith Engineering. It was licensed and distributed first by General Consumer Electronics (GCE).</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Es una consola con pantalla integrada, blanco y negro. Una de sus innovaciones, además de tener la pantalla incluida, son los gráficos basados en vectores, en vez de los indefinidos gráficos a pixeles.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Vectrex est une console de jeux vidéo 8 bits développée par Smith Engineering et distribuée par General Consumer Electric, et plus tard par MB (Milton Bradley Company) après le rachat de GCE.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O Vectrex, que usava o processador Motorola MC68A09, era o único videogame que empregava e apresentava gráficos vetoriais em seu monitor pré-integrado ao console, ao qual era possível conectar até dois controladores.</text>
+		</text>
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Vectrex</text>
+		</text>
+	</view>
+</theme>

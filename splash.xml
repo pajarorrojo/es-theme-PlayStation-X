@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+	<view name="splash">
+
+		<splash name="splash">
+			<backgroundColor>003791</backgroundColor>
+	
+	
+		</splash>
+
+		<image name="background">
+	 	<path>./_theme_inc/images/fond_menu.png</path>
+	
+		</image>
+				
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.250 0.5</pos>
+			<size>-0.05 0.385</size>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+			<color>00379169</color>
+		</image>
+
+		<text name="label">
+			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<pos>0.01 0.503</pos>			
+			<color>003791</color>
+			<fontSize>0.030</fontSize>
+		</text>
+		
+		<image name="progressbar:active">
+			<color>ffffff</color>
+			<pos>0.250 0.5</pos>
+			<size>-0.08 -0.386</size>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+		</image>
+		
+	</view>	
+</theme>

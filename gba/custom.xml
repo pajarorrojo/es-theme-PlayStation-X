@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true" >
+			<text>Is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>La Game Boy Advance (conocida en Japón como ゲームボーイアドバンス; Gēmu Bōi Adobansu), abreviada como GBA, es una popular consola de videojuegos de la compañía Nintendo, fabricada desde marzo de 2001 hasta 2008.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Game Boy Advance (GBA) est une console de jeux vidéo portable créée par Nintendo en 2001. Elle dispose d'un écran couleur et d'un processeur 32 bits, ce qui en faisait à sa sortie la console portable.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>É um console portátil desenvolvido e fabricado pela Nintendo. É o sucessor do Game Boy Color, e um dos últimos produtos da linha. Seu codinome durante o processo de desenvolvimento foi Advance Game Boy.</text>
+		</text>
+
+		
+		
+						<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Game Boy Advance</text>
+		</text>
+	</view>
+</theme>

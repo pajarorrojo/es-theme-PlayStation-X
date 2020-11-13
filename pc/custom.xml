@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true" >
+			<text>PC games, also known as computer games or personal computer games, are video games played on a personal computer rather than a dedicated video game console or arcade machine.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>El DOS, las siglas para el sistema operativo de disco o el sistema operativo en disco es un acrónimo para varios sistemas operativos íntimamente relacionados que dominaron el mercado para compatibilidad IBM PC entre 1981 y 1995.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>DOS, acronyme de Disk Operating System ou de système d’exploitation de disques, est un acronyme pour plusieurs systèmes d’exploitation étroitement liés qui ont dominé le marché des PC compatibles IBM entre 1981 et 1995.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O DOS, sigla para Disk Operating System ou sistema operacional em disco é um acrónimo para vários sistemas operativos intimamente relacionados que dominaram o mercado para compatíveis IBM PC entre 1981 e 1995.</text>
+		</text>
+
+		
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>DOS</text>
+		</text>
+	</view>
+</theme>

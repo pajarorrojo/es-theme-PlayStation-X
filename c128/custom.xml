@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text>The Commodore 128, also known as the C128, C-128, C= 128,[n 1] is the last 8-bit home computer that was commercially released by Commodore Business Machines (CBM). Introduced in January 1985 at the CES in Las Vegas, it appeared three years after its predecessor, the bestselling Commodore 64.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El ordenador doméstico/personal Commodore 128 ('C128, CBM 128, C=128) fue la última máquina de 8 bits comercializada por Commodore Business Machines (CBM). Presentada en enero de 1985 en el CES de Las Vegas, apareció tres años después de su predecesor, el exitoso Commodore 64. El diseñador principal del hardware de la C128 fue Bil Herd.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>C'était une version étendue et compatible du Commodore 64, mais relooké (allure dont allait s'inspirer l'Amiga 500) avec 128 kilo Octets de mémoire vive. Il était doté du processeur 6510 du Commodore 64 pour lui assurer une compatibilité à 100 %, mais également d'un nouveau processeur 8502 avec un jeu d'instructions BASIC plus étendu et des possibilités d'extension par cartouche mémoire, jusqu'à 512 Ko. Il contenait également un processeur Zilog Z80 avec le système d'exploitation CP/M. Enfin, il proposait une commutation d'écran du mode standard 40 colonnes vers un mode 80 colonnes.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text></text>
+		</text>
+
+		
+		
+				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
+
+		<text name="system_description" extra="true" lang="recalbox" >
+			<text></text>
+		</text>
+
+		<!--END-->
+
+		<text name="system_name" extra="true">
+			<text>Commodore 128</text>
+		</text>
+	</view>
+</theme>

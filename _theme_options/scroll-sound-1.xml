@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<carousel name="systemcarousel">
+  <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>	
+</carousel>
+</view>
+</theme>
