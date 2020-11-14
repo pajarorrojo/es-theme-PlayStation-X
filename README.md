@@ -22,7 +22,7 @@ For change the username string, open the file "your-username-here.xml" with a te
 
 -Ready for custom background music in each system. For enable, simply put a mp3 file called “bgmusic.mp3” in every system folder of the theme.
 
--Multilanguage (actually not working in Recalbox)
+-Multilanguage
 
 
 
@@ -60,7 +60,7 @@ Para cambiar la cadena de nombre de usuario, abre el archivo "your-username-here
 
 -Listo para música de fondo personalizada en cada sistema. Para activarlo, simplemente coloca un archivo mp3 llamado "bgmusic.mp3" en cada carpeta del sistema del tema.
 
--Multilenguaje (actualmente no funciona en Recalbox)
+-Multilenguaje 
 
 
 
