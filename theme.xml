@@ -1,7 +1,7 @@
 <!--
 Theme by pajarorrojo
 Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, 
-background musics and much more for Batocera, Recalbox, Retropie and any otrher EmulationStation frontend . Works fine in Batocera!
+background video and much more for Batocera.
 
 Hope you enjoy! any suggestion is fully welcomed.
 
@@ -25,7 +25,7 @@ For change the username string, open the file "your-username-here.xml" with a te
 
 -Ready for custom background music in each system. For enable, simply put a mp3 file called “bgmusic.mp3” in every system folder of the theme.
 
--Multilanguage (actually not working in Recalbox)
+-Multilanguage
 
 
 
