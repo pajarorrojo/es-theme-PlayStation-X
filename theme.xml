@@ -12,7 +12,7 @@ Hope you enjoy! any suggestion is fully welcomed.
 -You can change the avatar and username showed in theme, the files are located in the “/_theme_inc/” folder.
 
 For change the avatar image simply overwrite the file "your-avatar.png" in the “/_theme_inc/” folder.
-For change the username string, open the file "your-username-here.xml" with a text editor and change “pajarorrojo” for the desired username
+For change the username string, open the file "your-username-here.xml" with a text editor and change “username” for the desired username
 
 
 
