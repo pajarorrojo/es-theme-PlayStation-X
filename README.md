@@ -1,5 +1,7 @@
 # es-theme-PlayStation-X
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock,  background musics and much more for Batocera and Recalbox. Works fine with all the features in Batocera!  Hope you enjoy! any suggestion is fully welcomed.
+Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, background videos and much more for Batocera. 
+
+Hope you enjoy! any suggestion is fully welcomed.
 
 ———— HOW TO CHANGE CUSTOM AVATAR AND USERNAME? ————
 
@@ -37,7 +39,7 @@ Portuguese (PT)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, música de fondo y mucho más para Batocera, y Recalbox. Funciona mejor y con todas las funcionalidades en Batocera. Cualquier sugerencia es bienvenida.
+Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, videos de fondo y mucho más para Batocera. Cualquier sugerencia es bienvenida.
 
 ———— ¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO? ————
 
