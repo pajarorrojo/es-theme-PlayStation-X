@@ -23,11 +23,11 @@
       <origin>0 0</origin>
 		<path>./../$system/logo.png</path>
 		<zIndex>53</zIndex>
-                 <storyboard>
-                <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
-                <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
-                <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
-            </storyboard>
+     <storyboard>       
+        <animation property="x" from="-1" to="0.065" duration="400" mode="easeOut"/>
+         <animation property="opacity" from="1" to="0.8" begin="500" duration="200" mode="easeInOut" autoreverse="true" repeat="forever"/>       
+           
+      </storyboard>
       </image>	 
 
       <text name="logoText" extra="true">
@@ -159,13 +159,20 @@
       <image name="md_image">
           <pos>0.740 0.315</pos>
          <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>          
+         <zIndex>91</zIndex>     
+               <storyboard>
+         <animation property="x" from="1.5" to="0.740" duration="400" mode="easeOut"/>
+         <animation property="opacity" from="0.8" to="1" duration="400" mode="easeIn"/>      
+            
+              
+      </storyboard>     
       </image>    
 
 	   <video name="md_video">
          <pos>0.740 0.305</pos>
          <maxSize>0.42 0.56</maxSize>
          <zIndex>91</zIndex>   
+         <effect>none</effect>
 	</video>
    </view>
 

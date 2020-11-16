@@ -23,6 +23,13 @@
 
          <path>./../_theme_inc/images/border-video-small.png</path>
          <zIndex>71</zIndex>
+                   <storyboard>
+                
+            <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+        
+          <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn"/> 
+                
+            </storyboard>
       </image>
 <text name="system_description" extra="true">
   <pos>0.388 0.638</pos>
