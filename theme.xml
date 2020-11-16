@@ -45,12 +45,33 @@ Portuguese (PT)
    <formatVersion>7</formatVersion>
    <include>./config.xml</include>
 
-   
+   <view name="screen">
+    <text name="clock" >
+       <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+       <fontSize>0.032</fontSize>
+      <pos>0.922 0.0687</pos>
+       <color>ffffff</color>
+       <zIndex>20</zIndex>  
+   </text>
+
+<controllerActivity name="controllerActivity">
+      <pos>0.01 0.95</pos>
+      <size>0.04</size>
+      <itemSpacing>0.003</itemSpacing>
+      <color>FFFFFF90</color>
+	  <imagePath>./_theme_inc/images/controller.svg</imagePath>      
+      <activityColor>003791dd</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+
+</view>
 
 
 
 
    <view name="system">
+
+
 
    <sound name="directory">
 			  <path>./_theme_inc/music/</path>

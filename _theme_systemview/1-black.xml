@@ -1,16 +1,6 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="screen">
-    <text name="clock" >
-       <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-       <fontSize>0.032</fontSize>
-      <pos>0.922 0.0687</pos>
-       <color>ffffff</color>
-       <zIndex>20</zIndex>  
-   </text>
-</view>
-
 <view name="system">
       <carousel name="systemcarousel">
     
@@ -87,11 +77,29 @@
       <reflexion>240</reflexion>
       <zIndex>100</zIndex>
       <storyboard>       
-        
-          
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump"/>
       </storyboard>
 	</image>
+
+   <image name="consoles" extra="true">
+      <tile>false</tile>
+      <pos>0 0.77</pos> 
+      <origin>0 0</origin>
+
+      <verticalAlignment>bottom</verticalAlignment>
+		
+      <size>0.145 0</size>
+      <path>./_theme_inc/images/consoles/${system.theme}.png</path>
+     
+      <zIndex>99</zIndex>
+               <storyboard>
+         <animation property="x" from="1.5" to="0.83" duration="200" mode="easeOut"/>
+         <animation property="opacity" from="0.8" to="1" duration="200" mode="easeIn"/>      
+            
+              
+      </storyboard>   
+    </image>
+
 
 	  
       <image name="background" extra="true">

@@ -28,7 +28,8 @@
          <animation property="opacity" from="1" to="0.8" begin="500" duration="200" mode="easeInOut" autoreverse="true" repeat="forever"/>       
            
       </storyboard>
-      </image>	 
+      </image>	
+
 
       <text name="logoText" extra="true">
 	     <alignment>left</alignment> 
@@ -38,6 +39,17 @@
 	     <fontSize>0.062</fontSize>   
         <zIndex>9999</zIndex>        
       </text> 
+
+         <image name="consoles" extra="true">
+      <tile>false</tile>
+      <pos>0.32 0.16</pos>
+      <origin>0 0</origin>
+      <alignment>right</alignment> 
+      <verticalAlignment>bottom</verticalAlignment>
+      <size>0.11 0</size>
+      <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
+      <zIndex>99</zIndex>
+    </image>
 	
       <textlist name="gamelist">
          <pos>0.065 0.14</pos>
