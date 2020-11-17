@@ -83,7 +83,7 @@
 
    <image name="consoles" extra="true">
       <tile>false</tile>
-      <pos>0 0.77</pos> 
+      <pos>0.83 0.77</pos> 
       <origin>0 0</origin>
 
       <verticalAlignment>bottom</verticalAlignment>
@@ -93,8 +93,8 @@
      
       <zIndex>99</zIndex>
                <storyboard>
-         <animation property="x" from="1.5" to="0.83" duration="200" mode="easeOut"/>
-         <animation property="opacity" from="0.8" to="1" duration="200" mode="easeIn"/>      
+         <animation property="x" from="1.5" to="0.83" duration="150" mode="easeOut"/>
+         <animation property="opacity" from="0.8" to="1" duration="100" mode="easeIn"/>      
             
               
       </storyboard>   
