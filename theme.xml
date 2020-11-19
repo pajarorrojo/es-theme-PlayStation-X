@@ -56,12 +56,11 @@ Portuguese (PT)
 
 <controllerActivity name="controllerActivity">
       <pos>0.01 0.95</pos>
-      <size>0.04</size>
-      <itemSpacing>0.003</itemSpacing>
+      <size>0.04 0.04</size>
       <color>FFFFFF90</color>
 	  <imagePath>./_theme_inc/images/controller.svg</imagePath>      
-      <activityColor>003791dd</activityColor>
-      <hotkeyColor>FFA0A0C0</hotkeyColor>
+      <activityColor>003791</activityColor>
+      <hotkeyColor>FF0000</hotkeyColor>
     </controllerActivity>
 
 </view>
@@ -113,8 +112,8 @@ Portuguese (PT)
 			<color>DFECFA</color>
 		</menuText>
 		<menuBackground name="menubg">
-		    <color>003791dd</color>
-		<path>./_theme_inc/images/fond_menu.png</path>
+		    <color>003791</color>
+		<path>./_theme_inc/images/fond_menu.png</path> 
 		<fadePath>./_theme_inc/images/fond_menu.png</fadePath>
 
 		</menuBackground>

@@ -77,7 +77,7 @@
       <reflexion>240</reflexion>
       <zIndex>100</zIndex>
       <storyboard>       
-        <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump"/>
+        <animation property="scale" from="0.95" to="1.0" duration="350" mode="bump"/>
       </storyboard>
 	</image>
 
@@ -93,8 +93,7 @@
      
       <zIndex>99</zIndex>
                <storyboard>
-         <animation property="x" from="1.5" to="0.83" duration="150" mode="easeOut"/>
-         <animation property="opacity" from="0.8" to="1" duration="100" mode="easeIn"/>      
+        <animation property="scale" from="0.95" to="1.0" duration="350" mode="bump"/>    
             
               
       </storyboard>   
@@ -175,12 +174,12 @@
         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
 	     <fontSize>0.068</fontSize>  
         <zIndex>45</zIndex>  
-             <glowColor>00000069</glowColor>
+             <glowColor>00000045</glowColor>
           <glowSize>1</glowSize>
-          <glowOffset>3 3</glowOffset>  
+          <glowOffset>3 2</glowOffset>  
 
             <storyboard>
-                <animation property="h" from="0.04" begin="0" duration="300" mode="easeOut"/>
+                <animation property="h" from="0.04" begin="0" duration="500" mode="easeOut"/>
                 <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
                 
             </storyboard>

@@ -12,9 +12,9 @@
 	       
           <lineSpacing>1.2</lineSpacing>
           <zIndex>80</zIndex>     
-          <glowColor>00000069</glowColor>
+          <glowColor>00000045</glowColor>
           <glowSize>1</glowSize>
-          <glowOffset>3 3</glowOffset>
+          <glowOffset>3 2</glowOffset>
           <storyboard>
                 
             <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
