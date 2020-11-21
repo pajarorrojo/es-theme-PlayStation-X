@@ -33,7 +33,7 @@
 </subset>
  <view name="system">
       <text name="version" extra="true">
-         <text>Ver. 2.0</text>
+         <text>Ver. 2.1</text>
          <pos>0.95 0.95</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>

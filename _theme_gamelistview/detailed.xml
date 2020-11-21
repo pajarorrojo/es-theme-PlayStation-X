@@ -25,8 +25,9 @@
 		<zIndex>53</zIndex>
      <storyboard>       
         <animation property="x" from="-1" to="0.065" duration="400" mode="easeOut"/>
-         <animation property="opacity" from="1" to="0.8" begin="500" duration="200" mode="easeInOut" autoreverse="true" repeat="forever"/>       
-           
+         <animation property="scale" from="1" to="1.008" duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+         <animation property="opacity" from="0.8" to="1" duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+
       </storyboard>
       </image>	
 
@@ -49,6 +50,10 @@
       <size>0.11 0</size>
       <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
       <zIndex>99</zIndex>
+           <storyboard>       
+
+           <animation property="y" from="0.16" to="0.164" duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+      </storyboard>
     </image>
 	
       <textlist name="gamelist">

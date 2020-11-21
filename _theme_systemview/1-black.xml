@@ -10,13 +10,14 @@
 		<origin>0 0</origin>
         <size>1.5 1</size>
         <logoScale>1.85</logoScale>
-        <logoSize>0.20 0.20</logoSize>
+        <logoSize>0.2 0.2</logoSize>
         <color>00000000</color>
         <maxLogoCount>9</maxLogoCount>
  		<logoAlignment>top</logoAlignment>
        
 		<zIndex>80</zIndex>
 		<defaultTransition>instant</defaultTransition>		
+
       
       </carousel>
 
@@ -109,6 +110,18 @@
          <path>./../_theme_inc/images/overlay.png</path>
          <zIndex>41</zIndex>
       </image>
+            <image name="marco-activo" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../_theme_inc/images/marco-activo.png</path>
+         <zIndex>99</zIndex>     
+         <storyboard>   
+         <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut"/>    
+        <animation property="opacity" from="1" to="0.3" begin="2000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
+      </storyboard>
+      </image>
+            
             <image name="background-art" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -139,7 +152,7 @@
          <iconColor>ffffff</iconColor>
 		 <pos>0.06 0.960</pos>
 		 <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-		 <fontSize>0.030</fontSize>
+		 <fontSize>0.026</fontSize>
       </helpsystem>	 
 	  
 	   <text name="start" extra="true">
@@ -159,7 +172,7 @@
 	     <pos>0.166 0.535</pos>
 	     <color>FFFFFF</color>
         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	     <fontSize>0.037</fontSize>   
+	     <fontSize>0.032</fontSize>   
         <zIndex>45</zIndex>  
          <storyboard>
         <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
@@ -179,8 +192,8 @@
           <glowOffset>3 2</glowOffset>  
 
             <storyboard>
-                <animation property="h" from="0.04" begin="0" duration="500" mode="easeOut"/>
-                <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+                <animation property="h" from="0.04" begin="0" duration="400" mode="easeOut"/>
+                <animation property="opacity" from="0.5" to="1" duration="350" mode="linear"/>
                 
             </storyboard>
       </text>
