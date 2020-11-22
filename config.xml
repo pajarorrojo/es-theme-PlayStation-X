@@ -16,8 +16,8 @@
 
 <subset name="Sounds Navigation System" displayName="${subset.Sounds Navigation System}">
 	<include name="NO" displayName="${none}"/>
-	<include name="SOUND 1">./_theme_options/scroll-sound-1.xml</include>
-    <include name="SOUND 2">./_theme_options/scroll-sound-2.xml</include>
+	<include name="DEFAULT">./_theme_options/scroll-sound-1.xml</include>
+    <include name="SOUND 1">./_theme_options/scroll-sound-2.xml</include>
 </subset>
 
 <subset name="video-background" displayName="Spot Video in system view">

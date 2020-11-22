@@ -5,7 +5,7 @@
 <text name="system_description" extra="true">
 	     <pos>0.163 0.635</pos>
             <size>0.64 0.27</size>
-            <fontSize>0.027</fontSize> 
+            <fontSize>0.026</fontSize> 
      </text>
 </view>
 </theme>

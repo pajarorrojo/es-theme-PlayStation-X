@@ -126,9 +126,10 @@
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
+         <path>./../_theme_inc/images/fond_menu.png</path>
          <path>./../$system/background.jpg</path>
          <zIndex>40</zIndex>  
-                         <storyboard>       
+         <storyboard>       
          <animation property="opacity" from="0.9" to="0.6" begin="0" duration="5500" mode="easeInOut" autoreverse="true" repeat="forever"/>   
 
       </storyboard>
