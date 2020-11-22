@@ -19,7 +19,7 @@
                 
             <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
         
-          <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn"/> 
+          <animation property="opacity" from="0" to="1" begin="1000" duration="350" mode="easeOut"/> 
                 
             </storyboard>
 

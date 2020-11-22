@@ -128,6 +128,10 @@
          <size>1 1</size>
          <path>./../$system/background.jpg</path>
          <zIndex>40</zIndex>  
+                         <storyboard>       
+         <animation property="opacity" from="0.9" to="0.6" begin="0" duration="5500" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+
+      </storyboard>
       </image>	  
 
       <video name="default_background" extra="true">
@@ -192,8 +196,8 @@
           <glowOffset>3 2</glowOffset>  
 
             <storyboard>
-                <animation property="h" from="0.04" begin="0" duration="400" mode="easeOut"/>
-                <animation property="opacity" from="0.5" to="1" duration="350" mode="linear"/>
+                <animation property="h" from="0.07" duration="350" mode="easeOut"/>
+                <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
                 
             </storyboard>
       </text>
