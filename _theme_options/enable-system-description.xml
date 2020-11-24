@@ -12,7 +12,7 @@
 	       
           <lineSpacing>1.2</lineSpacing>
           <zIndex>80</zIndex>     
-          <glowColor>00000045</glowColor>
+          <glowColor>00000035</glowColor>
           <glowSize>1</glowSize>
           <glowOffset>3 2</glowOffset>
           <storyboard>

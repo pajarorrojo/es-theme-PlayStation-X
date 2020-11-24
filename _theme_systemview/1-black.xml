@@ -32,6 +32,9 @@
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
 	     <fontSize>0.037</fontSize>
         <forceUppercase>false</forceUppercase>
+         <glowColor>00000035</glowColor>
+          <glowSize>1</glowSize>
+          <glowOffset>3 2</glowOffset>
          <zIndex>60</zIndex>	              
       </text>	 
 
@@ -48,6 +51,9 @@
    <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
    <fontSize>0.028</fontSize>
    <alignment>left</alignment>
+   <glowColor>00000035</glowColor>
+   <glowSize>1</glowSize>
+   <glowOffset>3 2</glowOffset>
    <zIndex>60</zIndex>        
 </text>	
 
@@ -192,7 +198,7 @@
         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
 	     <fontSize>0.068</fontSize>  
         <zIndex>45</zIndex>  
-             <glowColor>00000045</glowColor>
+         <glowColor>00000035</glowColor>
           <glowSize>1</glowSize>
           <glowOffset>3 2</glowOffset>  
 

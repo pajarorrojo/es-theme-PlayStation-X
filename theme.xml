@@ -52,6 +52,9 @@ Portuguese (PT)
       <pos>0.922 0.0687</pos>
        <color>ffffff</color>
        <zIndex>20</zIndex>  
+                <glowColor>00000035</glowColor>
+          <glowSize>1</glowSize>
+          <glowOffset>3 2</glowOffset>  
    </text>
 
 <controllerActivity name="controllerActivity">
