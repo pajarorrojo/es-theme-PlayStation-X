@@ -41,7 +41,7 @@
         <zIndex>9999</zIndex>        
       </text> 
 
-         <image name="consoles" extra="true">
+   <image name="consoles" extra="true">
       <tile>false</tile>
       <pos>0.32 0.16</pos>
       <origin>0 0</origin>
@@ -63,9 +63,9 @@
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.037</fontSize>
          <alignment>left</alignment>
-	 <lineSpacing>1.45</lineSpacing>
+	      <lineSpacing>1.45</lineSpacing>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
-	<zIndex>42</zIndex>
+	      <zIndex>42</zIndex>
       </textlist>
 
       <image name="background" extra="true">
@@ -89,13 +89,14 @@
       </storyboard>
       </image>
 
-            <video name="default_background" extra="true">
-  <pos>0 0</pos>
+   <video name="default_background" extra="true">
+         <pos>0 0</pos>
          <size>1 1</size>
          <path>./../_theme_inc/videos/background-psx.mp4</path>
          <zIndex>39</zIndex>   
 	</video>
-      <image name="background-extra" extra="true">
+
+   <image name="background-extra" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
@@ -187,7 +188,7 @@
       </storyboard>     
       </image>    
 
-	   <video name="md_video">
+	<video name="md_video">
          <pos>0.740 0.305</pos>
          <maxSize>0.42 0.56</maxSize>
          <zIndex>91</zIndex>   
