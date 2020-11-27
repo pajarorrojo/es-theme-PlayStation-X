@@ -15,7 +15,7 @@
       </helpsystem>
       
    
-      <image name="logo">
+   <image name="logo">
 		<pos>0.04 0.025</pos>
       <alignment>left</alignment>
       <verticalAlignment>bottom</verticalAlignment>
@@ -24,12 +24,11 @@
 		<path>./../$system/logo.png</path>
 		<zIndex>53</zIndex>
      <storyboard>       
-        <animation property="x" from="-1" to="0.04" duration="400" mode="easeOut"/>
+         <animation property="x" from="-1" to="0.04" duration="400" mode="easeOut"/>
          <animation property="scale" from="1" to="1.008" duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
          <animation property="opacity" from="0.8" to="1" duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-
       </storyboard>
-      </image>	
+   </image>	
 
 
       <text name="logoText" extra="true">
@@ -83,10 +82,9 @@
          <size>1 1</size>
          <path>./../$system/background.jpg</path>
          <zIndex>40</zIndex> 
-                <storyboard>       
+       <storyboard>       
          <animation property="opacity" from="0.9" to="0.6" begin="0" duration="5500" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-
-      </storyboard>
+       </storyboard>
       </image>
 
    <video name="default_background" extra="true">
@@ -100,7 +98,6 @@
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-
          <path>./../_theme_inc/images/fond_menu.png</path>
          <zIndex>38</zIndex>
       </image>
@@ -112,7 +109,7 @@
       </text>
   
 		
-	  <datetime name="md_lastplayed">
+	<datetime name="md_lastplayed">
 	  <pos>2 2</pos>
 		<fontSize>0.00</fontSize>
 		<size>0 0</size><zIndex>0</zIndex>
@@ -141,22 +138,21 @@
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>F3C300</color>
-			
 			<zIndex>51</zIndex> 
 		</text>
 
 
-      		<rating name="md_rating">
+      <rating name="md_rating">
 			<pos>0.815 0.605</pos>
 			<size>0.05 0.05</size>
 			<filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
 			<unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
 			<zIndex>51</zIndex>
 		</rating>
-		<datetime name="md_releasedate">
+		
+      <datetime name="md_releasedate">
 			<pos>0.53 0.625</pos>
 			<color>cccccc</color>
-			
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.020</fontSize>
 			<zIndex>51</zIndex> 
@@ -170,22 +166,20 @@
          <color>ffffff</color>      
          <pos>0.53 0.680</pos>
          <size>0.430 0.250</size>
-	 <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.030</fontSize>
           <lineSpacing>1.1</lineSpacing>
          <zIndex>42</zIndex>         
       </text> 
 	  
       <image name="md_image">
-          <pos>0.740 0.315</pos>
+         <pos>0.740 0.315</pos>
          <maxSize>0.42 0.56</maxSize>
          <zIndex>91</zIndex>     
-               <storyboard>
+       <storyboard>
          <animation property="x" from="1.5" to="0.740" duration="400" mode="easeOut"/>
          <animation property="opacity" from="0.8" to="1" duration="400" mode="easeIn"/>      
-            
-              
-      </storyboard>     
+       </storyboard>     
       </image>    
 
 	<video name="md_video">

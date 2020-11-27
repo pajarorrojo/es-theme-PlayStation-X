@@ -14,20 +14,16 @@
 
 	
 
-<subset name="Sounds Navigation System" displayName="${subset.Sounds Navigation System}">
-	<include name="NO" displayName="${none}"/>
-	<include name="DEFAULT">./_theme_options/scroll-sound-1.xml</include>
-    <include name="SOUND 1">./_theme_options/scroll-sound-2.xml</include>
-</subset>
 
-<subset name="video-background" displayName="Spot Video in system view">
+
+<subset name="video-background" displayName="Spot Videos in systems view">
 	<include name="BACKGROUND VIDEO">./_theme_options/enable-video-bg-mute.xml</include>
 	<include name="SMALL SCREEN">./_theme_options/enable-video-small-mute.xml</include>
 	<include name="SMALL SCREEN WITH AUDIO">./_theme_options/enable-video-small.xml</include>
 	<include name="NO" displayName="${none}">./_theme_options/no-video.xml</include>
 </subset>
 
-<subset name="system-description" displayName="Show System description">
+<subset name="system-description" displayName="Show Systems descriptions">
 	<include name="YES">./_theme_options/enable-system-description.xml</include>
 	<include name="NO"/>
 </subset>
