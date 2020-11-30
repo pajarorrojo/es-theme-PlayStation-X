@@ -20,13 +20,7 @@
 			<text>Além de rodar todos os jogos do PC Engine, rodava jogos feitos exclusivamente para ele. Porém, somente 5 jogos foram lançados (1941: Counter Attack, Aldynes, Battle Ace, Ghouls'n Ghosts e Madō King Granzort).</text>
 		</text>
 		
-					<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+					
 
 		<text name="system_name" extra="true">
 			<text>NEC SuperGrafx</text>

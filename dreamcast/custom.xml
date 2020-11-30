@@ -22,13 +22,7 @@ Pertenece a la sexta generación de consolas. El sistema fue el primero en tener
 			<text>Dreamcast (ドリームキャスト) est une console de jeux vidéo développée par Sega, et est le successeur de la Saturn. Commercialisée dès novembre 1998 au Japon, elle est la première console de sixième génération.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Sega Dreamcast</text>

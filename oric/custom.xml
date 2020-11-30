@@ -18,13 +18,7 @@
 			<text>Oric était le nom utilisé par Tangerine Computer Systems pour désigner une série d'ordinateurs personnels, notamment le premier Oric-1, son successeur, l'Oric Atmos, et les modèles plus récents Oric Stratos / IQ164 et Oric Telestrat.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Oric</text>

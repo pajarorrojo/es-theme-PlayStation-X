@@ -22,13 +22,7 @@ ScummVM también soporta una variedad de juegos que no utilizan el motor SCUMM, 
 				<text name="system_description" extra="true" lang="pt">
 			<text>ScummVM é um software/máquina virtual que visa oferecer suporte para jogos antigos da Lucas Arts. Tais jogos são incompatíveis com os sistemas operacionais de hoje pois fazem exigências exóticas sobre memória.</text>
 		</text>
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>ScummVM</text>

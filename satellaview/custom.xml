@@ -24,13 +24,7 @@ Con 1 megabit de espacio de ROM y 512 kB adicionales de RAM, Satellaview permit√
 		</text>	
 
 		
-						<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+						
 
 		<text name="system_name" extra="true">
 			<text>Super Nintendo Satellaview</text>

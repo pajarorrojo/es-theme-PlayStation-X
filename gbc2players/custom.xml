@@ -20,13 +20,7 @@
 			<text>É o sucessor do Game Boy da Nintendo. O portátil foi lançado no dia 21 de outubro de 1998 no Japão. Ele apresenta uma tela colorida, e é ligeiramente mais grosso e alto do que o Game Boy Pocket.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Game Boy Color (2 Players)</text>

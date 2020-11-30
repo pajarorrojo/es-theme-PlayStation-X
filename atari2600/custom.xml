@@ -20,13 +20,7 @@
 			<text>Considerado um símbolo cultural dos anos 80, foi um fenômeno de vendas no Brasil entre os anos de 1984 a 1986 e seus jogos permanecem na memória de muitos que viveram a juventude naquela época.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Atari 2600</text>

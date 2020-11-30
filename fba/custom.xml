@@ -20,13 +20,7 @@
 			<text>O FinalBurn Alpha é um emulador de código aberto das placas Capcom modelos CPS-1, 2 e 3, além de outras placas de arcade como a do SNK Neo-Geo, Toaplan, Cave e várias outras.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>FB Alpha</text>

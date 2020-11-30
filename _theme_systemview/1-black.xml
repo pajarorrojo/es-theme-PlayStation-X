@@ -173,11 +173,7 @@
      <text lang="es">Iniciar</text>
      <text lang="fr">Démarrer</text>
      <text lang="pt">Iniciar</text>
-     <!--only for recalbox, multilingual not supported,-->
-     
-     <text lang="recalbox">Start</text>
-     
-     <!-- -->
+
      
         <size>0.207 0.07</size>
         <backgroundColor>00000069</backgroundColor>

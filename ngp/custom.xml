@@ -20,13 +20,7 @@
 			<text>É um console de videogame portátil que foi lançado pela SNK no Japão, em 28 de novembro de 1998, para combater o Game Boy da Nintendo, no entanto foi fabricado por pouco tempo (pouco mais de 1 ano).</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Neo Geo Pocket</text>

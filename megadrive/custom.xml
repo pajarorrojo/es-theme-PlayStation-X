@@ -25,13 +25,7 @@ Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta 
 		
 
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true" >
 			<text>Sega Mega Drive</text>

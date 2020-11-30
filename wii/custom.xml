@@ -20,13 +20,7 @@
 			<text>É um console de videogame doméstico produzido pela Nintendo e lançado em 2006. É um videogame da sétima geração e o quinto console da Nintendo. Seus principais concorrentes são o Xbox 360 e o Playstation 3.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Nintendo Wii</text>

@@ -20,13 +20,7 @@
 			<text>Sinclair ZX81, lançado pela Sinclair Research em 1981, veio em sequência ao ZX80. Foi o primeiro computador doméstico no mundo vendido abaixo de US$ 100 (sob a forma de "kit").</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Sinclair ZX81</text>

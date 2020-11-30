@@ -20,13 +20,7 @@
 			<text>Foi um modelo de computador fabricado pela Apple Inc. no final da década de 70. O primeiro Apple II era equipado com um processador MOS Technology 6502 com um clock de 1 MHz e 4 kB de memória RAM.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true" >
 			<text>Apple II</text>

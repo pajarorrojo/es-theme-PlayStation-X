@@ -20,13 +20,7 @@
 			<text>O Nintendo 3DS (abreviado como 3DS) é um console portátil produzido pela Nintendo e lançado em 2011, sucessor do Nintendo DS. Tem a capacidade de produzir imagens em três dimensões sem óculos especiais.</text>
 		</text>
 
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		
 		

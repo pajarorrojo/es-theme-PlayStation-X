@@ -21,13 +21,7 @@
 			<text>É o video game de segunda geração da Coleco Industries lançado em agosto de 1982. Ele oferecia gráficos e estilo de jogo de qualidade similar aos encontrados nos fliperamas (arcade) da época.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>ColecoVision</text>

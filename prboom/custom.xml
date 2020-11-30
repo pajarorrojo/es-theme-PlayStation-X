@@ -19,13 +19,7 @@
 				<text name="system_description" extra="true" lang="pt">
 			<text>PrBoom é uma versão cross-platform do clássico shooter em primeira pessoa da id Software: Doom. Originalmente feita para o Microsoft Windows, PrBoom já foi portado para inúmeras plataformas.</text>
 		</text>
-						<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+						
 
 		<text name="system_name" extra="true">
 			<text>PR Boom</text>

@@ -22,13 +22,7 @@ Sucede a la Commodore VIC-20 y a la Commodore MAX Machine, presentando 64 kiloby
 			<text>Foi um computador doméstico lançado pela Commodore em agosto de 1982 e produzido até abril de 1994. Estima-se que foram comercializados entre 17 a 22 milhões de unidades - recorde até os dias de hoje.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Commodore 64</text>

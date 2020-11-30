@@ -20,13 +20,7 @@
 			<text>O Sega NAOMI (sigla para New Arcade Operation Machine Idea, em português Nova ideia em operação de máquina arcade) é uma placa de arcade baseada na tecnologia utilizada no Sega Dreamcast.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Sega Naomi</text>

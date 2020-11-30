@@ -23,13 +23,7 @@ La consola no consiguió gran éxito en ese mercado. Sin embargo, el sistema se 
 			<text>O SG-1000 foi um console de videogame da terceira geração, lançado pela Sega em 1981 (na sua versão de testes) e em 1983 (para o mercado japonês). Este console não obteve grande representatividade. Porém, seu sucessor (o Master System) alcançou grande sucesso no mercado dos consoles.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Sega SG-1000</text>

@@ -24,13 +24,7 @@ Existen dos versiones, una para cada versión de Mega Drive, el Mega-CD (o Sega 
 			<text>Mega CD (nome original do console no Japão, Europa e Brasil a partir de 1993, quando parou de ser fabricado pela Tectoy) ou Sega CD (nome usado mundialmente), foi um "console add-on" (que se acoplava ao Mega Drive/Genesis) com mídia CD. Foi lançado primeiro no Japão em 12 de dezembro de 1991 sendo lançado nos EUA e Europa em 1993. Depois foi lançado no Brasil, oficialmente, pela Tectoy em 1993. Na época,havia um boom de popularidade de games em FMV como: Dragon´s Lair (1983) e Time Gal (1985).</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true" >
 			<text>Sega Mega CD</text>

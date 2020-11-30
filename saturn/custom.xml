@@ -24,13 +24,7 @@ Fue lanzada al mercado en noviembre de 1994 en Japón, y en mayo de 1995 en Nort
 
 		
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Sega Saturn</text>

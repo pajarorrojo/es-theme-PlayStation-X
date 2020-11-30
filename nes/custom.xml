@@ -23,13 +23,7 @@ Fue lanzada por Nintendo en Norteamérica, Europa y Australia entre 1985 y 1987.
 		</text>
 		
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Nintendo Entertainment System</text>

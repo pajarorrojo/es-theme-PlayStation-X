@@ -20,13 +20,7 @@
 			<text>O Game Boy é o segundo portátil da Nintendo, criado após a linha Game and Watch lançada em 1980. Junto ao Game Boy Color, venderam impressionantes 118,69 milhões de unidades.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>Game Boy</text>

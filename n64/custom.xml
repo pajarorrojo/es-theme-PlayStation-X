@@ -22,13 +22,7 @@ Incorpora en su arquitectura un procesador principal de 64 bits. El soporte de a
 			<text>É o terceiro console de videogame doméstico da empresa japonesa Nintendo. Lançado em 23 de junho de 1996 no Japão, contava com três títulos de lançamento: Super Mario 64, PilotWings 64 e Saikyou Habu Shogi.</text>
 		</text>
 		
-						<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+						
 
 		<text name="system_name" extra="true">
 			<text>Nintendo 64</text>

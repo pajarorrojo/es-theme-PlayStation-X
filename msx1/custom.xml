@@ -22,13 +22,7 @@ Tuvo además éxito en Europa (España, Francia y Países Bajos), Brasil, Chile,
 			<text>MSX foi o nome dado a uma arquitetura de microcomputadores criada no Japão em 1983, que definia um padrão para os desenvolvedores de hardware. Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII.</text>
 		</text>
 		
-				<!--only for recalbox, multilingual not supported, enter your custom system description inside <text>...</text> label-->
-
-		<text name="system_description" extra="true" lang="recalbox" >
-			<text></text>
-		</text>
-
-		<!--END-->
+				
 
 		<text name="system_name" extra="true">
 			<text>MSX</text>
