@@ -27,12 +27,12 @@
 		<text name="label">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<pos>0.01 0.503</pos>			
-			<color>003791</color>
+			<color>ffffff</color>
 			<fontSize>0.030</fontSize>
 		</text>
 		
 		<image name="progressbar:active">
-			<color>ffffff</color>
+			<color>003791</color>
 			<pos>0.250 0.5</pos>
 			<size>-0.08 -0.386</size>
 			<rotation>0</rotation>
