@@ -6,13 +6,10 @@
 
 		<splash name="splash">
 			<backgroundColor>003791</backgroundColor>
-	
-	
 		</splash>
 
 		<image name="background">
-	 	<path>./_theme_inc/images/fond_menu.png</path>
-	
+	 		<path>./_theme_inc/images/fond_menu.png</path>
 		</image>
 				
 		<image name="progressbar">
