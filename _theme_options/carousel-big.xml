@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+    <carousel name="systemcarousel">
+        <pos>-0.535 0.138</pos>
+	   <origin>0 0</origin>
+        <size>1.61 1</size>
+        <logoScale>1.2</logoScale>
+        <logoSize>0.315 0.315</logoSize>
+  
+        <maxLogoCount>8</maxLogoCount>
+      </carousel>
+</view>
+</theme>

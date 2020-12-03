@@ -14,7 +14,11 @@
 
 	
 
-
+<subset name="carousel-size" displayName="Carousel Image Size">
+	<include name="medium">./_theme_options/carousel-standard.xml</include>
+	<include name="big">./_theme_options/carousel-big.xml</include>
+	<include name="small">./_theme_options/carousel-small.xml</include>
+</subset>
 
 <subset name="video-background" displayName="Spot Videos in systems view">
 	<include name="BACKGROUND VIDEO">./_theme_options/enable-video-bg-mute.xml</include>
