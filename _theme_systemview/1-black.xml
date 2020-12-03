@@ -64,7 +64,11 @@
          <glowColor>00000035</glowColor>
           <glowSize>1</glowSize>
           <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>	              
+         <zIndex>60</zIndex>	 
+            <storyboard>
+                <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+                <animation property="opacity" from="0" to="1" begin="150" duration="350" mode="easeOut"/>
+            </storyboard>             
       </text>	 
 
   
