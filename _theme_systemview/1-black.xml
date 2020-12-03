@@ -2,15 +2,41 @@
 <formatVersion>7</formatVersion>
 
 <view name="system">
-      <carousel name="systemcarousel">
+<!--
+
+
+
+
+    <carousel name="systemcarousel">
     
       <linearSmooth>true</linearSmooth>
       <systemInfoDelay>5</systemInfoDelay>
-        <pos>-0.48 0.15</pos>
+        <pos>-0.535 0.138</pos>
 		<origin>0 0</origin>
-        <size>1.5 1</size>
-        <logoScale>1.85</logoScale>
-        <logoSize>0.2 0.2</logoSize>
+        <size>1.61 1</size>
+        <logoScale>1.2</logoScale>
+        <logoSize>0.315 0.315</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>8</maxLogoCount>
+ 		<logoAlignment>top</logoAlignment>
+       <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
+		<zIndex>80</zIndex>
+		<defaultTransition>instant</defaultTransition>		
+
+      
+      </carousel>
+
+            -->
+
+          <carousel name="systemcarousel">
+    
+      <linearSmooth>true</linearSmooth>
+      <systemInfoDelay>5</systemInfoDelay>
+        <pos>-0.53 0.149</pos>
+		<origin>0 0</origin>
+        <size>1.60 1</size>
+        <logoScale>1.6</logoScale>
+        <logoSize>0.23</logoSize>
         <color>00000000</color>
         <maxLogoCount>9</maxLogoCount>
  		<logoAlignment>top</logoAlignment>
@@ -20,6 +46,7 @@
 
       
       </carousel>
+
 
   <sound name="launch">
 		<path>../../_theme_inc/sound-effects/scroll.wav</path>
