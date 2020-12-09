@@ -4,13 +4,17 @@
 	<include>./$system/custom.xml</include>
    	<include>./_theme_inc/your-username-here.xml</include>
 
-	<include>./_theme_inc/iconsets/psx.xml</include>
+	
 	<include>./_theme_gamelistview/detailed.xml</include>
 
 
 	<include>./_theme_systemview/1-black.xml</include>
 	
-
+<include subset="iconset" name="1-PSX">./_theme_inc/iconsets/psx.xml</include>
+<include subset="iconset" name="2-PSX-color">./_theme_inc/iconsets/psx-color.xml</include>
+<include subset="iconset" name="3-XBOX">./_theme_inc/iconsets/xbox.xml</include>
+<include subset="iconset" name="4-SNES">./_theme_inc/iconsets/snes.xml</include>
+<include subset="iconset" name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
 
 	
 

@@ -1,0 +1,33 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu, system, basic, detailed">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./psx-color/updown.png</iconUpDown>
+			<iconLeftRight>./psx-color/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./psx-color/all.png</iconUpDownLeftRight>
+			<iconA>./psx-color/a.svg</iconA>
+			<iconB>./psx-color/b.svg</iconB>
+			<iconX>./psx-color/x.svg</iconX>
+			<iconY>./psx-color/y.svg</iconY>
+			<iconL>./psx-color/l.png</iconL>
+			<iconR>./psx-color/r.png</iconR>
+			<iconStart>./psx-color/start.png</iconStart>
+			<iconSelect>./psx-color/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+
+<view name="screen">
+	<controllerActivity name="controllerActivity">
+  <pos>0.012 0.941</pos>
+      <size>0.068</size>
+      <color>FFFFFF90</color>
+	  <imagePath>./psx-color/controller.svg</imagePath>      
+      <activityColor>003791</activityColor>
+      <hotkeyColor>FF0000</hotkeyColor>
+    </controllerActivity>
+
+</view>
+	
+</theme>

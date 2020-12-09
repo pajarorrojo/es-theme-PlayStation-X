@@ -17,5 +17,19 @@
 			<iconSelect>./psx/select.png</iconSelect>
 		</helpsystem>		
 	</view>
+
+<view name="screen">
+
+	<controllerActivity name="controllerActivity">
+  <pos>0.012 0.941</pos>
+      <size>0.068</size>
+      <color>FFFFFF90</color>
+	  <imagePath>./psx/controller.svg</imagePath>      
+      <activityColor>003791</activityColor>
+      <hotkeyColor>FF0000</hotkeyColor>
+    </controllerActivity>
+
+
+</view>
 	
 </theme>

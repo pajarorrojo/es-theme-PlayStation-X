@@ -163,11 +163,11 @@
 
 
       <helpsystem name="help">
-         <textColor>DFDCDC</textColor>
+         <textColor>666666</textColor>
          <iconColor>ffffff</iconColor>
-		 <pos>0.06 0.960</pos>
+		 <pos>0.08 0.960</pos>
 		 <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-		 <fontSize>0.026</fontSize>
+		 <fontSize>0.030</fontSize>
       </helpsystem>	 
 	  
 	   <text name="start" extra="true">
