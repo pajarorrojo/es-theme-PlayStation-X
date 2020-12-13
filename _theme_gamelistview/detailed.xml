@@ -9,9 +9,9 @@
    <view name="basic, detailed">
       <helpsystem name="help">
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <fontSize>0.025</fontSize>     
-         <pos>0.064 0.955</pos>      
-         <textColor>FFFFFF</textColor>
+         <fontSize>0.030</fontSize>     
+          <pos>0.08 0.955</pos>    
+         <textColor>aaaaaa</textColor>
       </helpsystem>
       
    
