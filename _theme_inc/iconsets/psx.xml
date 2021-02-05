@@ -4,17 +4,17 @@
 	<view name="menu, system, basic, detailed">
 		<helpsystem name="help">
 			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./psx/updown.png</iconUpDown>
-			<iconLeftRight>./psx/leftright.png</iconLeftRight>
-			<iconUpDownLeftRight>./psx/all.png</iconUpDownLeftRight>
-			<iconA>./psx/a.png</iconA>
-			<iconB>./psx/b.png</iconB>
-			<iconX>./psx/x.png</iconX>
-			<iconY>./psx/y.png</iconY>
-			<iconL>./psx/l.png</iconL>
-			<iconR>./psx/r.png</iconR>
-			<iconStart>./psx/start.png</iconStart>
-			<iconSelect>./psx/select.png</iconSelect>
+			<iconUpDown>./psx/updown.svg</iconUpDown>
+			<iconLeftRight>./psx/leftright.svg</iconLeftRight>
+			<iconUpDownLeftRight>./psx/all.svg</iconUpDownLeftRight>
+			<iconA>./psx/a.svg</iconA>
+			<iconB>./psx/b.svg</iconB>
+			<iconX>./psx/x.svg</iconX>
+			<iconY>./psx/y.svg</iconY>
+			<iconL>./psx/l.svg</iconL>
+			<iconR>./psx/r.svg</iconR>
+			<iconStart>./psx/start.svg</iconStart>
+			<iconSelect>./psx/select.svg</iconSelect>
 		</helpsystem>		
 	</view>
 

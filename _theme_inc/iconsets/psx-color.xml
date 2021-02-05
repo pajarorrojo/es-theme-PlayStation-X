@@ -4,17 +4,17 @@
 	<view name="menu, system, basic, detailed">
 		<helpsystem name="help">
 			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./psx-color/updown.png</iconUpDown>
-			<iconLeftRight>./psx-color/leftright.png</iconLeftRight>
-			<iconUpDownLeftRight>./psx-color/all.png</iconUpDownLeftRight>
+			<iconUpDown>./psx-color/updown.svg</iconUpDown>
+			<iconLeftRight>./psx-color/leftright.svg</iconLeftRight>
+			<iconUpDownLeftRight>./psx-color/all.svg</iconUpDownLeftRight>
 			<iconA>./psx-color/a.svg</iconA>
 			<iconB>./psx-color/b.svg</iconB>
 			<iconX>./psx-color/x.svg</iconX>
 			<iconY>./psx-color/y.svg</iconY>
-			<iconL>./psx-color/l.png</iconL>
-			<iconR>./psx-color/r.png</iconR>
-			<iconStart>./psx-color/start.png</iconStart>
-			<iconSelect>./psx-color/select.png</iconSelect>
+			<iconL>./psx-color/l.svg</iconL>
+			<iconR>./psx-color/r.svg</iconR>
+			<iconStart>./psx-color/start.svg</iconStart>
+			<iconSelect>./psx-color/select.svg</iconSelect>
 		</helpsystem>		
 	</view>
 
