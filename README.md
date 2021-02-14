@@ -1,5 +1,21 @@
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)
+
+[![](https://es-theme-playstation-x.tocapixels.com/img/captura08.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura08.jpg)
+
 # es-theme-PlayStation-X
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, background videos and much more for Batocera. 
+Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, background videos and much more for Batocera and RetroBat. 
 
 Hope you enjoy! any suggestion is fully welcomed.
 
@@ -39,7 +55,7 @@ Portuguese (PT)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, videos de fondo y mucho más para Batocera. Cualquier sugerencia es bienvenida.
+Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, videos de fondo y mucho más para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
 
 ———— ¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO? ————
 
