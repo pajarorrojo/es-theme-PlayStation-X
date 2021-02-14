@@ -1,18 +1,18 @@
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)
 
-[![](https://es-theme-playstation-x.tocapixels.com/img/captura08.jpg)](https://es-theme-playstation-x.tocapixels.com/img/captura08.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura08.jpg)
 
 # es-theme-PlayStation-X
 Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, background videos and much more for Batocera and RetroBat. 
