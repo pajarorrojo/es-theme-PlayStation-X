@@ -10,6 +10,7 @@
          <size>0.212 0.25</size>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
+         <path>{random}</path>
          <path>./../$system/video.mp4</path>
          <delay>1</delay>
          <zIndex>70</zIndex>   

@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20.083px" height="20.082px" viewBox="0 0 20.083 20.082" enable-background="new 0 0 20.083 20.082" xml:space="preserve">
-<g>
-	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.0415" y1="0" x2="10.0415" y2="17.9738">
-			<stop offset="0" style="stop-color:#5B5B5F"/>
-			<stop offset="0.0231" style="stop-color:#59595D"/>
-			<stop offset="0.4507" style="stop-color:#333335"/>
-			<stop offset="0.7912" style="stop-color:#1C1C1D"/>
-			<stop offset="1" style="stop-color:#141414"/>
-		</linearGradient>
-		<circle fill="url(#SVGID_1_)" cx="10.042" cy="10.041" r="10.042"/>
-	</g>
-	<path fill="#068C85" d="M10.042,5.904l1.924,3.333l1.925,3.333h-3.849H6.192l1.924-3.333L10.042,5.904 M10.042,2.354L6.58,8.35   l-3.461,5.995h6.923h6.923L13.502,8.35L10.042,2.354L10.042,2.354z"/>
-</g>
-</svg>
+<svg enable-background="new 0 0 20.083 20.082" height="20.082" viewBox="0 0 20.083 20.082" width="20.083" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="10.0415" x2="10.0415" y1="0" y2="17.9738"><stop offset="0" stop-color="#5b5b5f"/><stop offset=".0231" stop-color="#59595d"/><stop offset=".4507" stop-color="#333335"/><stop offset=".7912" stop-color="#1c1c1d"/><stop offset="1" stop-color="#141414"/></linearGradient><circle cx="10.042" cy="10.041" fill="url(#a)" r="10.042"/><path d="m10.042 5.904 1.924 3.333 1.925 3.333h-3.849-3.85l1.924-3.333zm0-3.55-3.462 5.996-3.461 5.995h6.923 6.923l-3.463-5.995z" fill="#068c85"/></svg>

@@ -1,0 +1,33 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true" >
+			<text>Arcade is an electronic gaming device installed in entertainment establishments. It consists of an enclosure, CRT or monitor, power supply, game controller (s) and game system.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es" >
+			<text>Una lista con todos los juegos arcade vertical.
+
+Arcade es el término genérico de las máquinas recreativas de videojuegos disponibles en lugares públicos de diversión, bares, o salones recreativos especializados. Posteriormente el término se empleó para nombrar a los salones dedicados a las máquinas recreativas y, con el tiempo, a estas últimas y a los juegos en sí mismos.
+</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Arcade est un appareil de jeu électronique installé dans les établissements de divertissement. Il comprend un boîtier, un tube cathodique ou un moniteur, une alimentation, des contrôleurs de jeu et un système de jeu.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>Arcade é um aparelho de jogo eletrônico instalado em estabelecimentos de entretenimento. Compõe-se de um gabinete, tubo de imagem (CRT) ou monitor, fonte de alimentação, controle(s) de jogo e sistema de jogo.</text>
+		</text>
+		
+						
+
+		<text name="system_name" extra="true" >
+			<text>Vertical Arcade</text>
+		</text>
+	</view>
+</theme>

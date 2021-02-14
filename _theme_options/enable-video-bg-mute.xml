@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
@@ -8,7 +9,9 @@
          <size>1 1</size>     
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
+         <path>{random}</path>
          <path>./../$system/video_mute.mp4</path>
+         
          <delay>2</delay>
          <zIndex>40</zIndex>   
 	</video>

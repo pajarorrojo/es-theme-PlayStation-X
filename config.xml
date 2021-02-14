@@ -1,6 +1,6 @@
+<!-- Theme by pajarorrojo-->
 <theme>
     <formatVersion>7</formatVersion>
-
 	<include>./$system/custom.xml</include>
    	<include>./_theme_inc/your-username-here.xml</include>
 
@@ -19,26 +19,26 @@
 	
 
 <subset name="carousel-size" displayName="Carousel Image Size">
-	<include name="medium">./_theme_options/carousel-standard.xml</include>
+	
 	<include name="big">./_theme_options/carousel-big.xml</include>
+	<include name="medium">./_theme_options/carousel-standard.xml</include>
 	<include name="small">./_theme_options/carousel-small.xml</include>
 </subset>
 
-<subset name="video-background" displayName="Spot Videos in systems view">
+<subset name="video-background" displayName="Show videos in system view">
 	<include name="BACKGROUND VIDEO">./_theme_options/enable-video-bg-mute.xml</include>
-	<include name="SMALL SCREEN">./_theme_options/enable-video-small-mute.xml</include>
 	<include name="SMALL SCREEN WITH AUDIO">./_theme_options/enable-video-small.xml</include>
 	<include name="NO" displayName="${none}">./_theme_options/no-video.xml</include>
 </subset>
 
-<subset name="system-description" displayName="Show Systems descriptions">
+<subset name="system-description" displayName="Show System descriptions">
 	<include name="YES">./_theme_options/enable-system-description.xml</include>
 	<include name="NO"/>
 </subset>
  <view name="system">
       <text name="version" extra="true">
-         <text>Ver. 2.1</text>
-         <pos>0.95 0.95</pos>
+         <text>Ver. 2.2</text>
+         <pos>0.945 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 	     <fontSize>0.0220</fontSize>
