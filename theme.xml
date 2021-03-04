@@ -132,8 +132,9 @@ Portuguese (PT)
         <iconRestart>./_theme_inc/menu_icons/Restart.png</iconRestart>
         <iconShutdown>./_theme_inc/menu_icons/Shutdown.png</iconShutdown>
         <iconFastShutdown>./_theme_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
+        <iconRetroachievements>./_theme_inc/menu_icons/Contest.png</iconRetroachievements>
+        <iconManual>./_theme_inc/menu_icons/Manual.png</iconManual>
 	</menuIcons>
-		  
 
 
 </view> 

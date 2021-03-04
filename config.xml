@@ -35,6 +35,14 @@
 	<include name="YES">./_theme_options/enable-system-description.xml</include>
 	<include name="NO"/>
 </subset>
+<subset name="info-bar" displayName="Show theme gamebar">
+	<include name="YES">./_theme_options/info-bar.xml</include>
+	<include name="NO"/>
+</subset>
+<subset name="animated-backg" displayName="Animated background (waves)">
+	<include name="YES">./_theme_options/animated-background.xml</include>
+	<include name="NO"/>
+</subset>
  <view name="system">
       <text name="version" extra="true">
          <text>Ver. 2.2</text>

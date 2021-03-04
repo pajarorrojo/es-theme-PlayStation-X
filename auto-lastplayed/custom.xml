@@ -5,19 +5,19 @@
 
 
 		<text name="system_description" extra="true" >
-			<text></text>
+			<text>A list of the last 50 games you have played.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text></text>
+			<text>Una lista de los últimos 50 juegos a los que has jugado.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
+			<text>Une liste des 50 derniers jeux auxquels vous avez joué.</text>
 		</text>
 
 			    <text name="system_description" extra="true" lang="pt" >
-			<text></text>
+			<text>Uma lista dos últimos 50 jogos que você jogou.</text>
 		</text>
 
 		

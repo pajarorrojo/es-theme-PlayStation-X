@@ -165,12 +165,7 @@
             </storyboard>
       </image>	  
 
-      <video name="default_background" extra="true">
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./../_theme_inc/videos/background-psx.mp4</path>
-         <zIndex>39</zIndex>   
-	   </video>
+
       <image name="background-extra" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>

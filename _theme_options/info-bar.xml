@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+   <view name="basic, detailed">
+<image name="md_flag">
+			<pos>0.473 0.425</pos>
+			<maxSize>0.022 0.05</maxSize>
+			<linearSmooth>true</linearSmooth>
+         <zIndex>51</zIndex>
+         
+    
+		</image>
+
+      	  <text name="md_players">
+			<origin>0.5 0.5</origin>
+			<fontPath>./../_theme_inc/fonts/players.ttf</fontPath>
+			<text>1</text>
+			<size>0.03 0.03</size>
+			<pos>0.473 0.470</pos>
+			<alignment>center</alignment>
+			<fontSize>0.034</fontSize>
+			<color>Ffffff</color>
+         <zIndex>100</zIndex>
+		</text>
+
+
+		<image name="md_manual,md_nomanual">
+			<origin>0.5 0.5</origin>
+			<pos>0.473 0.515</pos>
+			<path>./../_theme_inc/images/manual.png</path>
+			<maxSize>0.02 0.03</maxSize>
+			<color>3CAEFB</color>
+         <zIndex>100</zIndex>
+  
+		</image>
+      <image name="md_manual">
+         <storyboard>  
+         
+			<animation property="scale" from="1" to="1.008"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+         <animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+          </storyboard>
+		</image>
+	
+		<image name="md_nomanual">
+			<color>808080</color>
+		</image>
+
+      <image name="md_savestate,md_nosavestate">
+       <origin>0.5 0.5</origin>
+       <path>./../_theme_inc/images/SaveState.png</path>
+       <pos>0.473 0.560</pos>
+       <maxSize>0.02 0.03</maxSize>
+       <color>3CAEFB</color>
+       <zIndex>150</zIndex>
+    </image>
+
+      <image name="md_savestate">
+        <storyboard>      
+			<animation property="scale" from="1" to="1.008"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+         <animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>    
+        </storyboard>
+    </image>
+
+    
+    <image name="md_nosavestate">
+      <color>808080</color>
+    </image>
+		
+		<image name="md_cheevos,md_notcheevos">
+			<origin>0.5 0.5</origin>
+			<path>./../_theme_inc/images/Contest.png</path>
+			<pos>0.473 0.605</pos>
+			<maxSize>0.02 0.03</maxSize>     
+			<color>F3C300</color>
+			<zIndex>100</zIndex>
+		</image>
+   	<image name="md_cheevos">
+		 <storyboard>      
+			<animation property="scale" from="1" to="1.008"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+         <animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>    
+        </storyboard>
+    </image>
+	  
+		<image name="md_notcheevos">
+			<color>808080</color>
+		</image> 
+</view>
+</theme>

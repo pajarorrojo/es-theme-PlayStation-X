@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, system">
+   <video name="default_background" extra="true">
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../_theme_inc/videos/background-psx.mp4</path>
+         <zIndex>39</zIndex>   
+	</video>
+
+     </view>
+</theme>
