@@ -45,6 +45,8 @@ Portuguese (PT)
    <formatVersion>7</formatVersion>
    <include>./config.xml</include>
 
+
+
    <view name="screen">
     <text name="clock" >
        <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>

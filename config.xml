@@ -2,46 +2,65 @@
 <theme>
     <formatVersion>7</formatVersion>
 	<include>./$system/custom.xml</include>
-   	<include>./_theme_inc/your-username-here.xml</include>
-
-	
+   	<include>./_theme_inc/your-username-here.xml</include>	
 	<include>./_theme_gamelistview/detailed.xml</include>
-
-
-	<include>./_theme_systemview/1-black.xml</include>
-	
-<include subset="iconset" name="1-PSX">./_theme_inc/iconsets/psx.xml</include>
-<include subset="iconset" name="2-PSX-color">./_theme_inc/iconsets/psx-color.xml</include>
-<include subset="iconset" name="3-XBOX">./_theme_inc/iconsets/xbox.xml</include>
-<include subset="iconset" name="4-SNES">./_theme_inc/iconsets/snes.xml</include>
-<include subset="iconset" name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
-
+	<include>./_theme_systemview/classic.xml</include>
 	
 
-<subset name="carousel-size" displayName="Carousel Image Size">
-	
-	<include name="big">./_theme_options/carousel-big.xml</include>
-	<include name="medium">./_theme_options/carousel-standard.xml</include>
-	<include name="small">./_theme_options/carousel-small.xml</include>
+	<variables>
+      <gameBar>Show gamebar info</gameBar>
+	  <CarouselImageSize>Carousel Image Size</CarouselImageSize>
+	  <iconset>iconset</iconset>S
+	  <theme.videoBackground>Show videos in system view</theme.videoBackground>
+	  <theme.system-description>Show System descriptions</theme.system-description>
+	  <theme.animated-background>Animated background (waves)</theme.animated-background>
+	  <theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
+	  <theme.smallScreenOption>Small window with audio</theme.smallScreenOption>
+    </variables>
+    <include lang="es">./_theme_lang/es.xml</include>
+	<include lang="fr">./_theme_lang/fr.xml</include>
+	<include lang="pt">./_theme_lang/pt.xml</include>
+
+
+
+<subset name="iconset" displayName="${iconset}">
+  <include  name="1-PSX">./_theme_inc/iconsets/psx.xml</include>
+  <include  name="2-PSX-color">./_theme_inc/iconsets/psx-color.xml</include>
+  <include  name="3-XBOX">./_theme_inc/iconsets/xbox.xml</include>
+  <include  name="4-SNES">./_theme_inc/iconsets/snes.xml</include>
+  <include  name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
 </subset>
 
-<subset name="video-background" displayName="Show videos in system view">
-	<include name="BACKGROUND VIDEO">./_theme_options/enable-video-bg-mute.xml</include>
-	<include name="SMALL SCREEN WITH AUDIO">./_theme_options/enable-video-small.xml</include>
-	<include name="NO" displayName="${none}">./_theme_options/no-video.xml</include>
+<!--
+<subset name="Colorsets" displayName="${subset.colorset}">
+  <include name="blue" displayName="${blue}">./_theme_inc/colorsets/blue.xml</include>
+  <include name="black" displayName="${black}">./_theme_inc/colorsets/black.xml</include>
+</subset>	
+-->
+
+<subset name="Carousel" displayName="${CarouselImageSize}">
+	<include name="big" displayName="${big}">./_theme_options/carousel-big.xml</include>
+	<include name="medium" displayName="${medium}">./_theme_options/carousel-standard.xml</include>
+	<include name="small" displayName="${small}">./_theme_options/carousel-small.xml</include>
 </subset>
 
-<subset name="system-description" displayName="Show System descriptions">
-	<include name="YES">./_theme_options/enable-system-description.xml</include>
-	<include name="NO"/>
+<subset name="video-background" displayName="${theme.videoBackground}">
+	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/enable-video-bg-mute.xml</include>
+	<include name="small-screen-audio" displayName="${theme.smallScreenOption}">./_theme_options/enable-video-small.xml</include>
+	<include name="NO" displayName="${no}">./_theme_options/no-video.xml</include>
 </subset>
-<subset name="info-bar" displayName="Show theme gamebar">
-	<include name="YES">./_theme_options/info-bar.xml</include>
-	<include name="NO"/>
+
+<subset name="system-description" displayName="${theme.system-description}">
+	<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
+	<include name="NO" displayName="${no}" />
 </subset>
-<subset name="animated-backg" displayName="Animated background (waves)">
-	<include name="YES">./_theme_options/animated-background.xml</include>
-	<include name="NO"/>
+<subset name="info-bar" displayName="${gameBar}">
+	<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
+	<include name="NO" displayName="${no}"/>
+</subset>
+<subset name="animated-backg" displayName="${theme.animated-background}">
+	<include name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+	<include name="NO" displayName="${no}"/>
 </subset>
  <view name="system">
       <text name="version" extra="true">

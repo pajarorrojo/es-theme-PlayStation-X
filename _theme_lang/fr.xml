@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="fr">
+    <blue>Bleu</blue>
+    <black>Noir</black>
+    <yes>Oui</yes>
+    <no>Non</no>
+    <subset.colorset>Jeux de couleurs</subset.colorset>
+    <iconset>iconset</iconset>
+    <gameBar>Barre d'information des jeux</gameBar>
+    <CarouselImageSize>Taille de l'image du carrousel</CarouselImageSize>
+    <theme.videoBackground>Afficher les vidéos dans la vue système</theme.videoBackground>
+    <theme.system-description>Afficher les descriptions du système</theme.system-description>
+    <theme.animated-background>fond animé (vagues) </theme.animated-background>
+    <theme.backgroundVideoOption>vidéo de fond</theme.backgroundVideoOption>
+    <theme.smallScreenOption>Petit écran avec son</theme.smallScreenOption>
+    <big>grand</big>
+    <medium>moyen</medium>
+    <small>petit</small>
+  </variables>
+</theme>
+

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="pt">
+    <blue>Azul</blue>
+    <black>Preto</black>
+    <yes>Sim</yes>
+    <no>Não</no>
+    <subset.colorset>Conjunto de cores</subset.colorset>
+    <iconset>iconset</iconset>
+    <gameBar>Barra de informações do jogo</gameBar>
+    <CarouselImageSize>Tamanho da imagem do carrossel</CarouselImageSize>
+    <theme.videoBackground>Mostrar vídeos na visualização do sistema</theme.videoBackground>
+    <theme.system-description>Mostrar descrições do sistema</theme.system-description>
+    <theme.animated-background>Fundo animado (ondas)</theme.animated-background>
+    <theme.backgroundVideoOption>Vídeo de fundo</theme.backgroundVideoOption>
+    <theme.smallScreenOption>Janela pequena com som</theme.smallScreenOption>
+    <big>grande</big>
+    <medium>médio</medium>
+    <small>pequeno</small>
+  </variables>
+</theme>
+
