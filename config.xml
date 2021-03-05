@@ -10,7 +10,7 @@
 	<variables>
       <gameBar>Show gamebar info</gameBar>
 	  <CarouselImageSize>Carousel Image Size</CarouselImageSize>
-	  <iconset>iconset</iconset>S
+	  <iconset>iconset</iconset>
 	  <theme.videoBackground>Show videos in system view</theme.videoBackground>
 	  <theme.system-description>Show System descriptions</theme.system-description>
 	  <theme.animated-background>Animated background (waves)</theme.animated-background>
