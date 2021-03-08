@@ -3,7 +3,7 @@
 <formatVersion>7</formatVersion>
  <view name="system">
     <carousel name="systemcarousel">
-        <pos>-0.53 0.149</pos>
+        <pos>-0.53 0.112</pos>
         <size>1.60 1</size>
         <logoScale>1.6</logoScale>
         <logoSize>0.23</logoSize>

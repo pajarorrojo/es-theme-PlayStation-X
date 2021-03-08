@@ -11,7 +11,7 @@
 		</splash>
 
 	  <image name="avatar" extra="true">
-         <pos>0.630 0.0710</pos>
+         <pos>0.630 0.04</pos>
          <maxSize>0.055 0.055</maxSize>
          <path>./_theme_inc/your-avatar.png</path>
          <zIndex></zIndex>
@@ -22,7 +22,7 @@
 	   <text lang="es">Bienvenido a Playstation X para Batocera</text>
 	   <text lang="fr">Bienvenue sur Playstation X pour Batocera</text>
        <text lang="pt">Bem-vindo ao Playstation X para Batocera</text>
-         <pos>0.165 0.08</pos>
+         <pos>0.165 0.05</pos>
          <color>ffffff</color>
          <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.030</fontSize>

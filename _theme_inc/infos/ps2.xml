@@ -1,0 +1,33 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text>The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on March 4, 2000, in North America on October 26, 2000, in Europe on November 24, 2000, and Australia on November 24, 2000. It is the successor to the original PlayStation, as well as the second installment in the PlayStation console line-up.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La PlayStation 2 (oficialmente abreviada como PS2) es la segunda videoconsola de sobremesa producida por Sony Computer Entertainment, y la sucesora de la PlayStation 1 (PSX).
+
+Fue lanzada por primera vez el 4 de marzo del año 2000 en Japón, y unos meses después en el resto del mundo. Es la videoconsola más vendida de la historia, con más de 160 millones de unidades vendidas. Esta consola es también la que más títulos posee, aproximadamente 3870 títulos, seguida por su predecesora la PlayStation con unos 2500 títulos. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>La PlayStation 2 (abrégé officiellement PS2) est une console de jeux vidéo de sixième génération commercialisée par Sony Computer Entertainment, filiale de Sony. Elle est sortie le 4 mars 2000 au Japon, le 26 octobre 2000 en Amérique du Nord, le 24 novembre 2000 en Europe et le 30 novembre 2000 en Australie.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>O PlayStation 2 (oficialmente abreviado como PS2) é um console de jogos eletrônicos produzido pela Sony Computer Entertainment. Foi lançado no dia 4 de março de 2000 no Japão, no dia 26 de outubro na América do Norte, e posteriormente, no dia 24 de novembro na Europa e 3 de dezembro no Brasil.</text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>PlayStation 2</text>
+		</text>
+	</view>
+</theme>

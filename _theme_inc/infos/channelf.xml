@@ -1,0 +1,31 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>The Fairchild Channel F, short for "Channel Fun",[2] was the first programmable ROM cartridge–based video game console, and the first console to use a microprocessor. It was released by Fairchild Camera and Instrument in November 1976 across North America[3] at a retail price of US$169.95 </text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>Fairchild Channel F es una consola de videojuegos publicada por Fairchild Semiconductor en agosto de 1976, su precio de ventas fue de $169.95. Inicialmente fue titulado VES (Sistema de Entretenimiento de Video), pero cuando se lanzó el Atari VCS, el año siguiente, se le cambió el nombre a Fairchild. 
+				
+				Fue la primera videoconsola con un microprocesador y que utilizara cartuchos, o ROMs.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>La Fairchild Channel F est une console de jeux vidéo produite par Fairchild Semiconductor. Sortie en novembre 1976 en Amérique du Nord, elle y est vendue au prix de 169,95 $. La console est notable pour être la première au monde basée sur un système de cartouches, ainsi que la première à disposer d'un microprocesseur.</text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text>Lançado em agosto de 1976 pela Fairchild Semiconductor, o Fairchild Channel F foi o primeiro videogame da segunda geração de consoles(as) de jogos, além de ser também o primeiro realmente programável, ou seja, os jogos podiam ser vendidos separadamente do videogame, pois, com o novo sistema de cartuchos era possível lê-los no próprio videogame. </text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Channel F</text>
+		</text>
+	</view>
+</theme>

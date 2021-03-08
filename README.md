@@ -12,10 +12,9 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura08.jpg)
 
 # es-theme-PlayStation-X
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, background videos and much more for Batocera and RetroBat. 
+Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera and RetroBat. 
 
 Hope you enjoy! any suggestion is fully welcomed.
 
@@ -28,19 +27,7 @@ For change the avatar image simply overwrite the file "your-avatar.png" in the �
 For change the username string, open the file "your-username-here.xml" with a text editor and change “username” for the desired username
 
 
-
-
-———— OTHER FEATURES ——————————— 
-
--Video snap supported in Gamelist
-
--Gamelist scroll sounds (if enabled in navigation sounds config)
-
--Ready for custom background music in each system. For enable, simply put a mp3 file called “bgmusic.mp3” in every system folder of the theme.
-
 -Multilanguage
-
-
 
 
 ————  SUPPORTED LANGUAGES ———— 
@@ -55,7 +42,9 @@ Portuguese (PT)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados, reloj del sistema, videos de fondo y mucho más para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
+Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
+
+
 
 ———— ¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO? ————
 
@@ -67,14 +56,6 @@ Para cambiar la cadena de nombre de usuario, abre el archivo "your-username-here
 
 
 
-
----- OTRAS CARACTERÍSTICAS -----------
-
--Compatibilidad de video en Gamelist
-
--Sonidos de scroll en la lista de juegos (si está habilitado en la configuración de sonidos de navegación)
-
--Listo para música de fondo personalizada en cada sistema. Para activarlo, simplemente coloca un archivo mp3 llamado "bgmusic.mp3" en cada carpeta del sistema del tema.
 
 -Multilenguaje 
 

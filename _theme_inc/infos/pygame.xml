@@ -1,0 +1,30 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	    
+
+		<text name="system_description" extra="true" >
+			<text>Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Pygame est une bibliothèque libre multiplate-forme qui facilite le développement de jeux vidéo temps réel avec le langage de programmation Python. </text>
+		</text>
+
+		
+		<text name="system_description" extra="true" lang="es">
+			<text>Pygame es un conjunto de módulos del lenguaje Python que permiten la creación de videojuegos en dos dimensiones de una manera sencilla. Está orientado al manejo de sprites. Gracias al lenguaje, se puede prototipar y desarrollar rápidamente</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>Pygame é uma biblioteca de jogos multiplataforma (independente de sistema operacional) feita para ser utilizada em conjunto com a linguagem de programação Python. O seu nome tem origem da junção de Py, proveniente de Python e Game, que significa Jogo, ou seja, Jogos em Python. </text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Pygame</text>
+		</text>
+	</view>
+</theme>

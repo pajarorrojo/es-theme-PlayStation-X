@@ -1,10 +1,8 @@
 <!--
 Theme by pajarorrojo
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username, system clock, 
-background video and much more for Batocera.
+Theme inspired in the PlayStation 3 / 4 interface for Batocera.linux
 
 Hope you enjoy! any suggestion is fully welcomed.
-
 
 
 ———— HOW TO CHANGE CUSTOM AVATAR AND USERNAME? ————
@@ -13,20 +11,6 @@ Hope you enjoy! any suggestion is fully welcomed.
 
 For change the avatar image simply overwrite the file "your-avatar.png" in the “/_theme_inc/” folder.
 For change the username string, open the file "your-username-here.xml" with a text editor and change “username” for the desired username
-
-
-
-
-———— OTHER FEATURES ——————————— 
-
--Video snap supported in Gamelist
-
--Gamelist scroll sounds (if enabled in navigation sounds config)
-
--Ready for custom background music in each system. For enable, simply put a mp3 file called “bgmusic.mp3” in every system folder of the theme.
-
--Multilanguage
-
 
 
 
@@ -42,43 +26,40 @@ Portuguese (PT)
 
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
-   <formatVersion>7</formatVersion>
-   <include>./config.xml</include>
+<formatVersion>7</formatVersion>
+<include>./config.xml</include>
 
-
-
-   <view name="screen">
+<view name="screen">
     <text name="clock" >
        <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
        <fontSize>0.032</fontSize>
-      <pos>0.922 0.0687</pos>
+       <pos>0.922 0.042</pos>
        <color>ffffff</color>
        <zIndex>20</zIndex>  
-                <glowColor>00000035</glowColor>
-          <glowSize>1</glowSize>
-          <glowOffset>3 2</glowOffset>  
+       <glowColor>00000035</glowColor>
+       <glowSize>1</glowSize>
+       <glowOffset>3 2</glowOffset>  
    </text>
-
-
-
-
 </view>
 
+<view name="system">
+
+<text name="version" extra="true">
+         <text>Ver. 30</text>
+         <pos>0.945 0.951</pos>
+         <color>444444</color>
+         <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
+	     <fontSize>0.0220</fontSize>
+         <alignment>left</alignment>
+         <zIndex>41</zIndex>        
+</text>
 
 
+<sound name="directory">
+	<path>./_theme_inc/music/</path>
+</sound>
 
-   <view name="system">
-
-
-
-   <sound name="directory">
-			  <path>./_theme_inc/music/</path>
-		</sound>
-
-  <sound name="bgsound">
-        <path>./$system/bgmusic.mp3</path>
-      </sound>
-   </view>
+</view>
 
    
 
@@ -97,8 +78,6 @@ Portuguese (PT)
 			<separatorColor>555555FF</separatorColor>
 			<selectorColor>3CAEFB</selectorColor>
 			<selectedColor>003791</selectedColor>
-			
-			
 		</menuText>
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -112,10 +91,9 @@ Portuguese (PT)
 		</menuText>
 		<menuBackground name="menubg">
 		    <color>003791</color>
-		<path>./_theme_inc/images/fond_menu.png</path> 
-		<fadePath>./_theme_inc/images/fond_menu.png</fadePath>
-
-		</menuBackground>
+		    <path>./_theme_inc/images/fond_menu.png</path> 
+		    <fadePath>./_theme_inc/images/fond_menu.png</fadePath>
+      </menuBackground>
 
 
 	
@@ -140,5 +118,15 @@ Portuguese (PT)
 
 
 </view> 
+
+<view name="system,basic,detailed,grid">
+      <helpsystem name="help">
+         <textColor>aaaaaa</textColor>
+         <iconColor>ffffff</iconColor>
+		 <pos>0.1 0.957</pos>
+		 <fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+		 <fontSize>0.028</fontSize>
+      </helpsystem>	
+</view>
    
 </theme>

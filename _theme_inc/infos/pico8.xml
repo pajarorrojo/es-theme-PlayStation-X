@@ -1,0 +1,31 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text>PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. It feels like a regular console, but runs on Windows / Mac / Linux. When you turn it on, the machine greets you with a commandline, a suite of cartridge creation tools, and an online cartridge browser called SPLORE. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Pico-8 es una máquina virtual creada por Lexaloffle Games. Está diseñada para imitar una "consola de videojuego de fantasía". La programación es realizada a través de un entorno basado en Lua, en el cual los usuarios pueden crear sonidos, sprites, mapas y juegos.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Pico-8 (aussi écrit PICO-8) est une machine virtuelle, développée par Lexaloffle Games. Son but est d'offrir une fantasy console, sur laquelle il est possible de développer, partager et jouer de petits jeux vidéo.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>PICO-8 é um console de fantasia para fazer, compartilhar e jogar pequenos jogos e outros programas de computador.</text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Pico 8</text>
+		</text>
+	</view>
+</theme>

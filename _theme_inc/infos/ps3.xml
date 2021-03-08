@@ -1,0 +1,33 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text></text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>PlayStation 3 (abreviada como PS3) es la tercera videoconsola del modelo PlayStation de Sony Computer Entertainment. Fue lanzada al mercado el 11 de noviembre de 2006 en Japón.
+			
+Dos variantes estaban disponibles en el momento del lanzamiento: un modelo básico con 20 GB de disco duro y un modelo con disco duro de 60 GB y varias características adicionales como doble número de puertos USB y retrocompatibilidad con juegos de su antecesora PlayStation 2 y Playstation .</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>La PlayStation 3 (abrégé officiellement PS3) est une console de jeux vidéo de septième génération commercialisée par Sony. Elle est sortie le 11 novembre 2006 au Japon, le 17 novembre 2006 en Amérique du Nord et le 23 mars 2007 en Europe.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>O PlayStation 3 (PS3) é um console de videogames desenvolvido pela Sony Computer Entertainment. É o sucessor do PlayStation 2 e faz parte da marca PlayStation de consoles. Foi lançado em 11 de novembro de 2006, no Japão,[6] 17 de novembro de 2006 na América do Norte e em 23 de março de 2007 na Europa e Oceania.</text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>PlayStation 3</text>
+		</text>
+	</view>
+</theme>

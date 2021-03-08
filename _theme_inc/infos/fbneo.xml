@@ -1,0 +1,31 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true" >
+			<text>FinalBurn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>FBNEO es un nuevo proyecto creado por la mayoría de programadores de Final Burn Alpha y es un multi-emulador, es decir, es capaz de emular diferentes placas arcade y algunas consolas (algo así como Mame pero no engloba tantos sistemas)</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>FinalBurn Neo est un fork actif de l'émulateur FinalBurn Alpha, créé par de nombreux anciens développeurs FBA.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>FinalBurn Neo é um fork ativo do emulador FinalBurn Alpha, criado por muitos dos ex-desenvolvedores FBA.</text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>FBA Neo</text>
+		</text>
+	</view>
+</theme>

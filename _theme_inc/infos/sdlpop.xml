@@ -1,0 +1,31 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text>An open-source port of Prince of Persia, based on the disassembly of the DOS version, extended with new features.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Un port de código abierto del famoso videojuego Prince Of Persia, ampliado con nuevas características</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Un port open-source de Prince of Persia, basé sur le démontage de la version DOS, étendu avec de nouvelles fonctionnalités.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>Um porte de código aberto do Prince of Persia, baseado na desmontagem da versão DOS, ampliado com novos recursos. </text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>SDLPoP</text>
+		</text>
+	</view>
+</theme>

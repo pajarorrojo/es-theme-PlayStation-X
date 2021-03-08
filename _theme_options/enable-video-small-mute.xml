@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Theme by pajarorrojo-->
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
 
          <video name="system_video" extra="true">
          <effect>none</effect>
-         <pos>0.165 0.645</pos>
+         <pos>0.165 0.612</pos>
          <roundCorners>0.02</roundCorners>  
          <size>0.212 0.25</size>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
-         <path>./../$system/video_mute.mp4</path>
+         <path>{random}</path>
+         <path>./../_theme_inc/videos/${system.theme}_mute.mp4</path>
          <delay>1</delay>
          <zIndex>70</zIndex>   
 
@@ -32,13 +32,10 @@
                 
             </storyboard>
       </image>
-<text name="system_description" extra="true">
-  <pos>0.388 0.638</pos>
+      <text name="system_description" extra="true">
+  <pos>0.388 0.605</pos>
            <size>0.430 0</size>
            <fontSize>0.023</fontSize> 
      </text>
-         
 </view>
-
-
 </theme>

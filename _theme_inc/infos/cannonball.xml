@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text>Cannonball is a program which allows you to play an enhanced version of Yu Suzuki's seminal arcade racer, OutRun, on a variety of systems.
+
+Cannonball is not an emulator; it is a complete rewrite of the original game into portable C++</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Cannonball es un programa que te permite jugar una versión mejorada del juego de carreras arcade de Yu Suzuki, OutRun, en una variedad de sistemas.
+
+Cannonball no es un emulador; es una reescritura completa del juego original en C ++ portable</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text></text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text></text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Cannonball</text>
+		</text>
+	</view>
+</theme>

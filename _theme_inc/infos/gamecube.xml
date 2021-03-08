@@ -1,0 +1,33 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+		<text name="system_description" extra="true" >
+			<text>The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Nintendo GameCube es la quinta consola de sobremesa hecha por Nintendo. Es la sucesora del Nintendo 64 y la predecesora del Wii.
+
+Sus principales características son su procesador central basado en un IBM PowerPC y su procesador gráfico desarrollado por ATI Technologies. Nintendo, por primera vez, prescinde del cartucho como formato de almacenamiento, y adopta un formato óptico propio, el Nintendo Optical Disc. Es además la primera consola de Nintendo que no cuenta en su fecha de lanzamiento con un juego de Mario, mascota oficial de la compañía. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Le Nintendo GameCube (ニンテンドーゲームキューブ, Nintendō Gēmukyūbu?, prononcé en anglais : [ˈɡeɪm.kjuːb]) est une console de jeux vidéo de salon du fabricant japonais Nintendo, sortie en 2001 (2002 en Europe), développée en association avec IBM, NEC et ATI. Elle fut en concurrence avec la PlayStation 2 de Sony, la Xbox de Microsoft et la Dreamcast de Sega, qui forment ensemble la sixième génération de consoles de jeux vidéo. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>O Nintendo GameCube (comumente abreviado como GameCube) é um console de videogame doméstico lançado pela Nintendo no Japão e na América do Norte em 2001 e Europa e Austrália em 2002. Como parte da sexta geração de consoles, é o sucessor do Nintendo 64.</text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>GameCube</text>
+		</text>
+	</view>
+</theme>

@@ -1,10 +1,10 @@
 <!-- Theme by pajarorrojo-->
 <theme>
     <formatVersion>7</formatVersion>
-	<include>./$system/custom.xml</include>
+	<include>./_theme_inc/infos/${system.theme}.xml</include>
    	<include>./_theme_inc/your-username-here.xml</include>	
-	<include>./_theme_gamelistview/detailed.xml</include>
-	<include>./_theme_systemview/classic.xml</include>
+	<include>./_theme_views/detailed.xml</include>
+	<include>./_theme_views/front.xml</include>
 	
 
 	<variables>
@@ -31,13 +31,6 @@
   <include  name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
 </subset>
 
-<!--
-<subset name="Colorsets" displayName="${subset.colorset}">
-  <include name="blue" displayName="${blue}">./_theme_inc/colorsets/blue.xml</include>
-  <include name="black" displayName="${black}">./_theme_inc/colorsets/black.xml</include>
-</subset>	
--->
-
 <subset name="Carousel" displayName="${CarouselImageSize}">
 	<include name="big" displayName="${big}">./_theme_options/carousel-big.xml</include>
 	<include name="medium" displayName="${medium}">./_theme_options/carousel-standard.xml</include>
@@ -61,17 +54,6 @@
 <subset name="animated-backg" displayName="${theme.animated-background}">
 	<include name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	<include name="NO" displayName="${no}"/>
-</subset>
- <view name="system">
-      <text name="version" extra="true">
-         <text>Ver. 2.2</text>
-         <pos>0.945 0.951</pos>
-         <color>444444</color>
-         <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
-	     <fontSize>0.0220</fontSize>
-         <alignment>left</alignment>
-         <zIndex>41</zIndex>        
-      </text>
- </view>	  
+</subset>  
 	
 </theme>

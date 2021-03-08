@@ -10,13 +10,13 @@
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
          <path>{random}</path>
-         <path>./../$system/video.mp4</path>
+         <path>./../_theme_inc/videos/${system.theme}.mp4</path>
          
          <delay>2</delay>
          <zIndex>40</zIndex>   
 	</video>
 <text name="system_description" extra="true">
-	     <pos>0.163 0.635</pos>
+	     <pos>0.163 0.6</pos>
             <size>0.64 0.27</size>
             <fontSize>0.026</fontSize> 
      </text>

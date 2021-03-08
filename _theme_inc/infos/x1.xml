@@ -1,0 +1,31 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	    
+
+		<text name="system_description" extra="true" >
+			<text>The X1 (エックスワン, Ekkusuwan), sometimes called the Sharp X1, is a series of home computers released by Sharp Corporation from 1982 to 1988. It was based on a Z80 CPU. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Le Sharp X1 est le nom donné à une série de micro-ordinateurs japonais créé par Sharp Corporation de 1982 à 1988. Ils intègrent tous un processeur Zilog Z80. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Sharp X1, también llamado solo X1, fue una serie de computadoras domésticas lanzadas por Sharp Corporation entre 1982 y 1988. Se basó en una CPU Z80.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>O computador doméstico X1 (ou CZ-800C) foi o primeiro de uma bem-sucedida série de máquinas multimídia precoces vendidas no Japão entre 1982 e 1988 pela Sharp.</text>
+		</text>
+
+
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Sharp X1</text>
+		</text>
+	</view>
+</theme>
