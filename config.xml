@@ -4,6 +4,7 @@
 	<include>./_theme_inc/infos/${system.theme}.xml</include>
    	<include>./_theme_inc/your-username-here.xml</include>	
 	<include>./_theme_views/detailed.xml</include>
+	<include>./_theme_views/grid.xml</include>
 	<include>./_theme_views/front.xml</include>
 	
 

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
+<theme>
+	<formatVersion>7</formatVersion>
+   <view name="grid">
+      
+   
+   <image name="logo">
+		<pos>0.3 0.06</pos>
+      <alignment>left</alignment>
+      <verticalAlignment>top</verticalAlignment>
+		<maxSize>0.2 0.095</maxSize>
+      <origin>0 0</origin>
+				<!--  png -->
+      <path>./_theme_inc/images/logos/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+      <!-- check if lang resources exist -->
+      <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+      <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+		<zIndex>53</zIndex>
+   </image>	
+
+   <imagegrid name="gamegrid">
+			<autoLayout>5 2</autoLayout>
+			<scrollLoop>true</scrollLoop>
+         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
+			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+			<imageSource>image</imageSource>
+			<margin>0.006 0.0111</margin>
+			<size>0.895 0.38</size>
+			<pos>0.052 0.552</pos>
+			<showVideoAtDelay>-1</showVideoAtDelay>
+			<animateSelection>true</animateSelection>
+         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
+	      <zIndex>60</zIndex>
+		</imagegrid>
+
+	<gridtile name="default">
+			<backgroundCenterColor>E6DB4c9</backgroundCenterColor>
+			<backgroundEdgeColor>0B2F78e6</backgroundEdgeColor>
+			<padding>10</padding>
+			<imageSizeMode>minSize</imageSizeMode>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>2E6DB4c9</backgroundColor>
+			<imageColor>ffffffc9</imageColor>
+		</gridtile>
+
+
+		<gridtile name="selected">
+			<padding>10</padding>
+			<imageColor>ffffffff</imageColor>
+			<backgroundCornerSize>0</backgroundCornerSize>
+			<backgroundEdgeColor>3CAEFB</backgroundEdgeColor>
+		</gridtile>
+
+		<image name="gridtile.image">
+			<roundCorners>0</roundCorners>
+		</image>
+
+
+
+		<image name="gridtile.favorite">
+			<path>./../_theme_inc/images/favorite-corner.svg</path>
+			<pos>0.75 0</pos>
+			<maxSize>0.25 0.25</maxSize>
+			<horizontalAlignment>right</horizontalAlignment>
+			<origin>0 0</origin>
+			<color>F3C300</color>
+		</image> 
+
+
+
+
+
+
+      <text name="logoText" extra="true">
+	     <alignment>left</alignment> 
+	     <pos>0.065 0.025</pos>
+	     <color>FFFFFF</color>
+        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	     <fontSize>0.062</fontSize>   
+        <zIndex>9999</zIndex>        
+      </text> 
+
+   <image name="consoles" extra="true">
+      <tile>false</tile>
+      <pos>0.55 0.17</pos>
+      <origin>0 0</origin>
+      <alignment>center</alignment> 
+      <verticalAlignment>bottom</verticalAlignment>
+      <size>0.1 0</size>
+      <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
+           <storyboard>       
+           <animation begin="350" property="y" from="0.17" to="0.171"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
+     
+      </storyboard>
+      <zIndex>99</zIndex>
+    
+    </image>
+	
+     
+      
+
+      <image name="background" extra="true">
+          <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./../_theme_inc/images/default-grid.png</path>
+	      <zIndex>50</zIndex>
+ 
+      </image>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_theme_inc/images/background/${system.theme}.jpg</path> 
+         <zIndex>45</zIndex> 
+       <storyboard>       
+         <animation property="opacity" from="0.5" to="0.1" begin="0" duration="9000" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+       </storyboard>
+      </image>
+
+
+
+   <image name="background-extra" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../_theme_inc/images/fond_menu.png</path>
+         <zIndex>35</zIndex>
+      </image>
+
+
+      <rating name="md_rating">
+			<pos>0.765 0.47</pos>
+			<size>0.05 0.05</size>
+          <origin>0 0</origin>
+         <unfilledColor>003791</unfilledColor>
+         <color>DF0024</color>
+			<unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
+			<zIndex>51</zIndex>  
+			<filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
+      <storyboard>       
+         <animation property="scale" from="1" to="1.001"  duration="100" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+         <animation property="opacity" from="0.9" to="1"  duration="100" mode="easeInOut" autoreverse="true" repeat="forever"/>          
+      </storyboard>
+		</rating>
+   
+		<text name="md_genre">
+			<pos>0.33 0.460</pos>
+			<size>0.41 0.034</size>
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>3CAEFB</color>
+			<zIndex>51</zIndex>
+          <origin>0 0</origin>
+            <backgroundColor>00000000</backgroundColor>
+		</text>
+      <datetime name="md_releasedate">
+			<pos>0.33 0.480</pos>
+          <origin>0 0</origin>
+         <alignment>left</alignment> 
+         <verticalAlignment>top</verticalAlignment>
+         <size>0.027 0.05</size>
+			<color>F3C300</color>
+         <format>%Y</format>
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+			<zIndex>51</zIndex> 
+         <backgroundColor>00000000</backgroundColor>
+
+         
+		</datetime>
+      
+      <text name="md_developer">
+			<size>0.38 0.035</size>
+          <origin>0 0</origin>
+           <verticalAlignment>top</verticalAlignment>
+			<pos>0.365 0.487</pos>
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>00AC97</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>00000000</backgroundColor>
+
+		</text>
+      
+      <text name="md_description">
+         <color>ffffff</color>      
+         <pos>0.33 0.250</pos>
+         <size>0.570 0.190</size>
+	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.026</fontSize>
+         <lineSpacing>1.1</lineSpacing>
+         <origin>0 0</origin>
+          <backgroundColor>00000000</backgroundColor>   
+         <zIndex>99</zIndex>     
+      </text> 
+      <text name="md_name">
+         <alignment>left</alignment> 
+          <verticalAlignment>top</verticalAlignment>
+         <size>0.570 0.010</size>
+         <color>ffffff</color>      
+         <pos>0.33 0.17</pos>
+	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.060</fontSize>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+          <glowSize>1</glowSize>
+          <glowOffset>3 2</glowOffset>  
+         <zIndex>99</zIndex>  
+         <backgroundColor>00000000</backgroundColor>   
+      </text> 
+	  
+      <image name="md_image">
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <origin>0 0</origin>
+        <pos>0.05 0.18</pos>
+        <maxSize>0.25 0.35</maxSize>
+        <zIndex>91</zIndex>    
+      </image>    
+
+	<video name="md_video">
+
+         <zIndex>48</zIndex>   
+         <effect>none</effect>
+
+         <pos>0 -0.3</pos>
+			<size>1 1</size>
+
+			<origin>0 0</origin>
+			<delay>0.5</delay>
+
+	</video>
+   </view>
+   
+
+</theme>
