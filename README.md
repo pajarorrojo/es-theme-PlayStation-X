@@ -1,4 +1,4 @@
-![](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)
+![](https://camo.githubusercontent.com/deeb84fe62527090cc940e94e2f7abfaa101d04e8f52ffd8d473a14a7313cb76/68747470733a2f2f65732d7468656d652d706c617973746174696f6e2d782e746f6361706978656c732e636f6d2f696d672f6361707475726130312e6a7067)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
 
