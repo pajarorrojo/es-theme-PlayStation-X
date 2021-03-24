@@ -1,0 +1,9 @@
+<!-- Theme by pajarorrojo-->
+<theme> 
+<formatVersion>7</formatVersion> 
+   <view name="system"> 
+      <text name="username" extra="true"> 
+         <text>batocera</text>
+      </text> 
+   </view> 
+</theme>

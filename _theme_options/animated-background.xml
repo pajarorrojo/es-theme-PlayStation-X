@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-<view name="basic, detailed, system,grid">
+<view name="basic, detailed, grid">
    <video name="default_background" extra="true">
          <pos>0 0</pos>
          <size>1 1</size>

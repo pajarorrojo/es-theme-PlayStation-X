@@ -2,10 +2,16 @@
 <!-- Theme by pajarorrojo-->
 <theme>
   <formatVersion>7</formatVersion>
+  	<include lang="es">./_theme_lang/es.xml</include>
+	<include lang="fr">./_theme_lang/fr.xml</include>
+	<include lang="pt">./_theme_lang/pt.xml</include>
+
+  	<variables>
+	  <theme.welcome>Welcome to Playstation X for Batocera </theme.welcome>
+    </variables>
      
 
 	<view name="splash">
-
 		<splash name="splash">
 			<backgroundColor>003791</backgroundColor>
 		</splash>
@@ -13,15 +19,11 @@
 	  <image name="avatar" extra="true">
          <pos>0.630 0.04</pos>
          <maxSize>0.055 0.055</maxSize>
-         <path>./_theme_inc/your-avatar.png</path>
-         <zIndex></zIndex>
+         <zIndex>999</zIndex>
       </image>
 
 	<text name="welcome" extra="true">
-	   <text >Welcome to Playstation X for Batocera </text>
-	   <text lang="es">Bienvenido a Playstation X para Batocera</text>
-	   <text lang="fr">Bienvenue sur Playstation X pour Batocera</text>
-       <text lang="pt">Bem-vindo ao Playstation X para Batocera</text>
+	   <text >${theme.welcome}</text>
          <pos>0.165 0.05</pos>
          <color>ffffff</color>
          <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>

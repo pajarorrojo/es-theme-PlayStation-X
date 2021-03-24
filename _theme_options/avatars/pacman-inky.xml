@@ -1,0 +1,15 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+     <image name="avatar" extra="true">
+         <path>./images/pacman-inky.png</path>
+     </image>
+
+
+      
+</view>
+
+</theme>
