@@ -12,7 +12,7 @@
          <path>{random}</path>
          <path>./../_theme_inc/videos/${system.theme}_mute.mp4</path>
          
-         <delay>2</delay>
+         <delay>1</delay>
          <zIndex>40</zIndex>   
 	</video>
 <text name="system_description" extra="true">
