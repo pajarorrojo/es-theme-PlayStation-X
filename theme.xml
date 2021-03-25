@@ -185,7 +185,7 @@ Portuguese (PT)
 		</menuText>
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.028</fontSize>
+			<fontSize>0.022</fontSize>
 			<color>3CAEFB</color>
 		</menuTextSmall>
 		<menuText name="menutitle">
