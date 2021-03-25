@@ -40,8 +40,12 @@ Portuguese (PT)
 	
 <!--VARIABLES-->
 	<variables>
-     <theme.start>Start</theme.start>
-     <gameBar>Show gamebar info</gameBar>
+      <theme.start>Start</theme.start>
+	  <theme.mostplayed>Most played:</theme.mostplayed>
+	  <GamesNumber>Games</GamesNumber>
+	  <GamesFavs>Favorites</GamesFavs>
+	  <NumberPlayed>Played</NumberPlayed>
+      <gameBar>Show gamebar info</gameBar>
 	  <CarouselImageSize>Carousel Image Size</CarouselImageSize>
 	  <iconset>iconset</iconset>
 	  <theme.videoBackground>Show videos in system view</theme.videoBackground>
@@ -154,8 +158,8 @@ Portuguese (PT)
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>Ver. 30.2</text>
-         <pos>0.945 0.951</pos>
+         <text>Ver.30.2</text>
+         <pos>0.9435 0.9495</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 	     <fontSize>0.0220</fontSize>

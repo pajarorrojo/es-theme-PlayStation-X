@@ -4,11 +4,14 @@
   <variables lang="fr">
    <theme.welcome>Bienvenue sur Playstation X pour Batocera</theme.welcome>
    <theme.start>Démarrer</theme.start>
+    <theme.mostplayed>Le plus joué :</theme.mostplayed>
+    <GamesNumber>Joués</GamesNumber>
+    <GamesFavs>Favoris</GamesFavs>
+	  <NumberPlayed>Jugados</NumberPlayed>
     <blue>Bleu</blue>
     <black>Noir</black>
     <yes>Oui</yes>
     <no>Non</no>
-    <subset.colorset>Jeux de couleurs</subset.colorset>
     <iconset>iconset</iconset>
     <gameBar>Barre d'information des jeux</gameBar>
     <CarouselImageSize>Taille de l'image du carrousel</CarouselImageSize>
