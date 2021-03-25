@@ -2,12 +2,14 @@ Version 30.2 (25/03/2021)
 
 - New Avatars and Nickname presets! choose between more than 20 Avatars or Nicknames in theme options.
 - Fixed an issue where snapshot slots could not be identified.
-- Fixed a problem with the 12h clock format for the new beta 31 
+- Fixed a problem with the 12h clock format for the new beta 31
+
 -----------------------
 Version 30.1 (22/03/2021)
 
 -Added a new grid gamelist view (looks better with no scraped image mixes)
--Added thumbnails and data to “arcade systems” in systems view
+-Added thumbnails and data to “arcade systems” in systems view.
+
 -----------------------
 Version 30 (08/03/2021)
 
@@ -23,6 +25,7 @@ Version 30 (08/03/2021)
 - New folder structure
 - PSX iconset to SVG 
 - Change Version number according to batocera compatible version
+
 -------------------------
 Version 2.1 (13/12/2020)
 
@@ -33,6 +36,7 @@ Version 2.1 (13/12/2020)
 - Fixed scrolling sounds in system view. Enable or disable navigation sounds in general system settings. (only compatible with batocera 29)
 - Console images in system menu and game list
 - Some minor graphics changes have been made to improve the user experience
+
 --------------------------
 Version 2.0 (12/11/2020)
 
@@ -43,6 +47,7 @@ Version 2.0 (12/11/2020)
 -Added a scroll sound on systems selection  (enable or disable in theme config).
 -Added a default animated background for systems when no background image available.
 -Added a defatult logo (cover) for system when no image available.
+
 ---------------------------
 Version 1 (31/10/2018)
 -theme published on github, until this version it was a custom private theme, there is no registered change log 
