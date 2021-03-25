@@ -1,6 +1,9 @@
 <!-- Theme by pajarorrojo-->
 <theme>
 <formatVersion>7</formatVersion>
+	<include lang="es">./../_theme_lang/es.xml</include>
+	<include lang="fr">./../_theme_lang/fr.xml</include>
+	<include lang="pt">./../_theme_lang/pt.xml</include>
 
 <view name="system">
 
@@ -71,15 +74,14 @@
       </text>	
 
       <image name="avatar" extra="true">
-         <pos>0.630 0.04</pos>
-         <maxSize>0.055 0.055</maxSize>
-         <path>./../_theme_inc/your-avatar.png</path>
+         <pos>0.618 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
          <zIndex>60</zIndex>
       </image>
 
       <text name="username" extra="true"><!-- usuario-->
-         <pos>0.667 0.05</pos>ç
-         <size>0.112 0.035</size>
+         <pos>0.660 0.05</pos>
+         <size>0.123 0.035</size>
          <color>ffffff</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.028</fontSize>
@@ -174,12 +176,7 @@
 	   
 	  
 	   <text name="start" extra="true">
-     <text>Start</text>
-     <text lang="es">Iniciar</text>
-     <text lang="fr">Démarrer</text>
-     <text lang="pt">Iniciar</text>
-
-     
+        <text>${theme.start}</text>
         <size>0.207 0.07</size>
         <backgroundColor>00000069</backgroundColor>
 	     <alignment>center</alignment> 

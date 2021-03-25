@@ -21,12 +21,13 @@
 <view name="screen">
 
 	<controllerActivity name="controllerActivity">
-  <pos>0.012 0.941</pos>
-      <size>0.068</size>
+      <pos>0.003 0.941</pos>
+      <size>0.06</size>
       <color>FFFFFF90</color>
 	  <imagePath>./psx/controller.svg</imagePath>      
       <activityColor>003791</activityColor>
       <hotkeyColor>FF0000</hotkeyColor>
+	   <backgroundColor>000000</backgroundColor>
     </controllerActivity>
 
 

@@ -2,12 +2,14 @@
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="es">
+    <theme.welcome>Bienvenido a Playstation X para Batocera</theme.welcome>
+    <theme.start>Iniciar</theme.start>
     <blue>Azul</blue>
     <black>Negro</black>
     <yes>Si</yes>
     <no>No</no>
     <subset.colorset>Juego de colores</subset.colorset>
-    <iconset>iconos y botones del tipo</iconset>
+    <iconset>Iconos y botones del tipo</iconset>
     <gameBar>Barra de información de juegos</gameBar>
     <CarouselImageSize>Tamaño de imágenes del carrusel</CarouselImageSize>
     <theme.videoBackground>Mostrar vídeos en la vista del sistema</theme.videoBackground>
@@ -15,6 +17,9 @@
     <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
     <theme.smallScreenOption>Ventana pequeña con sonido</theme.smallScreenOption>
+    <theme.Avatar>Escoge tu Avatar</theme.Avatar>
+    <theme.username>Escoge un Nick</theme.username>
+    <custom>Personalizado</custom>
     <big>grande</big>
     <medium>mediano</medium>
     <small>pequeño</small>

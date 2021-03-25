@@ -2,6 +2,8 @@
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="fr">
+   <theme.welcome>Bienvenue sur Playstation X pour Batocera</theme.welcome>
+   <theme.start>Démarrer</theme.start>
     <blue>Bleu</blue>
     <black>Noir</black>
     <yes>Oui</yes>
@@ -15,6 +17,9 @@
     <theme.animated-background>fond animé (vagues) </theme.animated-background>
     <theme.backgroundVideoOption>vidéo de fond</theme.backgroundVideoOption>
     <theme.smallScreenOption>Petit écran avec son</theme.smallScreenOption>
+    <theme.Avatar>Choisissez votre Avatar</theme.Avatar>
+    <theme.username>Choisissez un Nickname</theme.username>
+    <custom>Personnalisé</custom>
     <big>grand</big>
     <medium>moyen</medium>
     <small>petit</small>
