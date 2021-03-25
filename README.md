@@ -31,18 +31,17 @@ For change the avatar image simply overwrite the PNG file named "custom-avatar.p
 For change the username string, open the file "customm-username.xml" with a text editor and change “username” for the desired nick
 
 
--Multilanguage
+-Multilanguage theme
 
 
 ————  SUPPORTED LANGUAGES ———— 
 
-English (EN) (default for not supported languages)
+- English (EN) (default for not supported languages)
+- Spanish (ES)
+- French (FR)
+- Portuguese (PT)
 
-Spanish (ES)
-
-French (FR)
-
-Portuguese (PT)
+Any collaboration for translation or new language supported is fully appreciated
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -60,18 +59,14 @@ Para cambiar la cadena de nombre de usuario, abre el archivo "custom-username.xm
 
 
 
-
 -Multilenguaje 
-
-
 
 
 ———— IDIOMAS COMPATIBLES ————
 
-Inglés (EN) (predeterminado para idiomas no compatibles)
+- Inglés (EN) (predeterminado para idiomas no compatibles)
+- Español (ES)
+- Francés (FR)
+- Portugués (PT)
 
-Español (ES)
-
-Francés (FR)
-
-Portugués (PT)
+Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
