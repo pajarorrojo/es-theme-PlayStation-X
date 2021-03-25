@@ -49,6 +49,6 @@ Version 2.0 (12/11/2020)
 - Added a defatult logo (cover) for system when no image available.
 
 ---------------------------
-Version 1 (31/10/2018)
+Version 1 (31/10/2020)
 - theme published on github, until this version it was a custom private theme, there is no registered change log 
 
