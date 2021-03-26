@@ -89,7 +89,7 @@ Portuguese (PT)
 <subset name="system-username" displayName="${theme.username}">
 	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./custom-username.xml</include>
-	<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>
+	<!--<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>-->
 	<include name="emulationstation" displayName="EmulationStation">./_theme_options/usernames/emulationstation.xml</include>
 	<include name="recalbox" displayName="Recalbox">./_theme_options/usernames/recalbox.xml</include>
 	<include name="retropie" displayName="Retropie">./_theme_options/usernames/retropie.xml</include>
