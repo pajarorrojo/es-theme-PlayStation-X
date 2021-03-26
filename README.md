@@ -24,14 +24,12 @@ Hope you enjoy! any suggestion is fully welcomed.
 
 ———— HOW TO CHANGE CUSTOM AVATAR AND USERNAME? ————
 
--You can change the custom avatar and username of the theme, the 2 files are located in the root folder.
+The 2 files are located in the root folder.
 
-For change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
+- For change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
 
-For change the username string, open the file "customm-username.xml" with a text editor and change “username” for the desired nick
+- For change the username string, open the file "customm-username.xml" with a text editor and change “username” for the desired nick
 
-
--Multilanguage theme
 
 
 ————  SUPPORTED LANGUAGES ———— 
@@ -51,15 +49,12 @@ Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario
 
 ———— ¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO? ————
 
--Puedes cambiar el avatar y el nombre de usuario personalizados del tema
+Los dos archivos los encontrarás en la carpeta raiz del tema.
 
-Para cambiar la imagen del avatar, simplemente sobrescribe la imagen PNG "custom-avatar.png" que encontrarás en la carpeta del tema. (se verá mejor si el formato de la imagen es cuadrado)
+- Para cambiar la imagen del avatar, simplemente sobrescribe la imagen PNG "custom-avatar.png" (mejor si el formato de la imagen es cuadrado)
 
-Para cambiar la cadena de nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
+- Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
 
-
-
--Multilenguaje 
 
 
 ———— IDIOMAS COMPATIBLES ————
