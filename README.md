@@ -32,6 +32,7 @@ The 2 files are located in the root folder.
 
 
 
+
 ————  SUPPORTED LANGUAGES ———— 
 
 - English (EN) (default for not supported languages)
@@ -41,7 +42,11 @@ The 2 files are located in the root folder.
 
 Any collaboration for translation or new language supported is fully appreciated
 
----------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+
+
 
 Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
 
@@ -54,6 +59,7 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 - Para cambiar la imagen del avatar, simplemente sobrescribe la imagen PNG "custom-avatar.png" (mejor si el formato de la imagen es cuadrado)
 
 - Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
+
 
 
 
