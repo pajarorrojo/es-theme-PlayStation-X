@@ -22,7 +22,7 @@ Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and userna
 
 Hope you enjoy! any suggestion is fully welcomed.
 
-###HOW TO CHANGE CUSTOM AVATAR AND USERNAME?
+### HOW TO CHANGE CUSTOM AVATAR AND USERNAME?
 
 The 2 files are located in the root folder.
 
@@ -32,7 +32,7 @@ The 2 files are located in the root folder.
 
 
 
-#####SUPPORTED LANGUAGES
+##### SUPPORTED LANGUAGES
 
 - English (EN) (default for not supported languages)
 - Spanish (ES)
@@ -51,7 +51,7 @@ Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario
 
 
 
-###¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO?
+### ¿CÓMO CAMBIAR EL AVATAR PERSONALIZADO Y EL NOMBRE DE USUARIO?
 
 Los dos archivos los encontrarás en la carpeta raiz del tema.
 
@@ -60,7 +60,7 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 - Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
 
 
-#####IDIOMAS COMPATIBLES
+##### IDIOMAS COMPATIBLES
 
 - Inglés (EN) (predeterminado para idiomas no compatibles)
 - Español (ES)
