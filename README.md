@@ -28,7 +28,7 @@ The 2 files are located in the root folder.
 
 - For change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
 
-- For change the username string, open the file "customm-username.xml" with a text editor and change "username" for the desired nick
+- For change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
 
 
 
