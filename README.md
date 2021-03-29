@@ -38,6 +38,7 @@ The 2 files are located in the root folder.
 - Spanish (ES)
 - French (FR)
 - Portuguese (PT)
+- Italian (IT) -only pure interface strings, not system descriptions-
 
 Any collaboration for translation or new language supported is fully appreciated
 
@@ -66,6 +67,7 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 - Español (ES)
 - Francés (FR)
 - Portugués (PT)
+- Italiano (IT) -solo en los textos de la interfaz, no en las descripciones de sistemas-
 
 Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
 

@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<!-- Theme by pajarorrojo-->
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="fr">
@@ -8,6 +9,9 @@
     <GamesNumber>Joués</GamesNumber>
     <GamesFavs>Favoris</GamesFavs>
 	  <NumberPlayed>Jugados</NumberPlayed>
+    <big>grand</big>
+    <medium>moyen</medium>
+    <small>petit</small>
     <blue>Bleu</blue>
     <black>Noir</black>
     <yes>Oui</yes>
@@ -23,9 +27,6 @@
     <theme.Avatar>Choisissez votre Avatar</theme.Avatar>
     <theme.username>Choisissez un Nickname</theme.username>
     <custom>Personnalisé</custom>
-    <big>grand</big>
-    <medium>moyen</medium>
-    <small>petit</small>
+    <theme.videoGamelistDelay>Délai vidéo de la liste de jeux</theme.videoGamelistDelay>
   </variables>
 </theme>
-

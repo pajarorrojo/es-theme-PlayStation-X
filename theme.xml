@@ -1,42 +1,19 @@
-<!--
-Theme by pajarorrojo
-Theme inspired in the PlayStation 3 / 4 interface for Batocera.linux
-
-Hope you enjoy! any suggestion is fully welcomed.
-
-
-———— HOW TO CHANGE CUSTOM AVATAR AND USERNAME? ————
-
--You can change the avatar and username showed in theme, the files are located in the “/_theme_inc/” folder.
-
-For change the avatar image simply overwrite the file "your-avatar.png" in the “/_theme_inc/” folder.
-For change the username string, open the file "your-username-here.xml" with a text editor and change “username” for the desired username
-
-
-
-————  SUPPORTED LANGUAGES ———— 
-English (EN) (default for not supported languages)
-Spanish (ES)
-French (FR)
-Portuguese (PT)
-
-
-
--->
-
+<!--Theme by pajarorrojo-->
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
 
-
-   <include>./_theme_inc/infos/${system.theme}.xml</include>	
+<!--INCLUDES-->
+    <include>./_theme_inc/infos/${system.theme}.xml</include>	
 	<include>./_theme_views/detailed.xml</include>
 	<include>./_theme_views/grid.xml</include>
 	<include>./_theme_views/front.xml</include>
+
 <!--IDIOMAS-->
 	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
+	<include lang="it">./_theme_lang/it.xml</include>
 	
 <!--VARIABLES-->
 	<variables>
@@ -54,22 +31,30 @@ Portuguese (PT)
 	  <theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
 	  <theme.Avatar>Choose your Avatar</theme.Avatar>
 	  <theme.username>Choose a Nick</theme.username>
-     
+	  <theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
+	  <VideoOff>Video Off</VideoOff>    
     </variables>
 
 <!--OPCIONES DEL TEMA-->
+
+<!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
 	<include name="batocera" displayName="Batocera">./_theme_options/avatars/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
-	<include name="cloud" displayName="Cloud FF7">./_theme_options/avatars/cloud.xml</include>
+	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
+	<include name="castlevania" displayName="Castlevania">./_theme_options/avatars/castlevania.xml</include>
+	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
 	<include name="daytentacle" displayName="Day of the Tentacle">./_theme_options/avatars/daytentacle.xml</include> 
+	<include name="donkey" displayName="Donkey Kong">./_theme_options/avatars/donkey.xml</include> 
 	<include name="emulationstation" displayName="Emulation Station">./_theme_options/avatars/emulationstation.xml</include>
 	<include name="halo" displayName="Halo">./_theme_options/avatars/halo.xml</include>
+	<include name="jackelguapo" displayName="Handsome Jack">./_theme_options/avatars/jackelguapo.xml</include>
+	<include name="larry" displayName="Larry Laffer">./_theme_options/avatars/larry.xml</include>
 	<include name="zelda" displayName="Link (Zelda)">./_theme_options/avatars/zelda.xml</include>
 	<include name="mario" displayName="Mario Bros.">./_theme_options/avatars/mario.xml</include>
 	<include name="megaman" displayName="Mega-Man">./_theme_options/avatars/megaman.xml</include>
-	<include name="recalbox" displayName="Recalbox">./_theme_options/avatars/recalbox.xml</include>
-	<include name="retropie" displayName="Retropie">./_theme_options/avatars/retropie.xml</include>
+	<include name="metroid" displayName="Metroid">./_theme_options/avatars/metroid.xml</include>
+	<include name="monkeyisland" displayName="Monkey Island">./_theme_options/avatars/monkeyisland.xml</include>
 	<include name="pacman" displayName="Pac-Man">./_theme_options/avatars/pacman.xml</include>
 	<include name="pacman-clyde" displayName="Pac-Man Clyde">./_theme_options/avatars/pacman-clyde.xml</include>
 	<include name="pacman-Inky" displayName="Pac-Man Inky">./_theme_options/avatars/pacman-inky.xml</include>
@@ -77,26 +62,49 @@ Portuguese (PT)
 	<include name="pacman-pinky" displayName="Pac-Man Pinky">./_theme_options/avatars/pacman-pinky.xml</include>
 	<include name="astrobot" displayName="PSN Astro Bot">./_theme_options/avatars/astrobot.xml</include>
 	<include name="retroship" displayName="PSN Retro Ship">./_theme_options/avatars/retroship.xml</include>
+	<include name="recalbox" displayName="Recalbox">./_theme_options/avatars/recalbox.xml</include>
 	<include name="retroachievements" displayName="Retroachievements">./_theme_options/avatars/retroachievements.xml</include>
+	<include name="retropie" displayName="Retropie">./_theme_options/avatars/retropie.xml</include>
 	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./_theme_options/avatars/shenmue.xml</include>
 	<include name="ryu" displayName="Ryu (Street Fighter 2)">./_theme_options/avatars/ryu.xml</include>
+	<include name="sephirot" displayName="Sephirot">./_theme_options/avatars/sephirot.xml</include>
 	<include name="metal-gear" displayName="Solid Snake">./_theme_options/avatars/metal-gear.xml</include>
 	<include name="sonic" displayName="Sonic">./_theme_options/avatars/sonic.xml</include>
-	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/avatars/pajarorrojo.xml</include>
-	
+	<include name="wonderboy" displayName="Wonderboy">./_theme_options/avatars/wonderboy.xml</include>
+	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/avatars/pajarorrojo.xml</include>	
 </subset>  
 
+<!--NICKNAMES-->
+
 <subset name="system-username" displayName="${theme.username}">
+ 	<include name="playstation-x" displayName="Playstation-X">./_theme_options/usernames/playstation-x.xml</include>  
 	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./custom-username.xml</include>
-	<!--<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>-->
+	<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>
 	<include name="emulationstation" displayName="EmulationStation">./_theme_options/usernames/emulationstation.xml</include>
+	<include name="ezio" displayName="Ezio Auditore">./_theme_options/usernames/ezio.xml</include>
+	<include name="belmont" displayName="Gabriel Belmont">./_theme_options/usernames/belmont.xml</include>
+	<include name="geralt" displayName="Geralt of Rivia">./_theme_options/usernames/geralt.xml</include>
+	<include name="guybrush" displayName="Guybrush Threepwood">./_theme_options/usernames/guybrush.xml</include>
+	<include name="jackelguapo" displayName="Handsome Jack">./_theme_options/usernames/jackelguapo.xml</include>
+	<include name="kratos" displayName="Kratos">./_theme_options/usernames/kratos.xml</include>
+	<include name="laracroft" displayName="Lara Croft">./_theme_options/usernames/laracroft.xml</include>
+	<include name="larry" displayName="Larry Laffer">./_theme_options/usernames/larry.xml</include>
+	<include name="linkzelda" displayName="Link">./_theme_options/usernames/linkzelda.xml</include>
+	<include name="megaman" displayName="Mega-Man">./_theme_options/usernames/megaman.xml</include>
+	<include name="nathandrake" displayName="Nathan Drake">./_theme_options/usernames/nathandrake.xml</include>
 	<include name="recalbox" displayName="Recalbox">./_theme_options/usernames/recalbox.xml</include>
 	<include name="retropie" displayName="Retropie">./_theme_options/usernames/retropie.xml</include>
 	<include name="retroarch" displayName="RetroArch">./_theme_options/usernames/retroarch.xml</include>
-
+	<include name="samus" displayName="Samus Aran">./_theme_options/usernames/samus.xml</include>
+	<include name="sephirot" displayName="Sephirot">./_theme_options/usernames/sephirot.xml</include>
+	<include name="solidsnake" displayName="Solid Snake">./_theme_options/usernames/solidsnake.xml</include>
+	<include name="sonic" displayName="Sonic the Hedgehog">./_theme_options/usernames/sonic.xml</include>
+	<include name="subzero" displayName="Sub Zero">./_theme_options/usernames/subzero.xml</include>
 	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/usernames/pajarorrojo.xml</include>
 </subset>  
+
+<!--SETS DE ICONOS-->
 
 <subset name="iconset" displayName="${iconset}">
   <include  name="1-PSX">./_theme_inc/iconsets/psx.xml</include>
@@ -106,11 +114,15 @@ Portuguese (PT)
   <include  name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
 </subset>
 
+<!--TAMAÑO CARRUSEL-->
+
 <subset name="Carousel" displayName="${CarouselImageSize}">
 	<include name="big" displayName="${big}">./_theme_options/carousel-big.xml</include>
 	<include name="medium" displayName="${medium}">./_theme_options/carousel-standard.xml</include>
 	<include name="small" displayName="${small}">./_theme_options/carousel-small.xml</include>
 </subset>
+
+<!--OPCIONES DE VIDEO SISTEMAS-->
 
 <subset name="video-background" displayName="${theme.videoBackground}">
 	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/enable-video-bg-mute.xml</include>
@@ -118,21 +130,36 @@ Portuguese (PT)
 	<include name="NO" displayName="${no}">./_theme_options/no-video.xml</include>
 </subset>
 
+<!--DESCRIPCIONES-->
+
 <subset name="system-description" displayName="${theme.system-description}">
 	<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
 	<include name="NO" displayName="${no}" />
 </subset>
+
+<!--BARRA DE INFO JUEGOS-->
 <subset name="info-bar" displayName="${gameBar}">
 	<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
 	<include name="NO" displayName="${no}"/>
 </subset>
+
+<!--OPCIONES DE RETARDO DE VIDEO-->
+<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}">
+	<include name="1sec" displayName="1s">./_theme_options/video_delay/gamelist-video-1s.xml</include>
+	<include name="2sec" displayName="2s">./_theme_options/video_delay/gamelist-video-2s.xml</include>
+	<include name="3sec" displayName="3s">./_theme_options/video_delay/gamelist-video-3s.xml</include>
+	<include name="off" displayName="${VideoOff}">./_theme_options/video_delay/gamelist-video-off.xml</include>
+	<include name="0sec" displayName="0s">./_theme_options/video_delay/gamelist-video-0s.xml</include>	
+	<include name="05sec" displayName="0.5s">./_theme_options/video_delay/gamelist-video-05s.xml</include>	
+</subset>
+
+<!--FONDO ANIMADO-->
 <subset name="animated-backg" displayName="${theme.animated-background}">
 	<include name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	<include name="NO" displayName="${no}"/>
 </subset>  
 
 <!--RELOJ-->
-
 <view name="screen">
     <text name="clock" >
        <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
@@ -158,7 +185,7 @@ Portuguese (PT)
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>Ver.30.2</text>
+         <text>Ver.30.3</text>
          <pos>0.9435 0.9495</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -172,13 +199,12 @@ Portuguese (PT)
   <!--MENUS--> 
 
    <view name="menu">
-
-
 		<menuText name="menufooter">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 			<color>777777FF</color>
 		</menuText>
+
 		<menuText name="menutext">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.028</fontSize>
@@ -187,25 +213,26 @@ Portuguese (PT)
 			<selectorColor>3CAEFB</selectorColor>
 			<selectedColor>003791</selectedColor>
 		</menuText>
+
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.022</fontSize>
 			<color>3CAEFB</color>
 		</menuTextSmall>
+
 		<menuText name="menutitle">
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.037</fontSize>
 			<color>DFECFA</color>
 		</menuText>
+
 		<menuBackground name="menubg">
 		    <color>003791</color>
 		    <path>./_theme_inc/images/fond_menu.png</path> 
 		    <fadePath>./_theme_inc/images/fond_menu.png</fadePath>
-      </menuBackground>
+        </menuBackground>
 
-
-	
-	<menuIcons name="menuicons">
+	  <menuIcons name="menuicons">
         <iconKodi>./_theme_inc/menu_icons/Kodi.png</iconKodi>
         <iconSystem>./_theme_inc/menu_icons/System.png</iconSystem>
         <iconUpdates>./_theme_inc/menu_icons/Updates.png</iconUpdates>
@@ -222,9 +249,7 @@ Portuguese (PT)
         <iconFastShutdown>./_theme_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
         <iconRetroachievements>./_theme_inc/menu_icons/Contest.png</iconRetroachievements>
         <iconManual>./_theme_inc/menu_icons/Manual.png</iconManual>
-	</menuIcons>
-
-
+	  </menuIcons>
 </view> 
 
 <!--BARRA INFERIOR BOTONES-->
@@ -238,7 +263,4 @@ Portuguese (PT)
 		 <fontSize>0.026</fontSize>
       </helpsystem>	
 </view>
-
-
-   
 </theme>

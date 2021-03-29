@@ -1,8 +1,21 @@
+Version 30.3 (30/03/2021)
+
+- New Video snapshot delay customizable in theme options (0secs, 0.5, 1, 2, 3, video off)
+- New italian (IT) language to interface (not systems desc.)
+- Added new nicknames presets on theme options
+- Added new image avatars presets on theme options
+- Added missing arcade systems partial data
+- Added missing systems partial data
+- Fixed Atari Jaguar system data
+- Fixed Gamecube system data
+
+
+-----------------------
 Version 30.2 (25/03/2021)
 
-- New Avatars and Nickname presets! choose between more than 20 Avatars or Nicknames in theme options.
+- Added New Avatars and Nickname presets! choose between more than 20 Avatars or Nicknames in theme options.
 - Fixed an issue where snapshot slots could not be identified.
-- Fixed a problem with the 12h clock format for the new beta 31
+- Fixed a problem with the 12h clock format in the new beta 31
 
 -----------------------
 Version 30.1 (22/03/2021)

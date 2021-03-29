@@ -5,6 +5,7 @@
   	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
+	<include lang="it">./_theme_lang/it.xml</include>
 
   	<variables>
 	  <theme.welcome>Welcome to Playstation X for Batocera </theme.welcome>
@@ -16,11 +17,6 @@
 			<backgroundColor>003791</backgroundColor>
 		</splash>
 
-	  <image name="avatar" extra="true">
-         <pos>0.630 0.04</pos>
-         <maxSize>0.055 0.055</maxSize>
-         <zIndex>999</zIndex>
-      </image>
 
 	<text name="welcome" extra="true">
 	   <text >${theme.welcome}</text>

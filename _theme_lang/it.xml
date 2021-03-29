@@ -1,0 +1,32 @@
+﻿<!-- Theme by pajarorrojo-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="it">
+    <theme.welcome>Benvenuto in Playstation X per Batocera</theme.welcome>
+    <theme.start>Avvia</theme.start>
+    <theme.mostplayed>Il più giocato:</theme.mostplayed>
+    <GamesNumber>Giochi:</GamesNumber>
+    <GamesFavs>Preferiti</GamesFavs>
+	  <NumberPlayed>Giocato</NumberPlayed>
+    <big>grande</big>
+    <medium>medio</medium>
+    <small>piccolo</small>
+    <blue>Blu</blue>
+    <black>Nero</black>
+    <yes>Sì</yes>
+    <no>Non</no>
+    <iconset>Iconset</iconset>
+    <gameBar>Mostra la barra delle informazioni sul gioco</gameBar>
+    <CarouselImageSize>Dimensioni immagine carosello</CarouselImageSize>
+    <theme.videoBackground>Mostra i video nella vista di sistema</theme.videoBackground>
+    <theme.system-description>Mostra le descrizioni del sistema</theme.system-description>
+    <theme.animated-background>Sfondo animato (onde)</theme.animated-background>
+    <theme.backgroundVideoOption>Video di sfondo</theme.backgroundVideoOption>
+    <theme.smallScreenOption>Piccola finestra con suono</theme.smallScreenOption>
+    <theme.Avatar>Scegli il tuo avatar</theme.Avatar>
+    <theme.username>Scegli un Nickname</theme.username>
+    <custom>Personalizzato</custom>
+    <theme.videoGamelistDelay>Ritardo video gamelist</theme.videoGamelistDelay>
+  </variables>
+</theme>

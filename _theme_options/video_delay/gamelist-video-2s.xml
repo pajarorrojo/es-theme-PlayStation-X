@@ -1,0 +1,15 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+ <formatVersion>7</formatVersion>
+     <view name="detailed">
+ 		<video name="md_video">
+			<delay>2</delay>
+		</video>
+	</view>
+
+     <view name="grid">
+ 		<video name="md_video">
+			<delay>2</delay>
+		</video>
+	</view>
+</theme>

@@ -226,16 +226,11 @@
       </image>    
 
 	<video name="md_video">
-
          <zIndex>48</zIndex>   
          <effect>none</effect>
-
          <pos>0 -0.3</pos>
 			<size>1 1</size>
-
 			<origin>0 0</origin>
-			<delay>0.5</delay>
-
 	</video>
    </view>
    

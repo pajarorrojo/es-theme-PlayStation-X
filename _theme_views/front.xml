@@ -4,6 +4,7 @@
 	<include lang="es">./../_theme_lang/es.xml</include>
 	<include lang="fr">./../_theme_lang/fr.xml</include>
 	<include lang="pt">./../_theme_lang/pt.xml</include>
+   <include lang="it">./../_theme_lang/it.xml</include>
 
 <view name="system">
 
@@ -73,7 +74,7 @@
 
       <text name="username" extra="true"><!-- usuario-->
          <pos>0.660 0.05</pos>
-         <size>0.123 0.035</size>
+         <size>0.165 0.035</size>
          <color>ffffff</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.028</fontSize>
@@ -82,7 +83,7 @@
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <zIndex>60</zIndex>    
-         <backgroundColor>00000000</backgroundColor>    
+         <backgroundColor>ff000000</backgroundColor>    
       </text>	
 
 

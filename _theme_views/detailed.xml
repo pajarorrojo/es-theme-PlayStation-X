@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- Theme by pajarorrojo-->
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
    <view name="basic, detailed">
       
-   
    <image name="logo">
 		<pos>0.04 0.025</pos>
       <alignment>left</alignment>
       <verticalAlignment>bottom</verticalAlignment>
 		<maxSize>0.2 0.095</maxSize>
       <origin>0 0</origin>
-				<!--  png -->
+		<!--  png -->
       <path>./_theme_inc/images/logos/${system.theme}.png</path>
       <!--  svg -->
       <path>./_theme_inc/images/logos/${system.theme}.svg</path>
@@ -22,7 +21,6 @@
       <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
 		<zIndex>53</zIndex>
    </image>	
-
 
       <text name="logoText" extra="true">
 	     <alignment>left</alignment> 
@@ -41,12 +39,10 @@
       <verticalAlignment>bottom</verticalAlignment>
       <size>0.11 0</size>
       <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
-            <storyboard>       
+      <storyboard>       
            <animation begin="350" property="y" from="0.16" to="0.161"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
-     
       </storyboard>
-      <zIndex>99</zIndex>
-    
+      <zIndex>99</zIndex>  
     </image>
 	
       <textlist name="gamelist">
@@ -85,8 +81,6 @@
        </storyboard>
       </image>
 
-
-
    <image name="background-extra" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -94,7 +88,6 @@
          <path>./../_theme_inc/images/fond_menu.png</path>
          <zIndex>38</zIndex>
       </image>
-
 
       <rating name="md_rating">
 			<pos>0.815 0.605</pos>
@@ -119,6 +112,7 @@
 			<zIndex>51</zIndex>
             <backgroundColor>00000000</backgroundColor>
 		</text>
+
       <datetime name="md_releasedate">
 			<pos>0.53 0.625</pos>
          <alignment>left</alignment> 
@@ -130,9 +124,7 @@
 			<fontSize>0.020</fontSize>
 			<zIndex>51</zIndex> 
          <backgroundColor>00000000</backgroundColor>
-
-         
-		</datetime>
+      </datetime>
       
       <text name="md_developer">
 			<size>0.250 0.037</size>
@@ -142,7 +134,6 @@
 			<color>00AC97</color>
 			<zIndex>51</zIndex>
          <backgroundColor>00000000</backgroundColor>
-
 		</text>
       
       <text name="md_description">
@@ -166,7 +157,8 @@
          <maxSize>0.42 0.56</maxSize>
          <zIndex>91</zIndex>   
          <effect>none</effect>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
 	</video>
    </view>
-
 </theme>
