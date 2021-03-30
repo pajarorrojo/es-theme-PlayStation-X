@@ -12,10 +12,17 @@
 			<text>Aquí encontrarás todas tus capturas de pantalla guardadas con la combinación del mando: Hotkey+L.</text>
 		</text>
 
+		<text name="system_description" extra="true" lang="fr">
+			<text>Retrouvez ici tous vos screenshots avec le Hotkey+L.</text>
+		</text>	
 
 
 
-				
+
+
+
+
+
 
 		<text name="system_name" extra="true">
 			<text>Screenshots Gallery</text>
@@ -23,6 +30,10 @@
 
 		<text name="system_name" extra="true" lang="es">
 			<text>Galería de Capturas</text>
+		</text>
+		
+		<text name="system_name" extra="true" lang="fr">
+			<text>Galerie des Screenshots</text>
 		</text>
 
 		

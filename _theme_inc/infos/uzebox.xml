@@ -12,7 +12,7 @@
 		</text>
 		
 				<text name="system_description" extra="true" lang="fr">
-				<text></text>
+				<text>La Uzebox est une console de jeux vidéo open source, aux graphismes rétro minimalistes. Elle est basée sur un microcontrôleur AVR 8-bit, fabriqué par la société Atmel. La particularité du système est l'utilisation d'un noyau conduit interrompu, et qu'il n'a pas de framebuffer. Les jeux sont développables en C.</text>
 		</text>
 
 	

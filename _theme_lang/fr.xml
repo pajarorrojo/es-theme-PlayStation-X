@@ -5,28 +5,28 @@
   <variables lang="fr">
    <theme.welcome>Bienvenue sur Playstation X pour Batocera</theme.welcome>
    <theme.start>Démarrer</theme.start>
-    <theme.mostplayed>Le plus joué :</theme.mostplayed>
+    <theme.mostplayed>Les plus joués :</theme.mostplayed>
     <GamesNumber>Joués</GamesNumber>
     <GamesFavs>Favoris</GamesFavs>
-	  <NumberPlayed>Jugados</NumberPlayed>
-    <big>grand</big>
-    <medium>moyen</medium>
-    <small>petit</small>
+	  <NumberPlayed>Joueurs</NumberPlayed>
+    <big>Grand</big>
+    <medium>Moyen</medium>
+    <small>Petit</small>
     <blue>Bleu</blue>
     <black>Noir</black>
     <yes>Oui</yes>
     <no>Non</no>
     <iconset>iconset</iconset>
-    <gameBar>Barre d'information des jeux</gameBar>
-    <CarouselImageSize>Taille de l'image du carrousel</CarouselImageSize>
-    <theme.videoBackground>Afficher les vidéos dans la vue système</theme.videoBackground>
-    <theme.system-description>Afficher les descriptions du système</theme.system-description>
-    <theme.animated-background>fond animé (vagues) </theme.animated-background>
-    <theme.backgroundVideoOption>vidéo de fond</theme.backgroundVideoOption>
-    <theme.smallScreenOption>Petit écran avec son</theme.smallScreenOption>
+    <gameBar>Barre d'informations des Jeux</gameBar>
+    <CarouselImageSize>Taille d'image du Carrousel</CarouselImageSize>
+    <theme.videoBackground>Afficher les vidéos en Arriere-Plan ?</theme.videoBackground>
+    <theme.system-description>Afficher les descriptions Systèmes ?</theme.system-description>
+    <theme.animated-background>Fond animé (vagues) ?</theme.animated-background>
+    <theme.backgroundVideoOption>Vidéo de Fond ?</theme.backgroundVideoOption>
+    <theme.smallScreenOption>Petit écran avec son ?</theme.smallScreenOption>
     <theme.Avatar>Choisissez votre Avatar</theme.Avatar>
-    <theme.username>Choisissez un Nickname</theme.username>
+    <theme.username>Choisissez un Pseudo</theme.username>
     <custom>Personnalisé</custom>
-    <theme.videoGamelistDelay>Délai vidéo de la liste de jeux</theme.videoGamelistDelay>
+    <theme.videoGamelistDelay>Délai vidéo de la Liste de Jeux</theme.videoGamelistDelay>
   </variables>
 </theme>
