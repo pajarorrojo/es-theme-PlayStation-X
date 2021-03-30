@@ -1,3 +1,5 @@
+
+------------------------
 Version 30.3 (30/03/2021)
 
 - New Video snapshot delay customizable in theme options (0secs, 0.5, 1, 2, 3, video off)
@@ -6,6 +8,7 @@ Version 30.3 (30/03/2021)
 - Added new image avatars presets on theme options
 - Added missing arcade systems partial data
 - Added missing systems partial data
+- Fixed and added some french translation to interface and systems description (thanks to soaresden)
 - Fixed Atari Jaguar system data
 - Fixed Gamecube system data
 
