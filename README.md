@@ -76,6 +76,7 @@ Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
 Thanks:
 -------
 - Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, always updating and performing. https://github.com/fabricecaruso
+- Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
 - Soaresden, for helping with the French translation https://github.com/soaresden
 - To the entire batocera team and contributors, for making and incredible software and a truly open community
