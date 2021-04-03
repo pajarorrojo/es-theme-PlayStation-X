@@ -32,5 +32,7 @@
     <VideoOff>Video Off</VideoOff>    
 	  <theme.systemConsole>logotipo e consoles na visualização do sistema?</theme.systemConsole>
 	  <randomGame>jogo aleatório</randomGame>
+    <theme.colorset>Esquemas de cores</theme.colorset>
+
   </variables>
 </theme>

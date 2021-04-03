@@ -32,5 +32,6 @@
     <VideoOff>Video Off</VideoOff>    
 	  <theme.systemConsole>Mostra il logo e le console in systemview</theme.systemConsole>
 	  <randomGame>gioco casuale</randomGame>
+    <theme.colorset>Set di colori</theme.colorset>
   </variables>
 </theme>

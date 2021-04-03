@@ -31,6 +31,7 @@
     <theme.videoGamelistDelay>Délai vidéo de la Liste de Jeux</theme.videoGamelistDelay>
     <VideoOff>Video Off</VideoOff>    
 	  <theme.systemConsole>Afficher logo et consoles dans systemview ?</theme.systemConsole>
-	  <randomGame>jeu aléatoire</randomGame>
+	  <randomGame>Jeu aléatoire</randomGame>
+    <theme.colorset>Jeux de couleurs</theme.colorset>
   </variables>
 </theme>
