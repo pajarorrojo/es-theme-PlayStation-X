@@ -1,0 +1,36 @@
+﻿<!-- Theme by pajarorrojo-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+	<variables>
+  	<theme.welcome>Welcome to Playstation X for Batocera </theme.welcome>
+    <theme.start>Start</theme.start>
+	  <theme.mostplayed>Most played:</theme.mostplayed>
+	  <GamesNumber>Games</GamesNumber>
+	  <GamesFavs>Favorites</GamesFavs>
+	  <NumberPlayed>Played</NumberPlayed>
+    <blue>blue</blue>
+    <black>black</black>
+    <big>big</big>
+    <medium>medium</medium>
+    <small>small</small>
+    <yes>yes</yes>
+    <no>No</no>
+    <iconset>iconset</iconset>
+    <gameBar>Show gamebar info</gameBar>
+	  <CarouselImageSize>Carousel Image Size</CarouselImageSize>
+	  <theme.videoBackground>Show videos in system view</theme.videoBackground>
+	  <theme.system-description>Show System descriptions</theme.system-description>
+	  <theme.animated-background>Animated background (waves)</theme.animated-background>
+	  <theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
+    <theme.smallScreenOption>Small Screen with audio</theme.smallScreenOption>
+    <theme.smallScreenNoaudio>Small Screen</theme.smallScreenNoaudio>
+	  <theme.Avatar>Choose your Avatar</theme.Avatar>
+	  <theme.username>Choose a Nick</theme.username>
+    <custom>custom</custom>
+	  <theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
+	  <VideoOff>Video Off</VideoOff>    
+	  <theme.systemConsole>Show logo and consoles in systemview</theme.systemConsole>
+	  <randomGame>Random Game</randomGame>
+    </variables>
+</theme>

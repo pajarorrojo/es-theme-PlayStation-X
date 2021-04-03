@@ -24,9 +24,13 @@
     <theme.animated-background>Sfondo animato (onde)</theme.animated-background>
     <theme.backgroundVideoOption>Video di sfondo</theme.backgroundVideoOption>
     <theme.smallScreenOption>Piccola finestra con suono</theme.smallScreenOption>
+    <theme.smallScreenNoaudio>Piccola finestra</theme.smallScreenNoaudio>
     <theme.Avatar>Scegli il tuo avatar</theme.Avatar>
     <theme.username>Scegli un Nickname</theme.username>
     <custom>Personalizzato</custom>
     <theme.videoGamelistDelay>Ritardo video gamelist</theme.videoGamelistDelay>
+    <VideoOff>Video Off</VideoOff>    
+	  <theme.systemConsole>Mostra il logo e le console in systemview</theme.systemConsole>
+	  <randomGame>gioco casuale</randomGame>
   </variables>
 </theme>

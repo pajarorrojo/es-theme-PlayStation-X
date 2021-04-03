@@ -24,9 +24,13 @@
     <theme.animated-background>Fond animé (vagues) ?</theme.animated-background>
     <theme.backgroundVideoOption>Vidéo de Fond ?</theme.backgroundVideoOption>
     <theme.smallScreenOption>Petit écran avec son ?</theme.smallScreenOption>
+    <theme.smallScreenNoaudio>Petit écran ?</theme.smallScreenNoaudio>
     <theme.Avatar>Choisissez votre Avatar</theme.Avatar>
     <theme.username>Choisissez un Pseudo</theme.username>
     <custom>Personnalisé</custom>
     <theme.videoGamelistDelay>Délai vidéo de la Liste de Jeux</theme.videoGamelistDelay>
+    <VideoOff>Video Off</VideoOff>    
+	  <theme.systemConsole>Afficher logo et consoles dans systemview ?</theme.systemConsole>
+	  <randomGame>jeu aléatoire</randomGame>
   </variables>
 </theme>
