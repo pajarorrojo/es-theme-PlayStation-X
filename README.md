@@ -2,7 +2,7 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura02-2.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura2-2.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
 
