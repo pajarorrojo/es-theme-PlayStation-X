@@ -5,7 +5,8 @@ Version 30.4 (06/04/2021)
 - New theme option in "show videos in system view" subset: added small screen (muted)
 - New splash loading screen, redesigned with avatar and username
 - Added default lang (EN) variables into a new separated file "/_theme_lang/default_en.xml"
-- Added Commodore Amiga data grouped system
+- Added Commodore Amiga grouped system media
+- Added Tyrquake media (thanks to hansolo77 for the logo)
 - Fixed some default lang (EN) variables
 - Fixed "choice" icon in PSX and PSX COLOR iconsets 
 - Fixed system description position when no video selected in theme options
