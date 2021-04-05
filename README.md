@@ -2,6 +2,8 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
 
+![](https://es-theme-playstation-x.tocapixels.com/img/captura02-2.jpg)
+
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
@@ -14,7 +16,7 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura-splash.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura-splash-2.jpg)
 
 
 # es-theme-PlayStation-X
