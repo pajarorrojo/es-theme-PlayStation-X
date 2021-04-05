@@ -2,71 +2,91 @@
 <!-- Theme by pajarorrojo-->
 <theme>
   <formatVersion>7</formatVersion>
+    <include>./_theme_lang/default_en.xml</include>
+	<include>./theme.xml</include>
   	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
 	<include lang="it">./_theme_lang/it.xml</include>
-
-  	<variables>
-	  <theme.welcome>Welcome to Playstation X for Batocera </theme.welcome>
-    </variables>
      
 
 	<view name="splash">
-		<splash name="splash">
-			<backgroundColor>003791</backgroundColor>
-		</splash>
 
+	<image name="avatar-frame" extra="true" >
+		<origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+	 	<path>./_theme_inc/images/overlay-splash.png</path>
+	  <storyboard>   
+        <animation property="opacity" from="1" to="0.3" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
+      </storyboard>		 
+	</image>
 
 	<text name="welcome" extra="true">
 	   <text >${theme.welcome}</text>
-         <pos>0.165 0.05</pos>
+	    <origin>0 0</origin>
+         <pos>0 0.2</pos>
+		 <size>1 0.05</size>
          <color>ffffff</color>
          <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.030</fontSize>
-         <alignment>left</alignment>
+         <fontSize>0.04</fontSize>
+         <alignment>center</alignment>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <zIndex>60</zIndex>    
-         <backgroundColor>00000000</backgroundColor>    
+         <backgroundColor>ff000000</backgroundColor>    
       </text>
 
-		<image name="background">
-	 		<path>./_theme_inc/images/fond_menu.png</path>
-		</image>
+	<image name="avatar" extra="true">
+         <pos>0.438 0.34</pos>
+         <maxSize>0.222 0.222</maxSize>
+		 <backgroundColor>ff000000</backgroundColor>    
+		 <verticalAlignment>middle</verticalAlignment>
+		 <alignment>center</alignment>
 
-		<image name="background2" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_theme_inc/images/overlay.png</path>
-         <zIndex></zIndex>
-        </image>
-				
-		<image name="progressbar">
-			<origin>0 0</origin>
-			<pos>0.250 0.503</pos>
-			<size>0.5 0.04</size>
-			<rotation>0</rotation>
-			<rotationOrigin>1.1 1.6</rotationOrigin>
-			<color>00379169</color>
-		</image>
+         <zIndex>99</zIndex>
+      </image>
+      <text name="username" extra="true"><!-- usuario-->
+         <pos>0 0.58</pos>
+		 <size>1 0.034</size>
+         <color>ffffff</color>
+         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.038</fontSize>
+         <alignment>center</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>    
+      </text>	
 
 		<text name="label">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-			<pos>0.01 0.503</pos>			
-			<color>ffffff</color>
+			<pos>0 0.703</pos>			
+			<color>${splash.labelColor}</color>
 			<fontSize>0.030</fontSize>
+			 <alignment>center</alignment>
+         	<glowColor>00000035</glowColor>
+         	<glowSize>1</glowSize>
+         	<glowOffset>3 2</glowOffset>
 		</text>
-		
+
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.250 0.703</pos>
+			<size>0.5 0.04</size>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+			<color>${splash.progressbar}</color>
+		</image>
+
 		<image name="progressbar:active">
-			<color>003791</color>
-			<pos>0.250 0.5</pos>
+			<pos>0.250 0.700</pos>
 			<size>-0.08 -0.386</size>
 			<rotation>0</rotation>
 			<rotationOrigin>1.1 1.6</rotationOrigin>
+			<color>${splash.progressbarActive}</color>
 		</image>
-		
 	</view>	
 </theme>

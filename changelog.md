@@ -1,3 +1,17 @@
+Version 30.4 (06/04/2021)
+
+- New theme option: Show logos and consoles in system view (yes, no, random game)
+- New theme option: theme colorsets (blue or black)
+- New theme option in "show videos in system view" subset: added small screen (muted)
+- New splash loading screen, redesigned with avatar and username
+- Added default lang (EN) variables into a new separated file "/_theme_lang/default_en.xml"
+- Added Commodore Amiga data grouped system
+- Fixed some default lang (EN) variables
+- Fixed "choice" icon in PSX and PSX COLOR iconsets 
+- Fixed system description position when no video selected in theme options
+- Adjust font sizes of the bottom help bar in the languages (es, fr, it) to avoid overflow 
+- Minor changes in menu colors (blue) to improve contrast in selected items
+- Minor changes in some system descriptions (ES)
 
 ------------------------
 Version 30.3 (30/03/2021)

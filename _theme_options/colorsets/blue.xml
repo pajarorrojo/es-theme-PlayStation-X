@@ -1,0 +1,82 @@
+﻿<!-- Theme by pajarorrojo-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+      <menuSelectedColor>ffffff</menuSelectedColor>
+      <menuSelectorColor>0070d1</menuSelectorColor>
+      <menuFontcolor>DFDCDC</menuFontcolor>
+      <menuSeparatorColor>555555</menuSeparatorColor>
+      <menuTextSmallColor>3CAEFB</menuTextSmallColor>
+      <menuTitleColor>DFDCDC</menuTitleColor>
+      <menubgColor>003791</menubgColor>
+      <backgroundgrid>0B2F78e6</backgroundgrid>
+      <backgroundgridSelect>3CAEFB</backgroundgridSelect>
+      <menuFooter>555555</menuFooter>
+      <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
+      <gamelistSelectorColor>000000</gamelistSelectorColor>
+      <helpFontColor>DFDCDC</helpFontColor>
+      <helpIconColor>DFDCDC</helpIconColor>
+      <developerColor>00AC97</developerColor>
+      <genreColor>3CAEFB</genreColor>
+      <releaseColor>F3C300</releaseColor>
+      <starFill>DF0024</starFill>
+      <starUnfill>003791</starUnfill>
+      <manualOnColor>3CAEFB</manualOnColor>
+      <savegameOnColor>3CAEFB</savegameOnColor>
+      <cheevosOnColor>F3C300</cheevosOnColor>
+      <splash.progressbarActive>0070d1</splash.progressbarActive>
+      <splash.progressbar>ffffff69</splash.progressbar>
+      <splash.labelColor>ffffff</splash.labelColor>
+  </variables>
+
+   <splash name="splash">
+			<backgroundColor>003791</backgroundColor>
+	</splash>
+
+  <view name="splash">
+		<image name="background">
+	 		<path>./_theme_options/colorsets/blue/fond_menu.png</path> 
+		</image>
+  </view>
+
+  <view name="system">
+    <image name="background-art" extra="true">
+        <path>./blue/fond_menu.png</path>
+        <path>./../../_theme_inc/images/background/${system.theme}.jpg</path>
+    </image>	
+
+
+       <image name="background" extra="true">
+         <path>./blue/overlay.png</path>
+      </image>
+  </view>
+
+   <view name="basic, detailed">
+      <image name="background" extra="true">
+         <path>./blue/default-detailed.png</path>
+      </image>
+
+      <image name="background-extra" extra="true">
+         <path>./blue/fond_menu.png</path>
+      </image>
+   </view>
+    
+    <view name="grid">
+
+      <image name="background" extra="true">
+         <path>./blue/default-grid.png</path>
+      </image>
+      
+      <image name="background-extra" extra="true">
+         <path>./blue/fond_menu.png</path>
+      </image>
+      </view>
+
+  <view name="menu">
+	<menuBackground name="menubg">
+	   <path>./blue/fond_menu.png</path> 
+	   <fadePath>./blue/fond_menu.png</fadePath>
+    </menuBackground>
+</view> 
+</theme>

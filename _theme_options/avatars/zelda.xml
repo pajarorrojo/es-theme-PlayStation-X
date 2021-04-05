@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="system">
+<view name="system, splash">
 
      <image name="avatar" extra="true">
          <path>./images/zelda.png</path>

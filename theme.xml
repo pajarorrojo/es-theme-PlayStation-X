@@ -2,40 +2,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
+    
 
-<!--INCLUDES-->
-    <include>./_theme_inc/infos/${system.theme}.xml</include>	
-	<include>./_theme_views/detailed.xml</include>
-	<include>./_theme_views/grid.xml</include>
-	<include>./_theme_views/front.xml</include>
 
 <!--IDIOMAS-->
+    <include>./_theme_lang/default_en.xml</include>
 	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
 	<include lang="it">./_theme_lang/it.xml</include>
-	
-<!--VARIABLES-->
-	<variables>
-      <theme.start>Start</theme.start>
-	  <theme.mostplayed>Most played:</theme.mostplayed>
-	  <GamesNumber>Games</GamesNumber>
-	  <GamesFavs>Favorites</GamesFavs>
-	  <NumberPlayed>Played</NumberPlayed>
-      <gameBar>Show gamebar info</gameBar>
-	  <CarouselImageSize>Carousel Image Size</CarouselImageSize>
-	  <iconset>iconset</iconset>
-	  <theme.videoBackground>Show videos in system view</theme.videoBackground>
-	  <theme.system-description>Show System descriptions</theme.system-description>
-	  <theme.animated-background>Animated background (waves)</theme.animated-background>
-	  <theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
-	  <theme.Avatar>Choose your Avatar</theme.Avatar>
-	  <theme.username>Choose a Nick</theme.username>
-	  <theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
-	  <VideoOff>Video Off</VideoOff>    
-    </variables>
+
 
 <!--OPCIONES DEL TEMA-->
+
+
 
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
@@ -74,8 +54,10 @@
 	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/avatars/pajarorrojo.xml</include>	
 </subset>  
 
-<!--NICKNAMES-->
 
+
+
+<!--NICKNAMES-->
 <subset name="system-username" displayName="${theme.username}">
  	<include name="playstation-x" displayName="Playstation-X">./_theme_options/usernames/playstation-x.xml</include>  
 	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
@@ -104,30 +86,38 @@
 	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/usernames/pajarorrojo.xml</include>
 </subset>  
 
+<!--JUEGO DE COLORES-->
+
+<subset name="colorset" displayName="${theme.colorset}">  
+	<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
+	<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
+</subset>
+
 <!--SETS DE ICONOS-->
 
 <subset name="iconset" displayName="${iconset}">
-  <include  name="1-PSX">./_theme_inc/iconsets/psx.xml</include>
-  <include  name="2-PSX-color">./_theme_inc/iconsets/psx-color.xml</include>
-  <include  name="3-XBOX">./_theme_inc/iconsets/xbox.xml</include>
-  <include  name="4-SNES">./_theme_inc/iconsets/snes.xml</include>
-  <include  name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
+  <include  name="1-PSX">./_theme_options/iconsets/psx.xml</include>
+  <include  name="2-PSX-color">./_theme_options/iconsets/psx-color.xml</include>
+  <include  name="3-XBOX">./_theme_options/iconsets/xbox.xml</include>
+  <include  name="4-SNES">./_theme_options/iconsets/snes.xml</include>
+  <include  name="5-ARCADE">./_theme_options/iconsets/arcade.xml</include>
 </subset>
 
 <!--TAMAÑO CARRUSEL-->
 
 <subset name="Carousel" displayName="${CarouselImageSize}">
-	<include name="big" displayName="${big}">./_theme_options/carousel-big.xml</include>
-	<include name="medium" displayName="${medium}">./_theme_options/carousel-standard.xml</include>
-	<include name="small" displayName="${small}">./_theme_options/carousel-small.xml</include>
+	<include name="big" displayName="${big}">./_theme_options/carousel/carousel-big.xml</include>
+	<include name="medium" displayName="${medium}">./_theme_options/carousel/carousel-standard.xml</include>
+	<include name="small" displayName="${small}">./_theme_options/carousel/carousel-small.xml</include>
 </subset>
 
 <!--OPCIONES DE VIDEO SISTEMAS-->
 
 <subset name="video-background" displayName="${theme.videoBackground}">
-	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/enable-video-bg-mute.xml</include>
-	<include name="small-screen-audio" displayName="${theme.smallScreenOption}">./_theme_options/enable-video-small.xml</include>
-	<include name="NO" displayName="${no}">./_theme_options/no-video.xml</include>
+	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg-mute.xml</include>
+	<include name="small-screen-noaudio" displayName="${theme.smallScreenNoaudio}">./_theme_options/systemvideo/enable-video-small-mute.xml</include>
+	<include name="small-screen-audio" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+	<include name="NO" displayName="${no}">./_theme_options/systemvideo/no-video.xml</include>
 </subset>
 
 <!--DESCRIPCIONES-->
@@ -135,6 +125,15 @@
 <subset name="system-description" displayName="${theme.system-description}">
 	<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
 	<include name="NO" displayName="${no}" />
+</subset>
+
+<!--CONSOLA Y LOGO VISTA SISTEMAS-->
+
+<subset name="system-console" displayName="${theme.systemConsole}">
+	<include name="YES" displayName="${yes}">./_theme_options/show-logo-consoles-front.xml</include>
+	<include name="NO" displayName="${no}" />
+	<include name="random" displayName="${randomGame}">./_theme_options/show-random-game-front.xml</include>
+
 </subset>
 
 <!--BARRA DE INFO JUEGOS-->
@@ -158,6 +157,8 @@
 	<include name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	<include name="NO" displayName="${no}"/>
 </subset>  
+
+
 
 <!--RELOJ-->
 <view name="screen">
@@ -185,13 +186,13 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>Ver.30.3</text>
-         <pos>0.9435 0.9495</pos>
+         <text>Ver.30.4</text>
+         <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 	     <fontSize>0.0220</fontSize>
          <alignment>left</alignment>
-         <zIndex>41</zIndex>        
+         <zIndex>99</zIndex>        
 </text>
 
 </view>
@@ -202,34 +203,32 @@
 		<menuText name="menufooter">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.02</fontSize>
-			<color>777777FF</color>
+			<color>${menuFooter}</color>
 		</menuText>
 
 		<menuText name="menutext">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.028</fontSize>
-			<color>DFDCDC</color>
-			<separatorColor>555555FF</separatorColor>
-			<selectorColor>3CAEFB</selectorColor>
-			<selectedColor>003791</selectedColor>
+			<color>${menuFontcolor}</color>
+			<separatorColor>${menuSeparatorColor}</separatorColor>
+			<selectorColor>${menuSelectorColor}</selectorColor>
+			<selectedColor>${menuSelectedColor}</selectedColor>
 		</menuText>
 
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.022</fontSize>
-			<color>3CAEFB</color>
+			<color>${menuTextSmallColor}</color>
 		</menuTextSmall>
 
 		<menuText name="menutitle">
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.037</fontSize>
-			<color>DFECFA</color>
+			<color>${menuTitleColor}</color>
 		</menuText>
 
 		<menuBackground name="menubg">
-		    <color>003791</color>
-		    <path>./_theme_inc/images/fond_menu.png</path> 
-		    <fadePath>./_theme_inc/images/fond_menu.png</fadePath>
+		    <color>${menubgColor}</color>
         </menuBackground>
 
 	  <menuIcons name="menuicons">
@@ -252,15 +251,34 @@
 	  </menuIcons>
 </view> 
 
-<!--BARRA INFERIOR BOTONES-->
+<!--BARRA INFERIOR AYUDA BOTONES-->
 
-<view name="system,basic,detailed,grid">
+<view name="system">
       <helpsystem name="help">
-         <textColor>aaaaaa</textColor>
-         <iconColor>ffffff</iconColor>
+         <textColor>${helpFontColor}</textColor>
+         <iconColor>${helpIconColor}</iconColor>
+		 <pos>0.08 0.955</pos>
+		 <fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+		 <fontSize>0.028</fontSize>
+      </helpsystem>	
+</view>
+
+<view name="basic,detailed,grid">
+      <helpsystem name="help">
+         <textColor>${helpFontColor}</textColor>
+         <iconColor>${helpIconColor}</iconColor>
 		 <pos>0.08 0.955</pos>
 		 <fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 		 <fontSize>0.026</fontSize>
+		 <fontSize lang="en">0.027</fontSize>
+		 <fontSize lang="es">0.024</fontSize>
+		 <fontSize lang="fr,it">0.025</fontSize>
       </helpsystem>	
 </view>
+
+    <include>./_theme_inc/infos/${system.theme}.xml</include>	
+	<include>./_theme_views/detailed.xml</include>
+	<include>./_theme_views/grid.xml</include>
+	<include>./_theme_views/front.xml</include>
+	
 </theme>

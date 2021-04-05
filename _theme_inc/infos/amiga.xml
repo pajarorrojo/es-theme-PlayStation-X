@@ -1,0 +1,34 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+		<text name="system_description" extra="true" >
+			<text>The Amiga is a family of personal computers introduced by Commodore in 1985. The original model is one of a number of computers with 16 or 32-bit processors, 256 KB or more of RAM, mouse-based GUIs, and significantly improved graphics and audio over 8-bit systems. This includes the Atari ST—released earlier the same year—Macintosh, and the Acorn Archimedes. 
+
+Based on the Motorola 68000 microprocessor, the Amiga differs from its contemporaries through the inclusion of custom hardware to accelerate graphics and sound, including sprites and a blitter, and a pre-emptive multitasking operating system called AmigaOS. </text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="es">
+			<text>El Commodore Amiga fue un ordenador personal comercializado por Commodore International entre 1985 y 1994. Fue diseñado por Jay Glenn Miner y un reducido equipo de ingenieros pertenecientes a la empresa Didbit ubicada en Santa Clara, California. 
+
+Su módico precio de entrada y sus capacidades multimedia, mucho más avanzadas que los compatibles PC y Macintosh de la época, le confirió mayor popularidad entre los amantes de los videojuegos. Su sistema operativo tiene una particularidad excepcional para la informática de la época, consistente en ser el primer ordenador multitarea y multimedia orientado al gran público.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>L’Amiga est une famille d’ordinateurs personnels commercialisée par Commodore International entre 1985 et 1994. Dans les années 1990, il est très populaire sur la scène démo, parmi les amateurs de jeux vidéo et dans l'industrie de la vidéo. Dans les années 1980, l'Amiga offrait en standard un affichage plus coloré et plus animé, un meilleur son et un système d'exploitation (multitâche avec interface graphique) plus avancé que la plupart de ses concurrents. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>Commodore Amiga é uma família de computadores de 16/32 bits fabricados pela empresa canadense Commodore Business Machines nos anos 80 e 90. Ficaram famosos pelos recursos muito a frente dos rivais IBM-PC.</text>
+		</text>
+
+				
+		
+		
+		<text name="system_name" extra="true">
+			<text>Commodore Amiga</text>
+		</text>
+	</view>
+</theme>

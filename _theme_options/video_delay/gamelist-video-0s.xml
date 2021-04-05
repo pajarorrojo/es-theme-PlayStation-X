@@ -3,13 +3,13 @@
  <formatVersion>7</formatVersion>
      <view name="detailed">
  		<video name="md_video">
-			<delay>0</delay>
+			<delay>0.001</delay>
 		</video>
 	</view>
 
      <view name="grid">
  		<video name="md_video">
-			<delay>0</delay>
+			<delay>0.001</delay>
 		</video>
 	</view>
 </theme>

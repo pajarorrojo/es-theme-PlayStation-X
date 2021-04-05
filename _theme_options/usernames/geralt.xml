@@ -1,7 +1,7 @@
 <!-- Theme by pajarorrojo-->
 <theme> 
 <formatVersion>7</formatVersion> 
-   <view name="system"> 
+   <view name="system, splash"> 
       <text name="username" extra="true"> 
          <text>Geralt of Rivia</text>
       </text> 

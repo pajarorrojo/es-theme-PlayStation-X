@@ -2,11 +2,18 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="basic, detailed, grid">
-   <video name="default_background" extra="true">
+     <video name="default_background" extra="true">
          <pos>0 0</pos>
          <size>1 1</size>
-         <path>./../_theme_inc/videos/background-psx.mp4</path>
          <zIndex>39</zIndex>   
+	</video>
+
+     <video name="default_background" extra="true" ifSubset="colorset:blue">
+         <path>./../_theme_options/colorsets/blue/background-psx-blue.mp4</path>
+	</video>
+
+        <video name="default_background" extra="true" ifSubset="colorset:black">
+         <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
 	</video>
 
      </view>

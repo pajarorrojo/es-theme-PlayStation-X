@@ -1,5 +1,5 @@
 <!-- Theme by pajarorrojo-->
-<theme> <formatVersion>7</formatVersion> <view name="system"> <text name="username" extra="true">
+<theme> <formatVersion>7</formatVersion> <view name="system, splash"> <text name="username" extra="true">
 <!-- put here your username, symply change username for your own username-->
 <!-- pon aquí tu usuario, simplemente cambia username por tu usuario-->
 

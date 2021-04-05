@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+         <video name="system_video" extra="true">
+         <effect>none</effect>
+         <pos>0.165 0.612</pos>
+         <roundCorners>0.02</roundCorners>  
+         <size>0.212 0.25</size>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+         <path>{random}</path>
+         <path>./../../_theme_inc/videos/${system.theme}.mp4</path>
+         <delay>1</delay>
+         <zIndex>70</zIndex>   
+
+	</video>
+
+          <image name="border-video" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+
+         <path>./../../_theme_inc/images/border-video-small.png</path>
+         <zIndex>71</zIndex>
+                   <storyboard>
+                
+            <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+        
+          <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn"/> 
+                
+            </storyboard>
+      </image>
+      <text name="system_description" extra="true">
+  <pos>0.388 0.605</pos>
+           <size>0.430 0</size>
+           <fontSize>0.023</fontSize> 
+     </text>
+</view>
+</theme>
