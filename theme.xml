@@ -27,11 +27,11 @@
 	  <iconset>iconset</iconset>
 	  <theme.videoBackground>Show videos in system view</theme.videoBackground>
 	  <theme.system-description>Show System descriptions</theme.system-description>
-	  <theme.animated-background>Animated background (waves)</theme.animated-background>
+	  <theme.animated-background>Animated background (Waves)</theme.animated-background>
 	  <theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
 	  <theme.Avatar>Choose your Avatar</theme.Avatar>
-	  <theme.username>Choose a Nick</theme.username>
-	  <theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
+	  <theme.username>Choose a Nickname</theme.username>
+	  <theme.videoGamelistDelay>Gamelist Video Delay</theme.videoGamelistDelay>
 	  <VideoOff>Video Off</VideoOff>    
     </variables>
 
@@ -40,7 +40,7 @@
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
 	<include name="batocera" displayName="Batocera">./_theme_options/avatars/batocera.xml</include>
-	<include name="custom" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
+	<include name="CUSTOM" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
 	<include name="castlevania" displayName="Castlevania">./_theme_options/avatars/castlevania.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
@@ -79,7 +79,7 @@
 <subset name="system-username" displayName="${theme.username}">
  	<include name="playstation-x" displayName="Playstation-X">./_theme_options/usernames/playstation-x.xml</include>  
 	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
-	<include name="custom" displayName="${custom}">./custom-username.xml</include>
+	<include name="CUSTOM" displayName="${custom}">./custom-username.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>
 	<include name="emulationstation" displayName="EmulationStation">./_theme_options/usernames/emulationstation.xml</include>
 	<include name="ezio" displayName="Ezio Auditore">./_theme_options/usernames/ezio.xml</include>
@@ -108,7 +108,7 @@
 
 <subset name="iconset" displayName="${iconset}">
   <include  name="1-PSX">./_theme_inc/iconsets/psx.xml</include>
-  <include  name="2-PSX-color">./_theme_inc/iconsets/psx-color.xml</include>
+  <include  name="2-PSX-Color">./_theme_inc/iconsets/psx-color.xml</include>
   <include  name="3-XBOX">./_theme_inc/iconsets/xbox.xml</include>
   <include  name="4-SNES">./_theme_inc/iconsets/snes.xml</include>
   <include  name="5-ARCADE">./_theme_inc/iconsets/arcade.xml</include>
@@ -117,17 +117,17 @@
 <!--TAMAÑO CARRUSEL-->
 
 <subset name="Carousel" displayName="${CarouselImageSize}">
-	<include name="big" displayName="${big}">./_theme_options/carousel-big.xml</include>
-	<include name="medium" displayName="${medium}">./_theme_options/carousel-standard.xml</include>
 	<include name="small" displayName="${small}">./_theme_options/carousel-small.xml</include>
+	<include name="medium" displayName="${medium}">./_theme_options/carousel-standard.xml</include>
+    <include name="big" displayName="${big}">./_theme_options/carousel-big.xml</include>
 </subset>
 
 <!--OPCIONES DE VIDEO SISTEMAS-->
 
 <subset name="video-background" displayName="${theme.videoBackground}">
-	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/enable-video-bg-mute.xml</include>
-	<include name="small-screen-audio" displayName="${theme.smallScreenOption}">./_theme_options/enable-video-small.xml</include>
 	<include name="NO" displayName="${no}">./_theme_options/no-video.xml</include>
+	<include name="small-screen-audio" displayName="${theme.smallScreenOption}">./_theme_options/enable-video-small.xml</include>
+    <include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/enable-video-bg-mute.xml</include>
 </subset>
 
 <!--DESCRIPCIONES-->
@@ -145,12 +145,12 @@
 
 <!--OPCIONES DE RETARDO DE VIDEO-->
 <subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}">
+	<include name="off" displayName="${VideoOff}">./_theme_options/video_delay/gamelist-video-off.xml</include>
+    <include name="0sec" displayName="0s">./_theme_options/video_delay/gamelist-video-0s.xml</include>	
+	<include name="05sec" displayName="0.5s">./_theme_options/video_delay/gamelist-video-05s.xml</include>	
 	<include name="1sec" displayName="1s">./_theme_options/video_delay/gamelist-video-1s.xml</include>
 	<include name="2sec" displayName="2s">./_theme_options/video_delay/gamelist-video-2s.xml</include>
 	<include name="3sec" displayName="3s">./_theme_options/video_delay/gamelist-video-3s.xml</include>
-	<include name="off" displayName="${VideoOff}">./_theme_options/video_delay/gamelist-video-off.xml</include>
-	<include name="0sec" displayName="0s">./_theme_options/video_delay/gamelist-video-0s.xml</include>	
-	<include name="05sec" displayName="0.5s">./_theme_options/video_delay/gamelist-video-05s.xml</include>	
 </subset>
 
 <!--FONDO ANIMADO-->
