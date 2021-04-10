@@ -48,7 +48,7 @@
 	
       <textlist name="gamelist">
          <pos>0.04 0.14</pos>
-         <size>0.39 0.815</size>
+         <size>0.395 0.815</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <primaryColor>ffffff</primaryColor>
