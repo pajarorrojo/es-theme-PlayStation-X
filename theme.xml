@@ -186,7 +186,7 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>Ver.30.4</text>
+         <text>V.30.4.1</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>

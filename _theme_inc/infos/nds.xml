@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+				<text name="system_description" extra="true">
+			<text>The Nintendo DS (ニ ン テ ン ド ー DS, Nintendō Dī Esu ?, DS for Dual Screen, Double Screen in Japan), is a portable console created by Nintendo, released at the end of 2004 in Japan and North America and in 2005 in Europe. Has the particularity of the double screen and the touchscreen. It has also democratized casual gaming which has contributed to its popularity.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>La Nintendo DS (ニ ン テ ン ド ー DS, Nintendō Dī Esu?, DS para Dual Screen, Double Screen en Japón), es una consola portátil creada por Nintendo, lanzada a finales de 2004 en Japón y Norteamérica y en 2005 en Europa. Tiene la particularidad de la doble pantalla y la pantalla táctil. También ha democratizado el juego casual, lo que ha contribuido a su popularidad.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>La Nintendo DS (ニンテンドーDS, Nintendō Dī Esu?, DS pour Dual Screen, Double Screen au Japon), est une console portable créée par Nintendo, sortie fin 2004 au Japon et en Amérique du Nord et en 2005 en Europe. A la particularité du double écran et du touchscreen. Elle a également démocratisé le gaming casual ce qui a contribué à sa popularité.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O Nintendo DS (ニ ン テ ン ド ー DS, Nintendō Dī Esu?, DS para Dual Screen, Double Screen no Japão), é um console portátil criado pela Nintendo, lançado no final de 2004 no Japão e na América do Norte e em 2005 na Europa. Tem a particularidade do ecrã duplo e do ecrã táctil. Também democratizou o jogo casual, o que contribuiu a ser popular.</text>
+		</text>
+		
+		<text name="system_name" extra="true">
+			<text>Nintendo DS</text>
+		</text>
+	</view>
+	
+</theme>

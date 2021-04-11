@@ -19,7 +19,7 @@
     <iconset>Iconos y botones del tipo</iconset>
     <gameBar>Mostrar la barra de información de juegos</gameBar>
     <CarouselImageSize>Tamaño de imágenes del carrusel</CarouselImageSize>
-    <theme.videoBackground>Mostrar vídeos en la vista del sistema</theme.videoBackground>
+    <theme.videoBackground>Mostrar vídeos en la vista de sistemas</theme.videoBackground>
     <theme.system-description>Mostrar descripciones de sistemas</theme.system-description>
     <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
