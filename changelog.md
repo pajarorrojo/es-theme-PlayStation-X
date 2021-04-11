@@ -1,4 +1,13 @@
-Version 30.4.1
+Version 30.4.2 (12/04/2021)
+
+- Added xml data to Commodore Plus/4 system
+- Fixed Gamecube Media names
+- Minor changes in some systems description (ES)
+
+
+------------------------
+Version 30.4.1 (11/04/2021)
+
 - Added new medias and data to Solarus, Wii, Gamecube, Atari Jaguar, Nintendo 3ds, Nintendo Ds, Mugen, tic-80 (thanks to Soaresden for aporting some materials)
 - Added xml data to Commander Genius system
 - Added xml data to Super Disc System
