@@ -2,6 +2,7 @@ Version 30.4.1
 - Added new medias and data to Solarus, Wii, Gamecube, Atari Jaguar, Nintendo 3ds, Nintendo Ds, Mugen, tic-80 (thanks to Soaresden for aporting some materials)
 - Added xml data to Commander Genius system
 - Added xml data to Super Disc System
+- Added xml data and medias to Xbox system
 - Minor changes in some storyboards (animations)
 - Minor changes in french language (thx to soaresden)
 - Graphics changes and performance in some carousel logos

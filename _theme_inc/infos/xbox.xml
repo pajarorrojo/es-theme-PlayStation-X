@@ -4,20 +4,25 @@
 	<view name="system">
 				
 				<text name="system_description" extra="true">
-				<text></text>
+				<text>Xbox is a video gaming brand created and owned by Microsoft. The brand consists of five video game consoles, as well as applications (games), streaming services, an online service by the name of Xbox Live, and the development arm by the name of Xbox Game Studios. The brand was first introduced in the United States in November 2001, with the launch of the original Xbox console.</text>
 			</text>
 		
 				<text name="system_description" extra="true" lang="es">
-				<text></text>
+				<text>Xbox, también llamada Xbox Clásica, es una videoconsola de sobremesa de sexta generación producida por Microsoft y la primera de esta empresa, en colaboración con Intel. Su principal característica es su procesador central basado en el procesador Intel Pentium III. El sistema también incorpora un lector de DVD, un disco duro interno, un puerto ethernet, y por último el sistema dispone de cuatro conectores para los mandos. Las unidades vendidas de este equipo fueron 24 000 000 consolas, según las cifras oficiales.</text>
 		</text>
 		
 				<text name="system_description" extra="true" lang="fr">
-				<text></text>
+				<text>La Xbox de Microsoft est une console de jeux vidéo sortie aux États-Unis le 15 novembre 2001. Microsoft fait avec ses premiers pas dans ce secteur, après avoir collaboré avec Sega pour porter Windows CE sur Dreamcast, et après avoir développé depuis plusieurs années des jeux Microsoft Game Studios et des accessoires de jeux vidéo SideWinder pour les PC sous Windows. </text>
 		</text>
 
 	
 		<text name="system_description" extra="true" lang="pt">
-				<text></text>
+				<text>Xbox é uma marca de consoles de jogos eletrônicos criada pela Microsoft. O nome Xbox é incluído em uma série de consoles desenvolvidos pela Microsoft, desde a sexta geração até a nona geração de consoles, bem como o serviço on-line Xbox Live e Xbox Game Pass. A marca foi introduzida pela primeira vez em 15 de novembro de 2001, nos Estados Unidos, com o lançamento do console Xbox. </text>
+		</text>
+
+
+		<text name="system_description" extra="true" lang="it">
+				<text>Xbox è la prima console da tavolo per videogiochi prodotta da Microsoft. Appartenente alla sesta generazione, venne messa in vendita il 15 novembre 2001 in America del Nord, il 22 febbraio 2002 in Giappone e il 14 marzo in Europa e Australia.</text>
 		</text>
 		
 				
