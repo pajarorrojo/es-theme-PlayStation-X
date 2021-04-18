@@ -21,8 +21,8 @@
 <subset name="system-avatar" displayName="${theme.Avatar}">
 	<include name="batocera" displayName="Batocera">./_theme_options/avatars/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
+	<include name="castlevania" displayName="Alucard (Castlevania)">./_theme_options/avatars/castlevania.xml</include>
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
-	<include name="castlevania" displayName="Castlevania">./_theme_options/avatars/castlevania.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
 	<include name="daytentacle" displayName="Day of the Tentacle">./_theme_options/avatars/daytentacle.xml</include> 
 	<include name="donkey" displayName="Donkey Kong">./_theme_options/avatars/donkey.xml</include> 
@@ -33,8 +33,11 @@
 	<include name="zelda" displayName="Link (Zelda)">./_theme_options/avatars/zelda.xml</include>
 	<include name="mario" displayName="Mario Bros.">./_theme_options/avatars/mario.xml</include>
 	<include name="megaman" displayName="Mega-Man">./_theme_options/avatars/megaman.xml</include>
+	<include name="metal-gear" displayName="Metal Gear">./_theme_options/avatars/metal-gear.xml</include>
+	<include name="metalslug" displayName="Metal Slug">./_theme_options/avatars/metalslug.xml</include>
 	<include name="metroid" displayName="Metroid">./_theme_options/avatars/metroid.xml</include>
 	<include name="monkeyisland" displayName="Monkey Island">./_theme_options/avatars/monkeyisland.xml</include>
+	<include name="outrun" displayName="OutRun">./_theme_options/avatars/outrun.xml</include>
 	<include name="pacman" displayName="Pac-Man">./_theme_options/avatars/pacman.xml</include>
 	<include name="pacman-clyde" displayName="Pac-Man Clyde">./_theme_options/avatars/pacman-clyde.xml</include>
 	<include name="pacman-Inky" displayName="Pac-Man Inky">./_theme_options/avatars/pacman-inky.xml</include>
@@ -48,7 +51,6 @@
 	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./_theme_options/avatars/shenmue.xml</include>
 	<include name="ryu" displayName="Ryu (Street Fighter 2)">./_theme_options/avatars/ryu.xml</include>
 	<include name="sephirot" displayName="Sephirot">./_theme_options/avatars/sephirot.xml</include>
-	<include name="metal-gear" displayName="Solid Snake">./_theme_options/avatars/metal-gear.xml</include>
 	<include name="sonic" displayName="Sonic">./_theme_options/avatars/sonic.xml</include>
 	<include name="wonderboy" displayName="Wonderboy">./_theme_options/avatars/wonderboy.xml</include>
 	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/avatars/pajarorrojo.xml</include>	
@@ -186,7 +188,7 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>V.30.4.2</text>
+         <text>V.30.5</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>

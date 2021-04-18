@@ -10,11 +10,12 @@
  		<logoAlignment>top</logoAlignment>
       <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
 		<zIndex>80</zIndex>
-		<defaultTransition>instant</defaultTransition>	   	
+		<defaultTransition>instant</defaultTransition>  	   	
    </carousel>
 
 <image name="logo">
    <path>./_theme_inc/images/caratulas/default.png</path>
+   <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
    <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
    <tile>false</tile>		
 </image>

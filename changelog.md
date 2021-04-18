@@ -1,3 +1,11 @@
+Version 30.5 (19/04/2021)
+
+- New! Reworking and redesign of entire carousel images. Now the carousel images are HQ, optimized and ready for high resolution 4k Tv's
+- Added Metal Slug and Outrun preset avatars
+- Added data and media for Devilution X, Cannonball, Mrboom, Prboom and Sdlpop systems
+- Fix controller activity icon sizes
+
+------------------------
 Version 30.4.2 (12/04/2021)
 
 - Added xml data to Commodore Plus/4 system

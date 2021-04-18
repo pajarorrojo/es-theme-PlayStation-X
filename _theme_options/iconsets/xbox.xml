@@ -20,7 +20,7 @@
   <view name="screen">
 	<controllerActivity name="controllerActivity">
       <pos>0.01 0.9415</pos>
-      <size>0.07</size>
+      <size>0.055</size>
       <color>FFFFFF90</color>
 	  <imagePath>./xbox/controller.svg</imagePath>      
       <activityColor>003791</activityColor>

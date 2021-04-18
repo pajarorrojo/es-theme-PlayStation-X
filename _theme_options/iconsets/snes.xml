@@ -20,7 +20,7 @@
   <view name="screen">
 	<controllerActivity name="controllerActivity">
       <pos>0.01 0.945</pos>
-      <size>0.06</size>
+      <size>0.05</size>
       <color>FFFFFF90</color>
 	  <imagePath>./snes/controller.svg</imagePath>      
       <activityColor>003791</activityColor>
