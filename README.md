@@ -1,4 +1,6 @@
-![](https://es-theme-playstation-x.tocapixels.com/img/captura01.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura-0.jpg)
+
+![](https://es-theme-playstation-x.tocapixels.com/img/captura-0-1.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
 
@@ -6,15 +8,17 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
-
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura-grid.jpg)
+
+![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura07.jpg)
+
+![](https://es-theme-playstation-x.tocapixels.com/img/captura-sinclair.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura-splash-2.jpg)
 
