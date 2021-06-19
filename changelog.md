@@ -1,5 +1,5 @@
 
-Version 31 (xx/xx/2021)
+Version 31 (19/06/2021)
 
 - Ready for batocera 31!
 - New: Now compatible with multi region (EU / JP / US) 
