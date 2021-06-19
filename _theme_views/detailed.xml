@@ -23,6 +23,22 @@
 		<zIndex>53</zIndex>
    </image>	
 
+   <image name="logo" extra="true" region="eu"/>
+    <image name="logo" extra="true" region="us">
+    <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+    </image>
+    <image name="logo" extra="true" region="jp">
+      <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./_theme_inc/images/logos/jp/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+    </image>
+
       <text name="logoText" extra="true">
 	     <alignment>left</alignment> 
 	     <pos>0.065 0.025</pos>
@@ -44,6 +60,14 @@
            <animation begin="350" property="y" from="0.16" to="0.161"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
       </storyboard>
       <zIndex>99</zIndex>  
+    </image>
+
+   <image name="consoles" extra="true" region="eu"/>
+    <image name="consoles" extra="true" region="us">
+      <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
+    </image>
+    <image name="consoles" extra="true" region="jp">
+      <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
     </image>
 	
       <textlist name="gamelist">
@@ -70,23 +94,21 @@
  
       </image>
 
-      <image name="art" extra="true">
+      <image name="background-art" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./_theme_inc/images/background/${system.theme}.jpg</path> 
          <zIndex>40</zIndex> 
-       <storyboard>       
-         <animation property="opacity" from="0.5" to="0.1" begin="0" duration="9000" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-       </storyboard>
       </image>
 
-   <image name="background-extra" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>39</zIndex>
-      </image>
+   <image name="background-art" extra="true" region="eu"/>
+    <image name="background-art" extra="true" region="us">
+      <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
+    </image>
+    <image name="background-art" extra="true" region="jp">
+      <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
+    </image>
 
       <rating name="md_rating">
 			<pos>0.815 0.605</pos>
@@ -112,6 +134,8 @@
             <backgroundColor>00000000</backgroundColor>
 		</text>
 
+   
+
       <datetime name="md_releasedate">
 			<pos>0.53 0.622</pos>
          <alignment>left</alignment> 
@@ -133,7 +157,10 @@
 			<color>${developerColor}</color>
 			<zIndex>51</zIndex>
          <backgroundColor>00000000</backgroundColor>
+ 
+
 		</text>
+        
       
       <text name="md_description">
          <color>ffffff</color>      
@@ -151,13 +178,75 @@
          <zIndex>91</zIndex>    
       </image>    
 
-	<video name="md_video">
-         <pos>0.740 0.305</pos>
-         <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>   
-         <effect>none</effect>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>false</showSnapshotDelay>
-	</video>
+
    </view>
+<!--INFORMACION DE TIEMPO JUGADO-->
+   <view name="detailed, basic"  ifSubset="gametime:YES">
+      <text name="md_lbl_playcount">
+			<pos>0.528 0.600</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name=" md_playcount">
+			<pos>0.528 0.634</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name="md_lbl_gametime">
+			<pos>0.66 0.600</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name="md_gametime">
+			<pos>0.66 0.634</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name="md_lbl_lastplayed">
+			<pos>0.791 0.600</pos>
+			<size>0.16 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <datetime name="md_lastplayed">
+			<pos>0.791 0.634</pos>
+			<size>0.16 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+		</datetime>
+      
+</view>
 </theme>

@@ -23,15 +23,21 @@
     <theme.system-description>Mostrar descripciones de sistemas</theme.system-description>
     <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
-    <theme.smallScreenOption>Ventana pequeña con sonido</theme.smallScreenOption>
-    <theme.smallScreenNoaudio>Ventana pequeña</theme.smallScreenNoaudio>
+    <theme.smallScreenOption>Ventana pequeña</theme.smallScreenOption>
+    <theme.videoaudio>Activar el audio en los vídeos de sistemas</theme.videoaudio>
+		<theme.videoRandom>Vídeo aleatorio si no existe vídeo de sistema</theme.videoRandom>
     <theme.Avatar>Escoge tu Avatar</theme.Avatar>
     <theme.username>Escoge un Nick</theme.username>
     <custom>Personalizado</custom>
-    <theme.videoGamelistDelay>Retraso del video en la lista de juegos</theme.videoGamelistDelay>
+    <theme.videoGamelistDelay>Retraso del vÍdeo en la lista de juegos</theme.videoGamelistDelay>
     <VideoOff>No mostrar vídeo</VideoOff>    
 	  <theme.systemConsole>Mostrar consola y logo en la vista de sistemas</theme.systemConsole>
 	  <randomGame>Juego Aleatorio</randomGame>
     <theme.colorset>Color del tema</theme.colorset>
+		<theme.gridorigin>Origen de la imagen en la lista de cuadrícula</theme.gridorigin>
+    <theme.gridvideo>Mostrar vídeos de juegos</theme.gridvideo>
+		<theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
+		<theme.animatedList>Transición animada en la lista de juegos</theme.animatedList>
+		<theme.gametime>Mostrar info de tiempo jugado en la lista de juegos</theme.gametime>
   </variables>
 </theme>

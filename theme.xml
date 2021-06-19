@@ -13,14 +13,81 @@
 	<include lang="it">./_theme_lang/it.xml</include>
 
 
-<!--OPCIONES DEL TEMA-->
+<!--OPCIONES DEL TEMA (subset order reversed WTF?)-->
 
+
+
+<!--CONSOLA Y LOGO VISTA SISTEMAS-->
+
+<subset name="system-console" displayName="${theme.systemConsole}" >
+	<include name="YES" displayName="${yes}">./_theme_options/show-logo-consoles-front.xml</include>
+	<include name="NO" displayName="${no}"/>
+
+</subset>
+
+
+<!--DESCRIPCIONES-->
+
+<subset name="system-description" displayName="${theme.system-description}">
+	<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
+	<include name="NO" displayName="${no}"/>
+</subset>
+
+<!--AUDIO VIDEOS ON/OFF-->
+
+<subset name="video-system-audio" displayName="${theme.videoaudio}" ifSubset="video-system:small-screen|background-option" >
+	<include name="disable-audio" displayName="${no}"/>
+	<include name="enable-audio" displayName="${yes}"/>
+</subset>
+
+<!--RANDOM VIDEOS ON/OFF-->
+
+<subset name="video-system-random" displayName="${theme.videoRandom}" ifSubset="video-system:small-screen|background-option" >
+	<include name="enable-random" displayName="${yes}"/>
+	<include name="disable-random" displayName="${no}"/>
+</subset>
+
+
+<!--OPCIONES DE VIDEO SISTEMAS-->
+
+<subset name="video-system" displayName="${theme.videoBackground}">
+	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
+	<include name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+	<include name="NO" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
+</subset>
+
+<!--TAMAÑO CARRUSEL-->
+
+<subset name="Carousel" displayName="${CarouselImageSize}">
+	<include name="big" displayName="${big}">./_theme_options/carousel/carousel-big.xml</include>
+	<include name="medium" displayName="${medium}">./_theme_options/carousel/carousel-standard.xml</include>
+	<include name="small" displayName="${small}">./_theme_options/carousel/carousel-small.xml</include>
+</subset>
+
+
+<!--SETS DE ICONOS-->
+
+<subset name="iconset" displayName="${iconset}">
+  <include  name="1-PSX">./_theme_options/iconsets/psx.xml</include>
+  <include  name="2-PSX-color">./_theme_options/iconsets/psx-color.xml</include>
+  <include  name="3-XBOX">./_theme_options/iconsets/xbox.xml</include>
+  <include  name="4-SNES">./_theme_options/iconsets/snes.xml</include>
+  <include  name="5-ARCADE">./_theme_options/iconsets/arcade.xml</include>
+</subset>
+
+<!--JUEGO DE COLORES-->
+
+<subset name="colorset" displayName="${theme.colorset}">  
+	<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
+	<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
+</subset>
 
 
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
 	<include name="batocera" displayName="Batocera">./_theme_options/avatars/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
+	<include name="batocera-plus" displayName="Batocera Plus">./_theme_options/avatars/batocera-plus.xml</include>
 	<include name="castlevania" displayName="Alucard (Castlevania)">./_theme_options/avatars/castlevania.xml</include>
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
@@ -47,6 +114,7 @@
 	<include name="retroship" displayName="PSN Retro Ship">./_theme_options/avatars/retroship.xml</include>
 	<include name="recalbox" displayName="Recalbox">./_theme_options/avatars/recalbox.xml</include>
 	<include name="retroachievements" displayName="Retroachievements">./_theme_options/avatars/retroachievements.xml</include>
+	<include name="retrobat" displayName="Retrobat">./_theme_options/avatars/retrobat.xml</include>
 	<include name="retropie" displayName="Retropie">./_theme_options/avatars/retropie.xml</include>
 	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./_theme_options/avatars/shenmue.xml</include>
 	<include name="ryu" displayName="Ryu (Street Fighter 2)">./_theme_options/avatars/ryu.xml</include>
@@ -64,6 +132,7 @@
  	<include name="playstation-x" displayName="Playstation-X">./_theme_options/usernames/playstation-x.xml</include>  
 	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./custom-username.xml</include>
+	<include name="batocera-plus" displayName="Batocera Plus">./_theme_options/usernames/batocera-plus.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>
 	<include name="emulationstation" displayName="EmulationStation">./_theme_options/usernames/emulationstation.xml</include>
 	<include name="ezio" displayName="Ezio Auditore">./_theme_options/usernames/ezio.xml</include>
@@ -78,8 +147,8 @@
 	<include name="megaman" displayName="Mega-Man">./_theme_options/usernames/megaman.xml</include>
 	<include name="nathandrake" displayName="Nathan Drake">./_theme_options/usernames/nathandrake.xml</include>
 	<include name="recalbox" displayName="Recalbox">./_theme_options/usernames/recalbox.xml</include>
-	<include name="retropie" displayName="Retropie">./_theme_options/usernames/retropie.xml</include>
 	<include name="retroarch" displayName="RetroArch">./_theme_options/usernames/retroarch.xml</include>
+	<include name="retrobat" displayName="Retrobat">./_theme_options/usernames/retrobat.xml</include>
 	<include name="samus" displayName="Samus Aran">./_theme_options/usernames/samus.xml</include>
 	<include name="sephirot" displayName="Sephirot">./_theme_options/usernames/sephirot.xml</include>
 	<include name="solidsnake" displayName="Solid Snake">./_theme_options/usernames/solidsnake.xml</include>
@@ -88,77 +157,72 @@
 	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/usernames/pajarorrojo.xml</include>
 </subset>  
 
-<!--JUEGO DE COLORES-->
+<!--OPCIONES GAMELISTS-->
 
-<subset name="colorset" displayName="${theme.colorset}">  
-	<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
-	<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
-</subset>
-
-<!--SETS DE ICONOS-->
-
-<subset name="iconset" displayName="${iconset}">
-  <include  name="1-PSX">./_theme_options/iconsets/psx.xml</include>
-  <include  name="2-PSX-color">./_theme_options/iconsets/psx-color.xml</include>
-  <include  name="3-XBOX">./_theme_options/iconsets/xbox.xml</include>
-  <include  name="4-SNES">./_theme_options/iconsets/snes.xml</include>
-  <include  name="5-ARCADE">./_theme_options/iconsets/arcade.xml</include>
-</subset>
-
-<!--TAMAÑO CARRUSEL-->
-
-<subset name="Carousel" displayName="${CarouselImageSize}">
-	<include name="big" displayName="${big}">./_theme_options/carousel/carousel-big.xml</include>
-	<include name="medium" displayName="${medium}">./_theme_options/carousel/carousel-standard.xml</include>
-	<include name="small" displayName="${small}">./_theme_options/carousel/carousel-small.xml</include>
-</subset>
-
-<!--OPCIONES DE VIDEO SISTEMAS-->
-
-<subset name="video-background" displayName="${theme.videoBackground}">
-	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg-mute.xml</include>
-	<include name="small-screen-noaudio" displayName="${theme.smallScreenNoaudio}">./_theme_options/systemvideo/enable-video-small-mute.xml</include>
-	<include name="small-screen-audio" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
-	<include name="NO" displayName="${no}">./_theme_options/systemvideo/no-video.xml</include>
-</subset>
-
-<!--DESCRIPCIONES-->
-
-<subset name="system-description" displayName="${theme.system-description}">
-	<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
-	<include name="NO" displayName="${no}" />
-</subset>
-
-<!--CONSOLA Y LOGO VISTA SISTEMAS-->
-
-<subset name="system-console" displayName="${theme.systemConsole}">
-	<include name="YES" displayName="${yes}">./_theme_options/show-logo-consoles-front.xml</include>
-	<include name="NO" displayName="${no}" />
-	<include name="random" displayName="${randomGame}">./_theme_options/show-random-game-front.xml</include>
+<!--ANIMACION DE LISTAS-->
+<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid">
+	<include name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+	<include name="NO" displayName="${no}">./_theme_options/non-animated-list.xml</include>
 
 </subset>
 
 <!--BARRA DE INFO JUEGOS-->
-<subset name="info-bar" displayName="${gameBar}">
+<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed,grid">
 	<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
 	<include name="NO" displayName="${no}"/>
 </subset>
 
+<!--INFO DE TIEMPO JUGADO-->
+<subset name="gametime" displayName="${theme.gametime}" appliesTo="detailed, grid">
+	<include name="YES" displayName="${yes}"/>
+	<include name="NO" displayName="${no}"/>
+</subset>
+
+<!--OPCIONES DE VISTA CUADRICULA-->
+
+<subset name="grid-origin" displayName="${theme.gridorigin}" appliesTo="grid">
+	<include name="thumbnail" displayName="thumbnail">./_theme_options/gridview/grid_thumbnail.xml</include>
+	<include name="image" displayName="image">./_theme_options/gridview/grid_image.xml</include>
+	<include name="marquee" displayName="marquee">./_theme_options/gridview/grid_marquee.xml</include>
+</subset>  
+
+<!--OPCIONES DE SNAPVIDEO-->
+
+<subset name="grid-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid">
+	<include name="in-grid" displayName="${yes}">./_theme_options/videotype/grid_video.xml</include>
+	<include name="background" displayName="${theme.backgroundVideoOption}">./_theme_options/videotype/background_video.xml</include>
+	<include name="off" displayName="${VideoOff}"/>
+
+</subset>  
+
+<!--AUDIO VIDEOSNAP ON/OFF-->
+
+<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid" ifSubset="grid-video:in-grid|background" >
+	<include name="enable-audio" displayName="${yes}"/>
+	<include name="disable-audio" displayName="${no}">./_theme_options/videotype/no-audio.xml</include>
+</subset>
+
 <!--OPCIONES DE RETARDO DE VIDEO-->
-<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}">
+<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid" ifSubset="grid-video:in-grid|background">
 	<include name="1sec" displayName="1s">./_theme_options/video_delay/gamelist-video-1s.xml</include>
 	<include name="2sec" displayName="2s">./_theme_options/video_delay/gamelist-video-2s.xml</include>
 	<include name="3sec" displayName="3s">./_theme_options/video_delay/gamelist-video-3s.xml</include>
-	<include name="off" displayName="${VideoOff}">./_theme_options/video_delay/gamelist-video-off.xml</include>
 	<include name="0sec" displayName="0s">./_theme_options/video_delay/gamelist-video-0s.xml</include>	
 	<include name="05sec" displayName="0.5s">./_theme_options/video_delay/gamelist-video-05s.xml</include>	
 </subset>
 
+
+
 <!--FONDO ANIMADO-->
-<subset name="animated-backg" displayName="${theme.animated-background}">
+<subset name="animated-backg" displayName="${theme.animated-background}" appliesTo="detailed, grid">
 	<include name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	<include name="NO" displayName="${no}"/>
 </subset>  
+
+
+
+
+
 
 
 
@@ -188,7 +252,7 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>V.30.5</text>
+         <text>V.31</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -265,7 +329,7 @@
       </helpsystem>	
 </view>
 
-<view name="basic,detailed,grid">
+<view name="basic, detailed,grid">
       <helpsystem name="help">
          <textColor>${helpFontColor}</textColor>
          <iconColor>${helpIconColor}</iconColor>

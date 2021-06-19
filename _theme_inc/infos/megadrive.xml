@@ -28,7 +28,11 @@ Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta 
 				
 
 		<text name="system_name" extra="true" >
-			<text>Sega Mega Drive</text>
+			<text>Mega Drive</text>
 		</text>
+		<text name="system_name" extra="true" region="us" >
+			<text>SEGA Genesis</text>
+		</text>
+		
 	</view>
 </theme>

@@ -1,0 +1,15 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system, splash">
+
+     <image name="avatar" extra="true">
+         <path>./images/batocera-plus.png</path>
+     </image>
+
+
+      
+</view>
+
+</theme>

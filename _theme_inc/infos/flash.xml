@@ -1,0 +1,33 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text></text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text></text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text></text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text></text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="it">
+				<text></text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Flash Player</text>
+		</text>
+	</view>
+</theme>

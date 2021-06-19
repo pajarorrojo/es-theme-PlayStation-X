@@ -25,6 +25,25 @@
       </storyboard>
 	</image>
 
+      
+   <image name="logo2" extra="true" region="eu"/>
+    <image name="logo2" extra="true" region="us">
+    <path>./../_theme_inc/images/logos/us/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./../_theme_inc/images/logos/us/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./../_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+    </image>
+    <image name="logo2" extra="true" region="jp">
+      <path>./../_theme_inc/images/logos/jp/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./../_theme_inc/images/logos/jp/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./../_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+    </image>
+
+
+
    <image name="consoles" extra="true">
       <tile>false</tile>
       <pos>0.83 0.77</pos> 
@@ -37,6 +56,14 @@
             <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>          
             <animation begin="350" property="y" from="0.77" to="0.771"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
          </storyboard>   
+    </image>
+
+   <image name="consoles" extra="true" region="eu"/>
+    <image name="consoles" extra="true" region="us">
+      <path>./../_theme_inc/images/consoles/us/${system.theme}.png</path>
+    </image>
+    <image name="consoles" extra="true" region="jp">
+      <path>./../_theme_inc/images/consoles/jp/${system.theme}.png</path>
     </image>
 </view>
 </theme>

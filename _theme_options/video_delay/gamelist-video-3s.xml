@@ -1,15 +1,21 @@
 <!-- Theme by pajarorrojo-->
 <theme>
  <formatVersion>7</formatVersion>
-     <view name="detailed">
+     <view name="detailed, basic">
  		<video name="md_video">
 			<delay>3</delay>
 		</video>
+	</view>
+     <view name="grid" ifSubset="grid-video:background">
+ 		<video name="md_video">
+			<delay>3</delay>
+		</video>
+	</view>
+     <view name="grid" ifSubset="grid-video:in-grid">
+	 	<imagegrid name="gamegrid" >
+          <showVideoAtDelay>3000</showVideoAtDelay>
+	 	</imagegrid>
 	</view>
 
-     <view name="grid">
- 		<video name="md_video">
-			<delay>3</delay>
-		</video>
-	</view>
+
 </theme>

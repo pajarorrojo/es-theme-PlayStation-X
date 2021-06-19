@@ -28,10 +28,13 @@
 			<text>Mega Drive 32X</text>
 		</text>
 
-		<text name="system_name" extra="true" lang="pt,en">
-			<text>Sega 32X</text>
+		<text name="system_name" extra="true" region="us">
+			<text>SEGA 32X</text>
 		</text>
 
+		<text name="system_name" extra="true" region="jp">
+			<text>Super 32X</text>
+		</text>
 	</view>
 	
 </theme>

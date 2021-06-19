@@ -36,7 +36,7 @@
       <image name="md_manual">
          <storyboard>  
          
-			<animation property="scale" from="1" to="1.008"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+		<animation property="scale" from="1" to="1.008"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
          <animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
           </storyboard>
 		</image>

@@ -23,8 +23,9 @@
 	  	<theme.system-description>Show System descriptions</theme.system-description>
 	  	<theme.animated-background>Animated background (waves)</theme.animated-background>
 	  	<theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
-    	<theme.smallScreenOption>Small Screen with audio</theme.smallScreenOption>
-    	<theme.smallScreenNoaudio>Small Screen</theme.smallScreenNoaudio>
+    	<theme.smallScreenOption>Small Screen</theme.smallScreenOption>
+    	<theme.videoaudio>Enable audio on system videos</theme.videoaudio>
+		<theme.videoRandom>Random videosnap if no system video</theme.videoRandom>
 	  	<theme.Avatar>Choose your Avatar</theme.Avatar>
 	  	<theme.username>Choose a Nick</theme.username>
     	<custom>custom</custom>
@@ -33,5 +34,10 @@
 	  	<theme.systemConsole>Show logo and consoles in systemview</theme.systemConsole>
 	  	<randomGame>Random Game</randomGame>
 		<theme.colorset>Theme Colorset</theme.colorset>
+		<theme.gridorigin>Grid image origin </theme.gridorigin>
+		<theme.gridvideo>Show Videosnap in gamelist</theme.gridvideo>
+		<theme.videoSnapAudio>Enable audio on games videosnaps</theme.videoSnapAudio>
+		<theme.animatedList>Game list animated transition</theme.animatedList>
+		<theme.gametime>Show time played info in gamelist</theme.gametime>
     </variables>
 </theme>

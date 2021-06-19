@@ -23,8 +23,9 @@
     <theme.system-description>Mostra le descrizioni del sistema</theme.system-description>
     <theme.animated-background>Sfondo animato (onde)</theme.animated-background>
     <theme.backgroundVideoOption>Video di sfondo</theme.backgroundVideoOption>
-    <theme.smallScreenOption>Piccola finestra con suono</theme.smallScreenOption>
-    <theme.smallScreenNoaudio>Piccola finestra</theme.smallScreenNoaudio>
+    <theme.smallScreenOption>Piccola finestra</theme.smallScreenOption>
+    <theme.videoaudio>Abilita l'audio per i video di sistema</theme.videoaudio>
+		<theme.videoRandom>Videosnap casuale se nessun video di sistema</theme.videoRandom>
     <theme.Avatar>Scegli il tuo avatar</theme.Avatar>
     <theme.username>Scegli un Nickname</theme.username>
     <custom>Personalizzato</custom>
@@ -33,5 +34,10 @@
 	  <theme.systemConsole>Mostra il logo e le console in systemview</theme.systemConsole>
 	  <randomGame>gioco casuale</randomGame>
     <theme.colorset>Set di colori</theme.colorset>
+		<theme.gridorigin>Grid image origin </theme.gridorigin>
+    <theme.gridvideo>Mostra videosnap</theme.gridvideo>
+		<theme.videoSnapAudio>Abilita l'audio per i videosnap</theme.videoSnapAudio>
+		<theme.animatedList>Transizione della lista dei giochi animata</theme.animatedList>
+		<theme.gametime>Mostra le informazioni sul tempo di gioco</theme.gametime>
   </variables>
 </theme>

@@ -30,5 +30,9 @@ Segunda videoconsola de sobremesa de Nintendo y la sucesora de Nintendo Entertai
 		<text name="system_name" extra="true">
 			<text>Super Nintendo</text>
 		</text>
+
+		<text name="system_name" extra="true" region="jp">
+			<text>Super Famicom</text>
+		</text>		
 		</view>
 </theme>

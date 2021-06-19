@@ -1,0 +1,9 @@
+<!-- Theme by pajarorrojo-->
+<theme> 
+<formatVersion>7</formatVersion> 
+   <view name="system, splash"> 
+      <text name="username" extra="true"> 
+         <text>Retrobat</text>
+      </text> 
+   </view> 
+</theme>

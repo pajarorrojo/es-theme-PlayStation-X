@@ -1,27 +1,49 @@
+
+Version 31 (xx/xx/2021)
+
+- Ready for batocera 31!
+- New: Now compatible with multi region (EU / JP / US) 
+- New: Theme option: Show time played info in game list
+- New: Theme option: Enable animated transitions in game list
+- New: Theme option: Select image origin in grid view (thumbnail, marquee or image)
+- New: Theme option: Show videosnap in window or background type in game list
+- New: Theme option: Enable or disable random videosnap in system view
+- New: Theme option: Enable or disable audio for system videos
+- New: Theme option: Enable or disable audio for game list videosnaps (don't work in embed gamegrid)
+- Added: Retrobat preset username and avatar
+- Added: Batocera Plus preset username and avatar
+- Game list theme settings can now be applied per system in custom game list settings
+- Added: xml data, info and/or medias to Flash player, Watara supervision, Super disc system, Windows, Flatpak, Lightgun, N64DD, TIC-80, Thomson MO/TO and Future pinball systems 
+- Added: Video (advertising) to Watara supervision, FM Towns, Thomson, Nintendo 64 DD and Playstation 3 systems
+- Performance: Theme size has been reduced 300MB (aprox.) 
+- Note: Some new features only are supported in Batocera 31
+
+
+------------------------
 Version 30.5 (19/04/2021)
 
-- New! Reworking and redesign of entire carousel images. Now the carousel images are HQ, optimized and ready for high resolution 4k Tv's
-- Added Metal Slug and Outrun preset avatars
-- Added data and media for Devilution X, Cannonball, Mrboom, Prboom and Sdlpop systems
-- Fix controller activity icon sizes
+- New: Reworking and redesign of entire carousel images. Now the carousel images are HQ, optimized and ready for high resolution 4k Tv's
+- Added: Metal Slug and Outrun preset avatars
+- Added: data and media for Devilution X, Cannonball, Mrboom, Prboom and Sdlpop systems
+- Fix: controller activity icon sizes
 
 ------------------------
 Version 30.4.2 (12/04/2021)
 
-- Added xml data to Commodore Plus/4 system
-- Fixed Gamecube Media names
-- Minor changes in some systems description (ES)
+- Added: xml data to Commodore Plus/4 system
+- Fixed: Gamecube Media names
+- Minor: changes in some systems description (ES)
 
 
 ------------------------
 Version 30.4.1 (11/04/2021)
 
-- Added new medias and data to Solarus, Wii, Gamecube, Atari Jaguar, Nintendo 3ds, Nintendo Ds, Mugen, tic-80 (thanks to Soaresden for aporting some materials)
-- Added xml data to Commander Genius system
-- Added xml data to Super Disc System
-- Added xml data and medias to Xbox system
-- Minor changes in some storyboards (animations)
-- Minor changes in french language (thx to soaresden)
+- Added: new medias and data to Solarus, Wii, Gamecube, Atari Jaguar, Nintendo 3ds, Nintendo Ds, Mugen, tic-80 (thanks to Soaresden for aporting some materials)
+- Added: xml data to Commander Genius system
+- Added: xml data to Super Disc System
+- Added: xml data and medias to Xbox system
+- Minor: changes in some storyboards (animations)
+- Minor: changes in french language (thx to soaresden)
 - Graphics changes and performance in some carousel logos
 
 ------------------------

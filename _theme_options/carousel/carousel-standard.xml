@@ -5,8 +5,8 @@
     <carousel name="systemcarousel">
         <pos>-0.53 0.112</pos>
         <size>1.60 1</size>
-        <logoScale>1.6</logoScale>
-        <logoSize>0.23</logoSize>
+        <logoScale>1.627 1.627</logoScale>
+        <logoSize>0.230 0.230</logoSize>
       
         <maxLogoCount>9</maxLogoCount>
    </carousel>

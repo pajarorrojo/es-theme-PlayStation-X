@@ -23,8 +23,9 @@
     <theme.system-description>Mostrar descrições do sistema</theme.system-description>
     <theme.animated-background>Fundo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fundo</theme.backgroundVideoOption>
-    <theme.smallScreenOption>Janela pequena com som</theme.smallScreenOption>
-    <theme.smallScreenNoaudio>Janela pequena</theme.smallScreenNoaudio>
+    <theme.smallScreenOption>Janela pequena</theme.smallScreenOption>
+    <theme.videoaudio>Habilitar áudio para vídeos do sistema</theme.videoaudio>
+		<theme.videoRandom>Video aleatório se não houver vídeo do sistema</theme.videoRandom>
     <theme.Avatar>Escolha o seu Avatar</theme.Avatar>
     <theme.username>Escolha um Nickname</theme.username>
     <custom>Personalizado</custom>
@@ -33,6 +34,10 @@
 	  <theme.systemConsole>logotipo e consoles na visualização do sistema?</theme.systemConsole>
 	  <randomGame>jogo aleatório</randomGame>
     <theme.colorset>Esquemas de cores</theme.colorset>
-
+		<theme.gridorigin>Grid image origin </theme.gridorigin>
+    <theme.gridvideo>Mostrar vídeosnap</theme.gridvideo>
+		<theme.videoSnapAudio>Habilitar áudio para videosnap</theme.videoSnapAudio>
+		<theme.animatedList>Transição da lista de jogos animada</theme.animatedList>
+		<theme.gametime>Mostrar informações de tempo de jogo</theme.gametime>
   </variables>
 </theme>

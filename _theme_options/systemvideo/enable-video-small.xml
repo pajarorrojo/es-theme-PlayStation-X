@@ -1,3 +1,4 @@
+<!-- Theme by pajarorrojo-->
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
@@ -10,11 +11,11 @@
          <size>0.212 0.25</size>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
-         <path>{random}</path>
+         <path ifSubset="video-system-random:enable-random">{random}</path>
          <path>./../../_theme_inc/videos/${system.theme}.mp4</path>
          <delay>1</delay>
-         <zIndex>70</zIndex>   
-
+         <zIndex>70</zIndex>  
+         <audio ifSubset="video-system-audio:disable-audio">false</audio>
 	</video>
 
           <image name="border-video" extra="true">

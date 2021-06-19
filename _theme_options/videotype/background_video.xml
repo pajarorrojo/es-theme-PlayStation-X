@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
+<theme>
+	<formatVersion>7</formatVersion>
+   <view name="grid">
+
+      <imagegrid name="gamegrid">
+			<showVideoAtDelay>-1</showVideoAtDelay>
+			
+		</imagegrid>
+
+	<video name="md_video" ifSubset="grid-video:background">
+      <zIndex>49</zIndex>   
+      <effect>none</effect>
+      <pos>0 -0.265</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+          <storyboard >
+            <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+         </storyboard>
+	</video>
+
+      <image name="background" extra="true">
+         <size>1 1.045</size>        
+      </image>
+   </view>
+
+   <view name="detailed, basic">
+	   <video name="md_video">
+         <zIndex>40</zIndex>   
+         <effect>none</effect>
+         <pos>0 0</pos>
+			   <size>1 1</size>
+			   <origin>0 0</origin>
+         <storyboard >
+              <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+         </storyboard>
+	   </video>
+
+   <control name="background" extra="true">
+     <clipRect>0 0.16 1 0.78</clipRect>
+      <storyboard event="open">
+        <animation property="opacity" to="0.5" duration="500" begin="2000" mode="easeIn"/>
+      </storyboard>
+      <storyboard event="activateNext">
+        <animation property="opacity" to="0.5" duration="500" begin="2000" mode="easeIn"/>
+      </storyboard>
+      <storyboard event="activatePrev">
+        <animation property="opacity" to="0.5" duration="500" begin="2000" mode="easeIn"/>
+      </storyboard>
+      <storyboard event="deactivateNext">
+        <animation property="opacity" to="1" duration="1" mode="easeOut"/>
+      </storyboard>
+      <storyboard event="deactivatePrev">
+        <animation property="opacity" to="1" duration="1" mode="easeOut"/>
+      </storyboard>
+   </control>
+
+   </view>
+   
+
+</theme>

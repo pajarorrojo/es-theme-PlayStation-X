@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+   <video name="system_video_bg" extra="true">
+         <pos>0 0</pos>
+         <effect>none</effect>
+         <size>1 1</size>     
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+         <path ifSubset="video-system-random:enable-random">{random}</path>
+         <path>./../../_theme_inc/videos/${system.theme}.mp4</path>
+         <delay>1</delay>
+         <zIndex>41</zIndex>   
+         <audio ifSubset="video-system-audio:disable-audio">false</audio>
+	</video>
+<text name="system_description" extra="true">
+	     <pos>0.163 0.6</pos>
+            <size>0.64 0.27</size>
+            <fontSize>0.026</fontSize> 
+     </text>
+</view>
+</theme>

@@ -3,6 +3,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
    <view name="grid">
+
       
    
    <image name="logo">
@@ -23,24 +24,38 @@
 		<zIndex>53</zIndex>
    </image>	
 
+   <image name="logo" extra="true" region="eu"/>
+    <image name="logo" extra="true" region="us">
+    <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+    </image>
+    <image name="logo" extra="true" region="jp">
+      <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
+      <!--  svg -->
+      <path>./_theme_inc/images/logos/jp/${system.theme}.svg</path>
+      <!--  svg white -->
+      <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+    </image>
+
+
    <imagegrid name="gamegrid">
 			<autoLayout>5 2</autoLayout>
 			<scrollLoop>true</scrollLoop>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
 			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-			<imageSource>image</imageSource>
-			<margin>0.006 0.0111</margin>
-			<size>0.895 0.38</size>
-			<pos>0.052 0.552</pos>
-			<showVideoAtDelay>-1</showVideoAtDelay>
-			<animateSelection>true</animateSelection>
+			<margin>0.003 0.006</margin>
+			<size>0.895 0.41</size>
+			<pos>0.052 0.53</pos>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
 	      <zIndex>60</zIndex>
 		</imagegrid>
 
 	<gridtile name="default">
 			<backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
-			<padding>10</padding>
+			<padding>8</padding>
 			<imageSizeMode>minSize</imageSizeMode>
 			<backgroundCornerSize>0 0</backgroundCornerSize>
 			<imageColor>ffffffc9</imageColor>
@@ -48,7 +63,7 @@
 
 
 		<gridtile name="selected">
-			<padding>10</padding>
+			<padding>8</padding>
 			<imageColor>ffffffff</imageColor>
 			<backgroundCornerSize>0</backgroundCornerSize>
 			<backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
@@ -68,9 +83,6 @@
 			<origin>0 0</origin>
 			<color>F3C300</color>
 		</image> 
-
-
-
 
 
 
@@ -98,42 +110,47 @@
       <zIndex>99</zIndex>
     
     </image>
-	
+
+   <image name="consoles" extra="true" region="eu"/>
+    <image name="consoles" extra="true" region="us">
+      <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
+    </image>
+    <image name="consoles" extra="true" region="jp">
+      <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
+    </image>	
      
       
 
       <image name="background" extra="true">
           <origin>0 0</origin>
          <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./../_theme_inc/images/default-grid.png</path>
 	      <zIndex>50</zIndex>
  
       </image>
 
-      <image name="art" extra="true">
+      <image name="background-art" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./_theme_inc/images/background/${system.theme}.jpg</path> 
          <zIndex>45</zIndex> 
-       <storyboard>       
-         <animation property="opacity" from="0.5" to="0.1" begin="0" duration="9000" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-       </storyboard>
       </image>
 
+   <image name="background-art" extra="true" region="eu"/>
+    <image name="background-art" extra="true" region="us">
+      <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
+    </image>
+    <image name="background-art" extra="true" region="jp">
+      <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
+    </image>
 
 
-   <image name="background-extra" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>35</zIndex>
-      </image>
+
+
 
 
       <rating name="md_rating">
-			<pos>0.765 0.47</pos>
+			<pos>0.765 0.455</pos>
 			<size>0.05 0.05</size>
           <origin>0 0</origin>
          <unfilledColor>${starUnfill}</unfilledColor>
@@ -148,7 +165,7 @@
 		</rating>
    
 		<text name="md_genre">
-			<pos>0.33 0.460</pos>
+			<pos>0.33 0.450</pos>
 			<size>0.41 0.034</size>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
@@ -158,7 +175,7 @@
             <backgroundColor>00000000</backgroundColor>
 		</text>
       <datetime name="md_releasedate">
-			<pos>0.33 0.480</pos>
+			<pos>0.33 0.470</pos>
           <origin>0 0</origin>
          <alignment>left</alignment> 
          <verticalAlignment>top</verticalAlignment>
@@ -176,8 +193,8 @@
       <text name="md_developer">
 			<size>0.38 0.035</size>
           <origin>0 0</origin>
-           <verticalAlignment>top</verticalAlignment>
-			<pos>0.365 0.487</pos>
+         <verticalAlignment>top</verticalAlignment>
+			<pos>0.365 0.477</pos>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>${developerColor}</color>
@@ -189,7 +206,7 @@
       <text name="md_description">
          <color>ffffff</color>      
          <pos>0.33 0.255</pos>
-         <size>0.570 0.2</size>
+         <size>0.570 0.1685</size>
 	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.026</fontSize>
          <lineSpacing>1.1</lineSpacing>
@@ -210,7 +227,7 @@
           <glowSize>1</glowSize>
           <glowOffset>3 2</glowOffset>  
          <zIndex>99</zIndex>  
-         <backgroundColor>00000000</backgroundColor>   
+         <backgroundColor>00000000</backgroundColor>  
       </text> 
 	  
       <image name="md_image">
@@ -219,17 +236,79 @@
         <origin>0 0</origin>
         <pos>0.05 0.18</pos>
         <maxSize>0.25 0.35</maxSize>
-        <zIndex>91</zIndex>    
+        <zIndex>91</zIndex>  
       </image>    
 
-	<video name="md_video">
-         <zIndex>48</zIndex>   
-         <effect>none</effect>
-         <pos>0 -0.3</pos>
-			<size>1 1</size>
-			<origin>0 0</origin>
-	</video>
    </view>
+<!--INFORMACION DE TIEMPO JUGADO-->
+   <view name="grid"  ifSubset="gametime:YES">
+      <text name="md_lbl_playcount">
+			<pos>0.33 0.445</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name=" md_playcount">
+			<pos>0.33 0.480</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name="md_lbl_gametime">
+			<pos>0.462 0.445</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name="md_gametime">
+			<pos>0.462 0.480</pos>
+			<size>0.13 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <text name="md_lbl_lastplayed">
+			<pos>0.594 0.445</pos>
+			<size>0.2 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <datetime name="md_lastplayed">
+			<pos>0.594 0.480</pos>
+			<size>0.2 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+		</datetime>
+      
+</view>
    
 
 </theme>

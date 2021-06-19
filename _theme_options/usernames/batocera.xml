@@ -3,7 +3,7 @@
 <formatVersion>7</formatVersion> 
    <view name="system, splash"> 
       <text name="username" extra="true"> 
-         <text>batocera</text>
+         <text>Batocera</text>
       </text> 
    </view> 
 </theme>

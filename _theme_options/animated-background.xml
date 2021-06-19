@@ -16,5 +16,11 @@
          <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
 	</video>
 
+     <image name="background-art" extra="true">
+       <storyboard>       
+         <animation property="opacity" from="0.3" to="1" begin="0" duration="9000" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+       </storyboard>
+      </image>
+
      </view>
 </theme>

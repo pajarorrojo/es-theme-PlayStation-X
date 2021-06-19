@@ -27,8 +27,11 @@ Existen dos versiones, una para cada versión de Mega Drive, el Mega-CD (o Sega 
 				
 
 		<text name="system_name" extra="true" >
-			<text>Sega Mega CD</text>
+			<text>Mega CD</text>
 		</text>
-	</view>
+
+		<text name="system_name" extra="true" region="us">
+			<text>Sega CD</text>
+		</text>	</view>
 
 </theme>

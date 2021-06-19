@@ -20,17 +20,16 @@
 			<text>Possibilitado por um acessório era vendido separadamente, lançado como PC-Engine CD-ROM² no Japão em abril de 1988 e TurboGrafx-CD nos EUA, proporcionava músicas digitais, vozes e animações de melhor qualidade.</text>
 		</text>
 		
-
-				
-
 		<text name="system_name" extra="true">
+			<text>PC Engine CD</text>
+		</text>				
+
+		<text name="system_name" extra="true" region="us">
 			<text>TurboGrafx-CD</text>
 		</text>
 
 	
-		<text name="system_name" extra="true" lang="pt,fr">
-			<text>PC Engine CD</text>
-		</text>
+
 
 						
 	</view>

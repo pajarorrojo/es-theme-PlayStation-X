@@ -1,0 +1,25 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+ <formatVersion>7</formatVersion>
+     <view name="detailed, basic">
+ 		<video name="md_video">
+			<delay>555555</delay>
+		</video>
+	</view>
+
+	<view name="grid">
+ 		<video name="md_video">
+			<delay>555555</delay>
+		</video>
+
+	 <imagegrid name="gamegrid" ifSubset="grid-video:in-grid">
+          <showVideoAtDelay>-1</showVideoAtDelay>
+	 </imagegrid>
+
+	 <image name="background" extra="true">
+         <size>1 1.045</size>        
+     </image>
+	 
+	</view>
+
+</theme>

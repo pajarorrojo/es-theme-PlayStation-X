@@ -1,12 +1,15 @@
 <!-- Theme by pajarorrojo-->
 <theme> <formatVersion>7</formatVersion> <view name="system, splash"> <text name="username" extra="true">
-<!-- put here your username, symply change username for your own username-->
+
+
+
+<!-- put here your username, symply change username for your desired username-->
 <!-- pon aquí tu usuario, simplemente cambia username por tu usuario-->
-
    <text>username</text>
-
-
 <!-- END-->
+
+
+
 </text> 
 </view> 
 </theme>

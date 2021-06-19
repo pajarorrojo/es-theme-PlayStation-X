@@ -2,8 +2,8 @@
 <!-- Theme by pajarorrojo-->
 <theme>
   <formatVersion>7</formatVersion>
-    <include>./_theme_lang/default_en.xml</include>
 	<include>./theme.xml</include>
+    <include>./_theme_lang/default_en.xml</include>
   	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
@@ -11,6 +11,30 @@
      
 
 	<view name="splash">
+
+	<text name="region" extra="true">
+	    <origin>0 0</origin>
+         <pos>-0.02 0.945</pos>
+		 <size>1 0.05</size>
+         <color>ffffff</color>
+         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.026</fontSize>
+         <alignment>right</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>60</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>    
+      </text>
+	<text name="region" extra="true" region="eu">
+	   <text >Region: Europe</text>  
+    </text>	
+	<text name="region" extra="true" region="jp">
+	   <text >Region: Japan</text>  
+    </text>
+	<text name="region" extra="true" region="us">
+	   <text >Region: America</text>  
+    </text>	
 
 	<image name="avatar-frame" extra="true" >
 		<origin>0 0</origin>
@@ -38,14 +62,17 @@
          <backgroundColor>ff000000</backgroundColor>    
       </text>
 
+
+	
+	
 	<image name="avatar" extra="true">
-         <pos>0.438 0.34</pos>
+         <pos>0.4375 0.341</pos>
          <maxSize>0.222 0.222</maxSize>
 		 <backgroundColor>ff000000</backgroundColor>    
 		 <verticalAlignment>middle</verticalAlignment>
 		 <alignment>center</alignment>
 
-         <zIndex>99</zIndex>
+         <zIndex>10</zIndex>
       </image>
       <text name="username" extra="true"><!-- usuario-->
          <pos>0 0.58</pos>

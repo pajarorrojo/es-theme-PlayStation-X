@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
+<theme>
+	<formatVersion>7</formatVersion>
+   <view name="grid">
+
+	<video name="md_video" >
+      <audio>false</audio>
+	</video>
+
+   </view>
+
+   <view name="detailed, basic">
+	   <video name="md_video" >
+          <audio>false</audio>
+
+	   </video>
+
+   </view>
+   
+
+</theme>

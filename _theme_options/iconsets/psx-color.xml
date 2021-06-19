@@ -2,7 +2,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	
-	<view name="menu, system, basic, detailed, grid">
+	<view name="menu, system, detailed, grid, basic">
 		<helpsystem name="help">
 			<iconColor>FFFFFFFF</iconColor>
 			<iconUpDown>./psx-color/updown.svg</iconUpDown>

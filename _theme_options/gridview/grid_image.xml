@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
+<theme>
+	<formatVersion>7</formatVersion>
+   <view name="grid">
+      
+
+   <imagegrid name="gamegrid">
+
+			<imageSource>image</imageSource>
+			
+		</imagegrid>
+
+
+   </view>
+   
+
+</theme>

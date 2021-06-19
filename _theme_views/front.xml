@@ -20,6 +20,16 @@
    <tile>false</tile>		
 </image>
 
+   <image name="logo" extra="true" region="eu"/>
+   <image name="logo" extra="true" region="us">
+      <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
+   </image>
+   <image name="logo" extra="true" region="jp">
+       <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+   </image>
+
+
+
       <text name="systemInfo">
         <visible>false</visible>
       </text>
@@ -98,7 +108,7 @@
          <zIndex>99</zIndex>     
          <storyboard>   
          <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut"/>    
-        <animation property="opacity" from="1" to="0.3" begin="2000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
+        <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
       </storyboard>
       </image>
             
@@ -140,7 +150,7 @@
           <glowOffset>3 2</glowOffset>  
 
             <storyboard>
-                <animation property="h" from="0.2" duration="350" mode="easeOut"/>
+                <animation property="h" from="0.2" duration="350" mode="easeOutCubic"/>
                 <animation property="opacity" from="0" to="1" duration="500" mode="linear"/>
                 
             </storyboard>

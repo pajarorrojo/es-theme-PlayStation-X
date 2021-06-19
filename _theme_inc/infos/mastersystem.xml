@@ -25,7 +25,10 @@ Aunque estuvo muy por detrás en ventas fuera de Europa, Brasil y con un éxito 
 				
 
 		<text name="system_name" extra="true">
-			<text>Sega Master System</text>
+			<text>Master System</text>
 		</text>
-	</view>
+
+		<text name="system_name" extra="true" region="jp">
+			<text>SEGA Mark III</text>
+		</text>	</view>
 </theme>
