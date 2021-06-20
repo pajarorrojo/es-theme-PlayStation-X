@@ -39,7 +39,7 @@
 
   <view name="system">
     <image name="background-art" extra="true">
-        <path>./blue/fond_menu.png</path>
+        <path>./blue/background.jpg</path>
         <path>./../../_theme_inc/images/background/${system.theme}.jpg</path>
     </image>	
 

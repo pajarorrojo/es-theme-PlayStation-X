@@ -178,6 +178,27 @@
 
        </text>
 
+        <text name="manufacturerName" extra="static">
+           <text>${system.sortedBy}</text>
+           <alignment>center</alignment> 
+	     <pos>0.166 0.22</pos>
+        <size>0.208 0.1</size>
+	     <color>FFFFFF</color>
+        <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+	     <fontSize>0.040</fontSize>  
+        <zIndex>45</zIndex>  
+        <glowColor>00000035</glowColor>
+        <glowSize>1</glowSize>
+        <glowOffset>3 2</glowOffset> 
+            <storyboard>
+                <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
+
+                <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>
+                
+            </storyboard>
+
+       </text>
+
       
 </view>
 
