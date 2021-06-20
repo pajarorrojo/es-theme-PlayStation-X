@@ -156,6 +156,28 @@
             </storyboard>
       </text>
 
+      <text name="fullName" extra="true">
+        <text>${system.fullName}</text>
+        <alignment>center</alignment> 
+	     <pos>0.166 0.135</pos>
+        <size>0.208 0.368</size>
+	     <color>FFFFFF</color>
+        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	     <fontSize>0.036</fontSize>  
+        <zIndex>45</zIndex>  
+        <glowColor>00000035</glowColor>
+        <glowSize>1</glowSize>
+        <glowOffset>3 2</glowOffset> 
+        <backgroundColor>${menubgColor}</backgroundColor>
+            <storyboard>
+                <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
+
+                <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>
+                
+            </storyboard>
+
+       </text>
+
       
 </view>
 
