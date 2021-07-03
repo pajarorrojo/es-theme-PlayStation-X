@@ -39,5 +39,6 @@
 		<theme.videoSnapAudio>Abilita l'audio per i videosnap</theme.videoSnapAudio>
 		<theme.animatedList>Transizione della lista dei giochi animata</theme.animatedList>
 		<theme.gametime>Mostra le informazioni sul tempo di gioco</theme.gametime>
+    <theme.animatedSystem>Transizione della lista dei sistema animata</theme.animatedSystem>
   </variables>
 </theme>

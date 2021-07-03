@@ -2,9 +2,8 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="system, splash">
-
-     <image name="avatar" extra="true">
+<view name="system, splash, detailed, grid, basic">
+<image name="avatar" extra="true">
          <path>./images/recalbox.jpg</path>
      </image>
 

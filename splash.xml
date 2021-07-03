@@ -12,6 +12,10 @@
 
 	<view name="splash">
 
+	<image name="background">
+      <linearSmooth>true</linearSmooth>		
+	</image>
+
 	<text name="region" extra="true">
 	    <origin>0 0</origin>
          <pos>-0.02 0.945</pos>
@@ -71,7 +75,7 @@
 		 <backgroundColor>ff000000</backgroundColor>    
 		 <verticalAlignment>middle</verticalAlignment>
 		 <alignment>center</alignment>
-
+      	 <linearSmooth>true</linearSmooth>		
          <zIndex>10</zIndex>
       </image>
       <text name="username" extra="true"><!-- usuario-->
@@ -86,7 +90,22 @@
          <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>    
          <backgroundColor>ff000000</backgroundColor>    
-      </text>	
+      </text>
+
+	 <text name="cheevosUser" extra="true"><!-- usuario retroachievements-->
+      	<text>${cheevos.username}</text>
+		<pos>0 0.58</pos>
+		 <size>1 0.034</size>
+         <color>ffffff</color>
+         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.038</fontSize>
+         <alignment>center</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>   
+	</text> 	
 
 		<text name="label">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>

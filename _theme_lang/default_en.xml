@@ -37,7 +37,8 @@
 		<theme.gridorigin>Grid image origin </theme.gridorigin>
 		<theme.gridvideo>Show Videosnap in gamelist</theme.gridvideo>
 		<theme.videoSnapAudio>Enable audio on games videosnaps</theme.videoSnapAudio>
-		<theme.animatedList>Game list animated transition</theme.animatedList>
+		<theme.animatedList>Animated transitions in game list</theme.animatedList>
 		<theme.gametime>Show time played info in gamelist</theme.gametime>
+		<theme.animatedSystem>Animated transitions in systems view</theme.animatedSystem>
     </variables>
 </theme>

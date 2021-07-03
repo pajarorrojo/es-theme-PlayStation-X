@@ -4,12 +4,15 @@
 	<formatVersion>7</formatVersion>
    
    <view name="basic, detailed">
+
+
       
    <image name="logo">
-		<pos>0.04 0.025</pos>
-      <alignment>left</alignment>
+		<pos>0.06 0.4</pos>
+      <linearSmooth>true</linearSmooth>
+      <alignment>center</alignment>
       <verticalAlignment>bottom</verticalAlignment>
-		<maxSize>0.2 0.095</maxSize>
+		<maxSize>0.35</maxSize>
       <origin>0 0</origin>
 		<!--  png -->
       <path>./_theme_inc/images/logos/${system.theme}.png</path>
@@ -20,7 +23,7 @@
       <!-- check if lang resources exist -->
       <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
       <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-		<zIndex>53</zIndex>
+		<zIndex>40</zIndex>
    </image>	
 
    <image name="logo" extra="true" region="eu"/>
@@ -39,59 +42,35 @@
       <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
     </image>
 
-      <text name="logoText" extra="true">
-	     <alignment>left</alignment> 
-	     <pos>0.065 0.025</pos>
-	     <color>FFFFFF</color>
-        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	     <fontSize>0.062</fontSize>   
-        <zIndex>9999</zIndex>        
-      </text> 
 
-   <image name="consoles" extra="true">
-      <tile>false</tile>
-      <pos>0.32 0.16</pos>
-      <origin>0 0</origin>
-      <alignment>right</alignment> 
-      <verticalAlignment>bottom</verticalAlignment>
-      <size>0.11 0</size>
-      <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
-      <storyboard>       
-           <animation begin="350" property="y" from="0.16" to="0.161"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
-      </storyboard>
-      <zIndex>99</zIndex>  
-    </image>
-
-   <image name="consoles" extra="true" region="eu"/>
-    <image name="consoles" extra="true" region="us">
-      <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
-    </image>
-    <image name="consoles" extra="true" region="jp">
-      <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
-    </image>
+   
 	
       <textlist name="gamelist">
-         <pos>0.04 0.14</pos>
-         <size>0.395 0.815</size>
+         <pos>0.02 0.135</pos>
+         <size>0.42 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.037</fontSize>
+         <fontSize>0.035</fontSize>
          <alignment>left</alignment>
 	      <lineSpacing>1.45</lineSpacing>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
+         <scrollbarAlignment>outerright</scrollbarAlignment>
+         <scrollbarColor>${genreColor}20</scrollbarColor>
+         <scrollbarCorner>0.005</scrollbarCorner>
+         <scrollbarSize>0.0075</scrollbarSize>
 	      <zIndex>42</zIndex>
       </textlist>
-      
+
 
       <image name="background" extra="true">
           <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-	      <zIndex>41</zIndex>
- 
+	      <zIndex>41</zIndex> 
+         <linearSmooth>true</linearSmooth>		
       </image>
 
       <image name="background-art" extra="true">
@@ -100,6 +79,7 @@
          <size>1 1</size>
          <path>./_theme_inc/images/background/${system.theme}.jpg</path> 
          <zIndex>40</zIndex> 
+         <linearSmooth>true</linearSmooth>		
       </image>
 
    <image name="background-art" extra="true" region="eu"/>
@@ -111,22 +91,18 @@
     </image>
 
       <rating name="md_rating">
-			<pos>0.815 0.605</pos>
+			<pos>0.825 0.705</pos>
 			<size>0.05 0.05</size>
          <unfilledColor>${starUnfill}</unfilledColor>
          <color>${starFill}</color>
 			<unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
 			<zIndex>51</zIndex>  
 			<filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
-      <storyboard>       
-         <animation property="scale" from="1" to="1.001"  duration="100" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-         <animation property="opacity" from="0.9" to="1"  duration="100" mode="easeInOut" autoreverse="true" repeat="forever"/>          
-      </storyboard>
 		</rating>
    
 		<text name="md_genre">
-			<pos>0.53 0.600</pos>
-			<size>0.28 0.034</size>
+			<pos>0.55 0.700</pos>
+			<size>0.27 0.034</size>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>${genreColor}</color>
@@ -137,7 +113,7 @@
    
 
       <datetime name="md_releasedate">
-			<pos>0.53 0.622</pos>
+			<pos>0.55 0.722</pos>
          <alignment>left</alignment> 
          <verticalAlignment>top</verticalAlignment>
          <size>0.027 0.05</size>
@@ -151,7 +127,7 @@
       
       <text name="md_developer">
 			<size>0.250 0.037</size>
-			<pos>0.56 0.628</pos>
+			<pos>0.58 0.728</pos>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>${developerColor}</color>
@@ -160,93 +136,25 @@
  
 
 		</text>
-        
-      
       <text name="md_description">
          <color>ffffff</color>      
-         <pos>0.53 0.680</pos>
-         <size>0.430 0.250</size>
+         <pos>0.55 0.780</pos>
+         <size>0.430 0.155</size>
 	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.030</fontSize>
+         <fontSize>0.028</fontSize>
          <lineSpacing>1.1</lineSpacing>
+         <backgroundColor>0000FF00</backgroundColor>
          <zIndex>42</zIndex>     
       </text> 
 	  
       <image name="md_image">
-         <pos>0.740 0.315</pos>
+         <pos>0.760 0.415</pos>
          <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>    
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
       </image>    
 
 
    </view>
-<!--INFORMACION DE TIEMPO JUGADO-->
-   <view name="detailed, basic"  ifSubset="gametime:YES">
-      <text name="md_lbl_playcount">
-			<pos>0.528 0.600</pos>
-			<size>0.13 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${genreColor}</color>
-			<zIndex>51</zIndex>
-            <backgroundColor>0000004d</backgroundColor>
-		</text>
 
-      <text name=" md_playcount">
-			<pos>0.528 0.634</pos>
-			<size>0.13 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${releaseColor}</color>
-			<zIndex>51</zIndex>
-         <backgroundColor>0000004d</backgroundColor>
-		</text>
-
-      <text name="md_lbl_gametime">
-			<pos>0.66 0.600</pos>
-			<size>0.13 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${genreColor}</color>
-			<zIndex>51</zIndex>
-            <backgroundColor>0000004d</backgroundColor>
-		</text>
-
-      <text name="md_gametime">
-			<pos>0.66 0.634</pos>
-			<size>0.13 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${releaseColor}</color>
-			<zIndex>51</zIndex>
-         <backgroundColor>0000004d</backgroundColor>
-		</text>
-
-      <text name="md_lbl_lastplayed">
-			<pos>0.791 0.600</pos>
-			<size>0.16 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${genreColor}</color>
-			<zIndex>51</zIndex>
-            <backgroundColor>0000004d</backgroundColor>
-		</text>
-
-      <datetime name="md_lastplayed">
-			<pos>0.791 0.634</pos>
-			<size>0.16 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${releaseColor}</color>
-			<zIndex>51</zIndex>
-         <backgroundColor>0000004d</backgroundColor>
-		</datetime>
-      
-</view>
 </theme>

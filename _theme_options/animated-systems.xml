@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+   <carousel name="systemcarousel">
+      <transitionSpeed>350</transitionSpeed>
+   </carousel>
+
+
+      <image name="marco-activo" extra="true"> 
+        <storyboard>   
+          <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut"/>    
+          <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
+        </storyboard>
+      </image>
+
+      <text name="start" extra="true">
+        <storyboard>
+          <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+        </storyboard>      
+      </text>
+
+      <text name="system_name" extra="true">
+        <storyboard>
+          <animation property="h" from="0.2" duration="350" mode="easeOutCubic"/>
+          <animation property="opacity" from="0" to="1" duration="500" mode="linear"/>
+        </storyboard>
+      </text>
+
+      <text name="system_description" extra="true">
+        <storyboard>  
+            <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+            <animation property="opacity" from="0" to="1" begin="500" duration="350" mode="easeOut"/> 
+        </storyboard>
+     </text>
+
+    <image name="logo2" extra="true">
+      <storyboard>       
+        <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>
+      </storyboard>
+      <reflexion>240</reflexion>
+	  </image>
+
+    <image name="consoles" extra="true">
+         <storyboard>
+            <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>          
+            <animation begin="350" property="y" from="0.77" to="0.771"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
+         </storyboard>   
+    </image>
+
+    <image name="border-video" extra="true">
+        <storyboard>
+          <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+          <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn"/> 
+        </storyboard>
+    </image>
+
+    
+
+
+</view>
+
+
+
+
+ 
+
+
+
+
+  
+ 
+    </theme>

@@ -1,4 +1,16 @@
+Version 31.1 (03/07/2021)
 
+
+- Design: Game list layouts redesigned with username, infos etc. according to system view layout. 
+- Show time played info in game list now are always displayed in top info bar. Deleted option in theme options
+- New: Theme option: Enable or disable animated transitions in system view
+- Performance: System videos and animations disabled by default for slow boards.
+- New: Select your Retroachievements ID as displayed username in theme option (requires login and enabling Retroachievements in global games setting)
+- Added: Lara Croft, PlayStation logo and Bubble Bobble preset avatars
+- Minor changes, improves and fixes in graphics and UX in general
+- Note: For a better user experience with the new gamelist layout, is recommended to set instant transition style in the User Interface global settings
+
+------------------------
 Version 31 (19/06/2021)
 
 - Ready for batocera 31!

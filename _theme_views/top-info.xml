@@ -1,0 +1,194 @@
+<!-- Theme by pajarorrojo-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+   
+   
+<!--BARRA DE INFORMACION SUPERIOR-->
+
+<!--RELOJ-->
+<view name="screen">
+    <text name="clock" >
+       <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+	   <alignment>left</alignment>
+	   <size>0.075 0.038</size>
+       <fontSize>0.032</fontSize>
+       <pos>0.922 0.043</pos>
+       <color>ffffff</color>
+       <zIndex>20</zIndex>  
+       <glowColor>00000035</glowColor>
+       <glowSize>1</glowSize>
+       <glowOffset>3 2</glowOffset>  
+	   <backgroundColor>ff000000</backgroundColor> 
+   </text>
+</view>
+
+<view name="detailed, basic, grid" >
+    <image name="background-overlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_theme_inc/images/overlay-gamelist.png</path>
+         <zIndex>99</zIndex>
+      </image>
+
+<image name="consoles" extra="true">
+      <pos>0.02 0.02</pos>
+      <origin>0 0</origin>
+      <alignment>center</alignment> 
+      <verticalAlignment>bottom</verticalAlignment>
+      <maxSize>0.095 0.1</maxSize>
+      <path>./_theme_inc/images/logos/${system.theme}.png</path>
+      <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+      <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+      <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+      <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+      <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
+      <zIndex>99</zIndex>  
+      <linearSmooth>true</linearSmooth>		
+    </image>
+
+   <image name="consoles" extra="true" region="eu"/>
+    <image name="consoles" extra="true" region="us">
+      <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
+    </image>
+    <image name="consoles" extra="true" region="jp">
+      <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
+    </image>
+
+    <text name="logoText" extra="true">
+	    <alignment>left</alignment> 
+        <lineSpacing>1</lineSpacing>
+        <verticalAlignment>top</verticalAlignment>
+        <size>0.1 0.09</size>
+	    <pos>0.02 0.0565</pos>
+		<color>${releaseColor}</color>
+        <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+	    <fontSize>0.028</fontSize>   
+        <zIndex>99</zIndex>    
+        <backgroundColor>0000FF00</backgroundColor>
+      </text> 
+ </view>
+
+   <view name="detailed, basic, grid, system" >
+
+      <image name="avatar" extra="true">
+         <pos>0.618 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>		
+      </image>
+      
+      <text name="username" extra="true">
+         <pos>0.660 0.05</pos>
+         <size>0.165 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.028</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>60</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>    
+      </text>	
+
+     <text name="friends" extra="true">
+        <text>32</text>
+         <pos>0.577 0.012</pos>
+         <size>0.024 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.024</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>60</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>    
+      </text>
+
+    <text name="trophy-level" extra="true">
+        <text>268</text>
+         <pos>0.875 0.05</pos>
+         <size>0.024 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.024</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>60</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>    
+      </text>	
+      <text name="md_lbl_playcount">
+			<pos>0.15 0.055</pos>
+			<size>0.11 0.034</size>
+         <alignment>right</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>ffffff</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>00000000</backgroundColor>
+		</text>
+
+      <text name=" md_playcount">
+			<pos>0.26 0.055</pos>
+			<size>0.02 0.034</size>
+         <alignment>left</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000ff00</backgroundColor>
+		</text>
+
+      <text name="md_lbl_gametime">
+			<pos>0.275 0.055</pos>
+			<size>0.12 0.034</size>
+         <alignment>right</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>ffffff</color>
+			<zIndex>51</zIndex>
+            <backgroundColor>00000000</backgroundColor>
+		</text>
+
+      <text name="md_gametime">
+			<pos>0.395 0.055</pos>
+			<size>0.07 0.034</size>
+         <alignment>left</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <backgroundColor>0000ff00</backgroundColor>
+		</text>
+
+      <text name="md_lbl_lastplayed">
+			<pos>0.39 0.035</pos>
+			<size>0.165 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${genreColor}</color>
+         <visible>false</visible>
+			<zIndex>51</zIndex>
+            <backgroundColor>0000004d</backgroundColor>
+		</text>
+
+      <datetime name="md_lastplayed">
+			<pos>0.39 0.07</pos>
+			<size>0.16 0.034</size>
+         <alignment>center</alignment> 
+			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>${releaseColor}</color>
+			<zIndex>51</zIndex>
+         <visible>false</visible>
+         <backgroundColor>0000004d</backgroundColor>
+		</datetime>
+      
+</view>
+</theme>

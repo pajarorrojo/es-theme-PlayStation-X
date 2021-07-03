@@ -17,12 +17,7 @@
       <!-- check if lang resources exist -->
       <path>./../_theme_inc/images/logos/${system.theme}-${lang}.png</path>
       <path>./../_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-      <reflexion>240</reflexion>
-      <linearSmooth>true</linearSmooth>
       <zIndex>100</zIndex>
-      <storyboard>       
-        <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>
-      </storyboard>
 	</image>
 
       
@@ -51,15 +46,12 @@
       <verticalAlignment>bottom</verticalAlignment>
       <size>0.145 0</size>
       <path>./../_theme_inc/images/consoles/${system.theme}.png</path>
-      <zIndex>99</zIndex>
-         <storyboard>
-            <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>          
-            <animation begin="350" property="y" from="0.77" to="0.771"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
-         </storyboard>   
+      <zIndex>99</zIndex> 
+      <linearSmooth>true</linearSmooth>		
     </image>
 
    <image name="consoles" extra="true" region="eu"/>
-    <image name="consoles" extra="true" region="us">
+   <image name="consoles" extra="true" region="us">
       <path>./../_theme_inc/images/consoles/us/${system.theme}.png</path>
     </image>
     <image name="consoles" extra="true" region="jp">

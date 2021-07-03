@@ -49,6 +49,7 @@ The 2 files are located in the root folder.
 Any collaboration for translation or new language supported is fully appreciated
 
 
+Note: For a better user experience with the layouts, is recommended to set instant transition style in UI global settings
 
 ------------------------------------------------------------------------------------------
 
@@ -65,6 +66,8 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 - Para cambiar la imagen del avatar, simplemente sobrescribe la imagen PNG "custom-avatar.png" (mejor si el formato de la imagen es cuadrado)
 
 - Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
+
+Nota: Para una mejor experiencia en pantalla, es recomendable ajustar a "instantáneo" el estilo de transición en las opciones globales de la interfaz de Batocera.
 
 
 ##### IDIOMAS COMPATIBLES

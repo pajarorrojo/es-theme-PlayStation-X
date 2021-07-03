@@ -1,0 +1,20 @@
+<!-- Theme by pajarorrojo-->
+<theme> 
+<formatVersion>7</formatVersion> 
+   <view name="system, splash, detailed, grid, basic"> 
+     <text name="cheevosUser" extra="true">
+      <text>${cheevos.username}</text>
+       <pos>0.660 0.05</pos>
+         <size>0.165 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.028</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>    
+      </text> 
+   </view> 
+</theme>

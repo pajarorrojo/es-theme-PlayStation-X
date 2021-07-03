@@ -16,7 +16,7 @@
 			<size>1 1</size>
 			<origin>0 0</origin>
           <storyboard >
-            <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            <animation property="opacity" from="0" to="1" duration="1" begin="500" mode="linear"/>
          </storyboard>
 	</video>
 
@@ -37,24 +37,7 @@
          </storyboard>
 	   </video>
 
-   <control name="background" extra="true">
-     <clipRect>0 0.16 1 0.78</clipRect>
-      <storyboard event="open">
-        <animation property="opacity" to="0.5" duration="500" begin="2000" mode="easeIn"/>
-      </storyboard>
-      <storyboard event="activateNext">
-        <animation property="opacity" to="0.5" duration="500" begin="2000" mode="easeIn"/>
-      </storyboard>
-      <storyboard event="activatePrev">
-        <animation property="opacity" to="0.5" duration="500" begin="2000" mode="easeIn"/>
-      </storyboard>
-      <storyboard event="deactivateNext">
-        <animation property="opacity" to="1" duration="1" mode="easeOut"/>
-      </storyboard>
-      <storyboard event="deactivatePrev">
-        <animation property="opacity" to="1" duration="1" mode="easeOut"/>
-      </storyboard>
-   </control>
+
 
    </view>
    

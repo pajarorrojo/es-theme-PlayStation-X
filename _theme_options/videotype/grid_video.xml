@@ -5,7 +5,7 @@
 
 <view name="detailed, basic">
 	<video name="md_video">
-         <pos>0.740 0.305</pos>
+         <pos>0.760 0.405</pos>
          <maxSize>0.42 0.56</maxSize>
          <zIndex>91</zIndex>   
          <effect>none</effect>

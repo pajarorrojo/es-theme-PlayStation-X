@@ -15,8 +15,6 @@
 
 <!--OPCIONES DEL TEMA (subset order reversed WTF?)-->
 
-
-
 <!--CONSOLA Y LOGO VISTA SISTEMAS-->
 
 <subset name="system-console" displayName="${theme.systemConsole}" >
@@ -25,6 +23,12 @@
 
 </subset>
 
+<!--ANIMACIONES DE VISTA SISTEMAS-->
+<subset name="anim-system" displayName="${theme.animatedSystem}">
+	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
+	<include name="NO" displayName="${no}"/>
+	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
+</subset>
 
 <!--DESCRIPCIONES-->
 
@@ -51,9 +55,10 @@
 <!--OPCIONES DE VIDEO SISTEMAS-->
 
 <subset name="video-system" displayName="${theme.videoBackground}">
-	<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
-	<include name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
 	<include name="NO" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
+	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
+	<include name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
 </subset>
 
 <!--TAMAÑO CARRUSEL-->
@@ -88,6 +93,7 @@
 	<include name="batocera" displayName="Batocera">./_theme_options/avatars/batocera.xml</include>
 	<include name="custom" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
 	<include name="batocera-plus" displayName="Batocera Plus">./_theme_options/avatars/batocera-plus.xml</include>
+	<include name="Bubble Bobble" displayName="Bubble Bobble">./_theme_options/avatars/bubble.xml</include>
 	<include name="castlevania" displayName="Alucard (Castlevania)">./_theme_options/avatars/castlevania.xml</include>
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
@@ -96,6 +102,7 @@
 	<include name="emulationstation" displayName="Emulation Station">./_theme_options/avatars/emulationstation.xml</include>
 	<include name="halo" displayName="Halo">./_theme_options/avatars/halo.xml</include>
 	<include name="jackelguapo" displayName="Handsome Jack">./_theme_options/avatars/jackelguapo.xml</include>
+	<include name="lara" displayName="Lara Croft">./_theme_options/avatars/lara.xml</include>
 	<include name="larry" displayName="Larry Laffer">./_theme_options/avatars/larry.xml</include>
 	<include name="zelda" displayName="Link (Zelda)">./_theme_options/avatars/zelda.xml</include>
 	<include name="mario" displayName="Mario Bros.">./_theme_options/avatars/mario.xml</include>
@@ -110,10 +117,11 @@
 	<include name="pacman-Inky" displayName="Pac-Man Inky">./_theme_options/avatars/pacman-inky.xml</include>
 	<include name="pacman-blinky" displayName="Pac-Man Blinky">./_theme_options/avatars/pacman-blinky.xml</include>
 	<include name="pacman-pinky" displayName="Pac-Man Pinky">./_theme_options/avatars/pacman-pinky.xml</include>
+	<include name="ps-logo" displayName="PlayStation Logo">./_theme_options/avatars/playstation-logo.xml</include>
 	<include name="astrobot" displayName="PSN Astro Bot">./_theme_options/avatars/astrobot.xml</include>
 	<include name="retroship" displayName="PSN Retro Ship">./_theme_options/avatars/retroship.xml</include>
 	<include name="recalbox" displayName="Recalbox">./_theme_options/avatars/recalbox.xml</include>
-	<include name="retroachievements" displayName="Retroachievements">./_theme_options/avatars/retroachievements.xml</include>
+	<include name="retroachievements" displayName="Retroachievements Default">./_theme_options/avatars/retroachievements.xml</include>
 	<include name="retrobat" displayName="Retrobat">./_theme_options/avatars/retrobat.xml</include>
 	<include name="retropie" displayName="Retropie">./_theme_options/avatars/retropie.xml</include>
 	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./_theme_options/avatars/shenmue.xml</include>
@@ -130,8 +138,9 @@
 <!--NICKNAMES-->
 <subset name="system-username" displayName="${theme.username}">
  	<include name="playstation-x" displayName="Playstation-X">./_theme_options/usernames/playstation-x.xml</include>  
-	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
+	<include name="cheevos" displayName="Retroachievements ID">./_theme_options/usernames/cheevos.xml</include>
 	<include name="custom" displayName="${custom}">./custom-username.xml</include>
+	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
 	<include name="batocera-plus" displayName="Batocera Plus">./_theme_options/usernames/batocera-plus.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>
 	<include name="emulationstation" displayName="EmulationStation">./_theme_options/usernames/emulationstation.xml</include>
@@ -161,9 +170,9 @@
 
 <!--ANIMACION DE LISTAS-->
 <subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid">
-	<include name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
-	<include name="NO" displayName="${no}">./_theme_options/non-animated-list.xml</include>
-
+	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+	<include name="NO" displayName="${no}"/>
+	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
 </subset>
 
 <!--BARRA DE INFO JUEGOS-->
@@ -172,11 +181,6 @@
 	<include name="NO" displayName="${no}"/>
 </subset>
 
-<!--INFO DE TIEMPO JUGADO-->
-<subset name="gametime" displayName="${theme.gametime}" appliesTo="detailed, grid">
-	<include name="YES" displayName="${yes}"/>
-	<include name="NO" displayName="${no}"/>
-</subset>
 
 <!--OPCIONES DE VISTA CUADRICULA-->
 
@@ -215,33 +219,14 @@
 
 <!--FONDO ANIMADO-->
 <subset name="animated-backg" displayName="${theme.animated-background}" appliesTo="detailed, grid">
-	<include name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	<include name="NO" displayName="${no}"/>
+	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 </subset>  
 
 
 
 
-
-
-
-
-<!--RELOJ-->
-<view name="screen">
-    <text name="clock" >
-       <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-	   <alignment>left</alignment>
-	   <size>0.075 0.038</size>
-       <fontSize>0.032</fontSize>
-       <pos>0.922 0.043</pos>
-       <color>ffffff</color>
-       <zIndex>20</zIndex>  
-       <glowColor>00000035</glowColor>
-       <glowSize>1</glowSize>
-       <glowOffset>3 2</glowOffset>  
-	   <backgroundColor>ff000000</backgroundColor> 
-   </text>
-</view>
 
 <view name="system">
 
@@ -252,7 +237,7 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>V.31</text>
+         <text>V.31.1</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -315,6 +300,15 @@
         <iconRetroachievements>./_theme_inc/menu_icons/Contest.png</iconRetroachievements>
         <iconManual>./_theme_inc/menu_icons/Manual.png</iconManual>
 	  </menuIcons>
+
+	<menuGroup name="menugroup">
+		<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<color>${menuTextSmallColor}</color>
+      	<separatorColor>${menuTextSmallColor}</separatorColor>
+      	<backgroundColor>00000000</backgroundColor>
+      	<lineSpacing>2</lineSpacing>
+    </menuGroup>
 </view> 
 
 <!--BARRA INFERIOR AYUDA BOTONES-->
@@ -346,5 +340,7 @@
 	<include>./_theme_views/detailed.xml</include>
 	<include>./_theme_views/grid.xml</include>
 	<include>./_theme_views/front.xml</include>
+	<include>./_theme_views/top-info.xml</include>
+
 	
 </theme>

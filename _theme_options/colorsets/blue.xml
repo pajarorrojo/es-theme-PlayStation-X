@@ -10,8 +10,8 @@
       <menuTextSmallColor>3CAEFB</menuTextSmallColor>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>003791</menubgColor>
-      <backgroundgrid>0B2F78e6</backgroundgrid>
-      <backgroundgridSelect>3CAEFB</backgroundgridSelect>
+      <backgroundgrid>00379169</backgroundgrid>
+      <backgroundgridSelect>F3C300</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
       <gamelistSelectorColor>000000</gamelistSelectorColor>
@@ -21,7 +21,7 @@
       <genreColor>3CAEFB</genreColor>
       <releaseColor>F3C300</releaseColor>
       <starFill>DF0024</starFill>
-      <starUnfill>003791</starUnfill>
+      <starUnfill>ffffff69</starUnfill>
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
@@ -33,7 +33,7 @@
 
   <view name="splash">
 		<image name="background">
-	 		<path>./_theme_options/colorsets/blue/fond_menu.png</path> 
+	 		<path>./_theme_options/colorsets/blue/background.jpg</path>
 		</image>
   </view>
 
@@ -62,8 +62,8 @@
          <path>./blue/default-detailed.png</path>
       </image>
 
-      <image name="background-extra" extra="true">
-         <path>./blue/fond_menu.png</path>
+      <image name="background-art" extra="true">
+         <path>./blue/background.jpg</path>
       </image>
    </view>
     
@@ -71,6 +71,10 @@
 
       <image name="background" extra="true">
          <path>./blue/default-grid.png</path>
+      </image>
+
+      <image name="background-art" extra="true">
+         <path>./blue/background.jpg</path>
       </image>
       
       </view>

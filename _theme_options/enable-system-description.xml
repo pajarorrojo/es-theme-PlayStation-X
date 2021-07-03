@@ -5,25 +5,14 @@
 <view name="system">
      <text name="system_description" extra="true">
           <alignment>left</alignment> 
-	
           <verticalAlignment>top</verticalAlignment>
-	     <color>FFFFFF</color>
-         
+	        <color>FFFFFF</color>
           <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	       
           <lineSpacing>1.2</lineSpacing>
           <zIndex>80</zIndex>     
           <glowColor>00000035</glowColor>
           <glowSize>1</glowSize>
           <glowOffset>3 2</glowOffset>
-          <storyboard>
-                
-            <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-        
-          <animation property="opacity" from="0" to="1" begin="1000" duration="350" mode="easeOut"/> 
-                
-            </storyboard>
-
      </text>
 </view>
 </theme>

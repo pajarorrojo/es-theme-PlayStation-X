@@ -1,24 +1,14 @@
 <!-- Theme by pajarorrojo-->
 <theme>
 <formatVersion>7</formatVersion>
-<view name="system">
-
-   <carousel name="systemcarousel">
-      <linearSmooth>true</linearSmooth>
-      <systemInfoDelay>5</systemInfoDelay>
-      <color>00000000</color>
- 		<logoAlignment>top</logoAlignment>
-      <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
-		<zIndex>80</zIndex>
-		<defaultTransition>instant</defaultTransition>  	   	
-   </carousel>
-
-<image name="logo">
-   <path>./_theme_inc/images/caratulas/default.png</path>
-   <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
-   <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
-   <tile>false</tile>		
-</image>
+<view name="system" >
+   <image name="logo">
+      <path>./_theme_inc/images/caratulas/default.png</path>
+      <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
+      <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>		
+   </image>
 
    <image name="logo" extra="true" region="eu"/>
    <image name="logo" extra="true" region="us">
@@ -28,11 +18,21 @@
        <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
    </image>
 
-
+   <carousel name="systemcarousel">
+      <systemInfoDelay>5</systemInfoDelay>
+      <color>00000000</color>
+ 		<logoAlignment>top</logoAlignment>
+      <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
+		<zIndex>80</zIndex>
+		<defaultTransition>instant</defaultTransition>  
+      <minLogoOpacity ifSubset="video-system:background-option">0.4</minLogoOpacity>
+      <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>	
+   </carousel>
 
       <text name="systemInfo">
         <visible>false</visible>
       </text>
+
       <text name="systemInfoEx, systemInfoEx2" extra="true">
          <alignment>left</alignment>
          <pos>0.162 0.045</pos>
@@ -50,151 +50,109 @@
       <text name="systemInfoEx" extra="true">
             <text>{binding:total} ${GamesNumber}  |  {binding:favorites} ${GamesFavs}  |  {binding:gamesPlayed} ${NumberPlayed}</text>
             <storyboard repeat="2">
-                <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-                <animation property="opacity" from="1" to="0" begin="2500" duration="350" mode="easeOut"  />
-                <animation property="opacity" from="0" to="1" begin="7100" duration="350" mode="easeOut"/>
-                <animation property="opacity" from="1" to="0" begin="10000" duration="350" mode="easeOut"  />
-                <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut"/>
+               <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+               <animation property="opacity" from="1" to="0" begin="2500" duration="350" mode="easeOut"  />
+               <animation property="opacity" from="0" to="1" begin="7100" duration="350" mode="easeOut"/>
+               <animation property="opacity" from="1" to="0" begin="10000" duration="350" mode="easeOut"  />
+               <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut"/>
             </storyboard>             
       </text>	
 
       <text name="systemInfoEx2" extra="true">
             <text>${theme.mostplayed} {binding:mostPlayed} </text>
             <storyboard repeat="2">
-                <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-                <animation property="opacity" from="0" to="1" begin="2600" duration="350" mode="easeOut"/>
+               <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+               <animation property="opacity" from="0" to="1" begin="2600" duration="350" mode="easeOut"/>
                <animation property="opacity" from="1" to="0" begin="7000" duration="350" mode="easeOut"  />
                <animation property="opacity" from="0" to="1" begin="10100" duration="350" mode="easeOut"/>
                <animation property="opacity" from="1" to="0" begin="14000" duration="350" mode="easeOut"  />
             </storyboard>             
       </text>	
-
-      <image name="avatar" extra="true">
-         <pos>0.618 0.035</pos>
-         <maxSize>0.063 0.063</maxSize>
-         <zIndex>60</zIndex>
-      </image>
-
-      <text name="username" extra="true">
-         <pos>0.660 0.05</pos>
-         <size>0.165 0.035</size>
-         <color>ffffff</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.028</fontSize>
-         <alignment>left</alignment>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
-      </text>	
-
-
-
  
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-
-         <path>./../_theme_inc/images/overlay.png</path>
          <zIndex>41</zIndex>
+         <linearSmooth>true</linearSmooth>		
       </image>
-            <image name="marco-activo" extra="true">
+      
+      <image name="marco-activo" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./../_theme_inc/images/marco-activo.png</path>
          <zIndex>99</zIndex>     
-         <storyboard>   
-         <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut"/>    
-        <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
-      </storyboard>
       </image>
             
       <image name="background-art" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <zIndex>40</zIndex>  
+         <zIndex>40</zIndex> 
+         <linearSmooth>true</linearSmooth>		
       </image>	  
-
-
-	   
 	  
 	   <text name="start" extra="true">
-        <text>${theme.start}</text>
-        <size>0.207 0.07</size>
-        <backgroundColor>00000069</backgroundColor>
-	     <alignment>center</alignment> 
-	     <pos>0.166 0.5</pos>
-	     <color>FFFFFF</color>
-        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	     <fontSize>0.032</fontSize>   
-        <zIndex>45</zIndex>  
-         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
-      </storyboard>      
+         <text>${theme.start}</text>
+         <size>0.207 0.07</size>
+         <backgroundColor>00000069</backgroundColor>
+         <alignment>center</alignment> 
+         <pos>0.166 0.5</pos>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.032</fontSize>   
+         <zIndex>45</zIndex>  
       </text>
       	   
       <text name="system_name" extra="true">
-	     <alignment>left</alignment> 
-	     <pos>0.385 0.54</pos>
-        <size>0.6 0.001</size>
-	     <color>FFFFFF</color>
-        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	     <fontSize>0.068</fontSize>  
-        <zIndex>45</zIndex>  
+	      <alignment>left</alignment> 
+	      <pos>0.385 0.54</pos>
+         <size>0.6 0.001</size>
+	      <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+	      <fontSize>0.068</fontSize>  
+         <zIndex>45</zIndex>  
          <glowColor>00000035</glowColor>
-          <glowSize>1</glowSize>
-          <glowOffset>3 2</glowOffset>  
-
-            <storyboard>
-                <animation property="h" from="0.2" duration="350" mode="easeOutCubic"/>
-                <animation property="opacity" from="0" to="1" duration="500" mode="linear"/>
-                
-            </storyboard>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>  
+ 
       </text>
 
       <text name="fullName" extra="true">
-        <text>${system.fullName}</text>
-        <alignment>center</alignment> 
-	     <pos>0.166 0.135</pos>
-        <size>0.208 0.368</size>
-	     <color>FFFFFF</color>
-        <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	     <fontSize>0.036</fontSize>  
-        <zIndex>45</zIndex>  
-        <glowColor>00000035</glowColor>
-        <glowSize>1</glowSize>
-        <glowOffset>3 2</glowOffset> 
-        <backgroundColor>${menubgColor}</backgroundColor>
+         <text>${system.fullName}</text>
+         <alignment>center</alignment> 
+         <pos>0.166 0.135</pos>
+         <size>0.208 0.37</size>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.036</fontSize>  
+         <zIndex>45</zIndex>  
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset> 
+         <backgroundColor>${menubgColor}</backgroundColor>
             <storyboard>
                 <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
-
-                <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>
-                
+                <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>   
             </storyboard>
-
        </text>
 
         <text name="manufacturerName" extra="static">
            <text>${system.sortedBy}</text>
            <alignment>center</alignment> 
-	     <pos>0.166 0.22</pos>
-        <size>0.208 0.1</size>
-	     <color>FFFFFF</color>
-        <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-	     <fontSize>0.040</fontSize>  
-        <zIndex>45</zIndex>  
-        <glowColor>00000035</glowColor>
-        <glowSize>1</glowSize>
-        <glowOffset>3 2</glowOffset> 
+	        <pos>0.166 0.22</pos>
+           <size>0.208 0.1</size>
+	        <color>FFFFFF</color>
+           <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+	        <fontSize>0.040</fontSize>  
+           <zIndex>45</zIndex>  
+           <glowColor>00000035</glowColor>
+           <glowSize>1</glowSize>
+           <glowOffset>3 2</glowOffset> 
             <storyboard>
                 <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
-
                 <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>
-                
             </storyboard>
 
        </text>
