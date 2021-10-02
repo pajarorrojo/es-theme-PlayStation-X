@@ -25,7 +25,7 @@
       <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
 		<zIndex>80</zIndex>
 		<defaultTransition>instant</defaultTransition>  
-      <minLogoOpacity ifSubset="video-system:background-option">0.4</minLogoOpacity>
+      <minLogoOpacity ifSubset="video-system:background-option">0.5</minLogoOpacity>
       <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>	
    </carousel>
 

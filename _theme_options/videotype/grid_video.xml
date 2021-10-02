@@ -7,7 +7,7 @@
 	<video name="md_video">
          <pos>0.760 0.405</pos>
          <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>   
+         <zIndex>99</zIndex>   
          <effect>none</effect>
    </video>
 </view>

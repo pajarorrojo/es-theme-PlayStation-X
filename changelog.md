@@ -1,3 +1,15 @@
+Version 32 (03/10/2021)
+
+
+- New: Theme option: Select image source in detailed view (image, thumbnail or marquee)
+- New: Theme option: Select main image source in grid view (image, thumbnail or marquee)
+- Added: Medias data and / or infos for Cplus4, MsxturboR, Commodore PET, Uzebox, Sonic Retro, Super Game Boy, Super Cassette Vision and Apple 2 GS systems
+- Added: Medias and data to the most common used auto collections, like Shooter, RPG, Shoot em up, Fighting etc... up to 27 main collections.
+- Added: Daytona USA Hornet, Double Dragon, Lemmings, HE-MAN and Goku preset avatar
+- Minor changes, improves and fixes in graphics, languages and UX in general
+
+
+------------------------
 Version 31.1 (03/07/2021)
 
 

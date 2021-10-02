@@ -15,7 +15,7 @@
       <animateColorTime>400</animateColorTime>
     </ninepatch>
 
-    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating">
+    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee">
       <clipRect>0 0.16 1 0.78</clipRect>
       <storyboard event="open">
         <animation property="opacity" from="0" to="1" duration="400" mode="easeInOut"/>
@@ -49,7 +49,7 @@
 
     <image name="logo" extra="true">
       <storyboard>
-        <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+        <animation property="opacity" from="0"  duration="400" mode="easeIn"/>
       </storyboard>
     </image>
     <image name="background-art" extra="true">
@@ -66,7 +66,7 @@
       </storyboard>
     </textlist>
 
-    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher,md_rating">
+    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher,md_rating, md_boxart, md_marquee">
       <clipRect>0 0.16 1 0.78</clipRect>
       <storyboard event="open">
         <animation property="offsetX" from="0.78" to="0" duration="400" mode="easeOutCubic"/>

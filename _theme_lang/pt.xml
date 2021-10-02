@@ -34,7 +34,9 @@
 	  <theme.systemConsole>logotipo e consoles na visualização do sistema?</theme.systemConsole>
 	  <randomGame>jogo aleatório</randomGame>
     <theme.colorset>Esquemas de cores</theme.colorset>
-		<theme.gridorigin>Grid image origin </theme.gridorigin>
+		<theme.gridMainorigin>Fonte da imagem principal em modo de grade</theme.gridMainorigin>
+		<theme.gridorigin>Fonte da imagem na grade</theme.gridorigin>
+		<theme.detailedorigin>Fonte da imagem em visão detalhada</theme.detailedorigin>
     <theme.gridvideo>Mostrar vídeosnap</theme.gridvideo>
 		<theme.videoSnapAudio>Habilitar áudio para videosnap</theme.videoSnapAudio>
 		<theme.animatedList>Transição da lista de jogos animada</theme.animatedList>

@@ -193,7 +193,7 @@
          <backgroundColor>00000000</backgroundColor>  
       </text> 
 	  
-      <image name="md_image">
+      <image name="md_image" ifSubset="grid-main-origin:image">
         <alignment>left</alignment>
         <verticalAlignment>bottom</verticalAlignment>
         <origin>0 0</origin>
@@ -201,6 +201,26 @@
         <maxSize>0.25 0.35</maxSize>
         <zIndex>91</zIndex>  
          <linearSmooth>true</linearSmooth>
+      </image>    
+
+      <image name="md_boxart" ifSubset="grid-main-origin:thumbnail">
+        <alignment>left</alignment>
+        <verticalAlignment>bottom</verticalAlignment>
+        <origin>0 0</origin>
+        <pos>0.025 0.115</pos>
+        <maxSize>0.25 0.35</maxSize>
+        <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+      </image>   
+
+      <image name="md_marquee" ifSubset="grid-main-origin:marquee">
+        <alignment>center</alignment>
+        <origin>0 0</origin>
+        <pos>0.025 0.215</pos>
+        <maxSize>0.25 0.25</maxSize>
+        <zIndex>91</zIndex>  
+        <visible>true</visible>
+        <linearSmooth>true</linearSmooth>
       </image>    
 
    </view>

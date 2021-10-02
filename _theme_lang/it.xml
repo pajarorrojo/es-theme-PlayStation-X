@@ -34,7 +34,9 @@
 	  <theme.systemConsole>Mostra il logo e le console in systemview</theme.systemConsole>
 	  <randomGame>gioco casuale</randomGame>
     <theme.colorset>Set di colori</theme.colorset>
-		<theme.gridorigin>Grid image origin </theme.gridorigin>
+		<theme.gridMainorigin>Sorgente dell'immagine principale in modalità griglia</theme.gridMainorigin>
+		<theme.gridorigin>Sorgente dell'immagine nella griglia</theme.gridorigin>
+		<theme.detailedorigin>Sorgente immagine in modalità dettagliato</theme.detailedorigin>
     <theme.gridvideo>Mostra videosnap</theme.gridvideo>
 		<theme.videoSnapAudio>Abilita l'audio per i videosnap</theme.videoSnapAudio>
 		<theme.animatedList>Transizione della lista dei giochi animata</theme.animatedList>

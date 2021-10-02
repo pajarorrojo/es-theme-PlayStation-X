@@ -23,7 +23,8 @@
       <!-- check if lang resources exist -->
       <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
       <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-		<zIndex>40</zIndex>
+		<zIndex>41</zIndex>
+      	<opacity>0.1</opacity>
    </image>	
 
    <image name="logo" extra="true" region="eu"/>
@@ -147,12 +148,27 @@
          <zIndex>42</zIndex>     
       </text> 
 	  
-      <image name="md_image">
+      <image name="md_image" ifSubset="detailed-origin:image">
          <pos>0.760 0.415</pos>
          <maxSize>0.42 0.56</maxSize>
          <zIndex>91</zIndex>
          <linearSmooth>true</linearSmooth>		
       </image>    
+
+      <image name="md_boxart" ifSubset="detailed-origin:thumbnail">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+      </image>    
+
+      	<image name="md_marquee" ifSubset="detailed-origin:marquee">
+       <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+		<linearSmooth>true</linearSmooth>
+      	<zIndex>99</zIndex>
+         <visible>true</visible>
+	</image>
 
 
    </view>

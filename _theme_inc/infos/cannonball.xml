@@ -16,13 +16,7 @@ Cannonball is not an emulator; it is a complete rewrite of the original game int
 Cannonball no es un emulador; es una reescritura completa del juego original en C ++ portable</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
 
 		
 		

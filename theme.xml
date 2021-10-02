@@ -98,12 +98,17 @@
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
 	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
 	<include name="daytentacle" displayName="Day of the Tentacle">./_theme_options/avatars/daytentacle.xml</include> 
+	<include name="daytona" displayName="Daytona USA Hornet">./_theme_options/avatars/daytona.xml</include> 
 	<include name="donkey" displayName="Donkey Kong">./_theme_options/avatars/donkey.xml</include> 
+	<include name="doubledragon" displayName="Double Dragon">./_theme_options/avatars/doubledragon.xml</include> 
 	<include name="emulationstation" displayName="Emulation Station">./_theme_options/avatars/emulationstation.xml</include>
+	<include name="goku" displayName="Goku">./_theme_options/avatars/goku.xml</include>
 	<include name="halo" displayName="Halo">./_theme_options/avatars/halo.xml</include>
+	<include name="he-man" displayName="HE-MAN">./_theme_options/avatars/he-man.xml</include>
 	<include name="jackelguapo" displayName="Handsome Jack">./_theme_options/avatars/jackelguapo.xml</include>
 	<include name="lara" displayName="Lara Croft">./_theme_options/avatars/lara.xml</include>
 	<include name="larry" displayName="Larry Laffer">./_theme_options/avatars/larry.xml</include>
+	<include name="lemmings" displayName="Lemmings">./_theme_options/avatars/lemmings.xml</include>
 	<include name="zelda" displayName="Link (Zelda)">./_theme_options/avatars/zelda.xml</include>
 	<include name="mario" displayName="Mario Bros.">./_theme_options/avatars/mario.xml</include>
 	<include name="megaman" displayName="Mega-Man">./_theme_options/avatars/megaman.xml</include>
@@ -168,27 +173,28 @@
 
 <!--OPCIONES GAMELISTS-->
 
-<!--ANIMACION DE LISTAS-->
-<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid">
-	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
-	<include name="NO" displayName="${no}"/>
-	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
-</subset>
+<!--OPCIONES DE VISTA DETALLADA-->
 
-<!--BARRA DE INFO JUEGOS-->
-<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed,grid">
-	<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
-	<include name="NO" displayName="${no}"/>
-</subset>
+<subset name="detailed-origin" displayName="${theme.detailedorigin}" appliesTo="detailed,">
+	<include name="image" displayName="image" />
+	<include name="thumbnail" displayName="thumbnail" />
+	<include name="marquee" displayName="marquee" />
 
+</subset>  
 
 <!--OPCIONES DE VISTA CUADRICULA-->
+
+<subset name="grid-main-origin" displayName="${theme.gridMainorigin}" appliesTo="grid">
+	<include name="image" displayName="image" />
+	<include name="thumbnail" displayName="thumbnail" />
+	<include name="marquee" displayName="marquee" />
+</subset>  
 
 <subset name="grid-origin" displayName="${theme.gridorigin}" appliesTo="grid">
 	<include name="thumbnail" displayName="thumbnail">./_theme_options/gridview/grid_thumbnail.xml</include>
 	<include name="image" displayName="image">./_theme_options/gridview/grid_image.xml</include>
 	<include name="marquee" displayName="marquee">./_theme_options/gridview/grid_marquee.xml</include>
-</subset>  
+</subset> 
 
 <!--OPCIONES DE SNAPVIDEO-->
 
@@ -215,6 +221,20 @@
 	<include name="05sec" displayName="0.5s">./_theme_options/video_delay/gamelist-video-05s.xml</include>	
 </subset>
 
+<!--BARRA DE INFO JUEGOS-->
+<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed,grid">
+	<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
+	<include name="NO" displayName="${no}"/>
+</subset>
+
+
+<!--ANIMACION DE LISTAS-->
+<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid">
+	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+	<include name="NO" displayName="${no}"/>
+	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+</subset>
+
 
 
 <!--FONDO ANIMADO-->
@@ -237,7 +257,7 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>V.31.1</text>
+         <text>V.32</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>

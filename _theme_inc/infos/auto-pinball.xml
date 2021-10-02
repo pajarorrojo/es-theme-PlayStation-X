@@ -1,0 +1,16 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text></text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Pinball</text>
+		</text>
+		<text name="system_name" extra="true" lang="es">
+			<text>Pinball</text>
+		</text>
+	</view>
+</theme>

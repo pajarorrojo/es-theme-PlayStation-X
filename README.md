@@ -28,6 +28,8 @@ Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and userna
 
 Hope you enjoy! any suggestion is fully welcomed.
 
+Note: For a better user experience with the layouts, is recommended to set instant transition style in UI global settings
+
 ### HOW TO CHANGE CUSTOM AVATAR AND USERNAME?
 
 The 2 files are located in the root folder.
@@ -49,13 +51,15 @@ The 2 files are located in the root folder.
 Any collaboration for translation or new language supported is fully appreciated
 
 
-Note: For a better user experience with the layouts, is recommended to set instant transition style in UI global settings
+
 
 ------------------------------------------------------------------------------------------
 
 
 
 Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
+
+Nota: Para una mejor experiencia en pantalla, es recomendable ajustar a "instantáneo" el estilo de transición en las opciones globales de la interfaz de Batocera.
 
 
 
@@ -67,7 +71,6 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 
 - Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
 
-Nota: Para una mejor experiencia en pantalla, es recomendable ajustar a "instantáneo" el estilo de transición en las opciones globales de la interfaz de Batocera.
 
 
 ##### IDIOMAS COMPATIBLES

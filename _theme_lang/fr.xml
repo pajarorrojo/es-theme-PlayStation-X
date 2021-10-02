@@ -34,7 +34,9 @@
 	  <theme.systemConsole>Afficher logo et consoles dans systemview ?</theme.systemConsole>
 	  <randomGame>Jeu aléatoire</randomGame>
     <theme.colorset>Jeux de couleurs</theme.colorset>
-		<theme.gridorigin>Grid image origin </theme.gridorigin>
+		<theme.gridMainorigin>Source d'image principale en vue grille</theme.gridMainorigin>
+		<theme.gridorigin>Source d'image dans la grille</theme.gridorigin>
+		<theme.detailedorigin>Source d'image en vue détaillée</theme.detailedorigin>
     <theme.gridvideo>Vue vidéosnap</theme.gridvideo>
 		<theme.videoSnapAudio>Activer l'audio pour les vidéosnap</theme.videoSnapAudio>
 		<theme.animatedList>Transition de la liste de jeux animée</theme.animatedList>

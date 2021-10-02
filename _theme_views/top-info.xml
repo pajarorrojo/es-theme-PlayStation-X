@@ -61,12 +61,12 @@
         <lineSpacing>1</lineSpacing>
         <verticalAlignment>top</verticalAlignment>
         <size>0.1 0.09</size>
-	    <pos>0.02 0.0565</pos>
+	    <pos>0.02 0.03</pos>
 		<color>${releaseColor}</color>
         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
 	    <fontSize>0.028</fontSize>   
         <zIndex>99</zIndex>    
-        <backgroundColor>0000FF00</backgroundColor>
+        <backgroundColor>00000000</backgroundColor>
       </text> 
  </view>
 
@@ -123,7 +123,7 @@
          <backgroundColor>ff000000</backgroundColor>    
       </text>	
       <text name="md_lbl_playcount">
-			<pos>0.15 0.055</pos>
+			<pos>0.16 0.055</pos>
 			<size>0.11 0.034</size>
          <alignment>right</alignment> 
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -134,7 +134,7 @@
 		</text>
 
       <text name=" md_playcount">
-			<pos>0.26 0.055</pos>
+			<pos>0.27 0.055</pos>
 			<size>0.02 0.034</size>
          <alignment>left</alignment> 
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>

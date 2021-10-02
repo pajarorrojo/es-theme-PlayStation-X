@@ -38,15 +38,14 @@
 
     <image name="logo2" extra="true">
       <storyboard>       
-        <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>
+        <animation property="scale" from="0.8" to="1.0" duration="350" mode="bump"/>
       </storyboard>
       <reflexion>240</reflexion>
 	  </image>
 
     <image name="consoles" extra="true">
          <storyboard>
-            <animation property="scale" from="0.85" to="1.0" duration="350" mode="bump"/>          
-            <animation begin="350" property="y" from="0.77" to="0.771"  duration="150" mode="EaseInOut" autoreverse="true" repeat="forever"/>   
+            <animation property="scale" from="0.8" to="1.0" duration="350" mode="bump"/>          
          </storyboard>   
     </image>
 

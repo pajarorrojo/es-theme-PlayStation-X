@@ -34,7 +34,9 @@
 	  <theme.systemConsole>Mostrar consola y logo en la vista de sistemas</theme.systemConsole>
 	  <randomGame>Juego Aleatorio</randomGame>
     <theme.colorset>Color del tema</theme.colorset>
-		<theme.gridorigin>Origen de la imagen en la lista de cuadrícula</theme.gridorigin>
+		<theme.gridMainorigin>Origen de la imagen principal en vista de cuadrícula</theme.gridMainorigin>
+		<theme.gridorigin>Origen de la imagen en la cuadrícula</theme.gridorigin>
+		<theme.detailedorigin>Origen de la imagen en la vista detallada</theme.detailedorigin>
     <theme.gridvideo>Mostrar vídeos de juegos</theme.gridvideo>
 		<theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
 		<theme.animatedList>Transición animada en la lista de juegos</theme.animatedList>

@@ -4,20 +4,15 @@
 	<view name="system">
 				
 				<text name="system_description" extra="true">
-				<text></text>
+				<text>The Super NES CD-ROM Systemv is an unreleased video game peripheral for the Super Nintendo Entertainment System (SNES). The add-on built upon the functionality of the cartridge-based SNES by adding support for a CD-ROM-based format known as Super Disc.
+
+The SNES-CD platform was developed in a partnership between Nintendo and Sony. The platform was planned to be launched as an add-on for the standard SNES, as well as a hybrid console by Sony called the PlayStation.</text>
 			</text>
 		
 				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+				<text>El Super NES CD-ROM System es un periférico para la Super Nintendo Entertainment System (SNES) que no se llegó a comercializar. El complemento se basó en la funcionalidad del SNES basado en cartuchos al agregar soporte para un formato basado en CD-ROM conocido como Super Disc.
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
+La plataforma SNES-CD se desarrolló en asociación entre Nintendo y Sony. Se planeó lanzar la plataforma como un complemento para el SNES estándar, así como una consola híbrida de Sony llamada PlayStation.</text>
 		</text>
 		
 				

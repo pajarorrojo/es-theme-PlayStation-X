@@ -31,12 +31,14 @@
     	<custom>custom</custom>
 	  	<theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
 	  	<VideoOff>Video Off</VideoOff>    
-	  	<theme.systemConsole>Show logo and consoles in systemview</theme.systemConsole>
+	  	<theme.systemConsole>Show logo and consoles in system view</theme.systemConsole>
 	  	<randomGame>Random Game</randomGame>
 		<theme.colorset>Theme Colorset</theme.colorset>
-		<theme.gridorigin>Grid image origin </theme.gridorigin>
+		<theme.gridorigin>Image source in grid</theme.gridorigin>
+		<theme.gridMainorigin>Main image source in grid view</theme.gridMainorigin>
+		<theme.detailedorigin>Image source in detailed view</theme.detailedorigin>
 		<theme.gridvideo>Show Videosnap in gamelist</theme.gridvideo>
-		<theme.videoSnapAudio>Enable audio on games videosnaps</theme.videoSnapAudio>
+		<theme.videoSnapAudio>Enable audio on game videosnaps</theme.videoSnapAudio>
 		<theme.animatedList>Animated transitions in game list</theme.animatedList>
 		<theme.gametime>Show time played info in gamelist</theme.gametime>
 		<theme.animatedSystem>Animated transitions in systems view</theme.animatedSystem>
