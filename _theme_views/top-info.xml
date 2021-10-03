@@ -38,6 +38,7 @@
       <alignment>center</alignment> 
       <verticalAlignment>bottom</verticalAlignment>
       <maxSize>0.095 0.1</maxSize>
+      <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
       <path>./_theme_inc/images/logos/${system.theme}.png</path>
       <path>./_theme_inc/images/logos/${system.theme}.svg</path>
       <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
@@ -56,18 +57,7 @@
       <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
     </image>
 
-    <text name="logoText" extra="true">
-	    <alignment>left</alignment> 
-        <lineSpacing>1</lineSpacing>
-        <verticalAlignment>top</verticalAlignment>
-        <size>0.1 0.09</size>
-	    <pos>0.02 0.03</pos>
-		<color>${releaseColor}</color>
-        <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-	    <fontSize>0.028</fontSize>   
-        <zIndex>99</zIndex>    
-        <backgroundColor>00000000</backgroundColor>
-      </text> 
+
  </view>
 
    <view name="detailed, basic, grid, system" >

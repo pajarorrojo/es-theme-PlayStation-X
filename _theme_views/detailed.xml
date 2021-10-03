@@ -27,6 +27,7 @@
       	<opacity>0.1</opacity>
    </image>	
 
+
    <image name="logo" extra="true" region="eu"/>
     <image name="logo" extra="true" region="us">
     <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
@@ -43,7 +44,18 @@
       <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
     </image>
 
-
+    <text name="logoText" extra="true">
+	    <alignment>right</alignment> 
+        <lineSpacing>1</lineSpacing>
+        <verticalAlignment>center</verticalAlignment>
+        <size>0.45 0.1</size>
+	    <pos>-0.02 0.44</pos>
+		<color>${gamelistSelectedColor}26</color>
+        <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+	    <fontSize>0.070</fontSize>   
+        <zIndex>41</zIndex>    
+        <backgroundColor>ff000000</backgroundColor>
+      </text> 
    
 	
       <textlist name="gamelist">
