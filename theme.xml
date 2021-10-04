@@ -91,7 +91,7 @@
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
 	<include name="batocera" displayName="Batocera"/>
-	<include name="custom" displayName="${custom}"/>
+	<include name="custom" displayName="${custom}">./custom-username.xml</include>
 	<include name="castlevania" displayName="Alucard (Castlevania)"/>
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)"/>
 	<include name="batocera-plus" displayName="Batocera Plus"/>
