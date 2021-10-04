@@ -1,3 +1,12 @@
+Version 32.1 (hotfix) (04/10/2021)
+
+
+- fixed an issue that showed the option "splash" in Theme configuration settings -> Gamelist view style
+
+
+
+------------------------
+
 Version 32 (03/10/2021)
 
 

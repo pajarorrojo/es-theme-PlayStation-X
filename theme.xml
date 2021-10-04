@@ -90,51 +90,51 @@
 
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
-	<include name="batocera" displayName="Batocera">./_theme_options/avatars/batocera.xml</include>
-	<include name="custom" displayName="${custom}">./_theme_options/avatars/custom.xml</include>
-	<include name="batocera-plus" displayName="Batocera Plus">./_theme_options/avatars/batocera-plus.xml</include>
-	<include name="Bubble Bobble" displayName="Bubble Bobble">./_theme_options/avatars/bubble.xml</include>
-	<include name="castlevania" displayName="Alucard (Castlevania)">./_theme_options/avatars/castlevania.xml</include>
-	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./_theme_options/avatars/ghostgoblins.xml</include>
-	<include name="cloud" displayName="Cloud Strife">./_theme_options/avatars/cloud.xml</include>
-	<include name="daytentacle" displayName="Day of the Tentacle">./_theme_options/avatars/daytentacle.xml</include> 
-	<include name="daytona" displayName="Daytona USA Hornet">./_theme_options/avatars/daytona.xml</include> 
-	<include name="donkey" displayName="Donkey Kong">./_theme_options/avatars/donkey.xml</include> 
-	<include name="doubledragon" displayName="Double Dragon">./_theme_options/avatars/doubledragon.xml</include> 
-	<include name="emulationstation" displayName="Emulation Station">./_theme_options/avatars/emulationstation.xml</include>
-	<include name="goku" displayName="Goku">./_theme_options/avatars/goku.xml</include>
-	<include name="halo" displayName="Halo">./_theme_options/avatars/halo.xml</include>
-	<include name="he-man" displayName="HE-MAN">./_theme_options/avatars/he-man.xml</include>
-	<include name="jackelguapo" displayName="Handsome Jack">./_theme_options/avatars/jackelguapo.xml</include>
-	<include name="lara" displayName="Lara Croft">./_theme_options/avatars/lara.xml</include>
-	<include name="larry" displayName="Larry Laffer">./_theme_options/avatars/larry.xml</include>
-	<include name="lemmings" displayName="Lemmings">./_theme_options/avatars/lemmings.xml</include>
-	<include name="zelda" displayName="Link (Zelda)">./_theme_options/avatars/zelda.xml</include>
-	<include name="mario" displayName="Mario Bros.">./_theme_options/avatars/mario.xml</include>
-	<include name="megaman" displayName="Mega-Man">./_theme_options/avatars/megaman.xml</include>
-	<include name="metal-gear" displayName="Metal Gear">./_theme_options/avatars/metal-gear.xml</include>
-	<include name="metalslug" displayName="Metal Slug">./_theme_options/avatars/metalslug.xml</include>
-	<include name="metroid" displayName="Metroid">./_theme_options/avatars/metroid.xml</include>
-	<include name="monkeyisland" displayName="Monkey Island">./_theme_options/avatars/monkeyisland.xml</include>
-	<include name="outrun" displayName="OutRun">./_theme_options/avatars/outrun.xml</include>
-	<include name="pacman" displayName="Pac-Man">./_theme_options/avatars/pacman.xml</include>
-	<include name="pacman-clyde" displayName="Pac-Man Clyde">./_theme_options/avatars/pacman-clyde.xml</include>
-	<include name="pacman-Inky" displayName="Pac-Man Inky">./_theme_options/avatars/pacman-inky.xml</include>
-	<include name="pacman-blinky" displayName="Pac-Man Blinky">./_theme_options/avatars/pacman-blinky.xml</include>
-	<include name="pacman-pinky" displayName="Pac-Man Pinky">./_theme_options/avatars/pacman-pinky.xml</include>
-	<include name="ps-logo" displayName="PlayStation Logo">./_theme_options/avatars/playstation-logo.xml</include>
-	<include name="astrobot" displayName="PSN Astro Bot">./_theme_options/avatars/astrobot.xml</include>
-	<include name="retroship" displayName="PSN Retro Ship">./_theme_options/avatars/retroship.xml</include>
-	<include name="recalbox" displayName="Recalbox">./_theme_options/avatars/recalbox.xml</include>
-	<include name="retroachievements" displayName="Retroachievements Default">./_theme_options/avatars/retroachievements.xml</include>
-	<include name="retrobat" displayName="Retrobat">./_theme_options/avatars/retrobat.xml</include>
-	<include name="retropie" displayName="Retropie">./_theme_options/avatars/retropie.xml</include>
-	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./_theme_options/avatars/shenmue.xml</include>
-	<include name="ryu" displayName="Ryu (Street Fighter 2)">./_theme_options/avatars/ryu.xml</include>
-	<include name="sephirot" displayName="Sephirot">./_theme_options/avatars/sephirot.xml</include>
-	<include name="sonic" displayName="Sonic">./_theme_options/avatars/sonic.xml</include>
-	<include name="wonderboy" displayName="Wonderboy">./_theme_options/avatars/wonderboy.xml</include>
-	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/avatars/pajarorrojo.xml</include>	
+	<include name="batocera" displayName="Batocera"/>
+	<include name="custom" displayName="${custom}"/>
+	<include name="castlevania" displayName="Alucard (Castlevania)"/>
+	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)"/>
+	<include name="batocera-plus" displayName="Batocera Plus"/>
+	<include name="bubble" displayName="Bubble Bobble"/>
+	<include name="cloud" displayName="Cloud Strife"/>
+	<include name="daytentacle" displayName="Day of the Tentacle"/>
+	<include name="daytona" displayName="Daytona USA Hornet"/>
+	<include name="donkey" displayName="Donkey Kong"/>
+	<include name="doubledragon" displayName="Double Dragon"/>
+	<include name="emulationstation" displayName="Emulation Station"/>
+	<include name="goku" displayName="Goku"/>
+	<include name="halo" displayName="Halo"/>
+	<include name="he-man" displayName="HE-MAN"/>
+	<include name="jackelguapo" displayName="Handsome Jack"/>
+	<include name="lara" displayName="Lara Croft"/>
+	<include name="larry" displayName="Larry Laffer"/>
+	<include name="lemmings" displayName="Lemmings"/>
+	<include name="zelda" displayName="Link (Zelda)"/>
+	<include name="mario" displayName="Mario Bros."/>
+	<include name="megaman" displayName="Mega-Man"/>
+	<include name="metal-gear" displayName="Metal Gear"/>
+	<include name="metalslug" displayName="Metal Slug"/>
+	<include name="metroid" displayName="Metroid"/>
+	<include name="monkeyisland" displayName="Monkey Island"/>
+	<include name="outrun" displayName="OutRun"/>
+	<include name="pacman" displayName="Pac-Man"/>
+	<include name="pacman-clyde" displayName="Pac-Man Clyde"/>
+	<include name="pacman-inky" displayName="Pac-Man Inky"/>
+	<include name="pacman-blinky" displayName="Pac-Man Blinky"/>
+	<include name="pacman-pinky" displayName="Pac-Man Pinky"/>
+	<include name="pajarorrojo" displayName="pajarorrojo"/>
+	<include name="ps-logo" displayName="PlayStation Logo"/>
+	<include name="astrobot" displayName="PSN Astro Bot"/>
+	<include name="retroship" displayName="PSN Retro Ship"/>
+	<include name="recalbox" displayName="Recalbox"/>
+	<include name="retroachievements" displayName="Retroachievements Default"/>
+	<include name="retrobat" displayName="Retrobat"/>
+	<include name="retropie" displayName="Retropie"/>
+	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)"/>
+	<include name="ryu" displayName="Ryu (Street Fighter 2)"/>
+	<include name="sephirot" displayName="Sephirot"/>
+	<include name="sonic" displayName="Sonic"/>
+	<include name="wonderboy" displayName="Wonderboy"/>
 </subset>  
 
 
@@ -142,33 +142,33 @@
 
 <!--NICKNAMES-->
 <subset name="system-username" displayName="${theme.username}">
- 	<include name="playstation-x" displayName="Playstation-X">./_theme_options/usernames/playstation-x.xml</include>  
-	<include name="cheevos" displayName="Retroachievements ID">./_theme_options/usernames/cheevos.xml</include>
-	<include name="custom" displayName="${custom}">./custom-username.xml</include>
-	<include name="batocera" displayName="Batocera">./_theme_options/usernames/batocera.xml</include>
-	<include name="batocera-plus" displayName="Batocera Plus">./_theme_options/usernames/batocera-plus.xml</include>
-	<include name="cloud" displayName="Cloud Strife">./_theme_options/usernames/cloud.xml</include>
-	<include name="emulationstation" displayName="EmulationStation">./_theme_options/usernames/emulationstation.xml</include>
-	<include name="ezio" displayName="Ezio Auditore">./_theme_options/usernames/ezio.xml</include>
-	<include name="belmont" displayName="Gabriel Belmont">./_theme_options/usernames/belmont.xml</include>
-	<include name="geralt" displayName="Geralt of Rivia">./_theme_options/usernames/geralt.xml</include>
-	<include name="guybrush" displayName="Guybrush Threepwood">./_theme_options/usernames/guybrush.xml</include>
-	<include name="jackelguapo" displayName="Handsome Jack">./_theme_options/usernames/jackelguapo.xml</include>
-	<include name="kratos" displayName="Kratos">./_theme_options/usernames/kratos.xml</include>
-	<include name="laracroft" displayName="Lara Croft">./_theme_options/usernames/laracroft.xml</include>
-	<include name="larry" displayName="Larry Laffer">./_theme_options/usernames/larry.xml</include>
-	<include name="linkzelda" displayName="Link">./_theme_options/usernames/linkzelda.xml</include>
-	<include name="megaman" displayName="Mega-Man">./_theme_options/usernames/megaman.xml</include>
-	<include name="nathandrake" displayName="Nathan Drake">./_theme_options/usernames/nathandrake.xml</include>
-	<include name="recalbox" displayName="Recalbox">./_theme_options/usernames/recalbox.xml</include>
-	<include name="retroarch" displayName="RetroArch">./_theme_options/usernames/retroarch.xml</include>
-	<include name="retrobat" displayName="Retrobat">./_theme_options/usernames/retrobat.xml</include>
-	<include name="samus" displayName="Samus Aran">./_theme_options/usernames/samus.xml</include>
-	<include name="sephirot" displayName="Sephirot">./_theme_options/usernames/sephirot.xml</include>
-	<include name="solidsnake" displayName="Solid Snake">./_theme_options/usernames/solidsnake.xml</include>
-	<include name="sonic" displayName="Sonic the Hedgehog">./_theme_options/usernames/sonic.xml</include>
-	<include name="subzero" displayName="Sub Zero">./_theme_options/usernames/subzero.xml</include>
-	<include name="pajarorrojo" displayName="pajarorrojo">./_theme_options/usernames/pajarorrojo.xml</include>
+ 	<include name="playstation-x" displayName="Playstation-X" />
+	<include name="cheevos" displayName="Retroachievements ID"/>
+	<include name="custom" displayName="${custom}"/>
+	<include name="batocera" displayName="Batocera"/>
+	<include name="batocera-plus" displayName="Batocera Plus"/>
+	<include name="cloud" displayName="Cloud Strife"/>
+	<include name="emulationstation" displayName="EmulationStation"/>
+	<include name="ezio" displayName="Ezio Auditore"/>
+	<include name="belmont" displayName="Gabriel Belmont"/>
+	<include name="geralt" displayName="Geralt of Rivia"/>
+	<include name="guybrush" displayName="Guybrush Threepwood"/>
+	<include name="jackelguapo" displayName="Handsome Jack"/>
+	<include name="kratos" displayName="Kratos"/>
+	<include name="laracroft" displayName="Lara Croft"/>
+	<include name="larry" displayName="Larry Laffer"/>
+	<include name="linkzelda" displayName="Link (Zelda)"/>
+	<include name="megaman" displayName="Mega-Man"/>
+	<include name="nathandrake" displayName="Nathan Drake"/>
+	<include name="pajarorrojo" displayName="pajarorrojo" />
+	<include name="recalbox" displayName="Recalbox"/>
+	<include name="retroarch" displayName="RetroArch"/>
+	<include name="retrobat" displayName="Retrobat"/>
+	<include name="samus" displayName="Samus Aran"/>
+	<include name="sephirot" displayName="Sephirot"/>
+	<include name="solidsnake" displayName="Solid Snake"/>
+	<include name="sonic" displayName="Sonic the Hedgehog"/>
+	<include name="subzero" displayName="Sub Zero"/>
 </subset>  
 
 <!--OPCIONES GAMELISTS-->
@@ -257,7 +257,7 @@
 
 <!--VERSION-->
 <text name="version" extra="true">
-         <text>V.32</text>
+         <text>V.32.1</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -361,6 +361,8 @@
 	<include>./_theme_views/grid.xml</include>
 	<include>./_theme_views/front.xml</include>
 	<include>./_theme_views/top-info.xml</include>
+	<include>./_theme_options/usernames.xml</include>
+	<include>./_theme_options/avatars.xml</include>
 
 	
 </theme>

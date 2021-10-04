@@ -31,12 +31,6 @@
   </variables>
 
 
-    <view name="splash">
-		<image name="background">
-	 		<path>./_theme_options/colorsets/black/background.jpg</path>
-		</image>
-  </view>
-
     <view name="system">
     <image name="background-art" extra="true">
         <path>./black/background.jpg</path>

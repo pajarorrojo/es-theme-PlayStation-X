@@ -1,0 +1,56 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system, detailed, grid, basic">
+<!-- listado de avatares, colocar tambien en splash.xml-->
+		<image name="avatar" extra="true">
+	    	<path ifSubset="system-avatar:custom">./custom-avatar.png</path>	
+	    	<path ifSubset="system-avatar:batocera">./_theme_options/avatars/batocera.png</path>
+	    	<path ifSubset="system-avatar:batocera-plus">./_theme_options/avatars/batocera-plus.png</path>	
+	    	<path ifSubset="system-avatar:bubble">./_theme_options/avatars/bubble.png</path>	
+	    	<path ifSubset="system-avatar:castlevania">./_theme_options/avatars/castlevania.png</path>	
+	    	<path ifSubset="system-avatar:cloud">./_theme_options/avatars/cloud.png</path>	
+	    	<path ifSubset="system-avatar:daytentacle">./_theme_options/avatars/daytentacle.png</path>	
+	    	<path ifSubset="system-avatar:daytona">./_theme_options/avatars/daytona.png</path>	
+	    	<path ifSubset="system-avatar:donkey">./_theme_options/avatars/donkey.png</path>	
+	    	<path ifSubset="system-avatar:doubledragon">./_theme_options/avatars/doubledragon.png</path>	
+	    	<path ifSubset="system-avatar:emulationstation">./_theme_options/avatars/emulationstation.png</path>	
+	    	<path ifSubset="system-avatar:ghostgoblins">./_theme_options/avatars/ghostgoblins.png</path>	
+	    	<path ifSubset="system-avatar:goku">./_theme_options/avatars/goku.png</path>	
+	    	<path ifSubset="system-avatar:halo">./_theme_options/avatars/halo.jpg</path>	
+	    	<path ifSubset="system-avatar:he-man">./_theme_options/avatars/he-man.png</path>	
+	    	<path ifSubset="system-avatar:jackelguapo">./_theme_options/avatars/jackelguapo.jpg</path>	
+	    	<path ifSubset="system-avatar:lara">./_theme_options/avatars/lara-croft.png</path>	
+	    	<path ifSubset="system-avatar:larry">./_theme_options/avatars/larry.png</path>	
+	    	<path ifSubset="system-avatar:lemmings">./_theme_options/avatars/lemmings.png</path>	
+	    	<path ifSubset="system-avatar:zelda">./_theme_options/avatars/zelda.png</path>	
+	    	<path ifSubset="system-avatar:mario">./_theme_options/avatars/mario.png</path>	
+	    	<path ifSubset="system-avatar:megaman">./_theme_options/avatars/megaman.png</path>	
+	    	<path ifSubset="system-avatar:metal-gear">./_theme_options/avatars/metal-gear.jpg</path>	
+	    	<path ifSubset="system-avatar:metalslug">./_theme_options/avatars/metalslug.png</path>	
+	    	<path ifSubset="system-avatar:metroid">./_theme_options/avatars/metroid.png</path>	
+	    	<path ifSubset="system-avatar:monkeyisland">./_theme_options/avatars/monkeyisland.png</path>	
+	    	<path ifSubset="system-avatar:outrun">./_theme_options/avatars/outrun.png</path>	
+	    	<path ifSubset="system-avatar:pacman-blinky">./_theme_options/avatars/pacman-blinky.png</path>	
+	    	<path ifSubset="system-avatar:pacman-clyde">./_theme_options/avatars/pacman-clyde.png</path>	
+	    	<path ifSubset="system-avatar:pacman-inky">./_theme_options/avatars/pacman-inky.png</path>	
+	    	<path ifSubset="system-avatar:pacman-pinky">./_theme_options/avatars/pacman-pinky.png</path>	
+	    	<path ifSubset="system-avatar:pacman">./_theme_options/avatars/pacman.png</path>	
+	    	<path ifSubset="system-avatar:pajarorrojo">./_theme_options/avatars/pajarorrojo.png</path>
+	    	<path ifSubset="system-avatar:ps-logo">./_theme_options/avatars/playstation-logo.png</path>	
+	    	<path ifSubset="system-avatar:astrobot">./_theme_options/avatars/astrobot.png</path>	
+	    	<path ifSubset="system-avatar:retroship">./_theme_options/avatars/retroship.png</path>	
+ 	    	<path ifSubset="system-avatar:recalbox">./_theme_options/avatars/recalbox.jpg</path>	
+	    	<path ifSubset="system-avatar:retroachievements">./_theme_options/avatars/retroachievements.png</path>	
+	    	<path ifSubset="system-avatar:retrobat">./_theme_options/avatars/retrobat.png</path>	
+	    	<path ifSubset="system-avatar:retropie">./_theme_options/avatars/retropie.png</path>	
+	    	<path ifSubset="system-avatar:shenmue">./_theme_options/avatars/shenmue.png</path>	
+	    	<path ifSubset="system-avatar:ryu">./_theme_options/avatars/ryu.png</path>	
+	    	<path ifSubset="system-avatar:sephirot">./_theme_options/avatars/sephirot.png</path>	
+	    	<path ifSubset="system-avatar:sonic">./_theme_options/avatars/sonic.png</path>	
+	    	<path ifSubset="system-avatar:wonderboy">./_theme_options/avatars/wonderboy.png</path>	
+		</image> 
+</view>
+
+</theme>

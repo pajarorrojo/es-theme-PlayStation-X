@@ -1,9 +1,0 @@
-<!-- Theme by pajarorrojo-->
-<theme> 
-<formatVersion>7</formatVersion> 
-   <view name="system, splash, detailed, grid, basic">
-<text name="username" extra="true"> 
-         <text>recalbox</text>
-      </text> 
-   </view> 
-</theme>
