@@ -3,7 +3,7 @@ Version 32.2 (01/11/2021)
 
 - Performance: Changes, improves and fixes in code, graphics, languages and UX in general
 - Theme option: New supported images source options for medias in views. Now we can choose between next metadata tags for a better user customization layouts: 
- - image 
+  - image 
  - thumbnail (AKA box in batocera)
  - titleshot
  - marquee (AKA logo in batocera)
