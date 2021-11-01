@@ -2,7 +2,7 @@
 <!-- Theme by pajarorrojo-->
 <theme>
 	<formatVersion>7</formatVersion>
-   <view name="grid">
+   <view name="grid"   >
 
       
    
@@ -42,22 +42,39 @@
     </image>
 
 
-   <imagegrid name="gamegrid">
+
+   <imagegrid name="gamegrid" >
+         <imageSource ifSubset="grid-origin:image">image</imageSource>
+         <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
+         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
+         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
+         <imageSource ifSubset="grid-origin:fanart">fanart</imageSource>
+         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
+         <!-- <imageSource ifSubset="grid-origin:boxback">boxback</imageSource> not supported -->
+         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
+
 			<autoLayout>5 2</autoLayout>
-			<scrollLoop>true</scrollLoop>
+			<autoLayout ifSubset="grid-origin:boxart|thumbnail">7 1</autoLayout>
+         <scrollDirection ifSubset="grid-origin:boxart|thumbnail">horizontal</scrollDirection>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
-			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-			<margin>0.003 0.006</margin>
+			<autoLayoutSelectedZoom>1.04</autoLayoutSelectedZoom>
+			<margin>0.005 0.006</margin>
 			<size>0.950 0.45</size>
-			<pos>0.025 0.49</pos>
+			<pos>0.025 0.48</pos>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
 	      <zIndex>60</zIndex>
-		</imagegrid>
+         <padding>0.005 0.005</padding>
+
+	</imagegrid>
+
+   
 
 	<gridtile name="default">
 			<backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
 			<padding>8</padding>
-			<imageSizeMode>minSize</imageSizeMode>
+         <imageSizeMode ifSubset="grid-origin:titleshot|image|fanart">minSize</imageSizeMode>
+         <selectionMode ifSubset="grid-origin:boxart|thumbnail">image</selectionMode>
+         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">00000000</backgroundEdgeColor>
 			<backgroundCornerSize>0 0</backgroundCornerSize>
 			<imageColor>ffffffc9</imageColor>
 		</gridtile>
@@ -68,6 +85,7 @@
 			<imageColor>ffffffff</imageColor>
 			<backgroundCornerSize>0</backgroundCornerSize>
 			<backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
+			<backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">00000000</backgroundEdgeColor>
 		</gridtile>
 
 		<image name="gridtile.image">
@@ -83,11 +101,16 @@
 			<origin>0 0</origin>
 			<color>F3C300</color>
 		</image> 
-     
+
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>${backgroundgrid}</animateColor>
+      <animateColorTime>500</animateColorTime>
+    </ninepatch>     
       
 
       <image name="background" extra="true">
-          <origin>0 0</origin>
+         <origin>0 0</origin>
+         <size>1 1</size>        
          <pos>0 0</pos>
 	      <zIndex>50</zIndex>
          <linearSmooth>true</linearSmooth>
@@ -103,21 +126,17 @@
          <linearSmooth>true</linearSmooth>
       </image>
 
-   <image name="background-art" extra="true" region="eu"/>
-    <image name="background-art" extra="true" region="us">
-      <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
-    </image>
-    <image name="background-art" extra="true" region="jp">
-      <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
-    </image>
-
-
-
-
+      <image name="background-art" extra="true" region="eu"/>
+      <image name="background-art" extra="true" region="us">
+         <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
+      </image>
+      <image name="background-art" extra="true" region="jp">
+         <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      </image>
 
 
       <rating name="md_rating">
-			<pos>0.795 0.425</pos>
+			<pos>0.795 0.395</pos>
 			<size>0.05 0.05</size>
           <origin>0 0</origin>
          <unfilledColor>${starUnfill}</unfilledColor>
@@ -128,17 +147,18 @@
 		</rating>
    
 		<text name="md_genre">
-			<pos>0.30 0.420</pos>
+			<pos>0.30 0.422</pos>
 			<size>0.41 0.034</size>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>${genreColor}</color>
 			<zIndex>51</zIndex>
-          <origin>0 0</origin>
-            <backgroundColor>00000000</backgroundColor>
+         <origin>0 0</origin>
+         <backgroundColor>00000000</backgroundColor>
 		</text>
+
       <datetime name="md_releasedate">
-			<pos>0.30 0.440</pos>
+			<pos>0.30 0.387</pos>
           <origin>0 0</origin>
          <alignment>left</alignment> 
          <verticalAlignment>top</verticalAlignment>
@@ -149,40 +169,38 @@
 			<fontSize>0.020</fontSize>
 			<zIndex>51</zIndex> 
          <backgroundColor>00000000</backgroundColor>
-
-         
 		</datetime>
       
       <text name="md_developer">
 			<size>0.38 0.035</size>
           <origin>0 0</origin>
          <verticalAlignment>top</verticalAlignment>
-			<pos>0.335 0.447</pos>
+			<pos>0.328 0.394</pos>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>${developerColor}</color>
 			<zIndex>51</zIndex>
          <backgroundColor>00000000</backgroundColor>
-
 		</text>
       
       <text name="md_description">
          <color>ffffff</color>      
-         <pos>0.30 0.225</pos>
+         <pos>0.30 0.21</pos>
          <size>0.64 0.1685</size>
 	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.026</fontSize>
          <lineSpacing>1.1</lineSpacing>
          <origin>0 0</origin>
-          <backgroundColor>00000000</backgroundColor>   
+         <backgroundColor>00000000</backgroundColor>   
          <zIndex>99</zIndex>     
       </text> 
+
       <text name="md_name">
          <alignment>left</alignment> 
           <verticalAlignment>top</verticalAlignment>
          <size>0.570 0.010</size>
          <color>ffffff</color>      
-         <pos>0.30 0.140</pos>
+         <pos>0.30 0.120</pos>
 	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.060</fontSize>
          <origin>0 0</origin>
@@ -192,37 +210,7 @@
          <zIndex>99</zIndex>  
          <backgroundColor>00000000</backgroundColor>  
       </text> 
-	  
-      <image name="md_image" ifSubset="grid-main-origin:image">
-        <alignment>left</alignment>
-        <verticalAlignment>bottom</verticalAlignment>
-        <origin>0 0</origin>
-        <pos>0.025 0.115</pos>
-        <maxSize>0.25 0.35</maxSize>
-        <zIndex>91</zIndex>  
-         <linearSmooth>true</linearSmooth>
-      </image>    
-
-      <image name="md_boxart" ifSubset="grid-main-origin:thumbnail">
-        <alignment>left</alignment>
-        <verticalAlignment>bottom</verticalAlignment>
-        <origin>0 0</origin>
-        <pos>0.025 0.115</pos>
-        <maxSize>0.25 0.35</maxSize>
-        <zIndex>91</zIndex>  
-         <linearSmooth>true</linearSmooth>
-      </image>   
-
-      <image name="md_marquee" ifSubset="grid-main-origin:marquee">
-        <alignment>center</alignment>
-        <origin>0 0</origin>
-        <pos>0.025 0.215</pos>
-        <maxSize>0.25 0.25</maxSize>
-        <zIndex>91</zIndex>  
-        <visible>true</visible>
-        <linearSmooth>true</linearSmooth>
-      </image>    
-
+	   
    </view>
    
 

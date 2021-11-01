@@ -1,8 +1,28 @@
+Version 32.2 (01/11/2021)
+
+
+- Performance: Changes, improves and fixes in code, graphics, languages and UX in general
+- Theme option: New supported images source options for medias in views. Now we can choose between next metadata tags for a better user customization layouts: 
+ - image 
+ - thumbnail (AKA box in batocera)
+ - titleshot
+ - marquee (AKA logo in batocera)
+ - boxart
+ - fanart
+ - cartridge
+- Design: New grid layout for boxart and thumbnail if selected as grid image source
+- Design: New videosnap (window) mode in grid view
+- Fixed: an issue whith no displaying custom avatar and custom nickname
+- Customization: Change the background music path to "_theme_music" folder in root for an easier music customization
+- Added: 2 new background audio files
+- Added: Claptrap preset avatar
+
+
+------------------------
 Version 32.1 (hotfix) (04/10/2021)
 
 
 - fixed an issue that showed the option "splash" in Theme configuration settings -> Gamelist view style
-
 
 
 ------------------------
@@ -14,7 +34,7 @@ Version 32 (03/10/2021)
 - New: Theme option: Select main image source in grid view (image, thumbnail or marquee)
 - Added: Medias data and / or infos for Cplus4, MsxturboR, Commodore PET, Uzebox, Sonic Retro, Super Game Boy, Super Cassette Vision and Apple 2 GS systems
 - Added: Medias and data to the most common used auto collections, like Shooter, RPG, Shoot em up, Fighting etc... up to 27 main collections.
-- Added: Daytona USA Hornet, Double Dragon, Lemmings, HE-MAN and Goku preset avatar
+- Added: Daytona USA Hornet, Double Dragon, Lemmings, HE-MAN and Goku preset avatars
 - Minor changes, improves and fixes in graphics, languages and UX in general
 
 

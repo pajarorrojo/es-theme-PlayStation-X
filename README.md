@@ -2,17 +2,15 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura-0-1.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
-
-![](https://es-theme-playstation-x.tocapixels.com/img/captura2-2.jpg)
-
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura03.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura-grid.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura04.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura-boxes.jpg)
 
-![](https://es-theme-playstation-x.tocapixels.com/img/captura05.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/img/captura02.jpg)
+
+![](https://es-theme-playstation-x.tocapixels.com/img/captura2-2.jpg)
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura06.jpg)
 
@@ -37,6 +35,13 @@ The 2 files are located in the root folder.
 - For change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
 
 - For change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
+
+- To apply don't forget to set in theme options "Choose a nick -> custom" "Choose your avatar -> custom"
+
+
+### HOW USE YOUR CUSTOM BACKGROUND MUSIC?
+
+You can put your favorite music files in /_theme_music/ folder
 
 
 
@@ -71,6 +76,14 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 
 - Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
 
+- Para aplicar, no olvides seleccionar la personalización en las opciones del tema. "Escoge un nick -> personalizado", "Escoge tu avatar" -> personalizado"
+
+
+
+### ¿COMO USAR TU MÚSICA DE FONDO PERSONALIZADA?
+
+Puedes colocar tus archivos de música favoritos en la carpeta /_theme_music/
+
 
 
 ##### IDIOMAS COMPATIBLES
@@ -82,6 +95,8 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 - Italiano (IT) -solo en los textos de la interfaz, no en las descripciones de sistemas-
 
 Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
+
+
 
 
 

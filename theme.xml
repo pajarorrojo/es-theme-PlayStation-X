@@ -13,14 +13,13 @@
 	<include lang="it">./_theme_lang/it.xml</include>
 
 
-<!--OPCIONES DEL TEMA (subset order reversed WTF?)-->
+<!--THEME OPTIONS (subset order reversed in batocera not in retrobat WTF?)-->
 
 <!--CONSOLA Y LOGO VISTA SISTEMAS-->
 
 <subset name="system-console" displayName="${theme.systemConsole}" >
 	<include name="YES" displayName="${yes}">./_theme_options/show-logo-consoles-front.xml</include>
 	<include name="NO" displayName="${no}"/>
-
 </subset>
 
 <!--ANIMACIONES DE VISTA SISTEMAS-->
@@ -63,10 +62,10 @@
 
 <!--TAMAÑO CARRUSEL-->
 
-<subset name="Carousel" displayName="${CarouselImageSize}">
-	<include name="big" displayName="${big}">./_theme_options/carousel/carousel-big.xml</include>
-	<include name="medium" displayName="${medium}">./_theme_options/carousel/carousel-standard.xml</include>
-	<include name="small" displayName="${small}">./_theme_options/carousel/carousel-small.xml</include>
+<subset name="carousel" displayName="${CarouselImageSize}">
+	<include name="big" displayName="${big}"/>
+	<include name="medium" displayName="${medium}"/>
+	<include name="small" displayName="${small}"/>
 </subset>
 
 
@@ -91,11 +90,12 @@
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}">
 	<include name="batocera" displayName="Batocera"/>
-	<include name="custom" displayName="${custom}">./custom-username.xml</include>
+	<include name="custom" displayName="${custom}"/>
 	<include name="castlevania" displayName="Alucard (Castlevania)"/>
 	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)"/>
 	<include name="batocera-plus" displayName="Batocera Plus"/>
 	<include name="bubble" displayName="Bubble Bobble"/>
+	<include name="claptrap" displayName="Claptrap (Borderlands)"/>
 	<include name="cloud" displayName="Cloud Strife"/>
 	<include name="daytentacle" displayName="Day of the Tentacle"/>
 	<include name="daytona" displayName="Daytona USA Hornet"/>
@@ -144,7 +144,7 @@
 <subset name="system-username" displayName="${theme.username}">
  	<include name="playstation-x" displayName="Playstation-X" />
 	<include name="cheevos" displayName="Retroachievements ID"/>
-	<include name="custom" displayName="${custom}"/>
+	<include name="custom" displayName="${custom}">./custom-username.xml</include>
 	<include name="batocera" displayName="Batocera"/>
 	<include name="batocera-plus" displayName="Batocera Plus"/>
 	<include name="cloud" displayName="Cloud Strife"/>
@@ -178,8 +178,12 @@
 <subset name="detailed-origin" displayName="${theme.detailedorigin}" appliesTo="detailed,">
 	<include name="image" displayName="image" />
 	<include name="thumbnail" displayName="thumbnail" />
+	<include name="titleshot" displayName="titleshot"/>
 	<include name="marquee" displayName="marquee" />
-
+	<include name="boxart" displayName="boxart"/>
+	<include name="fanart" displayName="fanart"/>
+<!-- <include name="boxback" displayName="boxback"/> -->	
+	<include name="cartridge" displayName="cartridge"/>
 </subset>  
 
 <!--OPCIONES DE VISTA CUADRICULA-->
@@ -187,38 +191,49 @@
 <subset name="grid-main-origin" displayName="${theme.gridMainorigin}" appliesTo="grid">
 	<include name="image" displayName="image" />
 	<include name="thumbnail" displayName="thumbnail" />
+	<include name="titleshot" displayName="titleshot"/>
 	<include name="marquee" displayName="marquee" />
+	<include name="boxart" displayName="boxart"/>
+	<include name="fanart" displayName="fanart"/>
+<!-- <include name="boxback" displayName="boxback"/> -->
+	<include name="cartridge" displayName="cartridge"/>
 </subset>  
 
+
 <subset name="grid-origin" displayName="${theme.gridorigin}" appliesTo="grid">
-	<include name="thumbnail" displayName="thumbnail">./_theme_options/gridview/grid_thumbnail.xml</include>
-	<include name="image" displayName="image">./_theme_options/gridview/grid_image.xml</include>
-	<include name="marquee" displayName="marquee">./_theme_options/gridview/grid_marquee.xml</include>
+	<include name="image" displayName="image"/>
+	<include name="thumbnail" displayName="thumbnail"/>
+	<include name="titleshot" displayName="titleshot"/>
+	<include name="marquee" displayName="marquee"/>
+	<include name="boxart" displayName="boxart"/>
+	<include name="fanart" displayName="fanart"/>
+<!-- <include name="boxback" displayName="boxback"/> no funciona en grilla-->
+	<include name="cartridge" displayName="cartridge"/>
 </subset> 
 
 <!--OPCIONES DE SNAPVIDEO-->
 
-<subset name="grid-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid">
-	<include name="in-grid" displayName="${yes}">./_theme_options/videotype/grid_video.xml</include>
-	<include name="background" displayName="${theme.backgroundVideoOption}">./_theme_options/videotype/background_video.xml</include>
+<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid">
+	<include name="window" displayName="${theme.windowVideoOption}"/>
+	<include name="background" displayName="${theme.backgroundVideoOption}"/>
+	<include name="inside" displayName="${theme.insideVideoOption}"/>
 	<include name="off" displayName="${VideoOff}"/>
-
 </subset>  
 
 <!--AUDIO VIDEOSNAP ON/OFF-->
 
-<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid" ifSubset="grid-video:in-grid|background" >
-	<include name="enable-audio" displayName="${yes}"/>
-	<include name="disable-audio" displayName="${no}">./_theme_options/videotype/no-audio.xml</include>
+<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid" ifSubset="game-video:window|background" >
+	<include name="enabled" displayName="${yes}"/>
+	<include name="disabled" displayName="${no}"/>
 </subset>
 
 <!--OPCIONES DE RETARDO DE VIDEO-->
-<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid" ifSubset="grid-video:in-grid|background">
-	<include name="1sec" displayName="1s">./_theme_options/video_delay/gamelist-video-1s.xml</include>
-	<include name="2sec" displayName="2s">./_theme_options/video_delay/gamelist-video-2s.xml</include>
-	<include name="3sec" displayName="3s">./_theme_options/video_delay/gamelist-video-3s.xml</include>
-	<include name="0sec" displayName="0s">./_theme_options/video_delay/gamelist-video-0s.xml</include>	
-	<include name="05sec" displayName="0.5s">./_theme_options/video_delay/gamelist-video-05s.xml</include>	
+<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid" ifSubset="game-video:window|background|inside">
+	<include name="1sec" displayName="1s"/>
+	<include name="2sec" displayName="2s"/>
+	<include name="3sec" displayName="3s"/>
+	<include name="0sec" displayName="0s"/>
+	<include name="05sec" displayName="0.5s"/>
 </subset>
 
 <!--BARRA DE INFO JUEGOS-->
@@ -245,32 +260,30 @@
 </subset>  
 
 
-
-
-
 <view name="system">
 
-<!--MUSICA DE FONDO-->
-<sound name="directory">
-	<path>./_theme_inc/music/</path>
-</sound>
+	<!--BACKGROUND MUSIC you can put your favorite music in /_theme_music/ folder-->
+	<sound name="directory">
+		<path>./_theme_music/</path>
+	</sound>
 
-<!--VERSION-->
-<text name="version" extra="true">
-         <text>V.32.1</text>
+	<!--VERSION-->
+	<text name="version" extra="true">
+         <text>V.32.2</text>
          <pos>0.9435 0.951</pos>
          <color>444444</color>
          <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 	     <fontSize>0.0220</fontSize>
          <alignment>left</alignment>
          <zIndex>99</zIndex>        
-</text>
+	</text>
 
 </view>
 
   <!--MENUS--> 
 
-   <view name="menu">
+<view name="menu">
+
 		<menuText name="menufooter">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.02</fontSize>
@@ -343,7 +356,7 @@
       </helpsystem>	
 </view>
 
-<view name="basic, detailed,grid">
+<view name="basic,detailed,grid">
       <helpsystem name="help">
          <textColor>${helpFontColor}</textColor>
          <iconColor>${helpIconColor}</iconColor>
@@ -356,13 +369,15 @@
       </helpsystem>	
 </view>
 
-    <include>./_theme_inc/infos/${system.theme}.xml</include>	
-	<include>./_theme_views/detailed.xml</include>
-	<include>./_theme_views/grid.xml</include>
-	<include>./_theme_views/front.xml</include>
-	<include>./_theme_views/top-info.xml</include>
-	<include>./_theme_options/usernames.xml</include>
-	<include>./_theme_options/avatars.xml</include>
+<include>./_theme_inc/infos/${system.theme}.xml</include>	
+<include>./_theme_views/detailed.xml</include>
+<include>./_theme_views/grid.xml</include>
+<include>./_theme_views/front.xml</include>
+<include>./_theme_views/top-info.xml</include>
+<include>./_theme_options/usernames.xml</include>
+<include>./_theme_options/avatars.xml</include>
+<include>./_theme_options/videosnap-controls.xml</include>
+<include>./_theme_options/image-sources.xml</include>
 
 	
 </theme>

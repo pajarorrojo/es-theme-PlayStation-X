@@ -78,7 +78,7 @@
 
 
       	<image name="md_flag">
-			<pos>0.965 0.255</pos>
+			<pos>0.965 0.215</pos>
 			<maxSize>0.022 0.05</maxSize>
 			<linearSmooth>true</linearSmooth>
          	<zIndex>51</zIndex>
@@ -89,7 +89,7 @@
 			<fontPath>./../_theme_inc/fonts/players.ttf</fontPath>
 			<text>1</text>
 			<size>0.03 0.03</size>
-			<pos>0.965 0.300</pos>
+			<pos>0.965 0.260</pos>
 			<alignment>center</alignment>
 			<fontSize>0.034</fontSize>
 			<color>Ffffff</color>
@@ -99,7 +99,7 @@
 
 		<image name="md_manual,md_nomanual">
 			<origin>0.5 0.5</origin>
-			<pos>0.965 0.345</pos>
+			<pos>0.965 0.305</pos>
 			<path>./../_theme_inc/images/manual.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>${manualOnColor}</color>
@@ -114,7 +114,7 @@
     <image name="md_savestate,md_nosavestate">
        <origin>0.5 0.5</origin>
        <path>./../_theme_inc/images/SaveState.png</path>
-       <pos>0.965 0.390</pos>
+       <pos>0.965 0.350</pos>
        <maxSize>0.02 0.03</maxSize>
        <color>${savegameOnColor}</color>
        <zIndex>150</zIndex>
@@ -128,7 +128,7 @@
 		<image name="md_cheevos,md_notcheevos">
 			<origin>0.5 0.5</origin>
 			<path>./../_theme_inc/images/Contest.png</path>
-			<pos>0.965 0.435</pos>
+			<pos>0.965 0.395</pos>
 			<maxSize>0.02 0.03</maxSize>     
 			<color>${cheevosOnColor}</color>
 			<zIndex>100</zIndex>

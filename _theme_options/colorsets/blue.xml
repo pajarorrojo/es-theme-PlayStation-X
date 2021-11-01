@@ -10,7 +10,7 @@
       <menuTextSmallColor>3CAEFB</menuTextSmallColor>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>003791</menubgColor>
-      <backgroundgrid>00379169</backgroundgrid>
+      <backgroundgrid>ffffff80</backgroundgrid>
       <backgroundgridSelect>F3C300</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
@@ -25,8 +25,8 @@
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
-      <splash.progressbarActive>0070d1</splash.progressbarActive>
-      <splash.progressbar>ffffff69</splash.progressbar>
+      <splash.progressbarActive>003791</splash.progressbarActive>
+      <splash.progressbar>ffffff80</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
   </variables>
 

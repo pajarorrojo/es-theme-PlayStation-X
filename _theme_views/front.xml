@@ -24,10 +24,37 @@
  		<logoAlignment>top</logoAlignment>
       <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
 		<zIndex>80</zIndex>
-		<defaultTransition>instant</defaultTransition>  
+		<defaultTransition>instant</defaultTransition> 
+      <transitionSpeed>500</transitionSpeed>
       <minLogoOpacity ifSubset="video-system:background-option">0.5</minLogoOpacity>
       <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>	
    </carousel>
+
+   <carousel name="systemcarousel" ifSubset="carousel:small">
+        <pos>-0.555 0.117</pos>
+        <size>1.65 1</size>
+        <logoScale>2.06</logoScale>
+        <logoSize>0.18</logoSize>
+        <maxLogoCount>10</maxLogoCount>
+   </carousel>
+
+   <carousel name="systemcarousel" ifSubset="carousel:medium">
+        <pos>-0.53 0.112</pos>
+        <size>1.6 1</size>
+        <logoScale>1.61</logoScale>
+        <logoSize>0.23</logoSize>
+        <maxLogoCount>9</maxLogoCount>
+   </carousel>
+
+   <carousel name="systemcarousel" ifSubset="carousel:big">
+        <pos>-0.5354 0.104</pos>
+	      <origin>0 0</origin>
+        <size>1.61 1</size>
+        <logoScale>1.176</logoScale>
+        <logoSize>0.315</logoSize>
+        <maxLogoCount>8</maxLogoCount>
+   </carousel>
+
 
       <text name="systemInfo">
         <visible>false</visible>
@@ -116,7 +143,6 @@
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>  
- 
       </text>
 
       <text name="fullName" extra="true">
@@ -134,7 +160,7 @@
          <backgroundColor>${menubgColor}</backgroundColor>
             <storyboard>
                 <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
-                <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>   
+                <animation property="opacity" from="0" to="1" begin="500" duration="0"  mode="linear"/>   
             </storyboard>
        </text>
 
@@ -152,9 +178,8 @@
            <glowOffset>3 2</glowOffset> 
             <storyboard>
                 <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
-                <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>
+                <animation property="opacity" from="0" to="1" begin="500" duration="0"  mode="linear"/>
             </storyboard>
-
        </text>
 
       

@@ -10,32 +10,23 @@
       </storyboard>
 		</imagegrid>
 
-    <ninepatch name="gridtile.background:selected">
-      <animateColor>${backgroundgrid}</animateColor>
-      <animateColorTime>400</animateColorTime>
-    </ninepatch>
-
-    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee">
+    <control name="md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee, md_thumbnail,md_boxback,md_fanart,md_titleshot,md_cartridge">
       <clipRect>0 0.16 1 0.78</clipRect>
       <storyboard event="open">
         <animation property="opacity" from="0" to="1" duration="400" mode="easeInOut"/>
       </storyboard>
       <storyboard event="activateNext">
-        <animation property="offsetX" from="1" to="0" duration="400" mode="easeOutCubic"/>
         <animation property="opacity" from="0" to="1" duration="400" mode="easeOut"/>
       </storyboard>
       <storyboard event="activatePrev">
-        <animation property="offsetX" from="-1" to="0" duration="400" mode="easeOutCubic"/>
         <animation property="opacity" from="0" to="1" duration="400" mode="easeOut"/>
       </storyboard>
       <storyboard event="deactivateNext">
           <animation property="opacity" to="0" duration="300" mode="easeOut"/>
-          <animation property="offsetX" to="-1" duration="300" mode="easeOutCubic"/>
-      </storyboard>
+¡      </storyboard>
       <storyboard event="deactivatePrev">
           <animation property="opacity" to="0" duration="300" mode="easeOut"/>
-          <animation property="offsetX" to="1" to="0" duration="300" mode="easeOutCubic"/>
-       </storyboard>     
+¡       </storyboard>     
     </control>
 </view>
 
@@ -66,7 +57,7 @@
       </storyboard>
     </textlist>
 
-    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher,md_rating, md_boxart, md_marquee">
+    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee, md_thumbnail, md_boxback, md_fanart, md_titleshot,md_cartridge">
       <clipRect>0 0.16 1 0.78</clipRect>
       <storyboard event="open">
         <animation property="offsetX" from="0.78" to="0" duration="400" mode="easeOutCubic"/>

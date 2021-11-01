@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid">
+           <!-- VIDEO CONTROLS -->
+
+     	<video name="md_video">
+			<delay ifSubset="video-gamelist-delay:0sec">0.001</delay>
+			<delay ifSubset="video-gamelist-delay:05sec">0.5</delay>
+			<delay ifSubset="video-gamelist-delay:1sec">1</delay>
+			<delay ifSubset="video-gamelist-delay:2sec">2</delay>
+			<delay ifSubset="video-gamelist-delay:3sec">3</delay>
+			<audio ifSubset="videosnap-audio:disabled">false</audio>
+			<visible ifSubset="game-video:off">false</visible>
+		</video>
+
+     </view>
+
+     <view name="basic, detailed">
+
+      <video ifSubset="game-video:window|inside" name="md_video">
+         <pos>0.760 0.405</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>99</zIndex>   
+         <effect>none</effect>
+      </video>
+
+      <video ifSubset="game-video:background" name="md_video">
+         <zIndex>40</zIndex>   
+         <effect>none</effect>
+         <pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+         <storyboard >
+              <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+         </storyboard>
+	   </video>
+     </view>
+
+     <view name="grid">
+      <video ifSubset="game-video:window" name="md_video">
+         <pos>0.154 0.3</pos>
+         <maxSize>0.27 0.33</maxSize>
+         <zIndex>99</zIndex>   
+         <effect>none</effect>
+      </video>
+
+      <video ifSubset="game-video:background" name="md_video">
+         <zIndex>49</zIndex>   
+         <effect>none</effect>
+         <pos>0 -0.265</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+          <storyboard >
+            <animation property="opacity" from="0" to="1" duration="1" begin="500" mode="linear"/>
+         </storyboard>
+	   </video>
+
+      <imagegrid name="gamegrid" ifSubset="game-video:inside" > 
+            <showVideoAtDelay ifSubset="video-gamelist-delay:0sec">1</showVideoAtDelay>
+            <showVideoAtDelay ifSubset="video-gamelist-delay:05sec">500</showVideoAtDelay>
+            <showVideoAtDelay ifSubset="video-gamelist-delay:1sec">1000</showVideoAtDelay>
+            <showVideoAtDelay ifSubset="video-gamelist-delay:2sec">2000</showVideoAtDelay>
+            <showVideoAtDelay ifSubset="video-gamelist-delay:3sec">3000</showVideoAtDelay>
+      </imagegrid>  
+
+   </view>
+
+</theme>

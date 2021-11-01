@@ -7,28 +7,28 @@
 
 
       
-   <image name="logo">
-		<pos>0.06 0.4</pos>
-      <linearSmooth>true</linearSmooth>
-      <alignment>center</alignment>
-      <verticalAlignment>bottom</verticalAlignment>
-		<maxSize>0.35</maxSize>
-      <origin>0 0</origin>
-		<!--  png -->
-      <path>./_theme_inc/images/logos/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./_theme_inc/images/logos/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
-      <!-- check if lang resources exist -->
-      <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-      <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-		<zIndex>41</zIndex>
+    <image name="logo">
+		   <pos>0.06 0.4</pos>
+         <linearSmooth>true</linearSmooth>
+         <alignment>center</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+		   <maxSize>0.35</maxSize>
+         <origin>0 0</origin>
+		   <!--  png -->
+         <path>./_theme_inc/images/logos/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <!-- check if lang resources exist -->
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+		   <zIndex>41</zIndex>
       	<opacity>0.1</opacity>
-   </image>	
+    </image>	
 
 
-   <image name="logo" extra="true" region="eu"/>
+    <image name="logo" extra="true" region="eu"/>
     <image name="logo" extra="true" region="us">
     <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
       <!--  svg -->
@@ -46,15 +46,15 @@
 
     <text name="logoText" extra="true">
 	    <alignment>right</alignment> 
-        <lineSpacing>1</lineSpacing>
-        <verticalAlignment>center</verticalAlignment>
-        <size>0.45 0.1</size>
-	    <pos>-0.02 0.44</pos>
-		<color>${gamelistSelectedColor}26</color>
-        <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-	    <fontSize>0.070</fontSize>   
-        <zIndex>41</zIndex>    
-        <backgroundColor>ff000000</backgroundColor>
+         <lineSpacing>1</lineSpacing>
+         <verticalAlignment>center</verticalAlignment>
+         <size>0.45 0.1</size>
+	      <pos>-0.02 0.44</pos>
+		   <color>${gamelistSelectedColor}26</color>
+         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+	      <fontSize>0.070</fontSize>   
+         <zIndex>41</zIndex>    
+         <backgroundColor>ff000000</backgroundColor>
       </text> 
    
 	
@@ -95,13 +95,13 @@
          <linearSmooth>true</linearSmooth>		
       </image>
 
-   <image name="background-art" extra="true" region="eu"/>
-    <image name="background-art" extra="true" region="us">
-      <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
-    </image>
-    <image name="background-art" extra="true" region="jp">
-      <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
-    </image>
+      <image name="background-art" extra="true" region="eu"/>
+      <image name="background-art" extra="true" region="us">
+         <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
+      </image>
+       <image name="background-art" extra="true" region="jp">
+         <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      </image>
 
       <rating name="md_rating">
 			<pos>0.825 0.705</pos>
@@ -114,7 +114,7 @@
 		</rating>
    
 		<text name="md_genre">
-			<pos>0.55 0.700</pos>
+			<pos>0.55 0.73</pos>
 			<size>0.27 0.034</size>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
@@ -123,10 +123,8 @@
             <backgroundColor>00000000</backgroundColor>
 		</text>
 
-   
-
       <datetime name="md_releasedate">
-			<pos>0.55 0.722</pos>
+			<pos>0.55 0.696</pos>
          <alignment>left</alignment> 
          <verticalAlignment>top</verticalAlignment>
          <size>0.027 0.05</size>
@@ -140,15 +138,14 @@
       
       <text name="md_developer">
 			<size>0.250 0.037</size>
-			<pos>0.58 0.728</pos>
+			<pos>0.58 0.702</pos>
 			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>${developerColor}</color>
 			<zIndex>51</zIndex>
          <backgroundColor>00000000</backgroundColor>
- 
-
 		</text>
+
       <text name="md_description">
          <color>ffffff</color>      
          <pos>0.55 0.780</pos>
@@ -158,30 +155,7 @@
          <lineSpacing>1.1</lineSpacing>
          <backgroundColor>0000FF00</backgroundColor>
          <zIndex>42</zIndex>     
-      </text> 
-	  
-      <image name="md_image" ifSubset="detailed-origin:image">
-         <pos>0.760 0.415</pos>
-         <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>
-         <linearSmooth>true</linearSmooth>		
-      </image>    
-
-      <image name="md_boxart" ifSubset="detailed-origin:thumbnail">
-         <pos>0.760 0.415</pos>
-         <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>
-         <linearSmooth>true</linearSmooth>		
-      </image>    
-
-      	<image name="md_marquee" ifSubset="detailed-origin:marquee">
-       <pos>0.760 0.415</pos>
-         <maxSize>0.42 0.56</maxSize>
-		<linearSmooth>true</linearSmooth>
-      	<zIndex>99</zIndex>
-         <visible>true</visible>
-	</image>
-
+      </text>
 
    </view>
 

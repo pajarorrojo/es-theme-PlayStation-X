@@ -23,6 +23,8 @@
 	  	<theme.system-description>Show System descriptions</theme.system-description>
 	  	<theme.animated-background>Animated background (waves)</theme.animated-background>
 	  	<theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
+		<theme.windowVideoOption>Video window</theme.windowVideoOption>
+		<theme.insideVideoOption>Video inside the tile</theme.insideVideoOption>
     	<theme.smallScreenOption>Small Screen</theme.smallScreenOption>
     	<theme.videoaudio>Enable audio on system videos</theme.videoaudio>
 		<theme.videoRandom>Random videosnap if no system video</theme.videoRandom>

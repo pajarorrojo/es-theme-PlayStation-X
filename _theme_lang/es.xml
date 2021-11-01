@@ -23,6 +23,8 @@
     <theme.system-description>Mostrar descripciones de sistemas</theme.system-description>
     <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
+		<theme.windowVideoOption>Vídeo en ventana</theme.windowVideoOption>
+		<theme.insideVideoOption>Dentro de la cuadrícula</theme.insideVideoOption>
     <theme.smallScreenOption>Ventana pequeña</theme.smallScreenOption>
     <theme.videoaudio>Activar el audio en los vídeos de sistemas</theme.videoaudio>
 		<theme.videoRandom>Vídeo aleatorio si no existe vídeo de sistema</theme.videoRandom>

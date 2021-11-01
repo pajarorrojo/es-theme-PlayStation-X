@@ -10,6 +10,7 @@
 	    	<path ifSubset="system-avatar:batocera-plus">./_theme_options/avatars/batocera-plus.png</path>	
 	    	<path ifSubset="system-avatar:bubble">./_theme_options/avatars/bubble.png</path>	
 	    	<path ifSubset="system-avatar:castlevania">./_theme_options/avatars/castlevania.png</path>	
+	    	<path ifSubset="system-avatar:claptrap">./_theme_options/avatars/claptrap.png</path>	
 	    	<path ifSubset="system-avatar:cloud">./_theme_options/avatars/cloud.png</path>	
 	    	<path ifSubset="system-avatar:daytentacle">./_theme_options/avatars/daytentacle.png</path>	
 	    	<path ifSubset="system-avatar:daytona">./_theme_options/avatars/daytona.png</path>	

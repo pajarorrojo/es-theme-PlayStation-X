@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+    <view name="basic, detailed">
+
+      <image name="md_image" ifSubset="detailed-origin:image">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>      
+      </image>
+
+      <image name="md_thumbnail" ifSubset="detailed-origin:thumbnail">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+      </image>    
+
+      <image name="md_marquee" ifSubset="detailed-origin:marquee">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+	   </image>
+
+     <image name="md_boxart" ifSubset="detailed-origin:boxart">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+      </image>  
+
+     <!-- <image name="md_boxback" ifSubset="detailed-origin:boxback">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+      </image>   -->
+
+     <image name="md_cartridge" ifSubset="detailed-origin:cartridge">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+      </image>  
+
+
+     <image name="md_fanart" ifSubset="detailed-origin:fanart">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+      </image>  
+
+      <image name="md_titleshot" ifSubset="detailed-origin:titleshot">
+         <pos>0.760 0.415</pos>
+         <maxSize>0.42 0.56</maxSize>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>		
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <visible>true</visible>
+      </image>  
+    </view>
+
+    <view name="grid">
+      <image name="md_image" ifSubset="grid-main-origin:image">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>    
+
+      <image name="md_thumbnail" ifSubset="grid-main-origin:thumbnail">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>   
+
+      <image name="md_marquee" ifSubset="grid-main-origin:marquee">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.18 0.25</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image> 
+
+      <image name="md_boxart" ifSubset="grid-main-origin:boxart" extra="true">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>  
+
+      <!-- <image name="md_boxback" ifSubset="grid-main-origin:boxback" extra="true">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image> -->
+
+
+      <image name="md_cartridge" ifSubset="grid-main-origin:cartridge" extra="true">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.18 0.25</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>
+
+
+      <image name="md_fanart" ifSubset="grid-main-origin:fanart" extra="true">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>        
+       
+      <image name="md_titleshot" ifSubset="grid-main-origin:titleshot" extra="true">
+         <pos>0.15 0.295</pos>
+         <maxSize>0.25 0.31</maxSize>
+         <zIndex>91</zIndex>  
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>    
+    </view>
+</theme>
