@@ -20,6 +20,8 @@
 
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura-splash-2.jpg)
 
+[![Thanks to "100% jeux video" for sharing the video capture](https://img.youtube.com/vi/__sD-l169C4/0.jpg)](https://www.youtube.com/watch?v=__sD-l169C4)
+
 
 # es-theme-PlayStation-X
 Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera and RetroBat. 
