@@ -21,6 +21,7 @@
 ![](https://es-theme-playstation-x.tocapixels.com/img/captura-splash-2.jpg)
 
 [![](https://es-theme-playstation-x.tocapixels.com/img/captura-video-youtube.jpg)](https://www.youtube.com/watch?v=__sD-l169C4)
+Thanks to "100% jeux video" for sharing the video capture
 
 
 # es-theme-PlayStation-X
