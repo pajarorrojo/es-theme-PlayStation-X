@@ -1,0 +1,39 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true" >
+			<text>These portable consoles housed a single game with an LCD screen and various levels of difficulty, and also used to include a clock and alarm.
+
+Nintendo's Game and Watch series was the most popular, with a line of 59 videogame titles among which were some early Donkey Kong, Mario Bros. or The Legend of Zelda ... Today is very hard to get one and are considered historical pieces and collector's items.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+								<text>Estas consolas portátiles -que en España se conocían popularmente como «maquinitas»- albergaban un único juego con pantalla LCD y varios niveles de dificultad, además solian incluir reloj y alarma. 
+									
+La serie Game and Watch de Nintendo fue la mas popular, con una línea de 59 títulos de videojuegos entre los que se encontraban unos primigenios Donkey Kong, Mario Bros. o The Legend of Zelda... Actualmente son muy difíciles de conseguir y se consideran piezas históricas y artículos de coleccionista.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text></text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text></text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>LCD Games</text>
+			<text lang="es">Maquinitas (juegos LCD)</text>
+
+			
+		</text>
+	</view>
+</theme>

@@ -1,5 +1,42 @@
-Version 32.2 (01/11/2021)
+Version 33 (06/02/2022)
 
+
+- UX/UI Complete rebuilt of the theme layouts to support multiple aspect ratios and tiny screens. You can select your display type aspect ratio in theme settings with the following options:
+   - 16:9 widescreen
+   - 4:3 standard
+   - 16:10
+   - 3:2
+   - 5:3
+- UX/UI (small screens) Rebuilt layouts, some elements have been hidden and some theme options have been forced by default for a better user experience on first boot, with a cleaner interface adapted to small screens and portable devices
+- UX/UI: Complete rebuilt of system view carousel, now the selected logo size is always relative to the rest of carousel size
+- UI/UX: Force "instant" transition from systemlist to gamelist by default for a better UX (works in bato 33 and later)
+- Theme options: New subset. "Select your favorite frontend". Change the splash and front logo with the next options:
+  - Batocera (default)
+  - Retrobat
+  - Emuelec
+  - Batocera Plus
+  - No frontend
+- UX/UI: Now custom username and retroachievements id (if active) are visibles in the list option when selecting
+- UX/UI: now the top trophy icon turns yellow when a retroachievements compatible system is selected (requires retroachievemnts enabled in global game settings)
+- UX/UI: new set of colorful icons for gamelists (trophy, favorites, gamesaves etc). Can be customized, you will find the icons in the root folder "resources". To disable the entire iconset, simply rename or delete this folder 
+- UX/UI: Two new set of minimalist help icons. Moved the actual default iconset to the option 3-psx-color.
+- New: Gamesplash screen layout
+- Normalized audio levels for system videos (TV commercials)
+- Normalized and compressed background default sounds
+- Performance: Changes, improves and fixes in code, graphics, languages and UX in general
+- Theme option: Changed subset "Random videosnap if no system video" to "Show random videosnap" with next options:
+  - Always: (always show a random videosnap and skip the dedicated system video)
+  - Never: (never show a random videosnap)
+  - If there no video system: (by default, show random videosnap only when no video detected for the selected system)
+- Added: new trophy icon for tiles in grid view
+- UX/UI Minor improvements in animations
+- Added: New option "Oversize" in "Show Videosnap in gamelist" subset. Show a front big videosnap over the gamelist layout
+- Added: Medias data and / or infos for LCD Games, XBOX 360, Visual Pinball, Atari Jaguar CD, Switch, steam, windows installer, SEGA model 2, Fujitsu FM-7 and Philips CD-i systems
+
+
+
+-----------------------
+Version 32.2 (01/11/2021)
 
 - Performance: Changes, improves and fixes in code, graphics, languages and UX in general
 - Theme option: New supported images source options for medias in views. Now we can choose between next metadata tags for a better user customization layouts: 

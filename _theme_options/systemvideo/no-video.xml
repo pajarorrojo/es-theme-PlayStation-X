@@ -1,11 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
 <theme>
-<formatVersion>7</formatVersion>
-<view name="system">
-<text name="system_description" extra="true">
-	     <pos>0.163 0.6</pos>
-            <size>0.64 0.27</size>
-            <fontSize>0.026</fontSize> 
-     </text>
-</view>
+     <formatVersion>7</formatVersion>
+     <view name="system">
+            <text name="system_description" extra="true" ifSubset="carousel:big">
+                  <pos>0.163 0.6</pos>
+                  <pos ifSubset="aspect-ratio:4-3">0.063 0.59</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.6</pos>
+                  <size>0.64 0.27</size>
+                  <size ifSubset="aspect-ratio:4-3">0.7 0.27</size>
+                  <size ifSubset="aspect-ratio:16-9|16-10">0.64 0.27</size>
+                  <fontSize>0.026</fontSize>
+                  <backgroundColor>ff000000</backgroundColor>
+            </text>
+
+
+            <text name="system_description" extra="true" ifSubset="carousel:small">
+                  <pos>0.163 0.46</pos>
+                  <pos ifSubset="aspect-ratio:4-3">0.063 0.46</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.46</pos>
+                  <size >0.64 0.27</size>
+                  <size ifSubset="aspect-ratio:4-3">0.7 0.27</size>
+                  <size ifSubset="aspect-ratio:16-9|16-10">0.64 0.27</size>
+                  <fontSize>0.026</fontSize>
+             </text>
+
+
+
+            <text name="system_description" extra="true" ifSubset="carousel:medium">
+                  <pos >0.163 0.51</pos>
+                  <pos ifSubset="aspect-ratio:4-3">0.063 0.5</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.51</pos>
+                  <size>0.6 0.4</size>
+                  <size ifSubset="aspect-ratio:4-3">0.7 0.27</size>
+                  <size ifSubset="aspect-ratio:16-9|16-10">0.6 0.4</size>
+                  <fontSize>0.026</fontSize>
+                  <backgroundColor>00000000</backgroundColor>
+            </text>
+
+     
+     </view>
 </theme>

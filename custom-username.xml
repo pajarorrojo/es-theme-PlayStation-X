@@ -1,15 +1,14 @@
-<!-- Theme by pajarorrojo-->
-<theme> <formatVersion>7</formatVersion> <view name="system, detailed, grid, basic"> <text name="username" extra="true">
+<theme> 
+<formatVersion>7</formatVersion> 
+<variables>
 
 
-
-<!-- put here your username, symply change username for your desired username-->
-<!-- pon aquí tu usuario, simplemente cambia username por tu usuario-->
-   <text>username</text>
+<!-- put here your desired nick to show in screen, just overwrite "your username" and save file. Don't forget to set in theme options "Choose a nick -> Custom"-->
+<!-- pon aquí tu usuario para mostrar en pantalla, simplemente cambia "your username" por tu usuario y guarda. Para aplicar, no olvides seleccionar en las opciones del tema. "Escoge un nick -> personalizado"-->
+<custom.nick>username</custom.nick>
 <!-- END-->
 
 
 
-</text> 
-</view> 
+</variables>
 </theme>

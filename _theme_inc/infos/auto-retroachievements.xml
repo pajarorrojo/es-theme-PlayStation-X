@@ -9,8 +9,8 @@
 			<text>A list of all Retroachivements compatible games available on the system.</text>
 		</text>
 		
-				<text name="system_description" extra="true" lang="es" >
-			<text>Una lista de todos los juegos compatibles con Retroachivements disponibles en el sistema.</text>
+		<text name="system_description" extra="true" lang="es" >
+			<text>Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
 		</text>
 		
 				<text name="system_description" extra="true" lang="fr">
@@ -25,6 +25,10 @@
 
 		<text name="system_name" extra="true" >
 			<text>Retro Achievements</text>
+		</text>
+
+		<text name="system_name" extra="true" lang="es" >
+			<text>Retro Logros (trofeos)</text>
 		</text>
 	</view>
 </theme>

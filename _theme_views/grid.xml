@@ -1,49 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- Theme by pajarorrojo-->
 <theme>
-	<formatVersion>7</formatVersion>
-   <view name="grid"   >
+   <formatVersion>7</formatVersion>
+   <view name="grid">
 
-      
-   
-   <image name="logo">
-		<pos>0.855 0.13</pos>
-      <alignment>right</alignment>
-      <linearSmooth>true</linearSmooth>
-       <maxSize>0.12 0.09</maxSize>
-       <origin>0 0</origin>
-		<!--  png -->
-      <path>./_theme_inc/images/logos/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./_theme_inc/images/logos/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
-      <!-- check if lang resources exist -->
-      <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-      <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-		<zIndex>0</zIndex>
-      <visible>false</visible>
-   </image>	
+      <image name="logo">
+         <pos>0.855 0.13</pos>
+         <alignment>right</alignment>
+         <linearSmooth>true</linearSmooth>
+         <maxSize>0.12 0.09</maxSize>
+         <origin>0 0</origin>
+         <!--  png -->
+         <path>./_theme_inc/images/logos/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <!-- check if lang resources exist -->
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <zIndex>0</zIndex>
+         <visible>false</visible>
+      </image>
 
-   <image name="logo" extra="true" region="eu"/>
-    <image name="logo" extra="true" region="us">
-    <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./_theme_inc/images/logos/us/${system.theme}-w.svg</path>
-    </image>
-    <image name="logo" extra="true" region="jp">
-      <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./_theme_inc/images/logos/jp/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
-    </image>
+      <image name="logo" extra="true" region="eu"/>
+      <image name="logo" extra="true" region="us">
+         <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+      </image>
+      <image name="logo" extra="true" region="jp">
+         <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/jp/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+      </image>
 
 
+      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail">
+         <autoLayout>7 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:16-9|16-10">7 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:4-3">5 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:3-2">6 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:4-3" tinyScreen="true">4 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:16-9" tinyScreen="true">6 1</autoLayout>
+      </imagegrid>
 
-   <imagegrid name="gamegrid" >
+
+      <imagegrid name="gamegrid">
          <imageSource ifSubset="grid-origin:image">image</imageSource>
          <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
          <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
@@ -52,75 +58,100 @@
          <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
          <!-- <imageSource ifSubset="grid-origin:boxback">boxback</imageSource> not supported -->
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
-
-			<autoLayout>5 2</autoLayout>
-			<autoLayout ifSubset="grid-origin:boxart|thumbnail">7 1</autoLayout>
+         <autoLayout ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">5 2</autoLayout>
          <scrollDirection ifSubset="grid-origin:boxart|thumbnail">horizontal</scrollDirection>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
-			<autoLayoutSelectedZoom>1.04</autoLayoutSelectedZoom>
-			<margin>0.005 0.006</margin>
-			<size>0.950 0.45</size>
-			<pos>0.025 0.48</pos>
+         <autoLayoutSelectedZoom>1.04</autoLayoutSelectedZoom>
+         <margin>0.005 0.006</margin>
+         <size>0.950 0.45</size>
+         <size ifSubset="aspect-ratio:4-3">0.964 0.45</size>
+         <pos>0.025 0.48</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.014 0.48</pos>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
-	      <zIndex>60</zIndex>
+         <zIndex>60</zIndex>
          <padding>0.005 0.005</padding>
+         <animateSelection>true</animateSelection>
+         <storyboard>
+            <animation property="y" from="1" duration="400" mode="easeOutCubic"/>
+         </storyboard>
+      </imagegrid>
 
-	</imagegrid>
 
-   
-
-	<gridtile name="default">
-			<backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
-			<padding>8</padding>
+      <gridtile name="default">
+         <backgroundEdgeColor >${backgroundgrid}</backgroundEdgeColor>
+         <padding>8</padding>
+         <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
+         <padding ifSubset="aspect-ratio:4-3">2</padding>
          <imageSizeMode ifSubset="grid-origin:titleshot|image|fanart">minSize</imageSizeMode>
          <selectionMode ifSubset="grid-origin:boxart|thumbnail">image</selectionMode>
          <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">00000000</backgroundEdgeColor>
-			<backgroundCornerSize>0 0</backgroundCornerSize>
-			<imageColor>ffffffc9</imageColor>
-		</gridtile>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <imageColor>ffffffc9</imageColor>
+      </gridtile>
 
 
-		<gridtile name="selected">
-			<padding>8</padding>
-			<imageColor>ffffffff</imageColor>
-			<backgroundCornerSize>0</backgroundCornerSize>
-			<backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
-			<backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">00000000</backgroundEdgeColor>
-		</gridtile>
+      <gridtile name="selected">
+         <padding>3</padding>
+         <padding ifSubset="aspect-ratio:4-3">1</padding>
+         <imageColor>ffffffff</imageColor>
+         <backgroundCornerSize>0</backgroundCornerSize>
+         <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
+         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">${backgroundgridSelect}21</backgroundEdgeColor>
 
-		<image name="gridtile.image">
-			<roundCorners>0</roundCorners>
-		</image>
+      </gridtile>
+
+      <image name="gridtile.image">
+         <roundCorners>0</roundCorners>
+      </image>
 
 
-		<image name="gridtile.favorite">
-			<path>./../_theme_inc/images/favorite-corner.svg</path>
-			<pos>0.75 0</pos>
-			<maxSize>0.25 0.25</maxSize>
-			<horizontalAlignment>right</horizontalAlignment>
-			<origin>0 0</origin>
-			<color>F3C300</color>
-		</image> 
+      <image name="gridtile.favorite">
+         <path>./../_theme_inc/images/favorite-corner-left.svg</path>
+         <path ifSubset="grid-origin:boxart|thumbnail">./../_theme_inc/images/favorite.png</path>
+         <pos>0 0</pos>
+         <pos ifSubset="grid-origin:boxart|thumbnail">-0.03 -0.001</pos>
 
-    <ninepatch name="gridtile.background:selected">
-      <animateColor>${backgroundgrid}</animateColor>
-      <animateColorTime>500</animateColorTime>
-    </ninepatch>     
-      
+         <maxSize>0.25 0.25</maxSize>
+         <maxSize ifSubset="grid-origin:boxart|thumbnail">0.2 0.20</maxSize>
+         <horizontalAlignment>left</horizontalAlignment>
+         <verticalAlignment>top</verticalAlignment>
+         <origin>0 0</origin>
+         <color>F3C300</color>
+      </image>
+
+      <image name="gridtile.cheevos">
+         <path>./../_theme_inc/images/cheevos.svg</path>
+         <pos>0.81 0.81</pos>
+         <pos ifSubset="grid-origin:boxart|thumbnail">0.84 0.785</pos>
+         <maxSize>0.2 0.2</maxSize>
+         <maxSize ifSubset="grid-origin:boxart|thumbnail">0.18 0.18</maxSize>
+         <horizontalAlignment>right</horizontalAlignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <origin>0 0</origin>
+         <color>Ffffff</color>
+      </image>
+
+      <ninepatch name="gridtile.background:selected">
+         <animateColor>${backgroundgrid}</animateColor>
+         <animateColorTime>500</animateColorTime>
+      </ninepatch>
+
 
       <image name="background" extra="true">
          <origin>0 0</origin>
-         <size>1 1</size>        
+         <size>1 1</size>
          <pos>0 0</pos>
-	      <zIndex>50</zIndex>
+         <zIndex>50</zIndex>
          <linearSmooth>true</linearSmooth>
+         <storyboard>
+            <animation property="opacity" from="0.5" to="1" duration="500" mode="easeOut"/>
+         </storyboard>
       </image>
 
       <image name="background-art" extra="true">
          <origin>0 0</origin>
-         <pos>0 0</pos>
          <size>1 1</size>
-         <path>./_theme_inc/images/background/${system.theme}.jpg</path> 
+         <path>./_theme_inc/images/background/${system.theme}.jpg</path>
          <opacity>0.5</opacity>
          <zIndex>45</zIndex>
          <linearSmooth>true</linearSmooth>
@@ -136,82 +167,94 @@
 
 
       <rating name="md_rating">
-			<pos>0.795 0.395</pos>
-			<size>0.05 0.05</size>
-          <origin>0 0</origin>
+         <pos>0.795 0.395</pos>
+         <size>0.05 0.05</size>
+         <size ifSubset="aspect-ratio:4-3">0.04 0.04</size>
+         <size ifSubset="aspect-ratio:16-9|16-10">0.05 0.05</size>
+         <origin>0 0</origin>
          <unfilledColor>${starUnfill}</unfilledColor>
          <color>${starFill}</color>
-			<unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
-			<zIndex>51</zIndex>  
-			<filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
-		</rating>
-   
-		<text name="md_genre">
-			<pos>0.30 0.422</pos>
-			<size>0.41 0.034</size>
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${genreColor}</color>
-			<zIndex>51</zIndex>
+         <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
+         <zIndex>51</zIndex>
+         <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
+      </rating>
+
+      <text name="md_genre">
+         <pos>0.30 0.422</pos>
+         <size>0.41 0.034</size>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <color>${genreColor}</color>
+         <zIndex>51</zIndex>
          <origin>0 0</origin>
          <backgroundColor>00000000</backgroundColor>
-		</text>
+      </text>
 
       <datetime name="md_releasedate">
-			<pos>0.30 0.387</pos>
-          <origin>0 0</origin>
-         <alignment>left</alignment> 
+         <pos>0.30 0.387</pos>
+         <origin>0 0</origin>
+         <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.027 0.05</size>
-			<color>${releaseColor}</color>
+         <size ifSubset="aspect-ratio:4-3|3-2">0.035 0.05</size>
+         <size tinyScreen="true">0.036 0.05</size>
+         <color>${releaseColor}</color>
          <format>%Y</format>
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.020</fontSize>
-			<zIndex>51</zIndex> 
-         <backgroundColor>00000000</backgroundColor>
-		</datetime>
-      
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.020</fontSize>
+         <zIndex>51</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </datetime>
+
       <text name="md_developer">
-			<size>0.38 0.035</size>
-          <origin>0 0</origin>
+         <size>0.38 0.035</size>
+         <origin>0 0</origin>
          <verticalAlignment>top</verticalAlignment>
-			<pos>0.328 0.394</pos>
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${developerColor}</color>
-			<zIndex>51</zIndex>
+         <pos>0.328 0.394</pos>
+         <pos ifSubset="aspect-ratio:4-3|3-2">0.337 0.394</pos>
+         <pos tinyScreen="true">0.34 0.388</pos>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <color>${developerColor}</color>
+         <zIndex>51</zIndex>
          <backgroundColor>00000000</backgroundColor>
-		</text>
-      
+      </text>
+
       <text name="md_description">
-         <color>ffffff</color>      
+         <color>ffffff</color>
          <pos>0.30 0.21</pos>
-         <size>0.64 0.1685</size>
-	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <pos tinyScreen="true">0.3 0.22</pos>
+
+         <size>0.64 0.169</size>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:16-9">./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.026</fontSize>
          <lineSpacing>1.1</lineSpacing>
          <origin>0 0</origin>
-         <backgroundColor>00000000</backgroundColor>   
-         <zIndex>99</zIndex>     
-      </text> 
+         <backgroundColor>00000000</backgroundColor>
+                  <forceUppercase tinyScreen="true">true</forceUppercase>
+
+         <zIndex>99</zIndex>
+      </text>
 
       <text name="md_name">
-         <alignment>left</alignment> 
-          <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
          <size>0.570 0.010</size>
-         <color>ffffff</color>      
+         <color>ffffff</color>
          <pos>0.30 0.120</pos>
-	      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.060</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3">0.050</fontSize>
          <origin>0 0</origin>
          <glowColor>00000035</glowColor>
-          <glowSize>1</glowSize>
-          <glowOffset>3 2</glowOffset>  
-         <zIndex>99</zIndex>  
-         <backgroundColor>00000000</backgroundColor>  
-      </text> 
-	   
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>502</zIndex>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
+
    </view>
-   
+
 
 </theme>

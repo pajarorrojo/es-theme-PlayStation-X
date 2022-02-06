@@ -1,9 +1,8 @@
 ﻿<!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="es">
-    <theme.welcome>Bienvenido a Playstation X para Batocera</theme.welcome>
+    <theme.welcome>Bienvenido a Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
     <theme.mostplayed>El más jugado:</theme.mostplayed>
     <GamesNumber>Juegos</GamesNumber>
@@ -16,10 +15,16 @@
     <small>pequeño</small>
     <yes>Si</yes>
     <no>No</no>
-    <iconset>Iconos y botones del tipo</iconset>
+    <none>Ninguno</none>
+    <never>Nunca</never>
+    <always>Siempre</always>
+    <iconset>Tipo de Iconos y botones</iconset>
+    <theme.frontend>Selecciona tu frontend favorito</theme.frontend>
     <gameBar>Mostrar la barra de información de juegos</gameBar>
     <CarouselImageSize>Tamaño de imágenes del carrusel</CarouselImageSize>
     <theme.videoBackground>Mostrar vídeos en la vista de sistemas</theme.videoBackground>
+    <theme.videoRandom>Mostrar vídeo de juego aleatorio</theme.videoRandom>
+    <ifnospot>Si no existe video del sistema</ifnospot>
     <theme.system-description>Mostrar descripciones de sistemas</theme.system-description>
     <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
@@ -27,8 +32,7 @@
 		<theme.insideVideoOption>Dentro de la cuadrícula</theme.insideVideoOption>
     <theme.smallScreenOption>Ventana pequeña</theme.smallScreenOption>
     <theme.videoaudio>Activar el audio en los vídeos de sistemas</theme.videoaudio>
-		<theme.videoRandom>Vídeo aleatorio si no existe vídeo de sistema</theme.videoRandom>
-    <theme.Avatar>Escoge tu Avatar</theme.Avatar>
+    <theme.Avatar>Escoge tu imagen de Avatar</theme.Avatar>
     <theme.username>Escoge un Nick</theme.username>
     <custom>Personalizado</custom>
     <theme.videoGamelistDelay>Retraso del vÍdeo en la lista de juegos</theme.videoGamelistDelay>
@@ -37,13 +41,15 @@
 	  <randomGame>Juego Aleatorio</randomGame>
     <theme.colorset>Color del tema</theme.colorset>
 		<theme.gridMainorigin>Origen de la imagen principal en vista de cuadrícula</theme.gridMainorigin>
-		<theme.gridorigin>Origen de la imagen en la cuadrícula</theme.gridorigin>
-		<theme.detailedorigin>Origen de la imagen en la vista detallada</theme.detailedorigin>
+		<theme.gridorigin>Origen de la imagen dentro de la cuadrícula</theme.gridorigin>
+		<theme.detailedorigin>Origen de la imagen en la vista de lista</theme.detailedorigin>
     <theme.gridvideo>Mostrar vídeos de juegos</theme.gridvideo>
 		<theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
 		<theme.animatedList>Transición animada en la lista de juegos</theme.animatedList>
 		<theme.gametime>Mostrar info de tiempo jugado en la lista de juegos</theme.gametime>
     <theme.animatedSystem>Transición animada en la lista de sistemas</theme.animatedSystem>
-
+    <theme.aspect-ratio>Seleciona tu tipo de pantalla</theme.aspect-ratio>
+    <theme.aspect-1610>16:10 WXGA (habitual en portátiles)</theme.aspect-1610>
+    <theme.oversizeVideoOption>Video superpuesto</theme.oversizeVideoOption>
   </variables>
 </theme>

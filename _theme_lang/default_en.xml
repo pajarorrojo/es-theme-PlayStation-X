@@ -1,9 +1,8 @@
 ﻿<!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
 	<variables>
-  		<theme.welcome>Welcome to Playstation X for Batocera </theme.welcome>
+  		<theme.welcome>Welcome to Playstation X for</theme.welcome>
     	<theme.start>Start</theme.start>
 	  	<theme.mostplayed>Most played:</theme.mostplayed>
 	  	<GamesNumber>Games</GamesNumber>
@@ -16,7 +15,11 @@
     	<small>small</small>
     	<yes>yes</yes>
     	<no>No</no>
-    	<iconset>iconset</iconset>
+    	<none>None</none>
+		<never>Never</never>
+    	<always>Always</always>
+	    <iconset>iconset</iconset>
+    	<theme.frontend>Select your favorite frontend</theme.frontend>
     	<gameBar>Show gamebar info</gameBar>
 	  	<CarouselImageSize>Carousel Image Size</CarouselImageSize>
 	  	<theme.videoBackground>Show videos in system view</theme.videoBackground>
@@ -27,8 +30,9 @@
 		<theme.insideVideoOption>Video inside the tile</theme.insideVideoOption>
     	<theme.smallScreenOption>Small Screen</theme.smallScreenOption>
     	<theme.videoaudio>Enable audio on system videos</theme.videoaudio>
-		<theme.videoRandom>Random videosnap if no system video</theme.videoRandom>
-	  	<theme.Avatar>Choose your Avatar</theme.Avatar>
+		<theme.videoRandom>Show Random videosnap</theme.videoRandom>
+    	<ifnospot>If no system video exist</ifnospot>
+	  	<theme.Avatar>Choose your Avatar image</theme.Avatar>
 	  	<theme.username>Choose a Nick</theme.username>
     	<custom>custom</custom>
 	  	<theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
@@ -44,5 +48,8 @@
 		<theme.animatedList>Animated transitions in game list</theme.animatedList>
 		<theme.gametime>Show time played info in gamelist</theme.gametime>
 		<theme.animatedSystem>Animated transitions in systems view</theme.animatedSystem>
+		<theme.aspect-ratio>Select your screen type</theme.aspect-ratio>
+		<theme.aspect-1610>16:10 WXGA (usual in laptops)</theme.aspect-1610>
+		<theme.oversizeVideoOption>Oversize video</theme.oversizeVideoOption>
     </variables>
 </theme>

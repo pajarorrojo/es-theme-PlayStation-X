@@ -1,97 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-<formatVersion>7</formatVersion>
+  <formatVersion>7</formatVersion>
 
-<view name="grid">
-   <imagegrid name="gamegrid">
-			<animateSelection>true</animateSelection>
-    <storyboard>
-        <animation property="y" from="1" duration="400" mode="easeOutCubic"/>
-      </storyboard>
-		</imagegrid>
+  <view name="basic, detailed, grid">
 
-    <control name="md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee, md_thumbnail,md_boxback,md_fanart,md_titleshot,md_cartridge">
-      <clipRect>0 0.16 1 0.78</clipRect>
-      <storyboard event="open">
-        <animation property="opacity" from="0" to="1" duration="400" mode="easeInOut"/>
+    
+    <image name="consoles" extra="true">
+      <storyboard>
+        <animation property="offsetX" from="-0.2" to="0" duration="400" mode="easeOutCubic"/>
+        <animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
       </storyboard>
-      <storyboard event="activateNext">
-        <animation property="opacity" from="0" to="1" duration="400" mode="easeOut"/>
-      </storyboard>
-      <storyboard event="activatePrev">
-        <animation property="opacity" from="0" to="1" duration="400" mode="easeOut"/>
-      </storyboard>
-      <storyboard event="deactivateNext">
-          <animation property="opacity" to="0" duration="300" mode="easeOut"/>
-¡      </storyboard>
-      <storyboard event="deactivatePrev">
-          <animation property="opacity" to="0" duration="300" mode="easeOut"/>
-¡       </storyboard>     
-    </control>
-</view>
-
-   <view name="basic, detailed, grid">
-      <image name="consoles" extra="true">
-         <storyboard>
-            <animation property="offsetX" from="-0.2" to="0" duration="400" mode="easeOutCubic"/>
-            <animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
-        </storyboard>
     </image>
 
     <image name="logo" extra="true">
       <storyboard>
-        <animation property="opacity" from="0"  duration="400" mode="easeIn"/>
+        <animation property="opacity" from="0" duration="400" mode="easeIn"/>
       </storyboard>
     </image>
-    <image name="background-art" extra="true">
-         <storyboard>
-            <animation property="opacity" from="0" to="1" duration="250" mode="easeIn"/>
-      </storyboard>
-    </image>
+
   </view>
 
-<view name="detailed">
-    <textlist name="gamelist">
-      <storyboard>
-        <animation property="x" from="-1" duration="400" mode="easeOutCubic"/>
-      </storyboard>
-    </textlist>
+  <view name="grid">
 
-    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee, md_thumbnail, md_boxback, md_fanart, md_titleshot,md_cartridge">
-      <clipRect>0 0.16 1 0.78</clipRect>
+
+    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_boxart, md_marquee, md_thumbnail,md_boxback,md_fanart,md_titleshot,md_cartridge, md_rating">
+      <clipRect>0 0.1 1 0.78</clipRect>
       <storyboard event="open">
-        <animation property="offsetX" from="0.78" to="0" duration="400" mode="easeOutCubic"/>
-        <animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="easeInOut"/>
       </storyboard>
       <storyboard event="activateNext">
-        <animation property="offsetY" from="0.78" to="0" duration="400" mode="easeOutCubic"/>
-        <animation property="opacity" from="0" to="1" duration="400" mode="easeOut"/>
+        <animation property="offsetX" from="0.78" to="0" duration="300" mode="easeOutCubic"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="easeOut"/>
       </storyboard>
       <storyboard event="activatePrev">
-        <animation property="offsetY" from="-0.78" to="0" duration="400" mode="easeOutCubic"/>
-        <animation property="opacity" from="0" to="1" duration="400" mode="easeOut"/>
+        <animation property="offsetX" from="-0.78" to="0" duration="300" mode="easeOutCubic"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="easeOut"/>
       </storyboard>
       <storyboard event="deactivateNext">
-        <animation property="offsetY" to="-0.78" duration="300" mode="easeOutCubic"/>
+        <animation property="offsetX" to="-0.78" duration="300" mode="easeOutCubic"/>
         <animation property="opacity" to="0" duration="300" mode="easeOut"/>
       </storyboard>
       <storyboard event="deactivatePrev">
-        <animation property="offsetY" to="0.78" duration="300" mode="easeOutCubic"/>
+        <animation property="offsetX" to="0.78" duration="300" mode="easeOutCubic"/>
         <animation property="opacity" to="0" duration="300" mode="easeOut"/>
       </storyboard>
     </control>
-
-
   </view>
 
 
 
+  <view name="detailed">
 
- 
+    <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee, md_thumbnail, md_boxback, md_fanart, md_titleshot,md_cartridge">
+      <clipRect>0 0.16 1 0.78</clipRect>
+      <storyboard event="activateNext">
+        <animation property="offsetY" from="0.78" to="0" duration="550" mode="easeOutCubic"/>
+        <animation property="opacity" from="0" to="1" duration="800" mode="easeOut"/>
+      </storyboard>
+      <storyboard event="activatePrev">
+        <animation property="offsetY" from="-0.78" to="0" duration="550" mode="easeOutCubic"/>
+        <animation property="opacity" from="0" to="1" duration="800" mode="easeOut"/>
+      </storyboard>
+      <storyboard event="deactivateNext">
+        <animation property="offsetY" to="-0.78" duration="500" mode="easeOutCubic"/>
+        <animation property="opacity" to="0" duration="400" mode="easeOut"/>
+      </storyboard>
+      <storyboard event="deactivatePrev">
+        <animation property="offsetY" to="0.78" duration="500" mode="easeOutCubic"/>
+        <animation property="opacity" to="0" duration="400" mode="easeOut"/>
+      </storyboard>
+    </control>
 
+  </view>
 
-
-
-  
- 
-    </theme>
+</theme>

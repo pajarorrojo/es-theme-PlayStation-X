@@ -1,34 +1,33 @@
 <!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-<formatVersion>7</formatVersion>
-<view name="system">
-      <video name="system_video" extra="true">
-      <effect>none</effect>
-      <pos>0.165 0.612</pos>
-      <roundCorners>0.02</roundCorners>  
-      <size>0.212 0.25</size>
-      <showSnapshotNoVideo>false</showSnapshotNoVideo>
-      <showSnapshotDelay>false</showSnapshotDelay>
-      <path ifSubset="video-system-random:enable-random">{random}</path>
-      <path>./../../_theme_inc/videos/${system.theme}.mp4</path>
-      <delay>1</delay>
-      <zIndex>70</zIndex>  
-      <audio ifSubset="video-system-audio:disable-audio">false</audio>
-	</video>
+     <formatVersion>7</formatVersion>
+     <view name="system">
+          <video name="system_video" extra="true">
+               <effect>none</effect>
+               <pos>0.02 0.612</pos>
+               <roundCorners>0.02</roundCorners>
+               <size>0.212 0.25</size>
+               <size ifSubset="aspect-ratio:4-3">0.22 0.22</size>
+               <size ifSubset="aspect-ratio:16-9|16-10">0.212 0.25</size>
+               <showSnapshotNoVideo>false</showSnapshotNoVideo>
+               <showSnapshotDelay>false</showSnapshotDelay>
+               <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
+               <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
+               <delay>0.2</delay>
+               <zIndex>70</zIndex>
+               <audio ifSubset="video-system-audio:disable-audio">false</audio>
+          </video>
 
-    <image name="border-video" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./../../_theme_inc/images/border-video-small.png</path>
-         <zIndex>71</zIndex>
-    </image>
 
-    <text name="system_description" extra="true">
-        <pos>0.388 0.605</pos>
-        <size>0.430 0</size>
-        <fontSize>0.023</fontSize> 
-     </text>
-</view>
+          <text name="system_description" extra="true">
+               <size>0.54 0</size>
+               <fontSize>0.023</fontSize>
+               <backgroundColor>ff000000</backgroundColor>
+               <pos>0.26 0.608</pos>
+
+
+          </text>
+
+
+     </view>
 </theme>

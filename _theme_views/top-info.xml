@@ -1,184 +1,396 @@
 <!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-	<formatVersion>7</formatVersion>
-   
-   
-<!--BARRA DE INFORMACION SUPERIOR-->
+   <formatVersion>7</formatVersion>
 
-<!--RELOJ-->
-<view name="screen">
-    <text name="clock" >
-       <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-	   <alignment>left</alignment>
-	   <size>0.075 0.038</size>
-       <fontSize>0.032</fontSize>
-       <pos>0.922 0.043</pos>
-       <color>ffffff</color>
-       <zIndex>20</zIndex>  
-       <glowColor>00000035</glowColor>
-       <glowSize>1</glowSize>
-       <glowOffset>3 2</glowOffset>  
-	   <backgroundColor>ff000000</backgroundColor> 
-   </text>
-</view>
 
-<view name="detailed, basic, grid" >
-    <image name="background-overlay" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_theme_inc/images/overlay-gamelist.png</path>
+   <!--BARRA DE INFORMACION SUPERIOR-->
+
+   <!--RELOJ-->
+   <view name="screen">
+      <text name="clock">
+         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+         <alignment>left</alignment>
+         <size>0.075 0.038</size>
+         <fontSize>0.032</fontSize>
+         <fontSize tinyScreen="true">0.027</fontSize>
+         <pos>0.922 0.043</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-10|5-3">0.936 0.043</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.916 0.043</pos>
+         <color>ffffff</color>
+         <zIndex>20</zIndex>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+   </view>
+   <view name="system">
+      <image name="logo-front" extra="true">
+         <path ifSubset="frontend:batocera">./_theme_inc/images/logo-bato-front.svg</path>
+         <path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
+         <path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
+         <path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo.png</path>
+         <pos>0.009 0.012</pos>
+         <maxSize>0.096</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
       </image>
 
-<image name="consoles" extra="true">
-      <pos>0.02 0.02</pos>
-      <origin>0 0</origin>
-      <alignment>center</alignment> 
-      <verticalAlignment>bottom</verticalAlignment>
-      <maxSize>0.095 0.1</maxSize>
-      <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
-      <path>./_theme_inc/images/logos/${system.theme}.png</path>
-      <path>./_theme_inc/images/logos/${system.theme}.svg</path>
-      <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
-      <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-      <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-      <path>./_theme_inc/images/consoles/${system.theme}.png</path> 
-      <zIndex>99</zIndex>  
-      <linearSmooth>true</linearSmooth>		
-    </image>
 
-   <image name="consoles" extra="true" region="eu"/>
-    <image name="consoles" extra="true" region="us">
-      <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
-    </image>
-    <image name="consoles" extra="true" region="jp">
-      <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
-    </image>
+      <image name="plus-picto" extra="true">
+         <path>./_theme_inc/images/plus-picto.png</path>
+         <pos>0.086 0.045</pos>
+         <pos ifSubset="frontend:no-frontend">0.02 0.045</pos>
+         <maxSize>0.050</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="linea-superior" extra="true">
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0.07 0.107</pos>
+         <pos ifSubset="frontend:retrobat">0.045 0.107</pos>
+         <pos ifSubset="frontend:batocera-plus">0.045 0.107</pos>
+         <pos ifSubset="frontend:emuelec">0.076 0.107</pos>
+         <pos ifSubset="frontend:no-frontend">0.018 0.107</pos>
+         <size>0.76 0.0011</size>
+         <size ifSubset="frontend:retrobat">0.785 0.0011</size>
+         <size ifSubset="frontend:batocera-plus">0.785 0.0011</size>
+         <size ifSubset="frontend:no-frontend">0.81 0.0011</size>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="logo-front, plus-picto" extra="true" tinyScreen="true">
+         <visible>false</visible>
+      </image>
+
+      <image name="logo-front, plus-picto, linea-superior" extra="true" ifSubset="aspect-ratio:4-3">
+         <visible>false</visible>
+      </image>
+
+      <image name="linea-superior, plus-picto" extra="true" ifSubset="aspect-ratio:3-2">
+         <visible>false</visible>
+      </image>
 
 
- </view>
+      <text name="systemInfo">
+         <visible>false</visible>
+      </text>
 
-   <view name="detailed, basic, grid, system" >
+      <text name="systemInfoEx, systemInfoEx2" extra="true">
+         <alignment>left</alignment>
+         <pos>0.162 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.065 0.045</pos>
+         <pos tinyScreen="true">0.065 0.045</pos>
+         <size>0.398 0.055</size>
+         <size ifSubset="aspect-ratio:4-3">0.46 0.055</size>
+         <size tinyScreen="true">0.48 0.055</size>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.030</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3">0.03</fontSize>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <backgroundColor>ff000000</backgroundColor>
+         <zIndex>60</zIndex>
+      </text>
+
+      <text name="systemInfoEx" extra="true">
+         <text>{binding:total} ${GamesNumber} | {binding:favorites} ${GamesFavs} | {binding:gamesPlayed} ${NumberPlayed}</text>
+         <text ifSubset="aspect-ratio:4-3" tinyScreen="true">{binding:total} ${GamesNumber} | {binding:favorites} ${GamesFavs}</text>
+         <storyboard repeat="2">
+            <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+            <animation property="opacity" from="1" to="0" begin="2500" duration="350" mode="easeOut" />
+            <animation property="opacity" from="0" to="1" begin="7100" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="1" to="0" begin="10000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut"/>
+         </storyboard>
+      </text>
+
+      <text name="systemInfoEx2" extra="true">
+         <text>${theme.mostplayed} {binding:mostPlayed} </text>
+         <storyboard repeat="2">
+            <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
+            <animation property="opacity" from="0" to="1" begin="2600" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="1" to="0" begin="7000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="0" to="1" begin="10100" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="1" to="0" begin="14000" duration="350" mode="easeOut" />
+         </storyboard>
+      </text>
+   </view>
+
+
+   <view name="detailed, basic, grid">
+
+      <image name="consoles" extra="true">
+         <pos>0.02 0.02</pos>
+         <origin>0 0</origin>
+         <alignment>center</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <maxSize>0.095 0.1</maxSize>
+         <maxSize ifSubset="aspect-ratio:3-2">0.085 0.1</maxSize>
+         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <path>./_theme_inc/images/consoles/${system.theme}.png</path>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="consoles" extra="true" ifSubset="aspect-ratio:4-3">
+         <visible>false</visible>
+      </image>
+
+      <image name="consoles" extra="true" tinyScreen="true">
+         <visible>false</visible>
+      </image>
+
+      <image name="consoles" extra="true" region="eu"/>
+      <image name="consoles" extra="true" region="us">
+         <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
+      </image>
+      <image name="consoles" extra="true" region="jp">
+         <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
+      </image>
+
+      <text name="md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime">
+         <size>0.15 0.034</size>
+         <size ifSubset="aspect-ratio:4-3">0.195 0.034</size>
+         <zIndex>51</zIndex>
+         <alignment>center</alignment>
+         <backgroundColor>ff000000</backgroundColor>
+         <fontSize>0.023</fontSize>
+         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+      </text>
+
+      <text name="md_lbl_playcount,md_lbl_gametime">
+         <forceUppercase>true</forceUppercase>
+         <color>ffffffb1</color>
+      </text>
+
+      <text name="md_playcount,md_gametime">
+         <color>${developerColor}</color>
+      </text>
+
+      <text name="md_lbl_playcount">
+         <pos>0.147 0.04</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.07 0.04</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-10">0.16 0.04</pos>
+         <pos tinyScreen="true">0.07 0.04</pos>
+      </text>
+
+      <text name="md_playcount">
+         <pos>0.147 0.0703</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.07 0.0703</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-10">0.16 0.0703</pos>
+         <pos tinyScreen="true">0.07 0.08</pos>
+      </text>
+
+      <text name="md_lbl_gametime">
+         <pos>0.298 0.04</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.265 0.04</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-10">0.305 0.04</pos>
+         <pos tinyScreen="true">0.265 0.04</pos>
+      </text>
+
+      <text name="md_gametime">
+         <pos >0.298 0.0703</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.265 0.0703</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-10">0.305 0.0703</pos>
+         <pos tinyScreen="true">0.265 0.08</pos>
+      </text>
+      <!--
+      <text name="md_lbl_lastplayed">
+         <pos>0.39 0.035</pos>
+         <size>0.165 0.034</size>
+         <alignment>center</alignment>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <color>${genreColor}</color>
+         <visible>false</visible>
+         <zIndex>51</zIndex>
+         <backgroundColor>0000004d</backgroundColor>
+      </text>
+
+      <datetime name="md_lastplayed">
+         <pos>0.39 0.07</pos>
+         <size>0.16 0.034</size>
+         <alignment>center</alignment>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <color>${releaseColor}</color>
+         <zIndex>51</zIndex>
+         <visible>false</visible>
+         <backgroundColor>0000004d</backgroundColor>
+      </datetime>
+   -->
+
+
+   </view>
+
+   <view name="detailed, basic, grid, system">
+
+      <image name="info-picto" extra="true">
+         <path>./_theme_inc/images/info-picto.svg</path>
+         <pos>0.125 0.047</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.02 0.047</pos>
+         <maxSize>0.045</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+
+      <image name="info-picto" extra="true" tinyScreen="true">
+         <pos >0.02 0.047</pos>
+      </image>
+
+      <image name="puntoazul-1" extra="true">
+         <path>./_theme_inc/images/punto-azul.png</path>
+         <pos>0.555 0.024</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.535 0.024</pos>
+         <maxSize>0.016</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <text name="friends" extra="true">
+         <text>33</text>
+         <pos>0.567 0.012</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.55 0.012</pos>
+         <size>0.024 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.024</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.02</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>60</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+      <image name="users-picto" extra="true">
+         <path>./_theme_inc/images/users-picto.svg</path>
+         <pos>0.554 0.047</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.534 0.047</pos>
+         <maxSize>0.05</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="puntoazul-2" extra="true">
+         <path>./_theme_inc/images/punto-azul.png</path>
+         <pos>0.604 0.061</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.588 0.061</pos>
+         <maxSize>0.016</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
 
       <image name="avatar" extra="true">
+         <path>./_theme_options/avatars/${image.avatar}</path>
+			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
          <pos>0.618 0.035</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.605 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
          <zIndex>99</zIndex>
-         <linearSmooth>true</linearSmooth>		
+         <linearSmooth>true</linearSmooth>
       </image>
-      
+
       <text name="username" extra="true">
+         <text>${theme.nick}</text>
+         <text ifSubset="system-username:custom">${custom.nick}</text>
+
          <pos>0.660 0.05</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.665 0.05</pos>
+
          <size>0.165 0.035</size>
          <color>ffffff</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.028</fontSize>
+         <fontSize ifSubset="aspect-ratio:3-2">0.03</fontSize>
          <alignment>left</alignment>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
-      </text>	
-
-     <text name="friends" extra="true">
-        <text>32</text>
-         <pos>0.577 0.012</pos>
-         <size>0.024 0.035</size>
-         <color>ffffff</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.024</fontSize>
-         <alignment>left</alignment>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
+         <zIndex>60</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
       </text>
 
-    <text name="trophy-level" extra="true">
-        <text>268</text>
-         <pos>0.875 0.05</pos>
-         <size>0.024 0.035</size>
+
+
+      <image name="trophy-picto" extra="true">
+         <path>./_theme_inc/images/trophy-picto.svg</path>
+         <pos>0.827 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
+         <maxSize>0.044</maxSize>
+         <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
          <color>ffffff</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.024</fontSize>
+         <color ifCheevos="true">F3C300d1</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="star-picto" extra="true">
+         <path>./_theme_inc/images/star-picto.png</path>
+         <pos>0.856 0.052</pos>
+         <pos ifSubset="aspect-ratio:16-10|5-3">0.86 0.052</pos>
+         <maxSize>0.03</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+         <visible ifSubset="aspect-ratio:4-3|3-2">false</visible>
+      </image>
+
+      <text name="trophy-level" extra="true">
+         <text>2022</text>
+         <pos>0.875 0.05</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.855 0.05</pos>
+         <pos ifSubset="aspect-ratio:16-10|5-3">0.88 0.05</pos>
+         <size>0.048 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.02</fontSize>
          <alignment>left</alignment>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
-      </text>	
-      <text name="md_lbl_playcount">
-			<pos>0.16 0.055</pos>
-			<size>0.11 0.034</size>
-         <alignment>right</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.026</fontSize>
-			<color>ffffff</color>
-			<zIndex>51</zIndex>
-            <backgroundColor>00000000</backgroundColor>
-		</text>
+         <zIndex>60</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
 
-      <text name=" md_playcount">
-			<pos>0.27 0.055</pos>
-			<size>0.02 0.034</size>
-         <alignment>left</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<color>${releaseColor}</color>
-			<zIndex>51</zIndex>
-         <backgroundColor>0000ff00</backgroundColor>
-		</text>
-
-      <text name="md_lbl_gametime">
-			<pos>0.275 0.055</pos>
-			<size>0.12 0.034</size>
-         <alignment>right</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<color>ffffff</color>
-			<zIndex>51</zIndex>
-            <backgroundColor>00000000</backgroundColor>
-		</text>
-
-      <text name="md_gametime">
-			<pos>0.395 0.055</pos>
-			<size>0.07 0.034</size>
-         <alignment>left</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<color>${releaseColor}</color>
-			<zIndex>51</zIndex>
-         <backgroundColor>0000ff00</backgroundColor>
-		</text>
-
-      <text name="md_lbl_lastplayed">
-			<pos>0.39 0.035</pos>
-			<size>0.165 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${genreColor}</color>
-         <visible>false</visible>
-			<zIndex>51</zIndex>
-            <backgroundColor>0000004d</backgroundColor>
-		</text>
-
-      <datetime name="md_lastplayed">
-			<pos>0.39 0.07</pos>
-			<size>0.16 0.034</size>
-         <alignment>center</alignment> 
-			<fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<color>${releaseColor}</color>
-			<zIndex>51</zIndex>
-         <visible>false</visible>
-         <backgroundColor>0000004d</backgroundColor>
-		</datetime>
-      
-</view>
+   </view>
 </theme>

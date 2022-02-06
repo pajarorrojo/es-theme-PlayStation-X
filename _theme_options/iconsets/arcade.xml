@@ -1,7 +1,7 @@
 <!-- Theme by pajarorrojo-->
 <theme>
 	<formatVersion>7</formatVersion>
-	
+
 	<view name="menu, system, detailed, grid, basic">
 		<helpsystem name="help">
 			<iconColor>FFFFFFFF</iconColor>
@@ -16,18 +16,18 @@
 			<iconR>./arcade/r.png</iconR>
 			<iconStart>./arcade/start.png</iconStart>
 			<iconSelect>./arcade/select.png</iconSelect>
-		</helpsystem>		
+		</helpsystem>
 	</view>
-  <view name="screen">
-	<controllerActivity name="controllerActivity">
-      <pos>0.02 0.95</pos>
-      <size>0.045</size>
-      <color>FFFFFF90</color>
-	  <imagePath>./arcade/controller.svg</imagePath>      
-      <activityColor>003791</activityColor>
-      <hotkeyColor>FF0000</hotkeyColor>
-    </controllerActivity>
+	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<pos>0.02 0.95</pos>
+			<size>0.045</size>
+			<color>FFFFFF90</color>
+			<imagePath>./arcade/controller.svg</imagePath>
+			<activityColor>003791</activityColor>
+			<hotkeyColor>FF0000</hotkeyColor>
+		</controllerActivity>
 
-</view>
-	
+	</view>
+
 </theme>

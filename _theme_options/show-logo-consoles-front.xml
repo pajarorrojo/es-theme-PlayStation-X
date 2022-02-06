@@ -1,61 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- Theme by pajarorrojo-->
 <theme>
-<formatVersion>7</formatVersion>
-<view name="system">
-   <image name="logo2" extra="true">
-      <pos>0.825 0.8</pos> 
-      <alignment>right</alignment>
-      <verticalAlignment>center</verticalAlignment>
-		<maxSize>0.155 0.12</maxSize>
-      <origin>0 0</origin>
-		<!--  png -->
-      <path>./../_theme_inc/images/logos/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./../_theme_inc/images/logos/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./../_theme_inc/images/logos/${system.theme}-w.svg</path>
-      <!-- check if lang resources exist -->
-      <path>./../_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-      <path>./../_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-      <zIndex>100</zIndex>
-	</image>
+   <formatVersion>7</formatVersion>
+   <view name="system">
+      <image name="logo2" extra="true">
+         <pos>0.825 0.8</pos>
+         <alignment>right</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <maxSize>0.155 0.12</maxSize>
+         <origin>0 0</origin>
+         <!--  png -->
+         <path>./../_theme_inc/images/logos/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./../_theme_inc/images/logos/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./../_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <!-- check if lang resources exist -->
+         <path>./../_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+         <path>./../_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <zIndex>100</zIndex>
+      </image>
 
+
+      <image name="logo2" extra="true" region="eu"/>
+      <image name="logo2" extra="true" region="us">
+         <path>./../_theme_inc/images/logos/us/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./../_theme_inc/images/logos/us/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./../_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+      </image>
+      <image name="logo2" extra="true" region="jp">
+         <path>./../_theme_inc/images/logos/jp/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./../_theme_inc/images/logos/jp/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./../_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+      </image>
+
+
+
+      <image name="consoles" extra="true">
+         <tile>false</tile>
+         <pos>0.82 0.75</pos>
+         <origin>0 0</origin>
+         <verticalAlignment>bottom</verticalAlignment>
+         <size>0.16 0</size>
+         <path>./../_theme_inc/images/consoles/${system.theme}.png</path>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="consoles" extra="true" region="eu"/>
+      <image name="consoles" extra="true" region="us">
+         <path>./../_theme_inc/images/consoles/us/${system.theme}.png</path>
+      </image>
+      <image name="consoles" extra="true" region="jp">
+         <path>./../_theme_inc/images/consoles/jp/${system.theme}.png</path>
+      </image>
       
-   <image name="logo2" extra="true" region="eu"/>
-    <image name="logo2" extra="true" region="us">
-    <path>./../_theme_inc/images/logos/us/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./../_theme_inc/images/logos/us/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./../_theme_inc/images/logos/us/${system.theme}-w.svg</path>
-    </image>
-    <image name="logo2" extra="true" region="jp">
-      <path>./../_theme_inc/images/logos/jp/${system.theme}.png</path>
-      <!--  svg -->
-      <path>./../_theme_inc/images/logos/jp/${system.theme}.svg</path>
-      <!--  svg white -->
-      <path>./../_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
-    </image>
-
-
-
-   <image name="consoles" extra="true">
-      <tile>false</tile>
-      <pos>0.83 0.77</pos> 
-      <origin>0 0</origin>
-      <verticalAlignment>bottom</verticalAlignment>
-      <size>0.145 0</size>
-      <path>./../_theme_inc/images/consoles/${system.theme}.png</path>
-      <zIndex>99</zIndex> 
-      <linearSmooth>true</linearSmooth>		
-    </image>
-
-   <image name="consoles" extra="true" region="eu"/>
-   <image name="consoles" extra="true" region="us">
-      <path>./../_theme_inc/images/consoles/us/${system.theme}.png</path>
-    </image>
-    <image name="consoles" extra="true" region="jp">
-      <path>./../_theme_inc/images/consoles/jp/${system.theme}.png</path>
-    </image>
-</view>
+   </view>
 </theme>

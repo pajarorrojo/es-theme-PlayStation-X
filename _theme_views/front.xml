@@ -1,188 +1,167 @@
 <!-- Theme by pajarorrojo-->
 <theme>
-<formatVersion>7</formatVersion>
-<view name="system" >
-   <image name="logo">
-      <path>./_theme_inc/images/caratulas/default.png</path>
-      <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
-      <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
-      <tile>false</tile>
-      <linearSmooth>true</linearSmooth>		
-   </image>
+   <formatVersion>7</formatVersion>
+   <view name="system">
+      <image name="logo">
+         <path>./_theme_inc/images/caratulas/default.png</path>
+         <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
+         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+         <tile>false</tile>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>0</zIndex>
+      </image>
 
-   <image name="logo" extra="true" region="eu"/>
-   <image name="logo" extra="true" region="us">
-      <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
-   </image>
-   <image name="logo" extra="true" region="jp">
-       <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
-   </image>
+      <image name="logo" extra="true" region="us">
+         <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
+         <zIndex></zIndex>
+      </image>
 
-   <carousel name="systemcarousel">
-      <systemInfoDelay>5</systemInfoDelay>
-      <color>00000000</color>
- 		<logoAlignment>top</logoAlignment>
-      <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>	
-		<zIndex>80</zIndex>
-		<defaultTransition>instant</defaultTransition> 
-      <transitionSpeed>500</transitionSpeed>
-      <minLogoOpacity ifSubset="video-system:background-option">0.5</minLogoOpacity>
-      <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>	
-   </carousel>
+      <image name="logo" extra="true" region="jp">
+         <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+      </image>
 
-   <carousel name="systemcarousel" ifSubset="carousel:small">
-        <pos>-0.555 0.117</pos>
-        <size>1.65 1</size>
-        <logoScale>2.06</logoScale>
-        <logoSize>0.18</logoSize>
-        <maxLogoCount>10</maxLogoCount>
-   </carousel>
+      <carousel name="systemcarousel">
+         <systemInfoDelay>5</systemInfoDelay>
+         <color>00000000</color>
+         <logoAlignment>top</logoAlignment>
+         <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>
+         <zIndex>80</zIndex>
+         <defaultTransition>instant</defaultTransition>
+         <transitionSpeed>500</transitionSpeed>
+         <minLogoOpacity ifSubset="video-system:background-option">0.5</minLogoOpacity>
+         <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>
+      </carousel>
 
-   <carousel name="systemcarousel" ifSubset="carousel:medium">
-        <pos>-0.53 0.112</pos>
-        <size>1.6 1</size>
-        <logoScale>1.61</logoScale>
-        <logoSize>0.23</logoSize>
-        <maxLogoCount>9</maxLogoCount>
-   </carousel>
-
-   <carousel name="systemcarousel" ifSubset="carousel:big">
-        <pos>-0.5354 0.104</pos>
-	      <origin>0 0</origin>
-        <size>1.61 1</size>
-        <logoScale>1.176</logoScale>
-        <logoSize>0.315</logoSize>
-        <maxLogoCount>8</maxLogoCount>
-   </carousel>
-
-
-      <text name="systemInfo">
-        <visible>false</visible>
-      </text>
-
-      <text name="systemInfoEx, systemInfoEx2" extra="true">
+      <image name="marco-activo" extra="true">
+         <path>./../_theme_inc/images/marco-activo-iso.png</path>
          <alignment>left</alignment>
-         <pos>0.162 0.045</pos>
-         <size>0.398 0.055</size>
+         <verticalAlignment>top</verticalAlignment>
+         <zIndex>89</zIndex>
+      </image>
+
+      <text name="start" extra="true">
+         <text>${theme.start}</text>
+         <backgroundColor>00000069</backgroundColor>
+         <alignment>center</alignment>
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	      <fontSize>0.030</fontSize>
+         <fontPath ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <zIndex>46</zIndex>
+      </text>
+
+      <text name="system_name" extra="true">
+         <size>0.6 0.001</size>
+         <size ifSubset="aspect-ratio:3-2">0.57 0.001</size>
+         <alignment>left</alignment>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <zIndex>45</zIndex>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <backgroundColor>ff000000</backgroundColor>    
-         <zIndex>60</zIndex>	           
-      </text>
+         <fontSize>0.068</fontSize>
+         <fontSize ifSubset="aspect-ratio:16-9">0.068</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3">0.055</fontSize>
+         <fontSize ifSubset="aspect-ratio:3-2">0.06</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.042</fontSize>
+         <fontSize ifSubset="aspect-ratio:16-10">0.066</fontSize>
+         <backgroundColor>ff000000</backgroundColor>
 
-      <text name="systemInfoEx" extra="true">
-            <text>{binding:total} ${GamesNumber}  |  {binding:favorites} ${GamesFavs}  |  {binding:gamesPlayed} ${NumberPlayed}</text>
-            <storyboard repeat="2">
-               <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-               <animation property="opacity" from="1" to="0" begin="2500" duration="350" mode="easeOut"  />
-               <animation property="opacity" from="0" to="1" begin="7100" duration="350" mode="easeOut"/>
-               <animation property="opacity" from="1" to="0" begin="10000" duration="350" mode="easeOut"  />
-               <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut"/>
-            </storyboard>             
-      </text>	
-
-      <text name="systemInfoEx2" extra="true">
-            <text>${theme.mostplayed} {binding:mostPlayed} </text>
-            <storyboard repeat="2">
-               <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-               <animation property="opacity" from="0" to="1" begin="2600" duration="350" mode="easeOut"/>
-               <animation property="opacity" from="1" to="0" begin="7000" duration="350" mode="easeOut"  />
-               <animation property="opacity" from="0" to="1" begin="10100" duration="350" mode="easeOut"/>
-               <animation property="opacity" from="1" to="0" begin="14000" duration="350" mode="easeOut"  />
-            </storyboard>             
-      </text>	
- 
-      <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>41</zIndex>
-         <linearSmooth>true</linearSmooth>		
-      </image>
-      
-      <image name="marco-activo" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./../_theme_inc/images/marco-activo.png</path>
-         <zIndex>99</zIndex>     
-      </image>
-            
-      <image name="background-art" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>40</zIndex> 
-         <linearSmooth>true</linearSmooth>		
-      </image>	  
-	  
-	   <text name="start" extra="true">
-         <text>${theme.start}</text>
-         <size>0.207 0.07</size>
-         <backgroundColor>00000069</backgroundColor>
-         <alignment>center</alignment> 
-         <pos>0.166 0.5</pos>
-         <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.032</fontSize>   
-         <zIndex>45</zIndex>  
-      </text>
-      	   
-      <text name="system_name" extra="true">
-	      <alignment>left</alignment> 
-	      <pos>0.385 0.54</pos>
-         <size>0.6 0.001</size>
-	      <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-	      <fontSize>0.068</fontSize>  
-         <zIndex>45</zIndex>  
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>  
       </text>
 
       <text name="fullName" extra="true">
          <text>${system.fullName}</text>
-         <alignment>center</alignment> 
-         <pos>0.166 0.135</pos>
-         <size>0.208 0.37</size>
+         <alignment>center</alignment>
          <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.036</fontSize>  
-         <zIndex>45</zIndex>  
+         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <zIndex>45</zIndex>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset> 
+         <glowOffset>3 2</glowOffset>
          <backgroundColor>${menubgColor}</backgroundColor>
-            <storyboard>
-                <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
-                <animation property="opacity" from="0" to="1" begin="500" duration="0"  mode="linear"/>   
-            </storyboard>
-       </text>
+         <storyboard>
+            <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
+            <animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
+         </storyboard>
+      </text>
 
-        <text name="manufacturerName" extra="static">
-           <text>${system.sortedBy}</text>
-           <alignment>center</alignment> 
-	        <pos>0.166 0.22</pos>
-           <size>0.208 0.1</size>
-	        <color>FFFFFF</color>
-           <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-	        <fontSize>0.040</fontSize>  
-           <zIndex>45</zIndex>  
-           <glowColor>00000035</glowColor>
-           <glowSize>1</glowSize>
-           <glowOffset>3 2</glowOffset> 
-            <storyboard>
-                <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
-                <animation property="opacity" from="0" to="1" begin="500" duration="0"  mode="linear"/>
-            </storyboard>
-       </text>
+      <text name="manufacturerName" extra="static">
+         <text>${system.sortedBy}</text>
+         <alignment>center</alignment>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <zIndex>45</zIndex>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <storyboard>
+            <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
+            <animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
+         </storyboard>
+      </text>
 
       
-</view>
+
+
+
+      <!-- FIN CARRUSELES -->
+
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="background-art" extra="true">
+
+         <size>1 1</size>
+         <!--
+         <size ifSubset="aspect-ratio:16-9|16-10">1 1</size>
+         <size ifSubset="aspect-ratio:4-3">1.4 1.4</size>
+         <pos ifSubset="aspect-ratio:4-3">-0.07 0</pos>-->
+         <zIndex>40</zIndex>
+         <linearSmooth>true</linearSmooth>
+
+      </image>
+
+      <image name="overlay" extra="true">
+         <path>./_theme_inc/images/overlay.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>42</zIndex>
+         <linearSmooth>true</linearSmooth>
+         <tile>false</tile>
+      </image>
+
+
+      <image name="linea-inferior" extra="true">
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>${sistema.lineainferior}</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="pie-barra" extra="true">
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.2</size>
+         <color>${sistema.pie}</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>98</zIndex>
+      </image>
+
+
+   </view>
 
 </theme>

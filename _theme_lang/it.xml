@@ -1,9 +1,8 @@
 ﻿<!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="it">
-    <theme.welcome>Benvenuto in Playstation X per Batocera</theme.welcome>
+    <theme.welcome>Benvenuto in Playstation X per</theme.welcome>
     <theme.start>Avvia</theme.start>
     <theme.mostplayed>Il più giocato:</theme.mostplayed>
     <GamesNumber>Giochi:</GamesNumber>
@@ -16,7 +15,11 @@
     <black>Nero</black>
     <yes>Sì</yes>
     <no>Non</no>
+    <none>Nessuno</none>
+    <never>Nunca</never>
+    <always>Sempre</always>
     <iconset>Iconset</iconset>
+    <theme.frontend>Seleziona il tuo frontend preferito</theme.frontend>
     <gameBar>Mostra la barra delle informazioni sul gioco</gameBar>
     <CarouselImageSize>Dimensioni immagine carosello</CarouselImageSize>
     <theme.videoBackground>Mostra i video nella vista di sistema</theme.videoBackground>
@@ -25,7 +28,8 @@
     <theme.backgroundVideoOption>Video di sfondo</theme.backgroundVideoOption>
     <theme.smallScreenOption>Piccola finestra</theme.smallScreenOption>
     <theme.videoaudio>Abilita l'audio per i video di sistema</theme.videoaudio>
-		<theme.videoRandom>Videosnap casuale se nessun video di sistema</theme.videoRandom>
+		<theme.videoRandom>Videosnap casuale </theme.videoRandom>
+    <ifnospot>Se nessun video di sistema</ifnospot>
     <theme.Avatar>Scegli il tuo avatar</theme.Avatar>
     <theme.username>Scegli un Nickname</theme.username>
     <custom>Personalizzato</custom>
@@ -42,5 +46,7 @@
 		<theme.animatedList>Transizione della lista dei giochi animata</theme.animatedList>
 		<theme.gametime>Mostra le informazioni sul tempo di gioco</theme.gametime>
     <theme.animatedSystem>Transizione della lista dei sistema animata</theme.animatedSystem>
+    <theme.aspect-ratio>Seleziona il tipo di schermo</theme.aspect-ratio>
+    <theme.aspect-1610>16:10 WXGA (normale nei vecchi laptop)</theme.aspect-1610>
   </variables>
 </theme>

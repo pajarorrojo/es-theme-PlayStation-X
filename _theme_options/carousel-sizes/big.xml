@@ -1,0 +1,96 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="system">
+      <!-- CARRUSEL GRANDE -->
+      <carousel name="systemcarousel" ifSubset="carousel:big">
+         <origin>0 0</origin>
+         <logoScale>1.176</logoScale>
+         <logoSize>0.315</logoSize>
+
+         <pos>-0.5354 0.104</pos>
+         <pos ifSubset="aspect-ratio:16-9">-0.5354 0.104</pos>
+         <pos ifSubset="aspect-ratio:4-3">-0.599 0.104</pos>
+         <pos ifSubset="aspect-ratio:16-10">-0.613 0.104</pos>
+         <pos ifSubset="aspect-ratio:3-2">-0.6505 0.1045</pos>
+         <pos ifSubset="aspect-ratio:5-3">-0.574 0.1045</pos>
+
+         <size>1.61 1</size>
+         <size ifSubset="aspect-ratio:16-9|4-3">1.61 1</size>
+         <size ifSubset="aspect-ratio:16-10">1.79 1</size>
+         <size ifSubset="aspect-ratio:3-2">1.88 1</size>
+         <size ifSubset="aspect-ratio:5-3">1.7 1</size>
+
+
+         <maxLogoCount>8</maxLogoCount>
+         <maxLogoCount ifSubset="aspect-ratio:4-3">6</maxLogoCount>
+      </carousel>
+
+      <image name="marco-activo" extra="true" ifSubset="carousel:big">
+         <origin>0 0</origin>
+         <pos>0.163 0.131</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.063 0.131</pos>
+         <maxSize>0.445</maxSize>
+      </image>
+
+      <text name="start" extra="true" ifSubset="carousel:big">
+         <size>0.207 0.07</size>
+         <size ifSubset="aspect-ratio:16-9">0.207 0.07</size>
+         <size ifSubset="aspect-ratio:4-3">0.278 0.07</size>
+         <size ifSubset="aspect-ratio:16-10">0.232 0.071</size>
+         <size ifSubset="aspect-ratio:3-2">0.247 0.0621</size>
+         <size ifSubset="aspect-ratio:5-3">0.221 0.064</size>
+
+         <pos>0.166 0.5</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.5</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.067 0.5</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.166 0.507</pos>
+         <pos ifSubset="aspect-ratio:5-3">0.166 0.506</pos>
+
+         <fontSize>0.032</fontSize>
+      </text>
+
+      <text name="system_name" extra="true" ifSubset="carousel:big">
+         <pos>0.385 0.54</pos>
+         <pos ifSubset="aspect-ratio:16-9">0.385 0.54</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.36 0.54</pos>
+         <pos ifSubset="aspect-ratio:16-10">0.408 0.54</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.423 0.55</pos>
+         <pos ifSubset="aspect-ratio:5-3">0.395 0.549</pos>
+      </text>
+
+      <text name="fullName" extra="true" ifSubset="carousel:big">
+         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
+         <text>${system.name}</text> -->
+         <pos>0.166 0.135</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.135</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.067 0.135</pos>
+
+         <size>0.208 0.37</size>
+         <size ifSubset="aspect-ratio:16-9">0.208 0.37</size>
+         <size ifSubset="aspect-ratio:4-3">0.278 0.37</size>
+         <size ifSubset="aspect-ratio:16-10">0.232 0.37</size>
+         <size ifSubset="aspect-ratio:3-2">0.247 0.37</size>
+         <size ifSubset="aspect-ratio:5-3">0.221 0.37</size>
+
+         <fontSize>0.036</fontSize>
+      </text>
+
+      <text name="manufacturerName" extra="static" ifSubset="carousel:big">
+         <pos>0.166 0.22</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.22</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.067 0.22</pos>
+         <size>0.208 0.1</size>
+         <size ifSubset="aspect-ratio:16-9">0.208 0.1</size>
+         <size ifSubset="aspect-ratio:4-3">0.278 0.1</size>
+         <size ifSubset="aspect-ratio:16-10">0.2232 0.1</size>
+         <size ifSubset="aspect-ratio:3-2">0.247 0.1</size>
+         <size ifSubset="aspect-ratio:5-3">0.221 0.1</size>
+
+         <fontSize>0.040</fontSize>
+      </text>
+
+
+   </view>
+
+</theme>

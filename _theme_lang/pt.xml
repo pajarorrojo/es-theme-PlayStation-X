@@ -1,14 +1,13 @@
 ﻿<!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="pt">
-  <theme.welcome>Bem-vindo ao Playstation X para Batocera</theme.welcome>
+    <theme.welcome>Bem-vindo ao Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
     <theme.mostplayed>Mais tocado:</theme.mostplayed>
     <GamesNumber>Jogos</GamesNumber>
     <GamesFavs>Favoritos</GamesFavs>
-	  <NumberPlayed>Jogados</NumberPlayed>
+    <NumberPlayed>Jogados</NumberPlayed>
     <big>grande</big>
     <medium>médio</medium>
     <small>pequeno</small>
@@ -16,7 +15,11 @@
     <black>Preto</black>
     <yes>Sim</yes>
     <no>Não</no>
+    <never>Nunca</never>
+    <none>Nenhum</none>
+    <always>Sempre</always>
     <iconset>Iconset</iconset>
+    <theme.frontend>Selecione seu frontend favorito</theme.frontend>
     <gameBar>Barra de informações do jogo</gameBar>
     <CarouselImageSize>Tamanho da imagem do carrossel</CarouselImageSize>
     <theme.videoBackground>Mostrar vídeos na visualização do sistema</theme.videoBackground>
@@ -25,22 +28,25 @@
     <theme.backgroundVideoOption>Vídeo de fundo</theme.backgroundVideoOption>
     <theme.smallScreenOption>Janela pequena</theme.smallScreenOption>
     <theme.videoaudio>Habilitar áudio para vídeos do sistema</theme.videoaudio>
-		<theme.videoRandom>Video aleatório se não houver vídeo do sistema</theme.videoRandom>
+    <theme.videoRandom>Mostrar video aleatório </theme.videoRandom>
+    <ifnospot>Se não houver vídeo do sistema</ifnospot>
     <theme.Avatar>Escolha o seu Avatar</theme.Avatar>
     <theme.username>Escolha um Nickname</theme.username>
     <custom>Personalizado</custom>
     <theme.videoGamelistDelay>Atraso de vídeo da lista de jogos</theme.videoGamelistDelay>
-    <VideoOff>Video Off</VideoOff>    
-	  <theme.systemConsole>logotipo e consoles na visualização do sistema?</theme.systemConsole>
-	  <randomGame>jogo aleatório</randomGame>
+    <VideoOff>Video Off</VideoOff>
+    <theme.systemConsole>logotipo e consoles na visualização do sistema?</theme.systemConsole>
+    <randomGame>jogo aleatório</randomGame>
     <theme.colorset>Esquemas de cores</theme.colorset>
-		<theme.gridMainorigin>Fonte da imagem principal em modo de grade</theme.gridMainorigin>
-		<theme.gridorigin>Fonte da imagem na grade</theme.gridorigin>
-		<theme.detailedorigin>Fonte da imagem em visão detalhada</theme.detailedorigin>
+    <theme.gridMainorigin>Fonte da imagem principal em modo de grade</theme.gridMainorigin>
+    <theme.gridorigin>Fonte da imagem na grade</theme.gridorigin>
+    <theme.detailedorigin>Fonte da imagem em visão detalhada</theme.detailedorigin>
     <theme.gridvideo>Mostrar vídeosnap</theme.gridvideo>
-		<theme.videoSnapAudio>Habilitar áudio para videosnap</theme.videoSnapAudio>
-		<theme.animatedList>Transição da lista de jogos animada</theme.animatedList>
-		<theme.gametime>Mostrar informações de tempo de jogo</theme.gametime>
+    <theme.videoSnapAudio>Habilitar áudio para videosnap</theme.videoSnapAudio>
+    <theme.animatedList>Transição da lista de jogos animada</theme.animatedList>
+    <theme.gametime>Mostrar informações de tempo de jogo</theme.gametime>
     <theme.animatedSystem>Transição da lista de sistema animado</theme.animatedSystem>
+    <theme.aspect-ratio>Selecione o tipo de tela</theme.aspect-ratio>
+    <theme.aspect-1610>16:10 WXGA (normal em laptops antigos)</theme.aspect-1610>
   </variables>
 </theme>

@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-<formatVersion>7</formatVersion>
-<view name="basic, detailed, grid">
-     <video name="default_background" extra="true">
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>39</zIndex>   
-	</video>
+     <formatVersion>7</formatVersion>
+     <view name="basic, detailed, grid">
+          <video name="default_background" extra="true">
+               <pos>0 0</pos>
+               <size>1 1</size>
+               <zIndex>39</zIndex>
+          </video>
 
-     <video name="default_background" extra="true" ifSubset="colorset:blue">
-         <path>./../_theme_options/colorsets/blue/background-psx-blue.mp4</path>
-	</video>
+          <video name="default_background" extra="true" ifSubset="colorset:blue">
+               <path>./../_theme_options/colorsets/blue/background-psx-blue.mp4</path>
+          </video>
 
-        <video name="default_background" extra="true" ifSubset="colorset:black">
-         <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
-	</video>
+          <video name="default_background" extra="true" ifSubset="colorset:black">
+               <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
+          </video>
 
-     <image name="background-art" extra="true">
-       <storyboard>   
-          <animation property="opacity" to="1" duration="0" mode="easeInOut"/>   
-          <animation property="opacity" from="1" to="0.3" begin="500" duration="9000" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-       </storyboard>
-      </image>
+          <image name="background-art" extra="true">
+               <storyboard>
+                    <animation property="opacity" to="1" duration="0" mode="easeInOut"/>
+                    <animation property="opacity" from="1" to="0.3" begin="500" duration="9000" mode="easeInOut" autoreverse="true" repeat="forever"/>
+               </storyboard>
+          </image>
 
      </view>
 </theme>

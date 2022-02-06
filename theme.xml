@@ -1,288 +1,306 @@
 <!--Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
-<theme>
-<formatVersion>7</formatVersion>
-    
+<theme defaultTransition="instant">
 
 
-<!--IDIOMAS-->
-    <include>./_theme_lang/default_en.xml</include>
+	<formatVersion>7</formatVersion>
+	<!--PERSONALIZACION-->
+	<include>./custom-username.xml</include>
+	<include>./_theme_options/usernames.xml</include>
+	<include>./_theme_options/avatars.xml</include>
+
+
+	<!--IDIOMAS-->
+	<include>./_theme_lang/default_en.xml</include>
 	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
 	<include lang="it">./_theme_lang/it.xml</include>
 
 
-<!--THEME OPTIONS (subset order reversed in batocera not in retrobat WTF?)-->
+	<!--THEME OPTIONS-->
 
-<!--CONSOLA Y LOGO VISTA SISTEMAS-->
+	<!--RELACION DE ASPECTO-->
+	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
+		<include name="16-9" displayName="16:9 widescreen" />
+		<include name="4-3" displayName="4:3 standard" />
+		<include name="16-10" displayName="16:10" />
+		<include name="5-3" displayName="5:3" />
+		<include name="3-2" displayName="3:2" />
+	</subset>
 
-<subset name="system-console" displayName="${theme.systemConsole}" >
-	<include name="YES" displayName="${yes}">./_theme_options/show-logo-consoles-front.xml</include>
-	<include name="NO" displayName="${no}"/>
-</subset>
+	<!--FRONTEND-->
+	<subset name="frontend" displayName="${theme.frontend}">
+		<include name="no-frontend" displayName="${none}" tinyScreen="true" />
+		<include name="batocera" displayName="batocera" />
+		<include name="retrobat" displayName="retrobat" />
+		<include name="batocera-plus" displayName="batocera plus" />
+		<include name="emuelec" displayName="emuelec" />
+		<include name="no-frontend" displayName="${none}" tinyScreen="false" />
+	</subset>
 
-<!--ANIMACIONES DE VISTA SISTEMAS-->
-<subset name="anim-system" displayName="${theme.animatedSystem}">
-	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
-	<include name="NO" displayName="${no}"/>
-	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
-</subset>
+	<!--JUEGO DE COLORES-->
+	<subset name="colorset" displayName="${theme.colorset}">
+		<include name="black" displayName="${black}" tinyScreen="true">./_theme_options/colorsets/black.xml</include>
+		<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
+		<include name="black" displayName="${black}" tinyScreen="false">./_theme_options/colorsets/black.xml</include>
+	</subset>
 
-<!--DESCRIPCIONES-->
-
-<subset name="system-description" displayName="${theme.system-description}">
-	<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
-	<include name="NO" displayName="${no}"/>
-</subset>
-
-<!--AUDIO VIDEOS ON/OFF-->
-
-<subset name="video-system-audio" displayName="${theme.videoaudio}" ifSubset="video-system:small-screen|background-option" >
-	<include name="disable-audio" displayName="${no}"/>
-	<include name="enable-audio" displayName="${yes}"/>
-</subset>
-
-<!--RANDOM VIDEOS ON/OFF-->
-
-<subset name="video-system-random" displayName="${theme.videoRandom}" ifSubset="video-system:small-screen|background-option" >
-	<include name="enable-random" displayName="${yes}"/>
-	<include name="disable-random" displayName="${no}"/>
-</subset>
-
-
-<!--OPCIONES DE VIDEO SISTEMAS-->
-
-<subset name="video-system" displayName="${theme.videoBackground}">
-	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
-	<include name="NO" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
-	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
-	<include name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
-</subset>
-
-<!--TAMAÑO CARRUSEL-->
-
-<subset name="carousel" displayName="${CarouselImageSize}">
-	<include name="big" displayName="${big}"/>
-	<include name="medium" displayName="${medium}"/>
-	<include name="small" displayName="${small}"/>
-</subset>
-
-
-<!--SETS DE ICONOS-->
-
-<subset name="iconset" displayName="${iconset}">
-  <include  name="1-PSX">./_theme_options/iconsets/psx.xml</include>
-  <include  name="2-PSX-color">./_theme_options/iconsets/psx-color.xml</include>
-  <include  name="3-XBOX">./_theme_options/iconsets/xbox.xml</include>
-  <include  name="4-SNES">./_theme_options/iconsets/snes.xml</include>
-  <include  name="5-ARCADE">./_theme_options/iconsets/arcade.xml</include>
-</subset>
-
-<!--JUEGO DE COLORES-->
-
-<subset name="colorset" displayName="${theme.colorset}">  
-	<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
-	<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
-</subset>
-
-
-<!--AVATARES-->
-<subset name="system-avatar" displayName="${theme.Avatar}">
-	<include name="batocera" displayName="Batocera"/>
-	<include name="custom" displayName="${custom}"/>
-	<include name="castlevania" displayName="Alucard (Castlevania)"/>
-	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)"/>
-	<include name="batocera-plus" displayName="Batocera Plus"/>
-	<include name="bubble" displayName="Bubble Bobble"/>
-	<include name="claptrap" displayName="Claptrap (Borderlands)"/>
-	<include name="cloud" displayName="Cloud Strife"/>
-	<include name="daytentacle" displayName="Day of the Tentacle"/>
-	<include name="daytona" displayName="Daytona USA Hornet"/>
-	<include name="donkey" displayName="Donkey Kong"/>
-	<include name="doubledragon" displayName="Double Dragon"/>
-	<include name="emulationstation" displayName="Emulation Station"/>
-	<include name="goku" displayName="Goku"/>
-	<include name="halo" displayName="Halo"/>
-	<include name="he-man" displayName="HE-MAN"/>
-	<include name="jackelguapo" displayName="Handsome Jack"/>
-	<include name="lara" displayName="Lara Croft"/>
-	<include name="larry" displayName="Larry Laffer"/>
-	<include name="lemmings" displayName="Lemmings"/>
-	<include name="zelda" displayName="Link (Zelda)"/>
-	<include name="mario" displayName="Mario Bros."/>
-	<include name="megaman" displayName="Mega-Man"/>
-	<include name="metal-gear" displayName="Metal Gear"/>
-	<include name="metalslug" displayName="Metal Slug"/>
-	<include name="metroid" displayName="Metroid"/>
-	<include name="monkeyisland" displayName="Monkey Island"/>
-	<include name="outrun" displayName="OutRun"/>
-	<include name="pacman" displayName="Pac-Man"/>
-	<include name="pacman-clyde" displayName="Pac-Man Clyde"/>
-	<include name="pacman-inky" displayName="Pac-Man Inky"/>
-	<include name="pacman-blinky" displayName="Pac-Man Blinky"/>
-	<include name="pacman-pinky" displayName="Pac-Man Pinky"/>
-	<include name="pajarorrojo" displayName="pajarorrojo"/>
-	<include name="ps-logo" displayName="PlayStation Logo"/>
-	<include name="astrobot" displayName="PSN Astro Bot"/>
-	<include name="retroship" displayName="PSN Retro Ship"/>
-	<include name="recalbox" displayName="Recalbox"/>
-	<include name="retroachievements" displayName="Retroachievements Default"/>
-	<include name="retrobat" displayName="Retrobat"/>
-	<include name="retropie" displayName="Retropie"/>
-	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)"/>
-	<include name="ryu" displayName="Ryu (Street Fighter 2)"/>
-	<include name="sephirot" displayName="Sephirot"/>
-	<include name="sonic" displayName="Sonic"/>
-	<include name="wonderboy" displayName="Wonderboy"/>
-</subset>  
+	<!--AVATARES-->
+	<subset name="system-avatar" displayName="${theme.Avatar}">
+		<include name="batocera" displayName="Batocera" />
+		<include name="custom" displayName="${custom}" />
+		<include name="castlevania" displayName="Alucard (Castlevania)" />
+		<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)" />
+		<include name="batocera-plus" displayName="Batocera Plus" />
+		<include name="bubble" displayName="Bubble Bobble" />
+		<include name="claptrap" displayName="Claptrap (Borderlands)" />
+		<include name="cloud" displayName="Cloud Strife" />
+		<include name="daytentacle" displayName="Day of the Tentacle" />
+		<include name="daytona" displayName="Daytona USA Hornet" />
+		<include name="donkey" displayName="Donkey Kong" />
+		<include name="doubledragon" displayName="Double Dragon" />
+		<include name="emulationstation" displayName="Emulation Station" />
+		<include name="goku" displayName="Goku" />
+		<include name="halo" displayName="Halo" />
+		<include name="he-man" displayName="HE-MAN" />
+		<include name="jackelguapo" displayName="Handsome Jack" />
+		<include name="lara" displayName="Lara Croft" />
+		<include name="larry" displayName="Larry Laffer" />
+		<include name="lemmings" displayName="Lemmings" />
+		<include name="zelda" displayName="Link (Zelda)" />
+		<include name="mario" displayName="Mario Bros." />
+		<include name="megaman" displayName="Mega-Man" />
+		<include name="metal-gear" displayName="Metal Gear" />
+		<include name="metalslug" displayName="Metal Slug" />
+		<include name="metroid" displayName="Metroid" />
+		<include name="monkeyisland" displayName="Monkey Island" />
+		<include name="outrun" displayName="OutRun" />
+		<include name="pacman" displayName="Pac-Man" />
+		<include name="pacman-clyde" displayName="Pac-Man Clyde" />
+		<include name="pacman-inky" displayName="Pac-Man Inky" />
+		<include name="pacman-blinky" displayName="Pac-Man Blinky" />
+		<include name="pacman-pinky" displayName="Pac-Man Pinky" />
+		<include name="pajarorrojo" displayName="pajarorrojo" />
+		<include name="ps-logo" displayName="PlayStation Logo" />
+		<include name="astrobot" displayName="PSN Astro Bot" />
+		<include name="retroship" displayName="PSN Retro Ship" />
+		<include name="recalbox" displayName="Recalbox" />
+		<include name="retroachievements" displayName="Retroachievements Default" />
+		<include name="retrobat" displayName="Retrobat" />
+		<include name="retropie" displayName="Retropie" />
+		<include name="shenmue" displayName="Ryo Hazuki (Shenmue)" />
+		<include name="ryu" displayName="Ryu (Street Fighter 2)" />
+		<include name="sephirot" displayName="Sephirot" />
+		<include name="sonic" displayName="Sonic" />
+		<include name="wonderboy" displayName="Wonderboy" />
+	</subset>
 
 
+	<!--NICKNAMES-->
+	<subset name="system-username" displayName="${theme.username}">
+		<include name="playstation-x" displayName="Playstation-X" />
+		<include name="cheevos" displayName="Retroachievements ID - ${cheevos.username}" />
+		<include name="custom" displayName="${custom.nick} (${custom})" />
+		<include name="batocera" displayName="Batocera" />
+		<include name="batocera-plus" displayName="Batocera Plus" />
+		<include name="cloud" displayName="Cloud Strife" />
+		<include name="emulationstation" displayName="EmulationStation" />
+		<include name="ezio" displayName="Ezio Auditore" />
+		<include name="belmont" displayName="Gabriel Belmont" />
+		<include name="geralt" displayName="Geralt of Rivia" />
+		<include name="guybrush" displayName="Guybrush Threepwood" />
+		<include name="jackelguapo" displayName="Handsome Jack" />
+		<include name="kratos" displayName="Kratos" />
+		<include name="laracroft" displayName="Lara Croft" />
+		<include name="larry" displayName="Larry Laffer" />
+		<include name="linkzelda" displayName="Link (Zelda)" />
+		<include name="megaman" displayName="Mega-Man" />
+		<include name="nathandrake" displayName="Nathan Drake" />
+		<include name="pajarorrojo" displayName="pajarorrojo" />
+		<include name="recalbox" displayName="Recalbox" />
+		<include name="retroarch" displayName="RetroArch" />
+		<include name="retrobat" displayName="Retrobat" />
+		<include name="samus" displayName="Samus Aran" />
+		<include name="sephirot" displayName="Sephirot" />
+		<include name="solidsnake" displayName="Solid Snake" />
+		<include name="sonic" displayName="Sonic the Hedgehog" />
+		<include name="subzero" displayName="Sub Zero" />
+	</subset>
+
+	<!--SETS DE ICONOS-->
+	<subset name="iconset" displayName="${iconset}">
+		<include name="1-PSX">./_theme_options/iconsets/psx.xml</include>
+		<include name="2-PSX-light">./_theme_options/iconsets/psx-light.xml</include>
+		<include name="3-PSX-color">./_theme_options/iconsets/psx-color.xml</include>
+		<include name="4-PSX-color 2">./_theme_options/iconsets/psx-color-2.xml</include>
+		<include name="5-XBOX">./_theme_options/iconsets/xbox.xml</include>
+		<include name="6-SNES">./_theme_options/iconsets/snes.xml</include>
+		<include name="7-ARCADE">./_theme_options/iconsets/arcade.xml</include>
+	</subset>
 
 
-<!--NICKNAMES-->
-<subset name="system-username" displayName="${theme.username}">
- 	<include name="playstation-x" displayName="Playstation-X" />
-	<include name="cheevos" displayName="Retroachievements ID"/>
-	<include name="custom" displayName="${custom}">./custom-username.xml</include>
-	<include name="batocera" displayName="Batocera"/>
-	<include name="batocera-plus" displayName="Batocera Plus"/>
-	<include name="cloud" displayName="Cloud Strife"/>
-	<include name="emulationstation" displayName="EmulationStation"/>
-	<include name="ezio" displayName="Ezio Auditore"/>
-	<include name="belmont" displayName="Gabriel Belmont"/>
-	<include name="geralt" displayName="Geralt of Rivia"/>
-	<include name="guybrush" displayName="Guybrush Threepwood"/>
-	<include name="jackelguapo" displayName="Handsome Jack"/>
-	<include name="kratos" displayName="Kratos"/>
-	<include name="laracroft" displayName="Lara Croft"/>
-	<include name="larry" displayName="Larry Laffer"/>
-	<include name="linkzelda" displayName="Link (Zelda)"/>
-	<include name="megaman" displayName="Mega-Man"/>
-	<include name="nathandrake" displayName="Nathan Drake"/>
-	<include name="pajarorrojo" displayName="pajarorrojo" />
-	<include name="recalbox" displayName="Recalbox"/>
-	<include name="retroarch" displayName="RetroArch"/>
-	<include name="retrobat" displayName="Retrobat"/>
-	<include name="samus" displayName="Samus Aran"/>
-	<include name="sephirot" displayName="Sephirot"/>
-	<include name="solidsnake" displayName="Solid Snake"/>
-	<include name="sonic" displayName="Sonic the Hedgehog"/>
-	<include name="subzero" displayName="Sub Zero"/>
-</subset>  
+	<!--TAMAÑO CARRUSEL-->
+	<subset name="carousel" displayName="${CarouselImageSize}">
+		<include name="big" displayName="${big}">./_theme_options/carousel-sizes/big.xml</include>
+		<include name="medium" displayName="${medium}">./_theme_options/carousel-sizes/medium.xml</include>
+		<include name="small" displayName="${small}">./_theme_options/carousel-sizes/small.xml</include>
+	</subset>
 
-<!--OPCIONES GAMELISTS-->
+	<!--OPCIONES DE VIDEO SISTEMAS-->
+	<subset name="video-system" displayName="${theme.videoBackground}">
+		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
+		<include name="NO" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
+		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
+		<include name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+	</subset>
 
-<!--OPCIONES DE VISTA DETALLADA-->
+	<!--RANDOM VIDEOS ON/OFF-->
+	<subset name="video-system-random" displayName="${theme.videoRandom}" ifSubset="video-system:small-screen|background-option">
+		<include name="enable-ifnospot" displayName="${ifnospot}" />
+		<include name="enable-random" displayName="${always}" />
+		<include name="disable-random" displayName="${never}" />
+	</subset>
 
-<subset name="detailed-origin" displayName="${theme.detailedorigin}" appliesTo="detailed,">
-	<include name="image" displayName="image" />
-	<include name="thumbnail" displayName="thumbnail" />
-	<include name="titleshot" displayName="titleshot"/>
-	<include name="marquee" displayName="marquee" />
-	<include name="boxart" displayName="boxart"/>
-	<include name="fanart" displayName="fanart"/>
-<!-- <include name="boxback" displayName="boxback"/> -->	
-	<include name="cartridge" displayName="cartridge"/>
-</subset>  
-
-<!--OPCIONES DE VISTA CUADRICULA-->
-
-<subset name="grid-main-origin" displayName="${theme.gridMainorigin}" appliesTo="grid">
-	<include name="image" displayName="image" />
-	<include name="thumbnail" displayName="thumbnail" />
-	<include name="titleshot" displayName="titleshot"/>
-	<include name="marquee" displayName="marquee" />
-	<include name="boxart" displayName="boxart"/>
-	<include name="fanart" displayName="fanart"/>
-<!-- <include name="boxback" displayName="boxback"/> -->
-	<include name="cartridge" displayName="cartridge"/>
-</subset>  
+	<!--AUDIO VIDEOS ON/OFF-->
+	<subset name="video-system-audio" displayName="${theme.videoaudio}" ifSubset="video-system:small-screen|background-option">
+		<include name="disable-audio" displayName="${no}" />
+		<include name="enable-audio" displayName="${yes}" />
+	</subset>
 
 
-<subset name="grid-origin" displayName="${theme.gridorigin}" appliesTo="grid">
-	<include name="image" displayName="image"/>
-	<include name="thumbnail" displayName="thumbnail"/>
-	<include name="titleshot" displayName="titleshot"/>
-	<include name="marquee" displayName="marquee"/>
-	<include name="boxart" displayName="boxart"/>
-	<include name="fanart" displayName="fanart"/>
-<!-- <include name="boxback" displayName="boxback"/> no funciona en grilla-->
-	<include name="cartridge" displayName="cartridge"/>
-</subset> 
+	<!--DESCRIPCIONES-->
+	<subset name="system-description" displayName="${theme.system-description}">
+		<include name="NO" displayName="${no}" tinyScreen="true" />
+		<include name="YES" displayName="${yes}">./_theme_options/enable-system-description.xml</include>
+		<include name="NO" displayName="${no}" tinyScreen="false" />
+	</subset>
 
-<!--OPCIONES DE SNAPVIDEO-->
+	<!--CONSOLA Y LOGO VISTA SISTEMAS-->
+	<subset name="system-console" displayName="${theme.systemConsole}">
+		<include name="NO" displayName="${no}" tinyScreen="true" />
+		<include name="YES" displayName="${yes}">./_theme_options/show-logo-consoles-front.xml</include>
+		<include name="NO" displayName="${no}" tinyScreen="false" />
+	</subset>
 
-<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid">
-	<include name="window" displayName="${theme.windowVideoOption}"/>
-	<include name="background" displayName="${theme.backgroundVideoOption}"/>
-	<include name="inside" displayName="${theme.insideVideoOption}"/>
-	<include name="off" displayName="${VideoOff}"/>
-</subset>  
-
-<!--AUDIO VIDEOSNAP ON/OFF-->
-
-<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid" ifSubset="game-video:window|background" >
-	<include name="enabled" displayName="${yes}"/>
-	<include name="disabled" displayName="${no}"/>
-</subset>
-
-<!--OPCIONES DE RETARDO DE VIDEO-->
-<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid" ifSubset="game-video:window|background|inside">
-	<include name="1sec" displayName="1s"/>
-	<include name="2sec" displayName="2s"/>
-	<include name="3sec" displayName="3s"/>
-	<include name="0sec" displayName="0s"/>
-	<include name="05sec" displayName="0.5s"/>
-</subset>
-
-<!--BARRA DE INFO JUEGOS-->
-<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed,grid">
-	<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
-	<include name="NO" displayName="${no}"/>
-</subset>
+	<!--ANIMACIONES DE VISTA SISTEMAS-->
+	<subset name="anim-system" displayName="${theme.animatedSystem}">
+		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
+		<include name="NO" displayName="${no}" />
+		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
+	</subset>
 
 
-<!--ANIMACION DE LISTAS-->
-<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid">
-	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
-	<include name="NO" displayName="${no}"/>
-	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
-</subset>
+	<!--OPCIONES GAMELISTS-->
+
+	<!--OPCIONES DE VISTA DETALLADA-->
+	<subset name="detailed-origin" displayName="${theme.detailedorigin}" appliesTo="detailed,">
+		<include name="image" displayName="image" />
+		<include name="thumbnail" displayName="thumbnail" />
+		<include name="titleshot" displayName="titleshot" />
+		<include name="marquee" displayName="marquee" />
+		<include name="boxart" displayName="boxart" />
+		<include name="fanart" displayName="fanart" />
+		<!-- <include name="boxback" displayName="boxback"/> -->
+		<include name="cartridge" displayName="cartridge" />
+	</subset>
+
+	<!--OPCIONES DE VISTA CUADRICULA-->
+	<subset name="grid-main-origin" displayName="${theme.gridMainorigin}" appliesTo="grid">
+		<include name="image" displayName="image" />
+		<include name="titleshot" displayName="titleshot" />
+		<include name="marquee" displayName="marquee" />
+		<include name="boxart" displayName="boxart" />
+		<include name="fanart" displayName="fanart" />
+		<!-- <include name="boxback" displayName="boxback"/> -->
+		<include name="cartridge" displayName="cartridge" />
+	</subset>
+
+	<subset name="grid-origin" displayName="${theme.gridorigin}" appliesTo="grid">
+		<include name="thumbnail" displayName="thumbnail" tinyScreen="true" />
+		<include name="image" displayName="image" />
+		<include name="thumbnail" displayName="thumbnail" tinyScreen="false" />
+		<include name="titleshot" displayName="titleshot" />
+		<include name="marquee" displayName="marquee" />
+		<include name="boxart" displayName="boxart" />
+		<include name="fanart" displayName="fanart" />
+		<!-- <include name="boxback" displayName="boxback"/> no funciona en grilla-->
+		<include name="cartridge" displayName="cartridge" />
+	</subset>
+
+	<!--OPCIONES DE SNAPVIDEO-->
+	<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid">
+		<include ifNotArch="rpi3,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="off" displayName="${VideoOff}" />
+		<include tinyScreen="true" name="oversize" displayName="${theme.oversizeVideoOption}" />
+		<include name="window" displayName="${theme.windowVideoOption}" />
+		<include name="background" displayName="${theme.backgroundVideoOption}" />
+		<include tinyScreen="false" name="oversize" displayName="${theme.oversizeVideoOption}" />
+		<include name="inside" displayName="${theme.insideVideoOption}" />
+		<include ifArch="rpi3,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="off" displayName="${VideoOff}" />
 
 
+	</subset>
 
-<!--FONDO ANIMADO-->
-<subset name="animated-backg" displayName="${theme.animated-background}" appliesTo="detailed, grid">
-	<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
-	<include name="NO" displayName="${no}"/>
-	<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
-</subset>  
+	<!--AUDIO VIDEOSNAP ON/OFF-->
+	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid" ifSubset="game-video:window|background|oversize">
+		<include name="enabled" displayName="${yes}" />
+		<include name="disabled" displayName="${no}" />
+	</subset>
+
+	<!--OPCIONES DE RETARDO DE VIDEO-->
+	<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid" ifSubset="game-video:window|background|inside|oversize">
+		<include name="05sec" displayName="0.5s" tinyScreen="true" />
+		<include name="1sec" displayName="1s" />
+		<include name="2sec" displayName="2s" />
+		<include name="3sec" displayName="3s" />
+		<include name="0sec" displayName="0s" />
+		<include name="05sec" displayName="0.5s" tinyScreen="false" />
+	</subset>
+
+	<!--BARRA DE INFO JUEGOS-->
+	<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed,grid">
+		<include name="NO" displayName="${no}" tinyScreen="true" />
+		<include name="YES" displayName="${yes}">./_theme_options/info-bar.xml</include>
+		<include name="NO" displayName="${no}" tinyScreen="false" />
+	</subset>
 
 
-<view name="system">
+	<!--ANIMACION DE LISTAS-->
+	<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid">
+		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+		<include name="NO" displayName="${no}" />
+		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+	</subset>
 
-	<!--BACKGROUND MUSIC you can put your favorite music in /_theme_music/ folder-->
-	<sound name="directory">
-		<path>./_theme_music/</path>
-	</sound>
+	<!--FONDO ANIMADO-->
+	<subset name="animated-backg" displayName="${theme.animated-background}" appliesTo="detailed, grid">
+		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+		<include name="NO" displayName="${no}" />
+		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+	</subset>
 
-	<!--VERSION-->
-	<text name="version" extra="true">
-         <text>V.32.2</text>
-         <pos>0.9435 0.951</pos>
-         <color>444444</color>
-         <fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
-	     <fontSize>0.0220</fontSize>
-         <alignment>left</alignment>
-         <zIndex>99</zIndex>        
-	</text>
 
-</view>
+	<view name="system">
 
-  <!--MENUS--> 
+		<!--BACKGROUND MUSIC you can put your favorite music in /_theme_music/ folder-->
+		<sound name="directory">
+			<path>./_theme_music/</path>
+		</sound>
 
-<view name="menu">
+		<!--VERSION-->
+		<text name="version" extra="true">
+			<text>V.33</text>
+			<pos>0.9435 0.951</pos>
+			<color>444444</color>
+			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
+			<fontSize>0.0220</fontSize>
+			<alignment>left</alignment>
+			<zIndex>99</zIndex>
+		</text>
+
+	</view>
+
+	<!--MENUS-->
+	<view name="menu">
 
 		<menuText name="menufooter">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
@@ -291,93 +309,116 @@
 		</menuText>
 
 		<menuText name="menutext">
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.028</fontSize>
+			<fontSize tinyScreen="true">0.038</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.034</fontSize>
+
 			<color>${menuFontcolor}</color>
 			<separatorColor>${menuSeparatorColor}</separatorColor>
 			<selectorColor>${menuSelectorColor}</selectorColor>
 			<selectedColor>${menuSelectedColor}</selectedColor>
 		</menuText>
 
+		<menuGroup name="menugroup">
+			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+			<fontSize tinyScreen="true">0.032</fontSize>
+			<color>${menuGrouptitle}</color>
+			<separatorColor>${menuGroupSeparator}</separatorColor>
+			<backgroundColor>00000000</backgroundColor>
+			<lineSpacing>2</lineSpacing>
+		</menuGroup>
+
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.022</fontSize>
-			<color>${menuTextSmallColor}</color>
+			<fontSize>0.021</fontSize>
+			<fontSize tinyScreen="true">0.025</fontSize>
+
+			<color>ffffff</color>
 		</menuTextSmall>
 
 		<menuText name="menutitle">
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.037</fontSize>
+			<fontSize tinyScreen="true">0.042</fontSize>
 			<color>${menuTitleColor}</color>
 		</menuText>
 
 		<menuBackground name="menubg">
-		    <color>${menubgColor}</color>
-        </menuBackground>
+			<color>${menubgColor}</color>
+		</menuBackground>
 
-	  <menuIcons name="menuicons">
-        <iconKodi>./_theme_inc/menu_icons/Kodi.png</iconKodi>
-        <iconSystem>./_theme_inc/menu_icons/System.png</iconSystem>
-        <iconUpdates>./_theme_inc/menu_icons/Updates.png</iconUpdates>
-        <iconGames>./_theme_inc/menu_icons/Games.png</iconGames>
-        <iconControllers>./_theme_inc/menu_icons/Controllers.png</iconControllers>
-        <iconUI>./_theme_inc/menu_icons/UI.png</iconUI>
-        <iconSound>./_theme_inc/menu_icons/Sound.png</iconSound>
-        <iconNetwork>./_theme_inc/menu_icons/Network.png</iconNetwork>
-        <iconScraper>./_theme_inc/menu_icons/Scraper.png</iconScraper>
-        <iconAdvanced>./_theme_inc/menu_icons/Advanced.png</iconAdvanced>
-        <iconQuit>./_theme_inc/menu_icons/Quit.png</iconQuit>
-        <iconRestart>./_theme_inc/menu_icons/Restart.png</iconRestart>
-        <iconShutdown>./_theme_inc/menu_icons/Shutdown.png</iconShutdown>
-        <iconFastShutdown>./_theme_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
-        <iconRetroachievements>./_theme_inc/menu_icons/Contest.png</iconRetroachievements>
-        <iconManual>./_theme_inc/menu_icons/Manual.png</iconManual>
-	  </menuIcons>
+		<menuIcons name="menuicons">
+			<iconKodi>./_theme_inc/menu_icons/Kodi.png</iconKodi>
+			<iconSystem>./_theme_inc/menu_icons/System.png</iconSystem>
+			<iconUpdates>./_theme_inc/menu_icons/Updates.png</iconUpdates>
+			<iconGames>./_theme_inc/menu_icons/Games.png</iconGames>
+			<iconControllers>./_theme_inc/menu_icons/Controllers.png</iconControllers>
+			<iconUI>./_theme_inc/menu_icons/UI.png</iconUI>
+			<iconSound>./_theme_inc/menu_icons/Sound.png</iconSound>
+			<iconNetwork>./_theme_inc/menu_icons/Network.png</iconNetwork>
+			<iconScraper>./_theme_inc/menu_icons/Scraper.png</iconScraper>
+			<iconAdvanced>./_theme_inc/menu_icons/Advanced.png</iconAdvanced>
+			<iconQuit>./_theme_inc/menu_icons/Quit.png</iconQuit>
+			<iconRestart>./_theme_inc/menu_icons/Restart.png</iconRestart>
+			<iconShutdown>./_theme_inc/menu_icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./_theme_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./_theme_inc/menu_icons/Contest.png</iconRetroachievements>
+			<iconManual>./_theme_inc/menu_icons/Manual.png</iconManual>
+		</menuIcons>
 
-	<menuGroup name="menugroup">
-		<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-		<fontSize>0.026</fontSize>
-		<color>${menuTextSmallColor}</color>
-      	<separatorColor>${menuTextSmallColor}</separatorColor>
-      	<backgroundColor>00000000</backgroundColor>
-      	<lineSpacing>2</lineSpacing>
-    </menuGroup>
-</view> 
 
-<!--BARRA INFERIOR AYUDA BOTONES-->
+	</view>
 
-<view name="system">
-      <helpsystem name="help">
-         <textColor>${helpFontColor}</textColor>
-         <iconColor>${helpIconColor}</iconColor>
-		 <pos>0.08 0.955</pos>
-		 <fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-		 <fontSize>0.028</fontSize>
-      </helpsystem>	
-</view>
+	<!--BARRA INFERIOR AYUDA BOTONES-->
 
-<view name="basic,detailed,grid">
-      <helpsystem name="help">
-         <textColor>${helpFontColor}</textColor>
-         <iconColor>${helpIconColor}</iconColor>
-		 <pos>0.08 0.955</pos>
-		 <fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-		 <fontSize>0.026</fontSize>
-		 <fontSize lang="en">0.027</fontSize>
-		 <fontSize lang="es">0.024</fontSize>
-		 <fontSize lang="fr,it">0.025</fontSize>
-      </helpsystem>	
-</view>
+	<view name="system">
+		<helpsystem name="help">
+			<textColor>${helpFontColor}</textColor>
+			<iconColor>${helpIconColor}</iconColor>
+			<pos>0.09 0.955</pos>
+			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
 
-<include>./_theme_inc/infos/${system.theme}.xml</include>	
-<include>./_theme_views/detailed.xml</include>
-<include>./_theme_views/grid.xml</include>
-<include>./_theme_views/front.xml</include>
-<include>./_theme_views/top-info.xml</include>
-<include>./_theme_options/usernames.xml</include>
-<include>./_theme_options/avatars.xml</include>
-<include>./_theme_options/videosnap-controls.xml</include>
-<include>./_theme_options/image-sources.xml</include>
 
-	
+			<fontSize>0.028</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3">0.0245</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.022</fontSize>
+		</helpsystem>
+	</view>
+
+	<view name="basic,detailed,grid">
+		<helpsystem name="help">
+			<textColor>${helpFontColor}</textColor>
+			<iconColor>${helpIconColor}</iconColor>
+			<pos>0.09 0.955</pos>
+			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.022</fontSize>
+		</helpsystem>
+	</view>
+
+	<view name="screen">
+		<controllerActivity name="controllerActivity" tinyScreen="true">
+			<visible>false</visible>
+		</controllerActivity>
+		<batteryIndicator name="batteryIndicator" tinyScreen="true">
+			<pos>0 0.942</pos>
+			<size>0.055 0.055</size>
+		</batteryIndicator>
+	</view>
+
+
+	<include>./_theme_inc/infos/${system.theme}.xml</include>
+	<include>./_theme_views/detailed.xml</include>
+	<include>./_theme_views/grid.xml</include>
+	<include>./_theme_views/front.xml</include>
+	<include>./_theme_views/top-info.xml</include>
+	<include>./_theme_options/videosnap-controls.xml</include>
+	<include>./_theme_options/image-sources.xml</include>
+	<include tinyScreen="true">./_theme_options/force-gridview.xml</include>
+
 </theme>

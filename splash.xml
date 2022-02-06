@@ -1,115 +1,153 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo-->
 <theme>
-  <formatVersion>7</formatVersion>
+	<formatVersion>7</formatVersion>
 	<include>./theme.xml</include>
-    <include>./_theme_lang/default_en.xml</include>
-  	<include lang="es">./_theme_lang/es.xml</include>
+	<include>./_theme_lang/default_en.xml</include>
+	<include lang="es">./_theme_lang/es.xml</include>
 	<include lang="fr">./_theme_lang/fr.xml</include>
 	<include lang="pt">./_theme_lang/pt.xml</include>
 	<include lang="it">./_theme_lang/it.xml</include>
-     
+
 
 	<view name="splash">
 
-	<image name="background">
-      <linearSmooth>true</linearSmooth>		
-	  <path ifSubset="colorset:blue">./_theme_options/colorsets/blue/background.jpg</path>
-	  <path ifSubset="colorset:black">./_theme_options/colorsets/black/background.jpg</path>
-	</image>
-
-	<text name="region" extra="true">
-	    <origin>0 0</origin>
-         <pos>-0.02 0.945</pos>
-		 <size>1 0.05</size>
-         <color>ffffff</color>
-         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.026</fontSize>
-         <alignment>right</alignment>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
-      </text>
-	<text name="region" extra="true" region="eu">
-	   <text >Region: Europe</text>  
-    </text>	
-	<text name="region" extra="true" region="jp">
-	   <text >Region: Japan</text>  
-    </text>
-	<text name="region" extra="true" region="us">
-	   <text >Region: America</text>  
-    </text>	
-
-	<image name="avatar-frame" extra="true" >
-		<origin>0 0</origin>
-        <pos>0 0</pos>
-        <size>1 1</size>
-	 	<path>./_theme_inc/images/overlay-splash.png</path>
-	  <storyboard>   
-        <animation property="opacity" from="1" to="0.3" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
-      </storyboard>		 
-	</image>
-
-	<text name="welcome" extra="true">
-	   <text >${theme.welcome}</text>
-	    <origin>0 0</origin>
-         <pos>0 0.2</pos>
-		 <size>1 0.05</size>
-         <color>ffffff</color>
-         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.04</fontSize>
-         <alignment>center</alignment>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
-      </text>
+		<image name="background">
+			<linearSmooth>true</linearSmooth>
+			<path ifSubset="colorset:blue">./_theme_options/colorsets/blue/background.jpg</path>
+			<path ifSubset="colorset:black">./_theme_options/colorsets/black/background.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>00</zIndex>
+		</image>
 
 
-	
-	
-	<image name="avatar" extra="true">
-	
-         <pos>0.4375 0.341</pos>
-         <maxSize>0.222 0.222</maxSize>
-		 <backgroundColor>ff000000</backgroundColor>    
-		 <verticalAlignment>middle</verticalAlignment>
-		 <alignment>center</alignment>
-      	 <linearSmooth>true</linearSmooth>		
-         <zIndex>10</zIndex>
-      </image>
+		<text name="region" extra="true">
+			<origin>0 0</origin>
+			<pos>-0.02 0.945</pos>
+			<size>1 0.05</size>
+			<color>ffffff</color>
+			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<fontSize tinyScreen="true">0.031</fontSize>
+
+			<alignment>right</alignment>
+			<glowColor>00000035</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>3 2</glowOffset>
+			<zIndex>60</zIndex>
+			<backgroundColor>ff000000</backgroundColor>
+		</text>
+		<text name="region" extra="true" region="eu">
+			<text>Region: Europe</text>
+		</text>
+		<text name="region" extra="true" region="jp">
+			<text>Region: Japan</text>
+		</text>
+		<text name="region" extra="true" region="us">
+			<text>Region: America</text>
+		</text>
 
 
+		<image name="logo-splash" extra="true">
+			<origin>0 0</origin>
+			<pos>0.03 0.05</pos>
+			<maxSize>0.25 0.25</maxSize>
+			<maxSize ifSubset="aspect-ratio:4-3">0.2 0.2</maxSize>
+			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
+			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
+			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
+			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
+			<linearSmooth>true</linearSmooth>
+		</image>
+
+		<image name="info-ico-ratio" extra="true">
+			<path ifSubset="aspect-ratio:16-9">./_theme_inc/images/16-9.svg</path>
+			<path ifSubset="aspect-ratio:4-3">./_theme_inc/images/4-3.svg</path>
+			<path ifSubset="aspect-ratio:16-10">./_theme_inc/images/16-10.svg</path>
+			<path ifSubset="aspect-ratio:3-2">./_theme_inc/images/3-2.svg</path>
+			<path ifSubset="aspect-ratio:5-3">./_theme_inc/images/5-3.svg</path>
+
+			<origin>0 0</origin>
+			<linearSmooth>true</linearSmooth>
+			<maxSize>0.08 0.08</maxSize>
+			<maxSize tinyScreen="true">0.12 0.12</maxSize>
+			<pos>0.9 0.83</pos>
+			<pos tinyScreen="true">0.87 0.78</pos>
+			<color>ffffff40</color>
+		</image>
+
+		<text name="welcome" extra="true">
+			<text ifSubset="frontend:batocera">${theme.welcome} Batocera</text>
+			<text ifSubset="frontend:retrobat">${theme.welcome} Retrobat</text>
+			<text ifSubset="frontend:batocera-plus">${theme.welcome} Batocera Plus</text>
+			<text ifSubset="frontend:emuelec">${theme.welcome} EmuElec</text>
+			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
+			<origin>0 0</origin>
+			<pos>0 0.2</pos>
+			<size>1 0.05</size>
+			<color>ffffff</color>
+			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3">0.038</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.03</fontSize>
+			<alignment>center</alignment>
+			<glowColor>00000035</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>3 2</glowOffset>
+			<zIndex>60</zIndex>
+			<backgroundColor>ff000000</backgroundColor>
+		</text>
+
+		<image name="avatar" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.341</pos>
+			<maxSize>0.222 0.222</maxSize>
+			<backgroundColor>ff000000</backgroundColor>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="avatarFrame" extra="true">
+			<origin>0.5 0</origin>
+			<path>./_theme_inc/images/frame-splash.png</path>
+			<pos>0.5 0.326</pos>
+			<maxSize>0.255 0.255</maxSize>
+			<verticalAlignment>middle</verticalAlignment>
+			<alignment>center</alignment>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>9</zIndex>
+		</image>
 
 
+		<text name="username" extra="true">
+			<text>${theme.nick}</text>
+			<text ifSubset="system-username:custom">${custom.nick}</text>
+			<pos>0 0.58</pos>
+			<size>1 0.034</size>
+			<color>ffffff</color>
+			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontSize>0.038</fontSize>
+			<alignment>center</alignment>
+			<glowColor>00000035</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>3 2</glowOffset>
+			<zIndex>99</zIndex>
+			<backgroundColor>ff000000</backgroundColor>
+		</text>
 
-      <text name="username" extra="true"><!-- usuario-->
-         <pos>0 0.58</pos>
-		 <size>1 0.034</size>
-         <color>ffffff</color>
-         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.038</fontSize>
-         <alignment>center</alignment>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>99</zIndex>    
-         <backgroundColor>ff000000</backgroundColor>    
-      </text>
- 	
 
 		<text name="label">
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-			<pos>0 0.703</pos>			
+			<pos>0 0.703</pos>
 			<color>${splash.labelColor}</color>
 			<fontSize>0.030</fontSize>
-			 <alignment>center</alignment>
-         	<glowColor>00000035</glowColor>
-         	<glowSize>1</glowSize>
-         	<glowOffset>3 2</glowOffset>
+			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.023</fontSize>
+
+			<alignment>center</alignment>
+			<glowColor>00000035</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>3 2</glowOffset>
 		</text>
 
 		<image name="progressbar">
@@ -129,85 +167,29 @@
 			<color>${splash.progressbarActive}</color>
 		</image>
 
-			  <!-- listado de avatares-->
-		<image name="avatar" extra="true">
-	    	<path ifSubset="system-avatar:custom">./custom-avatar.png</path>	
-	    	<path ifSubset="system-avatar:batocera">./_theme_options/avatars/batocera.png</path>
-	    	<path ifSubset="system-avatar:batocera-plus">./_theme_options/avatars/batocera-plus.png</path>	
-	    	<path ifSubset="system-avatar:bubble">./_theme_options/avatars/bubble.png</path>	
-	    	<path ifSubset="system-avatar:castlevania">./_theme_options/avatars/castlevania.png</path>
-	    	<path ifSubset="system-avatar:claptrap">./_theme_options/avatars/claptrap.png</path>	
-	    	<path ifSubset="system-avatar:cloud">./_theme_options/avatars/cloud.png</path>	
-	    	<path ifSubset="system-avatar:daytentacle">./_theme_options/avatars/daytentacle.png</path>	
-	    	<path ifSubset="system-avatar:daytona">./_theme_options/avatars/daytona.png</path>	
-	    	<path ifSubset="system-avatar:donkey">./_theme_options/avatars/donkey.png</path>	
-	    	<path ifSubset="system-avatar:doubledragon">./_theme_options/avatars/doubledragon.png</path>	
-	    	<path ifSubset="system-avatar:emulationstation">./_theme_options/avatars/emulationstation.png</path>	
-	    	<path ifSubset="system-avatar:ghostgoblins">./_theme_options/avatars/ghostgoblins.png</path>	
-	    	<path ifSubset="system-avatar:goku">./_theme_options/avatars/goku.png</path>	
-	    	<path ifSubset="system-avatar:halo">./_theme_options/avatars/halo.jpg</path>	
-	    	<path ifSubset="system-avatar:he-man">./_theme_options/avatars/he-man.png</path>	
-	    	<path ifSubset="system-avatar:jackelguapo">./_theme_options/avatars/jackelguapo.jpg</path>	
-	    	<path ifSubset="system-avatar:lara">./_theme_options/avatars/lara-croft.png</path>	
-	    	<path ifSubset="system-avatar:larry">./_theme_options/avatars/larry.png</path>	
-	    	<path ifSubset="system-avatar:lemmings">./_theme_options/avatars/lemmings.png</path>	
-	    	<path ifSubset="system-avatar:zelda">./_theme_options/avatars/zelda.png</path>	
-	    	<path ifSubset="system-avatar:mario">./_theme_options/avatars/mario.png</path>	
-	    	<path ifSubset="system-avatar:megaman">./_theme_options/avatars/megaman.png</path>	
-	    	<path ifSubset="system-avatar:metal-gear">./_theme_options/avatars/metal-gear.jpg</path>	
-	    	<path ifSubset="system-avatar:metalslug">./_theme_options/avatars/metalslug.png</path>	
-	    	<path ifSubset="system-avatar:metroid">./_theme_options/avatars/metroid.png</path>	
-	    	<path ifSubset="system-avatar:monkeyisland">./_theme_options/avatars/monkeyisland.png</path>	
-	    	<path ifSubset="system-avatar:outrun">./_theme_options/avatars/outrun.png</path>	
-	    	<path ifSubset="system-avatar:pacman-blinky">./_theme_options/avatars/pacman-blinky.png</path>	
-	    	<path ifSubset="system-avatar:pacman-clyde">./_theme_options/avatars/pacman-clyde.png</path>	
-	    	<path ifSubset="system-avatar:pacman-inky">./_theme_options/avatars/pacman-inky.png</path>	
-	    	<path ifSubset="system-avatar:pacman-pinky">./_theme_options/avatars/pacman-pinky.png</path>	
-	    	<path ifSubset="system-avatar:pacman">./_theme_options/avatars/pacman.png</path>	
-	    	<path ifSubset="system-avatar:pajarorrojo">./_theme_options/avatars/pajarorrojo.png</path>
-	    	<path ifSubset="system-avatar:ps-logo">./_theme_options/avatars/playstation-logo.png</path>	
-	    	<path ifSubset="system-avatar:astrobot">./_theme_options/avatars/astrobot.png</path>	
-	    	<path ifSubset="system-avatar:retroship">./_theme_options/avatars/retroship.png</path>	
- 	    	<path ifSubset="system-avatar:recalbox">./_theme_options/avatars/recalbox.jpg</path>	
-	    	<path ifSubset="system-avatar:retroachievements">./_theme_options/avatars/retroachievements.png</path>	
-	    	<path ifSubset="system-avatar:retrobat">./_theme_options/avatars/retrobat.png</path>	
-	    	<path ifSubset="system-avatar:retropie">./_theme_options/avatars/retropie.png</path>	
-	    	<path ifSubset="system-avatar:shenmue">./_theme_options/avatars/shenmue.png</path>	
-	    	<path ifSubset="system-avatar:ryu">./_theme_options/avatars/ryu.png</path>	
-	    	<path ifSubset="system-avatar:sephirot">./_theme_options/avatars/sephirot.png</path>	
-	    	<path ifSubset="system-avatar:sonic">./_theme_options/avatars/sonic.png</path>	
-	    	<path ifSubset="system-avatar:wonderboy">./_theme_options/avatars/wonderboy.png</path>	
+		<image name="linea-inferior" extra="true">
+			<path>./_theme_inc/images/pixel-blanco.png</path>
+			<pos>0 0.935</pos>
+			<size>1 0.0011</size>
+
+			<size tinyScreen="true">1 0.005</size>
+			<backgroundColor>ff000000</backgroundColor>
+			<verticalAlignment>top</verticalAlignment>
+			<alignment>left</alignment>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>99</zIndex>
 		</image>
 
-		   <!-- listado de usuarios-->
-	   	<text name="username" extra="true"> 
-        	<text ifSubset="system-username:batocera">Batocera</text>
-        	<text ifSubset="system-username:batocera-plus">Batocera Plus</text>
-        	<text ifSubset="system-username:belmont">Gabriel Belmont</text>
-        	<text ifSubset="system-username:cloud">Cloud Strife</text>
-        	<text ifSubset="system-username:emulationstation">EmulationStation</text>
-        	<text ifSubset="system-username:ezio">Ezio Auditore</text>
-        	<text ifSubset="system-username:geralt">Geralt of Rivia</text>
-        	<text ifSubset="system-username:guybrush">Guybrush Threepwood</text>
-        	<text ifSubset="system-username:jackelguapo">Handsome Jack</text>
-        	<text ifSubset="system-username:kratos">Kratos</text>
-        	<text ifSubset="system-username:pajarorrojo">pajarorrojo</text>
-        	<text ifSubset="system-username:playstation-x">Playstation-X</text>
-        	<text ifSubset="system-username:sonic">Sonic the Hedgehog</text>
-        	<text ifSubset="system-username:subzero">Sub Zero</text>
-        	<text ifSubset="system-username:laracroft">Lara Croft</text>
-        	<text ifSubset="system-username:larry">Larry Laffer</text>
-        	<text ifSubset="system-username:linkzelda">Link</text>
-        	<text ifSubset="system-username:megaman">Mega-Man</text>
-        	<text ifSubset="system-username:nathandrake">Nathan Drake</text>
-        	<text ifSubset="system-username:recalbox">Recalbox</text>
-        	<text ifSubset="system-username:retroarch">RetroArch</text>
-        	<text ifSubset="system-username:retrobat">Retrobat</text>
-        	<text ifSubset="system-username:retropie">Retropie</text>
-        	<text ifSubset="system-username:samus">Samus Aran</text>
-        	<text ifSubset="system-username:sephirot">Sephirot</text>
-        	<text ifSubset="system-username:solidsnake">Solid Snake</text>
-      		<text ifSubset="system-username:cheevos">${cheevos.username}</text>
-      	</text> 
-	</view>	
+		<!-- listado de avatares-->
+		<image name="avatar" extra="true">
+			<path>./_theme_options/avatars/${image.avatar}</path>
+			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+
+		</image>
+	</view>
+	<include>./custom-username.xml</include>
+	<include>./_theme_options/usernames.xml</include>
+	<include>./_theme_options/avatars.xml</include>
+
+
 </theme>

@@ -29,23 +29,39 @@ Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and userna
 
 Hope you enjoy! any suggestion is fully welcomed.
 
-Note: For a better user experience with the layouts, is recommended to set instant transition style in UI global settings
+
+### COMPATIBLE WITH MULTIPLE SCREEN ASPECT RATIOS
+
+Theme Compatible with common used aspect ratios including tiny screens (version 33 and later). Dont forget to select your correct display type in theme settings to avoid display issues. 
+
+You can choose between the following options.
+- 4:3 
+- 16:9 
+- 16:10 
+- 3:2
+- 5:3 
 
 ### HOW TO CHANGE CUSTOM AVATAR AND USERNAME?
 
-The 2 files are located in the root folder.
+2 files are located in the root folder.
 
-- For change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
+- To change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
 
-- For change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
+- To change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
 
 - To apply don't forget to set in theme options "Choose a nick -> custom" "Choose your avatar -> custom"
 
 
-### HOW USE YOUR CUSTOM BACKGROUND MUSIC?
+### HOW CAN USE YOUR CUSTOM BACKGROUND MUSIC?
 
-You can put your favorite music files in /_theme_music/ folder
+You can put your favorite music files in /_theme_music/ folder. (.ogg and .mp3 are allowed)
 
+
+### BATOCERA 33 TIP
+
+For "weak" boards is highly recommended to enable the two new preload features added in batocera 33 (even if you don't use playstation-x theme). These two new features will add a little extra time on the first load, but you will feel a great improvement and smoothness of the system interface.
+
+System settings -> developer -> enable both preload options (UI and metadata). 
 
 
 ##### SUPPORTED LANGUAGES
@@ -61,13 +77,24 @@ Any collaboration for translation or new language supported is fully appreciated
 
 
 
+
+
+
 ------------------------------------------------------------------------------------------
 
 
 
 Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
 
-Nota: Para una mejor experiencia en pantalla, es recomendable ajustar a "instantáneo" el estilo de transición en las opciones globales de la interfaz de Batocera.
+
+### COMPATIBLE CON MULTIPLES FORMATOS DE PANTALLA
+
+Desde la versión 33, el tema es compatible con los formatos de pantalla más comunes y para pequeñas pantallas. No olvides seleccionar el tipo de pantalla (relación de aspecto) en la configuración del tema, puedes elegir entre las siguientes opciones.
+- 4:3 Standard
+- 16:9 Widescreen
+- 16:10 
+- 3:2 
+- 5:3 
 
 
 
@@ -86,6 +113,15 @@ Los dos archivos los encontrarás en la carpeta raiz del tema.
 ### ¿COMO USAR TU MÚSICA DE FONDO PERSONALIZADA?
 
 Puedes colocar tus archivos de música favoritos en la carpeta /_theme_music/
+
+
+
+### CONSEJO PARA BATOCERA 33
+
+Es altamente recomendable activar las dos nuevas opciones de precarga añadidas en batocera 33 (Aunque no uses el tema playstation-x). Con estas nuevas opciones activadas el arranque será un poco mas lento, pero notaréis una clara mejora y suavidad en la interfaz del sistema, sobretodo en las placas menos potentes como Rpi, Odroid etc. 
+
+Ajustes del sistema -> desarrollador -> activar ambas opciones de precarga (interfaz y metadatos)
+
 
 
 
@@ -108,8 +144,17 @@ Thanks:
 - Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, always updating and performing. https://github.com/fabricecaruso
 - Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
-- Soaresden, for helping with the French translation https://github.com/soaresden
-- To the entire batocera team and contributors, for making and incredible software and a truly open community
+- Soaresden, for helping with French translation https://github.com/soaresden
+- To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community 
+
+Batocera discord:
+https://discord.gg/mYREusrT
+
+Batocera forum:
+https://forum.batocera.org/
+
+Batocera wiki:
+https://wiki.batocera.org/
 
 
 Notice:

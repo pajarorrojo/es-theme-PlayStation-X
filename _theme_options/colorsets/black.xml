@@ -1,19 +1,19 @@
 ﻿<!-- Theme by pajarorrojo-->
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-  <formatVersion>7</formatVersion>
-  <variables>
+   <formatVersion>7</formatVersion>
+   <variables>
       <menuSelectedColor>ffffff</menuSelectedColor>
       <menuSelectorColor>003791</menuSelectorColor>
-      <menuFontcolor>999999</menuFontcolor>
+      <menuFontcolor>aaaaaa</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
-      <menuTextSmallColor>3CAEFB</menuTextSmallColor>
+      <menuGrouptitle>dddddd</menuGrouptitle>
+      <menuGroupSeparator>dddddd</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>010101</menubgColor>
       <backgroundgrid>ffffff80</backgroundgrid>
       <backgroundgridSelect>F3C300</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
-      <gamelistSelectedColor>0070d1</gamelistSelectedColor>
+      <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
       <gamelistSelectorColor>000000</gamelistSelectorColor>
       <helpFontColor>DFDCDC</helpFontColor>
       <helpIconColor>DFDCDC</helpIconColor>
@@ -28,29 +28,28 @@
       <splash.progressbarActive>003791</splash.progressbarActive>
       <splash.progressbar>ffffff69</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
-  </variables>
+      <sistema.lineainferior>DF0024</sistema.lineainferior>
+      <sistema.pie>000000cf</sistema.pie>
+   </variables>
 
 
-    <view name="system">
-    <image name="background-art" extra="true">
-        <path>./black/background.jpg</path>
-        <path>./../../_theme_inc/images/background/${system.theme}.jpg</path>
-    </image>	
-
-   <image name="background-art" extra="true" region="eu"/>
-    <image name="background-art" extra="true" region="us">
-      <path>./../../_theme_inc/images/background/us/${system.theme}.jpg</path>
-    </image>
-    <image name="background-art" extra="true" region="jp">
-      <path>./../../_theme_inc/images/background/jp/${system.theme}.jpg</path>
-    </image>
-
-
-
+   <view name="system">
       <image name="background" extra="true">
-         <path>./black/overlay.png</path>
+         <path>./black/background.jpg</path>
       </image>
-  </view>
+
+      <image name="background-art" extra="true">
+         <path>./../../_theme_inc/images/background/${system.theme}.jpg</path>
+      </image>
+
+      <image name="background-art" extra="true" region="eu"/>
+      <image name="background-art" extra="true" region="us">
+         <path>./../../_theme_inc/images/background/us/${system.theme}.jpg</path>
+      </image>
+      <image name="background-art" extra="true" region="jp">
+         <path>./../../_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      </image>
+   </view>
 
 
    <view name="basic, detailed">
@@ -62,23 +61,28 @@
          <path>./black/background.jpg</path>
       </image>
    </view>
-    
-    <view name="grid">
+
+   <view name="grid">
 
       <image name="background" extra="true">
          <path>./black/default-grid.png</path>
       </image>
-      
+
       <image name="background-art" extra="true">
          <path>./black/background.jpg</path>
       </image>
-      </view>
+   </view>
 
-  <view name="menu">
-	<menuBackground name="menubg">
-	   <path>./black/fond_menu.png</path> 
-	   <fadePath>./black/fond_menu.png</fadePath>
-    </menuBackground>
-</view> 
+   <view name="menu">
+      <menuBackground name="menubg">
+         <path>./black/fond_menu.png</path>
+         <fadePath>./black/fond_menu_fade.png</fadePath>
+      </menuBackground>
+
+      <menuTextEdit name="menutextedit">
+			<inactive>./../../_theme_inc/images/caja-texto-negra.png</inactive>
+			<active>./../../_theme_inc/images/caja-texto-negra-activa.png</active>
+      </menuTextEdit>
+   </view>
 
 </theme>

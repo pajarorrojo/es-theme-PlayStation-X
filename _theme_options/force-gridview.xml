@@ -1,0 +1,3 @@
+<!-- Theme by pajarorrojo-->
+<!-- force gamelist grid view for tiny low res screens -->
+<theme defaultView="grid"></theme>

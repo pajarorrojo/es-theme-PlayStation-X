@@ -1,36 +1,34 @@
 <!-- Theme by pajarorrojo-->
-<theme> 
-<formatVersion>7</formatVersion> 
-<view name="system, detailed, grid, basic">
-<!-- listado de usuarios, colocar tambien en splash.xml-->
-	   	<text name="username" extra="true"> 
-        	<text ifSubset="system-username:batocera">Batocera</text>
-        	<text ifSubset="system-username:batocera-plus">Batocera Plus</text>
-        	<text ifSubset="system-username:belmont">Gabriel Belmont</text>
-        	<text ifSubset="system-username:cloud">Cloud Strife</text>
-        	<text ifSubset="system-username:emulationstation">EmulationStation</text>
-        	<text ifSubset="system-username:ezio">Ezio Auditore</text>
-        	<text ifSubset="system-username:geralt">Geralt of Rivia</text>
-        	<text ifSubset="system-username:guybrush">Guybrush Threepwood</text>
-        	<text ifSubset="system-username:jackelguapo">Handsome Jack</text>
-        	<text ifSubset="system-username:kratos">Kratos</text>
-        	<text ifSubset="system-username:pajarorrojo">pajarorrojo</text>
-        	<text ifSubset="system-username:playstation-x">Playstation-X</text>
-        	<text ifSubset="system-username:sonic">Sonic the Hedgehog</text>
-        	<text ifSubset="system-username:subzero">Sub Zero</text>
-        	<text ifSubset="system-username:laracroft">Lara Croft</text>
-        	<text ifSubset="system-username:larry">Larry Laffer</text>
-        	<text ifSubset="system-username:linkzelda">Link</text>
-        	<text ifSubset="system-username:megaman">Mega-Man</text>
-        	<text ifSubset="system-username:nathandrake">Nathan Drake</text>
-        	<text ifSubset="system-username:recalbox">Recalbox</text>
-        	<text ifSubset="system-username:retroarch">RetroArch</text>
-        	<text ifSubset="system-username:retrobat">Retrobat</text>
-        	<text ifSubset="system-username:retropie">Retropie</text>
-        	<text ifSubset="system-username:samus">Samus Aran</text>
-        	<text ifSubset="system-username:sephirot">Sephirot</text>
-        	<text ifSubset="system-username:solidsnake">Solid Snake</text>
-      		<text ifSubset="system-username:cheevos">${cheevos.username}</text>
-      	</text>
-   </view> 
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<!-- listado de usuarios-->
+		<theme.nick ifSubset="system-username:batocera">Batocera</theme.nick>
+		<theme.nick ifSubset="system-username:batocera-plus">Batocera Plus</theme.nick>
+		<theme.nick ifSubset="system-username:belmont">Gabriel Belmont</theme.nick>
+		<theme.nick ifSubset="system-username:cloud">Cloud Strife</theme.nick>
+		<theme.nick ifSubset="system-username:emulationstation">EmulationStation</theme.nick>
+		<theme.nick ifSubset="system-username:ezio">Ezio Auditore</theme.nick>
+		<theme.nick ifSubset="system-username:geralt">Geralt of Rivia</theme.nick>
+		<theme.nick ifSubset="system-username:guybrush">Guybrush Threepwood</theme.nick>
+		<theme.nick ifSubset="system-username:jackelguapo">Handsome Jack</theme.nick>
+		<theme.nick ifSubset="system-username:kratos">Kratos</theme.nick>
+		<theme.nick ifSubset="system-username:pajarorrojo">pajarorrojo</theme.nick>
+		<theme.nick ifSubset="system-username:sonic">Sonic the Hedgehog</theme.nick>
+		<theme.nick ifSubset="system-username:subzero">Sub Zero</theme.nick>
+		<theme.nick ifSubset="system-username:laracroft">Lara Croft</theme.nick>
+		<theme.nick ifSubset="system-username:larry">Larry Laffer</theme.nick>
+		<theme.nick ifSubset="system-username:linkzelda">Link</theme.nick>
+		<theme.nick ifSubset="system-username:megaman">Mega-Man</theme.nick>
+		<theme.nick ifSubset="system-username:nathandrake">Nathan Drake</theme.nick>
+		<theme.nick ifSubset="system-username:recalbox">Recalbox</theme.nick>
+		<theme.nick ifSubset="system-username:retroarch">RetroArch</theme.nick>
+		<theme.nick ifSubset="system-username:retrobat">Retrobat</theme.nick>
+		<theme.nick ifSubset="system-username:retropie">Retropie</theme.nick>
+		<theme.nick ifSubset="system-username:samus">Samus Aran</theme.nick>
+		<theme.nick ifSubset="system-username:sephirot">Sephirot</theme.nick>
+		<theme.nick ifSubset="system-username:solidsnake">Solid Snake</theme.nick>
+		<theme.nick ifSubset="system-username:cheevos" >${cheevos.username}</theme.nick>
+		<theme.nick ifSubset="system-username:playstation-x">Playstation-X</theme.nick>
+	</variables>
 </theme>
