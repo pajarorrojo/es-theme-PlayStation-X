@@ -25,7 +25,7 @@ Thanks to "100% jeux video" for sharing the video capture
 
 
 # es-theme-PlayStation-X
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera and RetroBat. 
+Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera and RetroBat.To install, just unzip and copy the content in "/userdata/themes/" or "/share/themes/" folder. Also available via Batocera themes downloader.
 
 Hope you enjoy! any suggestion is fully welcomed.
 
@@ -84,7 +84,11 @@ Any collaboration for translation or new language supported is fully appreciated
 
 
 
-Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. Cualquier sugerencia es bienvenida.
+Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. 
+
+Para instalar, simplemente descomprime y copia el contenido en la carpeta "/userdata/themes/" o "/share/themes/". También está disponible para descargar a través del gestor de temas en el menú de Batocera.
+
+Cualquier sugerencia es bienvenida.
 
 
 ### COMPATIBLE CON MULTIPLES FORMATOS DE PANTALLA
