@@ -140,12 +140,12 @@
          <verticalAlignment>bottom</verticalAlignment>
          <maxSize>0.095 0.1</maxSize>
          <maxSize ifSubset="aspect-ratio:3-2">0.085 0.1</maxSize>
-         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
          <path>./_theme_inc/images/logos/${system.theme}.png</path>
          <path>./_theme_inc/images/logos/${system.theme}.svg</path>
          <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
          <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
          <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
          <path>./_theme_inc/images/consoles/${system.theme}.png</path>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
