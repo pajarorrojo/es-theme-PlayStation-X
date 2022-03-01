@@ -1,0 +1,9 @@
+<!-- Theme by pajarorrojo-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="grid">
+      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail">
+         <autoLayout>5 1</autoLayout>
+      </imagegrid>
+   </view>
+</theme>

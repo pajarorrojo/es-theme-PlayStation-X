@@ -35,14 +35,15 @@
 
       <text name="start" extra="true" ifSubset="carousel:big">
          <size>0.207 0.07</size>
-         <size ifSubset="aspect-ratio:16-9">0.207 0.07</size>
+         <size ifSubset="aspect-ratio:16-9">0.207 0.065</size>
          <size ifSubset="aspect-ratio:4-3">0.278 0.07</size>
          <size ifSubset="aspect-ratio:16-10">0.232 0.071</size>
          <size ifSubset="aspect-ratio:3-2">0.247 0.0621</size>
          <size ifSubset="aspect-ratio:5-3">0.221 0.064</size>
 
          <pos>0.166 0.5</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.5</pos>
+         <pos ifSubset="aspect-ratio:16-9">0.166 0.506</pos>
+         <pos ifSubset="aspect-ratio:16-10">0.166 0.5</pos>
          <pos ifSubset="aspect-ratio:4-3">0.067 0.5</pos>
          <pos ifSubset="aspect-ratio:3-2">0.166 0.507</pos>
          <pos ifSubset="aspect-ratio:5-3">0.166 0.506</pos>

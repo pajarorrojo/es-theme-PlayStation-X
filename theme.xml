@@ -30,9 +30,10 @@
 
 	<!--FRONTEND-->
 	<subset name="frontend" displayName="${theme.frontend}">
+		<include ifArch="windows" name="retrobat" displayName="retrobat" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="true" />
 		<include name="batocera" displayName="batocera" />
-		<include name="retrobat" displayName="retrobat" />
+		<include ifNotArch="windows" name="retrobat" displayName="retrobat" />
 		<include name="batocera-plus" displayName="batocera plus" />
 		<include name="emuelec" displayName="emuelec" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="false" />
@@ -59,11 +60,13 @@
 		<include name="daytona" displayName="Daytona USA Hornet" />
 		<include name="donkey" displayName="Donkey Kong" />
 		<include name="doubledragon" displayName="Double Dragon" />
+		<include name="dragons-lair" displayName="Dragon's Lair" />
 		<include name="emulationstation" displayName="Emulation Station" />
 		<include name="goku" displayName="Goku" />
 		<include name="halo" displayName="Halo" />
 		<include name="he-man" displayName="HE-MAN" />
 		<include name="jackelguapo" displayName="Handsome Jack" />
+		<include name="kingdomhearts" displayName="Kingdom Hearts (Sora)" />
 		<include name="lara" displayName="Lara Croft" />
 		<include name="larry" displayName="Larry Laffer" />
 		<include name="lemmings" displayName="Lemmings" />
@@ -81,6 +84,7 @@
 		<include name="pacman-blinky" displayName="Pac-Man Blinky" />
 		<include name="pacman-pinky" displayName="Pac-Man Pinky" />
 		<include name="pajarorrojo" displayName="pajarorrojo" />
+		<include name="pole-position" displayName="Pole Position" />
 		<include name="ps-logo" displayName="PlayStation Logo" />
 		<include name="astrobot" displayName="PSN Astro Bot" />
 		<include name="retroship" displayName="PSN Retro Ship" />
@@ -92,6 +96,7 @@
 		<include name="ryu" displayName="Ryu (Street Fighter 2)" />
 		<include name="sephirot" displayName="Sephirot" />
 		<include name="sonic" displayName="Sonic" />
+		<include name="superhangon" displayName="Super Hang-On" />
 		<include name="wonderboy" displayName="Wonderboy" />
 	</subset>
 
@@ -288,7 +293,7 @@
 
 		<!--VERSION-->
 		<text name="version" extra="true">
-			<text>V.33</text>
+			<text>V.33.1</text>
 			<pos>0.9435 0.951</pos>
 			<color>444444</color>
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -381,8 +386,6 @@
 			<pos>0.09 0.955</pos>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
-
-
 			<fontSize>0.028</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3">0.0245</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.022</fontSize>
@@ -402,6 +405,11 @@
 	</view>
 
 	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<activityColor>F3C30069</activityColor>
+			<hotkeyColor>FF000069</hotkeyColor>
+		</controllerActivity>
+
 		<controllerActivity name="controllerActivity" tinyScreen="true">
 			<visible>false</visible>
 		</controllerActivity>
@@ -419,6 +427,7 @@
 	<include>./_theme_views/top-info.xml</include>
 	<include>./_theme_options/videosnap-controls.xml</include>
 	<include>./_theme_options/image-sources.xml</include>
+	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
 	<include tinyScreen="true">./_theme_options/force-gridview.xml</include>
 
 </theme>

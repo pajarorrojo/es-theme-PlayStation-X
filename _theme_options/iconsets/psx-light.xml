@@ -1,3 +1,4 @@
+<!-- Theme by pajarorrojo-->
 <theme>
 	<formatVersion>7</formatVersion>
 
@@ -25,8 +26,6 @@
 			<size>0.055</size>
 			<color>FFFFFF90</color>
 			<imagePath>./psx-light/controller.svg</imagePath>
-			<activityColor>003791</activityColor>
-			<hotkeyColor>FF0000</hotkeyColor>
 			<backgroundColor>000000</backgroundColor>
 		</controllerActivity>
 

@@ -1,3 +1,4 @@
+<!-- Theme by pajarorrojo-->
 <theme>
 	<formatVersion>7</formatVersion>
 
@@ -23,8 +24,6 @@
 			<size>0.055</size>
 			<color>FFFFFF90</color>
 			<imagePath>./xbox/controller.svg</imagePath>
-			<activityColor>003791</activityColor>
-			<hotkeyColor>FF0000</hotkeyColor>
 		</controllerActivity>
 
 	</view>

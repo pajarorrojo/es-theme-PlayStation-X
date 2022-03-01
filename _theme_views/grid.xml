@@ -46,6 +46,11 @@
          <autoLayout ifSubset="aspect-ratio:3-2">6 1</autoLayout>
          <autoLayout ifSubset="aspect-ratio:4-3" tinyScreen="true">4 1</autoLayout>
          <autoLayout ifSubset="aspect-ratio:16-9" tinyScreen="true">6 1</autoLayout>
+         <scrollDirection >horizontal</scrollDirection>
+         <centerSelection>true</centerSelection>
+         <scrollLoop>true</scrollLoop>
+
+
       </imagegrid>
 
 
@@ -59,9 +64,9 @@
          <!-- <imageSource ifSubset="grid-origin:boxback">boxback</imageSource> not supported -->
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">5 2</autoLayout>
-         <scrollDirection ifSubset="grid-origin:boxart|thumbnail">horizontal</scrollDirection>
-         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
-         <autoLayoutSelectedZoom>1.04</autoLayoutSelectedZoom>
+         <gameImage >./../_theme_inc/images/no-image-default.png</gameImage>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">1.04</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:boxart|thumbnail">1.31</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
          <size>0.950 0.45</size>
          <size ifSubset="aspect-ratio:4-3">0.964 0.45</size>
@@ -69,7 +74,9 @@
          <pos ifSubset="aspect-ratio:4-3">0.014 0.48</pos>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>60</zIndex>
-         <padding>0.005 0.005</padding>
+         <padding ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">0.005 0.005</padding>
+         <padding ifSubset="grid-origin:boxart|thumbnail">0.008 0.05</padding>
+
          <animateSelection>true</animateSelection>
          <storyboard>
             <animation property="y" from="1" duration="400" mode="easeOutCubic"/>
@@ -86,17 +93,17 @@
          <selectionMode ifSubset="grid-origin:boxart|thumbnail">image</selectionMode>
          <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">00000000</backgroundEdgeColor>
          <backgroundCornerSize>0 0</backgroundCornerSize>
-         <imageColor>ffffffc9</imageColor>
+         <imageColor>ffffffaa</imageColor>
       </gridtile>
 
 
       <gridtile name="selected">
          <padding>3</padding>
          <padding ifSubset="aspect-ratio:4-3">1</padding>
-         <imageColor>ffffffff</imageColor>
+         <imageColor>ffffff</imageColor>
          <backgroundCornerSize>0</backgroundCornerSize>
          <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
-         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">${backgroundgridSelect}21</backgroundEdgeColor>
+         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">${backgroundgridSelect}00</backgroundEdgeColor>
 
       </gridtile>
 
@@ -131,7 +138,7 @@
          <color>Ffffff</color>
       </image>
 
-      <ninepatch name="gridtile.background:selected">
+      <ninepatch name="gridtile.background:selected" ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">
          <animateColor>${backgroundgrid}</animateColor>
          <animateColorTime>500</animateColorTime>
       </ninepatch>

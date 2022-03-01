@@ -3,7 +3,7 @@
    <formatVersion>7</formatVersion>
    <variables>
       <menuSelectedColor>ffffff</menuSelectedColor>
-      <menuSelectorColor>003791</menuSelectorColor>
+      <menuSelectorColor>666666</menuSelectorColor>
       <menuFontcolor>aaaaaa</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
       <menuGrouptitle>dddddd</menuGrouptitle>
@@ -25,7 +25,7 @@
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
-      <splash.progressbarActive>003791</splash.progressbarActive>
+      <splash.progressbarActive>111111</splash.progressbarActive>
       <splash.progressbar>ffffff69</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
       <sistema.lineainferior>DF0024</sistema.lineainferior>

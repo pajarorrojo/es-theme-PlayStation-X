@@ -17,7 +17,6 @@
          <pos ifSubset="aspect-ratio:3-2|16-10|5-3">0.936 0.043</pos>
          <pos ifSubset="aspect-ratio:4-3">0.916 0.043</pos>
          <color>ffffff</color>
-         <zIndex>20</zIndex>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -286,7 +285,7 @@
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>
+         <zIndex>99</zIndex>
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
@@ -340,7 +339,7 @@
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>
+         <zIndex>99</zIndex>
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
@@ -388,7 +387,7 @@
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <zIndex>60</zIndex>
+         <zIndex>99</zIndex>
          <backgroundColor>ff000000</backgroundColor>
       </text>
 

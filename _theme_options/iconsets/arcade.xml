@@ -24,8 +24,6 @@
 			<size>0.045</size>
 			<color>FFFFFF90</color>
 			<imagePath>./arcade/controller.svg</imagePath>
-			<activityColor>003791</activityColor>
-			<hotkeyColor>FF0000</hotkeyColor>
 		</controllerActivity>
 
 	</view>

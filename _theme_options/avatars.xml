@@ -13,12 +13,14 @@
 		<image.avatar ifSubset="system-avatar:daytona">daytona.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:donkey">donkey.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:doubledragon">doubledragon.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:dragons-lair">dragons-lair.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:emulationstation">emulationstation.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:ghostgoblins">ghostgoblins.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:goku">goku.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:halo">halo.jpg</image.avatar>
 		<image.avatar ifSubset="system-avatar:he-man">he-man.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:jackelguapo">jackelguapo.jpg</image.avatar>
+		<image.avatar ifSubset="system-avatar:kingdomhearts">kingdom-hearts.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:lara">lara-croft.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:larry">larry.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:lemmings">lemmings.png</image.avatar>
@@ -36,6 +38,7 @@
 		<image.avatar ifSubset="system-avatar:pacman-pinky">pacman-pinky.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pacman">pacman.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pajarorrojo">pajarorrojo.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:pole-position">pole-position.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:ps-logo">playstation-logo.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:astrobot">astrobot.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:retroship">retroship.png</image.avatar>
@@ -47,6 +50,7 @@
 		<image.avatar ifSubset="system-avatar:ryu">ryu.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:sephirot">sephirot.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:sonic">sonic.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:superhangon">super-hang-on.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:wonderboy">wonderboy.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:batocera">batocera.png</image.avatar>
 
