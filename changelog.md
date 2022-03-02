@@ -5,7 +5,7 @@ Version 33.1 (02/03/2022)
 - UX/UI: Minor changes and improvements in graphics and layouts in general
 - UX/UI: Some grid view changes for thumbnail and boxart modes: Centered game selected, zoomed in and color highlight removed
 - UX/UI: New autolayouts in grid view and thumbnail/boxart mode for some systems 
-- Options Changes: Set retrobat option as default in "Favorite Frontend" subiste if Retrobat software detected
+- Options Changes: Set retrobat option as default in "Favorite Frontend" subset if Retrobat software detected
 - Added: Kingdom Hearts (Sora), Pole Position, Dragon's Lair and Super Hang-On (bike) preset avatars
 
 
