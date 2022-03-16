@@ -76,7 +76,6 @@
          <zIndex>60</zIndex>
          <padding ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">0.005 0.005</padding>
          <padding ifSubset="grid-origin:boxart|thumbnail">0.008 0.05</padding>
-
          <animateSelection>true</animateSelection>
          <storyboard>
             <animation property="y" from="1" duration="400" mode="easeOutCubic"/>

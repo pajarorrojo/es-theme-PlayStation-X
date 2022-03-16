@@ -67,4 +67,36 @@
 
   </view>
 
+  <view name="basic,detailed,grid">
+
+    <image name="caratula-overlay" extra="true">
+      <origin>0.2 0.2</origin>
+      <pos>0.2 0.2</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>9999</zIndex>
+      <opacity>0</opacity>
+      <storyboard>
+        <animation property="opacity" from="0.5" to="0" duration="800" mode="easeOutCubic"/>
+        <animation property="scale" from="1" to="2" duration="600" mode="easeOut"/>
+
+      </storyboard>
+   </image>
+  
+   <image name="caratula-overlay">
+    <path>./_theme_inc/images/caratulas/default.png</path>
+    <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
+    <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+    <linearSmooth>true</linearSmooth>
+  </image>
+  
+  <image name="caratula-overlay" extra="true" region="us">
+    <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
+  </image>
+  
+  <image name="caratula-overlay" extra="true" region="jp">
+    <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+  </image>
+  </view>
+
 </theme>

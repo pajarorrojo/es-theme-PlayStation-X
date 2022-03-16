@@ -127,10 +127,58 @@
             <animation property="opacity" from="1" to="0" begin="14000" duration="350" mode="easeOut" />
          </storyboard>
       </text>
+
+      <image name="trophy-picto" extra="true">
+         <path>./_theme_inc/images/trophy-picto.svg</path>
+         <pos>0.827 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
+         <maxSize>0.044</maxSize>
+         <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
+         <color>ffffff</color>
+         <color ifCheevos="true">F3C300d1</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
    </view>
 
 
    <view name="detailed, basic, grid">
+
+      <image name="trophy-picto" extra="true" ifCheevos="false">
+         <path>./_theme_inc/images/trophy-picto.svg</path>
+         <pos>0.827 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
+         <maxSize>0.044</maxSize>
+         <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="md_cheevos,md_notcheevos" ifCheevos="true">
+         <path>./_theme_inc/images/trophy-picto.svg</path>
+         <pos>0.827 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
+         <maxSize>0.044</maxSize>
+         <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
+         <color>F3C300d1</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+         <origin>0 0</origin>
+		</image>
+
+		<image name="md_notcheevos">
+			<color>ffffff</color>
+		</image>
 
       <image name="consoles" extra="true">
          <pos>0.02 0.02</pos>
@@ -144,8 +192,10 @@
          <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
          <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
          <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
          <path>./_theme_inc/images/consoles/${system.theme}.png</path>
+         <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
+         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
@@ -157,13 +207,18 @@
       <image name="consoles" extra="true" tinyScreen="true">
          <visible>false</visible>
       </image>
-
+      
       <image name="consoles" extra="true" region="eu"/>
       <image name="consoles" extra="true" region="us">
          <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
+         <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
+         <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
       </image>
       <image name="consoles" extra="true" region="jp">
          <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
+         <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
+         <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+
       </image>
 
       <text name="md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime">
@@ -345,20 +400,7 @@
 
 
 
-      <image name="trophy-picto" extra="true">
-         <path>./_theme_inc/images/trophy-picto.svg</path>
-         <pos>0.827 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
-         <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
-         <maxSize>0.044</maxSize>
-         <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
-         <color>ffffff</color>
-         <color ifCheevos="true">F3C300d1</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
-      </image>
+
 
       <image name="star-picto" extra="true">
          <path>./_theme_inc/images/star-picto.png</path>

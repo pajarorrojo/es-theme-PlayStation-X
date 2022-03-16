@@ -52,16 +52,20 @@
 		<include name="custom" displayName="${custom}" />
 		<include name="castlevania" displayName="Alucard (Castlevania)" />
 		<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)" />
+		<include name="barbarian" displayName="Barbarian (CPC)" />
+		<include name="bart-simpson" displayName="Bart Simpson (Arcade)" />
 		<include name="batocera-plus" displayName="Batocera Plus" />
 		<include name="bubble" displayName="Bubble Bobble" />
 		<include name="claptrap" displayName="Claptrap (Borderlands)" />
 		<include name="cloud" displayName="Cloud Strife" />
+		<include name="crashbandicoot" displayName="Crash Bandicoot" />
 		<include name="daytentacle" displayName="Day of the Tentacle" />
 		<include name="daytona" displayName="Daytona USA Hornet" />
 		<include name="donkey" displayName="Donkey Kong" />
 		<include name="doubledragon" displayName="Double Dragon" />
 		<include name="dragons-lair" displayName="Dragon's Lair" />
 		<include name="emulationstation" displayName="Emulation Station" />
+		<include name="fatalfury" displayName="Fatal Fury (Terry)" />
 		<include name="goku" displayName="Goku" />
 		<include name="halo" displayName="Halo" />
 		<include name="he-man" displayName="HE-MAN" />
@@ -293,7 +297,7 @@
 
 		<!--VERSION-->
 		<text name="version" extra="true">
-			<text>V.33.1</text>
+			<text>V.33.2</text>
 			<pos>0.9435 0.951</pos>
 			<color>444444</color>
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>

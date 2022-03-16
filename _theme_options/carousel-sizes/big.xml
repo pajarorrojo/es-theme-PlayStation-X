@@ -61,8 +61,8 @@
       </text>
 
       <text name="fullName" extra="true" ifSubset="carousel:big">
-         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
-         <text>${system.name}</text> -->
+         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA -->
+         <text>${system.name}</text>
          <pos>0.166 0.135</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.135</pos>
          <pos ifSubset="aspect-ratio:4-3">0.067 0.135</pos>
