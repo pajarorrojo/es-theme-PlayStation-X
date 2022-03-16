@@ -40,7 +40,7 @@
 
 
       <image name="plus-picto" extra="true">
-         <path>./_theme_inc/images/plus-picto.png</path>
+         <path>./_theme_inc/images/plus-picto-bato.svg</path>
          <pos>0.086 0.045</pos>
          <pos ifSubset="frontend:no-frontend">0.02 0.045</pos>
          <maxSize>0.050</maxSize>
@@ -207,7 +207,7 @@
       <image name="consoles" extra="true" tinyScreen="true">
          <visible>false</visible>
       </image>
-      
+
       <image name="consoles" extra="true" region="eu"/>
       <image name="consoles" extra="true" region="us">
          <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
