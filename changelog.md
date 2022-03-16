@@ -7,7 +7,7 @@ Version 33.2 (16/03/2022)
 - Added: New zoom animation for logo carousel when entering to a gamelist. Only works when "Animated transitions in systems view" are enabled in theme options.
 - Changes: The systems carousel logo has been placed in the gamelist upper left corner by default, if there is no carousel logo it shows another type of media, such as the logo or the console
 - Added: Bart Simpson (Arcade), Barbarian (CPC), Fatal Fury (Terry) and Crash Bandicoot preset avatars
-- Changed the yellow plus logo, for a new svg logo with four letters "BATO" replacing the official playstation icons
+- Changed the yellow plus logo for a new svg logo with four letters "BATO" replacing the official playstation icons
 
 -----------------------
 Version 33.1 (02/03/2022)
