@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
   <formatVersion>7</formatVersion>
 
@@ -7,61 +9,68 @@
     <carousel name="systemcarousel">
       <transitionSpeed>350</transitionSpeed>
     </carousel>
+
+    <image name="logo">
+      <storyboard>
+        <animation property="y" from="0.25" duration="300" mode="easeOutCubic" />
+
+      </storyboard>
+    </image>
     <image name="background-art" extra="true">
       <storyboard>
-        <animation property="opacity" from="0.4" to="1.0" duration="500" mode="easeOut"/>
-        <animation property="scale" from="1" to="1.1" duration="30000" mode="easeOut" autoreverse="true"/>
+        <animation property="opacity" from="0.4" to="1.0" duration="600" mode="easeOut" />
+        <animation property="scale" from="1" to="1.15" duration="25000" mode="easeOut"/>
       </storyboard>
     </image>
 
 
-    <image name="marco-activo" extra="true">
+    <image name="marco-activo" extra="static">
       <storyboard>
-        <animation property="scale" from="0.94" to="1"  duration="300" mode="bump" />
-        <animation property="offsetX" to="-0.003"  duration="150" mode="ease" autoreverse="true" />
-        <animation property="offsetY" to="-0.008"  duration="150" mode="ease" autoreverse="true" />
-        <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut"/>
-        <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever"/>
+        <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
+        <animation property="offsetX" to="-0.003" duration="150" mode="ease" autoreverse="true" />
+        <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+        <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
+        <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
       </storyboard>
     </image>
 
     <text name="start" extra="true">
       <storyboard>
-        <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="500" mode="easeIn" />
       </storyboard>
     </text>
 
     <text name="system_name" extra="true">
       <storyboard>
-        <animation property="h" from="0.2" duration="350" mode="easeOutCubic"/>
-        <animation property="opacity" from="0" to="1" duration="500" mode="linear"/>
+        <animation property="h" from="0.2" duration="350" mode="easeOutCubic" />
+        <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
       </storyboard>
     </text>
 
     <text name="system_description" extra="true">
       <storyboard>
-        <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-        <animation property="opacity" from="0" to="1" begin="500" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="0" duration="1" mode="linear" />
+        <animation property="opacity" from="0" to="1" begin="500" duration="350" mode="easeOut" />
       </storyboard>
     </text>
 
     <image name="logo2" extra="true">
       <storyboard>
-        <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump"/>
+        <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
       <reflexion>240</reflexion>
     </image>
 
     <image name="consoles" extra="true">
       <storyboard>
-        <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump"/>
+        <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
     </image>
 
-    <image name="border-video" extra="true">
+    <image name="border-video" extra="static">
       <storyboard>
-        <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-        <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="0" duration="1" mode="linear" />
+        <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn" />
       </storyboard>
     </image>
 
@@ -70,33 +79,49 @@
   <view name="basic,detailed,grid">
 
     <image name="caratula-overlay" extra="true">
-      <origin>0.2 0.2</origin>
-      <pos>0.2 0.2</pos>
-      <maxSize>0.25 0.25</maxSize>
+      <origin>0 0</origin>
+      <pos ifSubset="carousel:big">0.166 0.136</pos>
+      <pos ifSubset="carousel:medium">0.164 0.136</pos>
+      <pos ifSubset="carousel:small">0.165 0.134</pos>
+
+      <pos ifSubset="aspect-ratio:4-3,carousel:big">0.068 0.136</pos>
+      <pos ifSubset="aspect-ratio:4-3,carousel:medium|small">0.066 0.136</pos>
+
+
+      <maxSize ifSubset="carousel:big">0.3685</maxSize>
+      <maxSize ifSubset="carousel:medium">0.2876</maxSize>
+      <maxSize ifSubset="carousel:small">0.247</maxSize>
+
+      <alignment>left</alignment>
+
       <linearSmooth>true</linearSmooth>
       <zIndex>9999</zIndex>
-      <opacity>0</opacity>
-      <storyboard>
-        <animation property="opacity" from="0.5" to="0" duration="800" mode="easeOutCubic"/>
-        <animation property="scale" from="1" to="2" duration="600" mode="easeOut"/>
+      <opacity>1</opacity>
 
+      <storyboard>
+       <animation property="opacity" to="0.5" duration="400" mode="easeIn" />
+        <animation property="scale" begin="200" from="1" to="2" duration="400" mode="easeInCubic" />
+        <animation property="y" to="0.12" begin="200" duration="400" mode="easeInCubic" />
+        <animation property="x" to="0.29" begin="200" duration="400" mode="easeInCubic" />
+        <animation property="opacity" to="0" begin="520" duration="300" mode="linear" />
       </storyboard>
-   </image>
-  
-   <image name="caratula-overlay">
-    <path>./_theme_inc/images/caratulas/default.png</path>
-    <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
-    <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
-    <linearSmooth>true</linearSmooth>
-  </image>
-  
-  <image name="caratula-overlay" extra="true" region="us">
-    <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
-  </image>
-  
-  <image name="caratula-overlay" extra="true" region="jp">
-    <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
-  </image>
+
+    </image>
+
+    <image name="caratula-overlay">
+      <path>./_theme_inc/images/caratulas/default.png</path>
+      <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
+      <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+      <linearSmooth>true</linearSmooth>
+    </image>
+
+    <image name="caratula-overlay" extra="true" region="us">
+      <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
+    </image>
+
+    <image name="caratula-overlay" extra="true" region="jp">
+      <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+    </image>
   </view>
 
 </theme>

@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>PS minis for the PSP, are games available to download from the PlayStation Store. Many of them are also compatible with the PlayStation 3 (PS3), PlayStation Vita (PSVita) and PlayStation TV (PSTV) as indicated. </text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>PS minis para PSP, son juegos disponibles para descargar desde PlayStation Store. Muchos de ellos también son compatibles con PlayStation 3 (PS3), PlayStation Vita (PSVita) y PlayStation TV (PSTV) como se indica.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>PS minis pour PSP sont des jeux téléchargeables sur le PlayStation Store. Beaucoup d'entre eux sont également compatibles avec la PlayStation 3 (PS3), la PlayStation Vita (PSVita) et la PlayStation TV (PSTV) comme indiqué.</text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text>PS minis para o PSP, são jogos disponíveis para download na PlayStation Store. Muitos deles também são compatíveis com o PlayStation 3 (PS3), PlayStation Vita (PSVita) e PlayStation TV (PSTV), conforme indicado.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>PlayStation minis</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,27 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>The Arcadia 2001 is a second-generation 8-bit home video game console released by Emerson Radio in May 1982 for a price of US$ 99, several months before the release of ColecoVision. It was discontinued only 18 months later, with a total of 35 games having been released. Emerson licensed the Arcadia 2001 to Bandai, which released it in Japan. Over 30 Arcadia 2001 clones exist.
+
+The unrelated Arcadia Corporation, manufacturer of the Atari 2600 Supercharger add-on, was sued by Emerson for trademark infringement. Arcadia Corporation then changed its name to Starpath. </text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>Arcadia 2001 es una consola de 8 bits de segunda generación lanzada por Emerson Radio en 1982 tras el lanzamiento de ColecoVision. Fue retirada solo 18 meses después, habiéndose lanzado un total de 35 juegos. Emerson licenció el Arcadia 2001 a Bandai, que lo lanzó en Japón. Existen más de 30 clones de Arcadia 2001.
+
+Una empresa no relacionada con Arcadia Corporation, fabricante del complemento Atari 2600 Supercharger fue demandada por Emerson por infracción de marca registrada. Arcadia Corporation luego cambió su nombre a Starpath. </text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Arcadia 2001</text>
+		</text>
+	</view>
+</theme>

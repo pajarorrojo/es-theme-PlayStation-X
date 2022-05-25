@@ -1,9 +1,24 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+			<text name="system_description" extra="true" >
+				<text>Auto gamelist.
+
+Simple game that does not require great skill or great dedication on the part of the player.
+				</text>
+			</text>
+			
+	
+	
+		<text name="system_description" extra="true" lang="es">
+			<text>Lista de juegos automática.
+
+Juego sencillo, que no requiere de gran habilidad ni de gran dedicación por parte del jugador.
+			</text>
 		</text>
 
 		<text name="system_name" extra="true">

@@ -1,0 +1,38 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+	
+		
+				<text name="system_description" extra="true" >
+			<text>Is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</text>
+		</text>
+				
+				<text name="system_description" lang="es" >
+			<text>La Super Nintendo Entertainment System, conocida popularmente como la Super Nintendo en Europa, Super Famicom en Japón y también nombrada oficialmente de forma abreviada como la Super NES o SNES en América.
+
+Segunda videoconsola de sobremesa de Nintendo y la sucesora de Nintendo Entertainment System (NES) en América y Europa. Mantuvo una gran rivalidad en todo el mundo con la Sega Mega Drive (o Sega Genesis) durante la era de 16 bits.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Super Nintendo Entertainment System, ou Super Famicom (スーパーファミコン?) au Japon, est une console de jeux vidéo 16 bits du constructeur japonais Nintendo commercialisée à partir de août 1991.</text>
+		</text>
+
+			<text name="system_description" extra="true" lang="pt">
+			<text>O SNES é o segundo home console da Nintendo. O console apresentou gráficos avançados e recursos de som em comparação com outros consoles na época. Considerado um dos melhores consoles da história.</text>
+		</text>
+
+		
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Super Nintendo Mini</text>
+		</text>
+
+		</view>
+</theme>

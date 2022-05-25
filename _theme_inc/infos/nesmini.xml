@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>NES Classic Edition is a dedicated home video game console by Nintendo, which emulates the Nintendo Entertainment System (NES). It launched on November 10, 2016 in Australia and Japan, and November 11, 2016 in North America and Europe. Aesthetically, the console is a miniature replica of the NES, and it includes a static library of 30 built-in games from the licensed NES library, supporting save states for all of them.</text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>NES Classic Edition es una consola de videojuegos doméstica dedicada de Nintendo, que emula el Nintendo Entertainment System (NES). Se lanzó el 10 de noviembre de 2016 en Australia y Japón, y el 11 de noviembre de 2016 en América del Norte y Europa. Estéticamente, la consola es una réplica en miniatura de la NES e incluye una biblioteca estática de 30 juegos integrados de la biblioteca NES con licencia, que admiten estados de guardado para todos ellos.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>NES Classic Edition est une console de jeu vidéo domestique dédiée de Nintendo, qui émule la Nintendo Entertainment System (NES). Il a été lancé le 10 novembre 2016 en Australie et au Japon, et le 11 novembre 2016 en Amérique du Nord et en Europe. Esthétiquement, la console est une réplique miniature de la NES, et elle comprend une bibliothèque statique de 30 jeux intégrés de la bibliothèque NES sous licence, prenant en charge les états de sauvegarde pour chacun d'eux.</text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text>NES Classic Edition é um console de videogame doméstico dedicado da Nintendo, que emula o Nintendo Entertainment System (NES). Foi lançado em 10 de novembro de 2016 na Austrália e no Japão e em 11 de novembro de 2016 na América do Norte e Europa. Esteticamente, o console é uma réplica em miniatura do NES e inclui uma biblioteca estática de 30 jogos integrados da biblioteca NES licenciada, suportando estados de salvamento para todos eles</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>NES Classic Edition</text>
+		</text>
+	</view>
+</theme>

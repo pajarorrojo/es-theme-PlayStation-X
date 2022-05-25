@@ -1,10 +1,25 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+Shooter video games or shooters are a subgenre of action video games where the focus is almost entirely on the defeat of the character's enemies using the weapons given to the player.
+			</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Género de acción donde el principal objetivo es disparar y matar enemigos, generalmente con armas de fuego. Aunque existen multitud de subgéneros, se divide principalmente en dos grupos, según la perspectiva que tengamos de nuestro personaje: en 1ª persona (o FPS) y en 3ª persona (o TPS).
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Shooter</text>

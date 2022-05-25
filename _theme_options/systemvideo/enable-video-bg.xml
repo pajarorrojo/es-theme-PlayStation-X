@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
       <formatVersion>7</formatVersion>
       <view name="system">
@@ -14,6 +16,19 @@
                   <zIndex>41</zIndex>
                   <audio ifSubset="video-system-audio:disable-audio">false</audio>
             </video>
+<!--
+            <image name="overlay-video" extra="true" ifSubset="system-description:yes">
+                  <path>./_theme_inc/images/pixel-blanco.png</path>
+                  <pos>0 0</pos>
+                  <size>1 1</size>
+                  <color>000000</color>
+                  <opacity>0</opacity>
+                  <zIndex>42</zIndex>
+                  <storyboard>
+                        <animation property="opacity" to="0.5" begin="1500" duration="500" mode="easeInOut" />
+                  </storyboard>
+            </image>
+      -->
 
             <text name="system_description" extra="true" ifSubset="carousel:small">
                   <pos>0.163 0.46</pos>
@@ -24,10 +39,10 @@
                   <size ifSubset="aspect-ratio:4-3">0.7 0.27</size>
 
                   <fontSize>0.026</fontSize>
-             </text>
+            </text>
 
-             <text name="system_description" extra="true" ifSubset="carousel:medium">
-                  <pos >0.163 0.51</pos>
+            <text name="system_description" extra="true" ifSubset="carousel:medium">
+                  <pos>0.163 0.51</pos>
                   <pos ifSubset="aspect-ratio:4-3">0.063 0.5</pos>
                   <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.51</pos>
                   <size>0.6 0.4</size>
@@ -47,12 +62,6 @@
                   <fontSize>0.026</fontSize>
                   <backgroundColor>ff000000</backgroundColor>
             </text>
-
-
-
-
-
-            
 
 
       </view>

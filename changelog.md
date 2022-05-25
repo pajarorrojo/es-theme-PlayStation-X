@@ -1,3 +1,35 @@
+Version 34 (25/05/2022)
+
+
+- UX/UI: New theme option: Secondary color scheme for selectors and some theme layout's details. Colors available:
+ - Red
+ - Green
+ - Yellow
+ - Blue
+ - Black
+ - Purple
+ - Orange
+ - Pink
+- UX/UI: New carousel system animation (from bottom to top) when opening 
+- UX/UI: Improved the logo zoom animation when entering a game list
+- UX/UI: New game selector in detailed gamelist with upper and bottom color lines, more clear 
+- UX/UI: Improved detailed gamelist layout and placed info bar icons at the bottom of the screen
+- UX/UI: Added new colorful logos, icons, descriptions, backgrounds and/or media for the automatic collections by genre
+- UX/UI: Added fanart random game image as default background image in the system view if there are no images predefined by the theme
+- UX/UI: Added random "marquee" images as logo or system console images in the system view if there are no images predefined by the theme
+- UX/UI: Added title system predefined tag as default when no title are provided by theme
+- UX/UI: Added default system logo in gamelist upper left corner if there are no logo predefined by the theme
+- UX/UI: New media and infos have been added in a lot of new systems compatible with Batocera 34
+- Layout: Improved Retrobat logo for splash screen and top line
+- Fix: Issue with an overflow of battery tag percentages when more than one controller is connected
+- Fix: Issue with a double video show by error in grid view and mode "Video inside the tile" selected.
+- Fix: an issue with misplaced "start" tag on medium carousel and 4:3 aspect ratio selected
+- Performance: Improvements to system view animations and game list animations in general
+- Added: Media for Compatible systems with Batocera plus have been added, such as internet or linux
+- Added: Strider, Nanaki (FFVII), Rastan, Willow (Arcade), Mazinger Z, Robocop (Arcade),Rolling Thunder, Super Pang, Guy (Final Fight) and Q-Bert preset avatars 
+
+
+-----------------------
 Version 33.2 (16/03/2022)
 
 
@@ -8,6 +40,7 @@ Version 33.2 (16/03/2022)
 - Changes: The systems carousel logo has been placed in the gamelist upper left corner by default, if there is no carousel logo it shows another type of media, such as the logo or the console
 - Added: Bart Simpson (Arcade), Barbarian (CPC), Fatal Fury (Terry) and Crash Bandicoot preset avatars
 - Changed the yellow plus logo for a new svg logo with four letters "BATO" replacing the official playstation icons
+
 
 -----------------------
 Version 33.1 (02/03/2022)

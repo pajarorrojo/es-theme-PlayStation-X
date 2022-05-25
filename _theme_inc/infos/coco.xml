@@ -1,30 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-	    
 
-		<text name="system_description" extra="true" >
-			<text></text>
+
+		<text name="system_description" extra="true">
+			<text>The RadioShack TRS-80 Color Computer, later marketed as the Tandy Color Computer and sometimes nicknamed the CoCo, is a line of home computers developed and sold by Tandy Corporation.
+
+The Tandy Color Computer line started in 1980 with what is now called the Color Computer 1.
+			</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
-
-		
 		<text name="system_description" extra="true" lang="es">
-			<text></text>
+			<text>RadioShack TRS-80 Color Computer, más tarde comercializado como Tandy Color Computer y apodado CoCo, fue una línea de ordenadores para el hogar desarrollada por Tandy Corporation.
+
+La línea Tandy Color Computer comenzó en 1980 con el que ahora conocemos como el Color Computer 1.</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
 
 		<text name="system_name" extra="true">
-			<text>Tandy Colour Computer</text>
+			<text>Tandy Color Computer</text>
 		</text>
 	</view>
 </theme>

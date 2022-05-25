@@ -1,0 +1,27 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+
+		<text name="system_description" extra="true">
+			<text>The Game.com is a fifth-generation handheld game console released by Tiger Electronics on September 12, 1997. A smaller version, the Game.com Pocket Pro, was released in mid-1999. The first version of the Game.com can be connected to a 14.4 kbit/s modem for Internet connectivity, hence its name referencing the top level domain .com. 
+				
+It was the first video game console to include a touchscreen and the first handheld console to include Internet connectivity. The Game.com sold fewer than 300,000 units and was discontinued in 2000 because of poor sales. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La Game.com fue una videoconsola portátil, también considerada como un PDA, creada por Tiger Electronics saliendo a la venta en septiembre de 1997 hasta el 2000.
+
+Como características especiales disponía de una pantalla táctil, cosa que no ha vuelto a tener ninguna portátil hasta la Nintendo DS o la Tapwave Zodiac, y disponía de unos cuantos accesorios curiosos, como un módem a 14400 bps. A pesar de eso, no llegó a ser muy popular.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Tiger Game.com</text>
+		</text>
+	</view>
+</theme>

@@ -1,20 +1,23 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <variables>
-      <menuSelectedColor>ffffff</menuSelectedColor>
-      <menuSelectorColor>666666</menuSelectorColor>
+      <menuSelectedColor ifSubset="secondary_colorset:default">ffffff</menuSelectedColor>
+      <menuSelectorColor ifSubset="secondary_colorset:default">444444a6</menuSelectorColor>
+      <menuSelectorColorEnd ifSubset="secondary_colorset:default">666666</menuSelectorColorEnd>
       <menuFontcolor>aaaaaa</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
       <menuGrouptitle>dddddd</menuGrouptitle>
       <menuGroupSeparator>dddddd</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>010101</menubgColor>
-      <backgroundgrid>ffffff80</backgroundgrid>
-      <backgroundgridSelect>F3C300</backgroundgridSelect>
+      <backgroundgrid>aaaaaa80</backgroundgrid>
+      <backgroundgridSelect ifSubset="secondary_colorset:default">F3C300</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
-      <gamelistSelectorColor>000000</gamelistSelectorColor>
+      <gamelistSelectorColor ifSubset="secondary_colorset:default">DF0024</gamelistSelectorColor>
       <helpFontColor>DFDCDC</helpFontColor>
       <helpIconColor>DFDCDC</helpIconColor>
       <developerColor>00AC97</developerColor>
@@ -25,50 +28,40 @@
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
-      <splash.progressbarActive>111111</splash.progressbarActive>
+      <splash.progressbarActive ifSubset="secondary_colorset:default">666666</splash.progressbarActive>
+      <splash.progressbarActiveEnd>111111</splash.progressbarActiveEnd>
       <splash.progressbar>ffffff69</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
-      <sistema.lineainferior>DF0024</sistema.lineainferior>
+      <sistema.lineainferior ifSubset="secondary_colorset:default">DF0024</sistema.lineainferior>
       <sistema.pie>000000cf</sistema.pie>
    </variables>
 
 
    <view name="system">
-      <image name="background" extra="true">
+      <image name="background" extra="static">
          <path>./black/background.jpg</path>
       </image>
 
-      <image name="background-art" extra="true">
-         <path>./../../_theme_inc/images/background/${system.theme}.jpg</path>
-      </image>
-
-      <image name="background-art" extra="true" region="eu"/>
-      <image name="background-art" extra="true" region="us">
-         <path>./../../_theme_inc/images/background/us/${system.theme}.jpg</path>
-      </image>
-      <image name="background-art" extra="true" region="jp">
-         <path>./../../_theme_inc/images/background/jp/${system.theme}.jpg</path>
-      </image>
    </view>
 
 
    <view name="basic, detailed">
-      <image name="background" extra="true">
+      <image name="background" extra="static">
          <path>./black/default-detailed.png</path>
       </image>
 
-      <image name="background-art" extra="true">
+      <image name="background-art" extra="static">
          <path>./black/background.jpg</path>
       </image>
    </view>
 
    <view name="grid">
 
-      <image name="background" extra="true">
+      <image name="background" extra="static">
          <path>./black/default-grid.png</path>
       </image>
 
-      <image name="background-art" extra="true">
+      <image name="background-art" extra="static">
          <path>./black/background.jpg</path>
       </image>
    </view>
@@ -80,8 +73,8 @@
       </menuBackground>
 
       <menuTextEdit name="menutextedit">
-			<inactive>./../../_theme_inc/images/caja-texto-negra.png</inactive>
-			<active>./../../_theme_inc/images/caja-texto-negra-activa.png</active>
+         <inactive>./../../_theme_inc/images/caja-texto-negra.png</inactive>
+         <active>./../../_theme_inc/images/caja-texto-negra-activa.png</active>
       </menuTextEdit>
    </view>
 

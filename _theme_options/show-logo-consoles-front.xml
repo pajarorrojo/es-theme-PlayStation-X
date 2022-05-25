@@ -1,13 +1,16 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
       <image name="logo2" extra="true">
-         <pos>0.825 0.8</pos>
-         <alignment>right</alignment>
-         <verticalAlignment>center</verticalAlignment>
-         <maxSize>0.155 0.12</maxSize>
+         <pos>0.825 0.78</pos>
+         <alignment>center</alignment>
+         <maxSize>0.16 0.12</maxSize>
          <origin>0 0</origin>
+         <path>{random:marquee}</path>
+
          <!--  png -->
          <path>./../_theme_inc/images/logos/${system.theme}.png</path>
          <!--  svg -->
@@ -21,7 +24,7 @@
       </image>
 
 
-      <image name="logo2" extra="true" region="eu"/>
+      <image name="logo2" extra="true" region="eu" />
       <image name="logo2" extra="true" region="us">
          <path>./../_theme_inc/images/logos/us/${system.theme}.png</path>
          <!--  svg -->
@@ -38,25 +41,55 @@
       </image>
 
 
-
       <image name="consoles" extra="true">
          <tile>false</tile>
-         <pos>0.82 0.75</pos>
+         <pos>0.825 0.49</pos>
          <origin>0 0</origin>
          <verticalAlignment>bottom</verticalAlignment>
-         <size>0.16 0</size>
+         <alignment>center</alignment>
+         <maxSize>0.16 0.25</maxSize>
+ 
+         <path>{random:marquee}</path>
          <path>./../_theme_inc/images/consoles/${system.theme}.png</path>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="consoles" extra="true" region="eu"/>
+      <image name="consoles" extra="true" region="eu" />
       <image name="consoles" extra="true" region="us">
          <path>./../_theme_inc/images/consoles/us/${system.theme}.png</path>
       </image>
       <image name="consoles" extra="true" region="jp">
          <path>./../_theme_inc/images/consoles/jp/${system.theme}.png</path>
       </image>
-      
+      <!--
+      <image name="box-art-front, box-art-front-2" extra="true">
+         <tile>false</tile>
+         <pos>0.031 0.65</pos>
+         <origin>0 0</origin>
+         <verticalAlignment>bottom</verticalAlignment>
+         <alignment>left</alignment>
+         <maxSize>0.115 0.25</maxSize>
+         <path>{random:thumbnail}</path>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="box-art-front" extra="true">
+         <storyboard repeat="forever">
+            <animation property="opacity" from="1" to="0" begin="5500" duration="200" mode="linear" />
+            <animation property="opacity" from="0" to="1" begin="11000" duration="200" mode="linear" />
+         </storyboard>
+      </image>
+
+      <image name="box-art-front-2" extra="true">
+         <opacity>0</opacity>
+         <storyboard repeat="forever">
+            <animation property="opacity" from="0" to="1" begin="5500" duration="200" mode="linear" />
+            <animation property="opacity" from="1" to="0" begin="11000" duration="200" mode="linear" />
+         </storyboard>
+      </image>
+   -->
+
    </view>
 </theme>

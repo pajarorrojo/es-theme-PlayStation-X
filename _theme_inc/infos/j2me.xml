@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>J2ME (Java 2 Platform, Micro Edition) is a technology that allows programmers to use the Java programming language and related tools to develop programs for mobile wireless information devices such as cellular phones and personal digital assistants (PDAs). J2ME consists of programming specifications and a special virtual machine, the K Virtual Machine, that allows a J2ME-encoded program to run in the mobile device.</text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>J2ME (Java 2 Platform, Micro Edition) es una tecnología que permite a los programadores utilizar el lenguaje de programación Java y herramientas relacionadas para desarrollar programas para dispositivos de información inalámbricos móviles como teléfonos móviles y asistentes digitales personales (PDA). J2ME consiste en especificaciones de programación y una máquina virtual especial, la Máquina Virtual K, que permite ejecutar un programa codificado en J2ME en el dispositivo móvil.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>J2ME (Java 2 Platform, Micro Edition) est une technologie qui permet aux programmeurs d'utiliser le langage de programmation Java et les outils associés pour développer des programmes pour les dispositifs d'information mobiles sans fil tels que les téléphones cellulaires et les assistants numériques personnels (PDA). J2ME se compose de spécifications de programmation et d'une machine virtuelle spéciale, la machine virtuelle K, qui permet à un programme codé J2ME de s'exécuter sur l'appareil mobile.</text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text>J2ME (Java 2 Platform, Micro Edition) é uma tecnologia que permite aos programadores usar a linguagem de programação Java e ferramentas relacionadas para desenvolver programas para dispositivos móveis de informação sem fio, como telefones celulares e assistentes digitais pessoais (PDAs). O J2ME consiste em especificações de programação e uma máquina virtual especial, a K Virtual Machine, que permite que um programa codificado em J2ME seja executado no dispositivo móvel.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>J2ME</text>
+		</text>
+	</view>
+</theme>

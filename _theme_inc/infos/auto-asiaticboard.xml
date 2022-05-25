@@ -1,10 +1,24 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.</text>
+
+They are basically mahjong games and variants of this classic Chines board game.
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Asiatic Board Games</text>
@@ -12,5 +26,6 @@
 		<text name="system_name" extra="true" lang="es">
 			<text>Juegos de mesa asiáticos</text>
 		</text>
+	
 	</view>
 </theme>

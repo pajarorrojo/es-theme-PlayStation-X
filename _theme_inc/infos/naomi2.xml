@@ -1,0 +1,32 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>The NAOMI (New Arcade Operation Machine Idea) is the successor to the Sega Model 3. Sega first demonstrated NAOMI publicly at the 1998 Amusement Machine Show. </text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>El Sega NAOMI (acrónimo de New Arcade Operation Machine Idea) es una placa basada en la tecnología utilizada en Sega Dreamcast. Utilizado como sistema de placa base para máquinas recreativas.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Naomi est un système de jeu vidéo d'arcade développé par Sega, sorti en 1998 comme successeur du système Sega Model 3. </text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O Sega NAOMI (sigla para New Arcade Operation Machine Idea, em português Nova ideia em operação de máquina arcade) é uma placa de arcade baseada na tecnologia utilizada no Sega Dreamcast.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Sega Naomi 2</text>
+		</text>
+	</view>
+</theme>

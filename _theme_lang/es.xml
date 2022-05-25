@@ -1,4 +1,6 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="es">
@@ -7,9 +9,16 @@
     <theme.mostplayed>El más jugado:</theme.mostplayed>
     <GamesNumber>Juegos</GamesNumber>
     <GamesFavs>Favoritos</GamesFavs>
-	  <NumberPlayed>Jugados</NumberPlayed>
+    <NumberPlayed>Jugados</NumberPlayed>
     <blue>Azul</blue>
     <black>Negro</black>
+    <red>rojo</red>
+    <yellow>amarillo</yellow>
+    <green>verde</green>
+    <purple>morado</purple>
+    <orange>naranja</orange>
+    <pink>rosa</pink>
+    <default>por defecto</default>
     <big>grande</big>
     <medium>mediano</medium>
     <small>pequeño</small>
@@ -28,26 +37,27 @@
     <theme.system-description>Mostrar descripciones de sistemas</theme.system-description>
     <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
-		<theme.windowVideoOption>Vídeo en ventana</theme.windowVideoOption>
-		<theme.insideVideoOption>Dentro de la cuadrícula</theme.insideVideoOption>
+    <theme.windowVideoOption>Vídeo en ventana</theme.windowVideoOption>
+    <theme.insideVideoOption>Dentro de la cuadrícula</theme.insideVideoOption>
     <theme.smallScreenOption>Ventana pequeña</theme.smallScreenOption>
     <theme.videoaudio>Activar el audio en los vídeos de sistemas</theme.videoaudio>
     <theme.Avatar>Escoge tu imagen de Avatar</theme.Avatar>
     <theme.username>Escoge un Nick</theme.username>
     <custom>Personalizado</custom>
     <theme.videoGamelistDelay>Retraso del vÍdeo en la lista de juegos</theme.videoGamelistDelay>
-    <VideoOff>No mostrar vídeo</VideoOff>    
-	  <theme.systemConsole>Mostrar consola y logo en la vista de sistemas</theme.systemConsole>
-	  <randomGame>Juego Aleatorio</randomGame>
+    <VideoOff>No mostrar vídeo</VideoOff>
+    <theme.systemConsole>Mostrar consola y logo en la vista de sistemas</theme.systemConsole>
+    <randomGame>Juego Aleatorio</randomGame>
     <theme.colorset>Color del tema</theme.colorset>
-		<theme.gridMainorigin>Origen de la imagen principal en vista de cuadrícula</theme.gridMainorigin>
-		<theme.gridorigin>Origen de la imagen dentro de la cuadrícula</theme.gridorigin>
-		<theme.detailedorigin>Origen de la imagen en la vista de lista</theme.detailedorigin>
+    <theme.secondaryColorset>Color secundario</theme.secondaryColorset>
+    <theme.gridMainorigin>Origen de la imagen principal en vista de cuadrícula</theme.gridMainorigin>
+    <theme.gridorigin>Origen de la imagen dentro de la cuadrícula</theme.gridorigin>
+    <theme.detailedorigin>Origen de la imagen en la vista de lista</theme.detailedorigin>
     <theme.gridvideo>Mostrar vídeos de juegos</theme.gridvideo>
-		<theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
-		<theme.animatedList>Transición animada en la lista de juegos</theme.animatedList>
-		<theme.gametime>Mostrar info de tiempo jugado en la lista de juegos</theme.gametime>
-    <theme.animatedSystem>Transición animada en la lista de sistemas</theme.animatedSystem>
+    <theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
+    <theme.animatedList>Transiciones animadas en la lista de juegos</theme.animatedList>
+    <theme.gametime>Mostrar info de tiempo jugado en la lista de juegos</theme.gametime>
+    <theme.animatedSystem>Transiciones animadas en la lista de sistemas</theme.animatedSystem>
     <theme.aspect-ratio>Seleciona tu tipo de pantalla</theme.aspect-ratio>
     <theme.aspect-1610>16:10 WXGA (habitual en portátiles)</theme.aspect-1610>
     <theme.oversizeVideoOption>Video superpuesto</theme.oversizeVideoOption>

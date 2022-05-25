@@ -1,10 +1,12 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="pt">
     <theme.welcome>Bem-vindo ao Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
-    <theme.mostplayed>Mais tocado:</theme.mostplayed>
+    <theme.mostplayed>Mais jogado:</theme.mostplayed>
     <GamesNumber>Jogos</GamesNumber>
     <GamesFavs>Favoritos</GamesFavs>
     <NumberPlayed>Jogados</NumberPlayed>
@@ -13,6 +15,13 @@
     <small>pequeno</small>
     <blue>Azul</blue>
     <black>Preto</black>
+    <red>Vermelho</red>
+    <yellow>Amarelo</yellow>
+    <green>Verde</green>
+    <purple>Roxa</purple>
+    <orange>Laranja</orange>
+    <pink>Rosa</pink>
+    <default>Predefinição</default>
     <yes>Sim</yes>
     <no>Não</no>
     <never>Nunca</never>

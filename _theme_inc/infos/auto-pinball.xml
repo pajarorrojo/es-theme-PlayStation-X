@@ -1,10 +1,25 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+	
+The simulation of pinball machines has been a popular theme in video games since the beginning of the industry, with titles such as Gee Bee (1978), Cutie Q (1979) or Video Pinball (1980).
+			</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+El pinball, flipper, petacos, pinbola, pimbola, pímbol, pímbolo, pichilín, balompín, millonseta o milloncete. La simulación de máquinas pinball ha sido una temática popular en los videojuegos desde los inicios de la industria, con titulos como Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980)
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Pinball</text>

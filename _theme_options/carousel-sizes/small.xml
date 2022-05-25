@@ -1,11 +1,13 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
       <!-- CARRUSEL PEQUEÑO -->
-      <carousel name="systemcarousel" ifSubset="carousel:small">
+      <carousel name="systemcarousel">
          <pos>-0.571 0.113</pos>
-         <pos ifSubset="aspect-ratio:16-9">-0.571 0.113</pos>
+         <pos ifSubset="aspect-ratio:16-9">-0.572 0.113</pos>
          <pos ifSubset="aspect-ratio:4-3">-0.921 0.114</pos>
          <pos ifSubset="aspect-ratio:3-2">-0.707 0.114</pos>
          <pos ifSubset="aspect-ratio:16-10">-0.662 0.114</pos>
@@ -13,7 +15,7 @@
 
 
          <size>1.61 1</size>
-         <size ifSubset="aspect-ratio:16-9">1.612 1</size>
+         <size ifSubset="aspect-ratio:16-9">1.6128 1</size>
          <size ifSubset="aspect-ratio:4-3">2.16 1</size>
          <size ifSubset="aspect-ratio:3-2">1.91 1</size>
          <size ifSubset="aspect-ratio:16-10">1.81 1</size>
@@ -24,14 +26,14 @@
          <maxLogoCount>12</maxLogoCount>
       </carousel>
 
-      <image name="marco-activo" extra="true" ifSubset="carousel:small">
+      <image name="marco-activo" extra="static">
          <origin>0 0</origin>
          <pos>0.163 0.131</pos>
          <pos ifSubset="aspect-ratio:4-3">0.063 0.131</pos>
          <maxSize>0.3</maxSize>
       </image>
 
-      <text name="start" extra="true" ifSubset="carousel:small">
+      <text name="start" extra="true">
          <size>0.138 0.045</size>
          <size ifSubset="aspect-ratio:16-9">0.139 0.045</size>
          <size ifSubset="aspect-ratio:3-2">0.166 0.048</size>
@@ -46,7 +48,10 @@
          <fontSize>0.03</fontSize>
       </text>
 
-      <text name="system_name" extra="true" ifSubset="carousel:small">
+      <text name="system_name" extra="true">
+         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
+         <text>${system.name}</text> -->
+         <text>${system.fullName}</text>
          <pos>0.312 0.405</pos>
          <pos ifSubset="aspect-ratio:16-9">0.312 0.405</pos>
          <pos ifSubset="aspect-ratio:3-2">0.339 0.405</pos>
@@ -56,7 +61,7 @@
 
       </text>
 
-      <text name="fullName" extra="true" ifSubset="carousel:small">
+      <text name="fullName" extra="true">
          <pos>0.165 0.135</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.135</pos>
          <pos ifSubset="aspect-ratio:4-3">0.066 0.135</pos>
@@ -70,7 +75,7 @@
          <fontSize>0.029</fontSize>
       </text>
 
-      <text name="manufacturerName" extra="static" ifSubset="carousel:small">
+      <text name="manufacturerName" extra="static">
          <pos>0.165 0.17</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.17</pos>
          <pos ifSubset="aspect-ratio:4-3">0.066 0.17</pos>

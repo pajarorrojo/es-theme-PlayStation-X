@@ -1,0 +1,21 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>A two-pane file manager, similar to Norton/Midnight commander, useful to manage all the /userdata files on your Batocera system.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Un administrador de archivos de dos paneles, similar a Norton/Midnight Commander, útil para administrar todos los archivos ubicados en la carpeta /userdata de su sistema Batocera</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>OD-Commander</text>
+		</text>
+	</view>
+</theme>

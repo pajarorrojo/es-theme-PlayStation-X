@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>The MSU-1 is a custom coprocessor much like the DSP chips used in games like Super Mario Kart or Pilotwings, designed by byuu, the author of bsnes and higan.  This chip enables playback of CD-quality (44.1kHz, 16-bit) audio, as well as addressing up to 4GB of data, far more than a typical SNES cartridge could ever hold.  This allows ROM hacks to replace the background music of games with high quality versions, and even play full-motion videos.</text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>El MSU-1 es un coprocesador personalizado muy parecido a los chips DSP utilizados en juegos como Super Mario Kart o Pilotwings, diseñado por byuu, el autor de bsnes y higan. Este chip permite la reproducción de audio con calidad de CD (44,1 kHz, 16 bits), así como direccionar hasta 4 GB de datos, mucho más de lo que podría contener un cartucho típico de SNES. Esto permite que los hacks de ROM reemplacen la música de fondo de los juegos con versiones de alta calidad e incluso reproduzcan videos de movimiento completo.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>Le MSU-1 est un coprocesseur personnalisé un peu comme les puces DSP utilisées dans des jeux comme Super Mario Kart ou Pilotwings, conçu par byuu, l'auteur de bsnes et higan. Cette puce permet la lecture d'audio de qualité CD (44,1 kHz, 16 bits), ainsi que l'adressage jusqu'à 4 Go de données, bien plus qu'une cartouche SNES typique ne pourrait jamais contenir. Cela permet aux hacks ROM de remplacer la musique de fond des jeux par des versions de haute qualité, et même de lire des vidéos animées.</text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text>O MSU-1 é um coprocessador customizado muito parecido com os chips DSP usados ​​em jogos como Super Mario Kart ou Pilotwings, desenhados por byuu, o autor de bsnes e higan. Este chip permite a reprodução de áudio com qualidade de CD (44,1 kHz, 16 bits), além de endereçar até 4 GB de dados, muito mais do que um cartucho SNES típico poderia suportar. Isso permite que hacks de ROM substituam a música de fundo dos jogos por versões de alta qualidade e até reproduzam vídeos em movimento total.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Megadrive MSU-1</text>
+		</text>
+	</view>
+</theme>

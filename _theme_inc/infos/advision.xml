@@ -1,0 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Adventure Vision is a cartridge-based video game console released by Entex Industries in either August or October 1982. The monitor, game controls, and computer hardware are all contained within a single portable unit. The LED monitor can only display red pixels. Four games were released, all of which are arcade ports.
+
+Adventure Vision was Entex's second-generation system following the Entex Select-A-Game, released a year earlier in 1981. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Adventure Vision es una consola de videojuegos autocontenida (no necesita de un monitor externo) lanzado al mercado por la empresa Entex en 1982, siendo la sucesora de la Entex Select-A-Game. El Adventure Vision era una consola de segunda generación.
+
+Una interesante característica del Adventure Vision era su "monitor", la consola usaba una línea de 40 LEDs rojos combinados con un espejo rotante localizado adentro de la máquina. Esto permitía una resolución de 150 x 40 píxeles.
+				</text>
+		</text>
+
+
+
+		<text name="system_name" extra="true">
+			<text>Adventure Vision</text>
+		</text>
+	</view>
+</theme>

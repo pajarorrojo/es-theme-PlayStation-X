@@ -1,23 +1,32 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="fr">
-   <theme.welcome>Bienvenue sur Playstation X pour</theme.welcome>
-   <theme.start>Démarrer</theme.start>
+    <theme.welcome>Bienvenue sur Playstation X pour</theme.welcome>
+    <theme.start>Démarrer</theme.start>
     <theme.mostplayed>Les plus joués :</theme.mostplayed>
     <GamesNumber>Joués</GamesNumber>
     <GamesFavs>Favoris</GamesFavs>
-	  <NumberPlayed>Joueurs</NumberPlayed>
+    <NumberPlayed>Joueurs</NumberPlayed>
     <big>Grand</big>
     <medium>Moyen</medium>
     <small>Petit</small>
     <blue>Bleu</blue>
     <black>Noir</black>
+    <red>Rouge</red>
+    <yellow>Jaune</yellow>
+    <green>Vert</green>
+    <purple>Violet</purple>
+    <orange>Orange</orange>
+    <pink>Rose</pink>
+    <default>Défaut</default>
     <yes>Oui</yes>
     <no>Non</no>
     <none>Aucune</none>
     <never>Jamais</never>
-    <always>Toujours</always>    
+    <always>Toujours</always>
     <iconset>iconset</iconset>
     <theme.frontend>Sélectionnez votre frontend préféré</theme.frontend>
     <gameBar>Barre d'Informations des Jeux</gameBar>
@@ -28,23 +37,23 @@
     <theme.backgroundVideoOption>En vidéo de fond</theme.backgroundVideoOption>
     <theme.smallScreenOption>En petit écran</theme.smallScreenOption>
     <theme.videoaudio>Activer l'audio pour les vidéos système</theme.videoaudio>
-		<theme.videoRandom>Activer Videosnap aléatoire</theme.videoRandom>
+    <theme.videoRandom>Activer Videosnap aléatoire</theme.videoRandom>
     <ifnospot>S'il n'y a pas de vidéo système</ifnospot>
     <theme.Avatar>Choisissez votre Avatar</theme.Avatar>
     <theme.username>Choisissez un Pseudo</theme.username>
     <custom>Personnalisé</custom>
     <theme.videoGamelistDelay>Délai Lancement Vidéo</theme.videoGamelistDelay>
-    <VideoOff>Video Off</VideoOff>    
-	  <theme.systemConsole>Afficher logo et consoles dans systemview ?</theme.systemConsole>
-	  <randomGame>Jeu aléatoire</randomGame>
+    <VideoOff>Video Off</VideoOff>
+    <theme.systemConsole>Afficher logo et consoles dans systemview ?</theme.systemConsole>
+    <randomGame>Jeu aléatoire</randomGame>
     <theme.colorset>Jeux de couleurs</theme.colorset>
-		<theme.gridMainorigin>Source d'image principale en vue grille</theme.gridMainorigin>
-		<theme.gridorigin>Source d'image dans la grille</theme.gridorigin>
-		<theme.detailedorigin>Source d'image en vue détaillée</theme.detailedorigin>
+    <theme.gridMainorigin>Source d'image principale en vue grille</theme.gridMainorigin>
+    <theme.gridorigin>Source d'image dans la grille</theme.gridorigin>
+    <theme.detailedorigin>Source d'image en vue détaillée</theme.detailedorigin>
     <theme.gridvideo>Vue vidéosnap</theme.gridvideo>
-		<theme.videoSnapAudio>Activer l'audio pour les vidéosnap</theme.videoSnapAudio>
-		<theme.animatedList>Transition de la liste de jeux animée</theme.animatedList>
-		<theme.gametime>Afficher les infos sur le temps de jeu joué</theme.gametime>
+    <theme.videoSnapAudio>Activer l'audio pour les vidéosnap</theme.videoSnapAudio>
+    <theme.animatedList>Transition de la liste de jeux animée</theme.animatedList>
+    <theme.gametime>Afficher les infos sur le temps de jeu joué</theme.gametime>
     <theme.animatedSystem>Transition de la liste de système animée</theme.animatedSystem>
     <theme.aspect-ratio>Sélectionnez type d'écran</theme.aspect-ratio>
     <theme.aspect-1610>16:10 WXGA (habituel dans les vieux portables)</theme.aspect-1610>

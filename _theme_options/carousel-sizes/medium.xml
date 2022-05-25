@@ -1,9 +1,11 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
       <!-- CARRUSEL MEDIANO -->
-      <carousel name="systemcarousel" ifSubset="carousel:medium">
+      <carousel name="systemcarousel">
          <pos>-0.55 0.112</pos>
          <pos ifSubset="aspect-ratio:16-9">-0.55 0.112</pos>
          <pos ifSubset="aspect-ratio:4-3">-0.866 0.111</pos>
@@ -24,7 +26,7 @@
          <maxLogoCount>10</maxLogoCount>
       </carousel>
 
-      <image name="marco-activo" extra="true" ifSubset="carousel:medium">
+      <image name="marco-activo" extra="static">
          <pos>0.162 0.132</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.162 0.132</pos>
          <pos ifSubset="aspect-ratio:4-3">0.063 0.132</pos>
@@ -32,17 +34,16 @@
          <origin>0 0</origin>
       </image>
 
-      <text name="start" extra="true" ifSubset="carousel:medium">
+      <text name="start" extra="true">
          <pos>0.165 0.424</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.424</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.066 0.423</pos>
-         <pos ifSubset="5-3">0.165 0.424</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.063 0.423</pos>
+         <pos ifSubset="aspect-ratio:5-3">0.165 0.424</pos>
 
-         
 
          <size>0.16 0.05</size>
          <size ifSubset="aspect-ratio:16-9">0.161 0.05</size>
-         <size ifSubset="aspect-ratio:4-3">0.216 0.051</size>
+         <size ifSubset="aspect-ratio:4-3">0.218 0.051</size>
          <size ifSubset="aspect-ratio:16-10">0.18 0.052</size>
          <size ifSubset="aspect-ratio:3-2">0.190 0.05</size>
          <size ifSubset="aspect-ratio:5-3">0.172 0.051</size>
@@ -50,7 +51,10 @@
          <fontSize>0.03</fontSize>
       </text>
 
-      <text name="system_name" extra="true" ifSubset="carousel:medium">
+      <text name="system_name" extra="true">
+         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
+         <text>${system.name}</text> -->
+         <text>${system.fullName}</text>
          <pos>0.335 0.451</pos>
          <pos ifSubset="aspect-ratio:16-9">0.335 0.451</pos>
          <pos ifSubset="aspect-ratio:4-3">0.295 0.451</pos>
@@ -60,7 +64,7 @@
 
       </text>
 
-      <text name="fullName" extra="true" ifSubset="carousel:medium">
+      <text name="fullName" extra="true">
          <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
          <text>${system.name}</text> -->
          <pos>0.164 0.136</pos>
@@ -79,7 +83,7 @@
 
       </text>
 
-      <text name="manufacturerName" extra="static" ifSubset="carousel:medium">
+      <text name="manufacturerName" extra="static">
          <pos>0.166 0.2</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.2</pos>
          <pos ifSubset="aspect-ratio:4-3">0.066 0.2</pos>

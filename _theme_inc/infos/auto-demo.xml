@@ -1,10 +1,25 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+Fragment or limited version of a video game distributed by its own publisher, usually free of charge, in order to publicize the main features of the game and promote it among players.
+			</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Fragmento o versión limitada de un videojuego distribuído por la propia editora del mismo, normalmente de manera gratuíta, con el fin de dar a conocer las características principales del juego y promocionarlo entre los jugadores.
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Demo</text>

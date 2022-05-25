@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo -->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 	<!-- listado de imagenes de avatar-->
@@ -19,6 +21,7 @@
 		<image.avatar ifSubset="system-avatar:dragons-lair">dragons-lair.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:emulationstation">emulationstation.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:fatalfury">fatalfury.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:finalfight">finalfight.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:ghostgoblins">ghostgoblins.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:goku">goku.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:halo">halo.jpg</image.avatar>
@@ -30,11 +33,13 @@
 		<image.avatar ifSubset="system-avatar:lemmings">lemmings.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:zelda">zelda.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:mario">mario.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:mazinger">mazinger.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:megaman">megaman.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:metal-gear">metal-gear.jpg</image.avatar>
 		<image.avatar ifSubset="system-avatar:metalslug">metalslug.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:metroid">metroid.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:monkeyisland">monkeyisland.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:nanaki">nanaki.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:outrun">outrun.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pacman-blinky">pacman-blinky.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pacman-clyde">pacman-clyde.png</image.avatar>
@@ -45,19 +50,25 @@
 		<image.avatar ifSubset="system-avatar:pole-position">pole-position.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:ps-logo">playstation-logo.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:astrobot">astrobot.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:q-bert">q-bert.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:rastan">rastan.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:retroship">retroship.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:recalbox">recalbox.jpg</image.avatar>
 		<image.avatar ifSubset="system-avatar:retroachievements">retroachievements.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:retrobat">retrobat.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:retropie">retropie.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:robocop">robocop.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:rollingthunder">rollingthunder.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:shenmue">shenmue.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:ryu">ryu.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:sephirot">sephirot.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:sonic">sonic.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:strider">strider.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:superhangon">super-hang-on.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:superpang">superpang.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:willow">willow.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:wonderboy">wonderboy.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:batocera">batocera.png</image.avatar>
-
 	</variables>
 
 </theme>

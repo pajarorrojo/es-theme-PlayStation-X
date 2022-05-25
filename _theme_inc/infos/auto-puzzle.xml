@@ -1,10 +1,26 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+				
+Puzzle video games make up a broad genre of video games that emphasize puzzle solving. The types of puzzles can test problem-solving skills, including logic, pattern recognition, sequence solving, spatial recognition, and word completion.
+
+			</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Género de videojuegos que se caracteriza por exigir agilidad mental al jugador para resolver enigmas por lo general en una sola pantalla. Algunos videojuegos involucran problemas de lógica, matemáticas, estrategia, completar palabras o reconocimiento de patrones.
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Puzzle</text>

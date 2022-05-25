@@ -1,0 +1,22 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Lynx was an 8-bit British home computer that was first released in early 1983 as a 48 kB model. Several models were available with 48 kB, 96 kB or 128 kB RAM. It was possible to reach 192 kB with RAM expansions on board.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Lynx era un ordenador doméstico británico de 8 bits que se lanzó por primera vez a principios de 1983 como un modelo de 48 kB. Varios modelos estaban disponibles con 48 kB, 96 kB o 128 kB de RAM. Fue posible llegar a 192 kB con expansiones de RAM.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Camputers Lynx</text>
+		</text>
+	</view>
+</theme>

@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
@@ -32,7 +34,7 @@
          <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>
       </carousel>
 
-      <image name="marco-activo" extra="true">
+      <image name="marco-activo" extra="static">
          <path>./../_theme_inc/images/marco-activo-iso.png</path>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
@@ -71,7 +73,9 @@
       </text>
 
       <text name="fullName" extra="true">
-         <text>${system.fullName}</text>
+         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
+         <text>${system.name}</text> -->
+         <text>${system.name}</text>
          <alignment>center</alignment>
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -79,35 +83,17 @@
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <backgroundColor>${menubgColor}</backgroundColor>
+         <backgroundColor>${psx-theme-blue4}</backgroundColor>
          <storyboard>
             <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
             <animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
          </storyboard>
       </text>
-
-      <text name="manufacturerName" extra="static">
-         <text>${system.sortedBy}</text>
-         <alignment>center</alignment>
-         <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <zIndex>45</zIndex>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <storyboard>
-            <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
-            <animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
-         </storyboard>
-      </text>
-
-      
-
 
 
       <!-- FIN CARRUSELES -->
 
-      <image name="background" extra="true">
+      <image name="background" extra="static">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
@@ -116,18 +102,25 @@
       </image>
 
       <image name="background-art" extra="true">
-
-         <size>1 1</size>
-         <!--
-         <size ifSubset="aspect-ratio:16-9|16-10">1 1</size>
-         <size ifSubset="aspect-ratio:4-3">1.4 1.4</size>
-         <pos ifSubset="aspect-ratio:4-3">-0.07 0</pos>-->
+         <origin>0.5 0</origin>
+         <pos>0.5 0</pos>
+         <path>{random:fanart}</path>
+         <path>./_theme_inc/images/background/${system.theme}.jpg</path>
          <zIndex>40</zIndex>
          <linearSmooth>true</linearSmooth>
-
+         <size>1 1</size>
       </image>
 
-      <image name="overlay" extra="true">
+      <image name="background-art" extra="true" region="eu" />
+      <image name="background-art" extra="true" region="us">
+         <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
+      </image>
+      <image name="background-art" extra="true" region="jp">
+         <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      </image>
+
+
+      <image name="overlay" extra="static">
          <path>./_theme_inc/images/overlay.png</path>
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -138,7 +131,7 @@
       </image>
 
 
-      <image name="linea-inferior" extra="true">
+      <image name="linea-inferior" extra="static">
          <path>./_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.0011</size>
@@ -150,7 +143,7 @@
          <zIndex>99</zIndex>
       </image>
 
-      <image name="pie-barra" extra="true">
+      <image name="pie-barra" extra="static">
          <path>./_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.2</size>

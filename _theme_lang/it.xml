@@ -1,4 +1,6 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="it">
@@ -7,12 +9,19 @@
     <theme.mostplayed>Il più giocato:</theme.mostplayed>
     <GamesNumber>Giochi:</GamesNumber>
     <GamesFavs>Preferiti</GamesFavs>
-	  <NumberPlayed>Giocato</NumberPlayed>
+    <NumberPlayed>Giocato</NumberPlayed>
     <big>grande</big>
     <medium>medio</medium>
     <small>piccolo</small>
     <blue>Blu</blue>
     <black>Nero</black>
+    <red>Rosso</red>
+    <yellow>Giallo</yellow>
+    <green>Verde</green>
+    <purple>Viola</purple>
+    <orange>Arancia</orange>
+    <pink>Rosa</pink>
+    <default>Predefinito</default>
     <yes>Sì</yes>
     <no>Non</no>
     <none>Nessuno</none>
@@ -28,23 +37,23 @@
     <theme.backgroundVideoOption>Video di sfondo</theme.backgroundVideoOption>
     <theme.smallScreenOption>Piccola finestra</theme.smallScreenOption>
     <theme.videoaudio>Abilita l'audio per i video di sistema</theme.videoaudio>
-		<theme.videoRandom>Videosnap casuale </theme.videoRandom>
+    <theme.videoRandom>Videosnap casuale </theme.videoRandom>
     <ifnospot>Se nessun video di sistema</ifnospot>
     <theme.Avatar>Scegli il tuo avatar</theme.Avatar>
     <theme.username>Scegli un Nickname</theme.username>
     <custom>Personalizzato</custom>
     <theme.videoGamelistDelay>Ritardo video gamelist</theme.videoGamelistDelay>
-    <VideoOff>Video Off</VideoOff>    
-	  <theme.systemConsole>Mostra il logo e le console in systemview</theme.systemConsole>
-	  <randomGame>gioco casuale</randomGame>
+    <VideoOff>Video Off</VideoOff>
+    <theme.systemConsole>Mostra il logo e le console in systemview</theme.systemConsole>
+    <randomGame>gioco casuale</randomGame>
     <theme.colorset>Set di colori</theme.colorset>
-		<theme.gridMainorigin>Sorgente dell'immagine principale in modalità griglia</theme.gridMainorigin>
-		<theme.gridorigin>Sorgente dell'immagine nella griglia</theme.gridorigin>
-		<theme.detailedorigin>Sorgente immagine in modalità dettagliato</theme.detailedorigin>
+    <theme.gridMainorigin>Sorgente dell'immagine principale in modalità griglia</theme.gridMainorigin>
+    <theme.gridorigin>Sorgente dell'immagine nella griglia</theme.gridorigin>
+    <theme.detailedorigin>Sorgente immagine in modalità dettagliato</theme.detailedorigin>
     <theme.gridvideo>Mostra videosnap</theme.gridvideo>
-		<theme.videoSnapAudio>Abilita l'audio per i videosnap</theme.videoSnapAudio>
-		<theme.animatedList>Transizione della lista dei giochi animata</theme.animatedList>
-		<theme.gametime>Mostra le informazioni sul tempo di gioco</theme.gametime>
+    <theme.videoSnapAudio>Abilita l'audio per i videosnap</theme.videoSnapAudio>
+    <theme.animatedList>Transizione della lista dei giochi animata</theme.animatedList>
+    <theme.gametime>Mostra le informazioni sul tempo di gioco</theme.gametime>
     <theme.animatedSystem>Transizione della lista dei sistema animata</theme.animatedSystem>
     <theme.aspect-ratio>Seleziona il tipo di schermo</theme.aspect-ratio>
     <theme.aspect-1610>16:10 WXGA (normale nei vecchi laptop)</theme.aspect-1610>

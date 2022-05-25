@@ -1,10 +1,24 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Subgénero de los juegos de acción donde el jugador se enfrenta contra otros pesonajes, normalmente en combates de uno contra uno y controlados por la máquina o por otro jugador humano. En este género cada personaje cuenta con una gran cantidad de movimientos distintos, que son encadenables entre sí mediante combos.
+			
+Aunque a menudo el término se intercambia con el de Beat'em Up, por lo general los juegos de lucha son exclusivamente aquellos donde el combate es uno contra uno, y no uno contra varios. 
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Fight</text>

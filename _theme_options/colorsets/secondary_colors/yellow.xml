@@ -1,0 +1,16 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables>
+      <menuSelectedColor>ffffff</menuSelectedColor>
+      <menuSelectorColor>F3C300a6</menuSelectorColor>
+      <menuSelectorColorEnd>F3C300</menuSelectorColorEnd>
+      <sistema.lineainferior>F3C300</sistema.lineainferior>
+      <splash.progressbarActive>F3C300</splash.progressbarActive>
+      <gamelistSelectorColor>F3C300</gamelistSelectorColor>
+      <backgroundgridSelect>F3C300</backgroundgridSelect>
+   </variables>
+
+</theme>

@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="grid">
@@ -22,7 +24,7 @@
          <visible>false</visible>
       </image>
 
-      <image name="logo" extra="true" region="eu"/>
+      <image name="logo" extra="true" region="eu" />
       <image name="logo" extra="true" region="us">
          <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
          <!--  svg -->
@@ -46,7 +48,7 @@
          <autoLayout ifSubset="aspect-ratio:3-2">6 1</autoLayout>
          <autoLayout ifSubset="aspect-ratio:4-3" tinyScreen="true">4 1</autoLayout>
          <autoLayout ifSubset="aspect-ratio:16-9" tinyScreen="true">6 1</autoLayout>
-         <scrollDirection >horizontal</scrollDirection>
+         <scrollDirection>horizontal</scrollDirection>
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
 
@@ -64,7 +66,7 @@
          <!-- <imageSource ifSubset="grid-origin:boxback">boxback</imageSource> not supported -->
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">5 2</autoLayout>
-         <gameImage >./../_theme_inc/images/no-image-default.png</gameImage>
+         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
          <autoLayoutSelectedZoom ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">1.04</autoLayoutSelectedZoom>
          <autoLayoutSelectedZoom ifSubset="grid-origin:boxart|thumbnail">1.31</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
@@ -77,14 +79,11 @@
          <padding ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">0.005 0.005</padding>
          <padding ifSubset="grid-origin:boxart|thumbnail">0.008 0.05</padding>
          <animateSelection>true</animateSelection>
-         <storyboard>
-            <animation property="y" from="1" duration="400" mode="easeOutCubic"/>
-         </storyboard>
       </imagegrid>
 
 
       <gridtile name="default">
-         <backgroundEdgeColor >${backgroundgrid}</backgroundEdgeColor>
+         <backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
          <padding>8</padding>
          <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
          <padding ifSubset="aspect-ratio:4-3">2</padding>
@@ -97,7 +96,7 @@
 
 
       <gridtile name="selected">
-         <padding>3</padding>
+         <padding>6</padding>
          <padding ifSubset="aspect-ratio:4-3">1</padding>
          <imageColor>ffffff</imageColor>
          <backgroundCornerSize>0</backgroundCornerSize>
@@ -143,15 +142,13 @@
       </ninepatch>
 
 
-      <image name="background" extra="true">
+      <image name="background" extra="static">
          <origin>0 0</origin>
          <size>1 1</size>
          <pos>0 0</pos>
          <zIndex>50</zIndex>
          <linearSmooth>true</linearSmooth>
-         <storyboard>
-            <animation property="opacity" from="0.5" to="1" duration="500" mode="easeOut"/>
-         </storyboard>
+
       </image>
 
       <image name="background-art" extra="true">
@@ -163,7 +160,7 @@
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="background-art" extra="true" region="eu"/>
+      <image name="background-art" extra="true" region="eu" />
       <image name="background-art" extra="true" region="us">
          <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
       </image>
@@ -228,17 +225,17 @@
 
       <text name="md_description">
          <color>ffffff</color>
-         <pos>0.30 0.21</pos>
+         <pos>0.30 0.205</pos>
          <pos tinyScreen="true">0.3 0.22</pos>
 
-         <size>0.64 0.169</size>
+         <size>0.64 0.176</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:16-9">./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.026</fontSize>
+         <fontSize>0.027</fontSize>
          <lineSpacing>1.1</lineSpacing>
          <origin>0 0</origin>
          <backgroundColor>00000000</backgroundColor>
-                  <forceUppercase tinyScreen="true">true</forceUppercase>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
 
          <zIndex>99</zIndex>
       </text>
@@ -258,6 +255,37 @@
          <glowOffset>3 2</glowOffset>
          <zIndex>502</zIndex>
          <backgroundColor>00000000</backgroundColor>
+      </text>
+
+
+      <image name="linea-inferior" extra="static" ifSubset="grid-origin:boxart|thumbnail">
+         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>${sistema.lineainferior}</color>
+          <gradientType>horizontal</gradientType>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="pie-barra" extra="static" ifSubset="grid-origin:boxart|thumbnail">
+         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.2</size>
+         <color>${sistema.pie}</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>98</zIndex>
+      </image>
+
+      <text name="md_description,md_genre, md_developer, md_name">
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
       </text>
 
    </view>

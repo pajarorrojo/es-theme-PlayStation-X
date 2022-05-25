@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
@@ -15,14 +17,6 @@ Nintendo's Game and Watch series was the most popular, with a line of 59 videoga
 								<text>Estas consolas portátiles -que en España se conocían popularmente como «maquinitas»- albergaban un único juego con pantalla LCD y varios niveles de dificultad, además solian incluir reloj y alarma. 
 									
 La serie Game and Watch de Nintendo fue la mas popular, con una línea de 59 títulos de videojuegos entre los que se encontraban unos primigenios Donkey Kong, Mario Bros. o The Legend of Zelda... Actualmente son muy difíciles de conseguir y se consideran piezas históricas y artículos de coleccionista.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text></text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text></text>
 		</text>
 
 		

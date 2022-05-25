@@ -1,0 +1,27 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Acorn Archimedes is a family of personal computers designed by Acorn Computers of Cambridge, England. The systems are based on Acorn's own ARM architecture processors and the proprietary operating systems Arthur and RISC OS. 
+					
+The first models were introduced in 1987, and systems in the Archimedes family were sold until the mid-1990s. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Acorn Archimedes fue el primer ordenador personal de propósito general de Acorn Computers basado en su propia CPU RISC ARM de 32 bits. 
+				
+El nombre también es usado comúnmente para describir ordenadores que están basados en la misma arquitectura, incluso cuando Acorn no incluye 'Archimedes' en el nombre oficial. </text>
+		</text>
+
+
+
+		<text name="system_name" extra="true">
+			<text>Archimedes</text>
+		</text>
+	</view>
+</theme>

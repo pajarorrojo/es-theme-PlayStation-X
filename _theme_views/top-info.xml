@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
 
@@ -24,7 +26,7 @@
       </text>
    </view>
    <view name="system">
-      <image name="logo-front" extra="true">
+      <image name="logo-front" extra="static">
          <path ifSubset="frontend:batocera">./_theme_inc/images/logo-bato-front.svg</path>
          <path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
          <path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
@@ -39,7 +41,7 @@
       </image>
 
 
-      <image name="plus-picto" extra="true">
+      <image name="plus-picto" extra="static">
          <path>./_theme_inc/images/plus-picto-bato.svg</path>
          <pos>0.086 0.045</pos>
          <pos ifSubset="frontend:no-frontend">0.02 0.045</pos>
@@ -51,7 +53,7 @@
          <zIndex>99</zIndex>
       </image>
 
-      <image name="linea-superior" extra="true">
+      <image name="linea-superior" extra="static">
          <path>./_theme_inc/images/pixel-blanco.png</path>
          <pos>0.07 0.107</pos>
          <pos ifSubset="frontend:retrobat">0.045 0.107</pos>
@@ -69,15 +71,15 @@
          <zIndex>99</zIndex>
       </image>
 
-      <image name="logo-front, plus-picto" extra="true" tinyScreen="true">
+      <image name="logo-front, plus-picto" extra="static" tinyScreen="true">
          <visible>false</visible>
       </image>
 
-      <image name="logo-front, plus-picto, linea-superior" extra="true" ifSubset="aspect-ratio:4-3">
+      <image name="logo-front, plus-picto, linea-superior" extra="static" ifSubset="aspect-ratio:4-3">
          <visible>false</visible>
       </image>
 
-      <image name="linea-superior, plus-picto" extra="true" ifSubset="aspect-ratio:3-2">
+      <image name="linea-superior, plus-picto" extra="static" ifSubset="aspect-ratio:3-2">
          <visible>false</visible>
       </image>
 
@@ -109,26 +111,27 @@
          <text>{binding:total} ${GamesNumber} | {binding:favorites} ${GamesFavs} | {binding:gamesPlayed} ${NumberPlayed}</text>
          <text ifSubset="aspect-ratio:4-3" tinyScreen="true">{binding:total} ${GamesNumber} | {binding:favorites} ${GamesFavs}</text>
          <storyboard repeat="2">
-            <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+            <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
             <animation property="opacity" from="1" to="0" begin="2500" duration="350" mode="easeOut" />
-            <animation property="opacity" from="0" to="1" begin="7100" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="0" to="1" begin="7100" duration="350" mode="easeOut" />
             <animation property="opacity" from="1" to="0" begin="10000" duration="350" mode="easeOut" />
-            <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut" />
          </storyboard>
       </text>
+
 
       <text name="systemInfoEx2" extra="true">
          <text>${theme.mostplayed} {binding:mostPlayed} </text>
          <storyboard repeat="2">
-            <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-            <animation property="opacity" from="0" to="1" begin="2600" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="0" to="0" duration="1" mode="linear" />
+            <animation property="opacity" from="0" to="1" begin="2600" duration="350" mode="easeOut" />
             <animation property="opacity" from="1" to="0" begin="7000" duration="350" mode="easeOut" />
-            <animation property="opacity" from="0" to="1" begin="10100" duration="350" mode="easeOut"/>
+            <animation property="opacity" from="0" to="1" begin="10100" duration="350" mode="easeOut" />
             <animation property="opacity" from="1" to="0" begin="14000" duration="350" mode="easeOut" />
          </storyboard>
       </text>
 
-      <image name="trophy-picto" extra="true">
+      <image name="trophy-picto" extra="static">
          <path>./_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
@@ -147,7 +150,7 @@
 
    <view name="detailed, basic, grid">
 
-      <image name="trophy-picto" extra="true" ifCheevos="false">
+      <image name="trophy-picto" extra="static" ifCheevos="false">
          <path>./_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
@@ -174,25 +177,20 @@
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
          <origin>0 0</origin>
-		</image>
+      </image>
 
-		<image name="md_notcheevos">
-			<color>ffffff</color>
-		</image>
+      <image name="md_notcheevos">
+         <color>ffffff</color>
+      </image>
 
       <image name="consoles" extra="true">
-         <pos>0.02 0.02</pos>
+         <pos>0.015 0.02</pos>
          <origin>0 0</origin>
          <alignment>center</alignment>
          <verticalAlignment>bottom</verticalAlignment>
          <maxSize>0.095 0.1</maxSize>
          <maxSize ifSubset="aspect-ratio:3-2">0.085 0.1</maxSize>
-         <path>./_theme_inc/images/logos/${system.theme}.png</path>
-         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
-         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
-         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-         <path>./_theme_inc/images/consoles/${system.theme}.png</path>
+         <path>./_theme_inc/images/caratulas/default.png</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
 
@@ -208,7 +206,7 @@
          <visible>false</visible>
       </image>
 
-      <image name="consoles" extra="true" region="eu"/>
+      <image name="consoles" extra="true" region="eu" />
       <image name="consoles" extra="true" region="us">
          <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
          <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
@@ -238,6 +236,9 @@
 
       <text name="md_playcount,md_gametime">
          <color>${developerColor}</color>
+         <storyboard>
+            <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
+         </storyboard>
       </text>
 
       <text name="md_lbl_playcount">
@@ -262,7 +263,7 @@
       </text>
 
       <text name="md_gametime">
-         <pos >0.298 0.0703</pos>
+         <pos>0.298 0.0703</pos>
          <pos ifSubset="aspect-ratio:4-3">0.265 0.0703</pos>
          <pos ifSubset="aspect-ratio:3-2|16-10">0.305 0.0703</pos>
          <pos tinyScreen="true">0.265 0.08</pos>
@@ -298,7 +299,7 @@
 
    <view name="detailed, basic, grid, system">
 
-      <image name="info-picto" extra="true">
+      <image name="info-picto" extra="static">
          <path>./_theme_inc/images/info-picto.svg</path>
          <pos>0.125 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3">0.02 0.047</pos>
@@ -311,11 +312,11 @@
       </image>
 
 
-      <image name="info-picto" extra="true" tinyScreen="true">
-         <pos >0.02 0.047</pos>
+      <image name="info-picto" extra="static" tinyScreen="true">
+         <pos>0.02 0.047</pos>
       </image>
 
-      <image name="puntoazul-1" extra="true">
+      <image name="puntoazul-1" extra="static">
          <path>./_theme_inc/images/punto-azul.png</path>
          <pos>0.555 0.024</pos>
          <pos ifSubset="aspect-ratio:4-3">0.535 0.024</pos>
@@ -327,8 +328,8 @@
          <zIndex>99</zIndex>
       </image>
 
-      <text name="friends" extra="true">
-         <text>33</text>
+      <text name="friends" extra="static">
+         <text>34</text>
          <pos>0.567 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3">0.55 0.012</pos>
          <size>0.024 0.035</size>
@@ -344,7 +345,7 @@
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
-      <image name="users-picto" extra="true">
+      <image name="users-picto" extra="static">
          <path>./_theme_inc/images/users-picto.svg</path>
          <pos>0.554 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3">0.534 0.047</pos>
@@ -356,7 +357,7 @@
          <zIndex>99</zIndex>
       </image>
 
-      <image name="puntoazul-2" extra="true">
+      <image name="puntoazul-2" extra="static">
          <path>./_theme_inc/images/punto-azul.png</path>
          <pos>0.604 0.061</pos>
          <pos ifSubset="aspect-ratio:4-3">0.588 0.061</pos>
@@ -368,9 +369,9 @@
          <zIndex>99</zIndex>
       </image>
 
-      <image name="avatar" extra="true">
+      <image name="avatar" extra="static">
          <path>./_theme_options/avatars/${image.avatar}</path>
-			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
          <pos>0.618 0.035</pos>
          <pos ifSubset="aspect-ratio:4-3">0.605 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
@@ -378,7 +379,7 @@
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <text name="username" extra="true">
+      <text name="username" extra="static">
          <text>${theme.nick}</text>
          <text ifSubset="system-username:custom">${custom.nick}</text>
 
@@ -399,10 +400,7 @@
       </text>
 
 
-
-
-
-      <image name="star-picto" extra="true">
+      <image name="star-picto" extra="static">
          <path>./_theme_inc/images/star-picto.png</path>
          <pos>0.856 0.052</pos>
          <pos ifSubset="aspect-ratio:16-10|5-3">0.86 0.052</pos>
@@ -415,7 +413,7 @@
          <visible ifSubset="aspect-ratio:4-3|3-2">false</visible>
       </image>
 
-      <text name="trophy-level" extra="true">
+      <text name="trophy-level" extra="static">
          <text>2022</text>
          <pos>0.875 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3">0.855 0.05</pos>

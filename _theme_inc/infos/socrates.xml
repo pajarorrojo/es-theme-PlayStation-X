@@ -1,0 +1,25 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The VTech Socrates is an 8-bit educational home video game console manufactured and released in 1988 by VTech. The console features a robot character Socrates, named after the philosopher. The character is visually similar to Johnny Five from the Short Circuit movies. It was discontinued in the early 1990s.
+
+The system features standard wireless controllers that communicated via infrared reception. </text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>VTech Socrates es una consola de videojuegos educativa de tercera generación lanzada por VTech en 1988. La consola fue nombrada en honor del antiguo filósofo griego Sócrates.
+
+El sistema estaba acompañado por un teclado inalámbrico estándar con un haz infrarrojo y dos controladores conectados a los cables superiores, así como un ratón inalámbrico. </text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>VTech Socrates</text>
+		</text>
+	</view>
+</theme>

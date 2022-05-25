@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
      <formatVersion>7</formatVersion>
      <view name="system">
@@ -13,7 +15,7 @@
                <showSnapshotDelay>false</showSnapshotDelay>
                <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
                <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
-               <delay>0.2</delay>
+               <delay>1</delay>
                <zIndex>70</zIndex>
                <audio ifSubset="video-system-audio:disable-audio">false</audio>
           </video>

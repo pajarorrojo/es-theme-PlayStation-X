@@ -1,9 +1,11 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
       <!-- CARRUSEL GRANDE -->
-      <carousel name="systemcarousel" ifSubset="carousel:big">
+      <carousel name="systemcarousel">
          <origin>0 0</origin>
          <logoScale>1.176</logoScale>
          <logoSize>0.315</logoSize>
@@ -26,14 +28,14 @@
          <maxLogoCount ifSubset="aspect-ratio:4-3">6</maxLogoCount>
       </carousel>
 
-      <image name="marco-activo" extra="true" ifSubset="carousel:big">
+      <image name="marco-activo" extra="static">
          <origin>0 0</origin>
          <pos>0.163 0.131</pos>
          <pos ifSubset="aspect-ratio:4-3">0.063 0.131</pos>
          <maxSize>0.445</maxSize>
       </image>
 
-      <text name="start" extra="true" ifSubset="carousel:big">
+      <text name="start" extra="true">
          <size>0.207 0.07</size>
          <size ifSubset="aspect-ratio:16-9">0.207 0.065</size>
          <size ifSubset="aspect-ratio:4-3">0.278 0.07</size>
@@ -51,7 +53,10 @@
          <fontSize>0.032</fontSize>
       </text>
 
-      <text name="system_name" extra="true" ifSubset="carousel:big">
+      <text name="system_name" extra="true">
+         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
+         <text>${system.name}</text> -->
+         <text>${system.fullName}</text>
          <pos>0.385 0.54</pos>
          <pos ifSubset="aspect-ratio:16-9">0.385 0.54</pos>
          <pos ifSubset="aspect-ratio:4-3">0.36 0.54</pos>
@@ -60,9 +65,7 @@
          <pos ifSubset="aspect-ratio:5-3">0.395 0.549</pos>
       </text>
 
-      <text name="fullName" extra="true" ifSubset="carousel:big">
-         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA -->
-         <text>${system.name}</text>
+      <text name="fullName" extra="true">
          <pos>0.166 0.135</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.135</pos>
          <pos ifSubset="aspect-ratio:4-3">0.067 0.135</pos>
@@ -77,7 +80,7 @@
          <fontSize>0.036</fontSize>
       </text>
 
-      <text name="manufacturerName" extra="static" ifSubset="carousel:big">
+      <text name="manufacturerName" extra="static">
          <pos>0.166 0.22</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.22</pos>
          <pos ifSubset="aspect-ratio:4-3">0.067 0.22</pos>

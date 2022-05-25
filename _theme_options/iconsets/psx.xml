@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
@@ -22,11 +24,7 @@
 	<view name="screen">
 
 		<controllerActivity name="controllerActivity">
-			<pos>0.003 0.941</pos>
-			<size>0.055</size>
-			<color>FFFFFF90</color>
 			<imagePath>./psx/controller.svg</imagePath>
-			<backgroundColor>000000</backgroundColor>
 		</controllerActivity>
 
 

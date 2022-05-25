@@ -1,4 +1,6 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 	<include>./theme.xml</include>
@@ -160,24 +162,22 @@
 		</image>
 
 		<image name="progressbar:active">
-			<pos>0.250 0.700</pos>
-			<size>-0.08 -0.386</size>
-			<rotation>0</rotation>
-			<rotationOrigin>1.1 1.6</rotationOrigin>
 			<color>${splash.progressbarActive}</color>
+			<colorEnd>${splash.progressbarActiveEnd}</colorEnd>
+			<gradientType>horizontal</gradientType>
 		</image>
 
 		<image name="linea-inferior" extra="true">
 			<path>./_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
 			<size>1 0.0011</size>
-
 			<size tinyScreen="true">1 0.005</size>
 			<backgroundColor>ff000000</backgroundColor>
 			<verticalAlignment>top</verticalAlignment>
 			<alignment>left</alignment>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>99</zIndex>
+			
 		</image>
 
 		<!-- listado de avatares-->

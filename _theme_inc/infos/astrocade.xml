@@ -1,26 +1,21 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
+
+		<text name="system_description" extra="true">
+			<text>The Bally Astrocade is a second-generation home video game console and simple computer system designed by a team at Midway, at that time the videogame division of Bally. 
+					
+It was originally announced as the "Bally Home Library Computer" in October 1977 and initially made available for mail order in December 1977.</text>
 		</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
+		<text name="system_description" extra="true" lang="es">
+			<text>La Bally Astrocade fue una videoconsola de segunda generación y un sencillo sistema de ordenador que se lanzó al mercado en 1978. Fue diseñada por un equipo de la Midway Games, en aquel momento la división de videojuegos de la Bally Manufactoring.</text>
 		</text>
-		
-				
+
 
 		<text name="system_name" extra="true">
 			<text>AstroCade</text>

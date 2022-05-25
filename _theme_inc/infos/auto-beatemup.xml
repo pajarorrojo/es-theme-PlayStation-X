@@ -1,9 +1,30 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+
+
+			<text name="system_description" extra="true" >
+				<text>Auto gamelist.
+
+Beat 'em up (also known as brawler and, in some markets, beat 'em all) is a video game genre featuring hand-to-hand combat between the protagonist and an improbably large number of opponents. Traditional beat 'em ups take place in scrolling, two-dimensional (2D) levels, while a number of modern games feature more open three-dimensional (3D) environments with yet larger numbers of enemies.
+
+			</text>
+	
+				</text>
+			
+
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Lista de juegos automática.
+				
+Del inglés Beat them up (Golpéalos). Juego de lucha donde el jugador se enfrenta a infinidad de enemigos, generalmente en combates cuerpo a cuerpo, mientras se desplaza por un escenario que avanza en una única dirección.
+
+Es habitual que puedan participar al menos dos jugadores de forma cooperativa y a menudo más. Suele desarrollarse por fases al final de las cuales hay un enemigo o jefe final de mayor dificultad que los enemigos comunes.
+		</text>
 		</text>
 
 		<text name="system_name" extra="true">

@@ -1,10 +1,31 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+An action game is a video game genre that emphasizes physical challenges, including hand-eye coordination and reaction-time. The genre includes a large variety of sub-genres, such as fighting games, beat 'em ups, shooter games, and platform games.
+
 		</text>
+
+			</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Género que se caracteriza porque el jugador debe hacer uso de su velocidad, destreza en el control y tiempo de reacción para avanzar. Se trata de un género muy amplio que abarca los juegos de disparos, los juegos de lucha y que da lugar a hibridaciones con casi cualquier otro tipo de género.			
+
+	</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Action</text>

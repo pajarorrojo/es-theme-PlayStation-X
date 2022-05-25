@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
    <formatVersion>7</formatVersion>
 
@@ -25,7 +27,7 @@
       </image>
 
 
-      <image name="logo" extra="true" region="eu"/>
+      <image name="logo" extra="true" region="eu" />
       <image name="logo" extra="true" region="us">
          <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
          <!--  svg -->
@@ -46,7 +48,7 @@
          <lineSpacing>1</lineSpacing>
          <verticalAlignment>center</verticalAlignment>
          <size>0.45 0.1</size>
-         <pos>-0.02 0.44</pos>
+         <pos>-0.01 0.452</pos>
          <color>${gamelistSelectedColor}26</color>
          <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
          <fontSize>0.070</fontSize>
@@ -56,14 +58,20 @@
 
 
       <textlist name="gamelist">
-         <pos>0.02 0.135</pos>
-         <size>0.42 0.81</size>
+         <pos ifSubset="anim-list:NO">0 0.134</pos>
+         <pos ifSubset="anim-list:YES">-0.5 0.134</pos>
+         <size>0.46 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
+         <selectorImagePath>./../_theme_inc/images/selector-lineas-blancas-transp50.png</selectorImagePath>
+         <horizontalMargin>0.015</horizontalMargin>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:4-3">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
          <fontSize>0.035</fontSize>
          <alignment>left</alignment>
          <lineSpacing>1.45</lineSpacing>
@@ -73,40 +81,56 @@
          <scrollbarCorner>0.005</scrollbarCorner>
          <scrollbarSize>0.0075</scrollbarSize>
          <zIndex>42</zIndex>
-         <storyboard>
-            <animation property="x" from="-0.5" duration="400" mode="easeOutCubic"/>
-            <animation property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
-          </storyboard>
       </textlist>
-      <image name="gridtile.favorite">
-         <path>./../_theme_inc/images/favorite-corner-left.svg</path>
-         <pos>0 0</pos>
-         <maxSize>0.25 0.25</maxSize>
-         <maxSize ifSubset="grid-origin:boxart|thumbnail">0.18 0.18</maxSize>
-         <horizontalAlignment>left</horizontalAlignment>
+
+      <!--
+   <gamecarousel name="gamecarousel">
+      <type>vertical_wheel</type>
+      <pos>0.5 0.5</pos>
+      <size>0.46 0.81</size>
+      <origin>0 0</origin>
+      <logoScale>3</logoScale>
+      <logoSize>0.300 0.24</logoSize>
+      <logoAlignment>center</logoAlignment>
+      <maxLogoCount>5</maxLogoCount>
+      <zIndex>99</zIndex>
+      <imageSource>marquee</imageSource>
+      <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
+      <logoRotation>-17</logoRotation>
+         <logoRotationOrigin>4.1 0.5</logoRotationOrigin>
+      </gamecarousel>    
+
+
+   <text name="gamecarouselLogoText">
+      <color>FFFFFF</color>
+      <selectorColor>${gamelistSelectorColor}</selectorColor>
+      <selectedColor>${gamelistSelectedColor}</selectedColor>
+      <lineSpacing>1.45</lineSpacing>
+      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+      <fontPath ifSubset="aspect-ratio:4-3">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+   <fontSize>0.035</fontSize>
+   </text>		
+     -->
+
+
+      <image name="linea-infos" extra="true">
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0.55 0.768</pos>
+         <size>0.420 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>555555</color>
          <verticalAlignment>top</verticalAlignment>
-         <origin>0 0</origin>
-         <color>F3C300</color>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>41</zIndex>
       </image>
 
-      <control name="md_name, md_image, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, md_boxart, md_marquee, md_thumbnail, md_boxback, md_fanart, md_titleshot,md_cartridge">
-         <clipRect>0 0.16 1 0.78</clipRect>
-         <storyboard event="open">
-           <animation property="offsetX" from="0.5" to="0" duration="400" mode="easeOutCubic"/>
-           <animation property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
-         </storyboard>
-      </control>
-
-
-      <image name="background" extra="true">
+      <image name="background" extra="static">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
          <zIndex>41</zIndex>
          <linearSmooth>true</linearSmooth>
-         <storyboard>
-            <animation property="opacity" from="0.5" to="1" duration="500" mode="easeOut"/>
-          </storyboard>
       </image>
 
       <image name="background-art" extra="true">
@@ -117,7 +141,7 @@
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="background-art" extra="true" region="eu"/>
+      <image name="background-art" extra="true" region="eu" />
       <image name="background-art" extra="true" region="us">
          <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
       </image>
@@ -127,9 +151,9 @@
 
       <rating name="md_rating">
          <pos>0.825 0.705</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.825 0.705</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.834 0.705</pos>
          <pos ifSubset="aspect-ratio:4-3">0.825 0.655</pos>
-         <size>0.05 0.05</size>
+         <size>0.04 0.04</size>
          <size ifSubset="aspect-ratio:16-9|16-10">0.05 0.05</size>
          <size ifSubset="aspect-ratio:4-3">0.04 0.04</size>
          <unfilledColor>${starUnfill}</unfilledColor>
@@ -185,7 +209,7 @@
          <color>ffffff</color>
          <pos>0.55 0.780</pos>
          <pos ifSubset="aspect-ratio:4-3">0.55 0.730</pos>
-         <size>0.430 0.155</size>
+         <size>0.430 0.126</size>
          <size ifSubset="aspect-ratio:4-3">0.430 0.185</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.028</fontSize>
@@ -194,6 +218,36 @@
          <backgroundColor>0000FF00</backgroundColor>
          <forceUppercase tinyScreen="true">true</forceUppercase>
          <zIndex>42</zIndex>
+      </text>
+
+      <image name="linea-inferior" extra="static">
+         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>${sistema.lineainferior}</color>
+			<gradientType>horizontal</gradientType>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="pie-barra" extra="static">
+         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.2</size>
+         <color>${sistema.pie}</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>98</zIndex>
+      </image>
+
+      <text name="md_description,md_genre, md_developer">
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
       </text>
 
    </view>

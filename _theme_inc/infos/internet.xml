@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards.</text>
+			</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>Mozilla Firefox (o simplemente Firefox) es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>Mozilla Firefox est un navigateur web libre et gratuit disponible pour PC (Windows, macOS, Linux, BSD, etc.) et mobiles (Android, iOS), développé et distribué par la Mozilla Foundation depuis 2003, avec l'aide de milliers de bénévoles. L'entreprise Mozilla Corporation est créée en 2005 pour se charger du développement. </text>
+		</text>
+
+	
+		<text name="system_description" extra="true" lang="pt">
+				<text>Mozilla Firefox é um navegador livre e multiplataforma desenvolvido pela Mozilla Foundation com ajuda de centenas de colaboradores. A intenção da fundação é desenvolver um navegador leve, seguro, intuitivo e altamente extensível. Baseado no componente de navegação da Mozilla Application Suite, o Firefox tornou-se o objetivo principal da Mozilla Foundation. Cerca de 40% do código do programa foi totalmente escrito por voluntários.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Internet</text>
+		</text>
+	</view>
+</theme>

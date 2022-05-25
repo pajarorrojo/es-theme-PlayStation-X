@@ -1,0 +1,16 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables>
+      <menuSelectedColor>ffffff</menuSelectedColor>
+      <menuSelectorColor>007200a6</menuSelectorColor>
+      <menuSelectorColorEnd>007200</menuSelectorColorEnd>
+      <sistema.lineainferior>007200</sistema.lineainferior>
+      <splash.progressbarActive>007200</splash.progressbarActive>
+      <gamelistSelectorColor>007200</gamelistSelectorColor>
+      <backgroundgridSelect>007200</backgroundgridSelect>
+   </variables>
+
+</theme>

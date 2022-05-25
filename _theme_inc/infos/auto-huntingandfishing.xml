@@ -1,10 +1,26 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+In this type of video game the player basically fishes or hunts. Usually they take the form of tournaments and many have a wide variety of places to catch and collect the largest number of pieces.			
+	</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+En este tipo de videojuegos el jugador basicamente pesca o caza. En general suelen adoptar la forma de torneos y muchos cuentan con una amplia variedad de lugares en los que atrapar y coleccionar el mayor numero de piezas.
+	</text>
+		</text>
+	
 
 		<text name="system_name" extra="true">
 			<text>Hunting and fishing</text>

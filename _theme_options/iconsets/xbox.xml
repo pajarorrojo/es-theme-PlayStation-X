@@ -1,4 +1,6 @@
-<!-- Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
@@ -20,10 +22,8 @@
 	</view>
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
-			<pos>0.01 0.9415</pos>
-			<size>0.055</size>
-			<color>FFFFFF90</color>
 			<imagePath>./xbox/controller.svg</imagePath>
+			<itemSpacing>0.005</itemSpacing>
 		</controllerActivity>
 
 	</view>

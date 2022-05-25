@@ -1,45 +1,55 @@
-﻿<!-- Theme by pajarorrojo-->
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
-  <formatVersion>7</formatVersion>
+	<formatVersion>7</formatVersion>
 	<variables>
-  		<theme.welcome>Welcome to Playstation X for</theme.welcome>
-    	<theme.start>Start</theme.start>
-	  	<theme.mostplayed>Most played:</theme.mostplayed>
-	  	<GamesNumber>Games</GamesNumber>
-	  	<GamesFavs>Favorites</GamesFavs>
-	  	<NumberPlayed>Played</NumberPlayed>
-    	<blue>blue</blue>
-    	<black>black</black>
-    	<big>big</big>
-    	<medium>medium</medium>
-    	<small>small</small>
-    	<yes>yes</yes>
-    	<no>No</no>
-    	<none>None</none>
+		<theme.welcome>Welcome to Playstation X for</theme.welcome>
+		<theme.start>Start</theme.start>
+		<theme.mostplayed>Most played:</theme.mostplayed>
+		<GamesNumber>Games</GamesNumber>
+		<GamesFavs>Favorites</GamesFavs>
+		<NumberPlayed>Played</NumberPlayed>
+		<blue>blue</blue>
+		<black>black</black>
+		<red>red</red>
+		<yellow>yellow</yellow>
+		<green>green</green>
+		<purple>purple</purple>
+		<orange>orange</orange>
+		<pink>pink</pink>
+		<default>default</default>
+		<big>big</big>
+		<medium>medium</medium>
+		<small>small</small>
+		<yes>yes</yes>
+		<no>No</no>
+		<none>None</none>
 		<never>Never</never>
-    	<always>Always</always>
-	    <iconset>iconset</iconset>
-    	<theme.frontend>Select your favorite frontend</theme.frontend>
-    	<gameBar>Show gamebar info</gameBar>
-	  	<CarouselImageSize>Carousel Image Size</CarouselImageSize>
-	  	<theme.videoBackground>Show videos in system view</theme.videoBackground>
-	  	<theme.system-description>Show System descriptions</theme.system-description>
-	  	<theme.animated-background>Animated background (waves)</theme.animated-background>
-	  	<theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
+		<always>Always</always>
+		<iconset>iconset</iconset>
+		<theme.frontend>Select your favorite frontend</theme.frontend>
+		<gameBar>Show gamebar info</gameBar>
+		<CarouselImageSize>Carousel Image Size</CarouselImageSize>
+		<theme.videoBackground>Show videos in system view</theme.videoBackground>
+		<theme.system-description>Show System descriptions</theme.system-description>
+		<theme.animated-background>Animated background (waves)</theme.animated-background>
+		<theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
 		<theme.windowVideoOption>Video window</theme.windowVideoOption>
 		<theme.insideVideoOption>Video inside the tile</theme.insideVideoOption>
-    	<theme.smallScreenOption>Small Screen</theme.smallScreenOption>
-    	<theme.videoaudio>Enable audio on system videos</theme.videoaudio>
+		<theme.smallScreenOption>Small Screen</theme.smallScreenOption>
+		<theme.videoaudio>Enable audio on system videos</theme.videoaudio>
 		<theme.videoRandom>Show Random videosnap</theme.videoRandom>
-    	<ifnospot>If no system video exist</ifnospot>
-	  	<theme.Avatar>Choose your Avatar image</theme.Avatar>
-	  	<theme.username>Choose a Nick</theme.username>
-    	<custom>custom</custom>
-	  	<theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
-	  	<VideoOff>Video Off</VideoOff>    
-	  	<theme.systemConsole>Show logo and consoles in system view</theme.systemConsole>
-	  	<randomGame>Random Game</randomGame>
+		<ifnospot>If no system video exist</ifnospot>
+		<theme.Avatar>Choose your Avatar image</theme.Avatar>
+		<theme.username>Choose a Nick</theme.username>
+		<custom>custom</custom>
+		<theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
+		<VideoOff>Video Off</VideoOff>
+		<theme.systemConsole>Show logo and consoles in system view</theme.systemConsole>
+		<randomGame>Random Game</randomGame>
 		<theme.colorset>Theme Colorset</theme.colorset>
+		<theme.secondaryColorset>Secondary color</theme.secondaryColorset>
 		<theme.gridorigin>Image source in grid</theme.gridorigin>
 		<theme.gridMainorigin>Main image source in grid view</theme.gridMainorigin>
 		<theme.detailedorigin>Image source in detailed view</theme.detailedorigin>
@@ -51,5 +61,5 @@
 		<theme.aspect-ratio>Select your screen type</theme.aspect-ratio>
 		<theme.aspect-1610>16:10 WXGA (usual in laptops)</theme.aspect-1610>
 		<theme.oversizeVideoOption>Oversize video</theme.oversizeVideoOption>
-    </variables>
+	</variables>
 </theme>

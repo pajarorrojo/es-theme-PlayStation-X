@@ -1,8 +1,12 @@
-<!--Theme by pajarorrojo-->
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme defaultTransition="instant">
 
 
 	<formatVersion>7</formatVersion>
+
+
 	<!--PERSONALIZACION-->
 	<include>./custom-username.xml</include>
 	<include>./_theme_options/usernames.xml</include>
@@ -46,6 +50,20 @@
 		<include name="black" displayName="${black}" tinyScreen="false">./_theme_options/colorsets/black.xml</include>
 	</subset>
 
+	<!--JUEGO DE COLORES SECUNDARIOS-->
+	<subset name="secondary_colorset" displayName="${theme.secondaryColorset}">
+		<include name="default" displayName="${none} (${default})" />
+		<include name="red" displayName="${red}">./_theme_options/colorsets/secondary_colors/red.xml</include>
+		<include name="yellow" displayName="${yellow}">./_theme_options/colorsets/secondary_colors/yellow.xml</include>
+		<include name="green" displayName="${green}">./_theme_options/colorsets/secondary_colors/green.xml</include>
+		<include name="blue" displayName="${blue}">./_theme_options/colorsets/secondary_colors/blue.xml</include>
+		<include name="black" displayName="${black}">./_theme_options/colorsets/secondary_colors/black.xml</include>
+		<include name="purple" displayName="${purple}">./_theme_options/colorsets/secondary_colors/purple.xml</include>
+		<include name="orange" displayName="${orange}">./_theme_options/colorsets/secondary_colors/orange.xml</include>
+		<include name="pink" displayName="${pink}">./_theme_options/colorsets/secondary_colors/pink.xml</include>
+
+	</subset>
+
 	<!--AVATARES-->
 	<subset name="system-avatar" displayName="${theme.Avatar}">
 		<include name="batocera" displayName="Batocera" />
@@ -66,6 +84,7 @@
 		<include name="dragons-lair" displayName="Dragon's Lair" />
 		<include name="emulationstation" displayName="Emulation Station" />
 		<include name="fatalfury" displayName="Fatal Fury (Terry)" />
+		<include name="finalfight" displayName="Final Fight (Guy)" />
 		<include name="goku" displayName="Goku" />
 		<include name="halo" displayName="Halo" />
 		<include name="he-man" displayName="HE-MAN" />
@@ -76,11 +95,13 @@
 		<include name="lemmings" displayName="Lemmings" />
 		<include name="zelda" displayName="Link (Zelda)" />
 		<include name="mario" displayName="Mario Bros." />
+		<include name="mazinger" displayName="Mazinger Z" />
 		<include name="megaman" displayName="Mega-Man" />
 		<include name="metal-gear" displayName="Metal Gear" />
 		<include name="metalslug" displayName="Metal Slug" />
 		<include name="metroid" displayName="Metroid" />
 		<include name="monkeyisland" displayName="Monkey Island" />
+		<include name="nanaki" displayName="Nanaki (FFVII)" />
 		<include name="outrun" displayName="OutRun" />
 		<include name="pacman" displayName="Pac-Man" />
 		<include name="pacman-clyde" displayName="Pac-Man Clyde" />
@@ -92,15 +113,22 @@
 		<include name="ps-logo" displayName="PlayStation Logo" />
 		<include name="astrobot" displayName="PSN Astro Bot" />
 		<include name="retroship" displayName="PSN Retro Ship" />
+		<include name="q-bert" displayName="Q-Bert" />
+		<include name="rastan" displayName="Rastan" />
 		<include name="recalbox" displayName="Recalbox" />
 		<include name="retroachievements" displayName="Retroachievements Default" />
 		<include name="retrobat" displayName="Retrobat" />
 		<include name="retropie" displayName="Retropie" />
+		<include name="robocop" displayName="Robocop" />
+		<include name="rollingthunder" displayName="Rolling Thunder" />
 		<include name="shenmue" displayName="Ryo Hazuki (Shenmue)" />
 		<include name="ryu" displayName="Ryu (Street Fighter 2)" />
 		<include name="sephirot" displayName="Sephirot" />
 		<include name="sonic" displayName="Sonic" />
+		<include name="strider" displayName="Strider" />
 		<include name="superhangon" displayName="Super Hang-On" />
+		<include name="superpang" displayName="Super Pang" />
+		<include name="willow" displayName="Willow" />
 		<include name="wonderboy" displayName="Wonderboy" />
 	</subset>
 
@@ -138,13 +166,13 @@
 
 	<!--SETS DE ICONOS-->
 	<subset name="iconset" displayName="${iconset}">
-		<include name="1-PSX">./_theme_options/iconsets/psx.xml</include>
-		<include name="2-PSX-light">./_theme_options/iconsets/psx-light.xml</include>
-		<include name="3-PSX-color">./_theme_options/iconsets/psx-color.xml</include>
-		<include name="4-PSX-color 2">./_theme_options/iconsets/psx-color-2.xml</include>
-		<include name="5-XBOX">./_theme_options/iconsets/xbox.xml</include>
-		<include name="6-SNES">./_theme_options/iconsets/snes.xml</include>
-		<include name="7-ARCADE">./_theme_options/iconsets/arcade.xml</include>
+		<include name="psx" displayName="1-PSX">./_theme_options/iconsets/psx.xml</include>
+		<include name="psx-light" displayName="2-PSX LIGHT">./_theme_options/iconsets/psx-light.xml</include>
+		<include name="psx-color" displayName="3-PSX COLOR">./_theme_options/iconsets/psx-color.xml</include>
+		<include name="psx-color-2" displayName="4-PSX COLOR 2">./_theme_options/iconsets/psx-color-2.xml</include>
+		<include name="xbox" displayName="5-XBOX">./_theme_options/iconsets/xbox.xml</include>
+		<include name="snes" displayName="6-SNES">./_theme_options/iconsets/snes.xml</include>
+		<include name="arcade" displayName="7-ARCADE">./_theme_options/iconsets/arcade.xml</include>
 	</subset>
 
 
@@ -216,6 +244,7 @@
 	<!--OPCIONES DE VISTA CUADRICULA-->
 	<subset name="grid-main-origin" displayName="${theme.gridMainorigin}" appliesTo="grid">
 		<include name="image" displayName="image" />
+		<include name="thumbnail" displayName="thumbnail" />
 		<include name="titleshot" displayName="titleshot" />
 		<include name="marquee" displayName="marquee" />
 		<include name="boxart" displayName="boxart" />
@@ -225,9 +254,8 @@
 	</subset>
 
 	<subset name="grid-origin" displayName="${theme.gridorigin}" appliesTo="grid">
-		<include name="thumbnail" displayName="thumbnail" tinyScreen="true" />
+		<include name="thumbnail" displayName="thumbnail" />
 		<include name="image" displayName="image" />
-		<include name="thumbnail" displayName="thumbnail" tinyScreen="false" />
 		<include name="titleshot" displayName="titleshot" />
 		<include name="marquee" displayName="marquee" />
 		<include name="boxart" displayName="boxart" />
@@ -245,8 +273,6 @@
 		<include tinyScreen="false" name="oversize" displayName="${theme.oversizeVideoOption}" />
 		<include name="inside" displayName="${theme.insideVideoOption}" />
 		<include ifArch="rpi3,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="off" displayName="${VideoOff}" />
-
-
 	</subset>
 
 	<!--AUDIO VIDEOSNAP ON/OFF-->
@@ -297,7 +323,7 @@
 
 		<!--VERSION-->
 		<text name="version" extra="true">
-			<text>V.33.2</text>
+			<text>V.34</text>
 			<pos>0.9435 0.951</pos>
 			<color>444444</color>
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -327,6 +353,8 @@
 			<color>${menuFontcolor}</color>
 			<separatorColor>${menuSeparatorColor}</separatorColor>
 			<selectorColor>${menuSelectorColor}</selectorColor>
+			<selectorColorEnd>${menuSelectorColorEnd}</selectorColorEnd>
+			<selectorGradientType>horizontal</selectorGradientType>
 			<selectedColor>${menuSelectedColor}</selectedColor>
 		</menuText>
 
@@ -342,9 +370,9 @@
 
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.021</fontSize>
+			<fontSize>0.0186</fontSize>
 			<fontSize tinyScreen="true">0.025</fontSize>
-
+			<forceUppercase tinyScreen="true">true</forceUppercase>
 			<color>ffffff</color>
 		</menuTextSmall>
 
@@ -410,8 +438,18 @@
 
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
+			<color>FFFFFF90</color>
 			<activityColor>F3C30069</activityColor>
 			<hotkeyColor>FF000069</hotkeyColor>
+			<pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.031 0.941</pos>
+			<size ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.055</size>
+			<pos ifSubset="iconset:snes">0.031 0.941</pos>
+			<size ifSubset="iconset:snes">0.05</size>
+			<pos ifSubset="iconset:arcade">0.05 0.943</pos>
+			<size ifSubset="iconset:arcade">0.042</size>
+
+
+			<horizontalAlignment>right</horizontalAlignment>
 		</controllerActivity>
 
 		<controllerActivity name="controllerActivity" tinyScreen="true">
@@ -434,4 +472,16 @@
 	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
 	<include tinyScreen="true">./_theme_options/force-gridview.xml</include>
 
+
+	<!-- COLORES MAESTROS -->
+
+	<variables>
+		<psx-theme-yellow>F3C300</psx-theme-yellow>
+		<psx-theme-red>DF0024</psx-theme-red>
+		<psx-theme-green>00AC97</psx-theme-green>
+		<psx-theme-blue1>3CAEFB</psx-theme-blue1>
+		<psx-theme-blue2>0070d1</psx-theme-blue2>
+		<psx-theme-blue3>2E6DB4</psx-theme-blue3>
+		<psx-theme-blue4>003791</psx-theme-blue4>
+	</variables>
 </theme>

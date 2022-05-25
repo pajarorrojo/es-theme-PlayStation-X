@@ -1,0 +1,31 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+				
+				<text name="system_description" extra="true">
+				<text>Linux® is an open source operating system (OS). An operating system is the software that directly manages a system’s hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>Linux es un sistema operativo, como Windows y Mac OS, que permite ejecutar programas en una computadora y otros dispositivos. Linux se puede modificar y distribuir libremente.
+
+</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>Linux est un système d'exploitation, comme Windows et Mac OS, qui permet d'exécuter des programmes sur un ordinateur et d'autres appareils. Linux peut être librement modifié et distribué.</text>
+		</text>
+
+	
+				<text name="system_description" extra="true" lang="pt">
+				<text>Linux é um Sistema Operacional, assim como o Windows e o Mac OS, que possibilita a execução de programas em um computador e outros dispositivos. Linux pode ser livremente modificado e distribuído.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Linux</text>
+		</text>
+	</view>
+</theme>

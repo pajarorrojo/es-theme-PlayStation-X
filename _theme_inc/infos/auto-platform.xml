@@ -1,10 +1,25 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true">
-			<text></text>
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+A platform game (often simplified as platformer or jump 'n' run games) is a video game genre and subgenre of action games in which the core objective is to move the player character between points in a rendered environment. Platform games are characterized by their level design featuring uneven terrain and suspended platforms of varying height that requires use of the player character's abilities, such as jumping and climbing, to navigate the player's environment and reach their goal. 
+			</text>
 		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Género de habilidad donde el jugador controla un personaje que debe avanzar a través de un escenario superando diversos obstáculos y enemigos mediante saltos, rebotes, balanceos y en general todo tipo de movimientos acrobáticos, a veces potenciados o ayudados por elementos del propio entorno u objetos especiales que debe recoger.
+		</text>
+	</text>
 
 		<text name="system_name" extra="true">
 			<text>Platform</text>
