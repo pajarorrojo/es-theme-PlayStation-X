@@ -2,14 +2,14 @@ Version 34 (25/05/2022)
 
 
 - UX/UI: New theme option: Secondary color scheme for selectors and some theme layout's details. Colors available:
- - Red
- - Green
- - Yellow
- - Blue
- - Black
- - Purple
- - Orange
- - Pink
+  - Red
+  - Green
+  - Yellow
+  - Blue
+  - Black
+  - Purple
+  - Orange
+  - Pink
 - UX/UI: New carousel system animation (from bottom to top) when opening 
 - UX/UI: Improved the logo zoom animation when entering a game list
 - UX/UI: New game selector in detailed gamelist with upper and bottom color lines, more clear 
