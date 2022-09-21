@@ -13,11 +13,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
          <alignment>left</alignment>
          <size>0.075 0.038</size>
-         <fontSize>0.032</fontSize>
+         <fontSize>0.03</fontSize>
          <fontSize tinyScreen="true">0.027</fontSize>
-         <pos>0.922 0.043</pos>
-         <pos ifSubset="aspect-ratio:3-2|16-10|5-3">0.936 0.043</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.916 0.043</pos>
+         <pos>0.922 0.063</pos>
+         <pos ifSubset="aspect-ratio:16-9">0.94 0.063</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-10|5-3">0.936 0.063</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.916 0.063</pos>
          <color>ffffff</color>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>

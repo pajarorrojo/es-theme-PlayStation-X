@@ -1,0 +1,18 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+
+   <view name="system">
+
+
+      <text name="systemInfoEx" extra="true">
+         <text>{binding:total} ${GamesNumber} | {binding:gamesPlayed} ${NumberPlayed}</text>
+
+      </text>
+
+      
+   </view>
+</theme>

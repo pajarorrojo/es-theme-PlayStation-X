@@ -37,5 +37,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
          <zIndex>99</zIndex>
       </text>
+
+      <text name="systemInfoEx_extra" extra="true">
+         <text>({binding:total} items) </text>
+         <alignment>left</alignment>
+         <pos>0.222 0.045</pos>
+         <size>0.398 0.055</size>
+         <color>FFFFFF</color>
+         <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.030</fontSize>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <backgroundColor>ff000000</backgroundColor>
+         <zIndex>99</zIndex>
+      </text>
    </view>
 </theme>
