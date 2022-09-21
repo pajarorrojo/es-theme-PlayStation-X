@@ -10,15 +10,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
          <tile>false</tile>
          <linearSmooth>true</linearSmooth>
-         <zIndex>0</zIndex>
       </image>
 
       <image name="logo" extra="true" region="us">
+         <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
          <zIndex></zIndex>
       </image>
 
       <image name="logo" extra="true" region="jp">
+         <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
       </image>
 
@@ -47,7 +48,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>center</alignment>
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <zIndex>46</zIndex>
       </text>
 
@@ -57,24 +58,25 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <zIndex>45</zIndex>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <fontSize>0.068</fontSize>
          <fontSize ifSubset="aspect-ratio:16-9">0.068</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3">0.055</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4">0.055</fontSize>
          <fontSize ifSubset="aspect-ratio:3-2">0.06</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.042</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.042</fontSize>
+         <fontSize ifSubset="aspect-ratio:3-2" tinyScreen="true">0.046</fontSize>
+
          <fontSize ifSubset="aspect-ratio:16-10">0.066</fontSize>
          <backgroundColor>ff000000</backgroundColor>
+         
 
       </text>
 
       <text name="fullName" extra="true">
-         <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
-         <text>${system.name}</text> -->
          <text>${system.name}</text>
          <alignment>center</alignment>
          <color>FFFFFF</color>

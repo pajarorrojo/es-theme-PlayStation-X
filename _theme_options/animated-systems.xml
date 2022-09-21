@@ -84,8 +84,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <pos ifSubset="carousel:medium">0.164 0.136</pos>
       <pos ifSubset="carousel:small">0.165 0.134</pos>
 
-      <pos ifSubset="aspect-ratio:4-3,carousel:big">0.068 0.136</pos>
-      <pos ifSubset="aspect-ratio:4-3,carousel:medium|small">0.066 0.136</pos>
+      <pos ifSubset="aspect-ratio:4-3|5-4,carousel:big">0.068 0.136</pos>
+      <pos ifSubset="aspect-ratio:4-3|5-4,carousel:medium|small">0.066 0.136</pos>
 
 
       <maxSize ifSubset="carousel:big">0.3685</maxSize>

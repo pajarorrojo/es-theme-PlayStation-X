@@ -34,14 +34,16 @@ Hope you enjoy! any suggestion is fully welcomed.
 
 ### COMPATIBLE WITH MULTIPLE SCREEN ASPECT RATIOS
 
-Theme Compatible with common used aspect ratios including tiny screens (version 33 and later). Dont forget to select your correct display type in theme settings to avoid display issues. 
-
-You can choose between the following options.
+Theme Compatible with common used aspect ratios including tiny screens, the theme automatically adjusts to the next compatible screen resolutions: 
 - 4:3 
 - 16:9 
 - 16:10 
 - 3:2
-- 5:3 
+- 5:3
+- 5:4 
+
+NOTE: the automatic adjustment is only compatible with batocera 35 or higher, if you use an older version of batocera, Dont forget to select your correct display type in theme settings to avoid display issues. 
+
 
 ### HOW TO CHANGE CUSTOM AVATAR AND USERNAME?
 
@@ -95,12 +97,15 @@ Cualquier sugerencia es bienvenida.
 
 ### COMPATIBLE CON MULTIPLES FORMATOS DE PANTALLA
 
-Desde la versión 33, el tema es compatible con los formatos de pantalla más comunes y para pequeñas pantallas. No olvides seleccionar el tipo de pantalla (relación de aspecto) en la configuración del tema, puedes elegir entre las siguientes opciones.
-- 4:3 Standard
-- 16:9 Widescreen
-- 16:10 
-- 3:2 
-- 5:3 
+Desde la versión 33, el tema es compatible con los formatos de pantalla más comunes y para pequeñas pantallas. El tema se ajusta automáticamente a las siguientes resoluciones de pantalla compatibles:
+- 4:3
+- 16:9
+- 16:10
+- 3:2
+- 5:3
+- 5:4
+
+NOTA: El ajuste automático solo es compatible con batocera 35 o superior, si usas una versión anterior de batocera, no olvides seleccionar el tipo de pantalla correcto en la configuración del tema para evitar problemas de visualización.
 
 
 

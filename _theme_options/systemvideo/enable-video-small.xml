@@ -9,7 +9,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <pos>0.02 0.612</pos>
                <roundCorners>0.02</roundCorners>
                <size>0.212 0.25</size>
-               <size ifSubset="aspect-ratio:4-3">0.22 0.22</size>
+               <size ifSubset="aspect-ratio:4-3|5-4">0.22 0.22</size>
                <size ifSubset="aspect-ratio:16-9|16-10">0.212 0.25</size>
                <showSnapshotNoVideo>false</showSnapshotNoVideo>
                <showSnapshotDelay>false</showSnapshotDelay>

@@ -7,6 +7,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.welcome>Bienvenue sur Playstation X pour</theme.welcome>
     <theme.start>Démarrer</theme.start>
     <theme.mostplayed>Les plus joués :</theme.mostplayed>
+    <theme.items>Nombre d'élements :</theme.items>
+		<theme.collections>Nombre de collections :</theme.collections>
     <GamesNumber>Joués</GamesNumber>
     <GamesFavs>Favoris</GamesFavs>
     <NumberPlayed>Joueurs</NumberPlayed>
@@ -57,5 +59,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.animatedSystem>Transition de la liste de système animée</theme.animatedSystem>
     <theme.aspect-ratio>Sélectionnez type d'écran</theme.aspect-ratio>
     <theme.aspect-1610>16:10 WXGA (habituel dans les vieux portables)</theme.aspect-1610>
+    <theme.bato35compatilble>Uniquement compatible avec batocera 35 ou supérieur</theme.bato35compatilble>
   </variables>
 </theme>

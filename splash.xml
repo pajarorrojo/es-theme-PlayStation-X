@@ -50,12 +50,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Region: America</text>
 		</text>
 
+		<text name="version" extra="true">
+			<text>V.35</text>
+			<pos>0.02 0.951</pos>
+			<color>999999</color>
+			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.0220</fontSize>
+			<alignment>left</alignment>
+			<zIndex>99</zIndex>
+		</text>
+
 
 		<image name="logo-splash" extra="true">
 			<origin>0 0</origin>
 			<pos>0.03 0.05</pos>
 			<maxSize>0.25 0.25</maxSize>
-			<maxSize ifSubset="aspect-ratio:4-3">0.2 0.2</maxSize>
+			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.2 0.2</maxSize>
 			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
 			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
 			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
@@ -63,13 +73,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<linearSmooth>true</linearSmooth>
 		</image>
 
-		<image name="info-ico-ratio" extra="true">
+		<image name="info-ico-ratio" extra="true" if="{screen.ratio} == '0/0'">
 			<path ifSubset="aspect-ratio:16-9">./_theme_inc/images/16-9.svg</path>
-			<path ifSubset="aspect-ratio:4-3">./_theme_inc/images/4-3.svg</path>
+			<path ifSubset="aspect-ratio:4-3|5-4">./_theme_inc/images/4-3|5-4.svg</path>
 			<path ifSubset="aspect-ratio:16-10">./_theme_inc/images/16-10.svg</path>
 			<path ifSubset="aspect-ratio:3-2">./_theme_inc/images/3-2.svg</path>
 			<path ifSubset="aspect-ratio:5-3">./_theme_inc/images/5-3.svg</path>
-
+			<path ifSubset="aspect-ratio:5-4">./_theme_inc/images/5-4.svg</path>
 			<origin>0 0</origin>
 			<linearSmooth>true</linearSmooth>
 			<maxSize>0.08 0.08</maxSize>
@@ -78,6 +88,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos tinyScreen="true">0.87 0.78</pos>
 			<color>ffffff40</color>
 		</image>
+
 
 		<text name="welcome" extra="true">
 			<text ifSubset="frontend:batocera">${theme.welcome} Batocera</text>
@@ -91,8 +102,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<color>ffffff</color>
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.04</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3">0.038</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.03</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.038</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.03</fontSize>
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
@@ -144,7 +155,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0 0.703</pos>
 			<color>${splash.labelColor}</color>
 			<fontSize>0.030</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.023</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.023</fontSize>
 
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>

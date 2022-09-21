@@ -3,6 +3,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
 	<formatVersion>7</formatVersion>
+
+
 	<view name="basic, detailed">
 
 
@@ -20,7 +22,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.49 0.76</pos>
 			<alignment>center</alignment>
 			<fontSize>0.042</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.035</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.035</fontSize>
 			<color>808080</color>
 			<zIndex>100</zIndex>
 		</text>
@@ -74,7 +76,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.965 0.260</pos>
 			<alignment>center</alignment>
 			<fontSize>0.034</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.033</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.033</fontSize>
 			<color>Ffffff</color>
 			<zIndex>100</zIndex>
 		</text>
@@ -129,5 +131,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 			</storyboard>
 		</image>
+		<!--
+	<view name="basic, detailed, grid">
+		<image name="md_flag, md_players, md_manual, md_nomanual, md_savestate,md_nosavestate" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
+			<visible>false</visible>
+		</image>
+	</view>
+-->
 	</view>
 </theme>

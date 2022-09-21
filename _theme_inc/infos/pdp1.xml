@@ -1,0 +1,28 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="system_description" extra="true">
+			<text>The PDP-1 (Programmed Data Processor-1) is the first computer in Digital Equipment Corporation's PDP series and was first produced in 1959. It is famous for being the computer most important in the creation of hacker culture at MIT, BBN and elsewhere.
+				
+The PDP-1 is the original hardware for playing history's first game on a minicomputer, Steve Russell's Spacewar!</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>PDP-1 (Programmed Data Processor-1) fue la primera computadora de la serie PDP de la Digital Equipment, producida por primera vez en 1960. Es famosa por ser la computadora más importante en la creación de la cultura hacker en el MIT, BBN y en otras partes. 
+				
+La PDP-1 fue también el hardware original donde se jugó el primer videojuego computarizado de la historia, el Spacewar de Steve Russell. </text>
+		</text>
+
+
+				
+		
+		<text name="system_name" extra="true">
+			<text>PDP-1</text>
+		</text>
+	</view>
+</theme>

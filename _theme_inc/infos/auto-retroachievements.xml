@@ -7,8 +7,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		
-				<text name="system_description" extra="true" >
-			<text>A list of all Retroachivements compatible games available on the system.</text>
+		<text name="system_description" extra="true" >
+			<text>An automatic list of all Retroachivements compatible games available on the system.</text>
 		</text>
 		
 		<text name="system_description" extra="true" lang="es" >
@@ -20,7 +20,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 				<text name="system_description" extra="true" lang="pt">
-			<text>Uma lista de todos os jogos compatíveis com Retroachivements disponíveis no sistema. </text>
+			<text>Uma lista automática de todos os jogos compatíveis com Retroachivements disponíveis no sistema. </text>
 		</text>
 		
 						

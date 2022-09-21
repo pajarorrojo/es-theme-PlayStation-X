@@ -1,3 +1,19 @@
+Version 35 (21/09/2022)
+
+- Now theme can detect the aspect ratio and automatically adjust to the following types of screens (requires Batocera 35 or higher)
+   - 16:9 widescreen
+   - 4:3 standard
+   - 16:10
+   - 3:2
+   - 5:3
+   - 5:4 (new option!)
+- Added ticker scroll effect to username, developer, year, game title and game genre when the string are too long
+-  New: Now you can choose your Netplay ID as displayed username in theme option (requires Batocera 35 or higher and Netplay enabled)
+- Remove: Some text glows for weak devices for a better performance
+- Added: Medias data and / or infos for Library, Od-commander, PDP-1, Atari 8 Bits, Lightguns, Vtech Laser 310, Video computer 4000 and Game Park 32 systems
+
+
+-----------------------
 Version 34 (25/05/2022)
 
 

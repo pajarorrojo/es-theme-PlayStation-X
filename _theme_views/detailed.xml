@@ -43,6 +43,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
       </image>
 
+
       <text name="logoText" extra="true">
          <alignment>right</alignment>
          <lineSpacing>1</lineSpacing>
@@ -68,10 +69,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|5-4">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
+         <glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+         <glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
          <fontSize>0.035</fontSize>
          <alignment>left</alignment>
          <lineSpacing>1.45</lineSpacing>
@@ -107,23 +108,29 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <selectedColor>${gamelistSelectedColor}</selectedColor>
       <lineSpacing>1.45</lineSpacing>
       <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-      <fontPath ifSubset="aspect-ratio:4-3">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+      <fontPath ifSubset="aspect-ratio:4-3|5-4">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
    <fontSize>0.035</fontSize>
    </text>		
      -->
 
+      <!--
+      <rating name="md_rating" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
+         <visible>false</visible>
+      </rating>
 
-      <image name="linea-infos" extra="true">
-         <path>./_theme_inc/images/pixel-blanco.png</path>
-         <pos>0.55 0.768</pos>
-         <size>0.420 0.0011</size>
-         <size tinyScreen="true">1 0.005</size>
-         <color>555555</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>41</zIndex>
+            <datetime name="md_releasedate" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer'">
+         <visible>false</visible>
+      </datetime>
+
+            <text name="md_developer, md_genre" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer'">
+         <visible>false</visible>
+      </text>
+
+            <image name="linea-infos" extra="static" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer'">
+         <visible>false</visible>
       </image>
+   -->
+
 
       <image name="background" extra="static">
          <origin>0 0</origin>
@@ -152,10 +159,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <rating name="md_rating">
          <pos>0.825 0.705</pos>
          <pos ifSubset="aspect-ratio:16-9|16-10">0.834 0.705</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.825 0.655</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.825 0.655</pos>
          <size>0.04 0.04</size>
          <size ifSubset="aspect-ratio:16-9|16-10">0.05 0.05</size>
-         <size ifSubset="aspect-ratio:4-3">0.04 0.04</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.04 0.04</size>
          <unfilledColor>${starUnfill}</unfilledColor>
          <color>${starFill}</color>
          <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
@@ -163,54 +170,59 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
       </rating>
 
+
       <datetime name="md_releasedate">
          <pos>0.55 0.696</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.55 0.646</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.646</pos>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.032 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|3-2">0.036 0.05</size>
+         <size ifSubset="aspect-ratio:4-3|5-4|3-2">0.036 0.05</size>
          <size ifSubset="3-2" tinyScreen="true">0.044 0.05</size>
-
          <color>${releaseColor}</color>
          <format>%Y</format>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.021</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.02</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.02</fontSize>
          <zIndex>51</zIndex>
          <backgroundColor>ff000000</backgroundColor>
+         <singleLineScroll>true</singleLineScroll>
       </datetime>
+
 
       <text name="md_developer">
          <size>0.250 0.037</size>
-         <size ifSubset="aspect-ratio:4-3">0.240 0.037</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.240 0.037</size>
          <pos>0.585 0.702</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.59 0.652</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.59 0.652</pos>
          <pos ifSubset="aspect-ratio:3-2">0.595 0.699</pos>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <color>${developerColor}</color>
          <zIndex>51</zIndex>
          <backgroundColor>00ff0000</backgroundColor>
+         <singleLineScroll>true</singleLineScroll>
       </text>
 
       <text name="md_genre">
          <pos>0.55 0.73</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.55 0.680</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.680</pos>
          <size>0.27 0.034</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <color>${genreColor}</color>
          <zIndex>51</zIndex>
          <backgroundColor>00000000</backgroundColor>
+         <singleLineScroll>true</singleLineScroll>
       </text>
+
 
       <text name="md_description">
          <color>ffffff</color>
          <pos>0.55 0.780</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.55 0.730</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.730</pos>
          <size>0.430 0.126</size>
-         <size ifSubset="aspect-ratio:4-3">0.430 0.185</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.430 0.185</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.028</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.026</fontSize>
@@ -219,19 +231,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <forceUppercase tinyScreen="true">true</forceUppercase>
          <zIndex>42</zIndex>
       </text>
-
-      <image name="linea-inferior" extra="static">
-         <path>./../_theme_inc/images/pixel-blanco.png</path>
-         <pos>0 0.934</pos>
-         <size>1 0.0011</size>
-         <size tinyScreen="true">1 0.005</size>
-         <color>${sistema.lineainferior}</color>
-			<gradientType>horizontal</gradientType>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
-      </image>
 
       <image name="pie-barra" extra="static">
          <path>./../_theme_inc/images/pixel-blanco.png</path>
@@ -244,11 +243,37 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>98</zIndex>
       </image>
 
+      <image name="linea-infos" extra="true">
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0.55 0.768</pos>
+         <size>0.420 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>555555</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>41</zIndex>
+      </image>
+
+
       <text name="md_description,md_genre, md_developer">
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
       </text>
+
+      <image name="linea-inferior" extra="static">
+         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>${sistema.lineainferior}</color>
+         <gradientType>horizontal</gradientType>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
 
    </view>
 

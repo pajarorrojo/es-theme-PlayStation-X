@@ -6,13 +6,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<formatVersion>7</formatVersion>
 
-
-	<!--PERSONALIZACION-->
-	<include>./custom-username.xml</include>
-	<include>./_theme_options/usernames.xml</include>
-	<include>./_theme_options/avatars.xml</include>
-
-
 	<!--IDIOMAS-->
 	<include>./_theme_lang/default_en.xml</include>
 	<include lang="es">./_theme_lang/es.xml</include>
@@ -20,16 +13,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<include lang="pt">./_theme_lang/pt.xml</include>
 	<include lang="it">./_theme_lang/it.xml</include>
 
+	<!--PERSONALIZACION-->
+	<include>./custom-username.xml</include>
+	<include>./_theme_options/usernames.xml</include>
+	<include>./_theme_options/avatars.xml</include>
+
 
 	<!--THEME OPTIONS-->
 
 	<!--RELACION DE ASPECTO-->
 	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
-		<include name="16-9" displayName="16:9 widescreen" />
-		<include name="4-3" displayName="4:3 standard" />
-		<include name="16-10" displayName="16:10" />
-		<include name="5-3" displayName="5:3" />
-		<include name="3-2" displayName="3:2" />
+		<include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 widescreen" />
+		<include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 standard" />
+		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10" />
+		<include if="{screen.ratio} == '5/3'" name="5-3" displayName="5:3" />
+		<include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2" />
+		<include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4" />
 	</subset>
 
 	<!--FRONTEND-->
@@ -136,8 +135,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--NICKNAMES-->
 	<subset name="system-username" displayName="${theme.username}">
 		<include name="playstation-x" displayName="Playstation-X" />
-		<include name="cheevos" displayName="Retroachievements ID - ${cheevos.username}" />
-		<include name="custom" displayName="${custom.nick} (${custom})" />
+		<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${cheevos.username}" />
+		<include if="{global.netplay} == true" name="netplay" displayName="Netplay ID: ${global.netplay.username}" />
+		<include name="custom" displayName="${custom}: ${custom.nick}" />
 		<include name="batocera" displayName="Batocera" />
 		<include name="batocera-plus" displayName="Batocera Plus" />
 		<include name="cloud" displayName="Cloud Strife" />
@@ -323,7 +323,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<!--VERSION-->
 		<text name="version" extra="true">
-			<text>V.34</text>
+			<text>V.35</text>
 			<pos>0.9435 0.951</pos>
 			<color>444444</color>
 			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
@@ -370,7 +370,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.0186</fontSize>
+			<fontSize>0.0235</fontSize>
 			<fontSize tinyScreen="true">0.025</fontSize>
 			<forceUppercase tinyScreen="true">true</forceUppercase>
 			<color>ffffff</color>
@@ -419,8 +419,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.028</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3">0.0245</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.022</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.0245</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.022</fontSize>
+			<glowColor>00000035</glowColor>
+			<glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+			<glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 	</view>
 
@@ -432,7 +435,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.024</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.022</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.022</fontSize>
+			<glowColor>00000035</glowColor>
+			<glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+			<glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 	</view>
 
@@ -470,6 +476,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<include>./_theme_options/videosnap-controls.xml</include>
 	<include>./_theme_options/image-sources.xml</include>
 	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
+	<!--<include if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">./_theme_options/force-gridview.xml</include>-->
 	<include tinyScreen="true">./_theme_options/force-gridview.xml</include>
 
 
