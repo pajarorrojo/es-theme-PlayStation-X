@@ -18,7 +18,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.922 0.0445</pos>
          <pos ifSubset="aspect-ratio:16-9">0.945 0.0445</pos>
          <pos ifSubset="aspect-ratio:3-2|16-10|5-3">0.936 0.0445</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.916 0.0445</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.93 0.0445</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.926 0.0445</pos>
          <color>ffffff</color>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
@@ -93,6 +94,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <pos>0.162 0.045</pos>
          <pos ifSubset="aspect-ratio:|5-4">0.065 0.045</pos>
+         <pos ifSubset="aspect-ratio:|4-3">0.065 0.045</pos>
          <pos tinyScreen="true">0.065 0.045</pos>
          <size>0.398 0.055</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.46 0.055</size>
