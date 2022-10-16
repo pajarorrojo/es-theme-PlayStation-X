@@ -59,7 +59,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
-			<zIndex>60</zIndex>
+			<zIndex>99</zIndex>
 			<backgroundColor>ff000000</backgroundColor>
 		</text>
 

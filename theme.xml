@@ -72,6 +72,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="barbarian" displayName="Barbarian (CPC)" />
 		<include name="bart-simpson" displayName="Bart Simpson (Arcade)" />
 		<include name="batocera-plus" displayName="Batocera Plus" />
+		<include name="bernard" displayName="Bernard (Maniac Mansion)" />
 		<include name="bubble" displayName="Bubble Bobble" />
 		<include name="claptrap" displayName="Claptrap (Borderlands)" />
 		<include name="cloud" displayName="Cloud Strife" />
@@ -108,6 +109,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="pacman-blinky" displayName="Pac-Man Blinky" />
 		<include name="pacman-pinky" displayName="Pac-Man Pinky" />
 		<include name="pajarorrojo" displayName="pajarorrojo" />
+		<include name="peace" displayName="Peace" />
+		<include name="pikachu" displayName="Pikachu" />
 		<include name="pole-position" displayName="Pole Position" />
 		<include name="ps-logo" displayName="PlayStation Logo" />
 		<include name="astrobot" displayName="PSN Astro Bot" />
@@ -178,8 +181,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--TAMAÑO CARRUSEL-->
 	<subset name="carousel" displayName="${CarouselImageSize}">
+		<include ifSubset="aspect-ratio:16-9" tinyScreen="false" name="medium" displayName="${medium}">./_theme_options/carousel-sizes/medium.xml</include>
 		<include name="big" displayName="${big}">./_theme_options/carousel-sizes/big.xml</include>
-		<include name="medium" displayName="${medium}">./_theme_options/carousel-sizes/medium.xml</include>
+		<include ifSubset="aspect-ratio:16-9" tinyScreen="true" name="medium" displayName="${medium}">./_theme_options/carousel-sizes/medium.xml</include>
 		<include name="small" displayName="${small}">./_theme_options/carousel-sizes/small.xml</include>
 	</subset>
 
@@ -283,12 +287,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--OPCIONES DE RETARDO DE VIDEO-->
 	<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid" ifSubset="game-video:window|background|inside|oversize">
-		<include name="05sec" displayName="0.5s" tinyScreen="true" />
 		<include name="1sec" displayName="1s" />
 		<include name="2sec" displayName="2s" />
 		<include name="3sec" displayName="3s" />
 		<include name="0sec" displayName="0s" />
-		<include name="05sec" displayName="0.5s" tinyScreen="false" />
+		<include name="05sec" displayName="0.5s" />
 	</subset>
 
 	<!--BARRA DE INFO JUEGOS-->
@@ -312,24 +315,39 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="NO" displayName="${no}" />
 		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	</subset>
+	<view name="screen">
 
 
-	<view name="system">
+		<batteryIndicator name="batteryIndicator">
+			<pos>0.96 0.961</pos>
+			<size>0.027</size>
+			<color>666666</color>
 
-		<!--BACKGROUND MUSIC you can put your favorite music in /_theme_music/ folder-->
-		<sound name="directory">
-			<path>./_theme_music/</path>
-		</sound>
+		</batteryIndicator>
+	</view>
 
-		<!--VERSION-->
-		<text name="version" extra="true">
-			<text>V.35</text>
-			<pos>0.9435 0.951</pos>
-			<color>444444</color>
-			<fontPath>./_theme_inc/fonts/SST Bold.ttf</fontPath>
-			<fontSize>0.0220</fontSize>
-			<alignment>left</alignment>
+	<view name="system, basic, detailed, grid">
+
+
+		<text name="region" extra="true" tinyScreen="false">
+			<origin>0 0</origin>
+			<pos>-0.019 0.931</pos>
+			<size>1 0.05</size>
+			<color>aaaaaa</color>
+			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<alignment>right</alignment>
 			<zIndex>99</zIndex>
+			<backgroundColor>ff000000</backgroundColor>
+		</text>
+		<text name="region" extra="true" region="eu">
+			<text>EU</text>
+		</text>
+		<text name="region" extra="true" region="jp">
+			<text>JP</text>
+		</text>
+		<text name="region" extra="true" region="us">
+			<text>US</text>
 		</text>
 
 	</view>
@@ -412,15 +430,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--BARRA INFERIOR AYUDA BOTONES-->
 
 	<view name="system">
+
+		<!--BACKGROUND MUSIC you can put your favorite music in /_theme_music/ folder-->
+		<sound name="directory">
+			<path>./_theme_music/</path>
+		</sound>
+
 		<helpsystem name="help">
 			<textColor>${helpFontColor}</textColor>
 			<iconColor>${helpIconColor}</iconColor>
-			<pos>0.09 0.955</pos>
+			<pos>0.01 0.955</pos>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
-			<fontSize>0.028</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.0245</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.022</fontSize>
+			<fontSize>0.03</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
 			<glowColor>00000035</glowColor>
 			<glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
 			<glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
@@ -431,41 +454,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<helpsystem name="help">
 			<textColor>${helpFontColor}</textColor>
 			<iconColor>${helpIconColor}</iconColor>
-			<pos>0.09 0.955</pos>
+			<pos>0.01 0.955</pos>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
-			<fontSize>0.024</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.022</fontSize>
+			<fontSize>0.028</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.03</fontSize>
+
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
 			<glowColor>00000035</glowColor>
 			<glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
 			<glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 	</view>
 
-	<view name="screen">
-		<controllerActivity name="controllerActivity">
-			<color>FFFFFF90</color>
-			<activityColor>F3C30069</activityColor>
-			<hotkeyColor>FF000069</hotkeyColor>
-			<pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.031 0.941</pos>
-			<size ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.055</size>
-			<pos ifSubset="iconset:snes">0.031 0.941</pos>
-			<size ifSubset="iconset:snes">0.05</size>
-			<pos ifSubset="iconset:arcade">0.05 0.943</pos>
-			<size ifSubset="iconset:arcade">0.042</size>
 
-
-			<horizontalAlignment>right</horizontalAlignment>
-		</controllerActivity>
-
-		<controllerActivity name="controllerActivity" tinyScreen="true">
-			<visible>false</visible>
-		</controllerActivity>
-		<batteryIndicator name="batteryIndicator" tinyScreen="true">
-			<pos>0 0.942</pos>
-			<size>0.055 0.055</size>
-		</batteryIndicator>
-	</view>
 
 
 	<include>./_theme_inc/infos/${system.theme}.xml</include>

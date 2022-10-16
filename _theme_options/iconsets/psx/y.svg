@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="175.094px" height="175.013px" viewBox="0 0 175.094 175.013" enable-background="new 0 0 175.094 175.013"
-	 xml:space="preserve">
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M87.477,175.01c-47.896,0.385-88.334-39.491-87.463-89.125
-	C0.841,38.747,39.884-0.603,88.76,0.007c47.779,0.596,87.297,40.28,86.316,89.383C174.132,136.763,134.955,175.405,87.477,175.01z
-	 M40.833,40.798c0,31.223,0,62.353,0,93.539c31.181,0,62.277,0,93.428,0c0-31.208,0-62.339,0-93.539
-	C103.11,40.798,72.046,40.798,40.833,40.798z"/>
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M121.872,121.866c-22.895,0-45.712,0-68.627,0
-	c0-22.87,0-45.716,0-68.648c22.859,0,45.705,0,68.627,0C121.872,76.08,121.872,98.898,121.872,121.866z"/>
-</svg>
+<svg enable-background="new 0 0 175.094 175.013" height="175.013" viewBox="0 0 175.094 175.013" width="175.094" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill="#fff" fill-rule="evenodd"><path d="m87.477 175.01c-47.896.385-88.334-39.491-87.463-89.125.827-47.138 39.87-86.488 88.746-85.878 47.779.596 87.297 40.28 86.316 89.383-.944 47.373-40.121 86.015-87.599 85.62zm-46.644-134.212v93.539h93.428c0-31.208 0-62.339 0-93.539-31.151 0-62.215 0-93.428 0z"/><path d="m121.872 121.866c-22.895 0-45.712 0-68.627 0 0-22.87 0-45.716 0-68.648h68.627z"/></g></svg>

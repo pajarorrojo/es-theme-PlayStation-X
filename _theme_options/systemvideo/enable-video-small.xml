@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           <video name="system_video" extra="true">
                <effect>none</effect>
                <pos>0.02 0.612</pos>
-               <roundCorners>0.02</roundCorners>
+               <roundCorners>0</roundCorners>
                <size>0.212 0.25</size>
                <size ifSubset="aspect-ratio:4-3|5-4">0.22 0.22</size>
                <size ifSubset="aspect-ratio:16-9|16-10">0.212 0.25</size>

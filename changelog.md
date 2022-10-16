@@ -1,4 +1,27 @@
+Version 35.1 (16/10/2022)
+
+
+- Changed controller icon position, now is above the clock
+- Changed network icon position to the bottom right corner
+- Medium carousel size option set by default when large screens with 16/9 aspect ratio are detected or selected
+- Font size for the bottom help bar has been adjusted
+- Fixed an overlapping with snes control icons
+- Fixed a graphic bug with the carousel logos when the japan region is selected
+- Fixed missing trophy icon in game list when system doesn't support retroachievements
+- Several fixes and corrections in layouts and different aspect ratios
+- A small region indicator has been placed in the lower right corner (only on large screens)
+- New layouts for screenshots, library, imageviewer and od-commander systems
+- Added an alert when retroachievements or netplay username has been selected and are disabled in the system (Batocera 35 or higher)
+- Added videos to V.Smile, VTech Socrates, Tiger game.com, Coleco Adam, Amiga CDTV, Atari XE, Atari 800, BBC Micro, Acorn Electron, Arcadia, Astrocade, VTech Creativision,Philips CD-I and Tandy coco systems
+- Changed or enhanced videos for Gamegear, Game Boy, Game Boy Color, Megadrive / Genesis, Nintendo 64, Playstation, Sega CD, Sega 32X, 3DO and Atari Jaguar systems
+- Added: Medias data and / or infos for Arduboy system
+- Added: Pikachu, Bernard (Maniac Mansion) and Peace symbol preset avatars 
+
+
+
+-----------------------
 Version 35 (21/09/2022)
+
 
 - Now theme can detect the aspect ratio and automatically adjust to the following types of screens (requires Batocera 35 or higher)
    - 16:9 widescreen

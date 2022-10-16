@@ -60,9 +60,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.animatedList>Animated transitions in game list</theme.animatedList>
 		<theme.gametime>Show time played info in gamelist</theme.gametime>
 		<theme.animatedSystem>Animated transitions in systems view</theme.animatedSystem>
-		<theme.aspect-ratio>Select your screen type</theme.aspect-ratio>
+		<theme.aspect-ratio>Screen aspect ratio detected (auto)</theme.aspect-ratio>
+		<theme.aspect-ratio if="{screen.ratio} == '0/0'">Select your screen type</theme.aspect-ratio>
 		<theme.aspect-1610>16:10 WXGA (usual in laptops)</theme.aspect-1610>
 		<theme.oversizeVideoOption>Oversize video</theme.oversizeVideoOption>
 		<theme.bato35compatilble>Only compatible in batocera 35 or higher</theme.bato35compatilble>
+		<theme.netplay-required>Please enable netplay to show your username or select another nick in theme options</theme.netplay-required>
+		<theme.ra-required>Please enable retroachievements to show your username or select another nick in theme options</theme.ra-required>
 	</variables>
 </theme>

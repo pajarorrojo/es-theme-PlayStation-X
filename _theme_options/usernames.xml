@@ -30,8 +30,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.nick ifSubset="system-username:samus">Samus Aran</theme.nick>
 		<theme.nick ifSubset="system-username:sephirot">Sephirot</theme.nick>
 		<theme.nick ifSubset="system-username:solidsnake">Solid Snake</theme.nick>
-		<theme.nick ifSubset="system-username:cheevos" >${cheevos.username}</theme.nick>
-		<theme.nick ifSubset="system-username:netplay" >${global.netplay.username}</theme.nick>
+		<theme.nick ifSubset="system-username:cheevos" if="{global.cheevos} == false" >${theme.ra-required}</theme.nick>
+		<theme.nick ifSubset="system-username:cheevos"  if="{global.cheevos} == true">${cheevos.username}</theme.nick>
+		<theme.nick ifSubset="system-username:netplay" if="{global.netplay} == false">${theme.netplay-required}</theme.nick>
+		<theme.nick ifSubset="system-username:netplay" if="{global.netplay} == true">${global.netplay.username}</theme.nick>
 		<theme.nick ifSubset="system-username:netplay" if="{screen.ratio} == '0/0'">Netplay ID ${theme.bato35compatilble}</theme.nick>
 		<theme.nick ifSubset="system-username:playstation-x">Playstation-X</theme.nick>
 	</variables>

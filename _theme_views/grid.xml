@@ -6,19 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="grid">
 
 
-      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail">
-         <autoLayout>7 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:16-9|16-10">7 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:4-3|5-4">5 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:3-2">6 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">4 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:16-9" tinyScreen="true">6 1</autoLayout>
-         <scrollDirection>horizontal</scrollDirection>
-         <centerSelection>true</centerSelection>
-         <scrollLoop>true</scrollLoop>
 
-
-      </imagegrid>
 
 
       <imagegrid name="gamegrid">
@@ -32,20 +20,35 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">5 2</autoLayout>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
+         <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">1.04</autoLayoutSelectedZoom>
          <autoLayoutSelectedZoom ifSubset="grid-origin:boxart|thumbnail">1.31</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
          <size>0.950 0.45</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.964 0.45</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">1 0.45</size>
          <pos>0.025 0.48</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.014 0.48</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0 0.48</pos>
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>60</zIndex>
          <padding ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">0.005 0.005</padding>
          <padding ifSubset="grid-origin:boxart|thumbnail">0.008 0.05</padding>
          <animateSelection>true</animateSelection>
+         <folderImage> ./../_theme_inc/images/trophy-picto.svg</folderImage>
+
       </imagegrid>
 
+      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail">
+         <autoLayout>7 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:4-3|5-4">5 1</autoLayout>
+         <size ifSubset="aspect-ratio:4-3|5-4">1.08 0.45</size>
+         <pos ifSubset="aspect-ratio:4-3|5-4">-0.04 0.48</pos>
+         <size ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">1.08 0.45</size>
+         <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">-0.04 0.48</pos>
+
+         <scrollDirection>horizontal</scrollDirection>
+         <centerSelection>true</centerSelection>
+         <scrollLoop>true</scrollLoop>
+      </imagegrid>
 
       <gridtile name="default">
          <backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
@@ -74,6 +77,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <roundCorners>0</roundCorners>
       </image>
 
+      <!-- muestra logo del juego sobre la caja
+      <image name="gridtile.marquee" ifSubset="grid-origin:boxart|thumbnail">
+         <color>ffffff</color>
+         <pos>-0.05 0.775</pos>
+         <origin>0 0</origin>
+         <size>0.7 0.2</size>
+         <verticalAlignment>bottom</verticalAlignment>
+       </image>
+
+      -->
+
 
       <image name="gridtile.favorite">
          <path>./../_theme_inc/images/favorite-corner-left.svg</path>
@@ -89,7 +103,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>F3C300</color>
       </image>
 
-      <image name="gridtile.cheevos">
+      <image name="gridtile.cheevos" if="{global.cheevos} == true">
          <path>./../_theme_inc/images/cheevos.svg</path>
          <pos>0.81 0.81</pos>
          <pos ifSubset="grid-origin:boxart|thumbnail">0.84 0.785</pos>
@@ -222,6 +236,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.060</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
+         <fontSize tinyScreen="true">0.047</fontSize>
          <origin>0 0</origin>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
@@ -236,7 +251,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.0011</size>
-         <size tinyScreen="true">1 0.005</size>
          <color>${sistema.lineainferior}</color>
           <gradientType>horizontal</gradientType>
          <verticalAlignment>top</verticalAlignment>

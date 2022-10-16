@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.start>Démarrer</theme.start>
     <theme.mostplayed>Les plus joués :</theme.mostplayed>
     <theme.items>Nombre d'élements :</theme.items>
-		<theme.collections>Nombre de collections :</theme.collections>
+    <theme.collections>Nombre de collections :</theme.collections>
     <GamesNumber>Joués</GamesNumber>
     <GamesFavs>Favoris</GamesFavs>
     <NumberPlayed>Joueurs</NumberPlayed>
@@ -57,8 +57,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.animatedList>Transition de la liste de jeux animée</theme.animatedList>
     <theme.gametime>Afficher les infos sur le temps de jeu joué</theme.gametime>
     <theme.animatedSystem>Transition de la liste de système animée</theme.animatedSystem>
-    <theme.aspect-ratio>Sélectionnez type d'écran</theme.aspect-ratio>
+    <theme.aspect-ratio>Type d'écran détecté (auto)</theme.aspect-ratio>
+    <theme.aspect-ratio if="{screen.ratio} == '0/0'">Sélectionnez type d'écran</theme.aspect-ratio>
     <theme.aspect-1610>16:10 WXGA (habituel dans les vieux portables)</theme.aspect-1610>
     <theme.bato35compatilble>Uniquement compatible avec batocera 35 ou supérieur</theme.bato35compatilble>
+    <theme.netplay-required>Veuillez activer netplay pour afficher votre nom d'utilisateur ou sélectionner un autre nick dans les options de thème</theme.netplay-required>
+    <theme.ra-required>Veuillez activer retroachievements pour afficher votre nom d'utilisateur ou sélectionner un autre nick dans les options de thème</theme.ra-required>
   </variables>
 </theme>

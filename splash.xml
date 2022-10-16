@@ -32,7 +32,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.026</fontSize>
 			<fontSize tinyScreen="true">0.031</fontSize>
-
 			<alignment>right</alignment>
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
@@ -51,7 +50,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>V.35</text>
+			<text>V.35.1</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>

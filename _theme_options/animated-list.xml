@@ -31,7 +31,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   <view name="grid">
 
-    <control name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
+    <control name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot, md_name">
       <clipRect>0 0.1 1 0.78</clipRect>
 
       <storyboard event="open">
@@ -76,7 +76,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </control>
 
 
-    <control name="md_name, md_description, md_genre, md_developer, md_releasedate, md_publisher,md_rating,md_players,md_manual,md_nomanual,md_flag,md_savestate,md_nosavestate">
+    <control name="md_description, md_genre, md_developer, md_releasedate, md_publisher,md_rating,md_players,md_manual,md_nomanual,md_flag,md_savestate,md_nosavestate">
       <clipRect>0 0.1 1 0.78</clipRect>
       <storyboard event="open">
         <animation property="opacity" from="0" to="0" duration="100" mode="linear" />

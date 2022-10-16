@@ -57,8 +57,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.animatedList>Transição da lista de jogos animada</theme.animatedList>
     <theme.gametime>Mostrar informações de tempo de jogo</theme.gametime>
     <theme.animatedSystem>Transição da lista de sistema animado</theme.animatedSystem>
-    <theme.aspect-ratio>Selecione o tipo de tela</theme.aspect-ratio>
+    <theme.aspect-ratio>Tipo de tela detectado (auto)</theme.aspect-ratio>
+    <theme.aspect-ratio if="{screen.ratio} == '0/0'">Selecione o tipo de tela</theme.aspect-ratio>
     <theme.aspect-1610>16:10 WXGA (normal em laptops antigos)</theme.aspect-1610>
-    <theme.bato35compatilble>Compatível apenas em batocera 35 ou superior</theme.bato35compatilble>  
+    <theme.bato35compatilble>Compatível apenas em batocera 35 ou superior</theme.bato35compatilble>
+    <theme.netplay-required>Ative netplay para mostrar seu nome de usuário ou selecione outro nick nas opções de tema</theme.netplay-required>
+    <theme.ra-required>Ative retroachievements para mostrar seu nome de usuário ou selecione outro nick nas opções de tema</theme.ra-required>
   </variables>
 </theme>

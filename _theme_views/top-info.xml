@@ -26,6 +26,29 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
          <backgroundColor>ff000000</backgroundColor>
       </text>
+
+      <controllerActivity name="controllerActivity">
+         <color>FFFFFF90</color>
+         <activityColor>F3C30069</activityColor>
+         <hotkeyColor>FF000069</hotkeyColor>
+         <pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.957 0.015</pos>
+         <size ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.033</size>
+         <pos ifSubset="iconset:snes">0.962 0.015</pos>
+         <size ifSubset="iconset:snes">0.034</size>
+         <pos ifSubset="iconset:arcade">0.968 0.015</pos>
+         <size ifSubset="iconset:arcade">0.028</size>
+
+         <itemSpacing ifSubset="iconset:snes">0.013</itemSpacing>
+         <itemSpacing ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|">0.005</itemSpacing>
+
+         <horizontalAlignment>right</horizontalAlignment>
+
+      </controllerActivity>
+
+      <controllerActivity name="controllerActivity" tinyScreen="true">
+         <visible>false</visible>
+      </controllerActivity>
+
    </view>
    <view name="system">
       <image name="logo-front" extra="static">
@@ -174,18 +197,33 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
       </image>
+      
+     <!-- bug in bato 35 dont work properly. fixed in bato 36
+      <image name="trophy-picto" extra="static" if="{system.cheevos} == true">
+         <color>F3C300d1</color>
+      </image>
+
+   -->
+
+   <!-- el filtro no funciona en la lista de juegos si en la vista de sistemas, desactivar hasta que funcione en la lista de juegos
+   <image name="trophy-picto" extra="static" if="{global.cheevos} == false">
+      <color>999999</color>
+   </image>
+-->
 
       <image name="trophy-picto" extra="static" if="{screen.ratio} == '0/0'">
          <color ifCheevos="true">F3C300d1</color>
          <color ifCheevos="false">ffffff</color>
       </image>
 
+       
+
    </view>
 
 
    <view name="detailed, basic, grid">
 
-      <image name="trophy-picto" extra="static" ifCheevos="false">
+      <image name="md_cheevos,md_notcheevos,trophy-picto">
          <path>./_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
@@ -193,25 +231,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
          <maxSize>0.044</maxSize>
          <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
-         <color>ffffff</color>
          <verticalAlignment>top</verticalAlignment>
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
+         </image>
+<!-- el filtro no funciona en la lista de juegos si en la vista de sistemas
+         <image name="trophy-picto" extra="static" if="{global.cheevos} == false">
+            <color>999999</color>
+         </image>
+      -->
+      <image name="trophy-picto" extra="static">
+         <color>ffffff</color>
+         <zIndex>98</zIndex>
       </image>
 
+
       <image name="md_cheevos,md_notcheevos" ifCheevos="true">
-         <path>./_theme_inc/images/trophy-picto.svg</path>
-         <pos>0.827 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
-         <pos ifSubset="aspect-ratio:5-4">0.81 0.045</pos>
-         <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
-         <maxSize>0.044</maxSize>
-         <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
          <color>F3C300d1</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
          <origin>0 0</origin>
       </image>
@@ -440,7 +476,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <text name="username" extra="static">
+      <text name="username" extra="true">
          <text>${theme.nick}</text>
          <text ifSubset="system-username:custom">${custom.nick}</text>
 

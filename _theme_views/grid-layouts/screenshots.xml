@@ -4,25 +4,107 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme defaultView="grid">
    <formatVersion>7</formatVersion>
    <view name="grid">
-      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail">
+      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail|titleshot|image|fanart|marquee">
          <autoLayout>5 1</autoLayout>
-         <pos>0.025 0.58</pos>
+         <pos>-0.045 0.687</pos>
+         <size>1.08 0.27</size>
+         <autoLayoutSelectedZoom>1.2</autoLayoutSelectedZoom>
+         <padding>0.008 0.05</padding>
+         <autoLayout>7 1</autoLayout>
+         <scrollDirection>horizontal</scrollDirection>
+         <centerSelection>true</centerSelection>
+         <scrollLoop>true</scrollLoop>
+         <backgroundEdgeColor>00000000</backgroundEdgeColor>
       </imagegrid>
-   </view>
 
-   <view name="system, detailed, basic, grid">
+      <gridtile name="default">
+         <backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
+         <padding>8</padding>
+         <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
+         <padding ifSubset="aspect-ratio:4-3|5-4">2</padding>
+         <imageSizeMode>minSize</imageSizeMode>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <imageColor>ffffffaa</imageColor>
+      </gridtile>
 
-      <text name="systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime" extra="true">
-         <opacity>0</opacity>
-         <visible>false</visible>
+      <gridtile name="selected">
+         <padding>6</padding>
+         <padding ifSubset="aspect-ratio:4-3|5-4">1</padding>
+         <imageColor>ffffff</imageColor>
+         <backgroundCornerSize>0</backgroundCornerSize>
+         <backgroundEdgeColor>333333</backgroundEdgeColor>
+      </gridtile>
+
+      <ninepatch name="gridtile.background:selected">
+         <animateColor>000000</animateColor>
+         <animateColorTime>500</animateColorTime>
+      </ninepatch>
+
+
+      <text name="md_name">
+         <alignment>left</alignment>
+         <size>0.385 0.08</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.45 0.08</size>
+         <color>ffffff</color>
+         <pos>0.162 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
+         <pos tinyScreen="true">0.065 0.045</pos>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.030</fontSize>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>502</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>ff000000</backgroundColor>
       </text>
 
+      <control name="md_name">
+         <clipRect>0 0 0 0</clipRect>
+         <storyboard event="open">
+            <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />
+         </storyboard>
+         <storyboard event="activateNext">
+            <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+         </storyboard>
+         <storyboard event="activatePrev">
+            <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+         </storyboard>
+         <storyboard event="deactivateNext">
+            <animation property="opacity" to="0" duration="300" mode="easeOut" />
+         </storyboard>
+         <storyboard event="deactivatePrev">
+            <animation property="opacity" to="0" duration="300" mode="easeOut" />
+         </storyboard>
+      </control>
+
+      <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
+         <maxSize>1 0.55</maxSize>
+         <pos>0.5 0.28</pos>
+         <origin>0.5 0.28</origin>
+         <zIndex>99</zIndex>
+
+      </image>
+
+      <video name="md_video">
+         <maxSize>1 0.55</maxSize>
+         <pos>0.5 0.28</pos>
+         <origin>0.5 0.28</origin>
+         <zIndex>100</zIndex>
+
+      </video>
+
+
+   </view>
+
+   <view name="system">
 
       <text name="system_name_extra" extra="true">
          <text>${system.fullName}</text>
          <alignment>left</alignment>
          <pos>0.162 0.045</pos>
-         <pos ifSubset="aspect-ratio:|5-4">0.065 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
          <pos tinyScreen="true">0.065 0.045</pos>
          <size>0.398 0.055</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.46 0.055</size>
@@ -38,6 +120,32 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>99</zIndex>
       </text>
 
-      
+      <text name="systemInfoEx_extra" extra="true">
+         <text>({binding:total} items) </text>
+         <alignment>left</alignment>
+         <pos>0.27 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.2 0.045</pos>
+         <pos tinyScreen="true">0.2 0.045</pos>
+         <size>0.398 0.055</size>
+         <color>FFFFFF</color>
+         <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.030</fontSize>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <backgroundColor>ff000000</backgroundColor>
+         <zIndex>99</zIndex>
+      </text>
+
+   </view>
+
+   <view name="system,detailed, basic, grid">
+
+      <text name="systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime, md_rating, md_developer, md_releasedate, md_genre, md_flag, md_players, md_manual,md_nomanual, md_description" extra="true">
+         <opacity>0</opacity>
+         <visible>false</visible>
+      </text>
+
+
    </view>
 </theme>

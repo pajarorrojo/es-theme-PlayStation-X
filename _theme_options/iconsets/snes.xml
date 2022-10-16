@@ -22,8 +22,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</view>
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
-			<imagePath>./snes/controller.png</imagePath>
-
+			<imagePath>./snes/controller.svg</imagePath>
 		</controllerActivity>
 
 	</view>

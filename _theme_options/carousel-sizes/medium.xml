@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <!-- CARRUSEL MEDIANO -->
       <carousel name="systemcarousel">
          <pos>-0.55 0.112</pos>
-         <pos ifSubset="aspect-ratio:16-9">-0.55 0.112</pos>
+         <pos ifSubset="aspect-ratio:16-9">-0.535 0.112</pos>
          <pos ifSubset="aspect-ratio:4-3">-0.866 0.111</pos>
          <pos ifSubset="aspect-ratio:16-10">-0.621 0.112</pos>
          <pos ifSubset="aspect-ratio:3-2">-0.689 0.112</pos>
@@ -17,7 +17,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
          <size>1.590 1</size>
-         <size ifSubset="aspect-ratio:16-9">1.590 1</size>
+         <size ifSubset="aspect-ratio:16-9">1.56 1</size>
          <size ifSubset="aspect-ratio:4-3">2.080 1</size>
          <size ifSubset="aspect-ratio:16-10">1.75 1</size>
          <size ifSubset="aspect-ratio:3-2">1.9 1</size>
