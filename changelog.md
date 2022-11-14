@@ -1,3 +1,19 @@
+Version 36 beta (available zip in releases) (14/11/2022)
+https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/beta_release
+
+- Fixed an issue with detailed game list visibility when gamelist.xml file does not exist
+- Fixed an issue with 16/10 aspect ratio and médium size carousel
+- Fixed top trophy icon activation when system supports retroachievements (batocera 36)
+- Enhancement of gamegrid animation
+- Changed default carousel logo
+- Some menu colors have been slightly changed in black mode
+- Added: Lightgun icon to controller activity image
+- Added: Bomberman and Geralt de Rivia (The Witcher 3) preset avatar
+- Added video to Nintendo WiiU system
+
+
+
+-----------------------
 Version 35.1 (16/10/2022)
 
 
