@@ -132,17 +132,17 @@ Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
 
 |                                    |                                    |
 | :--------------------------------: | :--------------------------------: |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-02.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-02.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-04.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-06.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-08.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-10.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-12.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-14.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-16.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-04.jpg |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-06.jpg |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-06.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-08.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-10.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-12.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-14.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-16.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-06.jpg) |
 
 
 Thanks and credits:

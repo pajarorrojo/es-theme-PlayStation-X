@@ -1,43 +1,43 @@
 Version 36 (14/03/2023)
 
 - Added: 9 New languages to the theme interface. Now the theme supports up to 14 languages!
-   -English (default)
-   -Spanish (es)
-   -French (fr)
-   -Portuguese (pt)
-   -Italian (it)
-   -Catalan (ca) -new-
-   -Basque (eu) -new-
-   -Deutch (de) -new-
-   -Japanese (ja) -new-
-   -Arabic (ar) -new-
-   -Hebrew (he) -new-
-   -Russian (ru) -new-
-   -Polish (pl) -new-
-   -Chinese (zh) -new-
+   - English (default)
+   - Spanish (es)
+   - French (fr)
+   - Portuguese (pt)
+   - Italian (it)
+   - Catalan (ca) -new-
+   - Basque (eu) -new-
+   - Deutch (de) -new-
+   - Japanese (ja) -new-
+   - Arabic (ar) -new-
+   - Hebrew (he) -new-
+   - Russian (ru) -new-
+   - Polish (pl) -new-
+   - Chinese (zh) -new-
 - Updated and/or translated descriptions for many systems in all languages supported
 - New: Introducing the new click actions for lightguns. Click(shoot) on:
-   -Trophy picto to open the retroachievements window
-   -Two faces picto to open the netplay window
-   -Diskette icon in gamelist to open the savestate manager
+   - Trophy picto to open the retroachievements window
+   - Two faces picto to open the netplay window
+   - Diskette icon in gamelist to open the savestate manager
    -Controller icon (players) to open the game options
 - New: Added a new view in the game list called "carousel", configurable with any type of image (thumbnail, image, marquee, cartridge, boxart, fanart) and customizable per system. Also now the classic grid view does not automatically change the layout to "fake carousel", when displaying media like thumnail or boxart
 - New: Added hotkey quick help guide buttons on welcome and game splash screens. Optional from theme config. (Note: game splash only compatible with Pc boards)
 - New subset of options for the background image in systems view, options are:
-   -Default
-   -Random fanart
-   -None
+   - Default
+   - Random fanart
+   - None
 - New: Black colorset carousel front logos for auto systems instead the default blue (favs, last played... etc)
 - New: Now the two blue top dots and two faces icon turns gray when netplay are disabled
 - New: Now the top trophy icon turns gray when retroachievements are disabled (batocera 36)
 - New: Now the two faces top icon turns yellow when netplay are compatible with the selected system
 - New: Compatible theme medias for a few custom collections. (note: is needed name your collections exactly like next list to enable):
-   -castlevania
-   -finalfantasy
-   -mario
-   -sonic
-   -streetfighter
-   -zelda
+   - castlevania
+   - finalfantasy
+   - mario
+   - sonic
+   - streetfighter
+   - zelda
 - New: Custom collection "Games in progress" a collection designed to add the games that you are completing or want to complete in a future. Requires create a new custom collection and naming exactly "games in progress" to enable
 - Fixed: an issue with detailed game list visibility when gamelist.xml file does not exist
 - Fixed: an issue with 16/10 aspect ratio and médium size carousel
