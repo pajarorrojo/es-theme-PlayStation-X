@@ -7,23 +7,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>ScummVM (Scumm Virtual Machine, máquina virtual de Scumm en español) es un programa informático que permite ejecutar las aventuras gráficas creadas originalmente para el motor SCUMM de LucasArts.
+			<text lang="es,ca,eu">ScummVM (Scumm Virtual Machine, máquina virtual de Scumm en español) es un programa informático que permite ejecutar las aventuras gráficas creadas originalmente para el motor SCUMM de LucasArts.
 
 ScummVM también soporta una variedad de juegos que no utilizan el motor SCUMM, realizados por compañías como Revolution Software o Adventure Soft.
-</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>ScummVM est une machine virtuelle qui permet de jouer aux jeux qui utilisent le système SCUMM (comme les jeux d'aventure de LucasArts) sur des plates-formes autres que celles originellement supportées par le jeu.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>ScummVM é um software/máquina virtual que visa oferecer suporte para jogos antigos da Lucas Arts. Tais jogos são incompatíveis com os sistemas operacionais de hoje pois fazem exigências exóticas sobre memória.</text>
+			</text>
+			<text lang="fr">ScummVM est une machine virtuelle qui permet de jouer aux jeux qui utilisent le système SCUMM (comme les jeux d'aventure de LucasArts) sur des plates-formes autres que celles originellement supportées par le jeu.</text>
+			<text lang="pt">ScummVM é um software/máquina virtual que visa oferecer suporte para jogos antigos da Lucas Arts. Tais jogos são incompatíveis com os sistemas operacionais de hoje pois fazem exigências exóticas sobre memória.</text>
 		</text>
 				
 

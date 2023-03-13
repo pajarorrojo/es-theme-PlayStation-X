@@ -1,0 +1,29 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+            <text>Activision is an American video game publisher based in Santa Monica, California. It was founded in 1979 by a group of former Atari game developers who wanted to create their own games for the Atari 2600 console. Activision is known for publishing popular franchises such as Call of Duty, Crash Bandicoot, and Spyro the Dragon.</text>
+            <text lang="es">Activision es una editorial de videojuegos estadounidense con sede en Santa Mónica, California. Fue fundada en 1979 por un grupo de antiguos desarrolladores de Atari que querían crear sus propios juegos para la consola Atari 2600. Activision es conocida por publicar populares franquicias como Call of Duty, Crash Bandicoot y Spyro the Dragon.</text>
+            <text lang="ca">Activision és una editorial de videojocs estatunidenca amb seu a Santa Mònica, Califòrnia. Va ser fundada el 1979 per un grup d'antics desenvolupadors de jocs d'Atari que volien crear els seus propis jocs per a la consola Atari 2600. Activision és coneguda per publicar populars franquícies com Call of Duty, Crash Bandicoot i Spyro the Dragon.</text>
+            <text lang="eu">Activision Santa Monicako Kaliforniako bideojoko argitalpena da. Atariaren garatzaile atal batzuk sortu zuten 1979an Atari 2600 konsolara bere jokoak sortzeko. Activisionek Call of Duty, Crash Bandicoot eta Spyro the Dragon bezalako jatorrizko francisketak argitaratzen ditu.</text>
+            <text lang="fr">Activision est un éditeur de jeux vidéo américain basé à Santa Monica, en Californie. Il a été fondé en 1979 par un groupe d'anciens développeurs de jeux Atari qui voulaient créer leurs propres jeux pour la console Atari 2600. Activision est connu pour publier des franchises populaires telles que Call of Duty, Crash Bandicoot et Spyro the Dragon.</text>
+            <text lang="pt">Activision é uma editora de jogos eletrônicos americana sediada em Santa Monica, Califórnia. Foi fundada em 1979 por um grupo de ex-desenvolvedores da Atari que queriam criar seus próprios jogos para o console Atari 2600. A Activision é conhecida por publicar franquias populares como Call of Duty, Crash Bandicoot e Spyro the Dragon.</text>
+            <text lang="it">Activision è una casa editrice di videogiochi americana con sede a Santa Monica, in California. È stata fondata nel 1979 da un gruppo di ex sviluppatori di giochi Atari che volevano creare i propri giochi per la console Atari 2600. Activision è nota per la pubblicazione di franchise popolari come Call of Duty, Crash Bandicoot e Spyro the Dragon.</text>
+            <text lang="de">Activision ist ein amerikanischer Videospielverlag mit Sitz in Santa Monica, Kalifornien. Es wurde 1979 von einer Gruppe ehemaliger Atari-Spieleentwickler gegründet, die ihre eigenen Spiele für die Atari 2600 Konsole entwickeln wollten. Activision ist bekannt für die Veröffentlichung von beliebten Franchises wie Call of Duty, Crash Bandicoot und Spyro the Dragon.</text>
+            <text lang="pl">Activision została założona w październiku 1979 roku w Sunnyvale w Kalifornii przez byłych programistów gier Atari, którzy byli niezadowoleni z traktowania ich przez Atari i postanowili rozwijać własne gry dla popularnej domowej konsoli wideo Atari 2600. Activision była pierwszym niezależnym deweloperem gier wideo dla konsol.</text>
+            <text lang="ru">Activision была основана в октябре 1979 года в Саннивэйле, штат Калифорния, бывшими сотрудниками Atari, недовольными тем, как они были обращены в Atari, чтобы разрабатывать свои собственные игры для популярной домашней видеоигровой консоли Atari 2600. Activision стала первым независимым разработчиком видеоигр для игровых консолей.</text>
+            <text lang="zh">Activision成立于1979年10月，位于加利福尼亚州桑尼维尔，由前Atari游戏开发人员组建。他们对Atari的待遇感到不满，决定为受欢迎的家用游戏机Atari 2600开发自己的游戏。Activision成为了第一个独立开发游戏机视频游戏的开发商。</text>
+            <text lang="ja">アクティビジョンは、1979年10月にカリフォルニア州サニーベールで、Atariの元ゲーム開発者によって設立されました。彼らはAtariでの扱いに不満を持ち、人気のある家庭用ビデオゲーム機Atari 2600のために独自のゲームを開発することを決めました。Activisionは、ゲーム機用ビデオゲームの独立開発者として最初の企業となりました。
+            </text>
+        </text>	
+		
+		<text name="system_name" extra="true">
+			<text>Activision</text>
+		</text>
+	</view>
+</theme>

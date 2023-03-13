@@ -5,10 +5,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <view name="grid">
 
-
-
-
-
       <imagegrid name="gamegrid">
          <imageSource ifSubset="grid-origin:image">image</imageSource>
          <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
@@ -16,62 +12,54 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
          <imageSource ifSubset="grid-origin:fanart">fanart</imageSource>
          <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
-         <!-- <imageSource ifSubset="grid-origin:boxback">boxback</imageSource> not supported -->
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
-         <autoLayout ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">5 2</autoLayout>
+         <autoLayout>5 2</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail|marquee|cartridge">6 2</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail">7 2</autoLayout>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
          <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
-         <autoLayoutSelectedZoom ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">1.04</autoLayoutSelectedZoom>
-         <autoLayoutSelectedZoom ifSubset="grid-origin:boxart|thumbnail">1.31</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
-         <size>0.950 0.45</size>
+         <size>0.955 0.45</size>
          <size ifSubset="aspect-ratio:4-3|5-4">1 0.45</size>
-         <pos>0.025 0.48</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0 0.48</pos>
+         <pos>0.022 0.48</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
+
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>60</zIndex>
-         <padding ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">0.005 0.005</padding>
-         <padding ifSubset="grid-origin:boxart|thumbnail">0.008 0.05</padding>
-         <animateSelection>true</animateSelection>
-         <folderImage> ./../_theme_inc/images/trophy-picto.svg</folderImage>
-
+         <padding>0.005 0.005</padding>
       </imagegrid>
 
-      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail">
-         <autoLayout>7 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:4-3|5-4">5 1</autoLayout>
-         <size ifSubset="aspect-ratio:4-3|5-4">1.08 0.45</size>
-         <pos ifSubset="aspect-ratio:4-3|5-4">-0.04 0.48</pos>
-         <size ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">1.08 0.45</size>
-         <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">-0.04 0.48</pos>
-
-         <scrollDirection>horizontal</scrollDirection>
-         <centerSelection>true</centerSelection>
-         <scrollLoop>true</scrollLoop>
-      </imagegrid>
+  
 
       <gridtile name="default">
-         <backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
-         <padding>8</padding>
-         <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
-         <padding ifSubset="aspect-ratio:4-3|5-4">2</padding>
-         <imageSizeMode ifSubset="grid-origin:titleshot|image|fanart">minSize</imageSizeMode>
-         <selectionMode ifSubset="grid-origin:boxart|thumbnail">image</selectionMode>
-         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">00000000</backgroundEdgeColor>
-         <backgroundCornerSize>0 0</backgroundCornerSize>
-         <imageColor>ffffffaa</imageColor>
-      </gridtile>
+         <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
+         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail|marquee|cartridge">${backgroundgridSelect}00</backgroundEdgeColor>
+         <padding>6</padding>
+         <padding tinyScreen="true">3</padding>
+         <padding ifSubset="aspect-ratio:4-3" tinyScreen="false">5</padding>
+         <padding ifSubset="aspect-ratio:4-3" tinyScreen="true">4</padding>
+         <padding ifSubset="aspect-ratio:5-4">7</padding>
 
+         <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <imageColor>ffffff</imageColor>
+         <imageSizeMode ifSubset="grid-origin:image|titleshot|fanart" >minSize</imageSizeMode>
+      </gridtile>
 
       <gridtile name="selected">
          <padding>6</padding>
          <padding ifSubset="aspect-ratio:4-3|5-4">1</padding>
          <imageColor>ffffff</imageColor>
          <backgroundCornerSize>0</backgroundCornerSize>
-         <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
-         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail">${backgroundgridSelect}00</backgroundEdgeColor>
-
+         <backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
+         <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail|marquee|cartridge">${backgroundgridSelect}00</backgroundEdgeColor>
       </gridtile>
+
+      <ninepatch name="gridtile.background:selected">
+         <animateColor>${backgroundgridSelect}</animateColor>
+         <animateColorTime>500</animateColorTime>
+      </ninepatch>
 
       <image name="gridtile.image">
          <roundCorners>0</roundCorners>
@@ -88,15 +76,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       -->
 
-
       <image name="gridtile.favorite">
          <path>./../_theme_inc/images/favorite-corner-left.svg</path>
-         <path ifSubset="grid-origin:boxart|thumbnail">./../_theme_inc/images/favorite.png</path>
          <pos>0 0</pos>
-         <pos ifSubset="grid-origin:boxart|thumbnail">-0.03 -0.001</pos>
-
          <maxSize>0.25 0.25</maxSize>
-         <maxSize ifSubset="grid-origin:boxart|thumbnail">0.2 0.20</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
          <origin>0 0</origin>
@@ -106,35 +89,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
          <path>./../_theme_inc/images/cheevos.svg</path>
          <pos>0.81 0.81</pos>
-         <pos ifSubset="grid-origin:boxart|thumbnail">0.84 0.785</pos>
+         <maxSize> 0.2 0.2</maxSize>
+         
          <maxSize>0.2 0.2</maxSize>
-         <maxSize ifSubset="grid-origin:boxart|thumbnail">0.18 0.18</maxSize>
          <horizontalAlignment>right</horizontalAlignment>
          <verticalAlignment>bottom</verticalAlignment>
          <origin>0 0</origin>
          <color>Ffffff</color>
       </image>
 
-      <ninepatch name="gridtile.background:selected" ifSubset="grid-origin:image|titleshot|marquee|fanart|cartridge">
-         <animateColor>${backgroundgrid}</animateColor>
-         <animateColorTime>500</animateColorTime>
-      </ninepatch>
 
 
       <image name="background" extra="static">
-         <origin>0 0</origin>
-         <size>1 1</size>
-         <pos>0 0</pos>
          <zIndex>50</zIndex>
          <linearSmooth>true</linearSmooth>
-
       </image>
 
       <image name="background-art" extra="true">
-         <origin>0 0</origin>
-         <size>1 1</size>
          <path>./_theme_inc/images/background/${system.theme}.jpg</path>
-         <opacity>0.5</opacity>
          <zIndex>45</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
@@ -147,6 +119,106 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
       </image>
 
+      <image name="background, background-art" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <minSize>1.001 1.001</minSize>
+         <linearSmooth>true</linearSmooth>
+         <tile>false</tile>
+      </image>
+
+      <text name="md_name">
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <size>0.630 0.08</size>
+         <color>ffffff</color>
+         <pos>0.30 0.120</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.30 0.115</pos>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.060</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
+         <fontSize tinyScreen="true">0.047</fontSize>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>502</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+
+      <text name="md_description">
+         <color>ffffff</color>
+         <pos>0.30 0.205</pos>
+         <pos tinyScreen="true">0.3 0.22</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4" tinyScreen="false" >0.3 0.19</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.3 0.2</pos>
+         <pos ifSubset="aspect-ratio:5-3" tinyScreen="true" >0.3 0.205</pos>
+
+         <size>0.64 0.173</size>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:16-9">./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.027</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3">0.027</fontSize>
+
+         <lineSpacing>1.1</lineSpacing>
+         <origin>0 0</origin>
+         <backgroundColor>00000000</backgroundColor>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
+         <zIndex>99</zIndex>
+      </text>
+
+
+      <datetime name="md_releasedate">
+         <pos>0.30 0.387</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.30 0.367</pos>
+         <origin>0 0</origin>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <size>0.035 0.05</size>
+         <size tinyScreen="true">0.039 0.05</size>
+         <size ifSubset="aspect-ratio:4-3|5-4" tinyScreen="false" >0.04 0.05</size>
+         <size ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.049 0.05</size>
+         <color>${releaseColor}</color>
+         <format>%Y</format>
+         <fontSize>0.022</fontSize>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <zIndex>99</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>ff000000</backgroundColor>
+      </datetime>
+
+      <text name="md_developer">
+         <size>0.38 0.035</size>
+         <origin>0 0</origin>
+         <verticalAlignment>top</verticalAlignment>
+         <pos>0.332 0.394</pos>
+         <pos ifSubset="aspect-ratio:3-2">0.339 0.394</pos>
+         <pos ifSubset="aspect-ratio:16-10">0.339 0.395</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.348 0.375</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="false" >0.343 0.374</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.355 0.388</pos>
+         <pos tinyScreen="true">0.342 0.388</pos>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <color>${developerColor}</color>
+         <zIndex>51</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
+
+      <text name="md_genre">
+         <pos>0.30 0.422</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.30 0.405</pos>
+
+         <size>0.41 0.034</size>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <color>${genreColor}</color>
+         <zIndex>51</zIndex>
+         <origin>0 0</origin>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
 
       <rating name="md_rating">
          <pos>0.795 0.395</pos>
@@ -163,118 +235,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-      <text name="md_genre">
-         <pos>0.30 0.422</pos>
-         <size>0.41 0.034</size>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <fontSize>0.023</fontSize>
-         <color>${genreColor}</color>
-         <zIndex>51</zIndex>
-         <origin>0 0</origin>
-         <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>00000000</backgroundColor>
-      </text>
-
-      <text name="md_developer">
-         <size>0.38 0.035</size>
-         <origin>0 0</origin>
-         <verticalAlignment>top</verticalAlignment>
-         <pos>0.328 0.394</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.339 0.394</pos>
-         <pos tinyScreen="true">0.34 0.388</pos>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <fontSize>0.023</fontSize>
-         <color>${developerColor}</color>
-         <zIndex>51</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>00000000</backgroundColor>
-      </text>
-
-
-
-      <datetime name="md_releasedate">
-         <pos>0.30 0.387</pos>
-         <origin>0 0</origin>
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <size>0.027 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|5-4|3-2">0.037 0.05</size>
-         <size tinyScreen="true">0.036 0.05</size>
-         <color>${releaseColor}</color>
-         <format>%Y</format>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <fontSize>0.02</fontSize>
-         <zIndex>51</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>ff000000</backgroundColor>
-      </datetime>
-
-
-
-      <text name="md_description">
-         <color>ffffff</color>
-         <pos>0.30 0.205</pos>
-         <pos tinyScreen="true">0.3 0.22</pos>
-         <size>0.64 0.176</size>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:16-9">./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.027</fontSize>
-         <lineSpacing>1.1</lineSpacing>
-         <origin>0 0</origin>
-         <backgroundColor>00000000</backgroundColor>
-         <forceUppercase tinyScreen="true">true</forceUppercase>
-
-         <zIndex>99</zIndex>
-      </text>
-
-      <text name="md_name">
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <size>0.630 0.08</size>
-         <color>ffffff</color>
-         <pos>0.30 0.120</pos>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.060</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
-         <fontSize tinyScreen="true">0.047</fontSize>
-         <origin>0 0</origin>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>502</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>ff000000</backgroundColor>
-      </text>
-
-
-      <image name="linea-inferior" extra="static" ifSubset="grid-origin:boxart|thumbnail">
-         <path>./../_theme_inc/images/pixel-blanco.png</path>
-         <pos>0 0.934</pos>
-         <size>1 0.0011</size>
-         <color>${sistema.lineainferior}</color>
-          <gradientType>horizontal</gradientType>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
-      </image>
-
-      <image name="pie-barra" extra="static" ifSubset="grid-origin:boxart|thumbnail">
-         <path>./../_theme_inc/images/pixel-blanco.png</path>
-         <pos>0 0.934</pos>
-         <size>1 0.2</size>
-         <color>${sistema.pie}</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>98</zIndex>
-      </image>
-
       <text name="md_description,md_genre, md_developer, md_name">
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
+         
       </text>
+      <text name="md_genre,md_developer">
+         <fontSize>0.023</fontSize>
+      </text>
+ 
+
       <!--
       <rating name="md_rating" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
          <visible>false</visible>

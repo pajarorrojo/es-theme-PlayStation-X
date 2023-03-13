@@ -6,27 +6,46 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>The Nintendo 64 is Nintendo's third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Nintendo 64 es la tercera videoconsola de sobremesa producida por Nintendo, desarrollada para suceder a la Super Nintendo y para competir con la Saturn de Sega y la PlayStation de Sony.
+		<text name="system_description" extra="true">
+<text>The Nintendo 64, released in 1996, was a 64-bit video game console that had a great impact on the industry despite competing directly with Sony's first PlayStation. It offered impressive 3D graphics for its time and an innovative controller with a central joystick and side buttons.
 
-Incorpora en su arquitectura un procesador principal de 64 bits. El soporte de almacenamiento de los juegos es en forma de cartuchos, la mayoría de ellos con memoria interna.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Nintendo 64 (ニンテンドウ64), également connue sous les noms de code Ultra 64 lors de sa phase de développement, est une console de jeux vidéo de salon, sortie en 1996, du constructeur japonais Nintendo.</text>
-		</text>
+Nintendo sold over 32 million units worldwide and featured some of the most popular games of all time, such as Super Mario 64, The Legend of Zelda: Ocarina of Time, and GoldenEye 007.</text>        
+<text lang="es">La Nintendo 64, lanzada en 1996, fue una consola de videojuegos de 64 bits que tuvo un gran impacto en la industria a pesar de competir directamente con la primera PlayStation de Sony. Ofrecía gráficos en 3D impresionantes para su época y un innovador mando con palanca central y botones laterales.  
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É o terceiro console de videogame doméstico da empresa japonesa Nintendo. Lançado em 23 de junho de 1996 no Japão, contava com três títulos de lançamento: Super Mario 64, PilotWings 64 e Saikyou Habu Shogi.</text>
-		</text>
-		
-						
+Nintendo vendió más de 32 millones de unidades en todo el mundo y contó con algunos de los juegos más populares de todos los tiempos, como Super Mario 64, The Legend of Zelda: Ocarina of Time y GoldenEye 007.</text>        
+<text lang="ca">La Nintendo 64, llançada el 1996, va ser una consola de videojocs de 64 bits que va tenir un gran impacte a la indústria malgrat competir directament amb la primera PlayStation de Sony. Ofereixia gràfics en 3D impressionants per a l'època i un comandament innovador amb palanca central i botons laterals.
 
+Nintendo va vendre més de 32 milions d'unitats arreu del món i va comptar amb alguns dels jocs més populars de tots els temps, com ara Super Mario 64, The Legend of Zelda: Ocarina of Time i GoldenEye 007.</text>        
+<text lang="eu">1996an argitaratu zen Nintendo 64 64 biteko bideojoko konpilatzailea izan zen, Sonyren PlayStation lehenengoarekin zuzenean lehiatuz ere industrian eragin handia izan zuen. 3D grafiko ikaragarriak eskaini zituen bere garaiagatik eta eredu berritzaile bat hartu zuen, eredu horrek erdirako atxikipenarekin eta aldebiko botoiekin baliatzen zen.
+
+Konola mundu osoko 32 milioi unitate baino gehiago saldu zituen eta denborako joko ezagunenetako batzuk izan zituen, hala nola Super Mario 64, The Legend of Zelda: Ocarina of Time eta GoldenEye 007.</text>        
+<text lang="fr">Le Nintendo 64, sortie en 1996, était une console de jeu vidéo 64 bits qui a eu un grand impact sur l'industrie malgré la concurrence directe de la première PlayStation de Sony. Elle offrait des graphismes 3D impressionnants pour son époque et une manette innovante avec un joystick central et des boutons latéraux.
+
+Nintendo a vendu plus de 32 millions d'unités dans le monde entier et a présenté certains des jeux les plus populaires de tous les temps, tels que Super Mario 64, The Legend of Zelda: Ocarina of Time et GoldenEye 007.</text>        
+<text lang="pt">O Nintendo 64, lançado em 1996, foi um console de videogame de 64 bits que teve um grande impacto na indústria, apesar de competir diretamente com o primeiro PlayStation da Sony. Oferecia gráficos 3D impressionantes para a época e um controle inovador com joystick central e botões laterais.
+
+A Nintendo vendeu mais de 32 milhões de unidades em todo o mundo e apresentou alguns dos jogos mais populares de todos os tempos, como Super Mario 64, The Legend of Zelda: Ocarina of Time e GoldenEye 007.</text>        
+<text lang="it">Il Nintendo 64, uscito nel 1996, è stata una console per videogiochi a 64 bit che ha avuto un grande impatto sull'industria nonostante la concorrenza diretta con la prima PlayStation di Sony. Offriva grafica 3D impressionante per l'epoca e un controller innovativo con joystick centrale e pulsanti laterali.
+
+Nintendo ha venduto oltre 32 milioni di unità in tutto il mondo e ha presentato alcuni dei giochi più popolari di tutti i tempi, come Super Mario 64, The Legend of Zelda: Ocarina of Time e GoldenEye 007.</text>        
+<text lang="de">Der Nintendo 64, der 1996 veröffentlicht wurde, war eine 64-Bit-Videospielkonsole, die trotz direkter Konkurrenz mit Sonys erster PlayStation einen großen Einfluss auf die Branche hatte. Es bot beeindruckende 3D-Grafiken für seine Zeit und einen innovativen Controller mit einem zentralen Joystick und Seitentasten.
+
+Nintendo verkaufte weltweit über 32 Millionen Einheiten und präsentierte einige der beliebtesten Spiele aller Zeiten, wie Super Mario 64, The Legend of Zelda: Ocarina of Time und GoldenEye 007.</text>        
+<text lang="pl">Nintendo 64, wydana w 1996 roku, była konsolą do gier wideo 64-bitową, która miała duży wpływ na branżę, mimo bezpośredniej konkurencji z pierwszą konsolą PlayStation od Sony. Oferowała imponującą grafikę 3D jak na tamte czasy i innowacyjny kontroler z centralnym joystickiem i przyciskami bocznymi.
+
+Nintendo sprzedała ponad 32 miliony egzemplarzy na całym świecie i zawierała niektóre z najbardziej popularnych gier wszech czasów, takich jak Super Mario 64, The Legend of Zelda: Ocarina of Time i GoldenEye 007.</text>        
+<text lang="ru">Nintendo 64, выпущенная в 1996 году, была 64-битной игровой приставкой, которая оказала большое влияние на индустрию, несмотря на прямую конкуренцию с первой PlayStation от Sony. Она предлагала впечатляющую 3D-графику для своего времени и инновационный контроллер с центральным джойстиком и боковыми кнопками.
+
+Nintendo продала более 32 миллионов консолей по всему миру и представила некоторые из самых популярных игр всех времен, такие как Super Mario 64, The Legend of Zelda: Ocarina of Time и GoldenEye 007.</text>        
+<text lang="zh">Nintendo 64在1996年发布，是一款64位的电子游戏机，尽管直接与索尼的第一代PlayStation竞争，但对该行业产生了巨大的影响。它提供了当时令人印象深刻的3D图形和一个带有中央操纵杆和侧面按钮的创新控制器。
+
+任天堂在全球范围内销售了超过3200万台，并推出了一些有史以来最受欢迎的游戏，例如《超级马里奥64》、《塞尔达传说：时之笛》和《黄金眼007》。</text>        
+<text lang="ja">1996年に発売されたNintendo 64は、64ビットのビデオゲーム機で、ソニーの最初のプレイステーションと直接競合しながら、この業界に大きな影響を与えました。当時の印象的な3Dグラフィックスと、中央のジョイスティックとサイドボタンを備えた画期的なコントローラーを提供しました。
+
+Nintendoは世界中で3200万台以上を販売し、スーパーマリオ64、ゼルダの伝説：時のオカリナ、ゴールデンアイ007など、史上最も人気のあるゲームのいくつかを特集しました。</text>        
+
+		</text>	
+		
 		<text name="system_name" extra="true">
 			<text>Nintendo 64</text>
 		</text>

@@ -4,26 +4,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
 	<formatVersion>7</formatVersion>
 
-	<view name="system">
-
-		
-				<text name="system_description" extra="true" >
-			<text>The GX4000 is a video game console that was manufactured by Amstrad. It was the company's short-lived attempt to enter the games console market. The console was released in Europe in 1990.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La GX4000 es una consola de videojuegos fabricada por Amstrad. Fue un intento efímero de la compañía para ingresar al mercado de consolas de juegos. La consola fue lanzada en Europa en 1990.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La GX4000 est une console de jeu vidéo fabriquée par Amstrad. C'était la tentative de courte durée de la société d'entrer sur le marché des consoles de jeux. La console est sortie en Europe en 1990.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>O GX4000 é um console de videogame fabricado pela Amstrad. Foi a tentativa de curta duração da empresa para entrar no mercado de consoles de jogos. O console foi lançado na Europa em 1990.</text>
-		</text>
-		
-				
+	<view name="system">		
 
 		<text name="system_name" extra="true">
 			<text>Amstrad GX4000</text>

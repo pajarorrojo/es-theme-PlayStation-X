@@ -10,22 +10,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 Racing games are a video game genre in which the player participates in a racing competition. They may be based on anything from real-world racing leagues to fantastical settings. They are distributed along a spectrum between more realistic racing simulations and more fantastical arcade-style racing games.
 			</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text  lang="es,ca,eu">Lista de juegos automática.
 
 Suelen existir dos tipos de juegos de carreras, los arcade y los de simulación. Los juegos de carreras estilo arcade brindan diversión y una experiencia trepidante por encima de todo, mientras que en los de simulación se centran en imitar realísticamente el manejo de los vehículos, condiciones de la pista o la propia mecánica física.
-</text>
-	</text>
+			</text>
+		</text>
 
 		<text name="system_name" extra="true">
-			<text>Race, Driving</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Carreras, conducción</text>
+			<text lang="es">Carreras, conducción</text>
+			<text lang="ca">Curses, conducció</text>
+			<text lang="eu">Korrikak, gidatzea</text>
 		</text>
 	</view>
 </theme>

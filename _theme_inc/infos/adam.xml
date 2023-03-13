@@ -6,20 +6,27 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
-				<text>The Coleco Adam is a home computer and expansion device for the ColecoVision released in 1983 by American toy and video game manufacturer Coleco. It was an attempt to follow on the success of the company's ColecoVision video game console. 
+		<text name="system_description" extra="true">
+			<text>The Coleco Adam is a home computer and expansion device for the ColecoVision released in 1983 by American toy and video game manufacturer Coleco. It was an attempt to follow on the success of the company's ColecoVision video game console. 
 					
-The Adam was not very successful, partly because of early production problems, and was discontinued in early 1985.</text>
+The Adam was not very successful, partly because of early production problems, and was discontinued in early 1985.
 			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El Coleco Adam es un ordenador doméstico, con dos encarnaciones: una como equipo independiente, y otra como el Expansion Module #3 de la videoconsola ColecoVision, lanzado en 1983 por el fabricante de juguetes Coleco. Fue un intento de seguir con el éxito de la ColecoVision. 
+			<text lang="es">El Coleco Adam es un ordenador doméstico, con dos encarnaciones: una como equipo independiente, y otra como el Expansion Module #3 de la videoconsola ColecoVision, lanzado en 1983 por el fabricante de juguetes Coleco. Fue un intento de seguir con el éxito de la ColecoVision. 
 					
-El Adam no tuvo mucho éxito, en parte debido a los problemas iniciales de fabricación, y fue descatalogado a principio de 1985.</text>
+El Adam no tuvo mucho éxito, en parte debido a los problemas iniciales de fabricación, y fue descatalogado a principio de 1985.
+			</text>
+			<text lang="ca">El Coleco Adam és un ordinador domèstic, amb dues encarnacions: una com a equip independent, i una altra com l'Expansion Module #3 de la videoconsola ColecoVision, llançat el 1983 pel fabricant de joguines Coleco. Va ser un intent de seguir amb l'èxit de la ColecoVision.</text>
+			<text lang="eu">Coleco Adam ordenagailu dendetia da, bi inkarnazio ditu: bata berezko gailu bezala eta bestea ColecoVision bideo-konsolaren Expansion Module #3 bezala, 1983an jostailu fabrikatzaileak Colecok marketatzeko baimenduta. ColecoVision-eko arrakasta jarraitzearen saiatzea izan zen.</text>
+			<text lang="it">Il Coleco Adam è un home computer e un dispositivo di espansione per il ColecoVision rilasciato nel 1983 dal produttore americano di giocattoli e videogiochi Coleco. Si trattava di un tentativo di dare seguito al successo della console per videogiochi ColecoVision dell'azienda. L'Adam non ebbe molto successo, in parte a causa di problemi di produzione iniziali, e fu dismesso all'inizio del 1985.</text>
+			<text lang="fr">Le Coleco Adam était un ordinateur domestique lancé par le fabricant de jouets Coleco en 1983. Il était produit en deux versions, l'une comme équipement autonome et l'autre comme module d'extension pour la console ColecoVision. C'était une tentative de suivre le succès de la ColecoVision, mais il n'a pas réussi à atteindre le même niveau de popularité.</text>
+			<text lang="pt">O Coleco Adam foi um computador doméstico lançado pelo fabricante de brinquedos Coleco em 1983. Foi produzido em duas versões, uma como equipamento independente e outra como módulo de expansão para o console ColecoVision. Foi uma tentativa de seguir o sucesso do ColecoVision, mas não conseguiu alcançar o mesmo nível de popularidade.</text>
+			<text lang="de">Der Coleco Adam war ein Heimcomputer, der 1983 vom Spielzeughersteller Coleco auf den Markt gebracht wurde. Er wurde in zwei Versionen produziert, eine als eigenständiges Gerät und eine als Erweiterungsmodul für die Konsole ColecoVision. Es war ein Versuch, dem Erfolg des ColecoVision zu folgen, konnte jedoch nicht das gleiche Maß an Beliebtheit erreichen.</text>
+			<text lang="ru">8-разрядный домашний компьютер, а также расширение для игровой приставки ColecoVision. Выпускался в 1983 году американской компанией Coleco. Выпуск Adam был попыткой закрепить успех, достигнутый благодаря выходу консоли ColecoVision. Но Adam не стал особенно успешным, частично из-за проблем, возникших перед его выпуском. В итоге, Adam был заброшен в начале 1985 года.</text>
+			<text lang="pl">Coleco Adam to komputer domowy i urządzenie rozszerzające dla ColecoVision wydane w 1983 roku przez amerykańskiego producenta zabawek i gier wideo Coleco. Była to próba podążania za sukcesem konsoli gier wideo ColecoVision firmy. Adam nie był bardzo udany, częściowo z powodu wczesnych problemów produkcyjnych, i został wycofany z produkcji na początku 1985 roku.</text>
+			<text lang="zh">Coleco Adam是由玩具制造商Coleco于1983年推出的家用计算机。它生产了两个版本，一个作为独立设备，另一个作为ColecoVision游戏机的扩展模块。它是追随ColecoVision成功的尝试，但并没有达到同样的受欢迎程度。</text>
+			<text lang="ja">Coleco Adamは、1983年におもちゃメーカーのColecoが発売した家庭用コンピューターです。独立した機器として1つ、コンソールColecoVisionの拡張モジュールとして1つのバージョンが製造されました。ColecoVisionの成功を追跡する試みでしたが、同じ人気を得ることはできませんでした。</text>
 		</text>
 
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Coleco Adam</text>

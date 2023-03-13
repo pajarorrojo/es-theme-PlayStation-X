@@ -12,24 +12,18 @@ Genre that is characterized by focusing on the use of music to develop the gamep
 
 It includes karaoke games, rhythm games, dance games and musical instrument games.
 			</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 Género que se caracteriza por centrarse en el uso de la música para desarrollar la jugabilidad, a menudo basada en la interpretación más o menos realista de la misma.
 
 Incluye juegos de karaoke, juegos de ritmo, juegos de baile y juegos con instrumentos musicales.
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Music and dance</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Música y baile</text>
+			<text lang="es">Música y baile</text>
+			<text lang="ca">Música i ball</text>
+			<text lang="eu">Musika eta dantza</text>
 		</text>
 	</view>
 </theme>

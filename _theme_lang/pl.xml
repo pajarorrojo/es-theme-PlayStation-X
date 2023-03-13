@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="pl">
+    <theme.welcome>Witaj w Playstation X dla</theme.welcome>
+    <theme.start>Start</theme.start>
+    <theme.mostplayed>Najczęściej grane:</theme.mostplayed>
+    <theme.items>Przedmioty:</theme.items>
+    <theme.collections>Kolekcje:</theme.collections>
+    <GamesNumber>Gry</GamesNumber>
+    <GamesFavs>Ulubione</GamesFavs>
+    <NumberPlayed>Grane</NumberPlayed>
+    <blue>niebieski</blue>
+    <black>czarny</black>
+    <red>czerwony</red>
+    <yellow>żółty</yellow>
+    <green>zielony</green>
+    <purple>purpurowy</purple>
+    <orange>pomarańczowy</orange>
+    <pink>różowy</pink>
+    <default>domyślny</default>
+    <big>duży</big>
+    <medium>średni</medium>
+    <small>mały</small>
+    <yes>tak</yes>
+    <no>nie</no>
+    <none>Brak</none>
+    <never>Nigdy</never>
+    <always>Zawsze</always>
+    <iconset>Zestaw ikon</iconset>
+    <theme.frontend>Wybierz swój ulubiony interfejs</theme.frontend>
+    <gameBar>Pokaż pasek informacji o grze</gameBar>
+    <CarouselImageSize>Rozmiar obrazu w karuzeli</CarouselImageSize>
+    <theme.videoBackground>Pokaż filmy w widoku systemu</theme.videoBackground>
+    <theme.system-description>Pokaż opisy systemów</theme.system-description>
+    <theme.animated-background>Animowane tło (fale)</theme.animated-background>
+    <theme.backgroundVideoOption>Video w tle</theme.backgroundVideoOption>
+    <theme.windowVideoOption>Video w oknie</theme.windowVideoOption>
+    <theme.insideVideoOption>Wewnątrz kafelka</theme.insideVideoOption>
+    <theme.smallScreenOption>Mały ekran</theme.smallScreenOption>
+    <theme.videoaudio>Włącz dźwięk w filmach systemowych</theme.videoaudio>
+    <theme.videoRandom>Pokaż losowe miniatury filmów</theme.videoRandom>
+    <ifnospot>Jeśli brak filmów systemowych</ifnospot>
+    <theme.Avatar>Wybierz swój obraz Avatar</theme.Avatar>
+    <theme.username>Wybierz Nick</theme.username>
+    <custom>dostosowany</custom>
+    <theme.videoGamelistDelay>Opóźnienie wideo na liście gier</theme.videoGamelistDelay>
+    <VideoOff>Nie wyświetlaj filmów</VideoOff>
+    <theme.systemConsole>Pokaż logo i konsole w widoku systemu</theme.systemConsole>
+    <randomGame>Losowa gra</randomGame>
+    <theme.colorset>Kolorystyka motywu</theme.colorset>
+    <theme.secondaryColorset>Kolor pomocniczy</theme.secondaryColorset>
+    <theme.gridvideo>Wyświetlaj miniaturki wideo gier</theme.gridvideo>
+    <theme.videoSnapAudio>Włącz dźwięk w wideo gier</theme.videoSnapAudio>
+    <theme.animatedList>Animowane przejścia w liście gier</theme.animatedList>
+    <theme.animatedSystem>Animowane przejścia w widoku systemów</theme.animatedSystem>
+    <theme.aspect-ratio >Wybierz typ ekranu</theme.aspect-ratio>
+    <theme.oversizeVideoOption>Przeskaluj wideo</theme.oversizeVideoOption>
+    <theme.bato35compatilble>Tylko kompatybilne w batocera 35 lub nowszej</theme.bato35compatilble>
+    <theme.netplay-required>Proszę włączyć netplay, aby wyświetlić swoją nazwę użytkownika lub wybrać inną nazwę w opcjach motywu</theme.netplay-required>
+    <theme.ra-required>Proszę włączyć retroachievements, aby wyświetlić swoją nazwę użytkownika lub wybrać inną nazwę w opcjach motywu</theme.ra-required>
+    <theme.hotkey>Pokaż pomoc skrótu klawiszowego na ekranie powitalnym</theme.hotkey>
+    <theme.hotkey-x86>Pokaż szybką pomoc skrótu klawiszowego</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>Tylko na ekranie ładowania gry</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>Tylko na ekranie powitalnym</theme.hotkey.splash>
+    <theme.hotkey.both>Na obu ekranach</theme.hotkey.both>
+    <theme.detected>wykryto</theme.detected>
+    <theme.detailedorigin>Obraz w widoku szczegółowym</theme.detailedorigin>
+    <theme.gridMainorigin>Główny obraz w widoku siatki</theme.gridMainorigin>
+    <theme.gridorigin>Obrazy siatki</theme.gridorigin>
+    <theme.carouselMainOrigin>Główny obraz w widoku karuzeli</theme.carouselMainOrigin>
+    <theme.carouselOrigin>Obrazy karuzeli</theme.carouselOrigin>
+    <theme.systemBackground>Zdjęcie tła w widoku systemów</theme.systemBackground>
+    <randomFanart>Losowe fanart</randomFanart>
+  </variables>
+</theme>

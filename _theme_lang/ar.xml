@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="ar">
+    <theme.welcome>مرحبًا بك في Playstation X لـ</theme.welcome>
+    <theme.start>ابدأ</theme.start>
+    <theme.mostplayed>الأكثر لعبًا:</theme.mostplayed>
+    <theme.items>العناصر:</theme.items>
+    <theme.collections>المجموعات:</theme.collections>
+    <GamesNumber>الألعاب</GamesNumber>
+    <GamesFavs>المفضلة</GamesFavs>
+    <NumberPlayed>الملعوبة</NumberPlayed>
+    <blue>أزرق</blue>
+    <black>أسود</black>
+    <red>أحمر</red>
+    <yellow>أصفر</yellow>
+    <green>أخضر</green>
+    <purple>أرجواني</purple>
+    <orange>برتقالي</orange>
+    <pink>زهري</pink>
+    <default>افتراضي</default>
+    <big>كبير</big>
+    <medium>متوسط</medium>
+    <small>صغير</small>
+    <yes>نعم</yes>
+    <no>لا</no>
+    <none>لا شيء</none>
+    <never>أبدًا</never>
+    <always>دائمًا</always>
+    <iconset>مجموعة الأيقونات</iconset>
+    <theme.frontend>اختر واجهة المستخدم المفضلة لديك</theme.frontend>
+    <gameBar>إظهار شريط معلومات اللعبة</gameBar>
+    <CarouselImageSize>حجم صورة الدائري</CarouselImageSize>
+    <theme.videoBackground>إظهار مقاطع الفيديو في وضع النظام</theme.videoBackground>
+    <theme.system-description>إظهار وصف النظام</theme.system-description>
+    <theme.animated-background>خلفية متحركة (موجات)</theme.animated-background>
+    <theme.backgroundVideoOption>مقطع فيديو خلفية</theme.backgroundVideoOption>
+    <theme.windowVideoOption>مقطع فيديو في النافذة</theme.windowVideoOption>
+    <theme.insideVideoOption>داخل البلاطة</theme.insideVideoOption>
+    <theme.smallScreenOption>شاشة صغيرة</theme.smallScreenOption>
+    <theme.videoaudio>تمكين الصوت في مقاطع الفيديو النظامية</theme.videoaudio>
+    <theme.videoRandom>إظهار لقطات الفيديو العشوائية</theme.videoRandom>
+    <ifnospot>إذا لم يتم العثور على مقطع فيديو النظام</ifnospot>
+    <theme.Avatar>اختر صورة أفاتارك</theme.Avatar>
+    <theme.username>اختر اسم مستعار</theme.username>
+    <custom>مخصص</custom>
+    <theme.videoGamelistDelay>تأخير الفيديو في قائمة الألعاب</theme.videoGamelistDelay>
+    <VideoOff>عدم عرض الفيديو</VideoOff>
+    <theme.systemConsole>عرض شعار وأجهزة الألعاب في عرض النظام</theme.systemConsole>
+    <randomGame>لعبة عشوائية</randomGame>
+    <theme.colorset>مجموعة ألوان السمة</theme.colorset>
+    <theme.secondaryColorset>اللون الثانوي</theme.secondaryColorset>
+    <theme.gridvideo>عرض فيديو للألعاب</theme.gridvideo>
+    <theme.videoSnapAudio>تشغيل الصوت في فيديو الألعاب</theme.videoSnapAudio>
+    <theme.animatedList>انتقالات متحركة في قائمة الألعاب</theme.animatedList>
+    <theme.animatedSystem>انتقالات متحركة في عرض الأنظمة</theme.animatedSystem>
+    <theme.aspect-ratio>حدد نوع الشاشة الخاصة بك</theme.aspect-ratio>
+    <theme.oversizeVideoOption>تكبير الفيديو</theme.oversizeVideoOption>
+    <theme.bato35compatilble>متوافق فقط في batocera 35 أو أحدث</theme.bato35compatilble>
+    <theme.netplay-required>الرجاء تمكين اللعب الجماعي لعرض اسم المستخدم الخاص بك أو اختيار اسم مستعار آخر في خيارات السمة</theme.netplay-required>
+    <theme.ra-required>الرجاء تمكين الإنجازات الكلاسيكية لعرض اسم المستخدم الخاص بك أو اختيار اسم مستعار آخر في خيارات السمة</theme.ra-required>
+    <theme.hotkey>عرض مفاتيح الاختصار في شاشة الترحيب</theme.hotkey>
+    <theme.hotkey-x86>عرض مفاتيح الاختصار السريعة</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>فقط على شاشة تحميل اللعبة</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>على شاشة الترحيب فقط</theme.hotkey.splash>
+    <theme.hotkey.both>على كل من الشاشتين</theme.hotkey.both>
+    <theme.detected>تم الكشف عنه</theme.detected>
+    <theme.detailedorigin>الصورة في العرض التفصيلي</theme.detailedorigin>
+    <theme.gridMainorigin>الصورة الرئيسية في عرض الشبكة</theme.gridMainorigin>
+    <theme.gridorigin>صور الشبكة</theme.gridorigin>
+    <theme.carouselMainOrigin>الصورة الرئيسية في عرض الدائري</theme.carouselMainOrigin>
+    <theme.carouselOrigin>صور الدائري</theme.carouselOrigin>
+    <theme.systemBackground>صورة الخلفية في عرض الأنظمة</theme.systemBackground>
+    <randomFanart>فن آرت عشوائي</randomFanart>
+  </variables>
+</theme>

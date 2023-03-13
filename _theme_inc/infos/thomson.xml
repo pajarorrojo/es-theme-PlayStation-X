@@ -6,28 +6,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
 		<text name="system_description" extra="true">
 			<text>Thomson MO/TO are home computers created by the French company between 1982 and 1986. Among the most popular models were the Thomson MO5 and T09. The acronym TO refers to "Télé-Ordinateur" while the acronym MO refers to "Micro-Ordinateur".</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>Thomson MO/TO son unos ordenadores domésticos creados por la compañía francesa entre 1982 y 1986. Entre los modelos más populares se encontraban el MO5 y el TO9. Las siglas TO hacen referencia a "Télé-Ordinateur" mientras que las siglas MO hacen referencia a "Micro-Ordinateur".</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="fr">
-			<text>Thomson MO/TO sont des ordinateurs personnels créés par la société française entre 1982 et 1986. Parmi les modèles les plus populaires, on trouve le Thomson MO5 ou le T09. L'acronyme TO fait référence à «Télé-Ordinateur» tandis que l'acronyme MO fait référence à «Micro-Ordinateur».</text>
+			<text lang="es,ca,eu">Thomson MO/TO son unos ordenadores domésticos creados por la compañía francesa entre 1982 y 1986. Entre los modelos más populares se encontraban el MO5 y el TO9. Las siglas TO hacen referencia a "Télé-Ordinateur" mientras que las siglas MO hacen referencia a "Micro-Ordinateur".</text>
+			<text lang="fr">Thomson MO/TO sont des ordinateurs personnels créés par la société française entre 1982 et 1986. Parmi les modèles les plus populaires, on trouve le Thomson MO5 ou le T09. L'acronyme TO fait référence à «Télé-Ordinateur» tandis que l'acronyme MO fait référence à «Micro-Ordinateur».</text>
+			<text lang="pt">Thomson MO/TO são computadores domésticos criados pela empresa francesa entre 1982 e 1986. Entre os modelos mais populares estavam o Thomson MO5 ou T09. A sigla TO refere-se a "Télé-Ordinateur", enquanto a sigla MO refere-se a "Micro-Ordinateur".</text>
+			<text lang="it">Thomson MO/TO sono computer domestici creati dalla società francese tra il 1982 e il 1986. Tra i modelli più popolari c'erano Thomson MO5 o T09. L'acronimo TO si riferisce a "Télé-Ordinateur" mentre l'acronimo MO si riferisce a "Micro-Ordinateur".</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="pt">
-			<text>Thomson MO/TO são computadores domésticos criados pela empresa francesa entre 1982 e 1986. Entre os modelos mais populares estavam o Thomson MO5 ou T09. A sigla TO refere-se a "Télé-Ordinateur", enquanto a sigla MO refere-se a "Micro-Ordinateur".</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="it">
-			<text>Thomson MO/TO sono computer domestici creati dalla società francese tra il 1982 e il 1986. Tra i modelli più popolari c'erano Thomson MO5 o T09. L'acronimo TO si riferisce a "Télé-Ordinateur" mentre l'acronimo MO si riferisce a "Micro-Ordinateur".</text>
-		</text>
-
-		
 		<text name="system_name" extra="true">
 			<text>Thomson</text>
 		</text>

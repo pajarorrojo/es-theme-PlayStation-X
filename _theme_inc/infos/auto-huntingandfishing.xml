@@ -9,24 +9,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Auto gamelist.
 
 In this type of video game the player basically fishes or hunts. Usually they take the form of tournaments and many have a wide variety of places to catch and collect the largest number of pieces.			
-	</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			</text>
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 En este tipo de videojuegos el jugador basicamente pesca o caza. En general suelen adoptar la forma de torneos y muchos cuentan con una amplia variedad de lugares en los que atrapar y coleccionar el mayor numero de piezas.
-	</text>
+			</text>
 		</text>
 	
 
 		<text name="system_name" extra="true">
-			<text>Hunting and fishing</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Caza y pesca</text>
+			<text lang="es">Caza y pesca</text>
+			<text lang="ca">Caça i pesca</text>
+			<text lang="eu">Ohitura eta arrantza</text>
 		</text>
 	</view>
 </theme>

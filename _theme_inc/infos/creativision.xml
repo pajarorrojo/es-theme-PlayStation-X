@@ -6,21 +6,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	    
-
 		<text name="system_description" extra="true" >
 			<text>The Video Technology CreatiVision is a hybrid computer and home video game console introduced by VTech in 1981 and released in 1982. The hybrid unit was similar in concept to computers such as the APF Imagination Machine, the older VideoBrain Family Computer, and to a lesser extent the Intellivision game console and Coleco Adam computer, all of which anticipated the trend of video game consoles becoming more like low-end computers. </text>
+			<text lang="es,ca,eu">La Creativision es una consola y un ordenador doméstico, presentada por VTech en 1981 y lanzada en 1982. La unidad híbrida era similar en concepto a ordenadores como APF Imagination Machine, la antigua VideoBrain Family Computer y, en menor medida, la consola de juegos Intellivision y la Coleco Adam, que anticiparon la tendencia de las consolas de videojuegos a parecerse más a los ordenadores de gama baja.</text>
 		</text>
-
 		
-		<text name="system_description" extra="true" lang="es">
-			<text>La Creativision es una consola y un ordenador doméstico, presentada por VTech en 1981 y lanzada en 1982. La unidad híbrida era similar en concepto a ordenadores como APF Imagination Machine, la antigua VideoBrain Family Computer y, en menor medida, la consola de juegos Intellivision y la Coleco Adam, que anticiparon la tendencia de las consolas de videojuegos a parecerse más a los ordenadores de gama baja.
-
-			</text>
-		</text>
-
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>VTech CreatiVision</text>
 		</text>

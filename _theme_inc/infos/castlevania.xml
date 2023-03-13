@@ -1,0 +1,33 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>Castlevania, known in Japan as Akumajō Dracula, is a gothic horror action-adventure video game series about Dracula, created and developed by Konami. Castlevania is largely set in the eponymous castle of Count Dracula, the main antagonist of the Belmont clan of vampire hunters.
+				
+It debuted with 1986's Castlevania for the Nintendo Family Computer Disk System. The first entry and the majority of its sequels are side-scrolling action platformers
+			</text>
+			<text lang="es">Castlevania, conocido en Japón como Akumajō Dracula, es una serie de videojuegos de acción y aventuras de terror gótico sobre Drácula, creada y desarrollada por Konami. Castlevania se desarrolla en gran medida en el castillo del mismo nombre del Conde Drácula, el principal antagonista del clan Belmont de cazadores de vampiros.
+
+Debutó en 1986 para Nintendo Family Computer Disk System. La primera entrega y la mayoría de sus secuelas son juegos de acción y plataformas de desplazamiento lateral.
+			</text>
+			<text lang="ca">Castlevania, conegut a Japó com Akumajō Dracula, és una sèrie de videojocs d'acció i aventures de terror gòtic sobre Dràcula, creada i desenvolupada per Konami. Castlevania es desenvolupa en gran mesura al castell del mateix nom del Comte Dràcula, el principal antagonista del clan Belmont de caçadors de vampirs.</text>        
+			<text lang="eu">Castlevania, Japonian Akumajō Dracula izenez ezagutzen dena, Drakulari buruzko beldurrezko akzio-abenturazko bideo-joko gotikoa da, Konami-k sortu eta garatua. Castlevania, neurri handi batean, Drakula kondearen gazteluan kokatzen da, banpiro ehiztarien Belmont klanaren antagonista nagusian.</text>        
+			<text lang="fr">Castlevania, connu au Japon sous le nom d'Akumajō Dracula, est une série de jeux vidéo de type action-aventure horrifique gothique sur Dracula, créée et développée par Konami. Castlevania est principalement situé dans le château éponyme du comte Dracula, l'antagoniste principal de la lignée des chasseurs de vampires Belmont.</text>        
+			<text lang="pt">Castlevania, conhecido no Japão como Akumajō Dracula, é uma série de jogos de ação-aventura de terror gótico sobre Drácula, criada e desenvolvida pela Konami. Castlevania é principalmente situado no castelo do Conde Drácula, o antagonista principal da linhagem dos caçadores de vampiros Belmont.</text>        
+			<text lang="it">Castlevania, conosciuto in Giappone come Akumajō Dracula, è una serie di videogiochi di azione-avventura gotico-orrore su Dracula, creata e sviluppata da Konami. Castlevania è principalmente ambientato nel castello del Conte Dracula, l'antagonista principale della stirpe dei cacciatori di vampiri Belmont.</text>        
+			<text lang="de">Castlevania, in Japan als Akumajō Dracula bekannt, ist eine gothic-horror-Action-Adventure-Videospielserie über Dracula, entwickelt und entwickelt von Konami. Castlevania spielt hauptsächlich im Schloss des Grafen Dracula, dem Hauptantagonisten der Sippe der Vampirjäger Belmont.</text>        
+			<text lang="pl">Castlevania, znana w Japonii jako Akumajō Dracula, to seria góralskich horrorów akcji i przygód o Drakuli, stworzona i rozwijana przez Konami. Castlevania głównie odbywa się w zamku hrabiego Draculi, głównego antagonista rodziny Belmontów, łowców wampirów.</text>        
+			<text lang="ru">Кастлевания, известная в Японии как Akumajō Dracula, является готической горячей игрой жанра action-adventure о Дракуле, созданной и разработанной Konami. Кастлевания в основном проходит в собственном замке графа Дракулы, главного антагониста рода Бельмонтов-охотников за вампирами.</text>        
+			<text lang="zh">恶魔城，在日本被称为 Akumajō Dracula，是一部关于德古拉的哥特式恐怖动作冒险视频游戏系列，由 Konami 创作和开发。 恶魔城主要设定在德古拉伯爵的同名城堡中，德古拉伯爵是吸血鬼猎人贝尔蒙特氏族的主要对手。</text>        
+			<text lang="ja">悪魔城ドラキュラは、コナミによって作成および開発された、ドラキュラに関するゴシック ホラー アクション アドベンチャー ビデオ ゲーム シリーズです。 キャッスルヴァニアは主に、吸血鬼ハンターのベルモント一族の主な敵であるドラキュラ伯爵の名を冠した城に設定されています。</text>       
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Castlevania</text>
+		</text>
+	</view>
+</theme>

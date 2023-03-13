@@ -6,27 +6,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>Also known as the C64 or the CBM 64, is an 8-bit home computer introduced in January 1982 by Commodore International (first shown at the Consumer Electronics Show, in Las Vegas, January 7–10, 1982).</text>
+		<text name="system_description" extra="true">
+			<text>The Commodore 64, commonly known as the C64, is an 8-bit home computer introduced by Commodore International in January 1982. It is one of the best-selling personal computers of all time, with estimated sales between 10 and 17 million units. It was initially priced at $595 and featured a MOS Technology 6510 microprocessor, 64 kilobytes of RAM, and a sound and graphics chip known as the SID. </text>        
+			<text lang="es">El Commodore 64, comúnmente conocido como el C64, es un ordenador doméstico de 8 bits introducido por Commodore International en enero de 1982. Es uno de los ordenadores personales más vendidos de todos los tiempos, con ventas estimadas entre 10 y 17 millones de unidades. Inicialmente fue vendido por $595 y contaba con un microprocesador MOS Technology 6510, 64 kilobytes de RAM y un chip de sonido y gráficos conocido como el SID.</text>        
+			<text lang="ca">El Commodore 64, comúment conegut com el C64, és un ordinador domèstic de 8 bits introduït per Commodore International al gener de 1982. És un dels ordinadors personals més venuts de tots els temps, amb vendes estimades entre 10 i 17 milions d'unitats. Inicialment va ser venut per $595 i comptava amb un microprocessador MOS Technology 6510, 64 kilobytes de RAM i un xip de so i gràfics conegut com el SID.</text>        
+			<text lang="eu">Commodore 64, C64 bezala ezaguna, 8-bitu osatutako ordenagailu domestikoa da, Commodore International-ek 1982ko urtarrilaren alde egin zuena. Denboraldien historiako ordenagailu pertsonal bat da, 10 eta 17 milioen arteko salmentekin. $595-ko prezioan jarri zuten martxan, MOS Technology 6510 mikroprozesadorearekin, 64 kilobyte RAM-arekin eta SID moduko soinu eta grafika xiparekin.</text>        
+			<text lang="fr">Le Commodore 64 est un ordinateur personnel lancé en 1982 par Commodore International. Il était disponible à un prix abordable de 595 dollars US à sa sortie et a rapidement connu un grand succès. Il était équipé d'un processeur MOS Technology 6510, de 64 Ko de mémoire vive et d'un lecteur de disquette. Le C64 a été l'un des ordinateurs les plus vendus de l'histoire et était populaire pour les jeux vidéo ainsi que pour la programmation et l'utilisation domestique.</text>        
+			<text lang="pt">O Commodore 64 é um computador pessoal lançado em 1982 pela Commodore International. Ele estava disponível por um preço acessível de 595 dólares americanos no lançamento e rapidamente se tornou um grande sucesso. Ele apresentava um processador MOS Technology 6510, 64 KB de memória RAM e uma unidade de disco. O C64 foi um dos computadores mais vendidos da história e era popular para jogos de vídeo, bem como para programação e uso doméstico.</text>        
+			<text lang="it">Il Commodore 64 è un computer personale lanciato nel 1982 da Commodore International. Era disponibile ad un prezzo accessibile di 595 dollari USA al momento del lancio e ha rapidamente ottenuto un grande successo. Era dotato di un processore MOS Technology 6510, di 64 KB di memoria RAM e di un'unità a dischi. Il C64 è stato uno dei computer più venduti della storia ed era popolare sia per i videogiochi che per la programmazione e l'uso domestico.</text>        
+			<text lang="de">Der Commodore 64 ist ein Heimcomputer, der 1982 von Commodore International auf den Markt gebracht wurde. Er war zu einem erschwinglichen Preis von 595 US-Dollar erhältlich und erlangte schnell großen Erfolg. Er verfügte über einen MOS Technology 6510 Prozessor, 64 KB RAM und ein Diskettenlaufwerk. Der C64 war einer der meistverkauften Computer der Geschichte und war beliebt für Videospiele sowie Programmierung und den Hausgebrauch.</text>        
+			<text lang="pl">Commodore 64 to legendarny komputer domowy wydany w 1982 roku. Stał się jednym z najpopularniejszych komputerów tamtej epoki i kosztował około 595 dolarów. Posiadał 8-bitowy procesor MOS Technology 6510, 64 kilobajty pamięci RAM i syntezator muzyczny SID z 3 głosami.</text>        
+			<text lang="ru">Commodore 64 - это легендарный домашний компьютер, выпущенный в 1982 году. Он стал одним из самых популярных компьютеров того времени и продавался по цене около 595 долларов. У него был 8-битный микропроцессор MOS Technology 6510, 64 килобайта оперативной памяти и музыкальный синтезатор SID с 3 голосами.</text>        
+			<text lang="zh">Commodore 64是一款传奇的家用电脑，于1982年发布。它成为了当时最受欢迎的电脑之一，售价约为595美元。它使用了8位MOS Technology 6510微处理器，64千字节的RAM和拥有3个声音的音乐合成器SID。</text>        
+			<text lang="ja">コモドール64は、1982年に発売された伝説的な家庭用コンピューターです。当時最も人気のあるコンピューターの1つであり、約595ドルで販売されました。8ビットのMOS Technology 6510プロセッサ、64キロバイトのRAM、3声の音楽合成器SIDを搭載しています。
+			</text>   
 		</text>
 		
-				<text name="system_description" extra="true" lang="es">
-			<text>Commodore 64 es un ordenador doméstico de 8 bits desarrollado por Commodore International en agosto de 1982 a un precio inicial de 595 dólares.
-
-Sucede a la Commodore VIC-20 y a la Commodore MAX Machine, presentando 64 kilobytes (65.536 bytes) de RAM, con gráficos y sonido muy por encima de otros equipos contemporáneos. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Est un ordinateur personnel conçu par Commodore Business Machines Inc. Il fut la première machine vendue à plusieurs millions d'exemplaires (de 17 à 25 millions selon les estimations).</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi um computador doméstico lançado pela Commodore em agosto de 1982 e produzido até abril de 1994. Estima-se que foram comercializados entre 17 a 22 milhões de unidades - recorde até os dias de hoje.</text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>Commodore 64</text>
 		</text>

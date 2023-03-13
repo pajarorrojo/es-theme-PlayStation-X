@@ -5,11 +5,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <variables>
       <menuSelectedColor>ffffff</menuSelectedColor>
-      <menuSelectorColor>FF7F00cc</menuSelectorColor>
-      <menuSelectorColorEnd>FF7F00</menuSelectorColorEnd>
-      <sistema.lineainferior>FF7F00</sistema.lineainferior>
-      <splash.progressbarActive>FF7F00</splash.progressbarActive>
-      <gamelistSelectorColor>FF7F00</gamelistSelectorColor>
-      <backgroundgridSelect>FF7F00</backgroundgridSelect>
+      <menuSelectorColor>FF9E00cc</menuSelectorColor>
+      <menuSelectorColorEnd>FF9E00</menuSelectorColorEnd>
+      <sistema.lineainferior>FF9E00</sistema.lineainferior>
+      <splash.progressbarActive>FF9E00</splash.progressbarActive>
+      <gamelistSelectorColor>FF9E00</gamelistSelectorColor>
+      <backgroundgridSelect>FF9E0073</backgroundgridSelect>
    </variables>
 </theme>

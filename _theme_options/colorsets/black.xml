@@ -4,17 +4,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
    <variables>
-      <menuSelectedColor ifSubset="secondary_colorset:default">ffffff</menuSelectedColor>
+      <menuSelectedColor ifSubset="secondary_colorset:default">bbbbbb</menuSelectedColor>
       <menuSelectorColor ifSubset="secondary_colorset:default">444444a6</menuSelectorColor>
       <menuSelectorColorEnd ifSubset="secondary_colorset:default">666666</menuSelectorColorEnd>
-      <menuFontcolor>aaaaaa</menuFontcolor>
+      <menuFontcolor>777777</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
-      <menuGrouptitle>dddddd</menuGrouptitle>
-      <menuGroupSeparator>dddddd</menuGroupSeparator>
+      <menuGrouptitle>bbbbbb</menuGrouptitle>
+      <menuGroupSeparator>bbbbbb</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
-      <menubgColor>010101</menubgColor>
-      <backgroundgrid>aaaaaa80</backgroundgrid>
-      <backgroundgridSelect ifSubset="secondary_colorset:default">F3C300</backgroundgridSelect>
+      <menubgColor>232323</menubgColor>
+      <backgroundgrid>aaaaaa</backgroundgrid>
+      <backgroundgridSelect ifSubset="secondary_colorset:default">DF002430</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
       <gamelistSelectorColor ifSubset="secondary_colorset:default">DF0024</gamelistSelectorColor>

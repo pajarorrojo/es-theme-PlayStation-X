@@ -8,24 +8,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="system_description" extra="true" >
 			<text>Auto gamelist.
 
-An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving
-			</text>
+An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving</text>
+			<text lang="es,ca,eu">Lista de juegos automática.
+
+Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.</text>
 		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-
-Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.			
-		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Adventure</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Aventura</text>
+			<text lang="es">Aventura</text>
+			<text lang="ca">Aventura</text>
+			<text lang="eu">Abentura</text>
 		</text>
 	</view>
 </theme>

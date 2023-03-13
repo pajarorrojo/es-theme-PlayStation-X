@@ -5,26 +5,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
+		<text name="system_description" extra="true">
+			<text>Acclaim was a video game developer and publisher that operated from 1987 to 2004. They were known for producing popular titles such as Mortal Kombat, NBA Jam, and Turok. Acclaim also developed and published games for various consoles and arcade machines. Despite their success, financial troubles eventually led to the company's bankruptcy and closure in 2004.</text>
+			<text lang="es">Acclaim fue una compañía desarrolladora y distribuidora de videojuegos que operó desde 1987 hasta 2004. Se les conocía por producir títulos populares como Mortal Kombat, NBA Jam y Turok. Acclaim también desarrolló y publicó juegos para varias consolas y máquinas recreativas. A pesar de su éxito, problemas financieros llevaron eventualmente a la bancarrota y cierre de la compañía en 2004.</text>
+			<text lang="ca">Acclaim va ser una companyia desenvolupadora i distribuïdora de videojocs que va operar des de 1987 fins al 2004. Se'ls coneixia per produir títols populars com Mortal Kombat, NBA Jam i Turok. Acclaim també va desenvolupar i publicar jocs per a diverses consolles i màquines recreatives. Malgrat el seu èxit, problemes financers van portar eventualment a la fallida i tancament de la companyia el 2004.</text>
+			<text lang="eu">Acclaim 1987tik 2004ra bitartean egon zen bideo-joko garatzaile eta banatzaile bat zen. Mortal Kombat, NBA Jam eta Turok bezalako joko arrakastatsuak sortzeaz ezagutu ziren. Acclaimek konsolen eta jokoguneen jokoen garapena eta argitaratzea ere bultzatu zuen. Hala ere, finantza-arazoak azkenean enpresa konkurtsoan eta ixteko eraman zuten 2004an.</text>
+			<text lang="fr">Acclaim était un développeur et éditeur de jeux vidéo qui a opéré de 1987 à 2004. Ils étaient connus pour produire des titres populaires tels que Mortal Kombat, NBA Jam et Turok. Acclaim a également développé et publié des jeux pour diverses consoles et machines d'arcade. Malgré leur succès, des problèmes financiers ont finalement conduit à la faillite et à la fermeture de l'entreprise en 2004.</text>
+			<text lang="pt">Acclaim foi uma desenvolvedora e editora de jogos eletrônicos que operou de 1987 a 2004. Eles eram conhecidos por produzir títulos populares como Mortal Kombat, NBA Jam e Turok. Acclaim também desenvolveu e publicou jogos para vários consoles e máquinas arcade. Apesar do sucesso, problemas financeiros levaram eventualmente à falência e ao fechamento da empresa em 2004.</text>
+			<text lang="it">Acclaim era una società di sviluppo e pubblicazione di videogiochi attiva dal 1987 al 2004. Erano noti per la produzione di titoli popolari come Mortal Kombat, NBA Jam e Turok. Acclaim sviluppava e pubblicava anche giochi per varie console e macchine arcade. Nonostante il loro successo, problemi finanziari hanno portato alla bancarotta e alla chiusura dell'azienda nel 2004.</text>
+			<text lang="de">Acclaim war ein Videospielentwickler und -verleger, der von 1987 bis 2004 tätig war. Sie waren bekannt für die Produktion beliebter Titel wie Mortal Kombat, NBA Jam und Turok. Acclaim entwickelte und veröffentlichte auch Spiele für verschiedene Konsolen und Arcade-Maschinen. Trotz ihres Erfolgs führten finanzielle Schwierigkeiten schließlich zur Insolvenz und Schließung des Unternehmens im Jahr 2004.</text>
+			<text lang="pl">Acclaim był firmą zajmującą się produkcją i dystrybucją gier wideo, działającą w latach 1987-2004. Słynęli z tworzenia popularnych tytułów, takich jak Mortal Kombat, NBA Jam i Turok. Acclaim rozwijał i publikował także gry na różne konsole i maszyny arcade. Pomimo sukcesów, problemy finansowe doprowadziły ostatecznie do bankructwa i zamknięcia firmy w 2004 roku.</text>
+			<text lang="ru">Acclaim была компанией по разработке и изданию видеоигр, действовавшей с 1987 по 2004 год. Они были известны своими популярными играми, такими как Mortal Kombat, NBA Jam и Turok. Acclaim также разрабатывала и издавала игры для различных консолей и игровых автоматов. Несмотря на успехи, финансовые проблемы в итоге привели к банкротству и закрытию компании в 2004 году.</text>
+			<text lang="zh">Acclaim是一个从1987年到2004年运营的电子游戏开发商和发行商。他们以制作流行游戏如《Mortal Kombat》、《NBA Jam》和《Turok》而闻名。Acclaim也为各种掌机和街机开发和发布游戏。尽管他们成功，但财务问题最终导致了公司在2004年的破产和关闭。</text>
+			<text lang="ja">Acclaimは1987年から2004年まで活動していたビデオゲームの開発会社およびパブリッシャーでした。彼らはMortal Kombat、NBA Jam、Turokなどの人気タイトルの製作で知られていました。Acclaimはさまざまなコンソールやアーケードマシン向けにゲ</text>
+		</text>	
 		
-				
-
 		<text name="system_name" extra="true">
 			<text>Acclaim</text>
 		</text>

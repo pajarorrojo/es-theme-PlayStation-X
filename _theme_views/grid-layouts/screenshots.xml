@@ -4,7 +4,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme defaultView="grid">
    <formatVersion>7</formatVersion>
    <view name="grid">
-      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail|titleshot|image|fanart|marquee">
+      <imagegrid name="gamegrid">
+         <imageSource>image</imageSource>
          <autoLayout>5 1</autoLayout>
          <pos>-0.045 0.687</pos>
          <size>1.08 0.27</size>
@@ -18,13 +19,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </imagegrid>
 
       <gridtile name="default">
-         <backgroundEdgeColor>${backgroundgrid}</backgroundEdgeColor>
+         <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
          <padding>8</padding>
          <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
          <padding ifSubset="aspect-ratio:4-3|5-4">2</padding>
          <imageSizeMode>minSize</imageSizeMode>
          <backgroundCornerSize>0 0</backgroundCornerSize>
-         <imageColor>ffffffaa</imageColor>
+         <imageColor>ffffff</imageColor>
       </gridtile>
 
       <gridtile name="selected">
@@ -62,6 +63,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <control name="md_name">
          <clipRect>0 0 0 0</clipRect>
+
          <storyboard event="open">
             <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />
          </storyboard>
@@ -79,12 +81,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </storyboard>
       </control>
 
-      <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
+      <image name="md_image">
          <maxSize>1 0.55</maxSize>
          <pos>0.5 0.28</pos>
          <origin>0.5 0.28</origin>
          <zIndex>99</zIndex>
-
+         <visible>true</visible>
+      </image>
+      <image name="md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
+         <visible>false</visible>
       </image>
 
       <video name="md_video">
@@ -122,10 +127,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="systemInfoEx_extra" extra="true">
          <text>({binding:total} items) </text>
+         <text lang="es">({binding:total} elementos) </text>
+
          <alignment>left</alignment>
          <pos>0.27 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.2 0.045</pos>
          <pos tinyScreen="true">0.2 0.045</pos>
+
          <size>0.398 0.055</size>
          <color>FFFFFF</color>
          <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>

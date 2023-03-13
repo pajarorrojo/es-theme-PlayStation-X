@@ -10,22 +10,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 In this list you will basically find equestrian games or horse racing.
 			</text>
+			<text lang="es,ca,eu">Lista de juegos automática.
+
+En esta lista encontrás basicamente juegos de hípica o carreras de caballos.
+			</text>		
 		</text>
 		
 
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-
-En esta lista encontrás basicamente juegos de hípica o carreras de caballos.
-		</text>
-	</text>
-
 		<text name="system_name" extra="true">
-			<text>Sports with animals</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Deportivos con animales</text>
+			<text lang="es">Deportivos con animales</text>
+			<text lang="ca">Esportius amb animals</text>
+			<text lang="eu">Animaliekin egindako kirolak</text>
 		</text>
 	</view>
 </theme>

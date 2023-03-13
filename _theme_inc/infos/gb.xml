@@ -6,25 +6,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
+		<text name="system_description" extra="true">
+			<text>The Nintendo Game Boy is a portable game console released in 1989. It was the first handheld console with a grayscale screen and became a commercial success by offering a wide variety of games, including classics like Super Mario Land and Tetris. The console had several updates, including the Game Boy Color and the Game Boy Advance, but the original remains one of the most iconic handheld consoles of all time.</text>        
+			<text lang="es">La Game Boy de Nintendo es una consola de juegos portátil lanzada en 1989. Fue la primera consola portátil con una pantalla en escala de grises y se convirtió en un éxito comercial al ofrecer una amplia variedad de juegos, incluyendo clásicos como Super Mario Land o Tetris. La consola tuvo varias actualizaciones, incluyendo la Game Boy Color y la Game Boy Advance, pero la original sigue siendo una de las consolas portátiles más icónicas de todos los tiempos.</text>
+			<text lang="ca">La Game Boy de Nintendo és una consola de jocs portàtil llançada el 1989. Va ser la primera consola portàtil amb una pantalla en escala de grisos i es va convertir en un èxit comercial en oferir una àmplia varietat de jocs, incloent clàssics com Super Mario Land o Tetris. La consola va tenir diverses actualitzacions, incloent la Game Boy Color i la Game Boy Advance, però la original segueix sent una de les consoles portàtils més icòniques de tots els temps.</text>        
+			<text lang="eu">Nintendo Game Boy 1989an jaio zen jokalarien konsola eramangarri gisa. Hau da pantaila gris-urdin batekin lehengoa zen konsola eramangarriena, Super Mario Land edo Tetris bezalako joko klasiko ugari eskainiz. Konsola horrek bertsio aldaketak izan zituen, hala nola Game Boy Color eta Game Boy Advance, baina originala gaur egun denbora guztietako joko konsolakoenetakoa da.</text>        
+			<text lang="fr">La Game Boy de Nintendo est une console de jeux portable sortie en 1989. Elle a été la première console portable avec un écran en nuances de gris et est devenue un succès commercial en offrant une grande variété de jeux, y compris des classiques comme Super Mario Land ou Tetris. La console a connu plusieurs mises à jour, notamment la Game Boy Color et la Game Boy Advance, mais l'original reste l'une des consoles portables les plus emblématiques de tous les temps.</text>        
+			<text lang="pt">O Nintendo Game Boy é um console de jogos portátil lançado em 1989. Foi o primeiro console portátil com uma tela em escala de cinza e se tornou um sucesso comercial ao oferecer uma ampla variedade de jogos, incluindo clássicos como Super Mario Land e Tetris. O console teve várias atualizações, incluindo o Game Boy Color e o Game Boy Advance, mas o original continua sendo um dos consoles portáteis mais icônicos de todos os tempos.</text>        
+			<text lang="it">Il Nintendo Game Boy è una console di gioco portatile lanciata nel 1989. È stato il primo dispositivo portatile con uno schermo in scala di grigi ed è diventato un successo commerciale offrendo una vasta gamma di giochi, tra cui classici come Super Mario Land o Tetris. La console ha avuto diverse versioni, tra cui la Game Boy Color e la Game Boy Advance, ma l'originale resta una delle console portatili più iconiche di tutti i tempi.</text>        
+			<text lang="de">Der Nintendo Game Boy ist eine tragbare Spielkonsole, die 1989 auf den Markt gebracht wurde. Es war die erste tragbare Konsole mit einem Schwarz-Weiß-Bildschirm und wurde zu einem kommerziellen Erfolg durch eine breite Auswahl an Spielen, darunter Klassiker wie Super Mario Land oder Tetris. Die Konsole hatte mehrere Aktualisierungen, darunter den Game Boy Color und den Game Boy Advance, aber das Original bleibt eine der ikonischsten tragbaren Konsolen aller Zeiten.</text>        
+			<text lang="pl">Game Boy od Nintendo to przenośna konsola do gier, wydana w 1989 roku. Była to pierwsza przenośna konsola z ekranem w skali szarości i stała się sukcesem komercyjnym dzięki dużej różnorodności gier, w tym klasyków takich jak Super Mario Land czy Tetris. Konsola doczekała się kilku aktualizacji, w tym Game Boy Color i Game Boy Advance, ale oryginał pozostaje jedną z najbardziej kultowych przenośnych konsol wszech czasów.</text>        
+			<text lang="ru">Nintendo Game Boy - портативная игровая консоль, выпущенная в 1989 году. Она была первой портативной консолью с черно-белым экраном и стала коммерческим успехом благодаря широкому выбору игр, включая классики, такие как Super Mario Land или Tetris. Консоль имела несколько обновлений, в том числе Game Boy Color и Game Boy Advance, но оригинальная версия по-прежнему является одной из самых культовых портативных консолей всех времен.</text>        
+			<text lang="zh">任天堂Game Boy是一款便携式游戏机，于1989年发布。它是第一款具有灰度屏幕的便携式游戏机，并通过提供广泛的游戏选择（包括经典游戏如超级马里奥或俄罗斯方块）成为商业成功。该游戏机有多个更新版本，包括Game Boy Color和Game Boy Advance，但原版仍然是有史以来最具标志性的便携式游戏机之一。</text>        
+			<text lang="ja">任天堂のゲームボーイは、1989年に発売された携帯型ゲーム機です。グレースケールの画面を持つ初めての携帯ゲーム機として商業的に成功し、スーパーマリオランドやテトリスなどのクラシックゲームを含む広範なゲームを提供しました。ゲームボーイカラー、ゲームボーイアドバンスなど、いくつかのバージョンがリリースされましたが、オリジナルは今でも最も象徴的な携帯型ゲーム機の1つです。</text> 
+		</text>		
 		
-				<text name="system_description" extra="true">
-			<text>Is an 8-bit handheld game console which was developed and manufactured by Nintendo. It is the first handheld console in the Game Boy line and was created and published by team led by Gunpei Yokoi at the time.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Game Boy es una serie de videoconsolas portátiles alimentadas con pilas (a excepción del modelo SP y Micro) y comercializadas por Nintendo. Es oficialmente la tercera consola más vendida del mundo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Elle fut conçue par Gunpei Yokoi et Nintendo Research and Development 1 — la même équipe ayant conçu la série des Game and Watch ainsi que de nombreux jeux à succès sur Nintendo Entertainment System.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Game Boy é o segundo portátil da Nintendo, criado após a linha Game and Watch lançada em 1980. Junto ao Game Boy Color, venderam impressionantes 118,69 milhões de unidades.</text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>Game Boy</text>
 		</text>

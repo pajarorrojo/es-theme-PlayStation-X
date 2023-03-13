@@ -6,23 +6,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	    
-
 		<text name="system_description" extra="true" >
 			<text>The Macintosh (mainly Mac since 1998) is a family of personal computers designed, manufactured, and sold by Apple Inc. (originally as Apple Computer, Inc.) since January 1984.
 
-The original Macintosh is the first successful mass-market all-in-one desktop personal computer to have featured a graphical user interface, built-in screen, and mouse. Apple sold the Macintosh alongside its popular Apple II, Apple IIGS, Apple III, and Apple Lisa families of computers until the other models were discontinued in the 1990s. </text>
-		</text>
-
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>Macintosh, abreviado como Mac, es la línea de ordenadores personales diseñada, desarrollada y comercializada por Apple Inc. En sus inicios fue una alternativa económica y doméstica al Lisa, un avanzado microordenador empresarial, cuya línea de desarrollo fue absorbida por la línea Macintosh. 
+The original Macintosh is the first successful mass-market all-in-one desktop personal computer to have featured a graphical user interface, built-in screen, and mouse. Apple sold the Macintosh alongside its popular Apple II, Apple IIGS, Apple III, and Apple Lisa families of computers until the other models were discontinued in the 1990s.
+			</text>
+			<text lang="es,ca,eu">Macintosh, abreviado como Mac, es la línea de ordenadores personales diseñada, desarrollada y comercializada por Apple Inc. En sus inicios fue una alternativa económica y doméstica al Lisa, un avanzado microordenador empresarial, cuya línea de desarrollo fue absorbida por la línea Macintosh. 
 				
-El Mac terminó por convertirse en la línea estándar de desarrollo de los ordenadores de Apple, al desaparecer la línea evolutiva del Apple II. </text>
+El Mac terminó por convertirse en la línea estándar de desarrollo de los ordenadores de Apple, al desaparecer la línea evolutiva del Apple II.
+			</text>
 		</text>
-
-
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Macintosh</text>

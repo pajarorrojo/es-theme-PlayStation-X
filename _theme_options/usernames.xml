@@ -5,6 +5,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 	<variables>
 		<!-- listado de usuarios-->
+		<theme.nick ifSubset="system-username:aspect-ratio-test">${screen.ratio}</theme.nick>
+		<theme.nick ifSubset="system-username:arch-test">${global.architecture}</theme.nick>
 		<theme.nick ifSubset="system-username:batocera">Batocera</theme.nick>
 		<theme.nick ifSubset="system-username:batocera-plus">Batocera Plus</theme.nick>
 		<theme.nick ifSubset="system-username:belmont">Gabriel Belmont</theme.nick>

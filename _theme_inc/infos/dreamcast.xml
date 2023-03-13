@@ -6,27 +6,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
 		<text name="system_description" extra="true" >
-			<text>The Dreamcast is a home video game console released by Sega on November 27, 1998 in Japan, September 9, 1999 in North America. It was the first in the sixth generation of video game consoles.</text>
+			<text>The Dreamcast was released in 1998 by Sega as the first sixth-generation video game console. It stood out for its graphics and sound performance, and for including a modem for internet connection. Despite its initial success, the Dreamcast could not compete with Sony's PlayStation 2 and Microsoft's Xbox and was discontinued in 2001. However, it remains appreciated by many video game fans as an innovative console ahead of its time.</text>			
+			<text lang="es">La Dreamcast fue lanzada en 1998 por Sega como la primera consola de videojuegos de sexta generación. Se destacó por su rendimiento gráfico y sonoro, y por incluir un módem para conexión a internet. A pesar de su éxito inicial, Dreamcast no logró competir con la PlayStation 2 de Sony y la Xbox de Microsoft y fue discontinuada en 2001. Sin embargo, sigue siendo apreciada por muchos fans de los videojuegos como una consola innovadora y adelantada a su tiempo.</text>			
+			<text lang="ca">La Dreamcast va ser llançada el 1998 per Sega com la primera consola de videojocs de sisena generació. Es va destacar pel seu rendiment gràfic i sonor, i per incloure un mòdem per a connexió a internet. Malgrat el seu èxit inicial, la Dreamcast no va poder competir amb la PlayStation 2 de Sony i la Xbox de Microsoft i va ser discontinuada el 2001. No obstant, segueix sent apreciada per molts fans dels videojocs com una consola innovadora i avançada al seu temps.</text>        
+			<text lang="eu">Dreamcast 1998an Sega-k bideratu zuen video-jokoen laugarren belaunaldiaren lehenengo konsola izan zen. Berak ezaugarriak izan zituen, hainbat jokoen irudigintza eta soinu prestazioak bermatuta, eta interneteko konexio-modem bat ere zituela. Baina, lehenengo emaitzak izan arren, Dreamcast-ek ezin izan zuen Sony-ren PlayStation 2 eta Microsoft-en Xbox-ekin lehiatu eta 2001ean etetea erabaki zuen. Hala ere, joko bideoen askotariko adoratzaileek baliagarria eta bere garaikuratzeko aurreratuena izan da.</text>        
+			<text lang="fr">La Dreamcast a été lancée en 1998 par Sega en tant que première console de jeu vidéo de sixième génération. Elle s'est distinguée par ses performances graphiques et sonores, ainsi que par l'inclusion d'un modem pour la connexion à internet. Malgré son succès initial, la Dreamcast n'a pas réussi à rivaliser avec la PlayStation 2 de Sony et la Xbox de Microsoft et a été abandonnée en 2001. Cependant, elle reste appréciée par de nombreux fans de jeux vidéo en tant que console innovante en avance sur son temps.</text>        
+			<text lang="pt">A Dreamcast foi lançada em 1998 pela Sega como o primeiro console de videogame de sexta geração. Destacou-se por seu desempenho gráfico e sonoro, e por incluir um modem para conexão à internet. Apesar de seu sucesso inicial, a Dreamcast não conseguiu competir com o PlayStation 2 da Sony e o Xbox da Microsoft e foi descontinuada em 2001. No entanto, ainda é apreciada por muitos fãs de videogames como um console inovador e avançado para sua época.</text>        
+			<text lang="it">La Dreamcast è stata lanciata nel 1998 da Sega come la prima console di sesta generazione. Si è distinta per le sue prestazioni grafiche e sonore, e per l'inclusione di un modem per la connessione a Internet. Nonostante il suo successo iniziale, la Dreamcast non è riuscita a competere con la PlayStation 2 di Sony e l'Xbox di Microsoft ed è stata interrotta nel 2001. Tuttavia, rimane apprezzata da molti fan dei videogiochi come una console innovativa e avanti per il suo tempo.</text>        
+			<text lang="de">Die Dreamcast wurde 1998 von Sega als erste Videospielkonsole der sechsten Generation auf den Markt gebracht. Sie zeichnete sich durch ihre grafischen und klanglichen Leistungen aus und enthielt ein Modem für Internetverbindungen. Trotz ihres anfänglichen Erfolgs konnte die Dreamcast nicht mit Sonys PlayStation 2 und Microsofts Xbox konkurrieren und wurde im Jahr 2001 eingestellt. Dennoch wird sie von vielen Videospiel-Fans als innovative und wegweisende Konsole geschätzt.</text>        
+			<text lang="pl">Dreamcast została wydana w 1998 roku przez Segę jako pierwsza konsola szóstej generacji. Wyróżniała się swoją grafiką i dźwiękiem oraz posiadała modem do połączeń internetowych. Mimo początkowego sukcesu, Dreamcast nie mogła konkurować z PlayStation 2 od Sony i Xbox od Microsoftu i została wycofana z produkcji w 2001 roku. Mimo to, wciąż jest ceniona przez wielu fanów gier wideo jako innowacyjna i przodująca w swoim czasie konsola.</text>        
+			<text lang="ru">Dreamcast была выпущена в 1998 году компанией Sega как первая игровая консоль шестого поколения. Она выделялась своей графикой и звуком, а также имела модем для подключения к Интернету. Несмотря на ее первоначальный успех, Dreamcast не смогла конкурировать с PlayStation 2 от Sony и Xbox от Microsoft и была прекращена в 2001 году. Тем не менее, она остается ценной для многих поклонников видеоигр как инновационная и продвинутая консоль.</text>        
+			<text lang="zh">Dreamcast于1998年由世嘉发布，是第六代视频游戏机的第一款。它以其出色的图像和声音性能以及包括用于连接互联网的调制解调器而著称。尽管它最初取得了成功，但Dreamcast无法与Sony的PlayStation 2和Microsoft的Xbox竞争，并于2001年停产。然而，它仍然被许多视频游戏迷视为创新和超前的游戏机。</text>        
+			<text lang="ja">ドリームキャストは、1998年にセガから発売された第6世代の最初のビデオゲームコンソールです。グラフィックと音響の性能に優れ、インターネット接続用のモデムも搭載していました。初期の成功にもかかわらず、ドリームキャストはソニーのプレイステーション2やマイクロソフトのXboxと競合できず、2001年に生産中止となりました。しかし、多くのビデオゲームファンからは、時代を先取りした画期的なコンソールとして高く評価されています。</text>        
 		</text>
 		
-		<text name="system_description" extra="true" lang="pt">
-			<text>Foi o último console de videogames da Sega e o sucessor do Sega Saturn. Era o console mais avançado de sua época e o mais completo de sua geração quando lançado.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-			<text>Dreamcast es la sexta y última consola de videojuegos hasta ahora producida por Sega. Es la sucesora de Sega Saturn y fue lanzada al mercado para ganar terreno a PlayStation de Sony y Nintendo 64 de Nintendo, y competir con los sistemas sucesores a estos. 
-
-Pertenece a la sexta generación de consolas. El sistema fue el primero en tener un módem incorporado para jugar en línea. Se detuvo su producción el 31 de marzo de 2001 tras la decisión de Sega de dedicarse en exclusiva a la programación de videojuegos. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Dreamcast (ドリームキャスト) est une console de jeux vidéo développée par Sega, et est le successeur de la Saturn. Commercialisée dès novembre 1998 au Japon, elle est la première console de sixième génération et possède 128bits</text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>Dreamcast</text>
 		</text>

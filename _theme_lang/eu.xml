@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="eu">
+    <theme.welcome>Playstation X-rekin ongi etorri</theme.welcome>
+    <theme.start>Hasi</theme.start>
+    <theme.mostplayed>Jokatuena:</theme.mostplayed>
+    <theme.items>Elementu kopurua:</theme.items>
+    <theme.collections>Kolekzio kopurua:</theme.collections>
+    <GamesNumber>Jokoak</GamesNumber>
+    <GamesFavs>Gogokoak</GamesFavs>
+    <NumberPlayed>Jokatuak</NumberPlayed>
+    <blue>Urdina</blue>
+    <black>Beltza</black>
+    <red>Gorria</red>
+    <yellow>Horia</yellow>
+    <green>Berdea</green>
+    <purple>Moradoa</purple>
+    <orange>Laranja</orange>
+    <pink>Morea</pink>
+    <default>Lehenetsia</default>
+    <big>Handia</big>
+    <medium>Ertaina</medium>
+    <small>Txikia</small>
+    <yes>Bai</yes>
+    <no>Ez</no>
+    <none>Inork ez</none>
+    <never>Inoiz ez</never>
+    <always>Beti</always>
+    <iconset>Ikono eta botoi mota</iconset>
+    <theme.frontend>Zure front end gogokoena hautatu</theme.frontend>
+    <gameBar>Joko informazioaren barra erakutsi</gameBar>
+    <CarouselImageSize>Irudien karuselaren tamaina</CarouselImageSize>
+    <theme.videoBackground>Sistemen bistaratzean bideoak erakutsi</theme.videoBackground>
+    <theme.videoRandom>Joko aleatorioaren bideoa erakutsi</theme.videoRandom>
+    <ifnospot>Sistemaren bideoa ez badago</ifnospot>
+    <theme.system-description>Sistemaren deskribapenak erakutsi</theme.system-description>
+    <theme.animated-background>Fondo animatu (onda)</theme.animated-background>
+    <theme.backgroundVideoOption>Fondo bideoa</theme.backgroundVideoOption>
+    <theme.windowVideoOption>Bideoa leihoan</theme.windowVideoOption>
+    <theme.insideVideoOption>Grilla barruan</theme.insideVideoOption>
+    <theme.smallScreenOption>Pantaila txiki</theme.smallScreenOption>
+    <theme.videoaudio>Sistemaren bideoetan audioa aktibatu</theme.videoaudio>
+    <theme.Avatar>Zure Avatar irudia hautatu</theme.Avatar>
+    <theme.username>Nick bat hautatu</theme.username>
+    <custom>Pertsonalizatua</custom>
+    <theme.videoGamelistDelay>Jokoen zerrendan bideoaren atzerapena</theme.videoGamelistDelay>
+    <VideoOff>Bideoa ez erakutsi</VideoOff>
+    <theme.systemConsole>Sistemaren konsolea eta logoa erakutsi</theme.systemConsole>
+    <randomGame>Joko aleatorioa</randomGame>
+    <theme.colorset>Tema kolorea</theme.colorset>
+    <theme.secondaryColorset>Kolor sekundarioa</theme.secondaryColorset>
+    <theme.gridMainorigin>Irudi nagusiaren jatorria laukizko ikuspegiaren aurretik</theme.gridMainorigin>
+    <theme.videoSnapAudio>Joko bideoetan audioa gaitu</theme.videoSnapAudio>
+    <theme.animatedList>Joko zerrendan trantsizio animatuak</theme.animatedList>
+    <theme.animatedSystem>Sistemaren zerrendan trantsizio animatuak</theme.animatedSystem>
+    <theme.aspect-ratio>Pantaila mota zuretzat aukeratu</theme.aspect-ratio>
+    <theme.oversizeVideoOption>Bideo gainjartua</theme.oversizeVideoOption>
+    <theme.bato35compatilble>Bakarrik batocera 35 edo bertsio handiagoetan egokia</theme.bato35compatilble>
+    <theme.netplay-required>Sistema batean netplay gaitu zure erabiltzaile izena erakusteko edo beste nik bat aukeratzeko</theme.netplay-required>
+    <theme.ra-required>Sistema batean retroachievements gaitu zure erabiltzaile izena erakusteko edo beste nik bat aukeratzeko</theme.ra-required>
+    <theme.hotkey>Hotkey laguntza bistaratu hasierako pantailan</theme.hotkey>
+    <theme.hotkey-x86>Laguntza azkar hotkey bistaratu</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>Joko kargatzeko pantailan soilik</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>Aurreko pantailan soilik</theme.hotkey.splash>
+    <theme.hotkey.both>Bi pantailatan</theme.hotkey.both>
+    <theme.detected>detektatu da</theme.detected>
+    <theme.detailedorigin>Ikuspegi zehatza irudian</theme.detailedorigin>
+    <theme.gridMainorigin>Nagusia irudia sareta ikuspegi</theme.gridMainorigin>
+    <theme.gridorigin>Sareta irudiak</theme.gridorigin>
+    <theme.carouselMainOrigin>Nagusia irudia karusel ikuspegian</theme.carouselMainOrigin>
+    <theme.carouselOrigin>Karuselaren irudiak</theme.carouselOrigin>
+    <theme.systemBackground>Sistemen ikuspegiaren atzeko irudia</theme.systemBackground>
+    <randomFanart>Ausazko fanart</randomFanart>
+  </variables>
+</theme>

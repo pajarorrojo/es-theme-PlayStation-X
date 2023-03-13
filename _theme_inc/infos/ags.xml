@@ -5,26 +5,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+		<text name="system_description" extra="true">
+			<text>Adventure Game Studio (AGS) is a software development tool for creating graphical adventure games. It was first released in 1997 and has since been used to create a wide range of games, from small independent titles to commercial releases. AGS allows developers to create point-and-click adventure games in a variety of styles, and includes a range of features such as a scripting language, sprite and background editors, and support for multiple platforms.</text>        
+			<text lang="es">Adventure Game Studio (AGS) es una herramienta de desarrollo de software para crear juegos de aventura gráfica. Fue lanzado por primera vez en 1997 y desde entonces se ha utilizado para crear una amplia gama de juegos, desde títulos independientes pequeños hasta lanzamientos comerciales. AGS permite a los desarrolladores crear juegos de aventura point-and-click en una variedad de estilos, e incluye una variedad de características como un lenguaje de scripting, editores de sprite y fondo, y soporte para múltiples plataformas.</text>        
+			<text lang="ca">Adventure Game Studio (AGS) és una eina de desenvolupament de programari per crear jocs d'aventura gràfica. Va ser llançat per primera vegada el 1997 i des de llavors s'ha utilitzat per crear una àmplia gamma de jocs, des de títols independents petits fins a llançaments comercials. AGS permet als desenvolupadors crear jocs d'aventura point-and-click en una varietat d'estils, i inclou una sèrie de característiques com un llenguatge de scripting, editors de sprite i fons, i suport per a múltiples plataformes.</text>        
+			<text lang="eu">Adventure Game Studio (AGS) grafiko abentura jokoak sortzeko software garapen tresna bat da. 1997an lehen aldiz argitaratu zen eta oraingoan jokalari independenteen titulu txikiak eta merkataritza bertsioak sortzeko erabil daiteke. AGS-ek garatzaileei point-and-click abentura jokoak sortu ahal izateko estilu anitzetan baliatu ahal izaten dute, eta hainbat plataforma sostengatzen dituenez funtzio anitz ditu, hala nola scripting hizkuntza, sprite eta atzekalde editoreak.</text>        
+			<text lang="fr">Adventure Game Studio (AGS) est un outil de développement de logiciels pour créer des jeux d'aventure graphique. Il a été lancé pour la première fois en 1997 et a depuis été utilisé pour créer une large gamme de jeux, des petits titres indépendants aux versions commerciales. AGS permet aux développeurs de créer des jeux d'aventure point-and-click dans une variété de styles, et inclut une gamme de fonctionnalités telles qu'un langage de script, des éditeurs de sprite et d'arrière-plan, et un support pour plusieurs plates-formes.</text>        
+			<text lang="pt">Adventure Game Studio (AGS) é uma ferramenta de desenvolvimento de software para criar jogos de aventura gráfica. Foi lançado pela primeira vez em 1997 e desde então tem sido usado para criar uma ampla gama de jogos, desde pequenos títulos independentes até lançamentos comerciais. O AGS permite aos desenvolvedores criar jogos de aventura point-and-click em uma variedade de estilos e inclui recursos como uma linguagem de script, editores de sprite e de fundo, e suporte para várias plataformas.</text>        
+			<text lang="it">Adventure Game Studio (AGS) è un software per lo sviluppo di giochi di avventura grafica. È stato rilasciato per la prima volta nel 1997 e da allora è stato utilizzato per creare una vasta gamma di giochi, dai piccoli titoli indipendenti alle pubblicazioni commerciali. AGS consente agli sviluppatori di creare giochi di avventura point-and-click in una varietà di stili e include funzioni come un linguaggio di scripting, editor di sprite e di sfondo e supporto per più piattaforme.</text>        
+			<text lang="de">Adventure Game Studio (AGS) ist eine Software-Entwicklungstool zur Erstellung von grafischen Adventure-Spielen. Es wurde erstmals 1997 veröffentlicht und wurde seither für die Erstellung einer breiten Palette von Spielen, von kleinen unabhängigen Titeln bis hin zu kommerziellen Veröffentlichungen, verwendet. AGS ermöglicht es Entwicklern, Point-and-Click-Adventure-Spiele in verschiedenen Stilen zu erstellen und umfasst Funktionen wie eine Skriptsprache, Sprite- und Hintergrund-Editoren sowie Unterstützung für mehrere Plattformen.</text>        
+			<text lang="pl">Adventure Game Studio (AGS) to narzędzie do tworzenia gier przygodowych typu point-and-click. Zostało po raz pierwszy wydane w 1997 roku i od tego czasu było wykorzystywane do tworzenia szerokiej gamy gier, od małych niezależnych tytułów po komercyjne wydania. AGS umożliwia twórcom tworzenie gier przygodowych w różnych stylach i zawiera funkcje takie jak język skryptowy, edytory sprite'ów i tła oraz wsparcie dla wielu platform.</text>        
+			<text lang="ru">Adventure Game Studio (AGS) - это инструмент разработки программного обеспечения для создания графических приключенческих игр. Он был впервые выпущен в 1997 году и с тех пор был использован для создания широкого диапазона игр, от маленьких независимых титулов до коммерческих выпусков. AGS позволяет разработчикам создавать игры point-and-click в различных стилях и включает функции, такие как язык сценариев, редакторы спрайтов и фона, а также поддержку нескольких платформ.</text>        
+			<text lang="zh">Adventure Game Studio（AGS）是一个用于创建古典像素艺术风格冒险游戏的开源软件。该工具包括绘制背景、角色、物品等元素的编辑器，以及编写脚本和游戏逻辑的内置编程语言。此外，该软件拥有一个活跃的社区，在那里用户可以分享资源和指南，参加比赛和活动。</text>        
+			<text lang="ja">Adventure Game Studio（AGS）は、古典的なピクセルアートスタイルのアドベンチャーゲームを作成するためのオープンソースソフトウェアです。このツールには、背景、キャラクター、オブジェクトなどの要素を描画するためのエディター、およびスクリプトとゲームロジックを書くための組み込みプログラミング言語が含まれています。また、ユーザーはリソースやガイドを共有し、コンテストやイベントに参加することができるアクティブなコミュニティがあります。</text>        
 
+		</text>	
+		
 		<text name="system_name" extra="true">
 			<text>Adventure Game Studio</text>
 		</text>

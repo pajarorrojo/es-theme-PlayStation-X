@@ -5,30 +5,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-
 		
-				<text name="system_description" extra="true" >
-			<text>FinalBurn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers.</text>
+		<text name="system_description" extra="true" >
+			<text>Final Burn Neo was created as an improved version of the popular emulator Final Burn Alpha, and can emulate arcade games from a wide range of systems, such as Neo Geo, Capcom CPS-1 and CPS-2, among others.</text>        
+			<text lang="es">Final Burn Neo fue creado como una versión mejorada del popular emulador Final Burn Alpha, y puede emular juegos de arcade de una amplia gama de sistemas, como Neo Geo, Capcom CPS-1 y CPS-2, entre otros.</text>
+			<text lang="ca">Final Burn Neo va ser creat com una versió millorada del popular emulador Final Burn Alpha, i pot emular jocs d'arcade d'una àmplia gamma de sistemes, com ara Neo Geo, Capcom CPS-1 i CPS-2, entre altres.</text>        
+			<text lang="eu">Final Burn Neo Final Burn Alpha emuladore famatua hobetzeko sortu zen, eta Neo Geo, Capcom CPS-1 eta CPS-2 sistema anitzeko arcade jokoak emulatzeko gaitasuna du.</text>        
+			<text lang="fr">Final Burn Neo a été créé comme une version améliorée du populaire émulateur Final Burn Alpha, et peut émuler des jeux d'arcade provenant d'une large gamme de systèmes, tels que Neo Geo, Capcom CPS-1 et CPS-2, entre autres.</text>        
+			<text lang="pt">O Final Burn Neo foi criado como uma versão melhorada do popular emulador Final Burn Alpha e pode emular jogos de arcade de uma ampla gama de sistemas, como Neo Geo, Capcom CPS-1 e CPS-2, entre outros.</text>        
+			<text lang="it">Final Burn Neo è stato creato come una versione migliorata del popolare emulatore Final Burn Alpha e può emulare giochi arcade di una vasta gamma di sistemi, come Neo Geo, Capcom CPS-1 e CPS-2, tra gli altri.</text>        
+			<text lang="de">Final Burn Neo wurde als verbesserte Version des beliebten Emulators Final Burn Alpha erstellt und kann Arcade-Spiele von einer breiten Palette von Systemen wie Neo Geo, Capcom CPS-1 und CPS-2 emulieren.</text>        
+			<text lang="pl">Final Burn Neo został stworzony jako ulepszona wersja popularnego emulatora Final Burn Alpha i może emulować gry arcade z szerokiej gamy systemów, takich jak Neo Geo, Capcom CPS-1 i CPS-2, między innymi.</text>        
+			<text lang="ru">Final Burn Neo был создан как улучшенная версия популярного эмулятора Final Burn Alpha и может эмулировать аркадные игры из широкого спектра систем, таких как Neo Geo, Capcom CPS-1 и CPS-2, среди прочих.</text>        
+			<text lang="zh">Final Burn Neo被创建为流行的模拟器Final Burn Alpha的改进版本，可以模拟来自多个系统的街机游戏，例如Neo Geo，Capcom CPS-1和CPS-2等。</text>        
+			<text lang="ja">Final Burn Neoは、人気のエミュレーターであるFinal Burn Alphaの改良版として作成され、Neo Geo、Capcom CPS-1、CPS-2などの様々なシステムのアーケードゲームをエミュレートすることができます。</text> 
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>FBNEO es un nuevo proyecto creado por la mayoría de programadores de Final Burn Alpha y es un multi-emulador, es decir, es capaz de emular diferentes placas arcade y algunas consolas (algo así como Mame pero no engloba tantos sistemas)</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>FinalBurn Neo est un fork actif de l'émulateur FinalBurn Alpha, créé par de nombreux anciens développeurs FBA.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>FinalBurn Neo é um fork ativo do emulador FinalBurn Alpha, criado por muitos dos ex-desenvolvedores FBA.</text>
-		</text>
-
-		
-		
-				
 
 		<text name="system_name" extra="true">
-			<text>FBA Neo</text>
+			<text>FB Neo</text>
 		</text>
 	</view>
 </theme>

@@ -6,34 +6,51 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>Nintendo Entertainment System it was initially released in Japan as the Family Computer. The best-selling gaming console of its time, the NES helped revitalize the US video game industry following the video game crash of 1983.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Nintendo Entertainment System (también conocida como Nintendo NES o simplemente NES) es la primera consola de sobremesa de Nintendo, y es una videoconsola de ocho bits perteneciente a la tercera generación en la industria de los videojuegos. 
+		<text name="system_description" extra="true">
+<text lang="es">The Nintendo Entertainment System (NES), also known as Famicom in Japan, was a video game console released by Nintendo in 1985 in North America and 1986 in Europe, achieving great success with over 60 million units sold worldwide. The NES is known for some of the most iconic games of all time, such as Super Mario Bros., The Legend of Zelda, and Metroid.
 
-Fue lanzada por Nintendo en Norteamérica, Europa y Australia entre 1985 y 1987. En la mayor parte del continente asiático, incluyendo a Japón (donde se comercializó por primera vez en 1983), China, Vietnam, Singapur, Laos, Camboya y Filipinas se la conoció con el nombre de Family Computer, abreviado comúnmente como Famicom</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La NES, console mondiale à succès, ce qui aida à redynamiser l'industrie du jeu vidéo après le crash du jeu vidéo de 1983, et ce qui fixa les normes pour les consoles suivantes, du game design aux procédures de gestion.</text>
-		</text>
+It also popularized the controller with the use of the cross-shaped directional pad and action buttons, which has become the standard design for video game controllers since then.</text>        
+<text lang="es">La Nintendo Entertainment System (NES), también conocida como Famicom en Japón, fue una consola de videojuegos lanzada por Nintendo en 1985 en América del Norte y 1986 en Europa siendo un gran éxito con más de 60 millones de unidades vendidas en todo el mundo. La NES es conocida por algunos de los juegos más icónicos de todos los tiempos, como Super Mario Bros., The Legend of Zelda y Metroid. 
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O NES/Famicom foi o videogame de maior sucesso comercial na sua época, ajudou a indústria de videogames a se recuperar da crise de 1983 e estabeleceu novos padrões que seriam seguidos pela indústria.</text>
+También popularizó el mando con el uso del control en forma de cruz y botones de acción, que se ha convertido en el diseño estándar para los mandos de videojuegos desde entonces.</text>
+<text lang="ca">La Nintendo Entertainment System (NES), també coneguda com a Famicom a Japó, va ser una consola de videojocs llançada per Nintendo el 1985 a Amèrica del Nord i el 1986 a Europa, sent un gran èxit amb més de 60 milions d'unitats venudes a tot el món. La NES és coneguda per alguns dels jocs més icònics de tots els temps, com ara Super Mario Bros., The Legend of Zelda i Metroid.
+
+També va popularitzar el comandament amb l'ús del control en forma de creu i botons d'acció, que s'ha convertit en el disseny estàndard per als comandaments de videojocs des de llavors.</text>        
+<text lang="eu">Nintendo Entertainment System (NES) bezalako joko-konola, Japonian Famicom bezala ezaguna, Nintendo-k 1985ean Ameriketako Iparraldean eta 1986an Europakoan argitaratu zen, mundu osoan 60 milioi unitate baino gehiago saltzeak arrakasta handia izan zuen. NES-k garai guztietako joko ikoniko batzuk dituela ezaguna da, hala nola Super Mario Bros., The Legend of Zelda eta Metroid.
+
+Era berean, kruzaren erabilera eta ekintza botoien bitartez kontrola erabiliz, konportamendua ohiko diseinu bihurtu zen joko-konola kontrolentzat.</text>        
+<text lang="fr">La Nintendo Entertainment System (NES), également connue sous le nom de Famicom au Japon, était une console de jeux vidéo sortie en 1985 en Amérique du Nord et en 1986 en Europe, connaissant un grand succès avec plus de 60 millions d'unités vendues dans le monde entier. La NES est connue pour certains des jeux les plus emblématiques de tous les temps, tels que Super Mario Bros., The Legend of Zelda et Metroid.
+
+Elle a également popularisé la manette avec l'utilisation de la croix directionnelle en forme de croix et des boutons d'action, qui est devenu le design standard des manettes de jeu depuis lors.</text>        
+<text lang="pt">O Nintendo Entertainment System (NES), também conhecido como Famicom no Japão, foi um console de videogame lançado pela Nintendo em 1985 na América do Norte e 1986 na Europa, alcançando grande sucesso com mais de 60 milhões de unidades vendidas em todo o mundo. O NES é conhecido por alguns dos jogos mais icônicos de todos os tempos, como Super Mario Bros., The Legend of Zelda e Metroid.
+
+Também popularizou o controle com o uso do direcional em forma de cruz e botões de ação, que se tornou o design padrão para controles de videogame desde então.</text>        
+<text lang="it">Il Nintendo Entertainment System (NES), anche noto come Famicom in Giappone, è stata una console per videogiochi rilasciata dalla Nintendo nel 1985 in Nord America e nel 1986 in Europa, ottenendo un grande successo con oltre 60 milioni di unità vendute in tutto il mondo. Il NES è noto per alcuni dei giochi più iconici di tutti i tempi, come Super Mario Bros., The Legend of Zelda e Metroid.
+
+Inoltre, ha reso popolare il controller con l'uso della croce direzionale a forma di croce e dei pulsanti d'azione, che è diventato il design standard per i controller di videogiochi da allora.</text>        
+<text lang="de">Das Nintendo Entertainment System (NES), auch als Famicom in Japan bekannt, war eine Videospielkonsole, die 1985 in Nordamerika und 1986 in Europa von Nintendo veröffentlicht wurde und mit über 60 Millionen verkauften Einheiten weltweit großen Erfolg hatte. Das NES ist bekannt für einige der ikonischsten Spiele aller Zeiten, wie Super Mario Bros., The Legend of Zelda und Metroid.
+
+Es popularisierte auch den Controller mit der Verwendung des kreuzförmigen Steuerkreuzes und der Aktionsknöpfe, die seitdem zum Standarddesign für Videospiele-Controller geworden sind.</text>        
+<text lang="pl">Nintendo Entertainment System (NES), znany także jako Famicom w Japonii, był konsolą do gier wideo wydaną przez Nintendo w 1985 roku w Ameryce Północnej i w 1986 roku w Europie, odnoszącym wielki sukces z ponad 60 milionami sprzedanych egzemplarzy na całym świecie. NES jest znany z niektórych z najbardziej kultowych gier wszech czasów, takich jak Super Mario Bros., The Legend of Zelda i Metroid.
+
+Popularizował także kontroler z użyciem krzyżowego padu kierunkowego i przycisków akcji, który stał się standardowym projektem dla kontrolerów do gier wideo od tamtej pory.</text>        
+<text lang="ru">Nintendo Entertainment System (NES), также известная как Famicom в Японии, была игровой приставкой, выпущенной Nintendo в 1985 году в Северной Америке и в 1986 году в Европе, достигнувшей большого успеха с продажами более 60 миллионов единиц по всему миру. NES известна некоторыми из самых культовых игр всех времен, таких как Super Mario Bros., The Legend of Zelda и Metroid.
+
+Он также популяризировал контроллер с использованием крестообразного джойстика и кнопок действий, которые стали стандартным дизайном для контроллеров игровых приставок с тех пор.</text>        
+<text lang="zh">任天堂娱乐系统（NES），在日本也被称为Famicom，是任天堂在1985年在北美发行的一款游戏机，在1986年登陆欧洲市场，取得了巨大的成功，全球销量超过6000万台。NES以一些最具代表性的游戏而闻名于世，如《超级马里奥兄弟》、《塞尔达传说》和《银河战士》。
+
+它还通过使用十字形方向键和动作按钮推广了控制器，这种设计从那时起就成为了游戏控制器的标准设计。</text>        
+<text lang="ja">ファミコンは任天堂エンターテインメントシステム（NES）としても知られ、任天堂が1985年に北アメリカで、1986年にヨーロッパで発売したビデオゲームコンソールで、世界中で6000万台以上が売れる大成功を収めました。ファミコンは、スーパーマリオブラザーズ、ゼルダの伝説、メトロイドなど、史上最も象徴的なゲームのいくつかで知られています。
+
+ファミコンは、十字キー形状の方向パッドとアクションボタンの使用により、それ以来のビデオゲームコントローラの標準的なデザインとなりました。
+	</text>     
 		</text>
 		
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Nintendo Entertainment System</text>
-		</text>
-
-		<text name="system_name" extra="true" region="jp">
-			<text>Famicom</text>
-		</text>	</view>
+			<text region="jp">Famicom</text>
+		</text>	
+	</view>
 	
 </theme>

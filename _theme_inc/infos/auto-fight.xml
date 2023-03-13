@@ -6,13 +6,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.</text>
-		</text>
-		
+			<text>Auto gamelist.
 
+A subgenre of action games where the player faces off against other characters, usually in one-on-one combat controlled by the machine or another human player. In this genre, each character has a large number of different movements, which can be linked together through combos.
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+Although the term is often interchanged with Beat'em Up, fighting games are generally exclusively one-on-one combat, not one-on-many.				
+			</text>
+		<text lang="es,ca,eu">Lista de juegos automática.
 
 Subgénero de los juegos de acción donde el jugador se enfrenta contra otros pesonajes, normalmente en combates de uno contra uno y controlados por la máquina o por otro jugador humano. En este género cada personaje cuenta con una gran cantidad de movimientos distintos, que son encadenables entre sí mediante combos.
 			
@@ -21,10 +21,9 @@ Aunque a menudo el término se intercambia con el de Beat'em Up, por lo general 
 	</text>
 
 		<text name="system_name" extra="true">
-			<text>Fight</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Lucha</text>
+			<text lang="es">Lucha</text>
+			<text lang="ca">Lluita</text>
+			<text lang="eu">Borroka</text>
 		</text>
 	</view>
 </theme>

@@ -8,14 +8,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The TI-99/4 and TI-99/4A were home computers released by Texas Instruments in 1979 and 1981, respectively. Based on the Texas Instruments TMS9900 microprocessor originally used in minicomputers, the TI-99/4 was the first 16-bit home computer, and the associated video display controller provided color graphics and sprite support that was among the best of its era. </text>
+			<text lang="es,ca,eu">El microordenador Texas Instruments TI-99/4A salió a la venta en los Estados Unidos en junio de 1981. Fue muy popular en la década de los 80.
+
+La serie de microordenadores TI-99/4 a la que pertenecía la TI-99/4A fue la primera serie de ordenadores personales de 16 bits.
+			</text>
 		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>El microordenador Texas Instruments TI-99/4A salió a la venta en los Estados Unidos en junio de 1981. Fue muy popular en la década de los 80.
-
-La serie de microordenadores TI-99/4 a la que pertenecía la TI-99/4A fue la primera serie de ordenadores personales de 16 bits.</text>
-		</text>
-
 
 		<text name="system_name" extra="true">
 			<text>TI-99</text>

@@ -13,14 +13,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>-0.5354 0.104</pos>
          <pos ifSubset="aspect-ratio:16-9">-0.5354 0.104</pos>
          <pos ifSubset="aspect-ratio:4-3">-0.599 0.104</pos>
-         <pos ifSubset="aspect-ratio:16-10">-0.613 0.104</pos>
+         <pos ifSubset="aspect-ratio:16-10">-0.603 0.104</pos>
          <pos ifSubset="aspect-ratio:3-2">-0.6505 0.1045</pos>
          <pos ifSubset="aspect-ratio:5-3">-0.574 0.1045</pos>
          <pos ifSubset="aspect-ratio:5-4">-0.645 0.104</pos>
 
          <size>1.61 1</size>
          <size ifSubset="aspect-ratio:16-9|4-3">1.61 1</size>
-         <size ifSubset="aspect-ratio:16-10">1.79 1</size>
+         <size ifSubset="aspect-ratio:16-10">1.77 1</size>
          <size ifSubset="aspect-ratio:3-2">1.88 1</size>
          <size ifSubset="aspect-ratio:5-3">1.7 1</size>
          <size ifSubset="aspect-ratio:5-4">1.72 1</size>

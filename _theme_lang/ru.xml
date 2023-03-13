@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="ru">
+    <theme.welcome>Добро пожаловать в Playstation X для</theme.welcome>
+    <theme.start>Начать</theme.start>
+    <theme.mostplayed>Самые играемые:</theme.mostplayed>
+    <theme.items>Элементы:</theme.items>
+    <theme.collections>Коллекции:</theme.collections>
+    <GamesNumber>Игры</GamesNumber>
+    <GamesFavs>Избранные</GamesFavs>
+    <NumberPlayed>Сыграно</NumberPlayed>
+    <blue>синий</blue>
+    <black>черный</black>
+    <red>красный</red>
+    <yellow>желтый</yellow>
+    <green>зеленый</green>
+    <purple>фиолетовый</purple>
+    <orange>оранжевый</orange>
+    <pink>розовый</pink>
+    <default>стандартный</default>
+    <big>большой</big>
+    <medium>средний</medium>
+    <small>маленький</small>
+    <yes>да</yes>
+    <no>нет</no>
+    <none>Нет</none>
+    <never>Никогда</never>
+    <always>Всегда</always>
+    <iconset>набор иконок</iconset>
+    <theme.frontend>Выберите свой любимый интерфейс</theme.frontend>
+    <gameBar>Показать информацию об игре</gameBar>
+    <CarouselImageSize>Размер изображения в карусели</CarouselImageSize>
+    <theme.videoBackground>Показать видео на экране системы</theme.videoBackground>
+    <theme.system-description>Показать описания системы</theme.system-description>
+    <theme.animated-background>Анимированный фон (волны)</theme.animated-background>
+    <theme.backgroundVideoOption>Фоновое видео</theme.backgroundVideoOption>
+    <theme.windowVideoOption>Видео в окне</theme.windowVideoOption>
+    <theme.insideVideoOption>Внутри тайла</theme.insideVideoOption>
+    <theme.smallScreenOption>Маленький экран</theme.smallScreenOption>
+    <theme.videoaudio>Включить аудио в системных видео</theme.videoaudio>
+    <theme.videoRandom>Показать случайное видеоизображение</theme.videoRandom>
+    <ifnospot>Если нет системного видео</ifnospot>
+    <theme.Avatar>Выберите свое изображение Аватара</theme.Avatar>
+    <theme.username>Выберите Nick</theme.username>
+    <custom>настроенный</custom>
+    <theme.videoGamelistDelay>Задержка видео в списке игр</theme.videoGamelistDelay>
+    <VideoOff>Не отображать видео</VideoOff>
+    <theme.systemConsole>Показывать логотип и консоли в системном виде</theme.systemConsole>
+    <randomGame>Случайная игра</randomGame>
+    <theme.colorset>Набор цветов темы</theme.colorset>
+    <theme.secondaryColorset>Вторичный цвет</theme.secondaryColorset>
+    <theme.gridvideo>Отображать видеоигры</theme.gridvideo>
+    <theme.videoSnapAudio>Включить звук в видеоиграх</theme.videoSnapAudio>
+    <theme.animatedList>Анимированные переходы в списке игр</theme.animatedList>
+    <theme.animatedSystem>Анимированные переходы в системном виде</theme.animatedSystem>
+    <theme.aspect-ratio>Выберите тип экрана</theme.aspect-ratio>
+    <theme.oversizeVideoOption>Увеличенное видео</theme.oversizeVideoOption>
+    <theme.bato35compatilble>Совместим только с batocera 35 или выше</theme.bato35compatilble>
+    <theme.netplay-required>Пожалуйста, включите сетевую игру, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.netplay-required>
+    <theme.ra-required>Пожалуйста, включите retroachievements, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.ra-required>
+    <theme.hotkey>Показать помощь по горячим клавишам на экране приветствия</theme.hotkey>
+    <theme.hotkey-x86>Показать быструю справку по горячим клавишам</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>Только на экране загрузки игры</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>Только на экране приветствия</theme.hotkey.splash>
+    <theme.hotkey.both>На обоих экранах</theme.hotkey.both>
+    <theme.detected>обнаружено</theme.detected>
+    <theme.detailedorigin>Изображение в детальном просмотре</theme.detailedorigin>
+    <theme.gridMainorigin>Главное изображение в виде сетки</theme.gridMainorigin>
+    <theme.gridorigin>Изображения в сетке</theme.gridorigin>
+    <theme.carouselMainOrigin>Главное изображение в виде карусели</theme.carouselMainOrigin>
+    <theme.carouselOrigin>Изображения в карусели</theme.carouselOrigin>
+    <theme.systemBackground>Изображение фона в виде систем</theme.systemBackground>
+    <randomFanart>Случайный фанарт</randomFanart>
+  </variables>
+</theme>

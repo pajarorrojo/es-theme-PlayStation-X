@@ -8,26 +8,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The Xbox 360 is a home video game console developed by Microsoft. As the successor to the original Xbox, it is the second console in the Xbox series. It competed with Sony's PlayStation 3 and Nintendo's Wii as part of the seventh generation of video game consoles. It was officially unveiled on MTV on May 12, 2005</text>
+			<text lang="es,ca,eu">Xbox 360 es la segunda videoconsola de sobremesa de la marca Xbox producida por Microsoft. Fue lanzada en América del Sur, América del Norte, Japón, Europa y Australia entre 2005 y 2006. La Xbox 360 es la sucesora directa de la Xbox, y compitió con la PlayStation 3 de Sony y Wii de Nintendo como parte de las videoconsolas de séptima generación.</text>
+			<text lang="fr">La Xbox 360 est une console de jeux vidéo développée par Microsoft, en coopération avec IBM, ATI Technologies, Samsung et SiS. Elle succède à la Xbox, et elle concurrence, dans la lignée des consoles de jeux vidéo de septième génération, la Wii de Nintendo et la PlayStation 3 de Sony. </text>
+			<text lang="pt">O Xbox 360 é um console de video games desenvolvido pela Microsoft. Como sucessor do Xbox original, é o segundo console da série Xbox. Ele competiu com o PlayStation 3 da Sony e o Wii da Nintendo como parte da sétima geração de consoles. Foi oficialmente anunciado na MTV em 12 de maio de 2005.</text>
+			<text lang="it">Xbox 360 è una console per videogiochi prodotta da Microsoft con la collaborazione di IBM, ATI Technologies e Samsung ed è succeduta alla prima Xbox. La console venne mostrata ufficialmente su MTV il 12 maggio 2005. La console fa parte della settima generazione videoludica e sfida sul mercato PlayStation 3 di Sony e Wii di Nintendo. </text>
 		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>Xbox 360 es la segunda videoconsola de sobremesa de la marca Xbox producida por Microsoft. Fue lanzada en América del Sur, América del Norte, Japón, Europa y Australia entre 2005 y 2006. La Xbox 360 es la sucesora directa de la Xbox, y compitió con la PlayStation 3 de Sony y Wii de Nintendo como parte de las videoconsolas de séptima generación.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr">
-			<text>La Xbox 360 est une console de jeux vidéo développée par Microsoft, en coopération avec IBM, ATI Technologies, Samsung et SiS. Elle succède à la Xbox, et elle concurrence, dans la lignée des consoles de jeux vidéo de septième génération, la Wii de Nintendo et la PlayStation 3 de Sony. </text>
-		</text>
-
-
-		<text name="system_description" extra="true" lang="pt">
-			<text>O Xbox 360 é um console de video games desenvolvido pela Microsoft. Como sucessor do Xbox original, é o segundo console da série Xbox. Ele competiu com o PlayStation 3 da Sony e o Wii da Nintendo como parte da sétima geração de consoles. Foi oficialmente anunciado na MTV em 12 de maio de 2005.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="it">
-			<text>Xbox 360 è una console per videogiochi prodotta da Microsoft con la collaborazione di IBM, ATI Technologies e Samsung ed è succeduta alla prima Xbox. La console venne mostrata ufficialmente su MTV il 12 maggio 2005. La console fa parte della settima generazione videoludica e sfida sul mercato PlayStation 3 di Sony e Wii di Nintendo. </text>
-		</text>
-
-
 
 		<text name="system_name" extra="true">
 			<text>XBOX 360</text>

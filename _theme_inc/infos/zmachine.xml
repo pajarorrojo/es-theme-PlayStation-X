@@ -6,24 +6,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
+		<text name="system_description" extra="true">
+			<text lang="fr">La Z-machine est une machine virtuelle développée par Joel Berez et Marc Blank en 1979, et utilisée par Infocom pour ses jeux d'aventure textuels.</text>
 		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>La Z-machine est une machine virtuelle développée par Joel Berez et Marc Blank en 1979, et utilisée par Infocom pour ses jeux d'aventure textuels.</text>
-		</text>
-
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Z Machine</text>

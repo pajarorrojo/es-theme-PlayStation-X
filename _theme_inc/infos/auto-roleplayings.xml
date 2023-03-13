@@ -10,10 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 A role-playing video game (commonly referred to as simply a role-playing game or RPG) is a video game genre where the player controls the actions of a character (or several party members) immersed in some well-defined world, usually involving some form of character development by way of recording statistics. Many role-playing video games have origins in tabletop role-playing games and use much of the same terminology, settings and game mechanics.
 			</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 Los videojuegos de rol, también llamados por simplificación con las siglas inglesas RPG (role-playing game) pertenecen a un género donde el jugador controla las acciones y la historia de uno o varios personajes inmersos en un mundo o mapa detallado. 
 
@@ -22,10 +19,9 @@ Este género normalmente implica alguna forma de desarrollo progresivo de sus pe
 		</text>
 
 		<text name="system_name" extra="true">
-			<text>Role Playing Games</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Juegos de Rol (RPG)</text>
+			<text lang="es">Juegos de Rol (RPG)</text>
+			<text lang="ca">Jocs de Rol (RPG)</text>
+			<text lang="eu">Rol jokoak (RPG)</text>
 		</text>
 	</view>
 </theme>

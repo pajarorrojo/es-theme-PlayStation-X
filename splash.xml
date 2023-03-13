@@ -4,25 +4,58 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
 	<formatVersion>7</formatVersion>
 	<include>./theme.xml</include>
-	<include>./_theme_lang/default_en.xml</include>
-	<include lang="es">./_theme_lang/es.xml</include>
-	<include lang="fr">./_theme_lang/fr.xml</include>
-	<include lang="pt">./_theme_lang/pt.xml</include>
-	<include lang="it">./_theme_lang/it.xml</include>
 
 
 	<view name="splash">
+
+		<text name="label">
+			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<pos>0 0.703</pos>
+			<color>${splash.labelColor}</color>
+			<fontSize>0.030</fontSize>
+			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.023</fontSize>
+
+			<alignment>center</alignment>
+			<glowColor>00000035</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>3 2</glowOffset>
+		</text>
+
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.250 0.703</pos>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+			<color>${splash.progressbar}</color>
+		</image>
+
+		<image name="progressbar:active">
+			<color>${splash.progressbarActive}</color>
+			<colorEnd>${splash.progressbarActiveEnd}</colorEnd>
+			<gradientType>vertical</gradientType>
+			<size>0.5 0.04</size>
+		</image>
 
 		<image name="background">
 			<linearSmooth>true</linearSmooth>
 			<path ifSubset="colorset:blue">./_theme_options/colorsets/blue/background.jpg</path>
 			<path ifSubset="colorset:black">./_theme_options/colorsets/black/background.jpg</path>
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>0 1</size>
 			<zIndex>00</zIndex>
 		</image>
 
+		<image name="hotkey-tips" extra="true" ifSubset="hotkey-guide:YES|both|splash">
+			<origin>1 0.5</origin>
+			<pos>1 0.443</pos>
+			<maxSize>0.35</maxSize>
+			<maxSize tinyScreen="true">0.45</maxSize>
+			<path>./_theme_inc/images/hotkey-tips/en.png</path>
+			<path>./_theme_inc/images/hotkey-tips/${lang}.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>9999</zIndex>
+		</image>
 
 		<text name="region" extra="true">
 			<origin>0 0</origin>
@@ -50,7 +83,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>V.35.1</text>
+			<text>Theme Version 36</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -64,7 +97,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<origin>0 0</origin>
 			<pos>0.03 0.05</pos>
 			<maxSize>0.25 0.25</maxSize>
-			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.2 0.2</maxSize>
+			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.1 0.1</maxSize>
 			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
 			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
 			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
@@ -72,7 +105,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<linearSmooth>true</linearSmooth>
 		</image>
 
-		<image name="info-ico-ratio" extra="true" if="{screen.ratio} == '0/0'">
+	<!-- no reconoce los subsets de relacion de aspecto
+		<image name="info-ico-ratio" extra="true" >
 			<path ifSubset="aspect-ratio:16-9">./_theme_inc/images/16-9.svg</path>
 			<path ifSubset="aspect-ratio:4-3|5-4">./_theme_inc/images/4-3|5-4.svg</path>
 			<path ifSubset="aspect-ratio:16-10">./_theme_inc/images/16-10.svg</path>
@@ -87,6 +121,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos tinyScreen="true">0.87 0.78</pos>
 			<color>ffffff40</color>
 		</image>
+	-->
+
+
+
 
 
 		<text name="welcome" extra="true">
@@ -95,9 +133,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text ifSubset="frontend:batocera-plus">${theme.welcome} Batocera Plus</text>
 			<text ifSubset="frontend:emuelec">${theme.welcome} EmuElec</text>
 			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
-			<origin>0 0</origin>
-			<pos>0 0.2</pos>
-			<size>1 0.05</size>
 			<color>ffffff</color>
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.04</fontSize>
@@ -110,6 +145,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<zIndex>60</zIndex>
 			<backgroundColor>ff000000</backgroundColor>
 		</text>
+
 
 		<image name="avatar" extra="true">
 			<origin>0.5 0</origin>
@@ -149,33 +185,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 
-		<text name="label">
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-			<pos>0 0.703</pos>
-			<color>${splash.labelColor}</color>
-			<fontSize>0.030</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.023</fontSize>
 
-			<alignment>center</alignment>
-			<glowColor>00000035</glowColor>
-			<glowSize>1</glowSize>
-			<glowOffset>3 2</glowOffset>
-		</text>
-
-		<image name="progressbar">
-			<origin>0 0</origin>
-			<pos>0.250 0.703</pos>
-			<size>0.5 0.04</size>
-			<rotation>0</rotation>
-			<rotationOrigin>1.1 1.6</rotationOrigin>
-			<color>${splash.progressbar}</color>
-		</image>
-
-		<image name="progressbar:active">
-			<color>${splash.progressbarActive}</color>
-			<colorEnd>${splash.progressbarActiveEnd}</colorEnd>
-			<gradientType>horizontal</gradientType>
-		</image>
 
 		<image name="linea-inferior" extra="true">
 			<path>./_theme_inc/images/pixel-blanco.png</path>
@@ -187,14 +197,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<alignment>left</alignment>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>99</zIndex>
-			
+
 		</image>
 
 		<!-- listado de avatares-->
 		<image name="avatar" extra="true">
 			<path>./_theme_options/avatars/${image.avatar}</path>
 			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
-
+			<storyboard>
+				<animation property="opacity" from="0" to="0" duration="100" mode="linear" />
+				<animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
+			</storyboard>
 		</image>
 	</view>
 	<include>./custom-username.xml</include>

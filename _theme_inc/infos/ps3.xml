@@ -7,27 +7,45 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 	
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+		<text name="system_description" extra="true">
+<text>PlayStation 3 (PS3) is a seventh-generation video game console released by Sony in 2006. It was the successor to the PlayStation 2 and a direct competitor to Microsoft's Xbox 360 and Nintendo's Wii. The PS3 incorporated a series of advanced technologies, such as a multi-core processor, Bluetooth wireless controllers, and a Blu-ray disc player.
 
-		<text name="system_description" extra="true" lang="es">
-			<text>PlayStation 3 (abreviada como PS3) es la tercera videoconsola del modelo PlayStation de Sony Computer Entertainment. Fue lanzada al mercado el 11 de noviembre de 2006 en Japón.
-			
-Dos variantes estaban disponibles en el momento del lanzamiento: un modelo básico con 20 GB de disco duro y un modelo con disco duro de 60 GB y varias características adicionales como doble número de puertos USB y retrocompatibilidad con juegos de su antecesora PlayStation 2 y Playstation .</text>
-		</text>
+It also introduced the ability to play online and download games through the PlayStation Network. Some of the most popular titles on the PS3 include the Call of Duty series, FIFA, The Last of Us, and Gran Turismo. It sold over 80 million units worldwide.</text>        
+<text lang="es">La PlayStation 3 (PS3) es una consola de videojuegos de séptima generación lanzada por Sony en 2006. Fue la sucesora de la PlayStation 2 y la competencia directa de la Xbox 360 de Microsoft y la Wii de Nintendo. La PS3 incorporó una serie de tecnologías avanzadas, como un procesador de múltiples núcleos, mandos inalámbricos bluetooth o un reproductor de discos Blu-ray. 
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La PlayStation 3 (abrégé officiellement PS3) est une console de jeux vidéo de septième génération commercialisée par Sony. Elle est sortie le 11 novembre 2006 au Japon, le 17 novembre 2006 en Amérique du Nord et le 23 mars 2007 en Europe.</text>
-		</text>
+También se introdujo la posibilidad de jugar en línea y descargar juegos a través de PlayStation Network. Algunos de los títulos más populares de la PS3 incluyen la serie de juegos Call of Duty, FIFA, The Last of Us y Gran Turismo. Vendió más de 80 millones de unidades en todo el mundo.</text>        
+<text lang="ca">PlayStation 3 (PS3) és una consola de videojocs de setena generació llançada per Sony el 2006. Va ser la successora de la PlayStation 2 i la competència directa de la Xbox 360 de Microsoft i la Wii de Nintendo. La PS3 va incorporar una sèrie de tecnologies avançades, com un processador de múltiples nuclis, comandaments sense fil Bluetooth o un reproductor de discs Blu-ray.
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O PlayStation 3 (PS3) é um console de videogames desenvolvido pela Sony Computer Entertainment. É o sucessor do PlayStation 2 e faz parte da marca PlayStation de consoles. Foi lançado em 11 de novembro de 2006, no Japão,[6] 17 de novembro de 2006 na América do Norte e em 23 de março de 2007 na Europa e Oceania.</text>
-		</text>
+També es va introduir la possibilitat de jugar en línia i descarregar jocs a través de PlayStation Network. Alguns dels títols més populars de la PS3 inclouen la sèrie de jocs Call of Duty, FIFA, The Last of Us i Gran Turismo. Va vendre més de 80 milions d'unitats a tot el món.</text>        
+<text lang="eu">PlayStation 3 (PS3) Sony-k 2006an argitaratu zuen zazpi-generazioko bideo-joko konsola bat da. PlayStation 2ren ondokoan sortu zen eta Microsoften Xbox 360 eta Nintendo Wii-ren erasokatzaile zuzena izan zen. PS3-ak teknologia aurreratuak erabiliz sortu ziren, hala nola, hainbat errore prozesadore, Bluetooth-eko kontrolak edo Blu-ray disko bidegabeko bat.
 
-		
-		
-				
+Halaber, PS3-ak online jokatu eta jokoak PlayStation Network bidez jaitsi ahal izateko aukera eskaini zuen. PS3-ko jokoen artean, Call of Duty sarrerako jokoak, FIFA, The Last of Us eta Gran Turismo izan dira erreferentziak. 80 milioi unitate baino gehiago saldu zituen mundu osoan.</text>        
+<text lang="fr">La PlayStation 3 (PS3) est une console de jeux vidéo de septième génération lancée par Sony en 2006. Elle succédait à la PlayStation 2 et était en concurrence directe avec la Xbox 360 de Microsoft et la Wii de Nintendo. La PS3 a incorporé une série de technologies avancées, telles qu'un processeur multi-cœurs, des contrôleurs sans fil Bluetooth et un lecteur de disques Blu-ray.
+
+Elle a également introduit la possibilité de jouer en ligne et de télécharger des jeux via le PlayStation Network. Certains des titres les plus populaires sur la PS3 incluent la série Call of Duty, FIFA, The Last of Us et Gran Turismo. Elle a vendu plus de 80 millions d'unités dans le monde.</text>        
+<text lang="pt">O PlayStation 3 (PS3) é um console de videogame de sétima geração lançado pela Sony em 2006. Foi o sucessor do PlayStation 2 e concorrente direto do Xbox 360 da Microsoft e do Wii da Nintendo. O PS3 incorporou uma série de tecnologias avançadas, como um processador de vários núcleos, controladores sem fio Bluetooth e um leitor de discos Blu-ray.
+
+Ele também introduziu a capacidade de jogar online e baixar jogos através da PlayStation Network. Alguns dos títulos mais populares no PS3 incluem a série Call of Duty, FIFA, The Last of Us e Gran Turismo. Vendeu mais de 80 milhões de unidades em todo o mundo.</text>        
+<text lang="it">Il PlayStation 3 (PS3) è una console di videogiochi di settima generazione lanciata da Sony nel 2006. Era il successore del PlayStation 2 e un concorrente diretto dell'Xbox 360 di Microsoft e del Wii di Nintendo. Il PS3 ha incorporato una serie di tecnologie avanzate, come un processore multi-core, controller wireless Bluetooth e un lettore di dischi Blu-ray.
+
+Ha anche introdotto la possibilità di giocare online e scaricare giochi attraverso il PlayStation Network. Alcuni dei titoli più popolari su PS3 includono la serie Call of Duty, FIFA, The Last of Us e Gran Turismo. Ha venduto oltre 80 milioni di unità in tutto il mondo.</text>        
+<text lang="de">Die PlayStation 3 (PS3) ist eine Videospielkonsole der siebten Generation, die von Sony im Jahr 2006 veröffentlicht wurde. Sie war der Nachfolger der PlayStation 2 und ein direkter Konkurrent von Microsofts Xbox 360 und Nintendos Wii. Die PS3 integrierte eine Reihe von fortgeschrittenen Technologien wie einen Mehrkernprozessor, Bluetooth-Funkcontroller und einen Blu-ray-Disc-Player.
+
+Sie führte auch die Möglichkeit ein, online zu spielen und Spiele über das PlayStation Network herunterzuladen. Einige der beliebtesten Titel auf der PS3 sind die Call of Duty-Serie, FIFA, The Last of Us und Gran Turismo. Sie verkaufte weltweit über 80 Millionen Einheiten.</text>        
+<text lang="pl">PlayStation 3 (PS3) to konsola gier wideo siódmej generacji wydana przez firmę Sony w 2006 roku. Była ona następcą konsoli PlayStation 2 i bezpośrednim konkurentem dla Xboxa 360 firmy Microsoft i Wii firmy Nintendo. PS3 zawierała szereg zaawansowanych technologii, takich jak procesor wielordzeniowy, bezprzewodowe kontrolery Bluetooth i odtwarzacz dysków Blu-ray.
+
+Wprowadzono również możliwość gry online i pobierania gier za pośrednictwem PlayStation Network. Niektóre z najpopularniejszych tytułów na PS3 to seria Call of Duty, FIFA, The Last of Us i Gran Turismo. Sprzedano ponad 80 milionów egzemplarzy na całym świecie.</text>        
+<text lang="ru">PlayStation 3 (PS3) - игровая консоль седьмого поколения, выпущенная компанией Sony в 2006 году. Она стала преемником PlayStation 2 и прямым конкурентом Xbox 360 от Microsoft и Wii от Nintendo. PS3 включала ряд передовых технологий, таких как многоядерный процессор, беспроводные контроллеры Bluetooth и проигрыватель дисков Blu-ray.
+
+Также была введена возможность играть в онлайн-режиме и загружать игры через PlayStation Network. Некоторые из самых популярных игр на PS3 включают серию Call of Duty, FIFA, The Last of Us и Gran Turismo. Было продано более 80 миллионов единиц по всему миру.</text>        
+<text lang="zh">PlayStation 3 (PS3) 是由 Sony 在 2006 年推出的第七代游戏机。它是 PlayStation 2 的后继者，也是微软 Xbox 360 和任天堂 Wii 的直接竞争对手。PS3 加入了一系列先进技术，如多核处理器，蓝牙无线控制器和蓝光光盘播放器。
+
+它还引入了在线游戏和通过 PlayStation Network 下载游戏的功能。PS3 上最受欢迎的游戏包括《使命召唤》系列、FIFA、最后的生还者和Gran Turismo。全球销量超过 8000 万台。</text>        
+<text lang="ja">PlayStation 3（PS3）は、ソニーが2006年に発売した第7世代のビデオゲーム機です。これはPlayStation 2の後継機であり、MicrosoftのXbox 360とNintendoのWiiと直接競合しています。PS3には、マルチコアプロセッサ、Bluetoothワイヤレスコントローラー、Blu-rayディスクプレーヤーなど、一連の高度な技術が取り込まれています。
+
+また、PlayStation Networkを介してオンラインでプレイやゲームのダウンロードができるようになりました。PS3で最も人気のあるタイトルには、Call of Dutyシリーズ、FIFA、The Last of Us、Gran Turismoなどがあります。それは世界中で8000万台以上売れました。</text>        
+
+		</text>	
 
 		<text name="system_name" extra="true">
 			<text>PlayStation 3</text>

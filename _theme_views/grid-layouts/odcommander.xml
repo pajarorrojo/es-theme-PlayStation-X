@@ -6,8 +6,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="grid">
       <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail|titleshot|image|fanart|marquee">
          <pos>-5 -5</pos>
-
-
       </imagegrid>
    </view>
 

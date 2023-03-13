@@ -14,17 +14,14 @@ Slots, roulette, cards or any other type of casino game adapted to screens.
 		
 
 
-	<text name="system_description" extra="true" lang="es">
+	<text name="system_description" extra="true" lang="es,ca,eu">
 		<text>Lista de juegos automática.
 
 Tragaperras, ruleta, cartas o cualquier otro tipo de juego de casino adaptado a la pantalla.
 		</text>
 	</text>
 
-		<text name="system_name" extra="true">
-			<text>Casino</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
+		<text name="system_name" extra="true" lang="es,ca,eu">
 			<text>Casino</text>
 		</text>
 	</view>

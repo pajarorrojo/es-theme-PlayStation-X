@@ -12,24 +12,19 @@ Strategy is a major video game genre that emphasizes thinking and planning over 
 
 They are also usually divided into two main sub-categories: turn-based and real-time, but there are also many strategy cross/sub-genres that feature additional elements such as tactics, diplomacy, economics and exploration. 
 			</text>
-		</text>
-		
 
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 			
 Género de videojuegos que enfatiza el pensamiento y la planificación sobre la acción para lograr la victoria. Aunque muchos tipos de videojuegos pueden contener elementos estratégicos, como género, los juegos de estrategia se definen más comúnmente como aquellos que se centran principalmente en la estrategia, la logística y la gestión de recursos.
 
 Por lo general, también se dividen en dos subcategorías principales: por turnos y en tiempo real, pero también hay muchos subgéneros de estrategia que presentan elementos adicionales como tácticas, diplomacia, economía y exploración.
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Strategy</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Estrategia</text>
+			<text lang="es">Estrategia</text>
+			<text lang="ca">Estratègia</text>
+			<text lang="eu">Estrategia</text>
 		</text>
 	</view>
 </theme>

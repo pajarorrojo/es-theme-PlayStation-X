@@ -6,26 +6,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>Is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997.</text>
+			<text lang="es,ca,eu">WonderSwan (ワンダースワン) es una videoconsola portátil de 16 bits de la compañía Bandai que fue lanzada en Japón en 1999. Bandai siempre ha estado muy ligada al manga y al anime.</text>
+			<text lang="fr">WonderSwan est une console de jeux vidéo 16 bits, portable, créée par Koto Laboratory — fondé par Gunpei Yokoi — et vendue par Bandai. L'inventeur de cette console est Gunpei Yokoi, le géniteur de la Game Boy.</text>
+			<text lang="pt">É um console portátil lançado pela Bandai em 1999 apenas no Japão, recebeu mais duas versões com melhorias, o WonderSwan Color e o Swan Crystal, juntos todos eles venderam 3,5 milhões de unidades.</text>
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>WonderSwan (ワンダースワン) es una videoconsola portátil de 16 bits de la compañía Bandai que fue lanzada en Japón en 1999. Bandai siempre ha estado muy ligada al manga y al anime.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>WonderSwan est une console de jeux vidéo 16 bits, portable, créée par Koto Laboratory — fondé par Gunpei Yokoi — et vendue par Bandai. L'inventeur de cette console est Gunpei Yokoi, le géniteur de la Game Boy.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console portátil lançado pela Bandai em 1999 apenas no Japão, recebeu mais duas versões com melhorias, o WonderSwan Color e o Swan Crystal, juntos todos eles venderam 3,5 milhões de unidades.</text>
-		</text>
-
-		
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>WonderSwan</text>

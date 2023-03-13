@@ -6,35 +6,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-
 		<text name="system_description" extra="true" >
-			<text>The Sega Mega Drive, known as the Sega Geneis in North America, is a 16-bit fourth-generation home video game console developed and sold by Sega. Is Sega's third console and the successor to the Master System. Sega released it as the Mega Drive in Japan in 1988, and later as the Genesis in North America in 1989.</text>
+			<text>The Mega Drive, known as Genesis in various regions of America, is the fourth-generation console launched by SEGA in 1988 in Japan and 1989 in the United States. It is the successor to the Master System and competed with Nintendo's SNES. It was one of the most popular consoles of its time and had a Motorola 68000 processor at 7.67 MHz and 64 KB of RAM. Over 900 titles were released during its lifetime, including Sonic the Hedgehog, Phantasy Star IV, and Streets of Rage 2 among others.</text>
+			<text lang="es">La Mega Drive, conocida como Genesis en diversas zonas de América, es la consola de cuarta generación lanzada por SEGA en 1988 en Japón y 1989 en Estados Únidos. Es la sucesora de la Master System y compitió con la SNES de Nintendo. Fue una de las consolas más populares de su época y contaba con un procesador Motorola 68000 a 7.67 MHz y 64 KB de memoria RAM. A lo largo de su vida se lanzaron más de 900 títulos, entre los cuales destacan Sonic the Hedgehog, Phantasy Star IV y Streets of Rage 2 entre otros.</text>
+			<text lang="ca">La Mega Drive, coneguda com a Genesis en diverses zones d'Amèrica, és la consola de quarta generació llançada per SEGA el 1988 a Japó i el 1989 als Estats Units. És la successora de la Master System i va competir amb la SNES de Nintendo. Va ser una de les consoles més populars de la seva època i comptava amb un processador Motorola 68000 a 7,67 MHz i 64 KB de memòria RAM. Al llarg de la seva vida es van llançar més de 900 títols, entre els quals destaquen Sonic the Hedgehog, Phantasy Star IV i Streets of Rage 2 entre altres.</text>
+			<text lang="eu">Mega Drive, Genesis izenekoan ezaguna Amerikako zenbait eremuatan, SEGA-k laugarren belaunaldiaren konola baten kontsolak 1988an Japonian eta 1989an AEBetan. Master Systemren ondorengoa da eta Nintendo SNESekin lehiatu zuen. Garai hartako konolik arrakastatsuenetako bat izan zen eta Motorola 68000 prozesadore bat zuen, 7.67 MHz-eko abiadura eta 64 KB RAM memoria batekin. Bere bizitzaldian 900 joko baino gehiago argitaratu ziren, horietako batzuk Sonic the Hedgehog, Phantasy Star IV eta Streets of Rage 2 izan ziren.</text>
+			<text lang="fr">La Mega Drive, connue sous le nom de Genesis dans différentes régions d'Amérique, est la console de quatrième génération lancée par SEGA en 1988 au Japon et en 1989 aux États-Unis. C'est la successeur de la Master System et a concurrencé la SNES de Nintendo. Elle a été l'une des consoles les plus populaires de son époque et disposait d'un processeur Motorola 68000 à 7,67 MHz et de 64 Ko de mémoire RAM. Au cours de sa vie, plus de 900 titres ont été lancés, parmi lesquels Sonic the Hedgehog, Phantasy Star IV et Streets of Rage 2, entre autres.</text>        
+			<text lang="pt">O Mega Drive, conhecido como Genesis em diferentes regiões da América, é o console de quarta geração lançado pela SEGA em 1988 no Japão e em 1989 nos Estados Unidos. É o sucessor do Master System e competiu com o SNES da Nintendo. Foi um dos consoles mais populares de sua época e contava com um processador Motorola 68000 a 7,67 MHz e 64 KB de memória RAM. Ao longo de sua vida, foram lançados mais de 900 títulos, entre os quais se destacam Sonic the Hedgehog, Phantasy Star IV e Streets of Rage 2, entre outros.</text>        
+			<text lang="it">Il Mega Drive, noto come Genesis in diverse regioni dell'America, è la console di quarta generazione lanciata da SEGA nel 1988 in Giappone e nel 1989 negli Stati Uniti. È il successore del Master System e ha competuto con il SNES di Nintendo. È stato uno dei console più popolari del suo tempo e aveva un processore Motorola 68000 a 7,67 MHz e 64 KB di memoria RAM. Nel corso della sua vita sono stati lanciati oltre 900 titoli, tra cui Sonic the Hedgehog, Phantasy Star IV e Streets of Rage 2, tra gli altri.</text>        
+			<text lang="de">Der Mega Drive, der in verschiedenen Regionen Amerikas als Genesis bekannt ist, ist die von SEGA im Jahr 1988 in Japan und 1989 in den USA eingeführte Konsole der vierten Generation. Es ist der Nachfolger des Master System und konkurrierte mit dem SNES von Nintendo. Es war eine der beliebtesten Konsolen seiner Zeit und verfügte über einen Motorola 68000-Prozessor mit 7,67 MHz und 64 KB RAM. Im Laufe seines Lebens wurden mehr als 900 Titel veröffentlicht, darunter Sonic the Hedgehog, Phantasy Star IV und Streets of Rage 2, unter anderem.</text>        
+			<text lang="pl">Mega Drive, znana jako Genesis w różnych regionach Ameryki, to konsola czwartej generacji wydana przez SEGA w 1988 roku w Japonii i w 1989 roku w Stanach Zjednoczonych. Jest ona następcą Master System i konkurowała z konsolą SNES od Nintendo. Była jedną z najpopularniejszych konsol swojego czasu i posiadała procesor Motorola 68000 o taktowaniu 7,67 MHz oraz 64 KB pamięci RAM. W ciągu swojego życia wydano ponad 900 tytułów, w tym między innymi Sonic the Hedgehog, Phantasy Star IV i Streets of Rage 2.</text>        
+			<text lang="ru">Мега Драйв, известный в различных регионах Америки как Genesis, - это игровая приставка четвёртого поколения, выпущенная SEGA в 1988 году в Японии и в 1989 году в США. Она является преемником Master System и конкурировала с SNES от Nintendo. Она была одной из самых популярных игровых приставок своего времени и оснащена процессором Motorola 68000 на 7,67 МГц и 64 КБ оперативной памяти. За время её жизни было выпущено более 900 игр, среди которых выделяются Sonic the Hedgehog, Phantasy Star IV и Streets of Rage 2, среди прочего.</text>        
+			<text lang="zh">Mega Drive，被称为Genesis在美洲的不同地区，是SEGA在1988年在日本和1989年在美国推出的第四代游戏机。它是Master System的继任者，与任天堂的SNES竞争。它是当时最受欢迎的游戏机之一，配备了一个7.67 MHz的Motorola 68000处理器和64 KB的RAM内存。在其生命周期内，发布了900多个游戏，其中包括Sonic the Hedgehog，Phantasy Star IV和Streets of Rage 2等。</text>        
+			<text lang="ja">メガドライブは、セガが1988年に日本で、1989年にアメリカで発売した第4世代のゲーム機で、北米ではGenesisとしても知られています。マスターシステムの後継機種で、任天堂のSNESと競合しました。彼女は当時最も人気のあるゲーム機の1つであり、Motorola 68000プロセッサーと64 KBのRAMを搭載していました。彼女の生涯にわたって、Sonic the Hedgehog、Phantasy Star IV、Streets of Rage 2など、900以上のタイトルがリリースされました。</text>        
 		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>Mega Drive, conocida en diversos territorios de América como Genesis, es una clásica videoconsola de sobremesa de 16 bits desarrollada por Sega Enterprises, Ltd. Mega Drive fue la tercera consola de Sega y la sucesora de Master System. 
-
-Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta generación. La primera versión fue lanzada en Japón en 1988, sucedida por el lanzamiento en Norteamérica bajo el renombramiento de Genesis en 1989.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La Mega Drive (メガドライブ, Mega Doraibu?), ou Genesis en Amérique du Nord, est une console de jeux vidéo de quatrième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La Mega Drive est la troisième console de Sega, elle succède à la Master System.</text>
-		</text>
-
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>Mega Drive (メガドライブ Mega Doraibu?), conhecido como Sega Genesis na América do Norte, é um console de video game de 16 bits da Sega que concorria diretamente com o Super Nintendo Entertainment System. O console fez grande sucesso na década de 1990, perdendo espaço após o surgimento e popularização da nova geração de consoles de 32 bits, como o PlayStation da Sony.</text>
-		</text>
-
-		
-
-		
-				
 
 		<text name="system_name" extra="true" >
 			<text>Mega Drive</text>
-		</text>
-		<text name="system_name" extra="true" region="us" >
-			<text>SEGA Genesis</text>
+			<text region="us">SEGA Genesis</text>
 		</text>
 		
 	</view>

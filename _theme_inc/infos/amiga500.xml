@@ -5,29 +5,25 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
+		
+		<text name="system_description" extra="true" >
+			<text>The Commodore Amiga 500 was a personal computer released in 1987 by Commodore International. It was a popular machine for gaming and multimedia, featuring advanced graphics and sound capabilities for its time. It had a Motorola 68000 CPU and came with 512 KB of RAM, expandable up to 9 MB.</text>
+			<text lang="es">El Commodore Amiga 500 es un ordenador personal de la gama Commodore Amiga, que fue lanzado en 1987 destinado hacía el mercado doméstico y del videojuego. El precio inicial, sin monitor, en Estados Unidos fue de $595,95 dólares.
 
-		
-				<text name="system_description" extra="true" >
-			<text>Also known as the A600, is a home computer that was introduced at the CeBIT show in March 1992. The A600 is Commodore International's final model based on the Motorola 68000 CPU.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Commodore Amiga 500 es un ordenador personal de la gama Commodore Amiga, que fue lanzado en 1987 destinado hacía el mercado doméstico y del videojuego. El precio inicial, sin monitor, en Estados Unidos fue de $595,95 dólares.
-
-Ha sido el modelo de la gama con mayores ventas, con un éxito remarcable en Europa, donde dominó el mercado del videojuego para ordenadores, rivalizando con las videoconsolas Sega Megadrive y Super Nintendo. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>A600, aussi nommé Amiga 600, fut le dernier ordinateur de la lignée des A500. L'A600 utilisait le processeur Motorola 68000, cadencé à 7,09 MHz (PAL) ou 7,16 MHz (NTSC).</text>
-		</text>
-
-						<text name="system_description" extra="true" lang="pt">
-			<text>Commodore Amiga é uma família de computadores de 16/32 bits fabricados pela empresa canadense Commodore Business Machines nos anos 80 e 90. Ficaram famosos pelos recursos muito a frente dos rivais IBM-PC.</text>
+Ha sido el modelo de la gama con mayores ventas, con un éxito remarcable en Europa, donde dominó el mercado del videojuego para ordenadores, rivalizando con las videoconsolas Sega Megadrive y Super Nintendo. 
+			</text>
+			<text lang="ca">El Commodore Amiga 500 és un ordinador personal de la gamma Commodore Amiga, que va ser llançat el 1987 destinat cap al mercat domèstic i del videojoc. El preu inicial, sense monitor, als Estats Units va ser de 595,95 dòlars.</text>        
+			<text lang="eu">Commodore Amiga 500 komputagailua Commodore Amiga gamma pertsonal bat da, 1987an abiatua zen etxeko eta bideo-joko merkatuarentzat. Monitorik gabe, prezio hasieran, Estatu Batuetan, 595,95 dolar izan zen.</text>        
+			<text lang="fr">Le Commodore Amiga 500 était un ordinateur personnel sorti en 1987 par Commodore International. Il était populaire pour les jeux et le multimédia, offrant des capacités graphiques et sonores avancées pour son époque. Il était équipé d'un processeur Motorola 68000 et venait avec 512 Ko de RAM, extensible jusqu'à 9 Mo.</text>        
+			<text lang="pt">O Commodore Amiga 500 foi um computador pessoal lançado em 1987 pela Commodore International. Foi uma máquina popular para jogos e multimídia, apresentando capacidades avançadas de gráficos e som para a época. Possuía um processador Motorola 68000 e vinha com 512 KB de RAM, expansível até 9 MB.</text>        
+			<text lang="it">Il Commodore Amiga 500 era un personal computer rilasciato nel 1987 dalla Commodore International. Era una macchina popolare per i giochi e il multimedia, con capacità avanzate di grafica e audio per l'epoca. Montava un processore Motorola 68000 e veniva fornito con 512 KB di RAM, espandibile fino a 9 MB.</text>        
+			<text lang="de">Der Commodore Amiga 500 war ein Personal Computer, der 1987 von Commodore International herausgebracht wurde. Er war eine beliebte Maschine für Spiele und Multimedia und verfügte für damalige Verhältnisse über fortschrittliche Grafik- und Soundfähigkeiten. Er hatte einen Motorola 68000-Prozessor und kam mit 512 KB RAM, erweiterbar auf bis zu 9 MB.</text>        
+			<text lang="pl">Commodore Amiga 500 to popularny komputer domowy wprowadzony na rynek w 1987 roku. Posiadał zaawansowany sprzęt w stosunku do konkurencyjnych urządzeń, w tym dedykowany procesor dźwięku i grafiki, co pozwalało na wyświetlanie grafiki 32-bitowej i dźwięku stereo. Komputer był popularny wśród graczy i entuzjastów grafiki i multimediów.</text>        
+			<text lang="ru">Commodore Amiga 500 - это популярный домашний компьютер, выпущенный на рынок в 1987 году. Он имел передовое оборудование по сравнению с конкурирующими устройствами, в том числе специализированный звуковой и графический процессоры, что позволяло отображать 32-битную графику и стереозвук. Компьютер был популярен среди игроков и энтузиастов графики и мультимедиа.</text>        
+			<text lang="zh">Commodore Amiga 500是一款流行的家用电脑，于1987年推出。相较于竞争对手的设备，它拥有先进的硬件配置，包括专门的音频和图形处理器，可以显示32位图形和立体声音频。该计算机在游戏玩家和多媒体爱好者中很受欢迎。</text>        
+			<text lang="ja">Commodore Amiga 500は、1987年に発売された人気の家庭用コンピューターです。専用の音声・グラフィックプロセッサーを搭載しており、32ビットグラフィックとステレオ音声を表示することができました。このコンピューターは、ゲームプレイヤーやマルチメディア愛好家に人気がありました。</text>    
 		</text>
 
-				
-		
-		
 		<text name="system_name" extra="true">
 			<text>Amiga 500 - 600</text>
 		</text>

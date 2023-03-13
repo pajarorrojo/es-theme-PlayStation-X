@@ -5,29 +5,46 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-	
 
-		<text name="system_description" extra="true" >
-			<text>The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on March 4, 2000, in North America on October 26, 2000, in Europe on November 24, 2000, and Australia on November 24, 2000. It is the successor to the original PlayStation, as well as the second installment in the PlayStation console line-up.</text>
-		</text>
+		<text name="system_description" extra="true">
+<text>The PlayStation 2 (PS2) is a sixth-generation video game console released by Sony in 2000. It was the successor to the original PlayStation and a direct competitor to Microsoft's Xbox and Nintendo's GameCube.
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La PlayStation 2 (oficialmente abreviada como PS2) es la segunda videoconsola de sobremesa producida por Sony Computer Entertainment, y la sucesora de la PlayStation 1 (PSX).
+The PS2 was the first console to incorporate a DVD player as standard, giving it a huge advantage. In addition, it had a large number of exclusive titles, such as the Gran Turismo series, God of War, Final Fantasy and Metal Gear. It sold over 155 million units worldwide, becoming the best-selling console in history.</text>        
+<text lang="es">La PlayStation 2 (PS2) es una consola de videojuegos de sexta generación lanzada por Sony en el año 2000. Fue la sucesora de la PlayStation original y la competencia directa de la Xbox de Microsoft y la GameCube de Nintendo.
 
-Fue lanzada por primera vez el 4 de marzo del año 2000 en Japón, y unos meses después en el resto del mundo. Es la videoconsola más vendida de la historia, con más de 160 millones de unidades vendidas. Esta consola es también la que más títulos posee, aproximadamente 3870 títulos, seguida por su predecesora la PlayStation con unos 2500 títulos. </text>
-		</text>
+La PS2 fue la primera consola en incorporar un reproductor de DVD como estándar, lo que le dio una gran ventaja. Además, contaba con una gran cantidad de títulos exclusivos, como la serie de juegos Gran Turismo, God of War, Final Fantasy y Metal Gear. Vendió más de 155 millones de unidades en todo el mundo, convirtiéndose en la consola más vendida de la historia.</text>        
+<text lang="ca">La PlayStation 2 (PS2) és una consola de videojocs de sisena generació llançada per Sony l'any 2000. Va ser la successora de la PlayStation original i la competència directa de la Xbox de Microsoft i la GameCube de Nintendo.
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La PlayStation 2 (abrégé officiellement PS2) est une console de jeux vidéo de sixième génération commercialisée par Sony Computer Entertainment, filiale de Sony. Elle est sortie le 4 mars 2000 au Japon, le 26 octobre 2000 en Amérique du Nord, le 24 novembre 2000 en Europe et le 30 novembre 2000 en Australie.</text>
-		</text>
+La PS2 va ser la primera consola a incorporar un reproductor de DVD com a estàndard, el que li va donar una gran avantatge. A més, comptava amb una gran quantitat de títols exclusius, com ara la sèrie de jocs Gran Turismo, God of War, Final Fantasy i Metal Gear. Va vendre més de 155 milions d'unitats a tot el món, convertint-se en la consola més venuda de la història.</text>        
+<text lang="eu">PlayStation 2 (PS2) 2000. urtean Sony-k abiarazi zen sei-generazioko bideo-joko konsola bat da. PlayStation originalaren ondoren sortu zen eta Microsoft-en Xbox eta Nintendo-ren GameCube-ren lehiakide zuzena zen.
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O PlayStation 2 (oficialmente abreviado como PS2) é um console de jogos eletrônicos produzido pela Sony Computer Entertainment. Foi lançado no dia 4 de março de 2000 no Japão, no dia 26 de outubro na América do Norte, e posteriormente, no dia 24 de novembro na Europa e 3 de dezembro no Brasil.</text>
-		</text>
+PS2-an lehenengo konsola izan zen DVD bideogailua estandarrean sartzeak abantaila handia ematen zion. Gainera, hainbat titulo berezi izan zituen, hala nola Gran Turismo seriea, God of War, Final Fantasy eta Metal Gear. 155 milioi unitate baino gehiago saldu zituen mundu osokoan, historia honetako konsola salduenena bihurtuz.</text>        
+<text lang="fr">La PlayStation 2 (PS2) est une console de jeux vidéo de sixième génération sortie en 2000 par Sony. Elle a succédé à la PlayStation originale et était en concurrence directe avec la Xbox de Microsoft et la GameCube de Nintendo.
 
-		
-		
-				
+La PS2 a été la première console à intégrer un lecteur DVD en standard, ce qui lui a donné un avantage considérable. De plus, elle disposait d'un grand nombre de titres exclusifs, tels que la série Gran Turismo, God of War, Final Fantasy et Metal Gear. Elle s'est vendue à plus de 155 millions d'unités dans le monde entier, devenant ainsi la console la plus vendue de l'histoire.</text>        
+<text lang="pt">O PlayStation 2 (PS2) é um console de videogame de sexta geração lançado pela Sony em 2000. Foi o sucessor do PlayStation original e um concorrente direto do Xbox da Microsoft e do GameCube da Nintendo.
+
+O PS2 foi o primeiro console a incorporar um player de DVD como padrão, dando-lhe uma enorme vantagem. Além disso, tinha um grande número de títulos exclusivos, como a série Gran Turismo, God of War, Final Fantasy e Metal Gear. Vendeu mais de 155 milhões de unidades em todo o mundo, tornando-se o console mais vendido da história.</text>        
+<text lang="it">Il PlayStation 2 (PS2) è una console per videogiochi di sesta generazione rilasciata da Sony nel 2000. Era il successore del PlayStation originale e un diretto concorrente dell'Xbox di Microsoft e del GameCube di Nintendo.
+
+Il PS2 è stato il primo a integrare un lettore DVD come standard, dando un enorme vantaggio. Inoltre, aveva un gran numero di titoli esclusivi, come la serie Gran Turismo, God of War, Final Fantasy e Metal Gear. Ha venduto oltre 155 milioni di unità in tutto il mondo, diventando la console più venduta della storia.</text>        
+<text lang="de">Die PlayStation 2 (PS2) ist eine Videospielkonsole der sechsten Generation, die von Sony im Jahr 2000 veröffentlicht wurde. Sie war der Nachfolger der originalen PlayStation und ein direkter Konkurrent von Microsofts Xbox und Nintendos GameCube.
+
+Die PS2 war die erste Konsole, die standardmäßig einen DVD-Player enthielt, was ihr einen großen Vorteil verschaffte. Außerdem hatte sie eine große Anzahl exklusiver Titel wie die Gran Turismo-Serie, God of War, Final Fantasy und Metal Gear. Sie verkaufte weltweit über 155 Millionen Einheiten und wurde zur meistverkauften Konsole aller Zeiten.</text>        
+<text lang="pl">PlayStation 2 (PS2) to konsola do gier wideo szóstej generacji wydana przez Sony w 2000 roku. Była następcą oryginalnej PlayStation i bezpośrednim konkurentem dla konsoli Xbox firmy Microsoft oraz GameCube firmy Nintendo.
+
+PS2 była pierwszą konsolą, która standardowo zawierała odtwarzacz DVD, co dało jej ogromną przewagę. Ponadto, posiadała dużą liczbę ekskluzywnych tytułów, takich jak seria Gran Turismo, God of War, Final Fantasy i Metal Gear. Sprzedano ponad 155 milionów egzemplarzy na całym świecie, stając się najlepiej sprzedającą się konsolą w historii.</text>        
+<text lang="ru">PlayStation 2 (PS2) - игровая консоль шестого поколения, выпущенная Sony в 2000 году. Она является преемником оригинальной PlayStation и прямым конкурентом Xbox от Microsoft и GameCube от Nintendo.
+
+PS2 была первой консолью, в которую в стандартную комплектацию включили проигрыватель DVD, что дало ей огромное преимущество. Кроме того, у нее было большое количество эксклюзивных игр, таких как серия Gran Turismo, God of War, Final Fantasy и Metal Gear. Она продала более 155 миллионов экземпляров по всему миру, став лучшей продаваемой консолью в истории.</text>        
+<text lang="zh">PlayStation 2 (PS2) 是索尼于2000年发布的第六代视频游戏机。它是原PlayStation的继任者，直接竞争对手为微软的Xbox和任天堂的GameCube。
+
+PS2是第一台标准配备DVD播放器的游戏机，具有巨大的优势。此外，它还拥有大量独家游戏，如Gran Turismo系列，God of War，Final Fantasy和Metal Gear。它在全球销售了超过1.55亿台，成为史上最畅销的游戏机。</text>        
+<text lang="ja">PlayStation 2 (PS2) は、2000年にソニーがリリースした第6世代のビデオゲーム機です。オリジナルのPlayStationの後継機であり、MicrosoftのXboxとNintendoのGameCubeと直接競合していました。
+
+PS2は、DVDプレーヤーを標準搭載した最初のコンソールであり、大きなアドバンテージを持っていました。また、グランツーリスモシリーズ、ゴッド・オブ・ウォー、ファイナルファンタジー、メタルギアなど、多数の独占タイトルを持っていました。世界中で1億5500万台以上を販売し、史上最も売れたゲーム機となりました。</text>        
+
+		</text>	
 
 		<text name="system_name" extra="true">
 			<text>PlayStation 2</text>

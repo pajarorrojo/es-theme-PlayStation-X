@@ -7,10 +7,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<variables>
 		<image.avatar ifSubset="system-avatar:batocera-plus">batocera-plus.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:arale">arale.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:barbarian">barbarian.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:bart-simpson">bartsimpson.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:bernard">maniac-mansion.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:bubble">bubble.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:bomberman">bomberman.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:castlevania">castlevania.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:claptrap">claptrap.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:cloud">cloud.png</image.avatar>
@@ -23,17 +25,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image.avatar ifSubset="system-avatar:emulationstation">emulationstation.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:fatalfury">fatalfury.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:finalfight">finalfight.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:geralt">geralt.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:ghostgoblins">ghostgoblins.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:goku">goku.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:halo">halo.jpg</image.avatar>
 		<image.avatar ifSubset="system-avatar:he-man">he-man.png</image.avatar>
-		<image.avatar ifSubset="system-avatar:jackelguapo">jackelguapo.jpg</image.avatar>
+		<image.avatar ifSubset="system-avatar:jackelguapo">jackelguapo.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:kingdomhearts">kingdom-hearts.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:lara">lara-croft.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:larry">larry.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:lemmings">lemmings.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:zelda-ocarina">zelda-ocarina.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:zelda">zelda.png</image.avatar>
-		<image.avatar ifSubset="system-avatar:mario">mario.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:mario">mario-avatar.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:mazinger">mazinger.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:megaman">megaman.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:metal-gear">metal-gear.jpg</image.avatar>

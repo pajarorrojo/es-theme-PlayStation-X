@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="he">
+    <theme.welcome>ברוכים הבאים ל-Playstation X עבור</theme.welcome>
+    <theme.start>התחלה</theme.start>
+    <theme.mostplayed>המשוחק ביותר:</theme.mostplayed>
+    <theme.items>פריטים:</theme.items>
+    <theme.collections>אוספים:</theme.collections>
+    <GamesNumber>משחקים</GamesNumber>
+    <GamesFavs>מועדפים</GamesFavs>
+    <NumberPlayed>משוחק</NumberPlayed>
+    <blue>כחול</blue>
+    <black>שחור</black>
+    <red>אדום</red>
+    <yellow>צהוב</yellow>
+    <green>ירוק</green>
+    <purple>סגול</purple>
+    <orange>כתום</orange>
+    <pink>ורוד</pink>
+    <default>ברירת מחדל</default>
+    <big>גדול</big>
+    <medium>בינוני</medium>
+    <small>קטן</small>
+    <yes>כן</yes>
+    <no>לא</no>
+    <none>ללא</none>
+    <never>אף פעם</never>
+    <always>תמיד</always>
+    <iconset>סט צלמיות</iconset>
+    <theme.frontend>בחר את ה-Frontend המועדף עליך</theme.frontend>
+    <gameBar>הצג מידע משחק</gameBar>
+    <CarouselImageSize>גודל תמונת קרוסלה</CarouselImageSize>
+    <theme.videoBackground>הצג וידאו בתצוגת המערכת</theme.videoBackground>
+    <theme.system-description>הצג תיאור מערכת</theme.system-description>
+    <theme.animated-background>רקע מונפש (גלים)</theme.animated-background>
+    <theme.backgroundVideoOption>וידאו רקע</theme.backgroundVideoOption>
+    <theme.windowVideoOption>וידאו חלון</theme.windowVideoOption>
+    <theme.insideVideoOption>בתוך התמונה</theme.insideVideoOption>
+    <theme.smallScreenOption>מסך קטן</theme.smallScreenOption>
+    <theme.videoaudio>הפעל קול בוידאו של המערכת</theme.videoaudio>
+    <theme.videoRandom>הצג שטח סרטוני וידאו אקראי</theme.videoRandom>
+    <ifnospot>אם אין וידאו במערכת</ifnospot>
+    <theme.Avatar>בחר תמונת אוואטר</theme.Avatar>
+    <theme.username>בחר כינוי</theme.username>
+    <custom>מותאם אישית</custom>
+    <theme.videoGamelistDelay>עיכוב וידאו ברשימת משחקים</theme.videoGamelistDelay>
+    <VideoOff>אל תציג וידאו</VideoOff>
+    <theme.systemConsole>הצג לוגו וקונסולות בתצוגת המערכת</theme.systemConsole>
+    <randomGame>משחק אקראי</randomGame>
+    <theme.colorset>מערכת צבע ערכת הערכות</theme.colorset>
+    <theme.secondaryColorset>צבע משני</theme.secondaryColorset>
+    <theme.gridvideo>הצגת וידאו עבור משחקים</theme.gridvideo>
+    <theme.videoSnapAudio>הפעלת צליל בצפייה בוידאו של משחקים</theme.videoSnapAudio>
+    <theme.animatedList>מעברי התאמה בתצוגת רשימת משחקים</theme.animatedList>
+    <theme.animatedSystem>מעברי התאמה בתצוגת מערכות</theme.animatedSystem>
+    <theme.aspect-ratio>בחר סוג מסך</theme.aspect-ratio>
+    <theme.oversizeVideoOption>גודל וידאו גדול יותר</theme.oversizeVideoOption>
+    <theme.bato35compatilble>רק תואם עם בטוצ'רה 35 או גבוהה יותר</theme.bato35compatilble>
+    <theme.netplay-required>יש לאפשר Netplay כדי להציג את הכינוי שלך או לבחור כינוי אחר באפשרויות הנושא</theme.netplay-required>
+    <theme.ra-required>אנא הפעל את ההשגיות הרטרואצ'יביות כדי להציג את שם המשתמש שלך או לבחור שם אחר באפשרויות התצורה של התבנית</theme.ra-required>
+    <theme.hotkey>הצג עזרה למקשי התאורה במסך ברוך הבא</theme.hotkey>
+    <theme.hotkey-x86>הצג עזרה מהירה למקשי התאורה</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>רק במסך טעינת המשחק</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>רק במסך ברוך הבא</theme.hotkey.splash>
+    <theme.hotkey.both>בשני המסכים</theme.hotkey.both>
+    <theme.detected>זוהה</theme.detected>
+    <theme.detailedorigin>תמונה בתצוגה מפורטת</theme.detailedorigin>
+    <theme.gridMainorigin>תמונה ראשית בתצוגת רשת</theme.gridMainorigin>
+    <theme.gridorigin>תמונות רשת</theme.gridorigin>
+    <theme.carouselMainOrigin>תמונה ראשית בתצוגת קרוסלה</theme.carouselMainOrigin>
+    <theme.carouselOrigin>תמונות קרוסלה</theme.carouselOrigin>
+    <theme.systemBackground>תמונת רקע בתצוגת מערכות</theme.systemBackground>
+    <randomFanart>פאנארט אקראי</randomFanart>
+  </variables>
+</theme>

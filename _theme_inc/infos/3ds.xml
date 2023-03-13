@@ -6,27 +6,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-				
-				<text name="system_description" extra="true" >
+		<text name="system_description" extra="true" >
 			<text>The Nintendo 3DS (abbreviated as 3DS) is a portable console produced by Nintendo and released in 2011, successor to the Nintendo DS. It has the ability to produce three-dimensional images without special glasses.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Nintendo 3DS (abreviado como 3DS) es una consola portátil producida por Nintendo y lanzada en 2011, sucesor de la Nintendo DS. Tiene la capacidad de producir imágenes en tres dimensiones sin gafas especiales.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Nintendo 3DS (en abrégé 3DS) est une console portable produite par Nintendo et sortie en 2011, successeur de la Nintendo DS. Il a la capacité de produire des images en trois dimensions sans lunettes spéciales.</text>
+			<text lang="es">La Nintendo 3DS (abreviado como 3DS) es una consola portátil producida por Nintendo y lanzada en 2011, sucesor de la Nintendo DS. Tiene la capacidad de producir imágenes en tres dimensiones sin gafas especiales.</text>
+			<text lang="fr">La Nintendo 3DS (en abrégé 3DS) est une console portable produite par Nintendo et sortie en 2011, successeur de la Nintendo DS. Il a la capacité de produire des images en trois dimensions sans lunettes spéciales.</text>
+			<text lang="pt">O Nintendo 3DS (abreviado como 3DS) é um console portátil produzido pela Nintendo e lançado em 2011, sucessor do Nintendo DS. Tem a capacidade de produzir imagens em três dimensões sem óculos especiais.</text>
+			<text lang="ca">La Nintendo 3DS (abreviat com a 3DS) és una consola portàtil produïda per Nintendo i llançada el 2011, successor de la Nintendo DS. Té la capacitat de produir imatges en tres dimensions sense ulleres especials.</text>
+			<text lang="eu">Nintendo 3DS (3DS bezala laburduriz) Nintendo-k ekoiztutako eta 2011n argitaratutako koaderno mugikorra da, Nintendo DS-ren ondorena. Hainbat dimentsioko irudiak sortzeko gaitasuna dauka, berezko betaurrekoak beharrik gabe.</text>				
+			<text lang="de">Der Nintendo 3DS (abgekürzt als 3DS) ist eine tragbare Konsole, die von Nintendo produziert und 2011 als Nachfolger des Nintendo DS veröffentlicht wurde. Es hat die Fähigkeit, dreidimensionale Bilder ohne Spezialbrille zu erzeugen.</text>
+			<text lang="pl">Nintendo 3DS (jap. ニンテンドー3DS Nintendō Surīdīesu) – przenośna konsola gier wideo firmy Nintendo, która została oficjalnie zaprezentowana na targach E3 15 czerwca 2010 jako następca serii Nintendo DS. Ekran konsoli umożliwia oglądanie 3D bez konieczności noszenia specjalnych okularów, wykorzystując do tego metodę autostereoskopii. 11 października 2014 roku została wydana ulepszona wersja konsoli New Nintendo 3DS. Produkcję konsoli zakończono we wrześniu 2020 roku.</text>
+			<text lang="it">Il Nintendo 3DS è una console portatile prodotta da Nintendo. La console è stata annunciata nel marzo 2010 e presentata ufficialmente all'E3 2010 come successore del Nintendo DS. La console è dotata di retrocompatibilità con i vecchi videogiochi per Nintendo DS. Essendo una console di ottava generazione, il suo principale concorrente era la PlayStation Vita di Sony.</text>
+			<text lang="ru">Портативная игровая система производства Nintendo, способная создавать трёхмерный эффект изображения за счёт автостереоскопии, то есть без использования специальных очков. Консоль поступила в продажу во всех регионах до конца финансового года Nintendo, завершившегося в конце марта 2011 г. Игровая система присутствует на рынке одновременно с линейкой игровых систем Nintendo DS.</text>
+			<text lang="ja">ニンテンドー3DSは、2011年に発売された携帯型ビデオゲーム機です。その主な特徴は、特別なメガネを使わずに3D画面が楽しめることです。また、カメラ、マイク、インターネット接続も備えており、オンラインでのプレイや追加コンテンツのダウンロードも可能です。3DSには、スーパーマリオ3Dランドやゼルダの伝説時のオカリナ3Dなどの独占タイトルを含む、豊富なゲームライブラリがあります。</text>
+			<text lang="zh">Nintendo 3DS是任天堂生產的掌上游戲機。它於 2010 年 3 月發布，並在 2010 年 E3 上作為 Nintendo DS 的繼任者亮相。該系統具有向後兼容舊的 Nintendo DS 視頻遊戲的特點。作為第八代遊戲機，其主要競爭對手是索尼的 PlayStation Vita。</text>
 		</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Nintendo 3DS (abreviado como 3DS) é um console portátil produzido pela Nintendo e lançado em 2011, sucessor do Nintendo DS. Tem a capacidade de produzir imagens em três dimensões sem óculos especiais.</text>
-		</text>
 
-				
-
-		
-		
 		<text name="system_name" extra="true" >
 			<text>Nintendo 3DS</text>
 		</text>

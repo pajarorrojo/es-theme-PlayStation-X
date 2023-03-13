@@ -10,13 +10,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>The Tomy Tutor, originally sold in Japan as the Pyūta (ぴゅう太) and in the UK as the Grandstand Tutor, is a home computer produced by the Japanese toymaker Tomy. 
 				
 It was architecturally similar, but not identical, to the Texas Instruments TI-99/4A, and used a similar Texas Instruments 16-bit CPU. The computer was launched in Japan in 1982, and in the UK and the United States in the next year.
-				</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>El Tomy Tutor, originalmente vendido en Japón como Pyūta (ぴゅう太) y en el Reino Unido como Grandstand Tutor, es un ordenador doméstico producido por el fabricante japonés de juguetes Tomy. 
+			</text>
+			<text lang="es,ca,eu">El Tomy Tutor, originalmente vendido en Japón como Pyūta (ぴゅう太) y en el Reino Unido como Grandstand Tutor, es un ordenador doméstico producido por el fabricante japonés de juguetes Tomy. 
 				
-Era arquitectónicamente similar, pero no idéntico, al Texas Instruments TI-99/4A, y usaba una CPU de 16 bits de Texas Instruments similar. Se lanzó en Japón en 1982 y en el Reino Unido y los Estados Unidos al año siguiente.</text>
+Era arquitectónicamente similar, pero no idéntico, al Texas Instruments TI-99/4A, y usaba una CPU de 16 bits de Texas Instruments similar. Se lanzó en Japón en 1982 y en el Reino Unido y los Estados Unidos al año siguiente.
+			</text>
 		</text>
 
 

@@ -7,28 +7,43 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 	
-		
-				<text name="system_description" extra="true" >
-			<text>Is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</text>
-		</text>
-				
-				<text name="system_description" lang="es" >
-			<text>La Super Nintendo Entertainment System, conocida popularmente como la Super Nintendo en Europa, Super Famicom en Japón y también nombrada oficialmente de forma abreviada como la Super NES o SNES en América.
+<text name="system_description" extra="true">
+<text>The Super Nintendo Entertainment System (SNES) was a 16-bit video game console released by Nintendo in 1990. It was the successor to the original Nintendo Entertainment System (NES) and was designed to compete with other 16-bit consoles of the time, such as the Sega Mega Drive, with which it had a great rivalry.
 
-Segunda videoconsola de sobremesa de Nintendo y la sucesora de Nintendo Entertainment System (NES) en América y Europa. Mantuvo una gran rivalidad en todo el mundo con la Sega Mega Drive (o Sega Genesis) durante la era de 16 bits.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Super Nintendo Entertainment System, ou Super Famicom (スーパーファミコン?) au Japon, est une console de jeux vidéo 16 bits du constructeur japonais Nintendo commercialisée à partir de août 1991.</text>
-		</text>
+The console had some of the most iconic games of all time, such as Super Mario World, The Legend of Zelda: A Link to the Past, and Donkey Kong Country. The SNES was very popular and sold over 49 million units worldwide, and its impact on the video game industry is still felt today.</text>        
+<text lang="es">La Super Nintendo Entertainment System (SNES) fue una consola de videojuegos de 16 bits lanzada por Nintendo en 1990. Fue la sucesora de la consola original de Nintendo, la Nintendo Entertainment System (NES), y fue diseñada para competir con otras consolas de 16 bits de la época, como la Sega Mega Drive con la que mantuvo una gran rivalidad.
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>O SNES é o segundo home console da Nintendo. O console apresentou gráficos avançados e recursos de som em comparação com outros consoles na época. Considerado um dos melhores consoles da história.</text>
-		</text>
+La consola contó con algunos de los juegos más icónicos de todos los tiempos, como Super Mario World, The Legend of Zelda: A Link to the Past y Donkey Kong Country. El SNES fue muy popular y vendió más de 49 millones de unidades en todo el mundo, y su impacto en la industria de los videojuegos todavía se siente hoy en día.</text>        
+<text lang="ca">La Super Nintendo Entertainment System (SNES) va ser una consola de videojocs de 16 bits llançada per Nintendo el 1990. Va ser la successor de la consola original de Nintendo, la Nintendo Entertainment System (NES), i va ser dissenyada per competir amb altres consoles de 16 bits de l'època, com la Sega Mega Drive amb la qual va mantenir una gran rivalitat.
 
-		
-		
-				
+La consola va comptar amb alguns dels jocs més icònics de tots els temps, com Super Mario World, The Legend of Zelda: A Link to the Past i Donkey Kong Country. El SNES va ser molt popular i va vendre més de 49 milions d'unitats a tot el món, i el seu impacte en la indústria dels videojocs encara es sent avui en dia.</text>        
+<text lang="eu">Super Nintendo Entertainment System (SNES) 16 bit-eko bideo-joko konsola bat izan zen, 1990ean Nintendo-k argitaratua. Nintendo Entertainment System (NES) bideokonsola originalaren ondorengoa izan zen eta Sega Mega Drive bezalako beste 16-bit konsolen konpetitzailea diseinatu zen.
+
+Konsolak garaiko joko ikonikoen artean zenbatzen ziren, Super Mario World, The Legend of Zelda: A Link to the Past eta Donkey Kong Country izan ziren. SNES oso arrakastatsua izan zen, 49 milioi unitate baino gehiago saldu zituen mundu osoan eta egun hainbat jarduera oinarri dituen bideo-joko industrian.</text>        
+<text lang="fr">La Super Nintendo Entertainment System (SNES) était une console de jeu vidéo 16 bits sortie en 1990 par Nintendo. Elle a succédé à la console de jeu originale Nintendo Entertainment System (NES) et a été conçue pour concurrencer d'autres consoles de jeu 16 bits de l'époque, telles que la Sega Mega Drive, avec laquelle elle a connu une grande rivalité.
+
+La console avait certains des jeux les plus emblématiques de tous les temps, tels que Super Mario World, The Legend of Zelda: A Link to the Past et Donkey Kong Country. Le SNES était très populaire et a vendu plus de 49 millions d'unités dans le monde entier, et son impact sur l'industrie du jeu vidéo est encore ressenti aujourd'hui.</text>        
+<text lang="pt">O Super Nintendo Entertainment System (SNES) foi um console de jogos de vídeo de 16 bits lançado pela Nintendo em 1990. Foi o sucessor do Nintendo Entertainment System (NES) original e foi projetado para competir com outros consoles de 16 bits da época, como o Sega Mega Drive, com o qual teve uma grande rivalidade.
+
+Italiano: Il Super Nintendo Entertainment System (SNES) è stata una console per videogiochi a 16 bit rilasciata dalla Nintendo nel 1990. Era il successore del Nintendo Entertainment System (NES) originale e fu progettato per competere con altre console a 16 bit dell'epoca, come il Sega Mega Drive, con cui aveva una grande rivalità.</text>        
+<text lang="it"></text>        
+<text lang="de">Das Super Nintendo Entertainment System (SNES) war eine 16-Bit-Videospielkonsole, die 1990 von Nintendo veröffentlicht wurde. Es war der Nachfolger des originalen Nintendo Entertainment Systems (NES) und wurde entwickelt, um mit anderen 16-Bit-Konsolen der Zeit wie dem Sega Mega Drive zu konkurrieren, mit dem es eine große Rivalität hatte.
+
+Die Konsole hatte einige der ikonischsten Spiele aller Zeiten, wie Super Mario World, The Legend of Zelda: A Link to the Past und Donkey Kong Country. Das SNES war sehr beliebt und verkaufte weltweit über 49 Millionen Einheiten, und sein Einfluss auf die Videospielindustrie ist noch heute zu spüren.</text>        
+<text lang="pl">Super Nintendo Entertainment System (SNES) to 16-bitowa konsola do gier wideo wydana przez Nintendo w 1990 roku. Był on następcą oryginalnego Nintendo Entertainment System (NES) i został zaprojektowany, aby konkurować z innymi 16-bitowymi konsolami tamtej epoki, takimi jak Sega Mega Drive, z którą miał wielką rywalizację.
+
+Konsola miała niektóre z najbardziej ikonicznych gier wszech czasów, takich jak Super Mario World, The Legend of Zelda: A Link to the Past i Donkey Kong Country. SNES był bardzo popularny i sprzedał się na całym świecie w ponad 49 milionach egzemplarzy, a jego wpływ na przemysł gier wideo jest wciąż odczuwalny.</text>        
+<text lang="ru">Super Nintendo Entertainment System (SNES) была 16-битной игровой приставкой, выпущенной Nintendo в 1990 году. Она была преемницей оригинальной Nintendo Entertainment System (NES) и была разработана для конкуренции с другими 16-битными консолями того времени, такими как Sega Mega Drive, с которой она имела большую конкуренцию.
+
+Консоль имела некоторые из самых знаковых игр всех времен, таких как Super Mario World, The Legend of Zelda: A Link to the Past и Donkey Kong Country. SNES была очень популярна и продала более 49 миллионов единиц по всему миру, и ее влияние на индустрию видеоигр до сих пор ощущается.</text>        
+<text lang="zh">超级任天堂娱乐系统（SNES）是任天堂在1990年发布的16位视频游戏机。它是原任天堂娱乐系统（NES）的继任者，旨在与当时其他16位游戏机竞争，例如世嘉Mega Drive，与之存在激烈的竞争关系。
+
+该游戏机拥有一些有史以来最具标志性的游戏，如超级马里奥世界，塞尔达传说：时光之笛和大金刚国度。 SNES非常受欢迎，在全球售出了超过4900万台，其对游戏产业的影响至今仍然存在。</text>        
+<text lang="ja">スーパーファミコン（SNES）は、任天堂が1990年にリリースした16ビットのビデオゲーム機です。オリジナルの任天堂エンターテインメントシステム（NES）の後継機で、セガメガドライブなどの他の16ビットのコンソールと競合するために設計されました。
+
+このコンソールには、スーパーマリオワールド、ゼルダの伝説：神々のトライフォース、ドンキーコングカントリーなど、史上最も象徴的</text>       
+
+</text>	
 
 		<text name="system_name" extra="true">
 			<text>Super Nintendo</text>

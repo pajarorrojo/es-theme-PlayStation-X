@@ -7,22 +7,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>Place in library directory your magazine and videos. Acceptable extensions : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.
-				</text>
+			<text>Place in library directory your magazine and videos. Acceptable extensions : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text lang="es,ca,eu">Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... Extensiones aceptadas: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
 		</text>
 		
-			<text name="system_description" extra="true" lang="es">
-			<text>Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... Extensiones aceptadas: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.
-				</text>
-		</text>
 
-
-		<text name="system_name" extra="true">
-			<text>Library</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="es">
-			<text>Biblioteca</text>
+		<text name="system_name" extra="true" >
+			<text lang="es">Biblioteca</text>
+			<text lang="ca">Biblioteca</text>
+			<text lang="eu">Liburutegia</text>		
 		</text>
 	</view>
 </theme>

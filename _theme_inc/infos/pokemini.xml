@@ -7,24 +7,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>Pokémon Mini is a portable console designed and manufactured by Nintendo. It is the smallest interchangeable cartridge gaming system produced by Nintendo.</text>
+			<text lang="es,ca,eu">Pokémon Mini es una consola portátil diseñada y fabricada por Nintendo. Es el menor sistema de juegos con cartucho intercambiable producido por Nintendo.</text>
+			<text lang="fr">Pokémon Mini est une console portable conçue et fabriquée par Nintendo. Il s'agit du plus petit système de jeu à cartouches interchangeable produit par Nintendo.</text>
+			<text lang="pt">Pokemon Mini é um console portátil desenhado e fabricado pela Nintendo. É o menor sistema de jogos com cartucho intercambiável produzido pela Nintendo.</text>
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Pokémon Mini es una consola portátil diseñada y fabricada por Nintendo. Es el menor sistema de juegos con cartucho intercambiable producido por Nintendo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Pokémon Mini est une console portable conçue et fabriquée par Nintendo. Il s'agit du plus petit système de jeu à cartouches interchangeable produit par Nintendo.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Pokemon Mini é um console portátil desenhado e fabricado pela Nintendo. É o menor sistema de jogos com cartucho intercambiável produzido pela Nintendo.</text>
-		</text>
-
-		
-						
 
 		<text name="system_name" extra="true">
 			<text>Pokemon Mini</text>

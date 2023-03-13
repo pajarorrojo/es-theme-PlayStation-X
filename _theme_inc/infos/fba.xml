@@ -6,25 +6,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true" >
+		<text name="system_description" extra="true" >
 			<text>Is an emulator of arcade games, that is, it takes the program code, graphics data, etc., from an original arcade game and emulates the hardware to make the game run in it's original form.</text>
+			<text lang="es,ca,eu">Es un emulador de juegos de arcade, es decir, toma el código del programa, los datos gráficos, etc. de un juego de arcade original y emula el hardware para hacer que el juego se ejecute en su forma original.</text>
+			<text lang="fr">Final Burn Alpha est un émulateur de jeu vidéo d'arcade basé sur l'émulateur Final Burn, qui émule différents systèmes tel que le MVS, le CPS1 et CPS2, le System 16, System 18, X Board, Y Board de Sega, etc.</text>
+			<text lang="pt">O FinalBurn Alpha é um emulador de código aberto das placas Capcom modelos CPS-1, 2 e 3, além de outras placas de arcade como a do SNK Neo-Geo, Toaplan, Cave e várias outras.</text>
 		</text>
 		
-				<text name="system_description" extra="true" lang="es">
-			<text>Es un emulador de juegos de arcade, es decir, toma el código del programa, los datos gráficos, etc. de un juego de arcade original y emula el hardware para hacer que el juego se ejecute en su forma original.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Final Burn Alpha est un émulateur de jeu vidéo d'arcade basé sur l'émulateur Final Burn, qui émule différents systèmes tel que le MVS, le CPS1 et CPS2, le System 16, System 18, X Board, Y Board de Sega, etc.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>O FinalBurn Alpha é um emulador de código aberto das placas Capcom modelos CPS-1, 2 e 3, além de outras placas de arcade como a do SNK Neo-Geo, Toaplan, Cave e várias outras.</text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>FB Alpha</text>
 		</text>

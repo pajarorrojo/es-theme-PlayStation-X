@@ -6,43 +6,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-
 		<text name="system_description" extra="true" >
 			<text>A list of the last 50 games you have played.</text>
+			<text lang="es,ca,eu">Una lista de los últimos 50 juegos a los que has jugado.</text>
+			<text lang="fr">Une liste des 50 derniers jeux auxquels vous avez joué.</text>
+			<text lang="pt">Uma lista dos últimos 50 jogos que você jogou.</text>
 		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>Una lista de los últimos 50 juegos a los que has jugado.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Une liste des 50 derniers jeux auxquels vous avez joué.</text>
-		</text>
-
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>Uma lista dos últimos 50 jogos que você jogou.</text>
-		</text>
-
-		
-
-
-
-				
 
 		<text name="system_name" extra="true">
-			<text>Last Played</text>
+			<text lang="es">Jugados Recientemente</text>
+			<text lang="ca">Recents</text>
+			<text lang="eu">Berriki</text>
+			<text lang="fr">Dernier Joués</text>
+			<text lang="pt">Jogou pela última vez</text>
 		</text>
 
-		<text name="system_name" extra="true" lang="es">
-			<text>Recientes</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="fr">
-			<text>Dernier Joués</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="pt">
-			<text>Jogou pela última vez</text>
-		</text>
 	</view>
 </theme>

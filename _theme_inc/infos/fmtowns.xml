@@ -6,16 +6,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	    
-
 		<text name="system_description" extra="true" >
 			<text>The FM Towns Marty is a fifth-generation home video game console released in 1993 by Fujitsu, exclusively for the Japanese market. It is often claimed to be the first 32-bit CD-based home video game system.</text>
+			<text lang="es,ca,eu">FM Towns Marty es una videoconsola de quinta generación lanzada en 1993 por Fujitsu exclusivamente para el mercado japonés. Fue la primera consola doméstica de 32 bits y la primera en incluir una unidad de CD-ROM. </text>
 		</text>
-
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>FM Towns Marty es una videoconsola de quinta generación lanzada en 1993 por Fujitsu exclusivamente para el mercado japonés. Fue la primera consola doméstica de 32 bits y la primera en incluir una unidad de CD-ROM. </text>
-		</text>
-
 
 		<text name="system_name" extra="true">
 			<text>FM Towns Marty</text>

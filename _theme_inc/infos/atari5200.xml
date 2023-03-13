@@ -6,27 +6,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>Launched by Atari in 1982 to replace the Atari 2600. Because of serious problems with its control, the product was considered a commercial failure.</text>
+		<text name="system_description" extra="true">
+			<text>The Atari 5200 is a video game console that was released by Atari in 1982 as a successor to the popular Atari 2600. It featured advanced graphics and sound capabilities, as well as an innovative controller design that included a keypad and analog joystick. However, due to various issues including high price and compatibility problems with older Atari games, the 5200 was ultimately unsuccessful and was discontinued in 1984.</text>        
+			<text lang="es">El Atari 5200 es una consola de videojuegos que fue lanzada por Atari en 1982 como sucesora de la popular Atari 2600. Presentaba capacidades avanzadas de gráficos y sonido, así como un diseño innovador de controlador que incluía un teclado y un joystick analógico. Sin embargo, debido a diversos problemas incluyendo su elevado precio y problemas de compatibilidad con los juegos antiguos de Atari, el 5200 no tuvo éxito y fue descontinuado en 1984.</text>        
+			<text lang="ca">L'Atari 5200 és una consola de videojocs que va ser llançada per Atari el 1982 com a successora de la popular Atari 2600. Presentava capacitats avançades de gràfics i so, així com un disseny innovador de controlador que incloïa un teclat i un joystick analògic. No obstant això, a causa de diversos problemes incloent-hi el seu elevat preu i problemes de compatibilitat amb els jocs antics d'Atari, el 5200 no va tenir èxit i va ser descontinuat el 1984.</text>        
+			<text lang="eu">Atari 5200 video-joko konsola da, 1982an Atari-ren Atari 2600-aren ondoren, hainbat egilek garatuta. Grafikoen eta soinuen ahalmen aurreratuak zeukan, eta kontrol-erronka berritzailea ere zituen, teklatu bat eta joystick analogiko bat barne hartuta. Hala ere, Atari-ren joko zaharrekin arazoak izan zituen arren, gehienetan prezio handikoak izan zirelako eta desegokitze arazoak zituztelako, eta horregatik 1984an desagertu zen.</text>        
+			<text lang="fr">L'Atari 5200 est une console de jeux vidéo qui a été lancée par Atari en 1982 en tant que successeur de la populaire Atari 2600. Elle disposait de capacités avancées en matière de graphismes et de son, ainsi qu'un design de contrôleur innovant qui comprenait un clavier et un joystick analogique. Cependant, en raison de divers problèmes, notamment un prix élevé et des problèmes de compatibilité avec les anciens jeux Atari, la 5200 a finalement été un échec et a été abandonnée en 1984.</text>        
+			<text lang="pt">O Atari 5200 é um console de jogos de 2ª geração lançado pela Atari em 1982. Foi projetado como sucessor do popular Atari 2600 e apresentava melhores gráficos e jogabilidade. O sistema foi lançado em um momento em que a indústria de videogames estava experimentando um declínio, e apesar de suas inovações, não conseguiu alcançar o mesmo sucesso comercial que seu antecessor.</text>        
+			<text lang="it">L'Atari 5200 è una console di gioco di seconda generazione lanciata dalla Atari nel 1982. Era stato progettato come successore del popolare Atari 2600 e presentava migliori grafica e giocabilità. Il sistema fu lanciato in un periodo in cui l'industria dei videogiochi stava attraversando una crisi, e nonostante le sue innovazioni non riuscì ad ottenere lo stesso successo commerciale del suo predecessore.</text>        
+			<text lang="de">Das Atari 5200 ist eine Videospielkonsole der 2. Generation, die 1982 von Atari auf den Markt gebracht wurde. Es wurde als Nachfolger des beliebten Atari 2600 konzipiert und bot verbesserte Grafik und Gameplay. Das System wurde in einer Zeit veröffentlicht, als die Videospielindustrie einen Rückgang erlebte, und trotz seiner Innovationen konnte es nicht den gleichen kommerziellen Erfolg wie sein Vorgänger erzielen.</text>        
+			<text lang="pl">Atari 5200 to konsola gier drugiej generacji wydana przez Atari w 1982 roku. Została zaprojektowana jako następca popularnej konsoli Atari 2600 i oferowała lepszą grafikę i rozgrywkę. System został wydany w momencie, gdy przemysł gier wideo przechodził kryzys, i pomimo swoich innowacji nie osiągnął takiego samego sukcesu handlowego jak jego poprzednik.</text>        
+			<text lang="ru">Atari 5200 - это игровая приставка второго поколения, выпущенная Atari в 1982 году. Она была разработана как преемник популярной Atari 2600 и предлагала улучшенную графику и игровой процесс. Система была выпущена в период спада видеоигровой индустрии, и несмотря на свои инновации, не смогла достичь такого же коммерческого успеха, как ее предшественник.</text>        
+			<text lang="zh">Atari 5200是Atari于1982年推出的第二代游戏机。它被设计为受欢迎的Atari 2600的后继者，具有更好的图形和玩法。该系统在游戏行业经历低谷的时期推出，尽管具有创新性，但未能达到其前身同样的商业成功。</text>        
+			<text lang="ja">Atari 5200は、1982年にAtari社によって発売された8ビットの家庭用ゲーム機です。Atari 2600に代わる次世代機種として発表され、Atari 2600と同様に、ROMカートリッジでゲームをプレイすることができます。Atari 5200は、Atari 2600よりも優れたグラフィックスとサウンドを提供し、コントローラーもより先進的で、より快適にゲームをプレイすることができます。しかし、販売が伸び悩んだため、わずか2年後に生産が中止されました。</text>      
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Lanzado por Atari en 1982 para sustituir al Atari 2600. Debido a los serios problemas con su control, el producto fue considerado un fracaso comercial.
-</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Lancé par Atari en 1982 pour remplacer le Atari 2600. En raison de graves problèmes de contrôle, le produit était considéré comme un échec commercial.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Lançado pela Atari em 1982 para substituir o Atari 2600. Por causa dos sérios problemas com seu controle, o produto foi considerado um fracasso comercial.</text>
-		</text>
-
-		
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Atari 5200</text>

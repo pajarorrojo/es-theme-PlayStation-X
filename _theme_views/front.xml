@@ -6,8 +6,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system">
       <image name="logo">
          <path>./_theme_inc/images/caratulas/default.png</path>
+         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/${system.theme}-b.png</path>
          <tile>false</tile>
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
@@ -21,7 +23,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="logo" extra="true" region="jp">
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
-       
       </image>
 
       <carousel name="systemcarousel">
@@ -32,7 +33,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>80</zIndex>
          <defaultTransition>instant</defaultTransition>
          <transitionSpeed>500</transitionSpeed>
-         <minLogoOpacity ifSubset="video-system:background-option">0.5</minLogoOpacity>
+         <minLogoOpacity ifSubset="video-system:background-option">0.4</minLogoOpacity>
          <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>
       </carousel>
 
@@ -59,22 +60,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <zIndex>45</zIndex>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <fontSize>0.068</fontSize>
          <fontSize ifSubset="aspect-ratio:16-9">0.068</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|5-4">0.055</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|9-16|5-4">0.055</fontSize>
          <fontSize ifSubset="aspect-ratio:3-2">0.06</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.042</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">0.042</fontSize>
          <fontSize ifSubset="aspect-ratio:3-2" tinyScreen="true">0.046</fontSize>
-
          <fontSize ifSubset="aspect-ratio:16-10">0.066</fontSize>
          <backgroundColor>ff000000</backgroundColor>
-         
-
       </text>
 
       <text name="fullName" extra="true">
@@ -87,52 +85,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <backgroundColor>${psx-theme-blue4}</backgroundColor>
+         <backgroundColor ifSubset="colorset:black">000000</backgroundColor>
          <storyboard>
             <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
             <animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
          </storyboard>
       </text>
 
-
       <!-- FIN CARRUSELES -->
 
       <image name="background" extra="static">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
          <zIndex>1</zIndex>
-         <linearSmooth>true</linearSmooth>
-      </image>
-
-      <image name="background-art" extra="true">
-         <origin>0.5 0</origin>
-         <pos>0.5 0</pos>
-         <path>{random:fanart}</path>
-         <path>./_theme_inc/images/background/${system.theme}.jpg</path>
-         <zIndex>40</zIndex>
-         <linearSmooth>true</linearSmooth>
-         <size>1 1</size>
       </image>
 
       <image name="background-art" extra="true" region="eu" />
-      <image name="background-art" extra="true" region="us">
-         <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
+      <image name="background-art" extra="true" ifSubset="background-system:fanart|default">
+         <path>./_theme_inc/images/background/${system.theme}.jpg</path>
+         <path region="us">./_theme_inc/images/background/us/${system.theme}.jpg</path>
+         <path region="jp">./_theme_inc/images/background/jp/${system.theme}.jpg</path>
+         <path ifSubset="background-system:fanart">{random:fanart}</path>
+         <zIndex>40</zIndex>
       </image>
-      <image name="background-art" extra="true" region="jp">
-         <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
-      </image>
-
 
       <image name="overlay" extra="static">
          <path>./_theme_inc/images/overlay.png</path>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
          <zIndex>42</zIndex>
+      </image>
+
+      <image name="background, background-art, overlay" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <minSize>1.002 1.002</minSize>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
       </image>
-
 
       <image name="linea-inferior" extra="static">
          <path>./_theme_inc/images/pixel-blanco.png</path>
@@ -156,7 +142,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
       </image>
-
 
    </view>
 

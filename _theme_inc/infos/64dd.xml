@@ -1,0 +1,29 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true" >
+			<text>It was a peripheral for the Nintendo 64. It was plugged through the EXTension Port and allowed the N64 to use 64 MB proprietary magnetic disks to increase data storage capacity.</text>
+			<text lang="es">Era un periférico para Nintendo 64. Estaba conectado a través del puerto de extension y permitía que la N64 usara discos magnéticos patentados de 64 MB para así aumentar la capacidad de almacenamiento de datos.</text>
+			<text lang="ca">Era un perifèric per a Nintendo 64. Estava connectat a través del port d'extensió i permetia que la N64 usés discs magnètics patentats de 64 MB per augmentar la capacitat d'emmagatzematge de dades.</text>
+			<text lang="eu">Nintendo 64ko periferikoa zen. Hedapen portuaren bidez konektaturik egon zen eta 64 MB-ko patentaturiko disketxe magnetikoak erabil ditzakeen baimena eman zion N64ari datuen biltegiratze kapazitatea handitzeko.</text>
+			<text lang="fr">C'était un périphérique pour la Nintendo 64. Il était branché sur le port EXTension et permettait au N64 d'utiliser des disques magnétiques exclusifs de 64 Mo pour augmenter la capacité de stockage de données.</text>		
+			<text lang="it">Il 64DD è una periferica per lettore di dischi magnetici per la console Nintendo 64, sviluppata da Nintendo. Fu annunciato nel 1995, prima del lancio del Nintendo 64 nel 1996, e dopo numerosi ritardi è stato rilasciato in Giappone il 13 dicembre 1999. Il termine "64" si riferisce sia alla console Nintendo 64 che alla capacità di memorizzazione dei dischi di 64 MB, mentre "DD" è l'abbreviazione di "disk drive" o "dynamic drive".</text>			
+			<text lang="pt">Foi um periférico para o Nintendo 64. Era plugado através da EXTension Port e permitia ao N64 usar discos magnéticos proprietários de 64 MB de capacidade para aumentar a capacidade de armazenamento de dados.</text>			
+			<text lang="de">Es war ein Peripheriegerät für den Nintendo 64. Es wurde über den EXTension Port angeschlossen und ermöglichte es dem N64, proprietäre 64-MB-Magnetplatten zu verwenden, um die Datenspeicherkapazität zu erhöhen.</text>
+			<text lang="pl">64DD, w języku potocznym jako Nintendo 64DD – akcesorium będące stacją dyskietek do konsoli Nintendo 64, wyprodukowanej przez Nintendo.</text>
+			<text lang="ru">(«DD» — сокращено от «Disk Drive» и, первоначально, «Dynamic Drive») является периферийным устройством для игровой приставки Nintendo 64. Оно подключается через дополнительный порт с нижней стороны Nintendo 64 и позволяло использовать на N64 магнитные диски размером 64 мегабайта для расширенного хранения данных. Хотя о запуске этого устройства впервые было заявлено до запуска N64, работы над 64DD сильно затянулись. Устройство было выпущено в Японии, когда популярность консоли пошла на спад, и в конце признано коммерчески неудачным; оно никогда не запускалось в продажу в США или в Европе.</text>			
+			<text lang="zh">64DD是任天堂为任天堂64游戏机开发的磁性软盘驱动器外设。它于 1995 年宣布，在任天堂 64 于 1996 年推出之前，经过多次延迟后于 1999 年 12 月 13 日在日本发布。“64”指的是任天堂 64 控制台和磁盘的 64MB 存储容量，而“DD” " 是“磁盘驱动器”或“动态驱动器”的缩写。</text>
+			<text lang="ja">ニンテンドウ64DDは、ビデオゲームコンソールのNintendo 64のアクセサリーでした。1999年に日本で発売されました。高容量の磁気ディスクでゲームをプレイでき、コンテンツの作成や編集をするためのライティングユニットを備えていました。初期のNintendoによるプロモーションにもかかわらず、64DDは商業的にはあまり成功しませんでした。</text>
+		</text>
+		
+		
+		<text name="system_name" extra="true" >
+			<text>Nintendo 64 DD</text>
+		</text>
+	</view>
+</theme>

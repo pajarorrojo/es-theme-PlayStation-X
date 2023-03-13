@@ -9,46 +9,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true" >
 			<text>A list of all compatible games for two players, of any system.</text>
+			<text lang="es,ca,eu">Una lista con todos los juegos compatibles para dos jugadores, de cualquier sistema.</text>
+			<text lang="fr">Une liste de tous les jeux compatibles pour deux joueurs, de n'importe quel système.</text>
+			<text lang="pt">Uma lista de todos os jogos compatíveis para dois jogadores, de qualquer sistema.</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Una lista con todos los juegos compatibles para dos jugadores, de cualquier sistema.
-</text>
+		<text name="system_name" extra="true" >
+			<text lang="es">2 Jugadores</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Une liste de tous les jeux compatibles pour deux joueurs, de n'importe quel système.
-</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="pt" >
-			<text>Uma lista de todos os jogos compatíveis para dois jogadores, de qualquer sistema.
-</text>
-		</text>
-		
-		
-
-		
-
-
-
-		
-
-		<text name="system_name" extra="true">
-			<text>2 players</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="es">
-			<text>2 Jugadores</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="fr">
-			<text>2 Joueurs</text>
-		</text>
-
-
-				<text name="system_name" extra="true" lang="pt">
-			<text>2 Jogadores</text>
-		</text>
 	</view>
 </theme>

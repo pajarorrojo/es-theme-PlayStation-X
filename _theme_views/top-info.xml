@@ -25,25 +25,27 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <backgroundColor>ff000000</backgroundColor>
+         <storyboard>
+            <sound path="./../_theme_inc/sound-effects/scroll.wav" at="1000" />
+         </storyboard>
       </text>
 
       <controllerActivity name="controllerActivity">
          <color>FFFFFF90</color>
          <activityColor>F3C30069</activityColor>
          <hotkeyColor>FF000069</hotkeyColor>
-         <pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.957 0.015</pos>
+         <pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.957 0.005</pos>
          <size ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.033</size>
-         <pos ifSubset="iconset:snes">0.962 0.015</pos>
+         <pos ifSubset="iconset:snes">0.962 0.005</pos>
          <size ifSubset="iconset:snes">0.034</size>
-         <pos ifSubset="iconset:arcade">0.968 0.015</pos>
+         <pos ifSubset="iconset:arcade">0.968 0.005</pos>
          <size ifSubset="iconset:arcade">0.028</size>
-
+         <gunPath>./_theme_inc/images/lightgun.png</gunPath>
          <itemSpacing ifSubset="iconset:snes">0.013</itemSpacing>
          <itemSpacing ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|">0.005</itemSpacing>
-
          <horizontalAlignment>right</horizontalAlignment>
-
       </controllerActivity>
+
 
       <controllerActivity name="controllerActivity" tinyScreen="true">
          <visible>false</visible>
@@ -80,6 +82,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="linea-superior" extra="static">
          <path>./_theme_inc/images/pixel-blanco.png</path>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+      <image name="linea-superior" ifSubset="aspect-ratio:16-9|4-3|5-3|3-2|5-4" extra="static">
          <pos>0.07 0.107</pos>
          <pos ifSubset="frontend:retrobat">0.045 0.107</pos>
          <pos ifSubset="frontend:batocera-plus">0.045 0.107</pos>
@@ -89,18 +99,26 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="frontend:retrobat">0.785 0.0011</size>
          <size ifSubset="frontend:batocera-plus">0.785 0.0011</size>
          <size ifSubset="frontend:no-frontend">0.81 0.0011</size>
-         <color>ffffff</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
+      </image>
+
+      <image name="linea-superior" ifSubset="aspect-ratio:16-10" extra="static">
+         <pos>0.078 0.107</pos>
+         <pos ifSubset="frontend:retrobat">0.048 0.107</pos>
+         <pos ifSubset="frontend:batocera-plus">0.046 0.107</pos>
+         <pos ifSubset="frontend:emuelec">0.078 0.105</pos>
+         <pos ifSubset="frontend:no-frontend">0.03 0.107</pos>
+         <size>0.755 0.0011</size>
+         <size ifSubset="frontend:retrobat">0.785 0.0011</size>
+         <size ifSubset="frontend:batocera-plus">0.785 0.0011</size>
+         <size ifSubset="frontend:no-frontend">0.81 0.0011</size>
       </image>
 
       <image name="logo-front, plus-picto" extra="static" tinyScreen="true">
          <visible>false</visible>
       </image>
 
-      <image name="logo-front, plus-picto, linea-superior" extra="static" ifSubset="aspect-ratio:4-3|5-4">
+      <image name="logo-front, plus-picto, linea-superior" extra="static"
+         ifSubset="aspect-ratio:4-3|5-4">
          <visible>false</visible>
       </image>
 
@@ -119,7 +137,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:|5-4">0.065 0.045</pos>
          <pos ifSubset="aspect-ratio:|4-3">0.065 0.045</pos>
          <pos tinyScreen="true">0.065 0.045</pos>
-         <size>0.398 0.055</size>
+         <size>0.39 0.055</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.46 0.055</size>
          <size tinyScreen="true">0.48 0.055</size>
          <color>FFFFFF</color>
@@ -144,21 +162,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <animation property="opacity" from="0" to="1" begin="14100" duration="350" mode="easeOut" />
          </storyboard>
       </text>
-      <!--
-      <text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer'">
-         <text>${theme.items} {binding:total}</text>
-         <storyboard repeat="0"></storyboard>
-      </text>
-      <text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
-         <text>${theme.collections} {binding:subSystems}</text>
-         <storyboard repeat="0"></storyboard>
-      </text>
 
-      <text name="systemInfoEx" extra="true" if="{system.name} == 'odcommander'">
-         <text>${system.fullName}</text>
-         <storyboard repeat="0"></storyboard>
-      </text>
-   -->
       <text name="systemInfoEx2" extra="true">
          <text>${theme.mostplayed} {binding:mostPlayed} </text>
          <storyboard repeat="2">
@@ -170,24 +174,52 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </storyboard>
       </text>
       <!--
-      <text name="systemInfoEx2" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'collections' || {system.name} == 'odcommander'">
+      <text name="systemInfoEx" extra="true" if="{system.name} == 'library' ||
+      {system.name} == 'screenshots' || {system.name} == 'imageviewer'">
+         <text>${theme.items}
+      {binding:total}</text>
          <storyboard repeat="0"></storyboard>
+      </text>
+      <text
+      name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
+      <text>${theme.collections} {binding:subSystems}</text>
+         <storyboard
+      repeat="0"></storyboard>
+      </text>
+
+      <text name="systemInfoEx" extra="true"
+      if="{system.name} == 'odcommander'">
+         <text>${system.fullName}</text>
+         <storyboard
+      repeat="0"></storyboard>
+      </text>
+   -->
+
+      <!--
+      <text name="systemInfoEx2" extra="true" if="{system.name} == 'library' ||
+      {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} ==
+      'collections' || {system.name} == 'odcommander'">
+         <storyboard
+      repeat="0"></storyboard>
          <opacity>0</opacity>
          <visible>false</visible>
       </text>
 
-      <text name="systemInfoEx2" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'collections' || {system.name} == 'odcommander'">
-         <storyboard repeat="0"></storyboard>
+      <text name="systemInfoEx2" extra="true" if="{system.name} == 'library' ||
+      {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} ==
+      'collections' || {system.name} == 'odcommander'">
+         <storyboard
+      repeat="0"></storyboard>
          <opacity>0</opacity>
          <visible>false</visible>
       </text>
    -->
 
-      <image name="trophy-picto" extra="static">
+      <image name="trophy-picto" extra="static" onclick="cheevos">
          <path>./_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
-         <pos ifSubset="aspect-ratio:5-4">0.81 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.83 0.045</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.82 0.045</pos>
          <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
          <maxSize>0.044</maxSize>
          <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
@@ -197,59 +229,55 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
       </image>
-      
-     <!-- bug in bato 35 dont work properly. fixed in bato 36
+
       <image name="trophy-picto" extra="static" if="{system.cheevos} == true">
-         <color>F3C300d1</color>
+         <color>e8c820cc</color>
       </image>
 
-   -->
 
-   <!-- el filtro no funciona en la lista de juegos si en la vista de sistemas, desactivar hasta que funcione en la lista de juegos
-   <image name="trophy-picto" extra="static" if="{global.cheevos} == false">
-      <color>999999</color>
-   </image>
--->
-
+      <image name="trophy-picto" extra="static" if="{global.cheevos} == false">
+         <color>bbbbbb</color>
+      </image>
+      <!-- compatibilidad pre 34 -->
       <image name="trophy-picto" extra="static" if="{screen.ratio} == '0/0'">
-         <color ifCheevos="true">F3C300d1</color>
+         <color ifCheevos="true">e8c820cc</color>
          <color ifCheevos="false">ffffff</color>
       </image>
-
-       
 
    </view>
 
 
    <view name="detailed, basic, grid">
 
-      <image name="md_cheevos,md_notcheevos,trophy-picto">
+      <image name="md_cheevos,md_notcheevos,trophy-picto" onclick="cheevos">
          <path>./_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.82 0.045</pos>
-         <pos ifSubset="aspect-ratio:5-4">0.81 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.83 0.045</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.82 0.045</pos>
          <pos ifSubset="aspect-ratio:3-2">0.845 0.045</pos>
          <maxSize>0.044</maxSize>
          <maxSize ifSubset="aspect-ratio:4-3|3-2">0.034</maxSize>
          <verticalAlignment>top</verticalAlignment>
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
-         </image>
-<!-- el filtro no funciona en la lista de juegos si en la vista de sistemas
-         <image name="trophy-picto" extra="static" if="{global.cheevos} == false">
-            <color>999999</color>
-         </image>
-      -->
-      <image name="trophy-picto" extra="static">
+      </image>
+
+      <image name="trophy-picto" extra="static" >
          <color>ffffff</color>
          <zIndex>98</zIndex>
       </image>
 
+      <image name="trophy-picto" extra="static" if="{global.cheevos} == false">
+         <color>bbbbbb</color>
+      </image>
 
       <image name="md_cheevos,md_notcheevos" ifCheevos="true">
-         <color>F3C300d1</color>
+         <color>e8c820cc</color>
          <zIndex>99</zIndex>
          <origin>0 0</origin>
+         <storyboard >
+				<animation property="opacity" from="0" to="1" duration="350" mode="easeInOut" autoreverse="true" repeat="forever" />
+			</storyboard>
       </image>
 
       <image name="md_notcheevos">
@@ -261,11 +289,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <origin>0 0</origin>
          <alignment>center</alignment>
          <verticalAlignment>bottom</verticalAlignment>
-         <maxSize>0.095 0.1</maxSize>
+         <maxSize>0.09 0.09</maxSize>
          <maxSize ifSubset="aspect-ratio:3-2">0.085 0.1</maxSize>
          <path>./_theme_inc/images/caratulas/default.png</path>
+         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
+
          <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
+         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/${system.theme}-b.png</path>
 
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
@@ -285,44 +316,52 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
       </image>
+
       <image name="consoles" extra="true" region="jp">
          <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
-
       </image>
 
       <text name="md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime">
-         <size>0.15 0.034</size>
+         <size>0.16 0.034</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.195 0.034</size>
          <zIndex>99</zIndex>
          <alignment>center</alignment>
          <backgroundColor>ff000000</backgroundColor>
          <fontSize>0.023</fontSize>
          <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <singleLineScroll>true</singleLineScroll>
       </text>
       <!--
-      <text name="md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
+      <text name="md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime"
+      if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} ==
+      'imageviewer' || {system.name} == 'odcommander'">
          <visible >false</visible>
       </text>
-
-
-      <text name="extra-sistemas" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
-         <pos>0.162 0.045</pos>
+      <text name="extra-sistemas" extra="true" if="{system.name} == 'library' || {system.name} ==
+      'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
+         <pos>0.162
+      0.045</pos>
          <pos ifSubset="aspect-ratio:4-3">0.065 0.045</pos>
-         <pos tinyScreen="true">0.065 0.045</pos>
+         <pos
+      tinyScreen="true">0.065 0.045</pos>
          <text>${system.fullName}</text>
-         <size>0.28 0.05</size>
+         <size>0.28
+      0.05</size>
          <alignment>left</alignment>
          <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <zIndex>99</zIndex>
+      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath
+      ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+      <zIndex>99</zIndex>
          <glowColor>00000035</glowColor>
-         <glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-         <glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+         <glowSize
+      ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+         <glowOffset
+      ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
          <fontSize>0.03</fontSize>
-         <backgroundColor>ff000000</backgroundColor>
+      <backgroundColor>ff000000</backgroundColor>
 
       </text>
    -->
@@ -332,35 +371,35 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <text name="md_playcount,md_gametime">
-         <color>${developerColor}</color>
+         <color>${psx-theme-yellow}</color>
          <storyboard>
             <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
          </storyboard>
       </text>
 
       <text name="md_lbl_playcount">
-         <pos>0.147 0.04</pos>
+         <pos>0.155 0.04</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.07 0.04</pos>
          <pos ifSubset="aspect-ratio:3-2|16-10">0.16 0.04</pos>
          <pos tinyScreen="true">0.07 0.04</pos>
       </text>
 
       <text name="md_playcount">
-         <pos>0.147 0.0703</pos>
+         <pos>0.155 0.0703</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.07 0.0703</pos>
          <pos ifSubset="aspect-ratio:3-2|16-10">0.16 0.0703</pos>
          <pos tinyScreen="true">0.07 0.08</pos>
       </text>
 
       <text name="md_lbl_gametime">
-         <pos>0.298 0.04</pos>
+         <pos>0.317 0.04</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.265 0.04</pos>
          <pos ifSubset="aspect-ratio:3-2|16-10">0.305 0.04</pos>
          <pos tinyScreen="true">0.265 0.04</pos>
       </text>
 
       <text name="md_gametime">
-         <pos>0.298 0.0703</pos>
+         <pos>0.317 0.0703</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.265 0.0703</pos>
          <pos ifSubset="aspect-ratio:3-2|16-10">0.305 0.0703</pos>
          <pos tinyScreen="true">0.265 0.08</pos>
@@ -368,26 +407,30 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <!--
       <text name="md_lbl_lastplayed">
          <pos>0.39 0.035</pos>
-         <size>0.165 0.034</size>
+         <size>0.165
+      0.034</size>
          <alignment>center</alignment>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath>./../_theme_inc/fonts/SST
+      Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <color>${genreColor}</color>
-         <visible>false</visible>
+      <visible>false</visible>
          <zIndex>51</zIndex>
-         <backgroundColor>0000004d</backgroundColor>
+      <backgroundColor>0000004d</backgroundColor>
       </text>
 
-      <datetime name="md_lastplayed">
+      <datetime
+      name="md_lastplayed">
          <pos>0.39 0.07</pos>
          <size>0.16 0.034</size>
-         <alignment>center</alignment>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+      <alignment>center</alignment>
+         <fontPath>./../_theme_inc/fonts/SST
+      Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <color>${releaseColor}</color>
-         <zIndex>51</zIndex>
+      <zIndex>51</zIndex>
          <visible>false</visible>
-         <backgroundColor>0000004d</backgroundColor>
+      <backgroundColor>0000004d</backgroundColor>
       </datetime>
    -->
 
@@ -415,24 +458,26 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="puntoazul-1" extra="static">
          <path>./_theme_inc/images/punto-azul.png</path>
-         <pos>0.555 0.024</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.535 0.024</pos>
+         <pos>0.551 0.024</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.532 0.024</pos>
          <maxSize>0.016</maxSize>
          <color>ffffff</color>
          <verticalAlignment>top</verticalAlignment>
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
+         <saturation if="{global.netplay} == false">0</saturation>
+         <saturation if="{global.netplay} == true">1</saturation>
       </image>
 
       <text name="friends" extra="static">
-         <text>35</text>
-         <pos>0.567 0.012</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.012</pos>
-         <size>0.024 0.035</size>
+         <text>v.36</text>
+         <pos>0.563 0.012</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
+         <size>0.064 0.035</size>
          <color>ffffff</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.024</fontSize>
+         <fontSize>0.023</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.02</fontSize>
          <alignment>left</alignment>
          <glowColor>00000035</glowColor>
@@ -442,35 +487,43 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
-      <image name="users-picto" extra="static">
+      <image name="users-picto" extra="static" onclick="netplay">
          <path>./_theme_inc/images/users-picto.svg</path>
          <pos>0.554 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
          <maxSize>0.05</maxSize>
-         <color>ffffff</color>
+         <color if="{system.netplay} == true">e8c820cc</color>
+         <color if="{system.netplay} == false">ffffff</color>
          <verticalAlignment>top</verticalAlignment>
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
       </image>
 
+      <image name="users-picto" extra="static" if="{global.netplay} == false">
+         <color>bbbbbb</color>
+      </image>
+
+
       <image name="puntoazul-2" extra="static">
          <path>./_theme_inc/images/punto-azul.png</path>
          <pos>0.604 0.061</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.588 0.061</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.596 0.061</pos>
          <maxSize>0.016</maxSize>
          <color>ffffff</color>
          <verticalAlignment>top</verticalAlignment>
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
+         <saturation if="{global.netplay} == false">0</saturation>
+         <saturation if="{global.netplay} == true">1</saturation>
       </image>
 
       <image name="avatar" extra="static">
          <path>./_theme_options/avatars/${image.avatar}</path>
          <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
          <pos>0.618 0.035</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.605 0.035</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.613 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
@@ -479,11 +532,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <text name="username" extra="true">
          <text>${theme.nick}</text>
          <text ifSubset="system-username:custom">${custom.nick}</text>
-
          <pos>0.660 0.05</pos>
          <pos ifSubset="aspect-ratio:3-2">0.665 0.05</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.670 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.665 0.045</pos>
 
-         <size>0.165 0.035</size>
+         <size>0.165 0.04</size>
          <color>ffffff</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.028</fontSize>
@@ -512,9 +566,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="trophy-level" extra="static">
-         <text>2022</text>
+         <text>2023</text>
          <pos>0.875 0.05</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.855 0.05</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.865 0.05</pos>
          <pos ifSubset="aspect-ratio:16-10|5-3">0.88 0.05</pos>
          <size>0.048 0.035</size>
          <color>ffffff</color>

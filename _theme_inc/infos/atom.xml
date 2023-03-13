@@ -8,10 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The Acorn Atom is a home computer made by Acorn Computers Ltd from 1980 to 1982, when it was replaced by the BBC Micro. The Micro began life as an upgrade to the Atom, originally known as the Proton.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>El Acorn Atom era un ordenador doméstico vendido por Acorn Computers desde 1981 a 1983, cuando fue sustituido por el BBC Micro, (originalmente Proton), y después por el Acorn Electron (una versión barata del BBC Micro).</text>
+			<text lang="es,ca,eu">El Acorn Atom era un ordenador doméstico vendido por Acorn Computers desde 1981 a 1983, cuando fue sustituido por el BBC Micro, (originalmente Proton), y después por el Acorn Electron (una versión barata del BBC Micro).</text>
 		</text>
 
 

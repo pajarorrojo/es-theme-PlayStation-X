@@ -9,23 +9,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Auto gamelist.
 
 Keep out of the reach of children... Wink, wink; nudge, nudge.</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 Mantener fuera del alcance de los niños... Guiño, guiño; codazo, codazo.</text>
-	</text>
+		</text>
 		
 				
 
 		<text name="system_name" extra="true">
-			<text>Adult</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Adultos</text>
+			<text lang="es">Adultos</text>
+			<text lang="ca">Adults</text>
+			<text lang="eu">Helduak</text>
 		</text>
 	</view>
 </theme>

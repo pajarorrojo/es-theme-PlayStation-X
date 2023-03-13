@@ -4,66 +4,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="basic, detailed">
+   <view name="basic">
 
-      <image name="logo">
-         <pos>0.06 0.4</pos>
-         <linearSmooth>true</linearSmooth>
-         <alignment>center</alignment>
-         <verticalAlignment>bottom</verticalAlignment>
-         <maxSize>0.35</maxSize>
-         <origin>0 0</origin>
-         <!--  png -->
-         <path>./_theme_inc/images/logos/${system.theme}.png</path>
-         <!--  svg -->
-         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
-         <!--  svg white -->
-         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
-         <!-- check if lang resources exist -->
-         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-         <zIndex>41</zIndex>
-         <opacity>0.1</opacity>
-      </image>
-
-
-      <image name="logo" extra="true" region="eu" />
-      <image name="logo" extra="true" region="us">
-         <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
-         <!--  svg -->
-         <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
-         <!--  svg white -->
-         <path>./_theme_inc/images/logos/us/${system.theme}-w.svg</path>
-      </image>
-      <image name="logo" extra="true" region="jp">
-         <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
-         <!--  svg -->
-         <path>./_theme_inc/images/logos/jp/${system.theme}.svg</path>
-         <!--  svg white -->
-         <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
-      </image>
-
-
-      <text name="logoText" extra="true">
-         <alignment>right</alignment>
-         <lineSpacing>1</lineSpacing>
-         <verticalAlignment>center</verticalAlignment>
-         <size>0.45 0.1</size>
-         <pos>-0.01 0.452</pos>
-         <color>${gamelistSelectedColor}26</color>
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <fontSize>0.070</fontSize>
-         <zIndex>41</zIndex>
-         <backgroundColor>ff000000</backgroundColor>
-      </text>
 
 
       <textlist name="gamelist">
-         <pos ifSubset="anim-list:NO">0 0.134</pos>
-         <pos ifSubset="anim-list:YES">-0.5 0.134</pos>
+         <pos >0 0.134</pos>
          <size>0.46 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
+         <extraTextColor>606060</extraTextColor>
+         <extraTextSelectedColor>A0A0A0</extraTextSelectedColor>
          <selectorImagePath>./../_theme_inc/images/selector-lineas-blancas-transp50.png</selectorImagePath>
          <horizontalMargin>0.015</horizontalMargin>
          <primaryColor>ffffff</primaryColor>
@@ -82,8 +33,51 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <scrollbarCorner>0.005</scrollbarCorner>
          <scrollbarSize>0.0075</scrollbarSize>
          <zIndex>42</zIndex>
+
       </textlist>
 
+      </view>
+
+      <view name="detailed">
+
+      <textlist name="gamelist">
+         <pos ifSubset="anim-list:YES">-0.5 0.134</pos>
+         <pos ifSubset="anim-list:NO">0 0.134</pos>
+         <size>0.46 0.81</size>
+         <selectorColor>${gamelistSelectorColor}</selectorColor>
+         <selectedColor>${gamelistSelectedColor}</selectedColor>
+         <extraTextColor>606060</extraTextColor>
+         <extraTextSelectedColor>A0A0A0</extraTextSelectedColor>
+         <selectorImagePath>./../_theme_inc/images/selector-lineas-blancas-transp50.png</selectorImagePath>
+         <horizontalMargin>0.015</horizontalMargin>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|5-4">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <glowColor>00000035</glowColor>
+         <glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+         <glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+         <fontSize>0.035</fontSize>
+         <alignment>left</alignment>
+         <lineSpacing>1.45</lineSpacing>
+         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
+         <scrollbarAlignment>outerright</scrollbarAlignment>
+         <scrollbarColor>${genreColor}20</scrollbarColor>
+         <scrollbarCorner>0.005</scrollbarCorner>
+         <scrollbarSize>0.0075</scrollbarSize>
+         <zIndex>42</zIndex>
+
+      </textlist>
+
+      </view>
+
+      <view name="basic, detailed">
+
+
+
+         
+
+      
       <!--
    <gamecarousel name="gamecarousel">
       <type>vertical_wheel</type>
@@ -133,19 +127,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <image name="background" extra="static">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
          <zIndex>41</zIndex>
-         <linearSmooth>true</linearSmooth>
       </image>
 
       <image name="background-art" extra="true">
-         <origin>0 0</origin>
-         <size>1 1</size>
          <path>./_theme_inc/images/background/${system.theme}.jpg</path>
          <zIndex>40</zIndex>
-         <linearSmooth>true</linearSmooth>
       </image>
 
       <image name="background-art" extra="true" region="eu" />
@@ -156,28 +143,35 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
       </image>
 
-      <rating name="md_rating">
-         <pos>0.825 0.705</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.834 0.705</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.825 0.655</pos>
-         <size>0.04 0.04</size>
-         <size ifSubset="aspect-ratio:16-9|16-10">0.05 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.04 0.04</size>
-         <unfilledColor>${starUnfill}</unfilledColor>
-         <color>${starFill}</color>
-         <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
-         <zIndex>51</zIndex>
-         <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
-      </rating>
+      <image name="background, background-art" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <linearSmooth>true</linearSmooth>
+         <tile>false</tile>
+      </image>
+
+      <image name="background-art" extra="true">
+
+         <minSize>1.001 1.001</minSize>
+
+      </image>
+
+      <image name="background" extra="true">
+
+         <size>1 1</size>
+      </image>
+
+
 
 
       <datetime name="md_releasedate">
          <pos>0.55 0.696</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.646</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.556</pos>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.032 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|5-4|3-2">0.036 0.05</size>
+         <size ifSubset="aspect-ratio:3-2">0.036 0.05</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.04 0.05</size>
          <size ifSubset="3-2" tinyScreen="true">0.044 0.05</size>
          <color>${releaseColor}</color>
          <format>%Y</format>
@@ -185,28 +179,28 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.021</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.02</fontSize>
          <zIndex>51</zIndex>
-         <backgroundColor>ff000000</backgroundColor>
+         <backgroundColor>ff00000000</backgroundColor>
          <singleLineScroll>true</singleLineScroll>
       </datetime>
 
 
       <text name="md_developer">
          <size>0.250 0.037</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.240 0.037</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.230 0.037</size>
          <pos>0.585 0.702</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.59 0.652</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.592 0.562</pos>
          <pos ifSubset="aspect-ratio:3-2">0.595 0.699</pos>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <color>${developerColor}</color>
          <zIndex>51</zIndex>
-         <backgroundColor>00ff0000</backgroundColor>
+         <backgroundColor>0ff00000</backgroundColor>
          <singleLineScroll>true</singleLineScroll>
       </text>
 
       <text name="md_genre">
          <pos>0.55 0.73</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.680</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.590</pos>
          <size>0.27 0.034</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
@@ -216,16 +210,48 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <singleLineScroll>true</singleLineScroll>
       </text>
 
+      <rating name="md_rating">
+         <pos>0.825 0.705</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.834 0.705</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.827 0.57</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.815 0.57</pos>
+
+         <pos ifSubset="aspect-ratio:16-10">0.846 0.715</pos>
+         <size>0.04 0.04</size>
+         <size ifSubset="aspect-ratio:16-9">0.05 0.05</size>
+         <size ifSubset="aspect-ratio:4-3|5-4|16-10">0.04 0.04</size>
+         <unfilledColor>${starUnfill}</unfilledColor>
+         <color>${starFill}</color>
+         <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
+         <zIndex>51</zIndex>
+         <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
+      </rating>
+
+      <image name="linea-infos" extra="true">
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0.55 0.768</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.634</pos>
+         <size>0.420 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>555555</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>41</zIndex>
+      </image>
+
 
       <text name="md_description">
          <color>ffffff</color>
          <pos>0.55 0.780</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.730</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.65</pos>
          <size>0.430 0.126</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.430 0.185</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.430 0.246</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.028</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.026</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.026</fontSize> 
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="false">0.032</fontSize> 
+
          <lineSpacing>1.1</lineSpacing>
          <backgroundColor>0000FF00</backgroundColor>
          <forceUppercase tinyScreen="true">true</forceUppercase>
@@ -241,18 +267,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
-      </image>
-
-      <image name="linea-infos" extra="true">
-         <path>./_theme_inc/images/pixel-blanco.png</path>
-         <pos>0.55 0.768</pos>
-         <size>0.420 0.0011</size>
-         <size tinyScreen="true">1 0.005</size>
-         <color>555555</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>41</zIndex>
       </image>
 
 

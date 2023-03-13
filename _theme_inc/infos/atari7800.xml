@@ -6,25 +6,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console released by the Atari Corporation in 1986. It is almost fully backward-compatible with the Atari 2600, the first console to have backward compatibility.</text>
+		<text name="system_description" extra="true">
+			<text>The Atari 7800 is a video game console released in 1986 by Atari. It was designed to compete with the Nintendo Entertainment System and the Sega Master System. It features backwards compatibility with the Atari 2600, and offers improved graphics and sound compared to its predecessor.</text>        
+			<text lang="es">Atari 7800 es una consola de videojuegos lanzada en 1986 por Atari. Fue diseñada para competir con la Nintendo Entertainment System y la Sega Master System. Ofrece compatibilidad con la Atari 2600, y presenta mejoras en gráficos y sonido en comparación con su predecesora.</text>        
+			<text lang="ca">L'Atari 7800 és una consola de videojocs llançada el 1986 per Atari. Va ser dissenyada per competir amb el Nintendo Entertainment System i el Sega Master System. Ofereix compatibilitat amb l'Atari 2600, i presenta millores en gràfics i so en comparació amb la seva predecessora.</text>        
+			<text lang="eu">Atari 7800 konpainiaren bideojoko konsolea da, 1986an argitaratu zen. Nintendo Entertainment System eta Sega Master System kontra lehiatzeko diseinatua zen. Atari 2600arekin konpatibilitatea ofertatzen du, eta haren aurreko model baino hobetuak dira bere grafiko eta soinuak.</text>        
+			<text lang="fr">L'Atari 7800 est une console de jeux vidéo sortie en 1986 par Atari. Elle a été conçue pour rivaliser avec la Nintendo Entertainment System et la Sega Master System. Elle offre une compatibilité avec l'Atari 2600 et présente des améliorations graphiques et sonores par rapport à son prédécesseur.</text>        
+			<text lang="pt">O Atari 7800 é um console de videogame lançado em 1986 pela Atari. Foi projetado para competir com o Nintendo Entertainment System e o Sega Master System. Oferece compatibilidade com o Atari 2600 e apresenta melhorias gráficas e sonoras em comparação com seu antecessor.</text>        
+			<text lang="it">L'Atari 7800 è una console per videogiochi pubblicata nel 1986 dalla Atari. È stata progettata per competere con il Nintendo Entertainment System e il Sega Master System. Presenta compatibilità con la Atari 2600 e migliorie grafiche e sonore rispetto al suo predecessore.</text>        
+			<text lang="de">Die Atari 7800 ist eine Videospielkonsole, die 1986 von Atari veröffentlicht wurde. Sie wurde entwickelt, um mit dem Nintendo Entertainment System und dem Sega Master System zu konkurrieren. Sie ist abwärtskompatibel mit dem Atari 2600 und bietet im Vergleich zu ihrem Vorgänger verbesserte Grafiken und Sound.</text>        
+			<text lang="pl">Atari 7800 to konsola do gier wideo wydana w 1986 roku przez firmę Atari. Została zaprojektowana w celu konkurowania z Nintendo Entertainment System oraz Sega Master System. Oferuje kompatybilność z Atari 2600 oraz ulepszone grafiki i dźwięk w porównaniu do swojego poprzednika.</text>        
+			<text lang="ru">Atari 7800 - игровая консоль от Atari, выпущенная в 1986 году. Она была создана для замены Atari 5200 и конкурировала с Nintendo Entertainment System и Sega Master System. Она поддерживала игры от предыдущей консоли Atari 2600, а также новые игры, созданные специально для Atari 7800.</text>        
+			<text lang="zh">Atari 7800是Atari在1986年发布的游戏机。它被设计来取代Atari 5200，并与任天堂娱乐系统和世嘉主机竞争。它支持前代机型Atari 2600的游戏，以及专门为Atari 7800开发的新游戏。</text>        
+			<text lang="ja">Atari 7800は、Atariが1986年に発売したゲーム機です。Atari 5200の後継機として設計され、任天堂エンターテインメントシステムやセガ・マスターシステムと競合しました。Atari 2600からのゲームをサポートし、Atari 7800専用の新しいゲームも開発されました。</text>      
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La sucesora de la consola Atari 5200 o supersystem, en un intento de Atari de recuperar su supremacía en el mercado de la videoconsola frente a sus rivales locales Intellivision y Colecovision.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>L'Atari 7800 est une console de jeux vidéo 8-bit de troisième génération, conçue et commercialisée par le constructeur américain Atari. Elle est sortie début 1986 aux États-Unis.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame lançado pela Atari em junho de 1986. Foi desenvolvido para substituir o Atari 5200 e restabelecer a supremacia da Atari em relação a Intellivision e Colecovision.</text>
-		</text>
-
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Atari 7800</text>

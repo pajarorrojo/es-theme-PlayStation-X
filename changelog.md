@@ -1,16 +1,60 @@
-Version 36 beta (available zip in releases) (14/11/2022)
-https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/beta_release
+Version 36 (14/03/2023)
 
-- Fixed an issue with detailed game list visibility when gamelist.xml file does not exist
-- Fixed an issue with 16/10 aspect ratio and médium size carousel
-- Fixed top trophy icon activation when system supports retroachievements (batocera 36)
-- Enhancement of gamegrid animation
-- Changed default carousel logo
-- Some menu colors have been slightly changed in black mode
-- Added: Lightgun icon to controller activity image
-- Added: Bomberman and Geralt de Rivia (The Witcher 3) preset avatar
-- Added video to Nintendo WiiU system
-
+- Added: 9 New languages to the theme interface. Now the theme supports up to 14 languages!
+   -English (default)
+   -Spanish (es)
+   -French (fr)
+   -Portuguese (pt)
+   -Italian (it)
+   -Catalan (ca) -new-
+   -Basque (eu) -new-
+   -Deutch (de) -new-
+   -Japanese (ja) -new-
+   -Arabic (ar) -new-
+   -Hebrew (he) -new-
+   -Russian (ru) -new-
+   -Polish (pl) -new-
+   -Chinese (zh) -new-
+- Updated and/or translated descriptions for many systems in all languages supported
+- New: Introducing the new click actions for lightguns. Click(shoot) on:
+   -Trophy picto to open the retroachievements window
+   -Two faces picto to open the netplay window
+   -Diskette icon in gamelist to open the savestate manager
+   -Controller icon (players) to open the game options
+- New: Added a new view in the game list called "carousel", configurable with any type of image (thumbnail, image, marquee, cartridge, boxart, fanart) and customizable per system. Also now the classic grid view does not automatically change the layout to "fake carousel", when displaying media like thumnail or boxart
+- New: Added hotkey quick help guide buttons on welcome and game splash screens. Optional from theme config. (Note: game splash only compatible with Pc boards)
+- New subset of options for the background image in systems view, options are:
+   -Default
+   -Random fanart
+   -None
+- New: Black colorset carousel front logos for auto systems instead the default blue (favs, last played... etc)
+- New: Now the two blue top dots and two faces icon turns gray when netplay are disabled
+- New: Now the top trophy icon turns gray when retroachievements are disabled (batocera 36)
+- New: Now the two faces top icon turns yellow when netplay are compatible with the selected system
+- New: Compatible theme medias for a few custom collections. (note: is needed name your collections exactly like next list to enable):
+   -castlevania
+   -finalfantasy
+   -mario
+   -sonic
+   -streetfighter
+   -zelda
+- New: Custom collection "Games in progress" a collection designed to add the games that you are completing or want to complete in a future. Requires create a new custom collection and naming exactly "games in progress" to enable
+- Fixed: an issue with detailed game list visibility when gamelist.xml file does not exist
+- Fixed: an issue with 16/10 aspect ratio and médium size carousel
+- Fixed: a bug with 1360x768 screen resolution not detected as 16/9 aspect ratio
+- Fixed: top trophy icon dont turns yellow when system supports retroachievements (requires batocera 36)
+- Fixed: and minor adjustments in layout for different aspect ratios
+- Enhancement of gamegrid and system animation
+- Change: Major changes to the entire secondary color palette, colors have been adjusted and applied to various screen elements
+- Change: Set carousel view as default for tiny screen
+- Change: New color palette in carousel front logos for auto collections with a more fresh look
+- Change: New default carousel logo with a folder icon image (if the selected system has no logo)
+- Change: The system view layout with video window option enabled have been modified. Now fits to different carousel sizes
+- Change: Mario Bros. and Handsome Jack avatar images
+- Added: a default image in game loading screen when game has no image scraped (Pc boards)
+- Added: Lightgun icon to controller activity images
+- Added: Bomberman, Arale, Link (Zelda Ocarina) and Geralt de Rivia (The Witcher 3) preset avatars
+- Added: Medias data and / or infos for LowRes NX, MSU-MD, PlayStation Vita, Triforce, Sam Coupe, Flatpak, ikemen, wasm-4 and Nintendo WiiU systems
 
 
 -----------------------

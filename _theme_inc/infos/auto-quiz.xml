@@ -10,22 +10,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 This type of video game usually adopts the contest format for several players in turns. Tests, questions, riddles... Who will win?
 			</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Quiz games</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Juegos de preguntas</text>
+			<text lang="es">Juegos de preguntas</text>
+			<text lang="ca">Jocs de preguntes</text>
+			<text lang="eu">Galdera jokoak</text>
 		</text>
 	</view>
 </theme>

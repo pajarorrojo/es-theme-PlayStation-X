@@ -6,25 +6,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
-				<text>MUGEN is a game engine for 2D fighting games, created by Elecbyte in 1999 using the Allegro software library for display and inputs (keyboard, gamepad). The engine allows you to create characters, scenario and other game components through a compilation of text, graphics and sound files, it also supports MP3 files in order to put music in the background during the game. This engine is advanced and flexible enough to match some commercial 2D fighting fighting games. It is ahead of the equivalent game engines existing in free software.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>MUGEN es un motor de juego para juegos de lucha en 2D, creado por Elecbyte en 1999 utilizando la biblioteca de software Allegro. El motor permite crear personajes, escenarios y otros componentes del juego a través de una compilación de archivos de texto, gráficos y sonido.</text>
+		<text name="system_description" extra="true">
+			<text>MUGEN is a game engine for 2D fighting games, created by Elecbyte in 1999 using the Allegro software library for display and inputs (keyboard, gamepad). The engine allows you to create characters, scenario and other game components through a compilation of text, graphics and sound files, it also supports MP3 files in order to put music in the background during the game. This engine is advanced and flexible enough to match some commercial 2D fighting fighting games. It is ahead of the equivalent game engines existing in free software.</text>
+			<text lang="es,ca,eu">MUGEN es un motor de juego para juegos de lucha en 2D, creado por Elecbyte en 1999 utilizando la biblioteca de software Allegro. El motor permite crear personajes, escenarios y otros componentes del juego a través de una compilación de archivos de texto, gráficos y sonido.</text>
+			<text lang="fr">MUGEN est un moteur de jeu pour les jeux de combat 2D, créé par Elecbyte en 1999 en utilisant la bibliothèque logicielle Allegro pour l'affichage et les entrées (clavier, manette de jeu). Le moteur permet de créer des personnages, décors et autres composantes de jeu par le biais d'une compilation de fichiers texte, graphiques et sons, il supporte également les fichiers MP3 afin de mettre des musiques en fond sonore durant le jeu. Ce moteur est assez avancé et flexible pour égaler certains jeux de combat 2D commerciaux de combat. Il est en avance sur les moteurs de jeu équivalents existant dans le logiciel libre.</text>
+			<text lang="pt">MUGEN é um motor de jogo para jogos de luta 2D, criado pela Elecbyte em 1999 usando a biblioteca de software Allegro para exibição e entradas (teclado, gamepad). O motor permite-lhe criar personagens, cenários e outros componentes do jogo através da compilação de arquivos textos, gráficos e som, também suporta arquivos MP3 para colocar música de fundo durante o jogo. Este motor é suficientemente avançado e flexível para corresponder alguns jogos de luta de luta 2D comerciais. Está mais évoluido que bastante dos motores de jogo equivalentes existentes no software livre.</text>
 		</text>
 		
-				<text name="system_description" extra="true" lang="fr">
-				<text>MUGEN est un moteur de jeu pour les jeux de combat 2D, créé par Elecbyte en 1999 en utilisant la bibliothèque logicielle Allegro pour l'affichage et les entrées (clavier, manette de jeu). Le moteur permet de créer des personnages, décors et autres composantes de jeu par le biais d'une compilation de fichiers texte, graphiques et sons, il supporte également les fichiers MP3 afin de mettre des musiques en fond sonore durant le jeu. Ce moteur est assez avancé et flexible pour égaler certains jeux de combat 2D commerciaux de combat. Il est en avance sur les moteurs de jeu équivalents existant dans le logiciel libre.</text>
-		</text>
-
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>MUGEN é um motor de jogo para jogos de luta 2D, criado pela Elecbyte em 1999 usando a biblioteca de software Allegro para exibição e entradas (teclado, gamepad). O motor permite-lhe criar personagens, cenários e outros componentes do jogo através da compilação de arquivos textos, gráficos e som, também suporta arquivos MP3 para colocar música de fundo durante o jogo. Este motor é suficientemente avançado e flexível para corresponder alguns jogos de luta de luta 2D comerciais. Está mais évoluido que bastante dos motores de jogo equivalentes existentes no software livre.</text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>MUGEN</text>
 		</text>

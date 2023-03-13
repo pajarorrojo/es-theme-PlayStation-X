@@ -6,26 +6,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>Intellivision I was the first console created by Mattel in 1980. At the time of its launch, it cost $ 300. In all, 125 games were released for the console between the years of 1979 and 1989.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Intellivision I fue la primera consola creada por Mattel en 1980. En la época de su lanzamiento costaba unos 300 dólares. En total, se lanzaron 125 juegos para la consola entre los años 1979 y 1989.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Intellivision I était la première console créée par Mattel en 1980. Au moment de son lancement, elle coûtait 300 dollars. Au total, 125 jeux ont été lancés pour la console entre 1979 et 1989.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Intellivision I foi o primeiro console criado pela Mattel em 1980. Na época do seu lançamento, ele custava US$300. Ao todo, foram lançados 125 jogos para o console entre os anos de 1979 e 1989.</text>
-		</text>
-
-		
-		
-				
+		<text name="system_description" extra="true">
+			<text>Intellivision is a video game console released by Mattel in 1979 at a introductory price of $299 in the United States. It was one of the first second-generation consoles and competed with the Atari 2600. It featured a General Instrument CP1610 processor at 894 kHz, and had 16 KB of RAM. Over its lifespan, more than 125 titles were released and some of the most popular ones were Astrosmash, Night Stalker, and Major League Baseball.</text>        
+			<text lang="es">Intellivision es una consola de videojuegos lanzada por Mattel en 1979 a un precio de lanzamiento de 299 dólares en Estados Unidos. Fue una de las primeras consolas de segunda generación y compitió con la Atari 2600. Contaba con un procesador General Instrument CP1610 a 894 kHz, y tenía 16 KB de memoria RAM. A lo largo de su vida útil se lanzaron más de 125 títulos y algunos de los más populares fueron Astrosmash, Night Stalker, y Major League Baseball.</text>        
+			<text lang="ca">L'Intellivision és una consola de videojocs llançada per Mattel el 1979 a un preu de llançament de 299 dòlars als Estats Units. Va ser una de les primeres consoles de segona generació i va competir amb l'Atari 2600. Comptava amb un processador General Instrument CP1610 a 894 kHz i tenia 16 KB de memòria RAM. Al llarg de la seva vida útil es van llançar més de 125 títols i alguns dels més populars van ser Astrosmash, Night Stalker i Major League Baseball.</text>        
+			<text lang="eu">Intellivision Mattel-ek argitaratu zuen bideo-joko konsola bat da, 1979an, $299 dolarren prezioan, Ameriketako Estatu Batuetan. Bigarren belaunaldiaren lehenengo konsolenetako bat izan zen eta Atari 2600arekin lehiatu zuen. General Instrument CP1610 prozesadore bat hartzen zuen 894 kHz-en eta 16 KB RAM memoria zuen. Bere bizitza-ziklo osokoan, 125 baino joko gehiago argitaratu ziren eta hainbat popular izan ziren, hala nola Astrosmash, Night Stalker eta Major League Baseball.</text>        
+			<text lang="fr">L'Intellivision est une console de jeux vidéo lancée par Mattel en 1979 au prix de lancement de 299 dollars aux États-Unis. C'était l'une des premières consoles de deuxième génération et a concurrencé la Atari 2600. Elle disposait d'un processeur General Instrument CP1610 à 894 kHz et avait 16 Ko de mémoire vive. Au cours de sa durée de vie, plus de 125 titres ont été commercialisés et certains des plus populaires étaient Astrosmash, Night Stalker et Major League Baseball.</text>        
+			<text lang="pt">A Intellivision é uma consola de videojogos lançada pela Mattel em 1979 a um preço de lançamento de 299 dólares nos Estados Unidos. Foi uma das primeiras consolas da segunda geração e concorreu com a Atari 2600. Possuía um processador General Instrument CP1610 a 894 kHz e tinha 16 KB de memória RAM. Durante a sua vida útil foram lançados mais de 125 títulos e alguns dos mais populares foram Astrosmash, Night Stalker e Major League Baseball.</text>        
+			<text lang="it">Intellivision è una console per videogiochi lanciata da Mattel nel 1979 al prezzo di lancio di $299 dollari negli Stati Uniti. Fu una delle prime console di seconda generazione e competeva con la Atari 2600. Aveva un processore General Instrument CP1610 a 894 kHz e 16 KB di memoria RAM. Nel corso della sua vita sono stati rilasciati più di 125 titoli e alcuni dei più popolari sono Astrosmash, Night Stalker e Major League Baseball.</text>
+			<text lang="de">Intellivision ist eine von Mattel im Jahr 1979 veröffentlichte Videospielkonsole zu einem Einführungspreis von 299 US-Dollar in den USA. Es war eine der ersten Konsolen der zweiten Generation und konkurrierte mit der Atari 2600. Es hatte einen General Instrument CP1610-Prozessor mit 894 kHz und 16 KB RAM. Im Laufe seiner Lebensdauer wurden mehr als 125 Titel veröffentlicht, darunter Astrosmash, Night Stalker und Major League Baseball.</text>       
+			<text lang="pl">Intellivision to konsola do gier wideo wydana przez Mattel w 1979 roku w cenie 299 dolarów w Stanach Zjednoczonych. Była jedną z pierwszych konsol drugiej generacji i rywalizowała z Atari 2600. Miała procesor General Instrument CP1610 o częstotliwości 894 kHz i 16 KB pamięci RAM. W ciągu swojego istnienia wydano ponad 125 tytułów, a niektóre z najpopularniejszych to Astrosmash, Night Stalker i Major League Baseball.</text>
+			<text lang="ru">Intellivision - игровая консоль, выпущенная компанией Mattel в 1979 году по цене в $299 долларов в США. Она была одной из первых консолей второго поколения и конкурировала с Atari 2600. Она имела процессор General Instrument CP1610 с частотой 894 кГц и 16 КБ оперативной памяти. За время своей жизни было выпущено более 125 игр, среди наиболее популярных были Astrosmash, Night Stalker и Major League Baseball.</text>
+			<text lang="zh">Intellivision 是由Mattel于1979年推出的一款游戏机，美国售价为299美元。它是第二代游戏机之一，与Atari 2600竞争。它配备了一颗General Instrument CP1610处理器，频率为894 kHz，有16 KB的RAM。在它的使用寿命期内发布了125个以上的游戏，其中一些最受欢迎的游戏包括 Astrosmash，Night Stalker和Major League Baseball。</text>       
+			<text lang="ja">Mattelが1979年に発売したIntellivisionは、アメリカでの発売価格が299ドルで、第2世代の最初期のコンソールの1つであり、Atari 2600と競合しました。General Instrument CP1610プロセッサーを894 kHzで搭載し、16 KBのRAMを持っていました。その寿命の間に125以上のタイトルがリリースされ、最も人気のあるタイトルのいくつかはAstrosmash、Night Stalker、Major League Baseballでした。</text>        
+		</text>	
 
 		<text name="system_name" extra="true">
 			<text>Intellivision</text>

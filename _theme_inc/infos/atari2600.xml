@@ -6,24 +6,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console by Atari, Inc. Released on September 11, 1977, it is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Atari 2600 es una videoconsola lanzada al mercado en 1977, convirtiéndose en el primer sistema de videojuegos en tener gran éxito, e hizo popular los cartuchos intercambiables.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Atari 2600, à l’origine appelée Atari VCS, est une console de jeux vidéo de deuxième génération produite par Atari entre 1977 et 1992. L’Atari 2600 est lancée en octobre 1977 au prix de 199 USD (de l’époque).</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Considerado um símbolo cultural dos anos 80, foi um fenômeno de vendas no Brasil entre os anos de 1984 a 1986 e seus jogos permanecem na memória de muitos que viveram a juventude naquela época.</text>
-		</text>
-		
+		<text name="system_description" extra="true">
+			<text>The Atari 2600, also known as the Atari Video Computer System, is a home video game console released by Atari, Inc. in 1977. It is credited with popularizing the use of microprocessor-based hardware and cartridges containing game code, instead of having non-microprocessor dedicated hardware with all games built in. The 2600 was initially bundled with two joystick controllers, a conjoined pair of paddle controllers, and a cartridge game—initially Combat and later Pac-Man.</text>        
+			<text lang="es">El Atari 2600, también conocido como Atari Video Computer System, es una consola de videojuegos casera lanzada por Atari, Inc. en 1977. Se le atribuye la popularización del uso de hardware basado en microprocesadores y cartuchos que contienen el código del juego, en lugar de tener hardware dedicado sin microprocesador con todos los juegos integrados. 
 				
+El 2600 fue inicialmente vendido con dos controladores de joystick, un par de controladores de paletas y un juego de cartucho, inicialmente Combat y más tarde Pac-Man.</text>        
+			<text lang="ca">L'Atari 2600, també coneguda com a Atari Video Computer System, és una consola de videojocs casolana llançada per Atari, Inc. el 1977. Se li atribueix la popularització de l'ús de maquinari basat en microprocessadors i cartutxos que contenien el codi del joc, en lloc de tenir maquinari dedicat sense microprocessador amb tots els jocs integrats. El 2600 va ser inicialment venut amb dos controladors de joystick, un parell de controladors de pales i un joc de cartutx, inicialment Combat i més tard Pac-Man.</text>        
+			<text lang="eu">Atari 2600, Atari Video Computer System bezala ere ezaguna, Atari, Inc. 1977an argitaratutako etxebizitzako bideo-joko konsola bat da. Mikroprozesadoreen oinarriko hardwarea eta joko-kodea jasotzen dituzten karpetak erabilera popularizatzeko kreditua dauka, joko guztiekin integraziorik gabeko mikroprozesadore gabeko hardwarea bezala. 2600 lehenetsita bi joystick kontrolatzaileekin, bi paddle kontrolatzaileekin eta cartucho joko batekin, hasieran Combat eta geroago Pac-Man.</text>        
+			<text lang="fr">L'Atari 2600, également connue sous le nom d'Atari Video Computer System, est une console de jeux vidéo destinée à un usage domestique lancée par Atari, Inc. en 1977. Elle est créditée pour avoir popularisé l'utilisation de matériel à base de microprocesseurs et de cartouches contenant du code de jeu, au lieu d'avoir du matériel dédié sans microprocesseur avec tous les jeux intégrés. Le 2600 a été initialement livré avec deux contrôleurs de joystick, une paire de contrôleurs de palette conjoints et un jeu de cartouche - initialement Combat et plus tard Pac-Man.</text>        
+			<text lang="pt">O Atari 2600 é um console de videogame lançado em 1977 pela Atari, Inc. É considerado um dos primeiros consoles de videogame bem-sucedidos e ajudou a popularizar os jogos eletrônicos em todo o mundo. Com uma biblioteca de jogos de mais de 500 títulos, o Atari 2600 foi um dos consoles mais populares da sua época.</text>        
+			<text lang="it">L'Atari 2600 è una console per videogiochi lanciata nel 1977 da Atari, Inc. È considerata una delle prime console di videogiochi di successo e ha contribuito a diffondere i giochi elettronici in tutto il mondo. Con una libreria di giochi di oltre 500 titoli, l'Atari 2600 è stato una delle console più popolari del suo tempo.</text>        
+			<text lang="de">Das Atari 2600 ist eine Spielkonsole, die 1977 von Atari, Inc. herausgebracht wurde. Es gilt als eine der ersten erfolgreichen Spielkonsolen und trug zur Popularisierung von Videospielen weltweit bei. Mit einer Spielebibliothek von über 500 Titeln war das Atari 2600 eine der beliebtesten Konsolen seiner Zeit.</text>        
+			<text lang="pl">Atari 2600 to konsola do gier wideo wydana w 1977 roku przez firmę Atari, Inc. Jest uważana za jedną z pierwszych udanych konsol do gier wideo i przyczyniła się do upowszechnienia gier elektronicznych na całym świecie. Z biblioteką gier liczącą ponad 500 tytułów Atari 2600 była jedną z najpopularniejszych konsol swojego czasu.</text>        
+			<text lang="ru">Atari 2600 - игровая приставка, выпущенная в 1977 году компанией Atari, Inc. Она считается одной из первых успешных игровых приставок и способствовала распространению видеоигр по всему миру. С библиотекой игр из более чем 500 титулов Atari 2600 была одной из самых популярных приставок своего времени.</text>        
+			<text lang="zh">Atari 2600是Atari，Inc.在1977年推出的一款游戏机。它被认为是最早成功的游戏机之一，并在全球推广了电子游戏。 Atari 2600拥有超过500个游戏标题的游戏库，是其时最受欢迎的游戏机之一。</text>        
+			<text lang="ja">Atari 2600（アタリ に ろくまる ひゃくにじゅう）は、1977年にアメリカのアタリ社から発売された家庭用ゲーム機。アタリ社が初めて発売した家庭用ゲーム機であり、後に「Atari VCS」と改称された。最も成功した家庭用ゲーム機の一つであり、1980年代には、家庭用ゲーム市場を席巻しました。2600は、その独特のカートリッジ形式のゲームソフトウェアを使用し、その名前の由来となった2,600ビットのRAMを搭載しています。</text>      		
+		</text>
 
 		<text name="system_name" extra="true">
 			<text>Atari 2600</text>

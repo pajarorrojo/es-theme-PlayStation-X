@@ -6,38 +6,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
-
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
-			<text>All Games</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="es">
-			<text>Todos los Juegos</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="fr">
-			<text>Tous les Jeux</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="pt">
-			<text>Todos os Jogos</text>
+			<text lang="es">Todos los juegos</text>
 		</text>
 	</view>
 </theme>

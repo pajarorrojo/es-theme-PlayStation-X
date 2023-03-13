@@ -10,20 +10,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 Shoot 'em ups are a sub-genre of shooter video games, which are in turn a sub-genre of action video games. There is no consensus as to which design elements compose a shoot 'em up; some restrict the definition to games featuring spacecraft and certain types of character movement, while others allow a broader definition including characters on foot and a variety of perspectives. 
 			</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 				
-El término shoot 'em up define un género de videojuegos en los que el jugador controla un personaje u objeto solitario, generalmente una nave espacial, un avión o algún otro vehículo, que dispara contra hordas de enemigos que van apareciendo en pantalla. Es un subgénero de los videojuegos de disparos. </text>
+El término shoot 'em up define un género de videojuegos en los que el jugador controla un personaje u objeto solitario, generalmente una nave espacial, un avión o algún otro vehículo, que dispara contra hordas de enemigos que van apareciendo en pantalla. Es un subgénero de los videojuegos de disparos.
+			 </text>
 		</text>
 
-
-
-		<text name="system_name" extra="true">
-			<text>Shoot'em up</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
+		<text name="system_name" extra="true" lang="es,ca,eu">
 			<text>Shoot'em up</text>
 		</text>
 	</view>

@@ -8,23 +8,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="system_description" extra="true" >
 			<text>Auto gamelist.
 
-Board game is the classification given to games that consist of a board and pieces of different shapes and colors more or less elaborate, usually in this list you will find classic board games adapted to the screen and especially chess games.			</text>
+Board game is the classification given to games that consist of a board and pieces of different shapes and colors more or less elaborate, usually in this list you will find classic board games adapted to the screen and especially chess games.</text>
+			<text lang="es,ca,eu">Lista de juegos automática.
+
+Juego de mesa es la clasificación que se da a los juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.</text>
 		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-
-Juego de mesa es la clasificación que se da a los juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.
-		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Board games</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Juegos de mesa</text>
+			<text lang="es">Juegos de mesa</text>
+			<text lang="ca">Jocs de taula</text>
+			<text lang="eu">Mahai jokoak</text>
 		</text>
 	
 	</view>

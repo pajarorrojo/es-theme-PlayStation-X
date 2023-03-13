@@ -5,27 +5,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-	    
+		<text name="system_description" extra="true">
+			<text>Atlus Arcade was a division of Atlus, a Japanese video game developer and publisher. Atlus Arcade was responsible for developing arcade games that were primarily released in Japan during the 1980s and early 1990s. Some of their most notable titles include Puzzle Boy and Mahjong Campus Hunting.</text>
+			<text lang="es">Atlus Arcade fue una división de Atlus, una desarrolladora y distribuidora de videojuegos japonesa. Atlus Arcade se encargó de desarrollar juegos arcade que se lanzaron principalmente en Japón durante los años 80 y principios de los 90. Algunos de sus títulos más destacados incluyen Puzzle Boy y Mahjong Campus Hunting.</text>
+			<text lang="ca">Atlus Arcade va ser una divisió d'Atlus, una empresa japonesa de desenvolupament i publicació de videojocs. Atlus Arcade es va encarregar de desenvolupar jocs arcade que es van llançar principalment a Japó durant els anys 80 i principis dels 90. Alguns dels seus títols més destacats inclouen Puzzle Boy i Mahjong Campus Hunting.</text>
+			<text lang="eu">Atlus Arcade Atlus-en zatia zen, bideo-joko garatzaile eta argitaratzaile japoniarra. Atlus Arcade-k bikoiztutako joko arcadeak garatzea zegoen, batez ere Japonian jaurti zirenak 80. hamarkadan eta 90. hamarkada hasieran. Haien joko ezagunenetako batzuk Puzzle Boy eta Mahjong Campus Hunting dira.</text>
+			<text lang="fr">Atlus Arcade était une division d'Atlus, un développeur et éditeur de jeux vidéo japonais. Atlus Arcade était responsable du développement de jeux d'arcade principalement sortis au Japon dans les années 80 et au début des années 90. Certains de leurs titres les plus remarquables incluent Puzzle Boy et Mahjong Campus Hunting.</text>
+			<text lang="pt">Atlus Arcade era uma divisão da Atlus, uma desenvolvedora e publicadora de jogos eletrônicos japonesa. A Atlus Arcade era responsável pelo desenvolvimento de jogos de fliperama que foram principalmente lançados no Japão durante as décadas de 1980 e 1990. Alguns de seus títulos mais notáveis incluem Puzzle Boy e Mahjong Campus Hunting.</text>
+			<text lang="it">Atlus Arcade era una divisione di Atlus, una casa di sviluppo e di distribuzione giapponese di videogiochi. Atlus Arcade si occupava della creazione di giochi arcade principalmente usciti in Giappone negli anni '80 e all'inizio degli anni '90. Alcuni dei loro titoli più noti includono Puzzle Boy e Mahjong Campus Hunting.</text>
+			<text lang="pl">Atlus Arcade była dywizją Atlus, japońskiego dewelopera i wydawcy gier wideo. Atlus Arcade odpowiadała za rozwijanie gier arcade, które przede wszystkim były wydawane w Japonii w latach 80. i wczesnych 90. XX wieku. Niektóre z ich najbardziej znanych tytułów to Puzzle Boy i Mahjong Campus Hunting.</text>
+			<text lang="de">Atlus Arcade war eine Abteilung von Atlus, einem japanischen Videospielentwickler und -verlag. Atlus Arcade war für die Entwicklung von Arcade-Spielen verantwortlich, die hauptsächlich in den 1980er und frühen 1990er Jahren in Japan veröffentlicht wurden. Einige ihrer bekanntesten Titel sind Puzzle Boy und Mahjong Campus Hunting.</text>
+			<text lang="ru">Разработчик и издатель компьютерных игр Atlus был основан в Японии в 1986 году. Они стали известными благодаря выпуску различных игр, таких как серия Persona, Shin Megami Tensei и Catherine. Компания также работала в области издательства манги и аниме. Atlus Arcade, как подразделение Atlus, выпустила несколько игровых автоматов в Японии.</text>
+			<text lang="ja">アトラスは1986年に日本で設立されたコンピューターゲームの開発・販売会社です。Personaシリーズ、真・女神転生シリーズ、キャサリンなどの様々なゲームのリリースで知られています。同社はまた、マンガやアニメの出版でも活躍しています。アトラスの子会社であるアトラスアーケードは、日本でいくつかのアーケードゲームをリリースしています。</text>
+			<text lang="zh">Atlus是一家于1986年在日本成立的电脑游戏开发和发行公司。他们以发布各种游戏而闻名，例如Persona系列、真·女神转生系列和Catherine。该公司还在漫画和动画出版方面活跃。作为Atlus的一个子公司，Atlus Arcade在日本发布了几款街机游戏。</text>
+			<text lang="he">בעטלס היא חברת מחשבות מובילה בעולם המשחקים, שהוקמה ביפן בשנת 1986. היא מוכרת במיוחד עם סדרת משחקי Persona, סדרת Shin Megami Tensei וקתרין. החברה פעילה גם בפרסום מנגות וסרטי אנימציה. Atlus Arcade, בת-חברה של חברת Atlus, משיקה מספר משחקי ארקייד ביפן.</text>
+			<text lang="ar">أتلوس هي شركة رائدة في عالم ألعاب الكمبيوتر ، تأسست في اليابان في عام 1986. وهي معروفة بشكل خاص بسلسلة Persona وسلسلة Shin Megami Tensei و Catherine. تعمل الشركة أيضًا في نشر المانغا والأنمي. Atlus Arcade ، وهي فرع لشركة أتلوس ، تطلق عددًا من ألعاب الأركيد في اليابان.</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
 		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
-
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
-
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
-
 		<text name="system_name" extra="true">
 			<text>Atlus</text>
 		</text>

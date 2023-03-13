@@ -6,29 +6,48 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	
-		
-				<text name="system_description" extra="true">
-			<text>PSP is a handheld game console developed by Sony Computer Entertainment. Development of the handheld was announced during E3 2003 and it was unveiled on May 11, 2004, at a Sony press conference before E3 2004.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PSP es una videoconsola portátil de la multinacional de origen japonés, Sony Computer Entertainment, para videojuegos y multimedia. Se trata de la primera consola portátil a nivel mundial de Sony.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>PlayStation Portable (プレイステーション・ポータブル) est la première console de jeux vidéo portable de Sony, commercialisée entre 2004 et 2014. Elle marque un tournant dans l'histoire des consoles portables.</text>
-		</text>
+		<text name="system_description" extra="true">
+<text>The PlayStation Portable (PSP) is Sony's first portable console and was released in 2004. With a sleek and compact design, it features a high-resolution 4.3-inch LCD screen. Additionally, it includes a range of multimedia features. Users can listen to music or view photos and videos stored on the Memory Stick Duo that is inserted into the console.
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>Também conhecido pela sigla PSP, é um console portátil de videogames da família PlayStation desenvolvido pela Sony Computer Entertainment. Seu principal concorrente é o Nintendo DS, console portátil da Nintendo.</text>
-		</text>
+The PSP also has wireless connectivity through Wi-Fi, allowing users to play online with other players from around the world. Its extensive game library includes hits such as Crisis Core: Final Fantasy VII or God of War: Chains of Olympus.</text>      
+<text lang="es">La PlayStation Portable (PSP) es la primera consola portátil de Sony y fue lanzada en 2004. Con un diseño elegante y compacto, cuenta con una pantalla de cristal líquido de alta resolución de 4,3 pulgadas. Además, incluye una serie de características multimedia. Los usuarios pueden escuchar música o ver fotos y videos almacenados en la Memory Stick Duo que se inserta en la consola. 
 
-		
-				
+La PSP también dispone de conectividad inalámbrica a través de Wi-Fi, lo que permite a los usuarios jugar en línea con otros jugadores de todo el mundo, su amplia biblioteca de juegos incluye éxitos como Crisis Core: Final Fantasy VII o God of War: Chains of Olympus.</text>        
+<text lang="ca">La PlayStation Portable (PSP) és la primera consola portàtil de Sony i va ser llançada el 2004. Amb un disseny elegant i compacte, compta amb una pantalla de cristall líquid d'alta resolució de 4,3 polzades. A més, inclou una sèrie de característiques multimèdia. Els usuaris poden escoltar música o veure fotos i vídeos emmagatzemats a la Memory Stick Duo que s'insereix a la consola.
 
+La PSP també disposa de connectivitat sense fil a través de Wi-Fi, el que permet als usuaris jugar en línia amb altres jugadors de tot el món. La seva àmplia biblioteca de jocs inclou èxits com Crisis Core: Final Fantasy VII o God of War: Chains of Olympus.</text>
+<text lang="eu">PlayStation Portable (PSP) Sony-ren lehenengo joko-kontsola portablea da eta 2004an argitaratu zen. Diseinu polit eta konpaktua dauka, eta 4,3-igitako erresoluzioko likido krisalido pantaila du. Gainera, multzoka multimedial bat du. Erabiltzaileek musika entzun dezakete, edo Memory Stick Duo-an gordetako argazkiak eta bideoak ikusi, joko-kontsola batean txertatutako hori.
+
+PSP-k Wi-Fi bidezko konexio batekin ere baliabide du, horrek erabiltzaileei mundu osoko jokalarien artean online jolasteko aukera ematen die. Hainbat joko ikaragarri ditu PSP-k, hala nola Crisis Core: Final Fantasy VII edo God of War: Chains of Olympus.</text>	   
+<text lang="fr">La PlayStation Portable (PSP) est la première console portable de Sony, sortie en 2004. Avec un design élégant et compact, elle dispose d'un écran LCD haute résolution de 4,3 pouces. De plus, elle comprend une gamme de fonctionnalités multimédias. Les utilisateurs peuvent écouter de la musique ou regarder des photos et des vidéos stockées sur la Memory Stick Duo insérée dans la console.
+
+La PSP dispose également d'une connectivité sans fil via Wi-Fi, permettant aux utilisateurs de jouer en ligne avec d'autres joueurs du monde entier. Sa vaste bibliothèque de jeux comprend des succès tels que Crisis Core: Final Fantasy VII ou God of War: Chains of Olympus.</text>        
+<text lang="pt">O PlayStation Portable (PSP) é o primeiro console portátil da Sony e foi lançado em 2004. Com um design elegante e compacto, apresenta uma tela de LCD de alta resolução de 4,3 polegadas. Além disso, inclui uma série de recursos multimídia. Os usuários podem ouvir música ou ver fotos e vídeos armazenados no Memory Stick Duo que é inserido no console.
+
+O PSP também tem conectividade sem fio por meio de Wi-Fi, permitindo que os usuários joguem online com outros jogadores de todo o mundo. Sua extensa biblioteca de jogos inclui sucessos como Crisis Core: Final Fantasy VII ou God of War: Chains of Olympus.</text>        
+<text lang="it">La PlayStation Portable (PSP) è la prima console portatile di Sony ed è stata rilasciata nel 2004. Con un design elegante e compatto, dispone di un display LCD ad alta risoluzione da 4,3 pollici. Inoltre, include una serie di funzionalità multimediali. Gli utenti possono ascoltare musica o visualizzare foto e video memorizzati sulla Memory Stick Duo inserita nella console.
+
+La PSP dispone anche di connettività wireless tramite Wi-Fi, consentendo agli utenti di giocare online con altri giocatori provenienti da tutto il mondo. La sua vasta libreria di giochi include successi come Crisis Core: Final Fantasy VII o God of War: Chains of Olympus.</text>        
+<text lang="de">Die PlayStation Portable (PSP) ist Sonys erste tragbare Konsole und wurde 2004 veröffentlicht. Mit einem schlanken und kompakten Design verfügt sie über einen hochauflösenden 4,3-Zoll-LCD-Bildschirm. Außerdem bietet sie eine Reihe von Multimedia-Funktionen. Benutzer können Musik hören oder Fotos und Videos anzeigen, die auf dem Memory Stick Duo gespeichert sind, der in die Konsole eingesetzt wird.
+
+Die PSP verfügt auch über drahtlose Konnektivität über Wi-Fi, was es Benutzern ermöglicht, online mit anderen Spielern aus der ganzen Welt zu spielen. Ihre umfangreiche Spielebibliothek umfasst Hits wie Crisis Core: Final Fantasy VII oder God of War: Chains of Olympus.</text>        
+<text lang="pl">PlayStation Portable (PSP) to pierwsza przenośna konsola Sony, wydana w 2004 roku. O eleganckim i kompaktowym designie, z wyświetlaczem LCD o wysokiej rozdzielczości 4,3 cala. Dodatkowo, zawiera szereg funkcji multimedialnych. Użytkownicy mogą słuchać muzyki lub przeglądać zdjęcia i filmy przechowywane na karcie pamięci Memory Stick Duo, która jest wkładana do konsoli.
+
+PSP ma również łączność bezprzewodową za pośrednictwem Wi-Fi, umożliwiając użytkownikom grę online z innymi graczami z całego świata. Jego bogata biblioteka gier obejmuje hity takie jak Crisis Core: Final Fantasy VII lub God of War: Chains of Olympus.</text>        
+<text lang="ru">PlayStation Portable (PSP) - это первая портативная игровая консоль от Sony, которая была выпущена в 2004 году. С элегантным и компактным дизайном, она оснащена высококачественным ЖК-дисплеем с разрешением 4,3 дюйма. Кроме того, она включает ряд мультимедийных функций. Пользователи могут слушать музыку или просматривать фотографии и видео, сохраненные на карту памяти Memory Stick Duo, которая вставляется в консоль.
+
+PSP также имеет беспроводное подключение через Wi-Fi, что позволяет пользователям играть в онлайн-режиме с другими игроками со всего мира. Его обширная библиотека игр включает такие хиты, как Crisis Core: Final Fantasy VII или God of War: Chains of Olympus.</text>        
+<text lang="zh">PlayStation Portable（PSP）是索尼的第一台便携式游戏机，于2004年发布。具有时尚紧凑的设计，配备高分辨率的4.3英寸液晶屏。此外，它还包括一系列多媒体功能。用户可以收听存储在插入到控制台中的Memory Stick Duo上的音乐或查看照片和视频。
+
+PSP还通过Wi-Fi具有无线连接功能，使用户可以与世界各地的其他玩家在线游戏。它广泛的游戏库包括《最终幻想VII 危机核心》或《战神：奥林匹斯之链》等畅销游戏。</text>        
+<text lang="ja">プレイステーション・ポータブル（PSP）は、ソニーの最初の携帯型ゲーム機で、2004年に発売されました。スタイリッシュでコンパクトなデザインで、高解像度の4.3インチ液晶画面を搭載しています。さらに、多様なマルチメディア機能があります。ユーザーは、コンソールに挿入されたメモリースティック・デュオに保存された音楽や写真、ビデオを聴くことや見ることができます。
+
+PSPにはWi-Fiを介したワイヤレス接続もあり、世界中の他のプレイヤーとオンラインでプレイすることができます。Crisis Core: Final Fantasy VIIやGod of War: Chains of Olympusなどのヒット作を含む、幅広いゲームライブラリがあります。</text>        
+
+		</text>	
+	
 		<text name="system_name" extra="true">
 			<text>Sony PlayStation Portable</text>
 		</text>
 	</view>
 </theme>
-

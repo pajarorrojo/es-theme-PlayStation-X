@@ -5,27 +5,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-	
 
 		<text name="system_description" extra="true" >
 			<text>The Commodore VIC-20 (known as the VC-20 in Germany and the VIC-1001 in Japan) is an 8-bit home computer that was sold by Commodore Business Machines. The VIC-20 was announced in 1980, roughly three years after Commodore's first personal computer, the PET. The VIC-20 was the first computer of any description to sell one million units. It was described as "one of the first anti-spectatorial, non-esoteric computers by design...no longer relegated to hobbyist/enthusiasts or those with money, the computer Commodore developed was the computer of the future</text>
+			<text lang="es,ca,eu">El Commodore VIC-20 (Commodore VC20 en Alemania, VIC-1001 en Japón) fue un ordenador doméstico de 8 bits fabricado y diseñado por Commodore Business Machines con 5 KB de RAM y una CPU MOS 6502. Tenía una forma similar al Commodore 64 y el C16, que fueron comercializados posteriormente. El VIC-20 fue lanzado en junio de 1980, cerca de 3 años después del primer computador personal de Commodore, el PET.</text>
+			<text lang="fr">Le VIC-20 est un ordinateur personnel 8 bits qui était construit par Commodore International avec 5 ko de RAM (dont 3,5 ko pour les applications BASIC) et une unité centrale basée sur un processeur MOS 6502. Il ressemblait à ses successeurs le C64 et le C16. Le VIC-20 apparut en juin 1980, 2 ans et 9 mois après la sortie du premier ordinateur personnel de Commodore, le PET.</text>
+			<text lang="pt" >O VIC-20 (Alemanha: VC-20; Japão: VIC-1001) é um computador doméstico de 8 bits. Ele foi construído pela Commodore Business Machines, com 5 KB de RAM e uma UCP MOS Technology 6502. O design exterior da máquina foi posteriormente aproveitado no Commodore 64 e C16. O VIC-20 foi lançado no Japão em 1980 e nos Estados Unidos e Europa em 1981, cerca de três anos após o lançamento do primeiro computador pessoal da Commodore, o PET.</text>
 		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>El Commodore VIC-20 (Commodore VC20 en Alemania, VIC-1001 en Japón) fue un ordenador doméstico de 8 bits fabricado y diseñado por Commodore Business Machines con 5 KB de RAM y una CPU MOS 6502. Tenía una forma similar al Commodore 64 y el C16, que fueron comercializados posteriormente. El VIC-20 fue lanzado en junio de 1980, cerca de 3 años después del primer computador personal de Commodore, el PET.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Le VIC-20 est un ordinateur personnel 8 bits qui était construit par Commodore International avec 5 ko de RAM (dont 3,5 ko pour les applications BASIC) et une unité centrale basée sur un processeur MOS 6502. Il ressemblait à ses successeurs le C64 et le C16. Le VIC-20 apparut en juin 1980, 2 ans et 9 mois après la sortie du premier ordinateur personnel de Commodore, le PET.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O VIC-20 (Alemanha: VC-20; Japão: VIC-1001) é um computador doméstico de 8 bits. Ele foi construído pela Commodore Business Machines, com 5 KB de RAM e uma UCP MOS Technology 6502. O design exterior da máquina foi posteriormente aproveitado no Commodore 64 e C16. O VIC-20 foi lançado no Japão em 1980 e nos Estados Unidos e Europa em 1981, cerca de três anos após o lançamento do primeiro computador pessoal da Commodore, o PET.</text>
-		</text>
-
-		
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Commodore VIC-20</text>

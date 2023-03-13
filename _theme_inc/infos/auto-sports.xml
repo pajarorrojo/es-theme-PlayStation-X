@@ -10,22 +10,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 A sports video game is a video game that simulates the practice of sports. Most sports have been recreated with a game, including team sports, track and field, extreme sports, and combat sports.
 			</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 			
 Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Sports</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Deportivos</text>
+			<text lang="es">Deportivos</text>
+			<text lang="ca">Esportius</text>
+			<text lang="eu">Kirolak</text>
 		</text>
 	</view>
 </theme>

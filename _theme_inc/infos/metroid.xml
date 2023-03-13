@@ -1,0 +1,13 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_name" extra="true">
+			<text>Metroid</text>
+		</text>
+	</view>
+</theme>

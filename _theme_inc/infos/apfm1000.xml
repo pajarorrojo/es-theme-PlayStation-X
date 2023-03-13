@@ -6,20 +6,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
-				<text>The APF Microcomputer System is a second generation 8-bit cartridge-based home video game console released in October 1978 by APF Electronics Inc. with six cartridges. 
+		<text name="system_description" extra="true">
+			<text>The APF Microcomputer System is a second generation 8-bit cartridge-based home video game console released in October 1978 by APF Electronics Inc. with six cartridges. 
 					
-The console is often referred to M-1000 or MP-1000, which are the two model numbers of the console.</text>
+The console is often referred to M-1000 or MP-1000, which are the two model numbers of the console.
 			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El APF Microcomputer System es una consola de videojuegos de 8 bits basada en cartuchos de segunda generación lanzada en 1978 por APF Electronics Inc con seis cartuchos.
+			<text lang="es,ca,eu">El APF Microcomputer System es una consola de videojuegos de 8 bits basada en cartuchos de segunda generación lanzada en 1978 por APF Electronics Inc con seis cartuchos.
 
-La consola a menudo se refiere a M-1000 o MP-1000, que son los dos números de modelo de la consola. </text>
+La consola a menudo se refiere a M-1000 o MP-1000, que son los dos números de modelo de la consola. 
+			</text>
 		</text>
-
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>APF M1000</text>

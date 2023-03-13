@@ -8,27 +8,28 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true" >
 			<text>Is a series of 8-bit home computers produced by Amstrad between 1984 and 1990. It was designed to compete in the mid-1980s home computer market dominated by the Commodore 64 and the ZX Spectrum.</text>
+			<text lang="es">Amstrad CPC (acrónimo del inglés Colour Personal Computer) fue una serie de ordenadores personales de 8 bits producidos por Amstrad durante la década de 1980 y a principios de la década de 1990. 
+
+La primera máquina, el CPC 464, se presentó oficialmente y se comercializó a gran escala a partir del 21 de junio de 1984. Se diseñó como competidor directo del Commodore 64 y del Sinclair ZX Spectrum. La gama CPC tuvo mucho éxito. Se vendieron más de 3 millones de equipos durante la vida útil de la máquina.
+			</text>
+			<text lang="ca">Amstrad CPC (acrònim de l'anglès Colour Personal Computer) va ser una sèrie d'ordinadors personals de 8 bits produïts per Amstrad durant la dècada del 1980 i a principis de la dècada del 1990.
+
+La primera màquina, el CPC 464, es va presentar oficialment i es va comercialitzar a gran escala a partir del 21 de juny de 1984. Es va dissenyar com a competidor directe del Commodore 64 i del Sinclair ZX Spectrum. La gamma CPC va tenir molt èxit. Es van vendre més de 3 milions d'equips durant la vida útil de la màquina.
+			</text>
+			<text lang="eu">Amstrad CPC (Color Personal Computer izenekoaren akronimoa) ordenagailu pertsonalen 8 biten serie bat da, Amstrad-ek 1980ko hamarkadan eta 1990eko hamarretako lehenaldian ekoiztua.
+
+Lehen makinak, CPC 464, ofizialki aurkeztu eta handitik merkaturatu ziren 1984ko ekainaren 21etatik aurrera. Commodore 64 eta Sinclair ZX Spectrum-en eragile direktu moduan diseinatu zen. CPC sorta arrakastatsua izan zen. 3 milioi baino gehiago saldu ziren makina bizitza-lerroan.
+			</text>
+			<text lang="fr" >Amstrad CPC est un ordinateur personnel 8 bits produit par Amstrad dans les années 1980. CPC est le sigle de Colour Personal Computer, même si une version dotée d'un moniteur monochrome était disponible.</text>
+			<text lang="pt">Amstrad CPC foi uma série computadores pessoais de 8 bits produzidos pela Amstrad durante a década de 1980 e início de 1990. CPC significa Colour Personal Computer ("Computador Colorido Pessoal").</text>
+			<text lang="it">La serie Amstrad CPC è composta da computer domestici a 8 bit prodotti da Amstrad tra il 1984 e il 1990. Sono stati progettati per competere nel mercato dei computer domestici degli anni '80 dominato dal Commodore 64 e dallo ZX Spectrum.</text>        
+			<text lang="de">Die Amstrad CPC-Serie besteht aus 8-Bit-Heimcomputern, die von Amstrad zwischen 1984 und 1990 produziert wurden. Sie wurden entwickelt, um im Heimcomputermarkt der mittleren 1980er Jahre zu konkurrieren, der vom Commodore 64 und dem ZX Spectrum dominiert wurde.</text>        
+			<text lang="pl">Amstrad CPC to seria 8-bitowych komputerów domowych produkowanych przez firmę Amstrad w latach 1984-1990. Zostały zaprojektowane, aby konkurować na rynku komputerów domowych środkowych lat 80. dominowanym przez Commodore 64 i ZX Spectrum.</text>        
+			<text lang="ru">Amstrad CPC - это серия 8-битных домашних компьютеров, производимых компанией Amstrad в период с 1984 по 1990 годы. Они были разработаны, чтобы конкурировать на рынке домашних компьютеров с середины 1980-х годов, который был о Beherrschung durch den Commodore 64 und den ZX Spectrum.</text>        
+			<text lang="zh">Amstrad CPC是Amstrad在1984年至1990年间生产的一系列8位家用计算机。它被设计来竞争由Commodore 64和ZX Spectrum主导的1980年代中期家用计算机市场。</text>        
+			<text lang="ja">Amstrad CPCは、Amstradが1984年から1990年まで生産した8ビットホームコンピュータのシリーズです。それは、コモドール64やZX Spectrumに支配された1980年代半ばの家庭用コンピュータ市場で競合するために設計されました。</text>        
 		</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Amstrad CPC (acrónimo del inglés Colour Personal Computer) fue una serie de ordenadores personales de 8 bits producidos por Amstrad durante la década de 1980 y a principios de la década de 1990. 
-
-La primera máquina, el CPC 464, se presentó oficialmente y se comercializó a gran escala a partir del 21 de junio de 1984. Se diseñó como competidor directo del Commodore 64 y del Sinclair ZX Spectrum. La gama CPC tuvo mucho éxito. Se vendieron más de 3 millones de equipos durante la vida útil de la máquina.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Amstrad CPC est un ordinateur personnel 8 bits produit par Amstrad dans les années 1980. CPC est le sigle de Colour Personal Computer, même si une version dotée d'un moniteur monochrome était disponible.</text>
-		</text>
-
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>Amstrad CPC foi uma série computadores pessoais de 8 bits produzidos pela Amstrad durante a década de 1980 e início de 1990. CPC significa Colour Personal Computer ("Computador Colorido Pessoal").</text>
-		</text>
-
-		
-		
-
-
-		
 		<text name="system_name" extra="true">
 			<text>Amstrad CPC</text>
 		</text>

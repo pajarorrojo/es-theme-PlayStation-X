@@ -6,29 +6,46 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
-				<text>Xbox is a video gaming brand created and owned by Microsoft. The brand consists of five video game consoles, as well as applications (games), streaming services, an online service by the name of Xbox Live, and the development arm by the name of Xbox Game Studios. The brand was first introduced in the United States in November 2001, with the launch of the original Xbox console.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Xbox, también llamada Xbox Clásica, es una videoconsola de sobremesa de sexta generación producida por Microsoft y la primera de esta empresa, en colaboración con Intel. Su principal característica es su procesador central basado en el procesador Intel Pentium III. El sistema también incorpora un lector de DVD, un disco duro interno, un puerto ethernet y cuatro conectores para los mandos. Las unidades vendidas de este equipo fueron 24 000 000 consolas, según las cifras oficiales.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>La Xbox de Microsoft est une console de jeux vidéo sortie aux États-Unis le 15 novembre 2001. Microsoft fait avec ses premiers pas dans ce secteur, après avoir collaboré avec Sega pour porter Windows CE sur Dreamcast, et après avoir développé depuis plusieurs années des jeux Microsoft Game Studios et des accessoires de jeux vidéo SideWinder pour les PC sous Windows. </text>
-		</text>
-
+		<text name="system_description" extra="true">
+<text>The Xbox is a sixth-generation video game console released in November 2001. It was the first video game console produced by Microsoft and designed to compete with Sony's PlayStation 2 and Nintendo's GameCube.
 	
-		<text name="system_description" extra="true" lang="pt">
-				<text>Xbox é uma marca de consoles de jogos eletrônicos criada pela Microsoft. O nome Xbox é incluído em uma série de consoles desenvolvidos pela Microsoft, desde a sexta geração até a nona geração de consoles, bem como o serviço on-line Xbox Live e Xbox Game Pass. A marca foi introduzida pela primeira vez em 15 de novembro de 2001, nos Estados Unidos, com o lançamento do console Xbox. </text>
-		</text>
+The Xbox was the first console to incorporate an internal hard drive as standard, which allowed users to store games and multimedia content. Some of the most popular Xbox games include Halo: Combat Evolved, Fable, Forza Motorsport, and Project Gotham Racing. It sold over 24 million units during its lifespan, making it a commercial success for Microsoft.</text>        
+<text lang="es">La Xbox es una consola de videojuegos de sexta generación lanzada en noviembre de 2001. Fue la primera consola de videojuegos producida por Microsoft y diseñada para competir con la PlayStation 2 de Sony y la GameCube de Nintendo.
 
+La Xbox fue la primera consola en incorporar un disco duro interno como estándar, lo que permitió a los usuarios almacenar juegos y contenido multimedia. Algunos de los juegos más populares de Xbox incluyen Halo: Combat Evolved, Fable, Forza Motorsport y Project Gotham Racing. Vendió más de 24 millones de unidades durante su vida útil, lo que la convirtió en un éxito comercial para Microsoft.</text>        
+<text lang="ca">La Xbox és una consola de videojocs de sisena generació llançada al novembre de 2001. Va ser la primera consola de videojocs produïda per Microsoft i dissenyada per competir amb la PlayStation 2 de Sony i la GameCube de Nintendo.
 
-		<text name="system_description" extra="true" lang="it">
-				<text>Xbox è la prima console da tavolo per videogiochi prodotta da Microsoft. Appartenente alla sesta generazione, venne messa in vendita il 15 novembre 2001 in America del Nord, il 22 febbraio 2002 in Giappone e il 14 marzo in Europa e Australia.</text>
-		</text>
-		
-				
+La Xbox va ser la primera consola en incorporar un disc dur intern com a estàndard, el que va permetre als usuaris emmagatzemar jocs i contingut multimèdia. Alguns dels jocs més populars de Xbox inclouen Halo: Combat Evolved, Fable, Forza Motorsport i Project Gotham Racing. Va vendre més de 24 milions d'unitats durant la seva vida útil, la qual cosa la va convertir en un èxit comercial per a Microsoft.</text>     
+<text lang="eu">Xbox-en hirugarren belauneko bideo-konsola da, 2001eko azaroan bikoitza. Microsoft-ek sortutako lehen bideo-konsola da eta Sonyren PlayStation 2 eta Nintendoren GameCubearekin lehian aritu zen diseinatu zen.
+
+Xbox-en lehen bideo-konsola izan zen, estandar gisa barneko disku gogorrez hornituta, erabiltzaileek jokoen eta multimedia edukien biltegia gordetzeko aukera emanez. Xbox-en joko ezagunenetako batzuk Halo: Combat Evolved, Fable, Forza Motorsport eta Project Gotham Racing dira. 24 milioi baino gehiago saltzea lortu zuen bere bizitza zikloaren zehar, Microsoft-entzako arrakasta komertziala bihurtu zuen.</text>      
+<text lang="fr">La Xbox est une console de jeu vidéo de sixième génération sortie en novembre 2001. C'était la première console de jeu vidéo produite par Microsoft et conçue pour concurrencer la PlayStation 2 de Sony et la GameCube de Nintendo.
+
+La Xbox a été la première console à intégrer un disque dur interne en standard, ce qui a permis aux utilisateurs de stocker des jeux et du contenu multimédia. Certains des jeux Xbox les plus populaires incluent Halo: Combat Evolved, Fable, Forza Motorsport et Project Gotham Racing. Elle a vendu plus de 24 millions d'unités au cours de sa durée de vie, en faisant un succès commercial pour Microsoft.</text>        
+<text lang="pt">O Xbox é um console de videogame de sexta geração lançado em novembro de 2001. Foi o primeiro console de videogame produzido pela Microsoft e projetado para competir com o PlayStation 2 da Sony e o GameCube da Nintendo.
+
+O Xbox foi o primeiro console a incorporar um disco rígido interno como padrão, o que permitiu aos usuários armazenar jogos e conteúdo multimídia. Alguns dos jogos mais populares do Xbox incluem Halo: Combat Evolved, Fable, Forza Motorsport e Project Gotham Racing. Vendeu mais de 24 milhões de unidades durante sua vida útil, tornando-se um sucesso comercial para a Microsoft.</text>        
+<text lang="it">La Xbox è una console di videogiochi di sesta generazione lanciata nel novembre 2001. È stata la prima console di videogiochi prodotta da Microsoft e progettata per competere con la PlayStation 2 di Sony e il GameCube di Nintendo.
+
+La Xbox è stata la prima console a incorporare un hard disk interno come standard, il che ha consentito agli utenti di archiviare giochi e contenuti multimediali. Alcuni dei giochi Xbox più popolari includono Halo: Combat Evolved, Fable, Forza Motorsport e Project Gotham Racing. Ha venduto oltre 24 milioni di unità durante la sua durata, diventando un successo commerciale per Microsoft.</text>        
+<text lang="de">Die Xbox ist eine Videospielkonsole der sechsten Generation, die im November 2001 veröffentlicht wurde. Es war die erste Videospielkonsole, die von Microsoft produziert wurde und dazu gedacht war, mit Sonys PlayStation 2 und Nintendos GameCube zu konkurrieren.
+
+Die Xbox war die erste Konsole, die eine interne Festplatte als Standard integrierte, was es den Benutzern ermöglichte, Spiele und Multimedia-Inhalte zu speichern. Einige der beliebtesten Xbox-Spiele sind Halo: Combat Evolved, Fable, Forza Motorsport und Project Gotham Racing. Es wurden während seiner Lebensdauer mehr als 24 Millionen Einheiten verkauft, was es zu einem kommerziellen Erfolg für Microsoft machte.</text>        
+<text lang="pl">Xbox to konsola gier wideo szóstej generacji, wydana w listopadzie 2001 roku. Była to pierwsza konsola gier wideo wyprodukowana przez Microsoft i zaprojektowana do konkurowania z PlayStation 2 Sony i GameCube Nintendo.
+
+Xbox był pierwszą konsolą, która standardowo wyposażona była w wewnętrzny dysk twardy, co umożliwiło użytkownikom przechowywanie gier i treści multimedialnych. Niektóre z najpopularniejszych gier na Xboxa to Halo: Combat Evolved, Fable, Forza Motorsport i Project Gotham Racing. Sprzedano ponad 24 miliony egzemplarzy podczas jej żywotności, co czyniło ją sukcesem komercyjnym dla Microsoftu.</text>        
+<text lang="ru">Xbox - игровая консоль шестого поколения, выпущенная в ноябре 2001 года. Это была первая игровая консоль, созданная Microsoft, и предназначенная для конкуренции с PlayStation 2 от Sony и GameCube от Nintendo.
+
+Xbox был первой консолью, которая включала в себя внутренний жесткий диск в стандартной комплектации, что позволило пользователям хранить игры и мультимедийный контент. Некоторые из самых популярных игр на Xbox включают Halo: Combat Evolved, Fable, Forza Motorsport и Project Gotham Racing. За время ее жизненного цикла было продано более 24 миллионов единиц, что сделало ее коммерческим успехом для Microsoft.</text>        
+<text lang="zh">Xbox是第六代视频游戏机，于2001年11月发布。它是由微软制造的第一款视频游戏机，旨在与索尼的PlayStation 2和任天堂的GameCube竞争。
+
+Xbox是第一款标配内置硬盘的游戏机，这使得用户可以存储游戏和多媒体内容。一些最受欢迎的Xbox游戏包括《光环：战斗进化》、《寓言》、《极限竞速》和《疯狂出租车》。它在寿命期内销售了超过2400万台，成为微软的商业成功。</text>        
+<text lang="ja">Xboxは、2001年11月に発売された第6世代のビデオゲーム機です。マイクロソフトが生産した最初のビデオゲーム機であり、ソニーのPlayStation 2や任天堂のGameCubeと競合するために設計されました。
+
+Xboxは、内蔵ハードドライブを標準装備した最初のコンソールであり、ユーザーがゲームやマルチメディアコンテンツを保存することができました。Xboxの中でも最も人気のあるゲームには、「Halo: Combat Evolved」、「Fable」、「Forza Motorsport」、「Project Gotham Racing」などがあります。Xboxは寿命中に2400万台以上を販売し、マイクロソフトにとって商業的な成功を収めました。
+	</text>        
+
+		</text>	
 
 		<text name="system_name" extra="true">
 			<text>XBOX</text>

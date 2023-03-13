@@ -5,27 +5,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-
-		
-				<text name="system_description" extra="true" >
-			<text>Is an 8-bit fourth generation handheld game console released by Sega on October 6, 1990 in Japan, in April 1991 throughout North America and Europe, and during 1992 in Australia.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Es una videoconsola portátil creada por Sega en respuesta a la Game Boy de Nintendo. Es la tercera consola portátil con pantalla en color de la historia, después de la Atari Lynx y la Turbo Express.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Game Gear (ゲームギア, Gēmu gia?) est une console de jeux vidéo portable en couleur, sortie en 1990 et produite par Sega afin de concurrencer la Game Boy de Nintendo apparue une année plus tôt.Elle a la particularité d'avoir un écran rétro-éclairé au détriment d'une grosse consommation de piles.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame portátil, de 8 bits, desenvolvido e produzido pela Sega. Fazia parte da denominada 4ª geração de consolas e surgiu em resposta ao portátil da Nintendo, o Game Boy.</text>
-		</text>
-
-		
-		
-				
+	
+		<text name="system_description" extra="true">
+			<text>The SEGA Game Gear was a portable console launched in 1990 that directly competed with Nintendo's Game Boy. It had a backlit color screen and more processing power than its competitor. Although the Game Gear did not achieve the commercial success of the Game Boy, it had a solid library of games, including titles such as Sonic the Hedgehog, Shining Force, and Shinobi. It also had a series of accessories, such as a portable TV and an adapter for Master System games.</text>        
+			<text lang="es">La Game Gear de SEGA fue una consola portátil lanzada en 1990 que compitió directamente con la Game Boy de Nintendo. Presentaba una pantalla a color retroiluminada y tenía una mayor potencia de procesamiento que su competidora. Aunque la Game Gear no logró alcanzar el éxito comercial de la Game Boy, tuvo una sólida biblioteca de juegos, que incluía títulos como Sonic the Hedgehog, Shining Force o Shinobi. También tuvo una serie de accesorios, como una televisión portátil y un adaptador para juegos de Master System.</text>        
+			<text lang="ca">La Game Gear de SEGA va ser una consola portàtil llançada el 1990 que va competir directament amb la Game Boy de Nintendo. Presentava una pantalla a color retroiluminada i tenia una major potència de processament que la seva competidora. Tot i que la Game Gear no va aconseguir l'èxit comercial de la Game Boy, va tenir una sòlida biblioteca de jocs, que incloïa títols com Sonic the Hedgehog, Shining Force o Shinobi. També va tenir una sèrie d'accessoris, com una televisió portàtil i un adaptador per a jocs de Master System.</text>        
+			<text lang="eu">SEGAren Game Gear konola eramangarria 1990ean luzatu zen eta Nintendo Game Boy-ekin zuzenean lehiatu zen. Argi-itrinezko kolorezko pantaila izan zuen eta bere lehiapekoaren prozesamendu-ahalmen handiagoa zuen. Game Gear-ek, Game Boy-en arrakasta komertziala lortu ez zuenean ere, joko-liburutegi sendoa izan zuen, Sonic the Hedgehog, Shining Force edo Shinobi bezalako izenburuak barne. TV portatil bat edo Master System jokoentzako adapter bat bezalako aksesoriak ere izan zituen.</text>        
+			<text lang="fr">La Game Gear de SEGA était une console portable lancée en 1990 qui faisait directement concurrence à la Game Boy de Nintendo. Elle avait un écran couleur rétroéclairé et une puissance de traitement supérieure à celle de sa concurrente. Bien que la Game Gear n'ait pas atteint le succès commercial de la Game Boy, elle avait une solide bibliothèque de jeux, comprenant des titres tels que Sonic the Hedgehog, Shining Force ou Shinobi. Elle avait également une série d'accessoires, tels qu'une télévision portable et un adaptateur pour les jeux de Master System.</text>        
+			<text lang="pt">A Game Gear da SEGA foi uma consola portátil lançada em 1990 que competiu diretamente com a Game Boy da Nintendo. Possuía uma tela colorida retroiluminada e tinha mais poder de processamento do que a sua concorrente. Embora a Game Gear não tenha alcançado o sucesso comercial da Game Boy, teve uma sólida biblioteca de jogos, incluindo títulos como Sonic the Hedgehog, Shining Force ou Shinobi. Também teve uma série de acessórios, como uma TV portátil e um adaptador para jogos de Master System.</text>        
+			<text lang="it">La Game Gear di SEGA è stata una console portatile lanciata nel 1990 che ha competuto direttamente con la Game Boy di Nintendo. Presentava uno schermo a colori retroilluminato e aveva una maggiore potenza di elaborazione rispetto alla sua concorrente. Anche se la Game Gear non è riuscita a raggiungere il successo commerciale della Game Boy, ha avuto una solida biblioteca di giochi, che includeva titoli come Sonic the Hedgehog, Shining Force o Shinobi. Ha anche avuto una serie di accessori, come una TV portatile e un adattatore per i giochi di Master System.</text>        
+			<text lang="de">Der Game Gear von SEGA war eine tragbare Spielkonsole, die 1990 auf den Markt kam und direkt mit der Game Boy von Nintendo konkurrierte. Er hatte ein farbiges hintergrundbeleuchtetes Display und eine höhere Verarbeitungsleistung als sein Konkurrent. Obwohl der Game Gear nicht den kommerziellen Erfolg der Game Boy erreichen konnte, hatte er eine solide Spielebibliothek, die Titel wie Sonic the Hedgehog, Shining Force oder Shinobi enthielt. Er hatte auch eine Reihe von Zubehörteilen wie einen tragbaren Fernseher und einen Adapter für Master-System-Spiele.</text>        
+			<text lang="pl">Game Gear od SEGA był przenośną konsolą wydaną w 1990 roku, która bezpośrednio konkurowała z Game Boy firmy Nintendo. Posiadał kolorowy podświetlany wyświetlacz i miał większą moc przetwarzania niż konkurent. Choć Game Gear nie osiągnął sukcesu komercyjnego, jaki odniosła Game Boy, miał solidną bibliotekę gier, w tym tytuły takie jak Sonic the Hedgehog, Shining Force czy Shinobi. Miał także szereg akcesoriów, takich jak przenośny telewizor i adapter do gier Master System.</text>        
+			<text lang="ru">Game Gear от SEGA была портативной игровой консолью, выпущенной в 1990 году, которая прямо конкурировала с Game Boy от Nintendo. Она имела цветной подсвеченный экран и имела большую мощность обработки, чем ее конкурент. Хотя Game Gear не смогла достичь коммерческого успеха Game Boy, у нее была прочная библиотека игр, включая такие титулы, как Sonic the Hedgehog, Shining Force или Shinobi. У нее также был ряд аксессуаров, таких как портативное телевидение и адаптер для игр Master System.</text>        
+			<text lang="zh">SEGA的Game Gear是一款于1990年发布的便携式游戏机，直接与任天堂的Game Boy竞争。它具有带背光的彩色屏幕，并且具有比其竞争对手更高的处理能力。尽管Game Gear没有达到Game Boy的商业成功，但它拥有坚实的游戏库，其中包括Sonic the Hedgehog、Shining Force或Shinobi等游戏。它还配备了一系列附件，如便携电视和Master System游戏适配器。</text>        
+			<text lang="ja">SEGAのゲームギアは1990年に発売された携帯ゲーム機で、任天堂のゲームボーイと直接競合しました。カラーのバックライト付き画面を持ち、競合機種よりも高い処理能力を持っていました。ゲームボーイの商業的成功には及びませんでしたが、『ソニック・ザ・ヘッジホッグ』、『シャイニング・フォース』、『忍』などのタイトルを含む堅固なゲームライブラリを持っていました。また、ポータブルテレビやマスターシステム用のアダプタなどのアクセサリーもありました。</text>        
+		</text>	
 
 		<text name="system_name" extra="true">
 			<text>Game Gear</text>

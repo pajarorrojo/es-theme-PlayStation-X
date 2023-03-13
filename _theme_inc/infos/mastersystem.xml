@@ -5,33 +5,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-
 		
-				<text name="system_description" extra="true">
-			<text>The Master System is a third-generation home video game console that was manufactured by Sega. It was originally released in 1985 as the Sega Mark III in Japan. After being redesigned prior to its North American launch.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Master System, comercializada en Japón bajo el nombre SEGA Mark III, es una consola de videojuegos de 8 bits basada en cartuchos y tarjetas, que fue desarrollada por Sega. 
+		<text name="system_description" extra="true">
+			<text>The SEGA Master System (also known as Mark III in Japan) was a video game console released by SEGA in 1985. It was the successor to the SG-1000 and competed with Nintendo's NES. It had a 4 MHz Zilog Z80 processor, 8 KB of RAM, and a 32-color on-screen palette. The console was popular in Europe and South America, but it did not have as much success in Japan or North America. Some of the most popular titles are Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap, and Phantasy Star.</text>        
+			<text lang="es">La SEGA Master System (también conocida como Mark III en Japón) fue una consola de videojuegos lanzada por SEGA en 1985. Fue la sucesora de la SG-1000 y compitió con la NES de Nintendo. Tenía un procesador Zilog Z80 a 4 MHz, 8 KB de RAM y una paleta de 32 colores en pantalla. La consola fue popular en Europa y América del Sur, pero no tuvo tanto éxito en Japón o América del Norte. Algunos de los títulos más populares son Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap y Phantasy Star.</text>        
+			<text lang="ca">La SEGA Master System (també coneguda com a Mark III a Japó) va ser una consola de videojocs llançada per SEGA el 1985. Va ser la successora de la SG-1000 i va competir amb la NES de Nintendo. Tenia un processador Zilog Z80 a 4 MHz, 8 KB de RAM i una paleta de 32 colors en pantalla. La consola va ser popular a Europa i Amèrica del Sud, però no va tenir tant èxit a Japó o Amèrica del Nord. Alguns dels títols més populars són Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap i Phantasy Star.</text>        
+			<text lang="eu">SEGA Master System (Mark III bezala ezaguna Japonian ere) SEGA-k 1985ean argitaratutako bideo joko konsola bat izan zen. SG-1000-ren ondorioa zen eta Nintendo-ren NESekin lehiatu zen. 4 MHz-eko Zilog Z80 prozesadore bat, 8 KBko RAM-a eta 32 koloreko paleta pantailan izan zituen. Konsola hau Europako eta Hego Amerikako herrialdeetan ohiko zen, baina ez zuen hainbat arrakastarik lortu Japonian edo Ipar Amerikan. Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap eta Phantasy Star dira zenbait titulu ospetsuenak.</text>        
+			<text lang="fr">La SEGA Master System (également connue sous le nom de Mark III au Japon) était une console de jeux vidéo lancée par SEGA en 1985. Elle était le successeur du SG-1000 et rivalisait avec la NES de Nintendo. Elle avait un processeur Zilog Z80 à 4 MHz, 8 Ko de RAM et une palette de 32 couleurs à l'écran. La console était populaire en Europe et en Amérique du Sud, mais n'a pas connu autant de succès au Japon ou en Amérique du Nord. Certains des titres les plus populaires sont Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap et Phantasy Star.</text>        
+			<text lang="pt">A SEGA Master System (também conhecida como Mark III no Japão) foi um console de videogame lançado pela SEGA em 1985. Foi o sucessor do SG-1000 e concorreu com o NES da Nintendo. Tinha um processador Zilog Z80 de 4 MHz, 8 KB de RAM e uma paleta de 32 cores na tela. O console foi popular na Europa e América do Sul, mas não teve tanto sucesso no Japão ou na América do Norte. Alguns dos títulos mais populares são Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap e Phantasy Star.</text>        
+			<text lang="it">La SEGA Master System (conosciuta anche come Mark III in Giappone) è stata una console per videogiochi lanciata da SEGA nel 1985. È stata la successiva della SG-1000 e ha competuto con la NES di Nintendo. Era dotata di un processore Zilog Z80 a 4 MHz, 8 KB di RAM e una tavolozza di 32 colori sullo schermo. La console è stata popolare in Europa e in America del Sud, ma non ha avuto tanto successo in Giappone o in America del Nord. Alcuni dei titoli più popolari sono Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap e Phantasy Star.</text>        
+			<text lang="de">Die SEGA Master System (auch bekannt als Mark III in Japan) war eine von SEGA im Jahr 1985 herausgebrachte Videospielkonsole. Sie war der Nachfolger der SG-1000 und konkurrierte mit der NES von Nintendo. Die Konsole hatte einen Zilog Z80 Prozessor mit 4 MHz, 8 KB RAM und eine 32-Farben-Palette auf dem Bildschirm. Die Konsole war in Europa und Südamerika populär, hatte jedoch in Japan oder Nordamerika nicht so viel Erfolg. Einige der beliebtesten Titel sind Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap und Phantasy Star.</text>        
+			<text lang="pl">SEGA Master System (znana także jako Mark III w Japonii) to konsola do gier wideo wydana przez SEGA w 1985 roku. Była następcą SG-1000 i konkurowała z NES-em od Nintendo. Miała procesor Zilog Z80 o taktowaniu 4 MHz, 8 KB RAM i paletę 32 kolorów na ekranie. Konsola była popularna w Europie i Ameryce Południowej, ale nie cieszyła się takim powodzeniem w Japonii lub Ameryce Północnej. Niektóre z najpopularniejszych tytułów to Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap i Phantasy Star.</text>        
+			<text lang="ru">SEGA Master System (также известна как Mark III в Японии) была игровой консолью, выпущенной SEGA в 1985 году. Она была преемницей SG-1000 и конкурировала с NES от Nintendo. В консоли был процессор Zilog Z80 на 4 МГц, 8 КБ оперативной памяти и палитра из 32 цветов на экране. Консоль была популярна в Европе и Южной Америке, но не имела такого успеха в Японии или Северной Америке. Некоторые из самых популярных игр - Alex Kidd in Miracle World, Wonder Boy III: The Dragon's Trap и Phantasy Star.</text>        
+			<text lang="zh">SEGA Master System（在日本被称为Mark III）是由SEGA于1985年推出的一款游戏机。它是SG-1000的继承者，与任天堂的NES竞争。它配备了一个4 MHz的Zilog Z80处理器，8 KB的RAM和32色调色板。这款游戏机在欧洲和南美洲很受欢迎，但在日本或北美并没有那么成功。一些最受欢迎的游戏包括《神奇世界亚历克斯小子》、《小王子历险记III》和《梦幻之星》。</text>        
+			<text lang="ja">SEGAマークIII（日本国外ではマスターシステムとしても知られています）は、1985年にSEGAが発売したビデオゲーム機です。SG-1000の後継機であり、任天堂のNESと競合しました。Zilog Z80プロセッサー、8 KBのRAM、32色のパレットを備えた画面がありました。このコンソールは、ヨーロッパと南アメリカで人気がありましたが、日本や北アメリカではあまり成功しませんでした。最も人気のあるタイトルには、アレックスキッドのミラクルワールド、ワンダーボーイIII：ドラゴンズトラップ、ファンタシースターなどがあります。</text>        
 
-Aunque estuvo muy por detrás en ventas fuera de Europa, Brasil y con un éxito moderado en Argentina, la experiencia sentó los cimientos para que Sega continuara con su liderazgo en esos mercados durante la siguiente generación con la Sega Mega Drive. Su cese de producción, con excepción de Brasil, fue en 1996. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Master System (マスターシステム) ou Sega Master System (aussi abrégé SMS) est une console de jeux vidéo de troisième génération, conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame de 8-bits produzido pela Sega. Lançado inicialmente no Japão em 1986, com o nome Sega Mark III, ele enfrentou grandes dificuldades devido à forte concorrência do NES da Nintendo.</text>
-		</text>
-		
-				
-
+		</text>	
 		<text name="system_name" extra="true">
 			<text>Master System</text>
-		</text>
-
-		<text name="system_name" extra="true" region="jp">
-			<text>SEGA Mark III</text>
+			<text region="jp">SEGA Mark III</text>
 		</text>	</view>
 </theme>

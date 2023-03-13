@@ -52,21 +52,27 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <randomGame>Juego Aleatorio</randomGame>
     <theme.colorset>Color del tema</theme.colorset>
     <theme.secondaryColorset>Color secundario</theme.secondaryColorset>
-    <theme.gridMainorigin>Origen de la imagen principal en vista de cuadrícula</theme.gridMainorigin>
-    <theme.gridorigin>Origen de la imagen dentro de la cuadrícula</theme.gridorigin>
-    <theme.detailedorigin>Origen de la imagen en la vista de lista</theme.detailedorigin>
     <theme.gridvideo>Mostrar vídeos de juegos</theme.gridvideo>
     <theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
     <theme.animatedList>Transiciones animadas en la lista de juegos</theme.animatedList>
-    <theme.gametime>Mostrar info de tiempo jugado en la lista de juegos</theme.gametime>
-    <theme.animatedSystem>Transiciones animadas en la lista de sistemas</theme.animatedSystem>
-    <theme.aspect-ratio >Tema no compatilbe con su tipo de pantalla</theme.aspect-ratio>
-    <theme.aspect-ratio>Pantalla detectada (auto)</theme.aspect-ratio>
-    <theme.aspect-ratio if="{screen.ratio} == '0/0'">Seleciona tu tipo de pantalla</theme.aspect-ratio>
-    <theme.aspect-1610>16:10 WXGA (habitual en portátiles)</theme.aspect-1610>
+    <theme.animatedSystem>Transiciones animadas en la vista de sistemas</theme.animatedSystem>
+    <theme.aspect-ratio>Seleciona tu tipo de pantalla</theme.aspect-ratio>
     <theme.oversizeVideoOption>Video superpuesto</theme.oversizeVideoOption>
     <theme.bato35compatilble>Solo compatible en batocera 35 o superior</theme.bato35compatilble>
     <theme.netplay-required>Activa netplay en el sistema para mostrar tu nombre de usuario o selecciona otro nick en las opciones del tema</theme.netplay-required>
-    <theme.ra-required>Activa retroachievements en el sistema para mostrar tu nombre de usuario o selecciona otro nick en las opciones del tema</theme.ra-required>  
+    <theme.ra-required>Activa retroachievements en el sistema para mostrar tu nombre de usuario o selecciona otro nick en las opciones del tema</theme.ra-required>
+    <theme.hotkey>Mostrar ayuda hotkey en pant. bienvenida</theme.hotkey>
+    <theme.hotkey-x86>Mostrar ayuda rápida hotkey</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>Solo en la pantalla de carga del juego</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>Solo en la pantalla de bienvenida</theme.hotkey.splash>
+    <theme.hotkey.both>En ambas pantallas</theme.hotkey.both>
+    <theme.detected>detectada</theme.detected>
+    <theme.detailedorigin>Imagen en la vista detallada</theme.detailedorigin>
+    <theme.gridMainorigin>Imagen principal en la vista de cuadrícula</theme.gridMainorigin>
+    <theme.gridorigin>Imágenes de la cuadrícula</theme.gridorigin>
+    <theme.carouselMainOrigin>Imagen principal en la vista de carrusel</theme.carouselMainOrigin>
+    <theme.carouselOrigin>Imágenes del carrusel</theme.carouselOrigin>
+    <theme.systemBackground>Imagen de fondo en la vista de sistemas</theme.systemBackground>
+		<randomFanart>Fanart aleatorio</randomFanart>
   </variables>
 </theme>

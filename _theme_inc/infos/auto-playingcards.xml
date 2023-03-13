@@ -9,24 +9,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Auto gamelist.
 
 In this list you will find classic card games, especially poker games in their many variations. It also includes any type of game that uses cards for its performance, such as role-playing, casual, collectible, etc...			
-		</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			</text>
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 En esta lista encontrarás juegos de cartas clásicos, sobretodo de poker en sus muchas variantes. También se incluye cualquier tipo de juego que utilice cartas para su desarrollo, ya sean del tipo rol, casual, coleccionables  etc...
-
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Playing Cards</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Cartas</text>
+			<text lang="es">Cartas</text>
+			<text lang="ca">Cartes</text>
+			<text lang="eu">Kartak</text>
 		</text>
 	</view>
 </theme>

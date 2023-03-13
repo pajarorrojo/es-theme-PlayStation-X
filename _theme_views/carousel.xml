@@ -1,0 +1,100 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <customView name="carousel" inherits="grid">
+      <imagegrid name="gamegrid">
+         <imageSource ifSubset="carousel-origin:image">image</imageSource>
+         <imageSource ifSubset="carousel-origin:thumbnail">thumbnail</imageSource>
+         <imageSource ifSubset="carousel-origin:marquee">marquee</imageSource>
+         <imageSource ifSubset="carousel-origin:boxart">boxart</imageSource>
+         <imageSource ifSubset="carousel-origin:fanart">fanart</imageSource>
+         <imageSource ifSubset="carousel-origin:titleshot">titleshot</imageSource>
+         <imageSource ifSubset="carousel-origin:cartridge">cartridge</imageSource>
+         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
+         <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
+         <autoLayoutSelectedZoom >1.33</autoLayoutSelectedZoom>
+         <pos>0 0.475</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
+         <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">0 0.48</pos>
+         <size>1 0.45</size>
+
+
+
+         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
+         <zIndex>60</zIndex>
+         <padding >0.008 0.05</padding>
+         <margin>0.005 0.006</margin>
+         <autoLayout>7 1</autoLayout>
+         <autoLayout tinyScreen="true">5 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:4-3|5-4">5 1</autoLayout>
+         <scrollDirection>horizontal</scrollDirection>
+         <centerSelection>true</centerSelection>
+         <scrollLoop>true</scrollLoop>
+         <animateSelection>false</animateSelection>
+      </imagegrid>
+
+      <gridtile name="default">
+         <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
+         <padding ifSubset="aspect-ratio:4-3|5-4">2</padding>
+         <selectionMode >image</selectionMode>
+         <imageSizeMode >maxSize</imageSizeMode>
+         <backgroundEdgeColor>00000000</backgroundEdgeColor>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <imageColor>ffffff88</imageColor>
+         <reflexion>0.2 0</reflexion>
+
+      </gridtile>
+
+      <gridtile name="selected">
+         <padding>6</padding>
+         <padding ifSubset="aspect-ratio:4-3|5-4">1</padding>
+         <imageColor>ffffff</imageColor>
+         <backgroundCornerSize>0</backgroundCornerSize>
+         <backgroundEdgeColor>00000000</backgroundEdgeColor>
+         <reflexion>0.25 0</reflexion>
+      </gridtile>
+
+      <ninepatch name="gridtile.background:selected">
+         <animateColor>${backgroundgridSelect}00</animateColor>
+      </ninepatch>
+
+      <image name="linea-inferior" extra="static">
+         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.934</pos>
+         <size>1 0.0011</size>
+         <size tinyScreen="true">1 0.005</size>
+         <color>${sistema.lineainferior}</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
+
+
+
+      <image name="gridtile.favorite">
+         <path >./../_theme_inc/images/favorite.png</path>
+         <pos >-0.03 -0.001</pos>
+         <maxSize >0.2 0.20</maxSize>
+         <horizontalAlignment>left</horizontalAlignment>
+         <verticalAlignment>top</verticalAlignment>
+         <origin>0 0</origin>
+         <color>F3C300</color>
+      </image>
+
+      <image name="gridtile.cheevos" if="{global.cheevos} == true">
+         <path>./../_theme_inc/images/cheevos.svg</path>
+         <pos>0.84 0.785</pos>
+         <maxSize>0.18 0.18</maxSize>
+         <horizontalAlignment>right</horizontalAlignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <origin>0 0</origin>
+         <color>Ffffff</color>
+      </image>
+      
+   </customView>
+
+
+</theme>

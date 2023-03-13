@@ -5,25 +5,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
+
+		<text name="system_description" extra="true">
+			<text>Was a pioneer in arcade games, home video game consoles, and home computers. The company's products, such as Pong and the Atari 2600, helped define the electronic entertainment industry from the 1970s to the mid-1980s.</text>
+			<text lang="es">Atari es una compañía estadounidense de videojuegos fundada en 1972. Fue una de las pioneras en la industria de los videojuegos y tuvo gran éxito en la década de los 70 y 80 con sus consolas y juegos arcade. Entre sus títulos más famosos se encuentran Pong, Asteroids y Centipede.</text>
+			<text lang="ca">Atari és una companyia nord-americana de videojocs fundada el 1972. Va ser una de les pioneres en la indústria dels videojocs i va tenir gran èxit a la dècada dels 70 i 80 amb les seves consoles i jocs arcade. Entre els seus títols més famosos es troben Pong, Asteroids i Centipede.</text>
+			<text lang="eu">Atari 1972an sortutako bideo-joko enpresa estatubatuar bat da. Industrian pioneroen artean izan zen eta 70eko eta 80ko hamarkadetan konsole eta arcade jokoetan handi arrakasta izan zuen. Bere jokoen artean, Pong, Asteroids eta Centipede dira ezagunenen artean.</text>
+			<text lang="pt">Foi pioneira em jogos de arcade, consoles de videogame e computadores domésticos. Os produtos da empresa, como Pong e Atari 2600, ajudaram a definir a indústria de entretenimento eletrônico dos anos 1970 até meados dos anos 1980.</text>
+			<text lang="fr">Atari est une entreprise américaine de jeux vidéo fondée en 1972. Elle a été l'un des pionniers de l'industrie des jeux vidéo et a connu un grand succès dans les années 70 et 80 avec ses consoles et ses jeux d'arcade. Parmi ses titres les plus célèbres figurent Pong, Asteroids et Centipede.</text>
+			<text lang="it">Atari è un'azienda statunitense di videogiochi fondata nel 1972. È stata una delle pioniere dell'industria dei videogiochi e ha avuto un grande successo negli anni '70 e '80 con le sue console e i suoi giochi arcade. Tra i suoi titoli più famosi si trovano Pong, Asteroids e Centipede.</text>
+			<text lang="de">Atari ist ein amerikanisches Videospiel-Unternehmen, das 1972 gegründet wurde. Es war einer der Pioniere in der Videospielindustrie und hatte in den 70er und 80er Jahren großen Erfolg mit seinen Konsolen und Arcade-Spielen. Zu seinen bekanntesten Titeln gehören Pong, Asteroids und Centipede.</text>
+			<text lang="pl">Atari to amerykańska firma zajmująca się produkcją gier wideo, założona w 1972 roku. Była jednym z pionierów w branży gier wideo i odniosła duży sukces w latach 70. i 80. dzięki swoim konsolom i grą arcade. Wśród najbardziej znanych tytułów znajdują się Pong, Asteroids i Centipede.</text>
+			<text lang="ru">Atari - это американская компания по производству видеоигр, основанная в 1972 году. Она была одним из пионеров в индустрии видеоигр и имела большой успех в 70-х и 80-х годах с помощью своих игровых консолей и аркадных игр. Среди ее наиболее известных игр находятся Pong, Asteroids и Centipede.</text>
+			<text lang="zh">Atari是一家美国的电子游戏公司，成立于1972年。它是电子游戏产业的先驱之一，在70年代和80年代以其游戏机和街机游戏取得了巨大的成功。其最著名的游戏包括乒乓球、小行星和蜈蚣。</text>
+			<text lang="ja">Atariは、1972年に設立されたアメリカのビデオゲーム企業です。ビデオゲーム産業の先駆者の一人であり、70年代から80年代にかけて、そのコンソールやアーケードゲームで大きな成功を収めました。代表的なタイトルには、ポン、アステロイド、センチピードがあります。</text>
 		</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Atari</text>

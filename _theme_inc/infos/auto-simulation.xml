@@ -6,25 +6,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.</text>
-		</text>
-		
+			<text>Auto gamelist.
 
+Game or genre that tries to imitate reality as closely as possible, avoiding the simplification of controls or mechanics typical of games and applying the physical laws in a realistic way and often without a defined final objective.
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+There are countless types based on their theme, such as flight simulation, driving or management (business, construction, etc). They are the opposite of Arcade games.
+			</text>
+			<text  lang="es,ca,eu">Lista de juegos automática.
 
 Juego o género que pretende imitar lo más fielmente posible la realidad, evitando la simplificación de controles o mecánicas propia de los juegos y aplicando las leyes físicas de una manera realista y a menudo sin un objetivo final definido.
 
 Existen infinidad de tipos en base a su temática, como la simulación de vuelo, la de conducción o la de gestión (negocios, construcción, etc). Son la contraposición a los juegos Arcade.
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Simulation</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Simuladores</text>
+			<text lang="es">Simuladores</text>
+			<text lang="ca">Simuladors</text>
+			<text lang="eu">Simulazioak</text>
 		</text>
 	</view>
 </theme>

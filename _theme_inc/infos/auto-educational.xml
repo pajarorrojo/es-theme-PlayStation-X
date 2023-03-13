@@ -10,21 +10,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 An educational video game is a video game that provides learning or training value to the player. Edutainment describes an intentional merger of video games and educational software into a single product (and could therefore also comprise more serious titles sometimes described under children's learning software).
 			</text>
-		</text>
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 Un videojuego educativo es un material multimedia interactivo por medio del que se puede aprender uno o varios temas. La idea ha tomado fuerza en el siglo XXI bajo diversos términos como Game-Based Learning, edutainment o applied games. 
+			</text>
 		</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Educational</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Educativos</text>
+			<text lang="es">Educativos</text>
+			<text lang="ca">Educatius</text>
+			<text lang="eu">Heziketa</text>
 		</text>
 	</view>
 </theme>

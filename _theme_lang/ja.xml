@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables lang="ja">
+		<theme.welcome>Playstation Xへようこそ</theme.welcome>
+		<theme.start>開始</theme.start>
+		<theme.mostplayed>最もプレイされたもの:</theme.mostplayed>
+		<theme.items>アイテム:</theme.items>
+		<theme.collections>コレクション:</theme.collections>
+		<GamesNumber>ゲーム</GamesNumber>
+		<GamesFavs>お気に入り</GamesFavs>
+		<NumberPlayed>プレイ回数</NumberPlayed>
+		<blue>青</blue>
+		<black>黒</black>
+		<red>赤</red>
+		<yellow>黄色</yellow>
+		<green>緑</green>
+		<purple>紫</purple>
+		<orange>オレンジ</orange>
+		<pink>ピンク</pink>
+		<default>デフォルト</default>
+		<big>大</big>
+		<medium>中</medium>
+		<small>小</small>
+		<yes>はい</yes>
+		<no>いいえ</no>
+		<none>なし</none>
+		<never>しない</never>
+		<always>常に</always>
+		<iconset>アイコンセット</iconset>
+		<theme.frontend>お気に入りのフロントエンドを選択してください</theme.frontend>
+		<gameBar>ゲーム情報バーを表示</gameBar>
+		<CarouselImageSize>カルーセル画像サイズ</CarouselImageSize>
+		<theme.videoBackground>システムビューで動画を表示</theme.videoBackground>
+		<theme.system-description>システム説明を表示</theme.system-description>
+		<theme.animated-background>アニメーション背景（波）</theme.animated-background>
+		<theme.backgroundVideoOption>背景動画</theme.backgroundVideoOption>
+		<theme.windowVideoOption>ウィンドウ動画</theme.windowVideoOption>
+		<theme.insideVideoOption>タイル内</theme.insideVideoOption>
+		<theme.smallScreenOption>小画面</theme.smallScreenOption>
+		<theme.videoaudio>システムビデオでオーディオを有効にします</theme.videoaudio>
+		<theme.videoRandom>ランダムなビデオスナップを表示する</theme.videoRandom>
+		<ifnospot>システムビデオが存在しない場合</ifnospot>
+		<theme.Avatar>アバター画像を選択する</theme.Avatar>
+		<theme.username>ニックネームを選択する</theme.username>
+		<custom>カスタマイズされた</custom>
+		<theme.videoGamelistDelay>ゲームリストのビデオ遅延</theme.videoGamelistDelay>
+		<VideoOff>ビデオを表示しないでください</VideoOff>
+		<theme.systemConsole>システムビューでロゴとコンソールを表示する</theme.systemConsole>
+		<randomGame>ランダムゲーム</randomGame>
+		<theme.colorset>テーマカラーセット</theme.colorset>
+		<theme.secondaryColorset>セカンダリーカラー</theme.secondaryColorset>
+		<theme.gridvideo>ゲームビデオを表示します</theme.gridvideo>
+		<theme.videoSnapAudio>ゲームビデオのオーディオをオンにします</theme.videoSnapAudio>
+		<theme.animatedList>ゲームリスト内でアニメーションを表示する</theme.animatedList>
+		<theme.animatedSystem>システムビューでアニメーションを表示する</theme.animatedSystem>
+		<theme.aspect-ratio>画面タイプを選択する</theme.aspect-ratio>
+		<theme.oversizeVideoOption>大きすぎるビデオ</theme.oversizeVideoOption>
+		<theme.bato35compatilble>batocera 35以上でのみ互換性がある</theme.bato35compatilble>
+		<theme.netplay-required>テーマオプションでユーザー名を表示するにはネットプレイを有効にしてください。または、別のニックネームを選択してください</theme.netplay-required>
+		<theme.ra-required>テーマオプションでユーザー名を表示するにはretroachievementsを有効にしてください。または、別のニックネームを選択してください</theme.ra-required>
+		<theme.hotkey>ウェルカム画面にホットキーヘルプを表示する</theme.hotkey>
+		<theme.hotkey-x86>ホットキーのクイックヘルプを表示する</theme.hotkey-x86>
+		<theme.hotkey.gamesplash>ゲームのローディング画面にのみ表示する</theme.hotkey.gamesplash>
+		<theme.hotkey.splash>ウェルカム画面にのみ表示する</theme.hotkey.splash>
+		<theme.hotkey.both>両方の画面に表示する</theme.hotkey.both>
+		<theme.detected>検出されました</theme.detected>
+		<theme.detailedorigin>詳細ビューでの画像</theme.detailedorigin>
+		<theme.gridMainorigin>グリッドビューのメイン画像</theme.gridMainorigin>
+		<theme.gridorigin>グリッド画像</theme.gridorigin>
+		<theme.carouselMainOrigin>カルーセルビューのメイン画像</theme.carouselMainOrigin>
+		<theme.carouselOrigin>カルーセル画像</theme.carouselOrigin>
+		<theme.systemBackground>システムビューでの背景画像</theme.systemBackground>
+		<randomFanart>ランダムファンアート</randomFanart>
+	</variables>
+</theme>

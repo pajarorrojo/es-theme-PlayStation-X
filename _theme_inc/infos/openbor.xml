@@ -6,26 +6,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>OpenBOR (Open Beats of Rage) is an open source continuation of the Beats of Rage engine. Although Beats of Rage was intended to be a stand alone game, the modular design of in game elements and engine meant end users were able to replace assets.</text>
+			<text lang="es,ca,eu">OpenBOR es la evolución del motor o juego Beats of Rage. Beats of Rage estaba destinado a ser un juego independiente, pero al ser concebido desde un inicio como programa de código libre para la creación de juegos tipo beat'em up, ha propiciado la aparición de un sinfín de fangames, algunos de ellos considerados verdaderas joyas de culto hoy en dia.</text>
+			<text lang="fr">OpenBOR (Open Beats of Rage) est une suite open source du moteur Beats of Rage. Bien que Beats of Rage ait été conçu pour être un jeu indépendant, la conception modulaire des éléments et du moteur de jeu a permis aux utilisateurs finaux de remplacer les graphismes.</text>
+			<text lang="pt">OpenBOR (Open Beats of Rage) é uma continuação de código aberto do mecanismo Beats of Rage. Embora o Beats of Rage pretendesse ser um jogo autônomo, o design modular dos elementos e do mecanismo dos jogos significava que os usuários finais podiam substituir assets.</text>
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>OpenBOR es la evolución del motor o juego Beats of Rage. Beats of Rage estaba destinado a ser un juego independiente, pero al ser concebido desde un inicio como programa de código libre para la creación de juegos tipo beat'em up, ha propiciado la aparición de un sinfín de fangames, algunos de ellos considerados verdaderas joyas de culto hoy en dia.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>OpenBOR (Open Beats of Rage) est une suite open source du moteur Beats of Rage. Bien que Beats of Rage ait été conçu pour être un jeu indépendant, la conception modulaire des éléments et du moteur de jeu a permis aux utilisateurs finaux de remplacer les graphismes.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>OpenBOR (Open Beats of Rage) é uma continuação de código aberto do mecanismo Beats of Rage. Embora o Beats of Rage pretendesse ser um jogo autônomo, o design modular dos elementos e do mecanismo dos jogos significava que os usuários finais podiam substituir assets.</text>
-		</text>
-
-		
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Open BOR</text>

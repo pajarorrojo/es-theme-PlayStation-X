@@ -1,0 +1,53 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+<text>The PS Vita is a handheld console released by Sony in 2011. It is the successor to the PSP and features a high-resolution 5-inch OLED touchscreen, dual analog controls, Wi-Fi and 3G connectivity, and a wide range of entertainment features such as a music and video player, web browser, and rear and front cameras.
+
+The PS Vita also allows users to download games and apps through the PlayStation Store and play online with other users through Wi-Fi or 3G connectivity. Despite being a high-quality handheld console, it did not have as much commercial success as other Sony consoles and only sold around 10 million units. It was discontinued in 2019.</text>        
+<text lang="es">La PS Vita es una consola portátil lanzada por Sony en 2011. Es la sucesora de la PSP y cuenta con una pantalla táctil OLED de 5 pulgadas de alta resolución, controles duales analógicos, conectividad Wi-Fi y 3G, y una amplia gama de funciones de entretenimiento, como reproductor de música y vídeo, navegador web y cámara trasera y delantera.
+
+La PS Vita también permite a los usuarios descargar juegos y aplicaciones a través de la PlayStation Store, y jugar en línea con otros usuarios a través de la conectividad Wi-Fi o 3G. A pesar de ser una consola portátil de alta calidad, no tuvo tanto éxito comercial como otras consolas de Sony y solo vendió alrededor de 10 millones de unidades. Dejó de fabricarse en 2019.</text>        
+<text lang="ca">PS Vita és una consola portàtil llançada per Sony el 2011. És la successora de la PSP i compta amb una pantalla tàctil OLED de 5 polzades d'alta resolució, controls duals analògics, connectivitat Wi-Fi i 3G, i una àmplia gamma de funcions d'entreteniment, com a reproductor de música i vídeo, navegador web i càmera posterior i frontal.
+
+La PS Vita també permet als usuaris descarregar jocs i aplicacions a través de la PlayStation Store, i jugar en línia amb altres usuaris a través de la connectivitat Wi-Fi o 3G. Malgrat ser una consola portàtil d'alta qualitat, no va tenir tant èxit comercial com altres consoles de Sony i només va vendre al voltant de 10 milions d'unitats. Va deixar de fabricar-se el 2019.</text>        
+<text lang="eu">PS Vita Sony-k 2011ean kaleratutako konsola biribila da. PSPren ondoren dator OLED 5 ilarako sentsore taktile batekin, kontrol analogiko bikoitzekin, Wi-Fi eta 3G konexioekin eta musika eta bideo erreproduzitzaile, web nabigatzaile eta atzeko eta aurreko kamera barneko hainbat aisia funtzio ditu.
+
+PS Vita-k erabiltzaileak jokoak eta aplikazioak PlayStation Storen kudeatu ditzazke eta Wi-Fi edo 3G konexioak bidez beste erabiltzaileekin online jokatu. Kalitate handiko konsola biribila baina beste Sony konsolen aldetik komertzialki ez du hain arrakastatsua izan eta 10 milioi unitate inguru bakarrik saldu zituen. 2019an fabrikazioa gelditu zen.</text>        
+<text lang="fr">Le PS Vita est une console portable lancée par Sony en 2011. Elle succède à la PSP et dispose d'un écran tactile OLED haute résolution de 5 pouces, de commandes analogiques doubles, d'une connectivité Wi-Fi et 3G, ainsi que d'une large gamme de fonctions de divertissement telles qu'un lecteur de musique et de vidéos, un navigateur web et des caméras arrière et avant.
+
+Le PS Vita permet également aux utilisateurs de télécharger des jeux et des applications via le PlayStation Store et de jouer en ligne avec d'autres utilisateurs via la connectivité Wi-Fi ou 3G. Malgré le fait qu'il s'agisse d'une console portable de haute qualité, elle n'a pas connu autant de succès commercial que d'autres consoles Sony et n'a vendu qu'environ 10 millions d'unités. Il a été abandonné en 2019.</text>        
+<text lang="pt">A PS Vita é um console portátil lançado pela Sony em 2011. É o sucessor do PSP e apresenta uma tela sensível ao toque OLED de 5 polegadas de alta resolução, controles analógicos duplos, conectividade Wi-Fi e 3G e uma ampla variedade de recursos de entretenimento, como player de música e vídeo, navegador da web e câmeras traseiras e frontais.
+
+A PS Vita também permite que os usuários baixem jogos e aplicativos pela PlayStation Store e joguem online com outros usuários por meio de conectividade Wi-Fi ou 3G. Apesar de ser um console portátil de alta qualidade, não teve tanto sucesso comercial quanto outros consoles da Sony e vendeu apenas cerca de 10 milhões de unidades. Foi descontinuado em 2019.</text>        
+<text lang="it">La PS Vita è una console portatile rilasciata da Sony nel 2011. È il successore della PSP e presenta un touchscreen OLED ad alta risoluzione da 5 pollici, controlli analogici duali, connettività Wi-Fi e 3G e una vasta gamma di funzioni di intrattenimento come riproduttore musicale e video, browser web e telecamere posteriori e anteriori.
+
+La PS Vita consente anche agli utenti di scaricare giochi e app attraverso il PlayStation Store e di giocare online con altri utenti tramite la connettività Wi-Fi o 3G. Nonostante sia una console portatile di alta qualità, non ha avuto tanto successo commerciale quanto altre console Sony e ha venduto solo circa 10 milioni di unità. È stata interrotta nel 2019.</text>        
+<text lang="de">Die PS Vita ist eine tragbare Spielkonsole, die 2011 von Sony veröffentlicht wurde. Sie ist der Nachfolger der PSP und verfügt über einen hochauflösenden 5-Zoll-OLED-Touchscreen, duale analoge Steuerungen, Wi-Fi- und 3G-Konnektivität sowie eine breite Palette an Unterhaltungsfunktionen wie Musik- und Videoplayer, Webbrowser und rückseitige und vordere Kameras.
+
+Die PS Vita ermöglicht es Benutzern auch, Spiele und Apps über den PlayStation Store herunterzuladen und online mit anderen Benutzern über Wi-Fi- oder 3G-Konnektivität zu spielen. Trotz einer qualitativ hochwertigen tragbaren Konsole hatte sie nicht so viel kommerziellen Erfolg wie andere Sony-Konsolen und verkaufte nur etwa 10 Millionen Einheiten. Sie wurde 2019 eingestellt.</text>        
+<text lang="pl">PS Vita to przenośna konsola wydana przez Sony w 2011 roku. Jest następcą PSP i posiada wysokiej rozdzielczości 5-calowy ekran dotykowy OLED, dwie analogowe kontrolery, łączność Wi-Fi i 3G oraz szeroki zakres funkcji rozrywkowych, takich jak odtwarzacz muzyki i wideo, przeglądarka internetowa oraz przednia i tylna kamera.
+
+PS Vita pozwala użytkownikom również pobierać gry i aplikacje przez PlayStation Store oraz grać online z innymi użytkownikami poprzez łączność Wi-Fi lub 3G. Pomimo bycia wysokiej jakości przenośną konsolą, nie odniosła takiego sukcesu komercyjnego jak inne konsolki Sony i sprzedała się tylko w około 10 milionach egzemplarzy. Została wycofana z produkcji w 2019 roku.</text>        
+<text lang="ru">PS Vita - портативная игровая консоль, выпущенная Sony в 2011 году. Она является преемницей PSP и оснащена высоко разрешающим сенсорным OLED-экраном диагональю 5 дюймов, двумя аналоговыми джойстиками, поддержкой Wi-Fi и 3G-сетей, а также обширным набором функций развлечений, включая музыкальный и видеоплеер, браузер и переднюю и заднюю камеры.
+
+Кроме того, PS Vita позволяет пользователям загружать игры и приложения из магазина PlayStation Store и играть онлайн с другими пользователями через Wi-Fi или 3G-соединение. Несмотря на то, что это портативная игровая консоль высокого качества, она не имела такого же коммерческого успеха, как другие консоли Sony, и продана была только около 10 миллионов единиц. Она была прекращена в 2019 году.</text>        
+<text lang="zh">PS Vita 是索尼于2011年发布的掌上游戏机。它是 PSP 的后继产品，拥有高分辨率的5英寸 OLED 触摸屏、双摇杆控制、Wi-Fi 和 3G 连接功能以及丰富的娱乐功能，如音乐和视频播放器、网络浏览器以及前后摄像头等。
+
+PS Vita 还允许用户通过 PlayStation Store 下载游戏和应用程序，并通过 Wi-Fi 或 3G 连接与其他用户在线游戏。尽管是一款高质量的掌上游戏机，但其商业成功并不像其他索尼游戏机那样显著，仅售出约1000万台。它于2019年停产。</text>        
+<text lang="ja">PS Vitaは、2011年にソニーから発売された携帯型ゲーム機です。PSPの後継機種であり、高解像度の5インチOLEDタッチスクリーン、デュアルアナログコントロール、Wi-Fiおよび3G接続機能、音楽やビデオプレイヤー、ウェブブラウザー、前後カメラなどの多彩なエンターテインメント機能が搭載されています。
+
+PS Vitaでは、PlayStation Storeからゲームやアプリをダウンロードし、Wi-Fiまたは3G接続を通じて他のユーザーとオンラインでプレイすることができます。高品質な携帯型ゲーム機であるにもかかわらず、他のソニー製品に比べて商業的成功を収めることはできず、約1000万台しか売れませんでした。2019年には生産中止となりました。</text>        
+		</text>	
+
+
+		<text name="system_name" extra="true">
+			<text>PLayStation Vita</text>
+		</text>
+	</view>
+</theme>

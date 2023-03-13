@@ -3,6 +3,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
 	<formatVersion>7</formatVersion>
+
 	<variables>
 		<theme.welcome>Welcome to Playstation X for</theme.welcome>
 		<theme.start>Start</theme.start>
@@ -31,41 +32,48 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<always>Always</always>
 		<iconset>iconset</iconset>
 		<theme.frontend>Select your favorite frontend</theme.frontend>
-		<gameBar>Show gamebar info</gameBar>
+		<gameBar>Show game info bar</gameBar>
 		<CarouselImageSize>Carousel Image Size</CarouselImageSize>
-		<theme.videoBackground>Show videos in system view</theme.videoBackground>
+		<theme.videoBackground>Show videos in systems view</theme.videoBackground>
 		<theme.system-description>Show System descriptions</theme.system-description>
 		<theme.animated-background>Animated background (waves)</theme.animated-background>
 		<theme.backgroundVideoOption>Background video</theme.backgroundVideoOption>
-		<theme.windowVideoOption>Video window</theme.windowVideoOption>
-		<theme.insideVideoOption>Video inside the tile</theme.insideVideoOption>
+		<theme.windowVideoOption>Window video</theme.windowVideoOption>
+		<theme.insideVideoOption>Inside the tile</theme.insideVideoOption>
 		<theme.smallScreenOption>Small Screen</theme.smallScreenOption>
-		<theme.videoaudio>Enable audio on system videos</theme.videoaudio>
-		<theme.videoRandom>Show Random videosnap</theme.videoRandom>
+		<theme.videoaudio>Enable audio in system videos</theme.videoaudio>
+		<theme.videoRandom>Show Random video snap</theme.videoRandom>
 		<ifnospot>If no system video exist</ifnospot>
 		<theme.Avatar>Choose your Avatar image</theme.Avatar>
 		<theme.username>Choose a Nick</theme.username>
-		<custom>custom</custom>
-		<theme.videoGamelistDelay>Gamelist video delay</theme.videoGamelistDelay>
-		<VideoOff>Video Off</VideoOff>
+		<custom>customized</custom>
+		<theme.videoGamelistDelay>Video delay on game list</theme.videoGamelistDelay>
+		<VideoOff>Don't display video</VideoOff>
 		<theme.systemConsole>Show logo and consoles in system view</theme.systemConsole>
 		<randomGame>Random Game</randomGame>
-		<theme.colorset>Theme Colorset</theme.colorset>
+		<theme.colorset>Theme Color set</theme.colorset>
 		<theme.secondaryColorset>Secondary color</theme.secondaryColorset>
-		<theme.gridorigin>Image source in grid</theme.gridorigin>
-		<theme.gridMainorigin>Main image source in grid view</theme.gridMainorigin>
-		<theme.detailedorigin>Image source in detailed view</theme.detailedorigin>
-		<theme.gridvideo>Show Videosnap in gamelist</theme.gridvideo>
-		<theme.videoSnapAudio>Enable audio on game videosnaps</theme.videoSnapAudio>
+		<theme.gridvideo>Display game videosnaps</theme.gridvideo>
+		<theme.videoSnapAudio>Turn on audio in game videos</theme.videoSnapAudio>
 		<theme.animatedList>Animated transitions in game list</theme.animatedList>
-		<theme.gametime>Show time played info in gamelist</theme.gametime>
 		<theme.animatedSystem>Animated transitions in systems view</theme.animatedSystem>
-		<theme.aspect-ratio>Screen aspect ratio detected (auto)</theme.aspect-ratio>
-		<theme.aspect-ratio if="{screen.ratio} == '0/0'">Select your screen type</theme.aspect-ratio>
-		<theme.aspect-1610>16:10 WXGA (usual in laptops)</theme.aspect-1610>
+		<theme.aspect-ratio >Select your screen type</theme.aspect-ratio>
 		<theme.oversizeVideoOption>Oversize video</theme.oversizeVideoOption>
 		<theme.bato35compatilble>Only compatible in batocera 35 or higher</theme.bato35compatilble>
 		<theme.netplay-required>Please enable netplay to show your username or select another nick in theme options</theme.netplay-required>
 		<theme.ra-required>Please enable retroachievements to show your username or select another nick in theme options</theme.ra-required>
+		<theme.hotkey>Show hotkey help on welcome screen</theme.hotkey>
+		<theme.hotkey-x86>Show hotkey quick help</theme.hotkey-x86>
+		<theme.hotkey.gamesplash>Only on game loading screen</theme.hotkey.gamesplash>
+		<theme.hotkey.splash>Only on welcome screen</theme.hotkey.splash>
+		<theme.hotkey.both>On both screens</theme.hotkey.both>
+		<theme.detected>detected</theme.detected>
+		<theme.detailedorigin>Image in detailed view</theme.detailedorigin>
+		<theme.gridMainorigin>Main image in grid view</theme.gridMainorigin>
+		<theme.gridorigin>Grid images</theme.gridorigin>
+		<theme.carouselMainOrigin>Main image in carousel view</theme.carouselMainOrigin>
+		<theme.carouselOrigin>Carousel images</theme.carouselOrigin>
+		<theme.systemBackground>Background image in systems view</theme.systemBackground>
+		<randomFanart>Random Fanart</randomFanart>
 	</variables>
 </theme>

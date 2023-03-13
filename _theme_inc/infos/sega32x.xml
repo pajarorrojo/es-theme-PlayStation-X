@@ -7,36 +7,26 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>The 32X is an add-on for the Sega Genesis video game console. Codenamed "Project Mars", the 32X was designed to expand the power of the Genesis and serve as a transitional console into the 32-bit.</text>
+			<text lang="es">Mega Drive 32X, también llamada Sega 32X (en América) o Super 32X (en Japón), es un periférico lanzado por Sega en 1994, que ofrecía una ampliación de 32 bits para la consola de 16 bits Sega Mega Drive.</text>
+			<text lang="ca">Mega Drive 32X, també coneguda com a Sega 32X (a Amèrica) o Super 32X (a Japó), és un perifèric llançat per Sega el 1994, que oferia una ampliació de 32 bits per a la consola de 16 bits Sega Mega Drive.</text>        
+			<text lang="eu">Mega Drive 32X, Sega 32X (Ameriketan) edo Super 32X (Japonian) izenekoa, 1994an Sega-k kaleratu zuen periferikoa da, 16 bitko Sega Mega Drive konsolari 32 bitko luzapena eskaintzen zuena.></text>   
+			<text lang="fr">La Sega 32X est une extension de la Mega Drive, console du constructeur japonais Sega. La 32X utilise, indépendamment de la Mega Drive, ses propres cartouches de jeu et dispose d'une ludothèque de quarante jeux.</text>
+			<text lang="pt">Sega 32x é um acessório para o console da Sega, o Mega Drive, Genesis Na América do Norte. O acessório deveria ser inserido na entrada de cartucho do Mega Drive, recebendo cartuchos próprios ou do Mega Drive.</text>
+			<text lang="it">Mega Drive 32X, anche chiamata Sega 32X (in America) o Super 32X (in Giappone), è un dispositivo periferico lanciato da Sega nel 1994, che offriva un'espansione di 32 bit per la console a 16 bit Sega Mega Drive.</text>        
+			<text lang="de">Die Mega Drive 32X, auch Sega 32X (in Amerika) oder Super 32X (in Japan) genannt, ist ein von Sega im Jahr 1994 veröffentlichtes Peripheriegerät, das eine 32-Bit-Erweiterung für die 16-Bit-Konsole Sega Mega Drive bietet.</text>        
+			<text lang="pl">Mega Drive 32X, zwana także Sega 32X (w Ameryce) lub Super 32X (w Japonii), to urządzenie peryferyjne wydane przez Segę w 1994 roku, oferujące rozszerzenie 32 bitowe dla konsoli 16 bitowej Sega Mega Drive.</text>        
+			<text lang="ru">Mega Drive 32X, также называемая Sega 32X (в Америке) или Super 32X (в Японии), - это периферийное устройство, выпущенное компанией Sega в 1994 году, которое предлагало расширение на 32 бита для игровой консоли Sega Mega Drive 16 бит.</text>        
+			<text lang="zh">Mega Drive 32X，也被称为Sega 32X（在美国）或Super 32X（在日本），是由Sega在1994年推出的外围设备，为16位Sega Mega Drive游戏机提供了32位扩展。</text>        
+			<text lang="ja">メガドライブ32X、またはセガ32X（アメリカ）またはスーパー32X（日本）とも呼ばれる、1994年にセガから発売された周辺機器で、16ビットのセガメガドライブのための32ビットの拡張を提供しました。
+			</text>    
 		</text>
 		
-				<text name="system_description" extra="true" lang="es">
-			<text>Mega Drive 32X, también llamada Sega 32X (en América) o Super 32X (en Japón), es un periférico lanzado por Sega en 1994, que ofrecía una ampliación de 32 bits para la consola de 16 bits Sega Mega Drive.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Sega 32X est une extension de la Mega Drive, console du constructeur japonais Sega. La 32X utilise, indépendamment de la Mega Drive, ses propres cartouches de jeu et dispose d'une ludothèque de quarante jeux.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Sega 32x é um acessório para o console da Sega, o Mega Drive, Genesis Na América do Norte. O acessório deveria ser inserido na entrada de cartucho do Mega Drive, recebendo cartuchos próprios ou do Mega Drive.</text>
-		</text>
-		
-
-	
-				
-
 		<text name="system_name" extra="true">
 			<text>Mega Drive 32X</text>
-		</text>
-
-		<text name="system_name" extra="true" region="us">
-			<text>SEGA 32X</text>
-		</text>
-
-		<text name="system_name" extra="true" region="jp">
-			<text>Super 32X</text>
+			<text region="us">SEGA 32X</text>
+			<text region="jp">Super 32X</text>
 		</text>
 	</view>
 	

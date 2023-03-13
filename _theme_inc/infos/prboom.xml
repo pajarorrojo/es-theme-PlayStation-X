@@ -6,24 +6,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>PrBoom is a cross-platform version of the classic 3D first person shooter Doom from id Software. Originally written for Microsoft Windows, PrBoom has since been ported to Linux and many other platforms.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PrBoom es una versión multiplataforma del clásico shooter 3D en primera persona Doom de id Software. Originalmente escrito para Microsoft Windows, PrBoom ha sido portado a Linux y muchas otras plataformas.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>PrBoom est une version multiplateforme du jeu de tir à la première personne 3D classique Doom d'id Software. Initialement écrit pour MS Windows, PrBoom a depuis été porté sur Linux et de nombreuses autres plates-formes.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>PrBoom é uma versão cross-platform do clássico shooter em primeira pessoa da id Software: Doom. Originalmente feita para o Microsoft Windows, PrBoom já foi portado para inúmeras plataformas.</text>
+			<text lang="es,ca,eu">PrBoom es una versión multiplataforma del clásico shooter 3D en primera persona Doom de id Software. Originalmente escrito para Microsoft Windows, PrBoom ha sido portado a Linux y muchas otras plataformas.</text>
+			<text lang="fr">PrBoom est une version multiplateforme du jeu de tir à la première personne 3D classique Doom d'id Software. Initialement écrit pour MS Windows, PrBoom a depuis été porté sur Linux et de nombreuses autres plates-formes.</text>
+			<text lang="pt">PrBoom é uma versão cross-platform do clássico shooter em primeira pessoa da id Software: Doom. Originalmente feita para o Microsoft Windows, PrBoom já foi portado para inúmeras plataformas.</text>
 		</text>
 						
-
 		<text name="system_name" extra="true">
 			<text>PR Boom</text>
 		</text>

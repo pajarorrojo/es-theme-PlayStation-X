@@ -5,35 +5,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-	    
 
 		<text name="system_description" extra="true" >
 			<text>The Watara Supervision, also known as the QuickShot Supervision in the UK, is a monochrome handheld game console, originating from Asia, and introduced in 1992 as a cut-price competitor for Nintendo's Game Boy.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="it" >
-			<text>La Watara Supervision è una console portatile monocromatica presentata nel 1992 ed era un'alternativa a basso costo della console Game Boy. Insieme alla console era incluso un gioco chiamato Crystball, un clone di Breakout.</text>
-		</text>
-
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>Watara Supervision es una consola portátil con pantalla monocromática, originaria de Asia y presentada en 1992 como una competidora barata de la Game Boy de Nintendo.
+			<text lang="es,ca,eu">Watara Supervision es una consola portátil con pantalla monocromática, originaria de Asia y presentada en 1992 como una competidora barata de la Game Boy de Nintendo.
 			
 Fue fabricada por varias empresas en varios países del mundo y con diferentes nombres como QuickShot Supervision, Travell Mate, Hartung SV-100 o Electrolab.		
 			</text>
-		</text>
+			<text lang="pt">O Watara Supervision é um console portátil monocromático, original de Hong Kong, e foi introduzido em 1992 como concorrente do Game Boy.
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O Watara Supervision é um console portátil monocromático, original de Hong Kong, e foi introduzido em 1992 como concorrente do Game Boy.
-
-Foi fabricado por várias empresas com diferentes nomes em vários países do mundo como QuickShot Supervision, Travell Mate, Hartung SV-100, e Electrolab na Argentina.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La Watara Supervision est une console portable monochrome conçue à Hong Kong et introduite en 1992 comme concurrente de la Game Boy. Elle a été distribuée en France par l'entreprise AudioSonic.</text>
+Foi fabricado por várias empresas com diferentes nomes em vários países do mundo como QuickShot Supervision, Travell Mate, Hartung SV-100, e Electrolab na Argentina.
+			</text>
+			<text lang="fr">La Watara Supervision est une console portable monochrome conçue à Hong Kong et introduite en 1992 comme concurrente de la Game Boy. Elle a été distribuée en France par l'entreprise AudioSonic.</text>
+			<text lang="it">La Watara Supervision è una console portatile monocromatica presentata nel 1992 ed era un'alternativa a basso costo della console Game Boy. Insieme alla console era incluso un gioco chiamato Crystball, un clone di Breakout.</text>
 		</text>
 		
-				
 
 		<text name="system_name" extra="true">
 			<text>Watara Supervision</text>

@@ -6,15 +6,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
+			<text name="system_description" extra="true">
 				<text>The Commodore Plus/4 is a home computer released by Commodore International in 1984. The "Plus/4" name refers to the four-application ROM resident office suite (word processor, spreadsheet, database, and graphing); it was billed as "the productivity computer with software built-in." </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El Commodore Plus/4 fue un ordenador personal realizado por Commodore International en 1984. El nombre «Plus/4» hace referencia al paquete de oficina residente en la memoria ROM compuesto por cuatro aplicaciones (procesador de textos, hoja de cálculo, bases de datos, y gráficos); fue anunciado como «el equipo de la productividad con software incorporado». </text>
+				<text lang="es,ca,eu">El Commodore Plus/4 fue un ordenador personal realizado por Commodore International en 1984. El nombre «Plus/4» hace referencia al paquete de oficina residente en la memoria ROM compuesto por cuatro aplicaciones (procesador de textos, hoja de cálculo, bases de datos, y gráficos); fue anunciado como «el equipo de la productividad con software incorporado». </text>
 		</text>
-		
-				
 
 		<text name="system_name" extra="true">
 			<text>Commodore Plus/4</text>

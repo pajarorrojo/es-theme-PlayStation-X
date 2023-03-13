@@ -7,19 +7,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true" >
 			<text>Auto gamelist.</text>
+			<text lang="es,ca,eu">Lista de juegos automática.</text>
 		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.</text>
-	</text>
 
 		<text name="system_name" extra="true">
-			<text>Various</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
-			<text>Varios</text>
+			<text lang="es">Varios</text>
+			<text lang="ca">Diversos</text>
+			<text lang="eu">Hainbat</text>
 		</text>
 	</view>
 </theme>

@@ -1,0 +1,78 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables lang="zh">
+    <theme.welcome>欢迎来到 Playstation X for</theme.welcome>
+    <theme.start>开始</theme.start>
+    <theme.mostplayed>最受欢迎：</theme.mostplayed>
+    <theme.items>物品：</theme.items>
+    <theme.collections>收藏：</theme.collections>
+    <GamesNumber>游戏</GamesNumber>
+    <GamesFavs>收藏</GamesFavs>
+    <NumberPlayed>游玩次数</NumberPlayed>
+    <blue>蓝色</blue>
+    <black>黑色</black>
+    <red>红色</red>
+    <yellow>黄色</yellow>
+    <green>绿色</green>
+    <purple>紫色</purple>
+    <orange>橙色</orange>
+    <pink>粉色</pink>
+    <default>默认</default>
+    <big>大</big>
+    <medium>中</medium>
+    <small>小</small>
+    <yes>是</yes>
+    <no>否</no>
+    <none>无</none>
+    <never>从不</never>
+    <always>始终</always>
+    <iconset>图标集</iconset>
+    <theme.frontend>选择您喜欢的前端</theme.frontend>
+    <gameBar>显示游戏信息栏</gameBar>
+    <CarouselImageSize>轮播图像尺寸</CarouselImageSize>
+    <theme.videoBackground>在系统视图中显示视频</theme.videoBackground>
+    <theme.system-description>显示系统说明</theme.system-description>
+    <theme.animated-background>动画背景（波浪）</theme.animated-background>
+    <theme.backgroundVideoOption>背景视频</theme.backgroundVideoOption>
+    <theme.windowVideoOption>窗口视频</theme.windowVideoOption>
+    <theme.insideVideoOption>在方格内</theme.insideVideoOption>
+    <theme.smallScreenOption>小屏幕</theme.smallScreenOption>
+    <theme.videoaudio>启用系统视频中的音频</theme.videoaudio>
+    <theme.videoRandom>显示随机视频快照</theme.videoRandom>
+    <ifnospot>如果不存在系统视频</ifnospot>
+    <theme.Avatar>选择您的 Avatar 图像</theme.Avatar>
+    <theme.username>选择一个昵称</theme.username>
+    <custom>自定义</custom>
+    <theme.videoGamelistDelay>游戏列表中的视频延迟</theme.videoGamelistDelay>
+    <VideoOff>不显示视频</VideoOff>
+    <theme.systemConsole>在系统视图中显示标志和控制台</theme.systemConsole>
+    <randomGame>随机游戏</randomGame>
+    <theme.colorset>主题颜色设置</theme.colorset>
+    <theme.secondaryColorset>次要颜色</theme.secondaryColorset>
+    <theme.gridvideo>显示游戏视频快照</theme.gridvideo>
+    <theme.videoSnapAudio>在游戏视频中开启音频</theme.videoSnapAudio>
+    <theme.animatedList>游戏列表中的动画过渡效果</theme.animatedList>
+    <theme.animatedSystem>系统视图中的动画过渡效果</theme.animatedSystem>
+    <theme.aspect-ratio>选择您的屏幕类型</theme.aspect-ratio>
+    <theme.oversizeVideoOption>超大视频</theme.oversizeVideoOption>
+    <theme.bato35compatilble>仅适用于batocera 35或更高版本</theme.bato35compatilble>
+    <theme.netplay-required>请启用网络游戏以显示您的用户名或在主题选项中选择其他昵称</theme.netplay-required>
+    <theme.ra-required>请启用Retroachievements以显示您的用户名或在主题选项中选择其他昵称</theme.ra-required>
+    <theme.hotkey>在欢迎屏幕上显示热键帮助</theme.hotkey>
+    <theme.hotkey-x86>显示热键快速帮助</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>仅在游戏加载屏幕上</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>仅在欢迎屏幕上</theme.hotkey.splash>
+    <theme.hotkey.both>在两个屏幕上</theme.hotkey.both>
+    <theme.detected>检测到</theme.detected>
+    <theme.detailedorigin>详细视图中的图像</theme.detailedorigin>
+    <theme.gridMainorigin>网格视图中的主图像</theme.gridMainorigin>
+    <theme.gridorigin>网格图像</theme.gridorigin>
+    <theme.carouselMainOrigin>旋转木马视图中的主图像</theme.carouselMainOrigin>
+    <theme.carouselOrigin>旋转木马图像</theme.carouselOrigin>
+    <theme.systemBackground>系统视图中的背景图片</theme.systemBackground>
+    <randomFanart>随机Fanart</randomFanart>
+  </variables>
+</theme>

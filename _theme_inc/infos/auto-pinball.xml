@@ -10,21 +10,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	
 The simulation of pinball machines has been a popular theme in video games since the beginning of the industry, with titles such as Gee Bee (1978), Cutie Q (1979) or Video Pinball (1980).
 			</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+			<text lang="es,ca,eu">Lista de juegos automática.
 
 El pinball, flipper, petacos, pinbola, pimbola, pímbol, pímbolo, pichilín, balompín, millonseta o milloncete. La simulación de máquinas pinball ha sido una temática popular en los videojuegos desde los inicios de la industria, con titulos como Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980)
+			</text>
 		</text>
-	</text>
 
-		<text name="system_name" extra="true">
-			<text>Pinball</text>
-		</text>
-		<text name="system_name" extra="true" lang="es">
+
+		<text name="system_name" extra="true" lang="es,ca,eu">
 			<text>Pinball</text>
 		</text>
 	</view>

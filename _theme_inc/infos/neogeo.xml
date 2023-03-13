@@ -5,29 +5,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-
-		
-				<text name="system_description" extra="true">
-			<text>Neo Geo is a family of video game hardware developed by SNK. On the market from 1990 to 2004, the brand originated with the release of an arcade system, the MVS and its home console counterpart, the Neo Geo AES.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Neo-Geo es el nombre de un sistema de 16 bits basado en cartuchos para arcades así como videoconsolas para el hogar lanzado en 1990 por la compañía de videojuegos japonesa SNK. La tecnología del sistema ofrecía unos gráficos 2D, y una calidad de sonido muy superiores a la que ofrecían otros sistemas caseros de su época. 
-
-En un principio el sistema Neo-Geo se creó como plataforma para máquinas recreativas, más tarde también estaba disponible como videoconsola doméstica a un precio demasiado elevado para muchos, 700 dólares, y entre 200 y 1000 dólares por cartucho. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Neo-Geo est un système de jeux vidéo pour borne d'arcade compatible JAMMA destiné aux salles d'arcade et créé par la société japonaise SNK en 1990.</text>
-		</text>
-
-				<text name="system_description" extra="true" lang="pt">
-			<text>Neo Geo é uma família da hardware de videogames desenvolvido pela SNK. A marca originou-se com a liberação de um sistema arcade, o Neo Geo MVS e sua contraparte de console doméstico, o Neo Geo AES.</text>
-		</text>
-
-		
-		
-				
+	
+		<text name="system_description" extra="true">
+			<text>Neo-Geo is the name of a 16-bit cartridge-based arcade and home console system, released in 1990 by the Japanese video game company SNK. The system's technology offered 2D graphics and sound quality far superior to that of other home systems of its time, but at a price too high for most, $700, and between $200 and $1000 per cartridge. The console had an impressive game library, with notable titles such as Metal Slug, Samurai Shodown, and The King of Fighters, among others.</text>        
+			<text lang="es">Neo-Geo es el nombre de un sistema de 16 bits basado en cartuchos para arcades y consola doméstica, lanzado en 1990 por la compañía de videojuegos japonesa SNK. La tecnología del sistema ofrecía unos gráficos 2D y una calidad de sonido muy superiores a la que ofrecían otros sistemas caseros de su época, pero a un precio demasiado elevado para la mayoría, 700 dólares, y entre 200 y 1000 dólares por cartucho. La consola tenía una biblioteca de juegos impresionante, con títulos notables como Metal Slug, Samurai Shodown y The King of Fighters, entre otros.</text>        
+			<text lang="ca">Neo-Geo és el nom d'un sistema de 16 bits basat en cartutxos per a arcades i consola domèstica, llançat el 1990 per la companyia de videojocs japonesa SNK. La tecnologia del sistema oferia uns gràfics 2D i una qualitat de so molt superiors a la que oferien altres sistemes casolans de la seva època, però a un preu massa elevat per a la majoria, 700 dòlars, i entre 200 i 1000 dòlars per cartutx. La consola tenia una biblioteca de jocs impressionant, amb títols notables com Metal Slug, Samurai Shodown i The King of Fighters, entre altres.</text>        
+			<text lang="eu">Neo-Geo 16 bitezko kartutxoetan oinarritutako sistema da, arcades eta etxeko konsoletarako, 1990ean SNK japonsko bideo-joko enpresak berritu zuen. Sistema teknologiak 2D grafikak eta abar dituen soinu kalitatea eskaini zuen, bere garaiaren beste sistema etxekoetan baino hobeak, baina garestiagoa, 700 dolar, eta kartutxo bakoitzeko 200 eta 1000 dolar artekoa. Konsolak liburu joko impresionagarri bat zuen, Metal Slug, Samurai Shodown eta The King of Fighters bezalako izenburu nabarmenekin.</text>        
+			<text lang="fr">Neo-Geo est le nom d'un système de 16 bits basé sur des cartouches pour les salles d'arcade et les consoles de salon, lancé en 1990 par la société japonaise de jeux vidéo SNK. La technologie du système offrait une qualité graphique 2D et sonore bien supérieure à celle des autres systèmes de salon de l'époque, mais à un prix trop élevé pour la plupart des gens, 700 dollars, et entre 200 et 1000 dollars par cartouche. La console avait une impressionnante bibliothèque de jeux, avec des titres remarquables tels que Metal Slug, Samurai Shodown et The King of Fighters, entre autres.</text>        
+			<text lang="pt">Neo-Geo é o nome de um sistema de 16 bits baseado em cartuchos para arcades e consoles domésticos, lançado em 1990 pela empresa japonesa de jogos eletrônicos SNK. A tecnologia do sistema oferecia gráficos 2D e qualidade de som muito superiores às oferecidas por outros sistemas caseiros da época, mas a um preço muito elevado para a maioria, 700 dólares, e entre 200 e 1000 dólares por cartucho. O console tinha uma biblioteca impressionante de jogos, com títulos notáveis como Metal Slug, Samurai Shodown e The King of Fighters, entre outros.</text>        
+			<text lang="it">Neo-Geo è il nome di un sistema a cartucce a 16 bit per arcade e console domestica, lanciato nel 1990 dalla società giapponese di videogiochi SNK. La tecnologia del sistema offriva grafica 2D e qualità del suono molto superiori a quelle offerte da altri sistemi domestici dell'epoca, ma a un prezzo troppo elevato per la maggior parte delle persone, 700 dollari, e tra 200 e 1000 dollari per cartuccia. La console aveva una biblioteca di giochi impressionante, con titoli notevoli come Metal Slug, Samurai Shodown e The King of Fighters, tra gli altri.</text>        
+			<text lang="de">Neo-Geo ist der Name eines 16-Bit-Kartuschen-basierten Arcade- und Heimkonsolensystems, das 1990 von dem japanischen Videospielunternehmen SNK veröffentlicht wurde. Die Technologie des Systems bot 2D-Grafik und Soundqualität, die weit über der anderer Heimsysteme ihrer Zeit lag, aber zu einem zu hohen Preis für die meisten Menschen, 700 US-Dollar, und zwischen 200 und 1000 US-Dollar pro Kartusche. Die Konsole hatte eine beeindruckende Spielebibliothek, mit bemerkenswerten Titeln wie Metal Slug, Samurai Shodown und The King of Fighters, unter anderem.</text>        
+			<text lang="pl">Neo-Geo to nazwa 16-bitowego systemu opartego na kartridżach dla salonów arcade i konsol domowych, wydanego w 1990 roku przez japońską firmę gier wideo SNK. Technologia systemu oferowała grafikę 2D i jakość dźwięku znacznie przewyższającą inne domowe systemy swojej epoki, ale po zbyt wysokiej cenie dla większości ludzi, 700 dolarów, i między 200 a 1000 dolarów za kartridż. Konsola miała imponującą bibliotekę gier, z wartościowymi tytułami, takimi jak Metal Slug, Samurai Shodown i The King of Fighters, między innymi.</text>        
+			<text lang="ru">Neo-Geo - это название 16-битной системы на основе картриджей для аркад и домашних консолей, выпущенной в 1990 году японской компанией по производству видеоигр SNK. Технология системы предлагала графику 2D и качество звука, превосходящие другие домашние системы ее времени, но по слишком высокой цене для большинства людей, 700 долларов, и между 200 и 1000 долларов за картридж. Консоль имела впечатляющую игровую библиотеку, с заметными заголовками, такими как Metal Slug, Samurai Shodown и The King of Fighters, среди других.</text>        
+			<text lang="zh">Neo-Geo是一种基于16位卡带的街机和家用游戏机系统的名称，由日本视频游戏公司SNK于1990年发布。该系统的技术提供了2D图形和音质，远高于当时其他家用系统的水平，但价格对大多数人来说过高，为700美元，每个卡带的价格在200到1000美元之间。该控制台拥有令人印象深刻的游戏图书馆，其中包括Metal Slug、Samurai Shodown和The King of Fighters等显着的标题。</text>        
+			<text lang="ja">Neo-Geoは、1990年に日本のビデオゲーム会社SNKによって発売された、カートリッジベースのアーケードと家庭用ゲームシステムの名称です。システムの技術は、2Dグラフィックと音声品質を提供し、その当時の他の家庭用システムよりもはるかに優れていましたが、多くの人にとって価格が高すぎました。1台700ドル、カートリッジあたり200ドルから1000ドルの間です。コンソールには、Metal Slug、Samurai Shodown、The King of Fightersなどの注目すべきタイトルを含む、素晴らしいゲームライブラリがありました。</text>        
+		</text>	
 
 		<text name="system_name" extra="true">
 			<text>Neo-Geo</text>

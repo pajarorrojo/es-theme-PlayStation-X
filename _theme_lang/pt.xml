@@ -1,67 +1,80 @@
 ﻿<!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
+
+Translation thanks to Janderson
 -->
 <theme>
   <formatVersion>7</formatVersion>
   <variables lang="pt">
     <theme.welcome>Bem-vindo ao Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
-    <theme.mostplayed>Mais jogado:</theme.mostplayed>
+    <theme.mostplayed>O mais jogado:</theme.mostplayed>
     <theme.items>Número de elementos:</theme.items>
     <theme.collections>Número de coleções:</theme.collections>
     <GamesNumber>Jogos</GamesNumber>
     <GamesFavs>Favoritos</GamesFavs>
     <NumberPlayed>Jogados</NumberPlayed>
-    <big>grande</big>
-    <medium>médio</medium>
-    <small>pequeno</small>
     <blue>Azul</blue>
     <black>Preto</black>
     <red>Vermelho</red>
     <yellow>Amarelo</yellow>
     <green>Verde</green>
-    <purple>Roxa</purple>
+    <purple>Roxo</purple>
     <orange>Laranja</orange>
     <pink>Rosa</pink>
-    <default>Predefinição</default>
+    <default>Padrão</default>
+    <big>Grande</big>
+    <medium>Médio</medium>
+    <small>Pequeno</small>
     <yes>Sim</yes>
     <no>Não</no>
-    <never>Nunca</never>
     <none>Nenhum</none>
+    <never>Nunca</never>
     <always>Sempre</always>
-    <iconset>Iconset</iconset>
+    <iconset>Tipo de ícones e botões</iconset>
     <theme.frontend>Selecione seu frontend favorito</theme.frontend>
-    <gameBar>Barra de informações do jogo</gameBar>
-    <CarouselImageSize>Tamanho da imagem do carrossel</CarouselImageSize>
-    <theme.videoBackground>Mostrar vídeos na visualização do sistema</theme.videoBackground>
-    <theme.system-description>Mostrar descrições do sistema</theme.system-description>
+    <gameBar>Mostrar barra de informações do jogo</gameBar>
+    <CarouselImageSize>Tamanho de imagens do carrossel</CarouselImageSize>
+    <theme.videoBackground>Mostrar vídeos na visualização de sistemas</theme.videoBackground>
+    <theme.videoRandom>Mostrar vídeo de jogo aleatório</theme.videoRandom>
+    <ifnospot>Se não houver vídeo do sistema</ifnospot>
+    <theme.system-description>Mostrar descrições de sistemas</theme.system-description>
     <theme.animated-background>Fundo animado (ondas)</theme.animated-background>
     <theme.backgroundVideoOption>Vídeo de fundo</theme.backgroundVideoOption>
+    <theme.windowVideoOption>Vídeo na janela</theme.windowVideoOption>
+    <theme.insideVideoOption>Dentro da grade</theme.insideVideoOption>
     <theme.smallScreenOption>Janela pequena</theme.smallScreenOption>
-    <theme.videoaudio>Habilitar áudio para vídeos do sistema</theme.videoaudio>
-    <theme.videoRandom>Mostrar video aleatório </theme.videoRandom>
-    <ifnospot>Se não houver vídeo do sistema</ifnospot>
-    <theme.Avatar>Escolha o seu Avatar</theme.Avatar>
-    <theme.username>Escolha um Nickname</theme.username>
+    <theme.videoaudio>Ativar áudio nos vídeos dos sistemas</theme.videoaudio>
+    <theme.Avatar>Escolha sua imagem de avatar</theme.Avatar>
+    <theme.username>Escolha um apelido</theme.username>
     <custom>Personalizado</custom>
-    <theme.videoGamelistDelay>Atraso de vídeo da lista de jogos</theme.videoGamelistDelay>
-    <VideoOff>Video Off</VideoOff>
-    <theme.systemConsole>logotipo e consoles na visualização do sistema?</theme.systemConsole>
-    <randomGame>jogo aleatório</randomGame>
-    <theme.colorset>Esquemas de cores</theme.colorset>
-    <theme.gridMainorigin>Fonte da imagem principal em modo de grade</theme.gridMainorigin>
-    <theme.gridorigin>Fonte da imagem na grade</theme.gridorigin>
-    <theme.detailedorigin>Fonte da imagem em visão detalhada</theme.detailedorigin>
-    <theme.gridvideo>Mostrar vídeosnap</theme.gridvideo>
-    <theme.videoSnapAudio>Habilitar áudio para videosnap</theme.videoSnapAudio>
-    <theme.animatedList>Transição da lista de jogos animada</theme.animatedList>
-    <theme.gametime>Mostrar informações de tempo de jogo</theme.gametime>
-    <theme.animatedSystem>Transição da lista de sistema animado</theme.animatedSystem>
-    <theme.aspect-ratio>Tipo de tela detectado (auto)</theme.aspect-ratio>
-    <theme.aspect-ratio if="{screen.ratio} == '0/0'">Selecione o tipo de tela</theme.aspect-ratio>
-    <theme.aspect-1610>16:10 WXGA (normal em laptops antigos)</theme.aspect-1610>
-    <theme.bato35compatilble>Compatível apenas em batocera 35 ou superior</theme.bato35compatilble>
-    <theme.netplay-required>Ative netplay para mostrar seu nome de usuário ou selecione outro nick nas opções de tema</theme.netplay-required>
-    <theme.ra-required>Ative retroachievements para mostrar seu nome de usuário ou selecione outro nick nas opções de tema</theme.ra-required>
+    <theme.videoGamelistDelay>Atraso do vídeo na lista de jogos</theme.videoGamelistDelay>
+    <VideoOff>Não mostrar vídeo</VideoOff>
+    <theme.systemConsole>Mostrar console e logo na visualização de sistemas</theme.systemConsole>
+    <randomGame>Jogo aleatório</randomGame>
+    <theme.colorset>Cor do tema</theme.colorset>
+    <theme.secondaryColorset>Cor secundária</theme.secondaryColorset>
+    <theme.gridvideo>Mostrar vídeos de jogos</theme.gridvideo>
+    <theme.videoSnapAudio>Ativar áudio nos vídeos dos jogos</theme.videoSnapAudio>
+    <theme.animatedList>Transições animadas na lista de jogos</theme.animatedList>
+    <theme.animatedSystem>Transições animadas na lista de sistemas</theme.animatedSystem>
+    <theme.aspect-ratio>Selecione o seu tipo de tela</theme.aspect-ratio>
+    <theme.oversizeVideoOption>Vídeo sobreposto</theme.oversizeVideoOption>
+    <theme.bato35compatilble>Apenas compatível com batocera 35 ou superior</theme.bato35compatilble>
+    <theme.netplay-required>Ative o netplay no sistema para mostrar o seu nome de usuário ou selecione outro apelido nas opções do tema</theme.netplay-required>
+    <theme.ra-required>Ative as retroachievements no sistema para mostrar o seu nome de usuário ou selecione outro apelido nas opções do tema</theme.ra-required>
+    <theme.hotkey>Mostrar ajuda hotkey na tela de boas-vindas</theme.hotkey>
+    <theme.hotkey-x86>Mostrar ajuda rápida hotkey</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>Apenas na tela de carregamento do jogo</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>Apenas na tela de boas-vindas</theme.hotkey.splash>
+    <theme.hotkey.both>Em ambas as telas</theme.hotkey.both>
+    <theme.detected>detectada</theme.detected>
+    <theme.detailedorigin>Imagem em visualização detalhada</theme.detailedorigin>
+    <theme.gridMainorigin>Imagem principal em visualização de grade</theme.gridMainorigin>
+    <theme.gridorigin>Imagens da grade</theme.gridorigin>
+    <theme.carouselMainOrigin>Imagem principal em visualização de carrossel</theme.carouselMainOrigin>
+    <theme.carouselOrigin>Imagens do carrossel</theme.carouselOrigin>
+    <theme.systemBackground>Imagem de fundo na visualização de sistemas</theme.systemBackground>
+    <randomFanart> Fanart Aleatória </randomFanart>
   </variables>
 </theme>

@@ -7,16 +7,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 	
 		<text name="system_description" extra="true">
-<text>The Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. in 1979 as the Atari 400 and Atari 800 based on the MOS Technology 6502 CPU. Various versions of the same basic design would be released over the next decade, but remained largely identical internally. These included the original Atari 400 and 800, and their successors, the XL and XE series.</text>
+			<text>The Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. in 1979 as the Atari 400 and Atari 800 based on the MOS Technology 6502 CPU. Various versions of the same basic design would be released over the next decade, but remained largely identical internally. These included the original Atari 400 and 800, and their successors, the XL and XE series.</text>
+			<text lang="es,ca,eu">A partir de 1979, Atari construyó una serie de ordenadores personales de 8 bits basados en el CPU 6502 de MOS Technology. Durante la siguiente década serían lanzadas varias versiones del mismo diseño básico, pero seguían siendo en gran parte idénticos internamente. Estos incluyeron el original Atari 400 y el 800, y sus sucesores, la serie XL y XE.</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>A partir de 1979, Atari construyó una serie de ordenadores personales de 8 bits basados en el CPU 6502 de MOS Technology. Durante la siguiente década serían lanzadas varias versiones del mismo diseño básico, pero seguían siendo en gran parte idénticos internamente. Estos incluyeron el original Atari 400 y el 800, y sus sucesores, la serie XL y XE.</text>
-		</text>
-
-
-				
-		
 		<text name="system_name" extra="true">
 			<text>Atari (8 Bits)</text>
 		</text>

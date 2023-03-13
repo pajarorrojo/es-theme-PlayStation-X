@@ -13,11 +13,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <menuGroupSeparator>3CAEFB</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>003791</menubgColor>
-      <backgroundgrid>00379180</backgroundgrid>
-      <backgroundgridSelect ifSubset="secondary_colorset:default">F3C300</backgroundgridSelect>
+      <backgroundgrid>2E6DB4</backgroundgrid>
+      <backgroundgridSelect ifSubset="secondary_colorset:default">F3C30060</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
-      <gamelistSelectorColor ifSubset="secondary_colorset:default">0070d1</gamelistSelectorColor>
+      <gamelistSelectorColor ifSubset="secondary_colorset:default">F3C300</gamelistSelectorColor>
       <helpFontColor>DFDCDC</helpFontColor>
       <helpIconColor>DFDCDC</helpIconColor>
       <developerColor>00AC97</developerColor>

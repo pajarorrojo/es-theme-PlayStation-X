@@ -1,0 +1,24 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Final Fantasy (ファイナルファンタジー Fainaru Fantajī?) is a franchise owned by Square Enix (formerly known as Squaresoft). The series focuses on a fantasy and science fiction setting in the RPG video game genre. It began in 1987 with the eponymous game, developed by Hironobu Sakaguchi as the last attempt in his career; hence the title: Final Fantasy. The game was a complete success and the series continues until the present.
+
+Final Fantasy primary installments are generally stand-alone anthology series of role-playing games, each with different settings, plots and main characters, but the franchise is linked by several recurring elements, including game mechanics and recurring character names.
+			</text>
+			<text lang="es,ca,eu">Final Fantasy (ファイナルファンタジー Fainaru Fantajī?) es una franquicia propiedad de Square Enix (antes conocida como Squaresoft). Los juegos se desarrollan en un entorno de fantasía y ciencia ficción normalmente en el género RPG. Comenzó en 1987 con el juego homónimo, desarrollado por Hironobu Sakaguchi como último intento en su carrera; de ahí el título: Fantasía Final. El juego fue todo un éxito y la serie continua hasta nuestros días.
+
+Aunque la mayoría de las entregas de la serie son historias propias con diferentes personajes y escenarios, existen ciertos temas recurrentes que definen a la franquicia. Algunos de estos temas incluyen elementos argumentales, nombres de personajes y mecánicas de jugabilidad.
+			</text>
+		</text>
+		
+		<text name="system_name" extra="true">
+			<text>Final Fantasy</text>
+		</text>
+	</view>
+</theme>

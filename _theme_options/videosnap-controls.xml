@@ -17,10 +17,35 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>99</zIndex>
          <effect>none</effect>
          <loops>1</loops>
+
+      </video>
+
+      <video ifSubset="game-video:window|inside" name="md_video">
+         <!-- <default>./../_theme_options/colorsets/blue/background-psx-blue.mp4</default> -->
+         <pos>0.760 0.405</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.760 0.345</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.760 0.343</pos>
+
+
+         <maxSize>0.42 0.565</maxSize>
+         <maxSize ifSubset="aspect-ratio:4-3">0.42 0.425</maxSize>
+         <maxSize ifSubset="aspect-ratio:5-4">0.418 0.4</maxSize>
+
+      </video>
+
+      <video ifSubset="game-video:background" name="md_video">
+         <zIndex>40</zIndex>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <origin>0 0</origin>
+         <storyboard>
+            <animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+         </storyboard>
+         <loops>1</loops>
       </video>
    </view>
 
-      <view name="grid">
+      <view name="grid,carousel">
          <video name="md_video" ifSubset="game-video:window|oversize|background">
             <delay ifSubset="video-gamelist-delay:0sec">0.001</delay>
             <delay ifSubset="video-gamelist-delay:05sec">0.5</delay>
@@ -34,34 +59,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <loops>1</loops>
          </video>
 
-      </view>
-
-      <view name="basic, detailed">
-
-         <video ifSubset="game-video:window|inside" name="md_video">
-            <!-- <default>./../_theme_options/colorsets/blue/background-psx-blue.mp4</default> -->
-            <pos>0.760 0.405</pos>
-            <pos ifSubset="aspect-ratio:4-3|5-4">0.760 0.38</pos>
-            <maxSize>0.42 0.56</maxSize>
-            <maxSize ifSubset="aspect-ratio:4-3|5-4">0.42 0.5</maxSize>
-         </video>
-
-         <video ifSubset="game-video:background" name="md_video">
-            <zIndex>40</zIndex>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <origin>0 0</origin>
-            <storyboard>
-               <animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-            </storyboard>
-            <loops>1</loops>
-         </video>
-      </view>
-
-      <view name="grid">
          <video ifSubset="game-video:window" name="md_video">
             <pos>0.154 0.3</pos>
-            <maxSize>0.27 0.33</maxSize>
+            <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
+            <maxSize>0.258 0.338</maxSize>
+            <maxSize ifSubset="aspect-ratio:4-3|5-4">0.278 0.338</maxSize>
+
          </video>
 
          <video ifSubset="game-video:background" name="md_video">
@@ -80,11 +83,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <showVideoAtDelay ifSubset="video-gamelist-delay:1sec">1000</showVideoAtDelay>
             <showVideoAtDelay ifSubset="video-gamelist-delay:2sec">2000</showVideoAtDelay>
             <showVideoAtDelay ifSubset="video-gamelist-delay:3sec">3000</showVideoAtDelay>
+            <effect>none</effect>
             <audio ifSubset="videosnap-audio:disabled">false</audio>
 
          </imagegrid>
 
       </view>
+
+
 
       <view name="basic, detailed, grid">
          <video ifSubset="game-video:oversize" name="md_video">
