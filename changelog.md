@@ -20,7 +20,7 @@ Version 36 (14/03/2023)
    - Trophy picto to open the retroachievements window
    - Two faces picto to open the netplay window
    - Diskette icon in gamelist to open the savestate manager
-   -Controller icon (players) to open the game options
+   - Controller icon (players) to open the game options
 - New: Added a new view in the game list called "carousel", configurable with any type of image (thumbnail, image, marquee, cartridge, boxart, fanart) and customizable per system. Also now the classic grid view does not automatically change the layout to "fake carousel", when displaying media like thumnail or boxart
 - New: Added hotkey quick help guide buttons on welcome and game splash screens. Optional from theme config. (Note: game splash only compatible with Pc boards)
 - New subset of options for the background image in systems view, options are:
