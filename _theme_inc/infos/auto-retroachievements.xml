@@ -6,12 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		
 		<text name="system_description" extra="true" >
 			<text>An automatic list of all Retroachivements compatible games available on the system.</text>
-			<text lang="es,ca,eu">Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
+			<text lang="es">Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
+			<text lang="ca">Una llista de tots els jocs compatibles amb 'Retroachievements' disponibles en el sistema.</text>
+			<text lang="eu">'Retroachievements' sistemako erabilgarri dauden joko guztien zerrenda.</text>
 			<text lang="fr">Une liste de tous les jeux compatibles avec Retroachivements disponibles sur le système.</text>
 			<text lang="pt">Uma lista automática de todos os jogos compatíveis com Retroachivements disponíveis no sistema. </text>
+			<text lang="it">Un elenco di tutti i giochi compatibili con 'Retroachievements' disponibili nel sistema.</text>
+			<text lang="de">Eine Liste aller Spiele, die mit 'Retroachievements' auf dem System kompatibel sind.</text>
+			<text lang="pl">Lista wszystkich gier kompatybilnych z 'Retroachievements' dostępnych w systemie.</text>
+			<text lang="ru">Список всех игр, совместимых с 'Retroachievements', доступных в системе.</text>
+			<text lang="zh">一个列出所有在该系统上与“Retroachievements”兼容的游戏的列表。</text>
+			<text lang="ja">'Retroachievements'に対応したすべてのゲームのリスト。</text>
 		</text>
 
 		<text name="system_name" extra="true" >

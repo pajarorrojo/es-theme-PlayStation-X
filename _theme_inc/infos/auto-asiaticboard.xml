@@ -6,19 +6,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-They are basically mahjong games and variants of this classic Chines board game.</text>
-
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.</text>
-		</text>
-
-		<text name="system_name" extra="true">
-			<text lang="es">Juegos de mesa asiáticos</text>
-			<text lang="ca">Jocs de taula asiàtics</text>
-			<text lang="eu">Asiatiko mahai jokoak</text>
+			<text>They are basically mahjong games and variants of this classic Chines board game.</text>
+			<text lang="es">Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.</text>
+			<text lang="ca">Bàsicament són jocs de mahjong i variants d'aquest clàssic joc de taula d'origen xinès.</text>
+			<text lang="eu">Oinezko joko klasiko txinarraren mahjong jokoak eta aldaketak dira funtsezki.</text>
+			<text lang="fr">Essentiellement, ce sont des jeux de mahjong et des variantes de ce jeu de plateau classique d'origine chinoise.</text>
+			<text lang="pt">Basicamente, são jogos de mahjong e variações deste jogo de tabuleiro clássico de origem chinesa.</text>
+			<text lang="it">In pratica, si tratta di giochi di mahjong e varianti di questo classico gioco da tavolo di origine cinese.</text>
+			<text lang="de">Im Grunde sind es Mahjong-Spiele und Varianten dieses klassischen chinesischen Brettspiels.</text>
+			<text lang="pl">Są to w zasadzie gry Mahjong i ich warianty, tego klasycznego chińskiego gry planszowej.</text>
+			<text lang="ru">В основном это игры маджонга и его варианты, классической китайской настольной игры.</text>
+			<text lang="zh">基本上它们是麻将游戏和这个源自中国的经典桌游的变种。</text>
+			<text lang="ja">基本的には、麻雀のゲームと、この中国のクラシックなボードゲームのバリエーションです。</text>
 		</text>
 	
 	</view>

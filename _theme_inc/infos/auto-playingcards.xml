@@ -6,20 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-In this list you will find classic card games, especially poker games in their many variations. It also includes any type of game that uses cards for its performance, such as role-playing, casual, collectible, etc...			
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-En esta lista encontrarás juegos de cartas clásicos, sobretodo de poker en sus muchas variantes. También se incluye cualquier tipo de juego que utilice cartas para su desarrollo, ya sean del tipo rol, casual, coleccionables  etc...
-			</text>
+			<text>In this list you will find classic card games, especially poker games in their many variations. It also includes any type of game that uses cards for its performance, such as role-playing, casual, collectible, etc...</text>
+			<text lang="es">En esta lista encontrarás juegos de cartas clásicos, sobretodo de poker en sus muchas variantes. También se incluye cualquier tipo de juego que utilice cartas para su desarrollo, ya sean del tipo rol, casual, coleccionables  etc...</text>
+			<text lang="ca">En aquesta llista trobaràs jocs de cartes clàssics, especialment jocs de pòquer en les seves moltes variants. També inclou qualsevol tipus de joc que utilitzi cartes per al seu funcionament, com ara jocs de rol, casuals, col·leccionables, etc...</text>
+			<text lang="eu">Kartako joko klasikoak, bere anitzetako poker jokoak batez ere, aurkituko dituzu zerrenda honetan. Kartak erabiltzen dituzten jokoen mota guztiak ere barne hartzen ditu, hala nola rol-jokoak, casual, bildagarriak, eta abar...</text>
+			<text lang="fr">Dans cette liste, vous trouverez des jeux de cartes classiques, en particulier des jeux de poker dans leurs nombreuses variantes. Il comprend également tout type de jeu qui utilise des cartes pour sa performance, tels que des jeux de rôle, des jeux occasionnels, collectionnables, etc...</text>
+			<text lang="pt">Nesta lista, você encontrará jogos de cartas clássicos, especialmente jogos de pôquer em suas muitas variações. Ele também inclui qualquer tipo de jogo que use cartas para seu desempenho, como jogos de RPG, casuais, colecionáveis, etc...</text>
+			<text lang="it">In questa lista troverai giochi di carte classici, soprattutto giochi di poker nelle loro molte varianti. Include anche qualsiasi tipo di gioco che utilizza le carte per le sue prestazioni, come giochi di ruolo, casuali, collezionabili, ecc...</text>
+			<text lang="de">In dieser Liste finden Sie klassische Kartenspiele, insbesondere Pokerspiele in ihren vielen Variationen. Es umfasst auch jeden Typ von Spiel, das Karten für seine Leistung verwendet, wie Rollenspiele, Casual-, Sammelkartenspiele usw...</text>
+			<text lang="pl">Na tej liście znajdziesz klasyczne gry karciane, zwłaszcza gry pokera w ich wielu wariantach. Zawiera również każdy typ gry, który wykorzystuje karty do swojego działania, takie jak gry fabularne, casualowe, kolekcjonerskie, itp...</text>
+			<text lang="ru">В этом списке вы найдете классические карточные игры, особенно игры в покер в их многих вариантах. Он также включает любой тип игры, который использует карты для своей производительности, такой как ролевые игры, игры для отдыха, коллекционные и т. д...</text>
+			<text lang="zh">在此列表中，您将找到经典的纸牌游戏，特别是在它们的众多变化中的扑克游戏。它还包括任何类型的使用卡牌进行表演的游戏，例如角色扮演游戏，休闲游戏，收藏品等...</text>
+			<text lang="ja">このリストには、特に多数のバリエーションを持つポーカーゲームを含む古典的なカードゲームが含まれています。また、カードを使用してパフォーマンスを行うあらゆるタイプのゲーム、例えばロールプレイング、カジュアル、コレクタブルなども含まれます...</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Cartas</text>
-			<text lang="ca">Cartes</text>
-			<text lang="eu">Kartak</text>
-		</text>
 	</view>
 </theme>

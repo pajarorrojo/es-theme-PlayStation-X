@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true" >
-			<text lang="en">DAPHNE is a free laserdisc game emulator that allows you to play arcade laserdisc games like Dragon's Lair, Space Ace, Astron Belt, and many more.</text>			
+			<text>DAPHNE is a free laserdisc game emulator that allows you to play arcade laserdisc games like Dragon's Lair, Space Ace, Astron Belt, and many more.</text>			
 			<text lang="es">DAPHNE es un emulador de juegos de disco láser gratuito que permite jugar a juegos de arcade laserdisc, como Dragon's Lair, Space Ace, Astron Belt y muchos más.</text>
 			<text lang="ca">DAPHNE és un emulador de jocs de disc làser gratuït que permet jugar a jocs d'arcade laserdisc, com ara Dragon's Lair, Space Ace, Astron Belt i molts més.</text>			
 			<text lang="eu">DAPHNE laserdiskoa jokoetarako doako emuladorea da, Dragon's Lair, Space Ace, Astron Belt eta hainbat beste laserdisc arcade joko jolastu ahal izateko.</text>			
@@ -16,7 +16,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="it">DAPHNE è un emulatore di giochi laserdisc gratuito che consente di giocare a giochi laserdisc arcade come Dragon's Lair, Space Ace, Astron Belt e molti altri.</text>
 			<text lang="de">DAPHNE ist ein kostenloser Laserdisc-Spieleemulator, mit dem man Laserdisc-Arcadespiele wie Dragon's Lair, Space Ace, Astron Belt und viele weitere spielen kann.</text>			<text lang="pl">DAPHNE to darmowy emulator gier laserdisc, który umożliwia grę w gry laserdisc arcade, takie jak Dragon's Lair, Space Ace, Astron Belt i wiele innych.</text>
 			<text lang="ru">DAPHNE - бесплатный эмулятор игр на лазерных дисках, который позволяет играть в аркадные игры на лазерных дисках, такие как Dragon's Lair, Space Ace, Astron Belt и многие другие.</text>
-			<text lang="zh-CN">DAPHNE 是一个免费的激光光盘游戏模拟器，可以让您玩街机激光光盘游戏，如龙之谷、太空王牌、星际皇后等。</text>
+			<text lang="zh">DAPHNE 是一个免费的激光光盘游戏模拟器，可以让您玩街机激光光盘游戏，如龙之谷、太空王牌、星际皇后等。</text>
 			<text lang="ja">DAPHNEは、Dragon's Lair、Space Ace、Astron Beltなどのアーケードレーザーディスクゲームをプレイできる無料のレーザーディスクゲームエミュレータです。</text>		
 		</text>
 

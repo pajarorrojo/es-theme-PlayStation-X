@@ -6,20 +6,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true">
-			<text>Auto gamelist.
-
-An educational video game is a video game that provides learning or training value to the player. Edutainment describes an intentional merger of video games and educational software into a single product (and could therefore also comprise more serious titles sometimes described under children's learning software).
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Un videojuego educativo es un material multimedia interactivo por medio del que se puede aprender uno o varios temas. La idea ha tomado fuerza en el siglo XXI bajo diversos términos como Game-Based Learning, edutainment o applied games. 
-			</text>
-		</text>
-
-		<text name="system_name" extra="true">
-			<text lang="es">Educativos</text>
-			<text lang="ca">Educatius</text>
-			<text lang="eu">Heziketa</text>
+			<text>Video games that focus on teaching skills, knowledge, and concepts. They are usually designed for different age groups and/or skill levels. In addition, they can use different gameplay mechanics to achieve their educational objectives, such as questions and answers, puzzles, simulations, and more.</text>
+			<text lang="es">Videojuegos que se centran en enseñar habilidades, conocimientos y conceptos. Suelen estar diseñados para diferentes grupos de edad y/o niveles de habilidad. Además, pueden utilizar diferentes mecánicas de juego para lograr sus objetivos educativos, como preguntas y respuestas, rompecabezas, simulaciones y más.</text>
+			<text lang="ca">Videojocs que es centren en ensenyar habilitats, coneixements i conceptes. Solen estar dissenyats per a diferents grups d'edat i/o nivells d'habilitat. A més, poden utilitzar diferents mecàniques de joc per aconseguir els seus objectius educatius, com ara preguntes i respostes, trencaclosques, simulacions i més.</text>
+			<text lang="eu">Joko bideoak trebetasunak, ezagutzak eta kontzeptuak irakasten duten jokoak dira. Normaltasun nabarmen batzuei egokituta daude, eta jokalariek ahalmen maila ezberdinetan daude. Gainera, jolas mekanika ezberdinak erabil ditzakete helburu didaktikoak lortzeko, hala nola galderak eta erantzunak, puzzle-ak, simulazioak eta abar.</text>
+			<text lang="fr">Jeux vidéo axés sur l'enseignement de compétences, de connaissances et de concepts. Ils sont généralement conçus pour différents groupes d'âge et/ou niveaux de compétence. De plus, ils peuvent utiliser différentes mécaniques de jeu pour atteindre leurs objectifs éducatifs, comme des questions-réponses, des puzzles, des simulations et plus encore.</text>
+			<text lang="pt">Jogos eletrônicos que se concentram em ensinar habilidades, conhecimentos e conceitos. Eles geralmente são projetados para diferentes grupos etários e/ou níveis de habilidade. Além disso, eles podem utilizar diferentes mecânicas de jogo para atingir seus objetivos educacionais, como perguntas e respostas, quebra-cabeças, simulações e muito mais.</text>
+			<text lang="it">Videogiochi che si concentrano nell'insegnamento di abilità, conoscenze e concetti. Sono solitamente progettati per diversi gruppi di età e/o livelli di abilità. Inoltre, possono utilizzare diverse meccaniche di gioco per raggiungere i loro obiettivi educativi, come domande e risposte, puzzle, simulazioni e altro ancora.</text>
+			<text lang="de">Videospiele, die sich auf das Lehren von Fähigkeiten, Wissen und Konzepten konzentrieren. Sie sind in der Regel für verschiedene Altersgruppen und/oder Fähigkeitsniveaus konzipiert. Darüber hinaus können sie verschiedene Spielmechaniken nutzen, um ihre Bildungsziele zu erreichen, wie Fragen und Antworten, Rätsel, Simulationen und mehr.</text>
+			<text lang="pl">Gry komputerowe skupiające się na nauczaniu umiejętności, wiedzy i koncepcji. Zwykle są projektowane dla różnych grup wiekowych i / lub poziomów umiejętności. Mogą również wykorzystywać różne mechaniki gry do osiągnięcia celów edukacyjnych, takie jak pytania i odpowiedzi, łamigłówki, symulacje i wiele więcej.</text>
+			<text lang="ru">Видеоигры, которые сосредоточены на обучении навыкам, знаниям и концепциям. Они обычно разработаны для разных возрастных групп и / или уровней умения. Кроме того, они могут использовать различные игровые механики для достижения своих образовательных целей, такие как вопросы и ответы, головоломки, симуляции и многое другое.</text>
+			<text lang="zh">着重于教授技能、知识和概念的电子游戏。通常针对不同年龄组和/或技能水平进行设计。此外，它们可以利用各种游戏机制来实现其教育目标，例如问答、拼图、模拟等等。</text>
+			<text lang="ja">スキル、知識、コンセプトを教えることに焦点を当てたビデオゲーム。通常、さまざまな年齢層や/またはスキルレベルに合わせて設計されています。さらに、質問と回答、パズル、シミュレーションなど、さまざまなゲームメカニックを使用して教育目標を達成することができます。</text>
 		</text>
 	</view>
 </theme>

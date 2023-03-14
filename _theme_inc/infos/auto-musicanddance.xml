@@ -6,24 +6,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Genre that is characterized by focusing on the use of music to develop the gameplay, often based on the more or less realistic interpretation of it.
-
-It includes karaoke games, rhythm games, dance games and musical instrument games.
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Género que se caracteriza por centrarse en el uso de la música para desarrollar la jugabilidad, a menudo basada en la interpretación más o menos realista de la misma.
-
-Incluye juegos de karaoke, juegos de ritmo, juegos de baile y juegos con instrumentos musicales.
-			</text>
-		</text>
-
-		<text name="system_name" extra="true">
-			<text lang="es">Música y baile</text>
-			<text lang="ca">Música i ball</text>
-			<text lang="eu">Musika eta dantza</text>
+			<text>A genre characterized by its focus on using music to drive gameplay, often based on more or less realistic interpretations of the music. The list includes karaoke games, rhythm games, dance games, and games with musical instruments.</text>
+			<text lang="es">Género que se caracteriza por centrarse en el uso de la música para desarrollar la jugabilidad, a menudo basada en la interpretación más o menos realista de la misma. La lista incluye juegos de karaoke, juegos de ritmo, juegos de baile y juegos con instrumentos musicales.</text>
+			<text lang="ca">Gènere que es caracteritza per centrar-se en l'ús de la música per desenvolupar la jugabilitat, sovint basada en la interpretació més o menys realista de la mateixa. La llista inclou jocs de karaoke, jocs de ritme, jocs de ball i jocs amb instruments musicals.</text>
+			<text lang="eu">Musika eta dantza generoak musika erabiliz jokabideak garatzeko aritu egiten da, musika hori interpretazio errealistago edo gutxiago oinarrituta. Karaoke jokoak, erritmo jokoak, dantza jokoak eta instrumentu musikalak dituen jokoak barne hartzen ditu zerrenda horrek.</text>
+			<text lang="fr">Un genre caractérisé par son accent mis sur l'utilisation de la musique pour faire avancer le jeu, souvent basé sur des interprétations plus ou moins réalistes de la musique. La liste comprend des jeux de karaoké, des jeux de rythme, des jeux de danse et des jeux avec des instruments de musique.</text>
+			<text lang="pt">Gênero que se caracteriza por se concentrar no uso da música para desenvolver a jogabilidade, muitas vezes baseada em interpretações mais ou menos realistas da música. A lista inclui jogos de karaokê, jogos de ritmo, jogos de dança e jogos com instrumentos musicais.</text>
+			<text lang="it">Un genere caratterizzato dal suo focus sull'uso della musica per guidare il gameplay, spesso basato su interpretazioni più o meno realistiche della musica. L'elenco include giochi di karaoke, giochi di ritmo, giochi di danza e giochi con strumenti musicali.</text>
+			<text lang="de">Ein Genre, das sich dadurch auszeichnet, dass Musik genutzt wird, um das Gameplay voranzutreiben, oft basierend auf mehr oder weniger realistischen Interpretationen der Musik. Die Liste umfasst Karaoke-Spiele, Rhythmus-Spiele, Tanzspiele und Spiele mit Musikinstrumenten.</text>
+			<text lang="pl">Gatunek charakteryzujący się skupieniem na wykorzystaniu muzyki do prowadzenia rozgrywki, często opartej na bardziej lub mniej realistycznych interpretacjach muzyki. Lista zawiera gry karaoke, gry rytmiczne, gry taneczne i gry z instrumentami muzycznymi.</text>
+			<text lang="ru">Жанр, который характеризуется фокусом на использовании музыки для развития геймплея, часто основанного на более или менее реалистичном исполнении музыки. Список включает караоке, ритмические игры, игры танцев и игры на музыкальных инструментах.</text>
+			<text lang="zh">这种类型的游戏以使用音乐来开发游戏玩法为特点，通常基于更或者更少现实的演奏方式。列表包括卡拉OK游戏，节奏游戏，舞蹈游戏和乐器游戏。</text>
+			<text lang="ja">音楽を使ってゲームプレイを展開することが特徴のジャンルで、しばしばよりまたはより少しリアルな演奏に基づいています。リストには、カラオケ、リズムゲーム、ダンスゲーム、楽器ゲームが含まれています。</text>
 		</text>
 	</view>
 </theme>

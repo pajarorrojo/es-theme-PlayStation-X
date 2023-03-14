@@ -6,20 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Racing games are a video game genre in which the player participates in a racing competition. They may be based on anything from real-world racing leagues to fantastical settings. They are distributed along a spectrum between more realistic racing simulations and more fantastical arcade-style racing games.
-			</text>
-			<text  lang="es,ca,eu">Lista de juegos automática.
-
-Suelen existir dos tipos de juegos de carreras, los arcade y los de simulación. Los juegos de carreras estilo arcade brindan diversión y una experiencia trepidante por encima de todo, mientras que en los de simulación se centran en imitar realísticamente el manejo de los vehículos, condiciones de la pista o la propia mecánica física.
-			</text>
+			<text>There are usually two types of racing games, arcade and simulation. Arcade-style racing games provide fun and fast-paced experience above all, while simulation-style racing games focus on realistically mimicking vehicle handling, track conditions, and physics mechanics.</text>
+			<text  lang="es">Suelen existir dos tipos de juegos de carreras, los arcade y los de simulación. Los juegos de carreras estilo arcade brindan diversión y una experiencia trepidante por encima de todo, mientras que en los de simulación se centran en imitar realísticamente el manejo de los vehículos, condiciones de la pista o la propia mecánica física.</text>
+			<text lang="ca">Solen existir dos tipus de jocs de carreres, els arcade i els de simulació. Els jocs de carreres estil arcade proporcionen diversió i una experiència trepidant per sobre de tot, mentre que en els de simulació es centren en imitar realísticament el maneig dels vehicles, condicions de la pista o la pròpia mecànica física.</text>			
+			<text lang="eu">Ibilaldi jokoetako bi mota izan ohi dira, arcade eta simulazioak. Arcade-estiloeko ibilaldi jokoek dibertigarria eta bizirikoa eskaintzen dute, baina simulazio-estiloeko ibilaldi jokoek erraztasunez gauza bera errepikatzea baimentzen dute, hainbat alderdi fisikoa barne.</text>
+			<text lang="fr">Il y a généralement deux types de jeux de course, l'arcade et la simulation. Les jeux de course de style arcade fournissent une expérience amusante et rapide avant tout, tandis que les jeux de course de style simulation se concentrent sur la simulation réaliste de la manipulation des véhicules, des conditions de piste et de la mécanique physique elle-même.</text>
+			<text lang="pt">Normalmente existem dois tipos de jogos de corrida, arcade e simulação. Jogos de corrida em estilo arcade oferecem diversão e uma experiência acelerada acima de tudo, enquanto jogos de corrida em estilo simulação focam em imitar realisticamente a manipulação de veículos, condições de pista e a própria mecânica física.</text>
+			<text lang="it">Solitamente esistono due tipi di giochi di corse, arcade e simulazione. I giochi di corse in stile arcade offrono divertimento e un'esperienza veloce soprattutto, mentre i giochi di corse in stile simulazione si concentrano sull'imitazione realistica della manipolazione dei veicoli, delle condizioni della pista e della meccanica fisica stessa.</text>
+			<text lang="de">Es gibt in der Regel zwei Arten von Rennspielen, Arcade- und Simulationsspiele. Arcade-Rennspiele bieten vor allem Spaß und eine schnelle Erfahrung, während Simulationsspiele sich darauf konzentrieren, die Handhabung von Fahrzeugen, Streckenbedingungen und Physikmechaniken realistisch nachzubilden.</text>
+			<text lang="pl">Zwykle istnieją dwa rodzaje gier wyścigowych: arcade i symulacyjne. Gry wyścigowe w stylu arcade zapewniają przede wszystkim zabawę i szybką akcję, podczas gdy gry wyścigowe w stylu symulacji skupiają się na realistycznym odwzorowaniu sterowania pojazdami, warunków toru oraz mechaniki fizycznej.</text>
+			<text lang="ru">Обычно существует два типа игр в жанре гонок: аркадные и симуляторы. Аркадные игры предоставляют веселое и захватывающее выше всего впечатление, в то время как симуляторы сосредоточены на реалистичном имитировании управления транспортными средствами, состояний трассы или физической механики.</text>
+			<text lang="zh">赛车游戏通常分为两种类型，即街机式和模拟式。街机式赛车游戏主要以提供乐趣和激情为主，而模拟式赛车游戏则更注重模拟车辆的操控、赛道条件以及物理机制。</text>
+			<text lang="ja">通常、レースゲームにはアーケードタイプとシミュレーションタイプの2種類があります。アーケードタイプのレースゲームは、楽しさとスリルを優先し、一方シミュレーションタイプのレースゲームは、車両の操作やコースの状態、物理的なメカニズムをリアルにシミュレートすることに重点を置いています。</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Carreras, conducción</text>
-			<text lang="ca">Curses, conducció</text>
-			<text lang="eu">Korrikak, gidatzea</text>
-		</text>
 	</view>
 </theme>

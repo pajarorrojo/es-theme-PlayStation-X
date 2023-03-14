@@ -6,16 +6,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Simple game that does not require great skill or great dedication on the part of the player.</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Juego sencillo, que no requiere de gran habilidad ni de gran dedicación por parte del jugador.</text>
-		</text>
-
-		<text name="system_name" extra="true" lang="es,ca,eu">
-			<text>Casual</text>
+			<text>Games designed for a broad audience that is not specialized in video games. These games are usually easy to play, with simple mechanics and clear objectives. Some examples of this type of videogames are Candy Crush, Farmville or Angry Birds.</text>
+			<text lang="es">Juegos diseñados para una audiencia amplia y no especializada en videojuegos. Estos juegos suelen ser fáciles de jugar, con mecánicas sencillas y objetivos claros. Algunos ejemplos de este tipo de videjuegos son Candy Crush, Farmville o Angry Birds entre otros.</text>
+			<text lang="ca">Jocs dissenyats per a una audiència àmplia i no especialitzada en videojocs. Aquests jocs solen ser fàcils de jugar, amb mecàniques senzilles i objectius clars. Alguns exemples d'aquest tipus de videojocs són Candy Crush, Farmville o Angry Birds, entre d'altres.</text>
+			<text lang="eu">Bideojokoetan aditu espezializatu gabeko ikuspegi zabala duen jendarte zabalarentzat diseinatutako jokoak dira. Joko hauek erraz jokatzekoak izaten dira, mekanika sinpleekin eta helburu argiak dituztenez. Candy Crush, Farmville edo Angry Birds bezalako bideojoko mota hauetako adibide batzuk dira.</text>
+			<text lang="fr">Jeux conçus pour un public large et non spécialisé dans les jeux vidéo. Ces jeux sont généralement faciles à jouer, avec des mécaniques simples et des objectifs clairs. Certains exemples de ce type de jeux vidéo sont Candy Crush, Farmville ou Angry Birds, entre autres.</text>		
+			<text lang="pt">Jogos projetados para um público amplo e não especializado em jogos eletrônicos. Esses jogos geralmente são fáceis de jogar, com mecânicas simples e objetivos claros. Alguns exemplos desse tipo de jogos eletrônicos são Candy Crush, Farmville ou Angry Birds, entre outros.</text>
+			<text lang="it">Giochi progettati per un pubblico ampio e non specializzato in videogiochi. Questi giochi sono solitamente facili da giocare, con meccaniche semplici e obiettivi chiari. Alcuni esempi di questo tipo di videogiochi sono Candy Crush, Farmville o Angry Birds, tra gli altri.</text>
+			<text lang="de">Spiele, die für eine breite und nicht spezialisierte Zielgruppe entwickelt wurden. Diese Spiele sind in der Regel einfach zu spielen, haben einfache Mechaniken und klare Ziele. Einige Beispiele für diese Art von Videospielen sind Candy Crush, Farmville oder Angry Birds, unter anderem.</text>
+			<text lang="pl">Gry zaprojektowane dla szerokiej publiczności, niezaznajomionej z grami wideo. Gry te zazwyczaj są łatwe do grania, posiadają proste mechaniki i jasno określone cele. Niektóre przykłady tego typu gier wideo to Candy Crush, Farmville lub Angry Birds, między innymi.</text>
+			<text lang="ru">Игры, разработанные для широкой аудитории, не специализирующейся в видеоиграх. Эти игры обычно легко играются, имеют простые механики и четкие цели. Некоторые примеры таких игр - Candy Crush, Farmville или Angry Birds и другие.</text>
+			<text lang="zh">针对广泛受众，不专门从事电子游戏的游戏设计。这些游戏通常易于玩，具有简单的机制和明确的目标。其中一些游戏的示例包括糖果传奇，农场游戏或愤怒的小鸟等。</text>	
+			<text lang="ja">広い観客層を対象とした、ビデオゲームに特化していない人々のために設計されたゲームです。これらのゲームは、簡単にプレイでき、シンプルなゲームメカニクスと明確な目標を持っています。この種のビデオゲームの例には、Candy Crush、Farmville、Angry Birdsなどがあります。</text>	
 		</text>
 	</view>
 </theme>

@@ -6,18 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.</text>
+			<text>An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving</text>
+			<text lang="es">Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.</text>
+			<text lang="ca">Aquests jocs es caracteritzen per l'exploració, la investigació, la resolució de puzles, la interacció amb personatges i el progrés de manera lineal i centrada en la trama del joc.</text>
+			<text lang="eu">Joko hauek esplorazioarekin, ikerketarekin, puzzle-en ebazpenarekin, pertsonaien arteko interakzioarekin eta jokoaren plotan zentratutako progresio linealarekin ezaugarritzen dira.</text>
+			<text lang="fr">Ces jeux se caractérisent par l'exploration, l'investigation, la résolution de puzzles, l'interaction avec des personnages et une progression linéaire centrée sur l'intrigue du jeu.</text>
+			<text lang="pt">Esses jogos são caracterizados por exploração, investigação, resolução de quebra-cabeças, interação com personagens e progressão linear centrada na trama do jogo.</text>
+			<text lang="it">Questi giochi si caratterizzano per l'esplorazione, l'indagine, la risoluzione di enigmi, l'interazione con i personaggi e la progressione lineare focalizzata sulla trama del gioco.</text>
+			<text lang="de">Diese Spiele zeichnen sich durch Erkundung, Untersuchung, Rätsellösung, Interaktion mit Charakteren und lineare Progression aus, die sich auf die Handlung des Spiels konzentriert.</text>
+			<text lang="pl">Gry te charakteryzują się eksploracją, badaniem, rozwiązywaniem zagadek, interakcją z postaciami oraz liniową progresją skupioną na fabule gry.</text>
+			<text lang="ru">Эти игры характеризуются исследованием, расследованием, решением головоломок, взаимодействием с персонажами и линейным прогрессом, сосредоточенным на сюжете игры.</text>
+			<text lang="zh">这些游戏以探索、调查、解谜、与角色互动和线性进展为特点，重点关注游戏情节。</text>
+			<text lang="ja">これらのゲームは、探索、調査、パズルの解決、キャラクターとのインタラクション、プロットに焦点を当てた線形の進行によって特徴付けられています。</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Aventura</text>
-			<text lang="ca">Aventura</text>
-			<text lang="eu">Abentura</text>
-		</text>
 	</view>
 </theme>

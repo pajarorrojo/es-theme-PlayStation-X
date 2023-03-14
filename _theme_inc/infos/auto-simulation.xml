@@ -6,24 +6,44 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text>Game or genre that tries to imitate reality as closely as possible, avoiding the simplification of controls or mechanics typical of games and applying the physical laws in a realistic way and often without a defined final objective.
 
-Game or genre that tries to imitate reality as closely as possible, avoiding the simplification of controls or mechanics typical of games and applying the physical laws in a realistic way and often without a defined final objective.
+There are countless types based on their theme, such as flight simulation, driving or management (business, construction, etc). They are the opposite of Arcade games.</text>
+<text lang="es">Juego o género que pretende imitar lo más fielmente posible la realidad, evitando la simplificación de controles o mecánicas propia de los juegos y aplicando las leyes físicas de una manera realista y a menudo sin un objetivo final definido.
 
-There are countless types based on their theme, such as flight simulation, driving or management (business, construction, etc). They are the opposite of Arcade games.
-			</text>
-			<text  lang="es,ca,eu">Lista de juegos automática.
+Existen infinidad de tipos en base a su temática, como la simulación de vuelo, la de conducción o la de gestión (negocios, construcción, etc). Son la contraposición a los juegos Arcade.</text>
+<text lang="ca">Joc o gènere que pretén imitar el més fidelment possible la realitat, evitant la simplificació de controls o mecàniques pròpies dels jocs i aplicant les lleis físiques d'una manera realista i sovint sense un objectiu final definit.
 
-Juego o género que pretende imitar lo más fielmente posible la realidad, evitando la simplificación de controles o mecánicas propia de los juegos y aplicando las leyes físicas de una manera realista y a menudo sin un objetivo final definido.
+Hi ha infinitat de tipus en base a la seva temàtica, com la simulació de vol, la de conducció o la de gestió (negocis, construcció, etc.). Són la contraposició als jocs Arcade.</text>	
+<text lang="eu">Jokoa edo generoa, bizi errealaren arabera aurrera eginez, jokoetako kontrol eta mekaniken sinplifikazioa saihestuz, eta fisikako legeak errealean aplikatuz eta helburu azalik gabe eginez.
 
-Existen infinidad de tipos en base a su temática, como la simulación de vuelo, la de conducción o la de gestión (negocios, construcción, etc). Son la contraposición a los juegos Arcade.
-			</text>
+Motiboen arabera, sorta ugarik daude, hegazketa, gidatze edo kudeaketa simulazioa bezalakoak barne. Arcade jokoekin kontrajarria dira.</text>
+<text lang="fr">Jeu ou genre qui cherche à imiter le plus fidèlement possible la réalité, en évitant la simplification des contrôles ou mécaniques propres aux jeux et en appliquant les lois physiques d'une manière réaliste et souvent sans un objectif final défini.
+
+Il existe une multitude de types en fonction de leur thème, tels que la simulation de vol, de conduite ou de gestion (affaires, construction, etc.). Ils s'opposent aux jeux d'arcade.</text>
+<text lang="pt">Jogo ou gênero que busca imitar o mais fielmente possível a realidade, evitando a simplificação de controles ou mecânicas próprias dos jogos e aplicando as leis físicas de maneira realista e muitas vezes sem um objetivo final definido.
+
+Existem infinitos tipos com base em sua temática, como simulação de voo, de condução ou de gestão (negócios, construção, etc.). São a contraposição aos jogos de Arcade.</text>
+<text lang="it">Gioco o genere che cerca di imitare il più fedelmente possibile la realtà, evitando la semplificazione dei controlli o delle meccaniche proprie dei giochi e applicando le leggi fisiche in modo realistico e spesso senza un obiettivo finale definito.
+
+Esistono infiniti tipi in base alla loro tematica, come la simulazione di volo, di guida o di gestione (affari, costruzione, ecc.). Sono la controprova ai giochi Arcade.</text>
+<text lang="de">Spiel oder Genre, das bestrebt ist, die Realität möglichst originalgetreu abzubilden, indem es die Simplifizierung von Steuerungen oder Mechaniken, die für Spiele typisch sind, vermeidet und die physikalischen Gesetze realistisch und oft ohne konkretes Endziel anwendet.
+
+Es gibt unzählige Arten, je nach Thema, wie Flugsimulation, Fahrsimulation oder Management (Geschäfte, Bauwesen, etc.). Sie stehen im Gegensatz zu Arcade-Spielen.</text>
+<text lang="pl">Gra lub gatunek gry, który ma na celu jak najwierniejsze naśladowanie rzeczywistości, unikając uproszczeń w sterowaniu lub mechanice gier i stosując prawa fizyczne w sposób realistyczny i często bez jasno określonego celu końcowego.
+
+Istnieje nieskończona ilość różnych tematów, takich jak symulacja lotów, jazdy samochodem lub zarządzania (biznes, budowa itp.). Stanowią one przeciwieństwo gier arcade.</text>
+<text lang="ru">Игра или жанр игры, который стремится максимально точно имитировать реальность, избегая упрощения управления или механики игр и применяя физические законы в реалистичном ключе и часто без четко определенной конечной цели.
+
+Существует бесконечное количество различных тематик, таких как симулятор полета, вождения автомобиля или управления (бизнес, строительство и т. д.). Они являются противоположностью аркадных игр.</text>
+<text lang="zh">模拟游戏或游戏类型，旨在尽可能真实地模拟现实，避免游戏控制或机制的简化，并以现实主义的方式应用物理定律，往往没有明确的最终目标。
+
+基于各种不同的主题，如飞行模拟，驾驶模拟或管理模拟（商业，建筑等），存在无限多种类型。它们与街机游戏形成对比。</text>
+<text lang="ja">ゲームまたはジャンルで、ゲームに典型的なコントロールやメカニックの簡略化を避け、物理法則を現実的に適用してしばしば明確な最終目標がないように、現実をできるだけ忠実に模倣しようとするものです。
+
+飛行シミュレーション、ドライブ、マネジメント（ビジネス、建設など）など、テーマに基づいて無数のタイプがあります。アーケードゲームとは対極に位置するものです。</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Simuladores</text>
-			<text lang="ca">Simuladors</text>
-			<text lang="eu">Simulazioak</text>
-		</text>
+
 	</view>
 </theme>

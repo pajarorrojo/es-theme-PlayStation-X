@@ -6,14 +6,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-This type of video game usually adopts the contest format for several players in turns. Tests, questions, riddles... Who will win?
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.
-			</text>
+			<text>This type of video game usually adopts the contest format for several players in turns. Tests, questions, riddles... Who will win?</text>
+			<text lang="es">Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.</text>
+			<text lang="ca">Aquest tipus de videojocs sol adoptar el format de concurs per a diversos jugadors per torns. Proves, preguntes, endevinalles... Qui guanyarà?</text>
+			<text lang="eu">Jokalari anitzeko lehiaketarako txandakatu joko mota hau izaten da ohikoak. Frogak, galderak, aurreiritziak ... Nork irabaziko du?</text>
+			<text lang="fr">Ce type de jeu vidéo adopte généralement le format d'un jeu télévisé multijoueur tour par tour. Défis, questions, énigmes... Qui gagnera ?</text>
+			<text lang="pt">Este tipo de jogos de vídeo geralmente adota o formato de um concurso multiplayer baseado em turnos. Desafios, perguntas, enigmas... Quem vai ganhar?</text>
+			<text lang="it">Questo tipo di videogiochi di solito adotta il formato di un gioco a quiz multiplayer a turni. Sfide, domande, enigmi... Chi vincerà?</text>
+			<text lang="de">Diese Art von Videospiel adoptiert in der Regel das Format eines rundenbasierten Mehrspieler-Quizspiels. Herausforderungen, Fragen, Rätsel... Wer wird gewinnen?</text>
+			<text lang="pl">Ten rodzaj gry wideo zwykle przyjmuje format wieloosobowej gry turniejowej. Wyzwania, pytania, zagadki... Kto wygra?</text>
+			<text lang="ru">Этот тип видеоигр обычно принимает формат многопользовательской игры в формате викторины. Вызовы, вопросы, головоломки... Кто выиграет?</text>
+			<text lang="zh">这种类型的视频游戏通常采用轮流多人比赛的形式。挑战、问题、谜题……谁会赢？</text>
+			<text lang="ja">このタイプのビデオゲームは通常、ターン制のマルチプレイヤークイズゲームの形式を採用しています。チャレンジ、質問、謎...誰が勝つのでしょうか？</text>
 		</text>
 
 		<text name="system_name" extra="true">

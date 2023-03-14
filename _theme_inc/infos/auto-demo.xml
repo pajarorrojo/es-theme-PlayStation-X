@@ -6,17 +6,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Fragment or limited version of a video game distributed by its own publisher, usually free of charge, in order to publicize the main features of the game and promote it among players.</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Fragmento o versión limitada de un videojuego distribuído por la propia editora del mismo, normalmente de manera gratuíta, con el fin de dar a conocer las características principales del juego y promocionarlo entre los jugadores.</text>
-		</text>
-
-		<text name="system_name" extra="true">
-			<text>Demo</text>
-			<text lang="es,ca,eu">Demos</text>
-		</text>
+			<text>A fragment or limited version of a video game distributed (usually for free) in order to showcase the main features of the game and promote it among players.</text>
+			<text lang="es">Fragmento o versión limitada de un videojuego distribuído (normalmente de manera gratuíta) con el fin de dar a conocer las características principales del juego y promocionarlo entre los jugadores.</text>
+			<text lang="ca">Fragment o versió limitada d'un videojoc distribuïda (normalment de manera gratuïta) amb la finalitat de donar a conèixer les característiques principals del joc i promocionar-lo entre els jugadors.</text>
+			<text lang="eu">Bideo-jokoa nahastu edo mugarikatuaren bertsioa (ohikoa da doako moduan banatuta) jokoaren ezaugarri nagusiak ezagutarazteko eta jokalarien artean sustatzeko banatzen da.</text>
+			<text lang="fr">Fragment ou version limitée d'un jeu vidéo distribué (généralement gratuitement) afin de présenter les principales caractéristiques du jeu et de le promouvoir auprès des joueurs.</text>
+			<text lang="pt">Fragmento ou versão limitada de um videogame distribuído (geralmente gratuitamente) com o objetivo de apresentar as principais características do jogo e promovê-lo entre os jogadores.</text>		</text>
+			<text lang="it">Frammento o versione limitata di un videogioco distribuita (solitamente gratuitamente) al fine di mostrare le principali caratteristiche del gioco e promuoverlo tra i giocatori.</text>
+			<text lang="de">Fragment oder limitierte Version eines Videospiels, das (in der Regel kostenlos) verteilt wird, um die wichtigsten Merkmale des Spiels zu präsentieren und es unter den Spielern zu fördern.</text>
+			<text lang="pl">Fragment lub ograniczona wersja gry wideo rozpowszechniana (zwykle bezpłatnie) w celu zaprezentowania głównych cech gry i promocji jej wśród graczy.</text>
+			<text lang="ru">Фрагмент или ограниченная версия видеоигры, распространяемая (обычно бесплатно) для демонстрации основных особенностей игры и ее продвижения среди игроков.</text>
+			<text lang="zh">电子游戏的片段或有限版本，分发（通常免费）以展示游戏的主要特点并在玩家中推广。</text>
+			<text lang="ja">ビデオゲームの断片または限定版は、ゲームの主な特徴を紹介し、プレイヤーにプロモーションするために配布されます（通常は無料）。</text>
 	</view>
 </theme>

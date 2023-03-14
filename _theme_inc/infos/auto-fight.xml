@@ -6,24 +6,44 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text>A subgenre of action games where the player faces off against other characters, usually in one-on-one combat controlled by the machine or another human player. In this genre, each character has a large number of different movements, which can be linked together through combos.
 
-A subgenre of action games where the player faces off against other characters, usually in one-on-one combat controlled by the machine or another human player. In this genre, each character has a large number of different movements, which can be linked together through combos.
-
-Although the term is often interchanged with Beat'em Up, fighting games are generally exclusively one-on-one combat, not one-on-many.				
-			</text>
-		<text lang="es,ca,eu">Lista de juegos automática.
-
-Subgénero de los juegos de acción donde el jugador se enfrenta contra otros pesonajes, normalmente en combates de uno contra uno y controlados por la máquina o por otro jugador humano. En este género cada personaje cuenta con una gran cantidad de movimientos distintos, que son encadenables entre sí mediante combos.
+Although the term is often interchanged with Beat'em Up, fighting games are generally exclusively one-on-one combat, not one-on-many.</text>
+<text lang="es">Subgénero de los juegos de acción donde el jugador se enfrenta contra otros pesonajes, normalmente en combates de uno contra uno y controlados por la máquina o por otro jugador humano. En este género cada personaje cuenta con una gran cantidad de movimientos distintos, que son encadenables entre sí mediante combos.
 			
-Aunque a menudo el término se intercambia con el de Beat'em Up, por lo general los juegos de lucha son exclusivamente aquellos donde el combate es uno contra uno, y no uno contra varios. 
-		</text>
+Aunque a menudo el término se intercambia con el de Beat'em Up, por lo general los juegos de lucha son exclusivamente aquellos donde el combate es uno contra uno, y no uno contra varios.</text>
+<text lang="ca">Un subgènere dels jocs d'acció on el jugador s'enfronta a altres personatges, generalment en combat un contra un controlat per la màquina o un altre jugador humà. En aquest gènere, cada personatge té un gran nombre de moviments diferents, que es poden enllaçar mitjançant combos.
+
+Encara que el terme sovint s'intercanvia amb Beat'em Up, els jocs de lluita són generalment exclusivament de combat un contra un, no un contra molts.</text>
+<text lang="eu">Ekintza-jokoetako azpi-genero bat, jokalariak pertsonaiak kontra duelora eramanik, ohiko gudak kontrolatzen dituak, makina edo jokalariren baten bidez. Genero honetan, pertsonai bakoitzak mugimendu desberdin kopuru handia dauka, komboetatik bidez lotuta.
+
+Terminoak Beat'em Up-arekin aldakorragoa izaten da, baina borroka-jokoak oro har, bakarrik lortzen dira, ez da askoren kontrako bakarrik.</text>
+<text lang="fr">Un sous-genre de jeux d'action dans lequel le joueur affronte d'autres personnages, généralement dans un combat en tête-à-tête contrôlé par la machine ou un autre joueur humain. Dans ce genre, chaque personnage a un grand nombre de mouvements différents, qui peuvent être enchaînés ensemble par des combos.
+
+Bien que le terme soit souvent échangé avec Beat'em Up, les jeux de combat sont généralement exclusivement du combat en un contre un, pas en un contre plusieurs.</text>
+<text lang="pt">Um subgênero de jogos de ação em que o jogador enfrenta outros personagens, geralmente em um combate um contra um controlado pela máquina ou outro jogador humano. Nesse gênero, cada personagem tem um grande número de movimentos diferentes, que podem ser conectados entre si por meio de combos.
+
+Embora o termo seja frequentemente intercambiado com Beat'em Up, os jogos de luta geralmente são exclusivamente de combate um contra um, não um contra muitos.</text>
+<text lang="it">Un sottogenere dei giochi d'azione in cui il giocatore affronta altri personaggi, di solito in uno scontro uno contro uno controllato dalla macchina o da un altro giocatore umano. In questo genere, ogni personaggio ha un grande numero di movimenti diversi, che possono essere collegati tra loro tramite combo.
+
+Anche se il termine viene spesso scambiato con Beat'em Up, i giochi di combattimento sono generalmente esclusivamente uno contro uno, non uno contro molti.</text>
+<text lang="de">Ein Subgenre von Action-Spielen, bei dem der Spieler gegen andere Charaktere antritt, normalerweise in Eins-gegen-Eins-Kämpfen, die von der Maschine oder einem anderen menschlichen Spieler kontrolliert werden. In diesem Genre verfügt jeder Charakter über eine große Anzahl unterschiedlicher Bewegungen, die durch Combos miteinander verbunden werden können.
+
+Obwohl der Begriff oft mit Beat'em Up ausgetauscht wird, sind Kampfspiele in der Regel ausschließlich Eins-gegen-Eins-Kämpfe, nicht Eins-gegen-Viele.</text>
+<text lang="pl">Podgatunek gier akcji, w którym gracz rywalizuje z innymi postaciami, zwykle w pojedynkach jeden na jednego kontrolowanych przez maszynę lub innego gracza. W tym gatunku każda postać ma dużą liczbę różnych ruchów, które mogą być łączone ze sobą przez combo.
+
+Chociaż termin często jest wymieniany z Beat'em Up, gry walki zazwyczaj dotyczą wyłącznie pojedynków jeden na jeden, a nie jednego na wielu.</text>
+<text lang="ru">Поджанр игр в жанре экшн, где игрок сражается с другими персонажами, обычно в одиночном бою, контролируемом машиной или другим игроком. В этом жанре каждый персонаж имеет большое количество различных движений, которые могут быть связаны вместе через комбо.
+
+Хотя термин часто взаимозаменяем с Beat'em Up, игры в жанре файтинг обычно представляют только одиночный бой, а не один против многих.</text>
+<text lang="zh">动作游戏的子类型，玩家通常在一对一的战斗中与其他角色对决，由机器或另一个人类玩家控制。在这种类型中，每个角色都有大量不同的动作，可以通过连击组合在一起。
+	
+虽然这个术语常常与Beat'em Up交换使用，但格斗游戏通常是专门针对一对一的战斗，而不是一对多。</text>
+<text lang="ja">アクションゲームのサブジャンルであり、通常は機械または他の人間プレーヤーによって制御される一対一の戦闘で他のキャラクターと対戦するゲームです。このジャンルでは、各キャラクターには多数の異なる動きがあり、それらをコンボで繋げることができます。
+
+用語はしばしば「Beat'em Up」と交換されますが、格闘ゲームは通常、一対多の戦闘ではなく、一対一の戦闘に特化しています。</text>	
 	</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Lucha</text>
-			<text lang="ca">Lluita</text>
-			<text lang="eu">Borroka</text>
-		</text>
+
 	</view>
 </theme>

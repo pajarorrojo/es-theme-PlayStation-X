@@ -8,8 +8,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>This system is used to display your screenshots, captured with the shortcut Hotkey+L.</text>
-			<text lang="es,ca,eu">Aquí encontrarás todas tus capturas de pantalla guardadas con la combinación del mando: Hotkey+L.</text>
-			<text lang="fr">Retrouvez ici tous vos screenshots avec le Hotkey+L.</text>
+			<text lang="es">Aquí encontrarás todas tus capturas de pantalla guardadas con la combinación del mando: Hotkey+L.</text>
+			<text lang="ca">Aquí trobaràs totes les teves captures de pantalla guardades amb la combinació del comandament: Hotkey+L.</text>
+			<text lang="eu">Hemen Hotkey+L kombinezioarekin gorde dituzun zure pantaila-kaptura guztiak aurkituko dituzu.</text>
+			<text lang="fr">Vous trouverez ici toutes vos captures d'écran enregistrées avec la combinaison de touches : Hotkey+L.</text>
+			<text lang="pt">Aqui você encontrará todas as suas capturas de tela salvas com a combinação do controle: Hotkey+L.</text>
+			<text lang="it">Qui troverai tutti i tuoi screenshot salvati con la combinazione del controller: Hotkey+L.</text>
+			<text lang="de">Hier findest du alle deine Bildschirmaufnahmen, die mit der Kombination Hotkey+L gespeichert wurden.</text>
+			<text lang="pl">Tutaj znajdziesz wszystkie zapisane zrzuty ekranu z kombinacją klawiszy: Hotkey+L.</text>
+			<text lang="ru">Здесь вы найдете все свои сохраненные снимки экрана с сочетанием горячих клавиш: Hotkey+L.</text>
+			<text lang="zh">这里可以找到所有使用热键组合 Hotkey+L 保存的屏幕截图。</text>
+			<text lang="ja">ここには、ホットキー+Lの組み合わせで保存されたすべてのスクリーンショットが表示されます。</text>
 		</text>
 
 		<text name="system_name" extra="true">

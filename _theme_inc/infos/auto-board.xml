@@ -6,19 +6,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Board game is the classification given to games that consist of a board and pieces of different shapes and colors more or less elaborate, usually in this list you will find classic board games adapted to the screen and especially chess games.</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Juego de mesa es la clasificación que se da a los juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.</text>
+			<text>Games that consist of a board, specific rules, and pieces of different shapes and elaborated colors, usually in this list you will find classic board games adapted to the screen and especially chess games.</text>
+			<text lang="es">Juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.</text>
+			<text lang="ca">Jocs que consten d'un tauler, regles específiques i fitxes de diferents formes i colors més o menys elaborades, per lo general en aquesta llista trobaràs jocs de taula clàssics adaptats a la pantalla i sobretot jocs d'escacs.</text>
+			<text lang="eu">Taula-joko batzuk dira, arau bereziak eta formak eta koloreak bereiziak diren piezak dituztenak, oso ohikoak dira taula-joko klasikoak pantailara egokituak eta batez ere xake jokoak.</text>
+			<text lang="fr">Jeux qui consistent en un plateau, des règles spécifiques et des pièces de formes et couleurs différentes plus ou moins élaborées, généralement dans cette liste vous trouverez des jeux de société classiques adaptés à l'écran et surtout des jeux d'échecs.</text>
+			<text lang="pt">Jogos que consistem em um tabuleiro, regras específicas e peças de diferentes formas e cores mais ou menos elaboradas, geralmente nesta lista você encontrará jogos de tabuleiro clássicos adaptados à tela e principalmente jogos de xadrez.</text>
+			<text lang="it">Giochi che consistono in una plancia, regole specifiche e pezzi di diverse forme e colori più o meno elaborati, di solito in questa lista troverai giochi da tavolo classici adattati allo schermo e soprattutto giochi di scacchi.</text>
+			<text lang="de">Spiele, die aus einem Spielbrett, spezifischen Regeln und Stücken unterschiedlicher Formen und Farben bestehen, die mehr oder weniger aufwendig gestaltet sind. In dieser Liste finden Sie in der Regel klassische Brettspiele, die für den Bildschirm angepasst wurden, und vor allem Schachspiele.</text>
+			<text lang="pl">Gry, które składają się z planszy, specyficznych zasad i elementów o różnych kształtach i kolorach, bardziej lub mniej skomplikowanych. Zazwyczaj na tej liście znajdziesz klasyczne gry planszowe dostosowane do ekranu, a przede wszystkim gry szachowe.</text>
+			<text lang="ru">Игры, состоящие из доски, конкретных правил и фишек разных форм и цветов, обычно в этом списке вы найдете классические настольные игры, адаптированные для экрана, а также шахматы.</text>
+			<text lang="zh">这些游戏由棋盘、具体规则和不同形状和颜色的棋子组成，通常在这个列表中你会发现经典桌面游戏的屏幕适配版本，特别是国际象棋。</text>
+			<text lang="ja">ボード、特定のルール、さまざまな形状と色のピースから成るゲームで、通常このリストには画面に適したクラシックなボードゲーム、特にチェスのゲームが含まれています。</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Juegos de mesa</text>
-			<text lang="ca">Jocs de taula</text>
-			<text lang="eu">Mahai jokoak</text>
-		</text>
+
 	
 	</view>
 </theme>

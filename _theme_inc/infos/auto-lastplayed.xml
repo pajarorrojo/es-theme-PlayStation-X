@@ -8,9 +8,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true" >
 			<text>A list of the last 50 games you have played.</text>
-			<text lang="es,ca,eu">Una lista de los últimos 50 juegos a los que has jugado.</text>
+			<text lang="es">Una lista de los últimos 50 juegos a los que has jugado.</text>
+			<text lang="ca">Una llista dels últims 50 jocs que has jugat.</text>
+			<text lang="eu">Jolastu dituzun azken 50 jokoaren zerrenda.</text>
 			<text lang="fr">Une liste des 50 derniers jeux auxquels vous avez joué.</text>
 			<text lang="pt">Uma lista dos últimos 50 jogos que você jogou.</text>
+			<text lang="it">Un elenco degli ultimi 50 giochi a cui hai giocato.</text>
+			<text lang="de">Eine Liste der letzten 50 Spiele, die Sie gespielt haben.</text>
+			<text lang="pl">Lista ostatnich 50 gier, które ostatnio grałeś.</text>
+			<text lang="ru">Список последних 50 игр, в которые вы играли.</text>
+			<text lang="zh">最近玩过的50个游戏清单。</text>
+			<text lang="ja">最近プレイした50のゲームのリスト。</text>
 		</text>
 
 		<text name="system_name" extra="true">

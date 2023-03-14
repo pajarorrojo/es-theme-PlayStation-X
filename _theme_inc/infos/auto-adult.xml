@@ -6,20 +6,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Keep out of the reach of children... Wink, wink; nudge, nudge.</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Mantener fuera del alcance de los niños... Guiño, guiño; codazo, codazo.</text>
+<text>Keep out of the reach of children... Wink, wink; nudge, nudge.</text>
+<text lang="es">Mantener fuera del alcance de los niños... Guiño, guiño; codazo, codazo.</text>
+<text lang="ca">Manteniu fora de l'abast dels nens...</text>        
+<text lang="eu">Umeentzako erabilera debekatuta...</text>        
+<text lang="fr">Tenir hors de portée des enfants...</text>        
+<text lang="pt">Manter fora do alcance das crianças...</text>        
+<text lang="it">Tenere fuori dalla portata dei bambini...</text>        
+<text lang="de">Außerhalb der Reichweite von Kindern aufbewahren...</text>        
+<text lang="pl">Przechowywać poza zasięgiem dzieci...</text>        
+<text lang="ru">Хранить вне досягаемости детей...</text>        
+<text lang="zh">请勿让儿童接触...</text>        
+<text lang="ja">子供の手の届かない所に保管してください...</text>     
 		</text>
 		
-				
-
-		<text name="system_name" extra="true">
-			<text lang="es">Adultos</text>
-			<text lang="ca">Adults</text>
-			<text lang="eu">Helduak</text>
-		</text>
+			
 	</view>
 </theme>

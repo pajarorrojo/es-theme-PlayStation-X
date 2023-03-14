@@ -8,18 +8,48 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text>Beat 'em up (also known as brawler and, in some markets, beat 'em all). Fighting game where the player faces countless enemies, usually in hand-to-hand combat, while moving through a single-direction advancing stage.
 
-Beat 'em up (also known as brawler and, in some markets, beat 'em all) is a video game genre featuring hand-to-hand combat between the protagonist and an improbably large number of opponents. Traditional beat 'em ups take place in scrolling, two-dimensional (2D) levels, while a number of modern games feature more open three-dimensional (3D) environments with yet larger numbers of enemies.</text>
-			<text  lang="es,ca,eu">Lista de juegos automática.
-			
-Del inglés Beat them up (Golpéalos). Juego de lucha donde el jugador se enfrenta a infinidad de enemigos, generalmente en combates cuerpo a cuerpo, mientras se desplaza por un escenario que avanza en una única dirección.
+It is common for at least two players to participate cooperatively, and often more. It usually progresses through stages, at the end of which there is a more difficult final enemy or boss than the common enemies.</text>
+<text  lang="es">Del inglés Beat them up (Golpéalos). Juego de lucha donde el jugador se enfrenta a infinidad de enemigos, generalmente en combates cuerpo a cuerpo, mientras se desplaza por un escenario que avanza en una única dirección.
 
 Es habitual que puedan participar al menos dos jugadores de forma cooperativa y a menudo más. Suele desarrollarse por fases al final de las cuales hay un enemigo o jefe final de mayor dificultad que los enemigos comunes.</text>
-		</text>
+<text lang="ca">Del anglès "Beat them up" (golpeja'ls). Joc de lluita on el jugador s'enfronta a infinitat d'enemics, generalment en combat de cos a cos, mentre es desplaça per un escenari que avança en una única direcció.
 
-		<text name="system_name" extra="true" lang="es,ca,eu">
-			<text>Beat'em up</text>
-		</text>
+És habitual que puguin participar almenys dos jugadors de forma cooperativa i sovint més. Sol desenvolupar-se per fases, al final de les quals hi ha un enemic o cap final de major dificultat que els enemics comuns.</text>
+	
+<text lang="eu">Ingelesez "Beat them up" (Joan jardun). Borrokatu joko bat da, jokalaria uhin asko aurrean jartzen baitu, ia lehen bizi eta borroka, baina bakarrik norabide bakarrean aurrera egiten duen eszenatoki batean.
+	
+Bi jokalari gutxienez parte hartu dezakete kooperatiboki, eta askotan gehiago. Atal batzuetan garatzen da, azkenengo enemigo edo nagusiaren kontra, zailtasun handiagorekin baina enemigo arruntak baino.</text>
+<text lang="fr">De l'anglais "Beat them up" (Bats-les). Jeu de combat où le joueur affronte d'innombrables ennemis, généralement dans un combat corps à corps, tout en se déplaçant à travers une scène qui avance dans une seule direction.
+
+Il est courant qu'au moins deux joueurs participent de manière coopérative, et souvent plus. Le jeu progresse généralement par étapes, à la fin desquelles se trouve un ennemi final ou un boss plus difficile que les ennemis communs.</text>
+<text lang="pt">Do inglês "Beat them up" (Bata neles). Jogo de luta em que o jogador enfrenta inúmeros inimigos, geralmente em combate corpo a corpo, enquanto se move por um cenário que avança em uma única direção.
+
+É comum que pelo menos dois jogadores participem de forma cooperativa, e muitas vezes mais. O jogo geralmente progride por fases, no final das quais há um inimigo final ou chefe mais difícil do que os inimigos comuns.</text>
+	
+<text lang="it">Dall'inglese "Beat them up" (Picchiali). Gioco di combattimento in cui il giocatore affronta innumerevoli nemici, di solito in combattimento corpo a corpo, mentre si muove attraverso una scena che avanza in una sola direzione.
+
+È comune la partecipazione di almeno due giocatori in modo cooperativo, e spesso di più. Il gioco procede di solito per fasi, alla fine delle quali si trova un nemico finale o un boss più difficile dei nemici comuni</text>
+<text lang="de">Vom englischen Beat them up (Schlage sie). Ein Kampfspiel, bei dem der Spieler unzählige Feinde bekämpft, normalerweise im Nahkampf, während er sich durch eine sich in eine Richtung bewegende Szenerie bewegt.
+
+Es ist üblich, dass mindestens zwei Spieler kooperativ teilnehmen und oft mehr. Es wird in Phasen entwickelt, am Ende jeder Phase gibt es einen Endgegner oder Boss von größerer Schwierigkeit als die gewöhnlichen Feinde.</text>
+
+<text lang="pl">Z angielskiego Beat them up (Bij je). Gra walki, w której gracz stawia czoła nieskończonemu wrogów, zwykle w walce wręcz, podczas przemieszczania się po scenariuszu, który porusza się w jednym kierunku.
+
+Zazwyczaj może wziąć udział co najmniej dwóch graczy w sposób kooperacyjny, a często więcej. Zazwyczaj jest rozwijana etapami, a na końcu każdego z nich pojawia się przeciwnik lub boss o większej trudności niż zwykli wrogowie.</text>
+<text lang="ru">Из английского Beat them up (Бей их). Игра в борьбе, в которой игрок сталкивается с бесконечным количеством врагов, обычно в ближнем бою, перемещаясь по сценарию, который движется в одном направлении.
+
+Обычно могут участвовать как минимум два игрока с кооперативом и часто больше. Она развивается этапами, и в конце каждого этапа появляется босс или конечный босс, более сложный, чем обычные враги.</text>
+
+<text lang="zh">来自英语 Beat them up（打败他们）。一款格斗游戏，玩家在沿着一个方向移动的情况下，面对无数敌人，通常是近战战斗。
+
+通常可以有至少两名玩家进行协作，经常还有更多。它通常会分阶段发展，每个阶段结束时都会出现一个比普通敌人更难的最终敌人或首领。</text>
+<text lang="ja">英語の Beat them up（やっつけろ）。プレイヤーが一方向に移動しながら、通常近接戦闘で無数の敵に立ち向かう戦闘ゲーム。
+
+通常、少なくとも2人のプレイヤーが協力してプレイできます。多くの場合、ステージは一連のフェーズで進行し、最後に通常よりも難しいボスが登場します。</text>
+</text>
+
+
 	</view>
 </theme>

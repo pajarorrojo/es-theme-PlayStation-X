@@ -6,19 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-	
-The simulation of pinball machines has been a popular theme in video games since the beginning of the industry, with titles such as Gee Bee (1978), Cutie Q (1979) or Video Pinball (1980).
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-El pinball, flipper, petacos, pinbola, pimbola, pímbol, pímbolo, pichilín, balompín, millonseta o milloncete. La simulación de máquinas pinball ha sido una temática popular en los videojuegos desde los inicios de la industria, con titulos como Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980)
-			</text>
+			<text>The simulation of pinball machines has been a popular theme in video games since the beginning of the industry, with titles such as Gee Bee (1978), Cutie Q (1979) or Video Pinball (1980).</text>
+			<text lang="es">El pinball, flipper, petacos, pinbola, pimbola, pímbol, pímbolo, pichilín, balompín, millonseta o milloncete. La simulación de máquinas pinball ha sido una temática popular en los videojuegos desde los inicios de la industria, con titulos como Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980)</text>
+			<text lang="ca">La simulació de les màquines de pinball ha estat un tema popular en els videojocs des dels inicis de la indústria, amb títols com Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980).</text>
+			<text lang="eu">Pinball makinak simulatzea videojokoetan gai arrakastatsua izan da industria hastapenetik, Gee Bee (1978), Cutie Q (1979) edo Video Pinball (1980) bezalako tituluak dituztenak.</text>
+			<text lang="fr">La simulation de machines de flipper a été un thème populaire dans les jeux vidéo depuis le début de l'industrie, avec des titres tels que Gee Bee (1978), Cutie Q (1979) ou Video Pinball (1980).</text>
+			<text lang="pt">A simulação de máquinas de pinball tem sido um tema popular em videogames desde o início da indústria, com títulos como Gee Bee (1978), Cutie Q (1979) ou Video Pinball (1980).</text>
+			<text lang="it">La simulazione delle macchine da flipper è stata un tema popolare nei videogiochi fin dall'inizio dell'industria, con titoli come Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980).</text>
+			<text lang="de">Die Simulation von Flipperautomaten ist seit Beginn der Videospielindustrie ein beliebtes Thema in Videospielen, mit Titeln wie Gee Bee (1978), Cutie Q (1979) oder Video Pinball (1980).</text>
+			<text lang="pl">Symulacja automatów do gry w flippera jest popularnym motywem w grach wideo od początku istnienia przemysłu, z takimi tytułami jak Gee Bee (1978), Cutie Q (1979) lub Video Pinball (1980).</text>
+			<text lang="ru">Симуляция игровых автоматов для игры в пинбол стала популярной темой в видеоиграх с самого начала индустрии, с такими названиями, как Gee Bee (1978), Cutie Q (1979) или Video Pinball (1980).</text>
+			<text lang="zh">自工业开始以来，模拟弹球机一直是电子游戏中的一个受欢迎的主题，例如 Gee Bee（1978年），Cutie Q（1979年）或Video Pinball（1980年）等游戏。</text>
+			<text lang="ja">ピンボールマシンのシミュレーションは、産業の始まり以来、Gee Bee（1978年）、Cutie Q（1979年）、Video Pinball（1980年）などのタイトルを含むビデオゲームで人気のあるテーマでした。</text>
 		</text>
 
-
-		<text name="system_name" extra="true" lang="es,ca,eu">
-			<text>Pinball</text>
-		</text>
 	</view>
 </theme>

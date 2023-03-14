@@ -6,18 +6,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Shooter video games or shooters are a subgenre of action video games where the focus is almost entirely on the defeat of the character's enemies using the weapons given to the player.
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Género de acción donde el principal objetivo es disparar y matar enemigos, generalmente con armas de fuego. Aunque existen multitud de subgéneros, se divide principalmente en dos grupos, según la perspectiva que tengamos de nuestro personaje: en 1ª persona (o FPS) y en 3ª persona (o TPS).
-			</text>
+			<text>Action genre where the main objective is to shoot and kill enemies with different types of weapons. Although there are many subgenres, it is mainly divided into two groups, depending on the perspective we have of our character: in 1st person (or FPS) and in 3rd person (or TPS).</text>
+			<text lang="es">Género de acción donde el principal objetivo es disparar y matar enemigos con diferentes tipos de armas. Aunque existen multitud de subgéneros, se divide principalmente en dos grupos, según la perspectiva que tengamos de nuestro personaje: en 1ª persona (o FPS) y en 3ª persona (o TPS).</text>
+			<text lang="ca">Gènere d'acció on l'objectiu principal és disparar i matar enemics amb diferents tipus d'armes. Encara que hi ha multitud de subgèneres, es divideix principalment en dos grups, segons la perspectiva que tinguem del nostre personatge: en 1a persona (o FPS) i en 3a persona (o TPS).</text>
+			<text lang="eu">Ekintza-generoa da helburu nagusian arma desberdinak erabiliz hiltzea eta tiroka. Subgenero ugari daude, baina, nagusiki, bi taldeetan banatzen da, gure pertsonaiaren perspektibaren arabera: 1. pertsonan (edo FPS) eta 3. pertsonan (edo TPS).</text>
+			<text lang="fr">Le genre d'action où l'objectif principal est de tirer et tuer des ennemis avec différents types d'armes. Bien qu'il existe de nombreux sous-genres, il est principalement divisé en deux groupes, en fonction de la perspective que nous avons de notre personnage : en 1ère personne (ou FPS) et en 3ème personne (ou TPS).</text>
+			<text lang="pt">Gênero de ação onde o principal objetivo é atirar e matar inimigos com diferentes tipos de armas. Embora existam muitos subgêneros, é dividido principalmente em dois grupos, dependendo da perspectiva que temos de nosso personagem: em 1ª pessoa (ou FPS) e em 3ª pessoa (ou TPS).</text>
+			<text lang="it">Genere di azione dove l'obiettivo principale è sparare e uccidere nemici con diversi tipi di armi. Anche se esistono molti sottogeneri, è principalmente diviso in due gruppi, a seconda della prospettiva che abbiamo del nostro personaggio: in prima persona (o FPS) e in terza persona (o TPS).</text>
+			<text lang="de">Action-Genre, bei dem das Hauptziel darin besteht, Feinde mit verschiedenen Waffen zu erschießen und zu töten. Obwohl es viele Untergenres gibt, wird es hauptsächlich in zwei Gruppen unterteilt, je nach Perspektive, die wir von unserem Charakter haben: in der 1. Person (oder FPS) und in der 3. Person (oder TPS).</text>
+			<text lang="pl">Gatunek akcji, w którym głównym celem jest strzelanie i zabijanie wrogów różnymi rodzajami broni. Choć istnieje wiele podgatunków, dzieli się go głównie na dwie grupy, w zależności od perspektywy, jaką mamy na postać: w pierwszej osobie (FPS) i w trzeciej osobie (TPS).</text>
+			<text lang="ru">Жанр экшена, где главная цель - стрелять и убивать врагов различными типами оружия. Хотя существует множество поджанров, он в основном разделяется на две группы в зависимости от перспективы нашего персонажа: от первого лица (или FPS) и от третьего лица (или TPS).</text>
+			<text lang="zh">动作游戏类型，主要目标是使用不同类型的武器射杀敌人。虽然存在许多子类别，但主要分为两组，根据我们的角色的视角：第一人称（或FPS）和第三人称（或TPS）。</text>
+			<text lang="ja">異なる種類の武器で敵を撃ち殺すことが主な目的となるアクションゲームのジャンルです。多数のサブジャンルが存在しますが、主に1人称視点（またはFPS）と3人称視点（またはTPS）の2つに分けられます。</text>
 		</text>
 
-		<text name="system_name" extra="true" lang="es,ca,eu">
-			<text>Shooter</text>
-		</text>
+
 	</view>
 </theme>

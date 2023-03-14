@@ -6,18 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Packs of two or more previously released video games (usually bestsellers) in a later edition at a lower price.</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.</text>
+			<text>Bundles of two or more previously released video games (usually bestsellers) in a later edition and at a lower price.</text>
+			<text lang="es">Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.</text>
+			<text lang="ca">Packs de dos o més videojocs llançats anteriorment (normalment èxits en vendes) en una edició posterior i a un preu més ajustat.</text>
+			<text lang="eu">Aurreko batez ere argitaratutako bi edo gehiago bideojoko pack-ak (soilik saltzaile onenak) atzerriko bertsioan eta prezio baxuan.</text>
+			<text lang="fr">Ensembles de deux jeux vidéo ou plus précédemment publiés (généralement des meilleures ventes) dans une édition ultérieure et à un prix inférieur.</text>
+			<text lang="pt">Pacotes de dois ou mais jogos de vídeo anteriormente lançados (geralmente os mais vendidos) em uma edição posterior e com um preço mais baixo.</text>
+			<text lang="it">Pacchetti di due o più videogiochi pubblicati in precedenza (solitamente i più venduti) in una successiva edizione a un prezzo inferiore.</text>
+			<text lang="de">Bündel von zwei oder mehr zuvor veröffentlichten Videospielen (in der Regel Bestseller) in einer späteren Ausgabe und zu einem niedrigeren Preis.</text>
+			<text lang="pl">Pakiety dwóch lub więcej wcześniej wydanych gier wideo (zwykle bestsellerów) w późniejszej edycji i w niższej cenie.</text>
+			<text lang="ru">Наборы из двух или более ранее выпущенных видеоигр (обычно бестселлеров) в последующем издании и по более низкой цене.</text>
+			<text lang="zh">两个或更多先前发布的视频游戏（通常是畅销游戏）的捆绑版，以较低的价格发布。</text>
+			<text lang="ja">以前にリリースされた2つ以上のビデオゲーム（通常はベストセラー）を後のエディションで低価格でバンドルしたもの。</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Recopilaciones</text>
-			<text lang="ca">Recopilacions</text>
-			<text lang="eu">Bildumak</text>
-		</text>
 	</view>
 </theme>

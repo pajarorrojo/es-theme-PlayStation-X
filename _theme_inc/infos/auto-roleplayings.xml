@@ -6,22 +6,46 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text>Role-playing video games, also known by the abbreviation RPG (role-playing game), belong to a genre where the player controls the actions and story of one or several characters immersed in a detailed world or map.
 
-A role-playing video game (commonly referred to as simply a role-playing game or RPG) is a video game genre where the player controls the actions of a character (or several party members) immersed in some well-defined world, usually involving some form of character development by way of recording statistics. Many role-playing video games have origins in tabletop role-playing games and use much of the same terminology, settings and game mechanics.
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
+This genre typically involves some form of progressive development of the characters as the story unfolds, either through the recording of various statistics or the evolution of skills, magic, better weapons, armor, etc...</text>
+<text lang="es">Los videojuegos de rol, también llamados por simplificación con las siglas inglesas RPG (role-playing game) pertenecen a un género donde el jugador controla las acciones y la historia de uno o varios personajes inmersos en un mundo o mapa detallado. 
 
-Los videojuegos de rol, también llamados por simplificación con las siglas inglesas RPG (role-playing game) pertenecen a un género donde el jugador controla las acciones y la historia de uno o varios personajes inmersos en un mundo o mapa detallado. 
+Este género normalmente implica alguna forma de desarrollo progresivo de sus personajes a medida que transcurre la historia, ya sea mediante el registro de estadísticas varias o la evolución de habilidades, magias, mejores armas, armaduras etc...</text>
+<text lang="ca">Els videojocs de rol, també anomenats per simplificació amb les sigles angleses RPG (role-playing game) pertanyen a un gènere on el jugador controla les accions i la història d'un o diversos personatges immersos en un món o mapa detallat.
 
-Este género normalmente implica alguna forma de desarrollo progresivo de sus personajes a medida que transcurre la historia, ya sea mediante el registro de estadísticas varias o la evolución de habilidades, magias, mejores armas, armaduras etc...
-			</text>
-		</text>
+Aquest gènere normalment implica alguna forma de desenvolupament progressiu dels seus personatges a mesura que transcórrer la història, ja sigui mitjançant el registre d'estadístiques diverses o l'evolució d'habilitats, màgies, millors armes, armadures etc...</text>
+<text lang="eu">Rol-jokoen bideojokoak, RPG izeneko hainbat letra biderkatuez ere ezaguna, pertsonai batzuen ekintzen eta istorioaren kontrolpean daudenean murgiltzen dira, mundu edo mapa zehatza baliatuz.
+
+Género honetan, pertsonaien garapena aurrera eramateko forma bat badauka, historia garatuz joaten den bitartean, estatistika anitzak erregistratuz edo trebetasunen, magien, arma hobeak, armorra eta abarren garapena aurrera eramateaz.</text>
+<text lang="fr">Les jeux vidéo de rôle, également connus sous l'abréviation RPG (role-playing game), appartiennent à un genre où le joueur contrôle les actions et l'histoire d'un ou plusieurs personnages immergés dans un monde ou une carte détaillée.
+
+Ce genre implique généralement une forme de développement progressif des personnages au fur et à mesure que l'histoire se déroule, soit par l'enregistrement de diverses statistiques, soit par l'évolution des compétences, de la magie, des meilleures armes, armures, etc...</text>
+<text lang="pt">Os jogos de RPG, também conhecidos pela sigla RPG (role-playing game), pertencem a um gênero onde o jogador controla as ações e a história de um ou vários personagens imersos em um mundo ou mapa detalhado.
+
+Este gênero normalmente envolve alguma forma de desenvolvimento progressivo de seus personagens à medida que a história se desenrola, seja através do registro de várias estatísticas ou da evolução de habilidades, magia, melhores armas, armaduras, etc...</text>
+<text lang="it">I videogiochi di ruolo, anche abbreviati con l'acronimo inglese RPG (role-playing game), appartengono a un genere in cui il giocatore controlla le azioni e la storia di uno o più personaggi immersi in un mondo o mappa dettagliati.
+
+Questo genere di solito implica una forma di sviluppo progressivo dei personaggi man mano che la storia procede, sia attraverso la registrazione di varie statistiche che attraverso l'evoluzione delle abilità, magie, armi e armature migliori, ecc...</text>
+<text lang="de">Rollenspiele, auch bekannt unter der Abkürzung RPG (Role-Playing-Game), gehören zu einem Genre, in dem der Spieler die Handlungen und die Geschichte eines oder mehrerer Charaktere in einer detaillierten Welt oder Karte kontrolliert.
+
+Dieses Genre beinhaltet normalerweise eine Art von progressiver Entwicklung der Charaktere im Laufe der Geschichte, sei es durch die Aufzeichnung verschiedener Statistiken oder durch die Entwicklung von Fähigkeiten, Zaubersprüchen, besseren Waffen, Rüstungen usw...</text>
+<text lang="pl">Gry fabularne, nazywane również skrótem RPG (role-playing game), należą do gatunku, w którym gracz kontroluje akcje i historię jednego lub kilku postaci zanurzonych w szczegółowym świecie lub mapie.
+
+Ten gatunek zwykle wymaga pewnej formy progresywnego rozwoju postaci w miarę rozwoju fabuły, poprzez rejestrowanie różnych statystyk lub rozwijanie umiejętności, magii, lepszych broni, zbroi itp...</text>
+<text lang="ru">Ролевые игры, также называемые сокращением RPG (role-playing game), относятся к жанру, в котором игрок контролирует действия и историю одного или нескольких персонажей, погруженных в детализированный мир или карту.
+
+Этот жанр обычно предполагает какую-то форму прогрессивного развития персонажей по мере продвижения сюжета, будь то через регистрацию различных статистических показателей, или через развитие навыков, магии, лучшего оружия, брони и т. д...</text>
+<text lang="zh">角色扮演游戏，简称RPG（Role-Playing Game），是一种游戏类型，玩家控制一个或多个角色在详细的世界或地图中行动和经历故事情节。
+
+通常情况下，该类型游戏随着故事的进展会涉及到角色的逐步发展，包括记录各种统计数据，或是技能、魔法、更好的武器、盔甲等的发展进化...</text>	
+<text lang="ja">ロールプレイングゲーム、略してRPG（Role-Playing Game）とも呼ばれるビデオゲームジャンルは、プレイヤーが詳細な世界やマップに浸り、1人または複数のキャラクターの行動とストーリーを制御するものです。
+	
+通常、このジャンルは、ストーリーが進むにつれて、キャラクターの何らかの形での進歩を伴います。例えば、各種の統計データの記録や、スキル、魔法、より良い武器、防具の進化などがあります。</text>
+</text>
 
 		<text name="system_name" extra="true">
 			<text lang="es">Juegos de Rol (RPG)</text>
-			<text lang="ca">Jocs de Rol (RPG)</text>
-			<text lang="eu">Rol jokoak (RPG)</text>
 		</text>
 	</view>
 </theme>

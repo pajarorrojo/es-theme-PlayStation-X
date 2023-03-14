@@ -6,20 +6,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-A sports video game is a video game that simulates the practice of sports. Most sports have been recreated with a game, including team sports, track and field, extreme sports, and combat sports.
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-			
-Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.
-			</text>
+			<text>Sports videogames is a genre that simulates the practice of sports. Most sports have been recreated with a videogame, including team sports, track and field, extreme sports, and combat sports.</text>
+			<text lang="es">Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.</text>
+			<text lang="ca">Els videojocs esportius són un gènere que simula la pràctica de esports. La majoria dels esports han estat recreats en un videojoc, incloent esports d'equip, atletisme, esports extremos i esports de combat.</text>
+			<text lang="eu">Kirol joko bideoak kirola praktikatzeari ohikoak dira. Kirol asko bideojoko batean erreproduziatu dira, talde kirolak, atletismoa, kirol ekstremoak eta borroka kirolak barne.</text>
+			<text lang="fr">Les jeux vidéo de sport est un genre qui simule la pratique des sports. La plupart des sports ont été recréés avec un jeu, y compris les sports d'équipe, l'athlétisme, les sports extrêmes et les sports de combat.</text>
+			<text lang="pt">Jogos de vídeo esportivos é um gênero que simula a prática de esportes. A maioria dos esportes foram recriados em um jogo, incluindo esportes de equipe, atletismo, esportes radicais e esportes de combate.</text>
+			<text lang="it">I videogiochi sportivi sono un genere che simula la pratica degli sport. La maggior parte degli sport è stata ricreata con un gioco, compresi gli sport di squadra, l'atletica, gli sport estremi e gli sport di combattimento.</text>
+			<text lang="de">Sport-Videospiele sind ein Genre, das die Praxis von Sportarten simuliert. Die meisten Sportarten wurden mit einem Spiel nachgebildet, einschließlich Mannschaftssportarten, Leichtathletik, Extremsportarten und Kampfsportarten.</text>
+			<text lang="pl">Gry sportowe to gatunek symulujący praktykę sportową. Większość dyscyplin sportowych została odtworzona w grze, w tym sporty drużynowe, lekkoatletyka, sporty ekstremalne i walki sportowe.</text>
+			<text lang="ru">Спортивные видеоигры - это жанр, который имитирует практику спорта. Большинство видов спорта были воссозданы в игре, включая командные виды спорта, легкую атлетику, экстремальные виды спорта и боевые виды спорта.</text>
+			<text lang="zh">体育电子游戏是一种模拟运动实践的游戏类型。大多数体育项目都已经在电子游戏中重现，包括团队运动、田径、极限运动和格斗运动。</text>
+			<text lang="ja">スポーツビデオゲームはスポーツの実践を模擬するジャンルです。チームスポーツ、陸上競技、エクストリームスポーツ、格闘スポーツなど、ほとんどのスポーツがビデオゲームで再現されています。</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text lang="es">Deportivos</text>
-			<text lang="ca">Esportius</text>
-			<text lang="eu">Kirolak</text>
-		</text>
 	</view>
 </theme>

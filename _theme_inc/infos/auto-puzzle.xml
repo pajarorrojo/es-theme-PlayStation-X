@@ -6,21 +6,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-				
-Puzzle video games make up a broad genre of video games that emphasize puzzle solving. The types of puzzles can test problem-solving skills, including logic, pattern recognition, sequence solving, spatial recognition, and word completion.
+			<text>Genre characterized by challenging the player to solve problems in order to progress in the game. These games can be in 2D or 3D and often feature a simple but challenging gameplay mechanic that requires the player to think of creative solutions to solve the problems. Puzzle games may include puzzle solving, connecting pieces, or manipulating objects to reach the goal.</text>
+			<text lang="es">Género que se caracteriza por desafiar al jugador a resolver problemas para avanzar en el juego. Estos juegos pueden ser en 2D o 3D y a menudo presentan una mecánica de juego simple pero desafiante, que requiere que el jugador piense en soluciones creativas para resolver los problemas. Los juegos de puzzle pueden incluir la resolución de acertijos, la conexión de piezas o la manipulación de objetos para alcanzar el objetivo.</text>
+			<text lang="ca">Gènere que es caracteritza per desafiar el jugador a resoldre problemes per avançar en el joc. Aquests jocs poden ser en 2D o 3D i sovint presenten una mecànica de joc senzilla però desafiadora, que requereix que el jugador pensi en solucions creatives per resoldre els problemes. Els jocs de puzzle poden incloure la resolució de puzles, la connexió de peces o la manipulació d'objectes per aconseguir l'objectiu.</text>
+			<text lang="eu">Jokalariari erronkak proposatzen dizkion generoa da. 2D edo 3D moduko jokoak izan daitezke, eta joko mekanika sinple baina erronkaririk sortzen duena jokalariak problema konplexuak ebazteko sortzaile izan behar du. Puzzle jokoek puzleak ebaztea, piezek konektatzea edo objektuak manipulatzea barne dezakete helburua lortzeko.</text>
+			<text lang="fr">Genre caractérisé par le défi lancé au joueur pour résoudre des problèmes et progresser dans le jeu. Ces jeux peuvent être en 2D ou 3D et présentent souvent une mécanique de jeu simple mais stimulante, qui exige que le joueur pense à des solutions créatives pour résoudre les problèmes. Les jeux de puzzle peuvent inclure la résolution de casse-tête, la connexion de pièces ou la manipulation d'objets pour atteindre l'objectif.</text>
+			<text lang="pt">Gênero que se caracteriza por desafiar o jogador a resolver problemas para avançar no jogo. Esses jogos podem ser em 2D ou 3D e frequentemente apresentam uma mecânica de jogo simples, porém desafiadora, que requer que o jogador pense em soluções criativas para resolver os problemas. Jogos de puzzle podem incluir a resolução de quebra-cabeças, a conexão de peças ou a manipulação de objetos para alcançar o objetivo.</text>
+			<text lang="it">Genere caratterizzato dalla sfida lanciata al giocatore per risolvere problemi e progredire nel gioco. Questi giochi possono essere in 2D o 3D e spesso presentano una meccanica di gioco semplice ma stimolante, che richiede che il giocatore pensi a soluzioni creative per risolvere i problemi. I giochi di puzzle possono includere la risoluzione di rompicapi, la connessione di pezzi o la manipolazione di oggetti per raggiungere l'obiettivo.</text>
+			<text lang="de">Genre, das sich dadurch auszeichnet, dass der Spieler vor Herausforderungen gestellt wird, die er lösen muss, um im Spiel voranzukommen. Diese Spiele können in 2D oder 3D sein und haben oft eine einfache, aber herausfordernde Spielmechanik, die kreative Lösungen erfordert, um die Probleme zu lösen. Puzzle-Spiele können das Lösen von Rätseln, das Verbinden von Teilen oder das Manipulieren von Objekten zur Erreichung des Ziels beinhalten.</text>
+			<text lang="pl">Gatunek, który charakteryzuje się tym, że gracz jest wyzwany do rozwiązywania problemów, aby przejść dalej w grze. Gry te mogą być w 2D lub 3D i często prezentują prostą, ale wymagającą mechanikę rozgrywki, która wymaga od gracza myślenia kreatywnego w celu rozwiązania problemów. Gry puzzle mogą obejmować rozwiązywanie łamigłówek, łączenie elementów lub manipulowanie obiektami w celu osiągnięcia celu.</text>
+			<text lang="ru">Жанр, который характеризуется тем, что игрок вызывается на решение задач для продвижения в игре. Эти игры могут быть 2D или 3D, и часто имеют простую, но вызывающую механику игры, которая требует от игрока творческого мышления для решения проблем. Игры-головоломки могут включать в себя решение головоломок, соединение частей или манипулирование объектами для достижения цели.</text>
+			<text lang="zh">这种类型的游戏以挑战玩家解决问题以推进游戏为特点。这些游戏可以是2D或3D，并且通常具有简单但具有挑战性的游戏机制，需要玩家进行创造性思考来解决问题。智力游戏可以包括解决谜题，连接零件或操纵物体以实现目标。</text>
+			<text lang="ja">プレイヤーに問題を解決して進めるように挑戦することが特徴的なジャンルです。これらのゲームは2Dまたは3Dであり、しばしばシンプルでありながら挑戦的なゲームメカニックを持ち、プレイヤーに創造的な解決策を考えさせます。パズルゲームには、パズルの解決、ピースの接続、または目標を達成するためのオブジェクトの操作などが含まれる場合があります。</text>
 
-			</text>
-			<text lang="es,ca,eu">Lista de juegos automática.
-
-Género de videojuegos que se caracteriza por exigir agilidad mental al jugador para resolver enigmas por lo general en una sola pantalla. Algunos videojuegos involucran problemas de lógica, matemáticas, estrategia, completar palabras o reconocimiento de patrones.
-			</text>
 		</text>
 
-
-		<text name="system_name" extra="true">
-			<text lang="es,ca,eu">Puzzle</text>
-		</text>
 
 	</view>
 </theme>

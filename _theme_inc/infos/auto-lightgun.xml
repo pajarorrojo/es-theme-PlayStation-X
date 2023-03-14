@@ -8,9 +8,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	
 		<text name="system_description" extra="true" >
 			<text>An automatic list of all Light Gun compatible games available on the system.</text>
-			<text lang="es,ca,eu">Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
-			<text lang="fr">Une liste de tous les jeux compatibles avec Ligh Guns disponibles sur le système.</text>
-			<text lang="pt">Uma lista automática de todos os jogos compatíveis com Light Guns disponíveis no sistema. </text>
+			<text lang="es">Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
+			<text lang="ca">Una llista de tots els jocs compatibles amb pistoles (lightgun) disponibles en el sistema.</text>
+			<text lang="eu">Pistola bateraezkoa diren joko guztien zerrenda sistema hauetan eskuragarri daude.</text>
+			<text lang="fr">Une liste de tous les jeux compatibles avec les pistolets (lightgun) disponibles sur le système.</text>	
+			<text lang="pt">Uma lista de todos os jogos compatíveis com pistolas (lightgun) disponíveis no sistema.</text>
+			<text lang="it">Un elenco di tutti i giochi compatibili con pistole (lightgun) disponibili nel sistema.</text>
+			<text lang="de">Eine Liste aller mit Pistolen (Lightgun) kompatiblen Spiele, die im System verfügbar sind.</text>
+			<text lang="pl">Lista wszystkich gier kompatybilnych z pistoletami (lightgun) dostępnych w systemie.</text>
+			<text lang="ru">Список всех игр, совместимых с пистолетами (lightgun), доступных в системе.</text>
+			<text lang="zh">系统中所有兼容手枪（lightgun）的游戏列表。</text>
+			<text lang="ja">システムで利用可能なライトガン対応のゲームのリスト。</text>
 		</text>
 		
 		<text name="system_name" extra="true" >
