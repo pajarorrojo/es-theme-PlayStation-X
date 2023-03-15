@@ -561,7 +561,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.01 0.955</pos>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontPath tinyScreen="true">./_theme_inc/fonts/SST Bold.ttf</fontPath>
-			<fontSize>0.028</fontSize>
+			<fontSize>0.026</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.03</fontSize>
 
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
