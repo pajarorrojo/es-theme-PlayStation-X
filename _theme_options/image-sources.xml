@@ -70,8 +70,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>39</zIndex>
          <storyboard event="open">
-           <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="easeInOut" />
-         </storyboard>
+            <animation property="opacity" from="0" to="0"  duration="500" mode="easeInOut" />
+            <animation property="opacity" from="0" to="1" begin="500" duration="500" mode="easeOut" />
+          </storyboard>
          <storyboard event="activateNext">
            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
          </storyboard>
@@ -154,7 +155,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>45</zIndex>
          <storyboard event="open">
-            <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="easeInOut" />
+            <animation property="opacity" from="0" to="0"  duration="500" mode="easeInOut" />
+            <animation property="opacity" from="0" to="1" begin="500" duration="500" mode="easeOut" />
           </storyboard>
           <storyboard event="activateNext">
             <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
@@ -236,9 +238,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <linearSmooth>true</linearSmooth>
+      <opacity>0</opacity>
       <zIndex>45</zIndex>
       <storyboard event="open">
-         <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="easeInOut" />
+         <animation property="opacity" from="0" to="0"  duration="500" mode="easeInOut" />
+         <animation property="opacity" from="0" to="1" begin="500" duration="500" mode="easeOut" />
        </storyboard>
        <storyboard event="activateNext">
          <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
