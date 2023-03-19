@@ -242,7 +242,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="default" displayName="${default}" />
 		<include name="fanart" displayName="${randomFanart}" />
 		<include name="none" displayName="${none}" />
-
 	</subset>
 
 
@@ -319,7 +318,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="titleshot" displayName="titleshot" />
 		<include name="marquee" displayName="marquee" />
 		<include name="boxart" displayName="boxart" />
-		<include name="fanart" displayName="fanart" />
+		<include name="fanart" displayName="fanart" ifSubset="background-list:default"/>
 		<!-- <include name="boxback" displayName="boxback"/> -->
 		<include name="cartridge" displayName="cartridge" />
 	</subset>
@@ -331,7 +330,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="titleshot" displayName="titleshot" />
 		<include name="marquee" displayName="marquee" />
 		<include name="boxart" displayName="boxart" />
-		<include name="fanart" displayName="fanart" />
+		<include name="fanart" displayName="fanart" ifSubset="background-list:default" />
 		<!-- <include name="boxback" displayName="boxback"/> -->
 		<include name="cartridge" displayName="cartridge" />
 	</subset>
@@ -340,7 +339,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="titleshot" displayName="titleshot" />
 		<include name="marquee" displayName="marquee" />
 		<include name="boxart" displayName="boxart" />
-		<include name="fanart" displayName="fanart" />
+		<include name="fanart" displayName="fanart"  />
 		<!-- <include name="boxback" displayName="boxback"/> no funciona en grilla-->
 		<include name="cartridge" displayName="cartridge" />
 		<include name="image" displayName="image" />
@@ -354,7 +353,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="titleshot" displayName="titleshot" />
 		<include name="marquee" displayName="marquee" />
 		<include name="boxart" displayName="boxart" />
-		<include name="fanart" displayName="fanart" />
+		<include name="fanart" displayName="fanart" ifSubset="background-list:default" />
 		<!-- <include name="boxback" displayName="boxback"/> -->
 		<include name="cartridge" displayName="cartridge" />
 	</subset>
@@ -368,6 +367,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<!-- <include name="boxback" displayName="boxback"/> no funciona en grilla-->
 		<include name="cartridge" displayName="cartridge" />
 		<include name="image" displayName="image" />
+	</subset>
+
+	<!-- IMAGEN DE FONDO EN LA LISTA DE JUEGOS -->
+
+	<subset name="background-list" displayName="${theme.gamelistBackground}" appliesTo="detailed, grid, carousel">
+		<include name="default" displayName="${default}" />
+		<include name="fanart" displayName="fanart" />
 	</subset>
 
 	<!--OPCIONES DE SNAPVIDEO-->

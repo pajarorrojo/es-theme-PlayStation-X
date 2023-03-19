@@ -74,5 +74,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselOrigin>旋转木马图像</theme.carouselOrigin>
     <theme.systemBackground>系统视图中的背景图片</theme.systemBackground>
     <randomFanart>随机Fanart</randomFanart>
+    <theme.gamelistBackground>游戏列表背景图像</theme.gamelistBackground>
+    <theme.gamelistBackground>ゲームリストの背景画像</theme.gamelistBackground>
   </variables>
 </theme>

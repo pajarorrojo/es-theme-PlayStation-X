@@ -132,7 +132,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="background-art" extra="true">
          <path>./_theme_inc/images/background/${system.theme}.jpg</path>
-         <zIndex>40</zIndex>
+         <zIndex>39</zIndex>
       </image>
 
       <image name="background-art" extra="true" region="eu" />

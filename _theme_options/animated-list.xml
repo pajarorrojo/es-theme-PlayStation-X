@@ -27,7 +27,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </image>
 
     <image name="background-art" extra="true">
-      <storyboard><!--revisar tambien en fondo olas (animated_background) si se cambia la animacion-->
+      <storyboard>
         <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
         <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
       </storyboard>

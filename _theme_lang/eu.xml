@@ -74,5 +74,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselOrigin>Karuselaren irudiak</theme.carouselOrigin>
     <theme.systemBackground>Sistemen ikuspegiaren atzeko irudia</theme.systemBackground>
     <randomFanart>Ausazko fanart</randomFanart>
+    <theme.gamelistBackground>Atzeko irudia jokoen zerrendan</theme.gamelistBackground>
   </variables>
 </theme>

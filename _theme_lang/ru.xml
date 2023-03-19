@@ -74,5 +74,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselOrigin>Изображения в карусели</theme.carouselOrigin>
     <theme.systemBackground>Изображение фона в виде систем</theme.systemBackground>
     <randomFanart>Случайный фанарт</randomFanart>
+    <theme.gamelistBackground>Фоновое изображение в списке игр</theme.gamelistBackground>
   </variables>
 </theme>

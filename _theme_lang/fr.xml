@@ -75,5 +75,6 @@ Translation thanks to Soaresden and Snapouille
     <theme.carouselOrigin>Images du carrousel</theme.carouselOrigin>
     <theme.systemBackground>Image de fond dans la vue des systèmes</theme.systemBackground>
     <randomFanart> Fanart Aléatoire </randomFanart>
+    <theme.gamelistBackground>Image de fond dans la liste de jeux</theme.gamelistBackground>
   </variables>
 </theme>

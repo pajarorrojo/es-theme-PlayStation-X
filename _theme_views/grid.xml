@@ -111,6 +111,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
+
+
       <image name="background-art" extra="true" region="eu" />
       <image name="background-art" extra="true" region="us">
          <path>./_theme_inc/images/background/us/${system.theme}.jpg</path>
@@ -126,6 +128,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
       </image>
+
+
+
 
       <text name="md_name">
          <alignment>left</alignment>

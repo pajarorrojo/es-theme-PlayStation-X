@@ -74,5 +74,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.carouselOrigin>カルーセル画像</theme.carouselOrigin>
 		<theme.systemBackground>システムビューでの背景画像</theme.systemBackground>
 		<randomFanart>ランダムファンアート</randomFanart>
+		<theme.gamelistBackground>ゲームリストの背景画像</theme.gamelistBackground>
 	</variables>
 </theme>

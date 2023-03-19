@@ -27,6 +27,9 @@ Version 36 (14/03/2023)
    - Default
    - Random fanart
    - None
+- New subset of options for the background image in gamelist view, options are:
+   - Default
+   - Fanart
 - New: Black colorset carousel front logos for auto systems instead the default blue (favs, last played... etc)
 - New: Now the two blue top dots and two faces icon turns gray when netplay are disabled
 - New: Now the top trophy icon turns gray when retroachievements are disabled (batocera 36)

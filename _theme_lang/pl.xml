@@ -74,5 +74,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselOrigin>Obrazy karuzeli</theme.carouselOrigin>
     <theme.systemBackground>Zdjęcie tła w widoku systemów</theme.systemBackground>
     <randomFanart>Losowe fanart</randomFanart>
+    <theme.gamelistBackground>Obraz tła na liście gier</theme.gamelistBackground>
   </variables>
 </theme>

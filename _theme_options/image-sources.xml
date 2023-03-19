@@ -61,6 +61,30 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="md_titleshot" ifSubset="detailed-origin:titleshot">
          <visible>true</visible>
       </image>
+
+      <image name="md_fanart" ifSubset="background-list:fanart">
+         <size>1.001 0</size>
+         <visible>true</visible>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>39</zIndex>
+         <storyboard event="open">
+           <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="easeInOut" />
+         </storyboard>
+         <storyboard event="activateNext">
+           <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
+         </storyboard>
+         <storyboard event="activatePrev">
+           <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
+         </storyboard>
+         <storyboard event="deactivateNext">
+           <animation property="opacity" to="0" duration="100" mode="easeOut" />
+         </storyboard>
+         <storyboard event="deactivatePrev">
+           <animation property="opacity" to="0" duration="100" mode="easeOut" />
+         </storyboard>
+      </image>
    </view>
 
    <!-- parrilla -->
@@ -121,65 +145,116 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>true</visible>
 
       </image>
+
+      <image name="md_fanart" ifSubset="background-list:fanart">
+         <size>1.001 0</size>
+         <visible>true</visible>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>45</zIndex>
+         <storyboard event="open">
+            <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="easeInOut" />
+          </storyboard>
+          <storyboard event="activateNext">
+            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
+          </storyboard>
+          <storyboard event="activatePrev">
+            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
+          </storyboard>
+          <storyboard event="deactivateNext">
+            <animation property="opacity" to="0" duration="100" mode="easeOut" />
+          </storyboard>
+          <storyboard event="deactivatePrev">
+            <animation property="opacity" to="0" duration="100" mode="easeOut" />
+          </storyboard>
+
+      </image>
    </view>
 
-   <!-- carrusel -->
+ <!-- carrusel -->
 
-   <customView name="carousel">
-      <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
-         <maxSize>0.25 0.335</maxSize>
-         <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
-         <pos>0.155 0.3</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
-         <zIndex>91</zIndex>
-         <linearSmooth>true</linearSmooth>
-         <default>./../_theme_inc/images/no-image-default.png</default>
-         <visible>false</visible>
-      </image>
-
-
-      
-      <image name="md_image" ifSubset="carousel-main-origin:image">
-         <visible>true</visible>
-      </image>
-
-      <image name="md_thumbnail" ifSubset="carousel-main-origin:thumbnail">
-         <visible>true</visible>
-
-      </image>
-
-      <image name="md_marquee" ifSubset="carousel-main-origin:marquee">
-         <maxSize>0.18 0.25</maxSize>
-         <visible>true</visible>
-      </image>
-
-      <image name="md_boxart" ifSubset="carousel-main-origin:boxart" extra="true">
-         <visible>true</visible>
-
-      </image>
-
-      <!-- <image name="md_boxback" ifSubset="carousel-main-origin:boxback" extra="true">
-         <pos>0.15 0.295</pos>
-         <maxSize>0.25 0.31</maxSize>
-         <zIndex>91</zIndex>  
-         <linearSmooth>true</linearSmooth>
-         <default>./../_theme_inc/images/no-image-default.png</default>
-      </image> -->
+ <customView name="carousel">
+   <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
+      <maxSize>0.25 0.335</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
+      <pos>0.155 0.3</pos>
+      <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <default>./../_theme_inc/images/no-image-default.png</default>
+      <visible>false</visible>
+   </image>
 
 
-      <image name="md_cartridge" ifSubset="carousel-main-origin:cartridge" extra="true">
-         <maxSize>0.18 0.25</maxSize>
-         <visible>true</visible>
-      </image>
+   
+   <image name="md_image" ifSubset="carousel-main-origin:image">
+      <visible>true</visible>
+   </image>
+
+   <image name="md_thumbnail" ifSubset="carousel-main-origin:thumbnail">
+      <visible>true</visible>
+
+   </image>
+
+   <image name="md_marquee" ifSubset="carousel-main-origin:marquee">
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+
+   <image name="md_boxart" ifSubset="carousel-main-origin:boxart" extra="true">
+      <visible>true</visible>
+
+   </image>
+
+   <!-- <image name="md_boxback" ifSubset="carousel-main-origin:boxback" extra="true">
+      <pos>0.15 0.295</pos>
+      <maxSize>0.25 0.31</maxSize>
+      <zIndex>91</zIndex>  
+      <linearSmooth>true</linearSmooth>
+      <default>./../_theme_inc/images/no-image-default.png</default>
+   </image> -->
 
 
-      <image name="md_fanart" ifSubset="carousel-main-origin:fanart" extra="true">
-         <visible>true</visible>
-      </image>
+   <image name="md_cartridge" ifSubset="carousel-main-origin:cartridge" extra="true">
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
 
-      <image name="md_titleshot" ifSubset="carousel-main-origin:titleshot" extra="true">
-         <visible>true</visible>
 
-      </image>
-   </customView>
-</theme>
+   <image name="md_fanart" ifSubset="carousel-main-origin:fanart" extra="true">
+      <visible>true</visible>
+   </image>
+
+   <image name="md_titleshot" ifSubset="carousel-main-origin:titleshot" extra="true">
+      <visible>true</visible>
+   </image>
+
+   <image name="md_fanart" ifSubset="background-list:fanart">
+      <size>1.001 0</size>
+      <visible>true</visible>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>45</zIndex>
+      <storyboard event="open">
+         <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="easeInOut" />
+       </storyboard>
+       <storyboard event="activateNext">
+         <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
+       </storyboard>
+       <storyboard event="activatePrev">
+         <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
+       </storyboard>
+       <storyboard event="deactivateNext">
+         <animation property="opacity" to="0" duration="100" mode="easeOut" />
+       </storyboard>
+       <storyboard event="deactivatePrev">
+         <animation property="opacity" to="0" duration="100" mode="easeOut" />
+       </storyboard>
+
+   </image>
+</customView>
+
+
+  </theme>

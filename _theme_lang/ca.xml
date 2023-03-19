@@ -73,6 +73,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselMainOrigin>Imatge principal a la vista de carrusel</theme.carouselMainOrigin>
     <theme.carouselOrigin>Imatges del carrusel</theme.carouselOrigin>
     <theme.systemBackground>Imatge de fons a la vista de sistemes</theme.systemBackground>
-    <randomFanart>Fanart aleatori</randomFanart>    
+    <randomFanart>Fanart aleatori</randomFanart>
+    <theme.gamelistBackground>Imatge de fons a la llista de jocs</theme.gamelistBackground>
   </variables>
 </theme>
