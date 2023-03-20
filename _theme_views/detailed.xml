@@ -167,6 +167,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <datetime name="md_releasedate">
          <pos>0.55 0.696</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.556</pos>
+         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.55 0.686</pos>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.032 0.05</size>
@@ -188,8 +189,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.250 0.037</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.230 0.037</size>
          <pos>0.585 0.702</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.592 0.562</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.592 0.562</pos>
+         <pos ifSubset="aspect-ratio:5-4">0.592 0.561</pos>
          <pos ifSubset="aspect-ratio:3-2">0.595 0.699</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.595 0.562</pos>
+         <pos ifSubset="aspect-ratio:5-4" tinyScreen="true">0.595 0.561</pos>
+         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.593 0.691</pos>
+
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <color>${developerColor}</color>

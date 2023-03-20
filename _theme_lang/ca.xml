@@ -75,5 +75,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemBackground>Imatge de fons a la vista de sistemes</theme.systemBackground>
     <randomFanart>Fanart aleatori</randomFanart>
     <theme.gamelistBackground>Imatge de fons a la llista de jocs</theme.gamelistBackground>
+    <theme.forced>forçat</theme.forced>
   </variables>
 </theme>

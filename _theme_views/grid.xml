@@ -20,11 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
+         <margin tinyScreen="true">0.001 0.001</margin>
          <size>0.955 0.45</size>
          <size ifSubset="aspect-ratio:4-3|5-4">1 0.45</size>
          <pos>0.022 0.48</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
-
          <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>60</zIndex>
          <padding>0.005 0.005</padding>
@@ -36,12 +36,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
          <backgroundEdgeColor ifSubset="grid-origin:boxart|thumbnail|marquee|cartridge">${backgroundgridSelect}00</backgroundEdgeColor>
          <padding>6</padding>
-         <padding tinyScreen="true">3</padding>
-         <padding ifSubset="aspect-ratio:4-3" tinyScreen="false">5</padding>
-         <padding ifSubset="aspect-ratio:4-3" tinyScreen="true">4</padding>
          <padding ifSubset="aspect-ratio:5-4">7</padding>
-
          <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
+         <padding ifSubset="aspect-ratio:4-3" tinyScreen="false">5</padding>
+         <padding tinyScreen="true">3</padding>
+         <padding ifSubset="aspect-ratio:4-3" tinyScreen="true">4</padding>
+         <padding ifSubset="aspect-ratio:4-3" tinyScreen="true">4</padding>
          <backgroundCornerSize>0 0</backgroundCornerSize>
          <imageColor>ffffff</imageColor>
          <imageSizeMode ifSubset="grid-origin:image|titleshot|fanart" >minSize</imageSizeMode>
@@ -159,9 +159,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos tinyScreen="true">0.3 0.22</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4" tinyScreen="false" >0.3 0.19</pos>
          <pos ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.3 0.2</pos>
-         <pos ifSubset="aspect-ratio:5-3" tinyScreen="true" >0.3 0.205</pos>
+         <pos ifSubset="aspect-ratio:16-9" tinyScreen="true" >0.3 0.20</pos>
+         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.3 0.202</pos>
 
          <size>0.64 0.173</size>
+         <size ifSubset="aspect-ratio:16-10" tinyScreen="true">0.64 0.182</size>
+
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:16-9">./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.027</fontSize>
@@ -178,6 +181,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <datetime name="md_releasedate">
          <pos>0.30 0.387</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.30 0.367</pos>
+         <pos ifSubset="aspect-ratio:16-9" tinyScreen="true">0.30 0.383</pos>
+         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.30 0.384</pos>
+
          <origin>0 0</origin>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
@@ -196,15 +202,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="md_developer">
          <size>0.38 0.035</size>
+         <size ifSubset="aspect-ratio:4-3" tinyScreen="true">0.38 0.04</size>
          <origin>0 0</origin>
          <verticalAlignment>top</verticalAlignment>
          <pos>0.332 0.394</pos>
+         <pos tinyScreen="true">0.342 0.388</pos>
          <pos ifSubset="aspect-ratio:3-2">0.339 0.394</pos>
          <pos ifSubset="aspect-ratio:16-10">0.339 0.395</pos>
          <pos ifSubset="aspect-ratio:5-4">0.348 0.375</pos>
-         <pos ifSubset="aspect-ratio:4-3" tinyScreen="false" >0.343 0.374</pos>
-         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.355 0.388</pos>
-         <pos tinyScreen="true">0.342 0.388</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="false" >0.341 0.375</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.355 0.367</pos>
+         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.34 0.388</pos>
+
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <color>${developerColor}</color>
          <zIndex>51</zIndex>

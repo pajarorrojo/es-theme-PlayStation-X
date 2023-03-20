@@ -75,5 +75,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemBackground>Zdjęcie tła w widoku systemów</theme.systemBackground>
     <randomFanart>Losowe fanart</randomFanart>
     <theme.gamelistBackground>Obraz tła na liście gier</theme.gamelistBackground>
+    <theme.forced>wymuszony</theme.forced>
   </variables>
 </theme>

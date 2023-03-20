@@ -76,5 +76,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <randomFanart>随机Fanart</randomFanart>
     <theme.gamelistBackground>游戏列表背景图像</theme.gamelistBackground>
     <theme.gamelistBackground>ゲームリストの背景画像</theme.gamelistBackground>
+    <theme.forced>強制</theme.forced>
   </variables>
 </theme>

@@ -52,14 +52,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--RELACION DE ASPECTO (auto deteccion)-->
 	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
+		<include if="${screen.width} == '800' && ${screen.height} == '480' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch (ojo, solo para pantallas tiny <= 480p)-->
+		<include if="${screen.width} == '1200' && ${screen.height} == '720' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
+		<include if="${screen.width} == '1800' && ${screen.height} == '1080' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
 		<include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 (${theme.detected})" />
 		<include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2 (${theme.detected})" />
 		<include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4 (${theme.detected})" />
 		<include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '30/17'" name="16-9" displayName="16:9 (${theme.detected})" />
-		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})" tinyScreen="false" />
-		<include if="{screen.ratio} == '16/10'" name="5-3" displayName="5:3 (${theme.detected})" tinyScreen="true"  /> <!--FIX 5:3 no detectado por retroarch (ojo, solo para pantallas tiny <= 480p)-->
-		<include if="{screen.ratio} == '5/3'" name="5-3" displayName="5:3 (${theme.detected})" />
+		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})"/>
 	</subset>
 
 

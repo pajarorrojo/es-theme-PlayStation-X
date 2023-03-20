@@ -77,5 +77,6 @@ Translation thanks to Janderson
     <theme.systemBackground>Imagem de fundo na visualização de sistemas</theme.systemBackground>
     <randomFanart> Fanart Aleatória </randomFanart>
     <theme.gamelistBackground>Imagem de fundo na lista de jogos</theme.gamelistBackground>
+    <theme.forced>forçado</theme.forced>
   </variables>
 </theme>

@@ -75,5 +75,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemBackground>Sistemen ikuspegiaren atzeko irudia</theme.systemBackground>
     <randomFanart>Ausazko fanart</randomFanart>
     <theme.gamelistBackground>Atzeko irudia jokoen zerrendan</theme.gamelistBackground>
+    <theme.forced>bortitua</theme.forced>
   </variables>
 </theme>

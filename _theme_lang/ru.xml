@@ -75,5 +75,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemBackground>Изображение фона в виде систем</theme.systemBackground>
     <randomFanart>Случайный фанарт</randomFanart>
     <theme.gamelistBackground>Фоновое изображение в списке игр</theme.gamelistBackground>
+    <theme.forced>принудительный</theme.forced>
   </variables>
 </theme>
