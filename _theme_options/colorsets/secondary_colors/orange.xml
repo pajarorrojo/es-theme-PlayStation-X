@@ -11,5 +11,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <splash.progressbarActive>FF9E00</splash.progressbarActive>
       <gamelistSelectorColor>FF9E00</gamelistSelectorColor>
       <backgroundgridSelect>FF9E0073</backgroundgridSelect>
+      <gamelist.starFill>FF9E00</gamelist.starFill>
+
    </variables>
 </theme>

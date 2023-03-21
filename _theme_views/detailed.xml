@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <textlist name="gamelist">
          <pos >0 0.134</pos>
-         <size>0.46 0.81</size>
+         <size>0.458 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <extraTextColor>606060</extraTextColor>
@@ -43,7 +43,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <textlist name="gamelist">
          <pos ifSubset="anim-list:YES">-0.5 0.134</pos>
          <pos ifSubset="anim-list:NO">0 0.134</pos>
-         <size>0.46 0.81</size>
+         <size>0.458 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <extraTextColor>606060</extraTextColor>
@@ -128,11 +128,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="background" extra="static">
          <zIndex>41</zIndex>
+         <color ifSubset="background-list:fanart">ffffffd9</color>
       </image>
 
       <image name="background-art" extra="true">
          <path>./_theme_inc/images/background/${system.theme}.jpg</path>
          <zIndex>39</zIndex>
+      </image>
+
+      <image name="lineas-verticales" extra="true" ifSubset="background-list:default">
+         <path>./_theme_inc/images/lineas-detailed.png</path>
+         <zIndex>42</zIndex>
+         <color>000000</color>
       </image>
 
       <image name="background-art" extra="true" region="eu" />
@@ -143,7 +150,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./_theme_inc/images/background/jp/${system.theme}.jpg</path>
       </image>
 
-      <image name="background, background-art" extra="true">
+      <image name="background, background-art, lineas-verticales" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <linearSmooth>true</linearSmooth>
@@ -156,7 +163,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       </image>
 
-      <image name="background" extra="true">
+      <image name="background, lineas-verticales" extra="true">
 
          <size>1 1</size>
       </image>
@@ -227,7 +234,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:16-9">0.05 0.05</size>
          <size ifSubset="aspect-ratio:4-3|5-4|16-10">0.04 0.04</size>
          <unfilledColor>${starUnfill}</unfilledColor>
-         <color>${starFill}</color>
+         <color>${gamelist.starFill}</color>
          <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
          <zIndex>51</zIndex>
          <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>

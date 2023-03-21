@@ -53,6 +53,7 @@ Version 36 (14/03/2023)
 - Change: New color palette in carousel front logos for auto collections with a more fresh look
 - Change: New default carousel logo with a folder icon image (if the selected system has no logo)
 - Change: The system view layout with video window option enabled have been modified. Now fits to different carousel sizes
+- Now the color of the rating stars is filled with the color of the secondary palette
 - Change: Mario Bros. and Handsome Jack avatar images
 - Added: a default image in game loading screen when game has no image scraped (Pc boards)
 - Added: Lightgun icon to controller activity images

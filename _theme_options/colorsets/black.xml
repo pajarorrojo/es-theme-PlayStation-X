@@ -24,7 +24,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <genreColor>3CAEFB</genreColor>
       <releaseColor>F3C300</releaseColor>
       <starFill>DF0024</starFill>
-      <starUnfill>F3C30069</starUnfill>
+      <starUnfill>ffffff69</starUnfill>
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
@@ -34,6 +34,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <splash.labelColor>ffffff</splash.labelColor>
       <sistema.lineainferior ifSubset="secondary_colorset:default">DF0024</sistema.lineainferior>
       <sistema.pie>000000cf</sistema.pie>
+      <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
+
    </variables>
 
 

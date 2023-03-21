@@ -241,7 +241,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:16-9|16-10">0.05 0.05</size>
          <origin>0 0</origin>
          <unfilledColor>${starUnfill}</unfilledColor>
-         <color>${starFill}</color>
+         <color>${gamelist.starFill}</color>
          <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
          <zIndex>51</zIndex>
          <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
