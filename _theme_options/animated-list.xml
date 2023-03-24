@@ -25,22 +25,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
         <animation property="opacity" from="0.5" to="1" duration="500" mode="easeOut" />
       </storyboard>
     </image>
-
-    <image name="background-art" extra="true">
-      <storyboard>
-        <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
-        <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
-      </storyboard>
-      <storyboard ifSubset="background-list:fanart"> 
-        <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
-        <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
-        <animation  property="opacity" to="0" begin="1000" duration="100" mode="linear" />
-      </storyboard>
-
-      
-    </image>
-
-
+  
   </view>
 
   <view name="grid">
