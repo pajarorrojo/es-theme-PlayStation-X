@@ -1,7 +1,7 @@
 <!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
-<theme defaultTransition="instant">
+<theme defaultView="detailed" defaultTransition="instant">
 
 
 	<formatVersion>7</formatVersion>
@@ -435,7 +435,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</batteryIndicator>
 	</view>
 
-	<view name="system, basic, detailed, grid">
+	<view name="system, detailed, grid">
 
 
 		<text name="region" extra="true" tinyScreen="false">
@@ -561,7 +561,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</helpsystem>
 	</view>
 
-	<view name="basic,detailed,grid">
+	<view name="detailed,grid">
 		<helpsystem name="help">
 			<textColor>${helpFontColor}</textColor>
 			<iconColor>${helpIconColor}</iconColor>

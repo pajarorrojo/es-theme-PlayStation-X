@@ -55,6 +55,7 @@ Version 36 (14/03/2023)
 - Change: The system view layout with video window option enabled have been modified. Now fits to different carousel sizes
 - Now the color of the rating stars is filled with the color of the secondary palette
 - Change: Mario Bros. and Handsome Jack avatar images
+- Change: The deprecated basic view has been removed from gamelist view style list
 - Added: a default image in game loading screen when game has no image scraped (Pc boards)
 - Added: Lightgun icon to controller activity images
 - Added: Bomberman, Arale, Link (Zelda Ocarina) and Geralt de Rivia (The Witcher 3) preset avatars

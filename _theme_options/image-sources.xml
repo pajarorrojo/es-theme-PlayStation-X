@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <!-- detallada -->
 
-   <view name="basic, detailed">
+   <view name=" detailed">
 
       <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
          <pos>0.760 0.405</pos>

@@ -4,39 +4,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="basic">
-
-
-
-      <textlist name="gamelist">
-         <pos >0 0.134</pos>
-         <size>0.458 0.81</size>
-         <selectorColor>${gamelistSelectorColor}</selectorColor>
-         <selectedColor>${gamelistSelectedColor}</selectedColor>
-         <extraTextColor>606060</extraTextColor>
-         <extraTextSelectedColor>A0A0A0</extraTextSelectedColor>
-         <selectorImagePath>./../_theme_inc/images/selector-lineas-blancas-transp50.png</selectorImagePath>
-         <horizontalMargin>0.015</horizontalMargin>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3|5-4">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <glowColor>00000035</glowColor>
-         <glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-         <glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
-         <fontSize>0.035</fontSize>
-         <alignment>left</alignment>
-         <lineSpacing>1.45</lineSpacing>
-         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
-         <scrollbarAlignment>outerright</scrollbarAlignment>
-         <scrollbarColor>${genreColor}20</scrollbarColor>
-         <scrollbarCorner>0.005</scrollbarCorner>
-         <scrollbarSize>0.0075</scrollbarSize>
-         <zIndex>42</zIndex>
-
-      </textlist>
-
-      </view>
 
       <view name="detailed">
 
@@ -71,7 +38,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       </view>
 
-      <view name="basic, detailed">
+      <view name=" detailed">
 
 
 
