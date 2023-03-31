@@ -23,32 +23,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<include lang="zh">./_theme_lang/${lang}.xml</include>
 
 
-
-
-
 	<!--PERSONALIZACION-->
 	<include>./custom-username.xml</include>
 	<include>./_theme_options/usernames.xml</include>
 	<include>./_theme_options/avatars.xml</include>
 
-<view name="splash">		
-
-
-	<text name="welcome" extra="true">
-		<origin>0 0</origin>
-		<pos>0 0.2</pos>
-		<size>1 0.05</size>
-		<size ifSubset="aspect-ratio:4-3|5-4">0.5 0.3</size>
-		<origin ifSubset="aspect-ratio:4-3|5-4">0.5 0</origin>
-		<pos ifSubset="aspect-ratio:4-3|5-4">0.5 0</pos>
-		<size tinyScreen="true">0.5 0.3</size>
-		<origin tinyScreen="true">0.5 0</origin>
-		<pos tinyScreen="true">0.5 0</pos>
-	</text>
-
-</view>
 
 	<!--THEME OPTIONS-->
+
+
 
 	<!--RELACION DE ASPECTO (auto deteccion)-->
 	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
@@ -75,7 +58,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 
-
 	<!--FRONTEND-->
 	<subset name="frontend" displayName="${theme.frontend}">
 		<include ifNotArch="windows" name="batocera" displayName="batocera" />
@@ -87,6 +69,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="emuelec" displayName="emuelec" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="false" />
 	</subset>
+
 
 	<!--JUEGO DE COLORES-->
 	<subset name="colorset" displayName="${theme.colorset}">

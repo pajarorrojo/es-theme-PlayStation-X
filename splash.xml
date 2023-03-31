@@ -105,10 +105,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<linearSmooth>true</linearSmooth>
 		</image>
 
-	<!-- no reconoce los subsets de relacion de aspecto
+
+<!-- not detecting the aspect ratio subset, always take the first option of the subset
+
 		<image name="info-ico-ratio" extra="true" >
+			<path ifSubset="aspect-ratio:4-3">./_theme_inc/images/4-3.svg</path>
 			<path ifSubset="aspect-ratio:16-9">./_theme_inc/images/16-9.svg</path>
-			<path ifSubset="aspect-ratio:4-3|5-4">./_theme_inc/images/4-3|5-4.svg</path>
 			<path ifSubset="aspect-ratio:16-10">./_theme_inc/images/16-10.svg</path>
 			<path ifSubset="aspect-ratio:3-2">./_theme_inc/images/3-2.svg</path>
 			<path ifSubset="aspect-ratio:5-3">./_theme_inc/images/5-3.svg</path>
@@ -121,8 +123,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos tinyScreen="true">0.87 0.78</pos>
 			<color>ffffff40</color>
 		</image>
-	-->
 
+	-->
 
 
 
@@ -144,7 +146,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<glowOffset>3 2</glowOffset>
 			<zIndex>60</zIndex>
 			<backgroundColor>ff000000</backgroundColor>
+
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.5 0.3</size>
 		</text>
+
+
+
+
 
 
 		<image name="avatar" extra="true">

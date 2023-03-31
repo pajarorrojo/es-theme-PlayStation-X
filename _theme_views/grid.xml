@@ -183,14 +183,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:4-3|5-4">0.30 0.367</pos>
          <pos ifSubset="aspect-ratio:16-9" tinyScreen="true">0.30 0.383</pos>
          <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.30 0.384</pos>
-
          <origin>0 0</origin>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.035 0.05</size>
          <size tinyScreen="true">0.039 0.05</size>
          <size ifSubset="aspect-ratio:4-3|5-4" tinyScreen="false" >0.04 0.05</size>
-         <size ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.049 0.05</size>
+         <size ifSubset="aspect-ratio:4-3|5-4|3-2" tinyScreen="true" >0.049 0.05</size>
          <color>${releaseColor}</color>
          <format>%Y</format>
          <fontSize>0.022</fontSize>
@@ -202,18 +201,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="md_developer">
          <size>0.38 0.035</size>
-         <size ifSubset="aspect-ratio:4-3" tinyScreen="true">0.38 0.04</size>
+         <size ifSubset="aspect-ratio:4-3|3-2" tinyScreen="true">0.38 0.04</size>
          <origin>0 0</origin>
          <verticalAlignment>top</verticalAlignment>
          <pos>0.332 0.394</pos>
-         <pos tinyScreen="true">0.342 0.388</pos>
-         <pos ifSubset="aspect-ratio:3-2">0.339 0.394</pos>
+         <pos tinyScreen="true" >0.342 0.388</pos>
+         <pos ifSubset="aspect-ratio:3-2" tinyScreen="false">0.339 0.394</pos>
          <pos ifSubset="aspect-ratio:16-10">0.339 0.395</pos>
          <pos ifSubset="aspect-ratio:5-4">0.348 0.375</pos>
          <pos ifSubset="aspect-ratio:4-3" tinyScreen="false" >0.341 0.375</pos>
+         <pos ifSubset="aspect-ratio:3-2" tinyScreen="true">0.349 0.387</pos>
          <pos ifSubset="aspect-ratio:4-3" tinyScreen="true" >0.355 0.367</pos>
          <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.34 0.388</pos>
-
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <color>${developerColor}</color>
          <zIndex>51</zIndex>
@@ -224,7 +223,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <text name="md_genre">
          <pos>0.30 0.422</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.30 0.405</pos>
-
          <size>0.41 0.034</size>
          <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <color>${genreColor}</color>
@@ -247,14 +245,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
       </rating>
 
-
-
       <text name="md_description,md_genre, md_developer, md_name">
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         
       </text>
+
       <text name="md_genre,md_developer">
          <fontSize>0.023</fontSize>
       </text>
