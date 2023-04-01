@@ -9,7 +9,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </imagegrid>
    </view>
 
-   <view name="system, detailed, basic, grid">
+   <view name="system, detailed,  grid">
 
       <text name="systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime" extra="true">
          <opacity>0</opacity>

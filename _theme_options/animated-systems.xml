@@ -77,7 +77,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   </view>
 
-  <view name="basic,detailed,grid">
+  <view name="detailed,grid">
 
     <image name="caratula-overlay" extra="true">
       <origin>0 0</origin>

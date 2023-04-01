@@ -4,7 +4,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
 	<formatVersion>7</formatVersion>
 
-	<view name="menu, system, detailed, grid, basic">
+	<view name="menu, system, detailed, grid">
 		<helpsystem name="help">
 			<iconColor>FFFFFFFF</iconColor>
 			<iconUpDown>./arcade/updown.png</iconUpDown>

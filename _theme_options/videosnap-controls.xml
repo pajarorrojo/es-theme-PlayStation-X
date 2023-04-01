@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
 
          <!-- VIDEO CONTROLS -->
-   <view name="basic, detailed">
+   <view name=" detailed">
       <video name="md_video">
          <delay ifSubset="video-gamelist-delay:0sec">0.001</delay>
          <delay ifSubset="video-gamelist-delay:05sec">0.5</delay>
@@ -92,7 +92,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-      <view name="basic, detailed, grid">
+      <view name=" detailed, grid">
          <video ifSubset="game-video:oversize" name="md_video">
             <maxSize>0.9 0.82</maxSize>
             <pos>0.5 0.528</pos>

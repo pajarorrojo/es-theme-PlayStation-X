@@ -147,7 +147,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    </view>
 
-   <view name="system,detailed, basic, grid">
+   <view name="system,detailed,  grid">
 
       <text name="systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime, md_rating, md_developer, md_releasedate, md_genre, md_flag, md_players, md_manual,md_nomanual, md_description" extra="true">
          <opacity>0</opacity>
