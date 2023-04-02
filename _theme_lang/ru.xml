@@ -50,7 +50,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <VideoOff>Не отображать видео</VideoOff>
     <theme.systemConsole>Показывать логотип и консоли в системном виде</theme.systemConsole>
     <randomGame>Случайная игра</randomGame>
-    <theme.colorset>Набор цветов темы</theme.colorset>
+    <theme.colorset>Основной цвет темы</theme.colorset>
     <theme.secondaryColorset>Дополнительный цвет</theme.secondaryColorset>
     <theme.gridvideo>Отображать видеоигры</theme.gridvideo>
     <theme.videoSnapAudio>Включить звук в видеоиграх</theme.videoSnapAudio>
@@ -58,7 +58,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.animatedSystem>Анимированные переходы в системном виде</theme.animatedSystem>
     <theme.aspect-ratio>Выберите тип экрана</theme.aspect-ratio>
     <theme.oversizeVideoOption>Увеличенное видео</theme.oversizeVideoOption>
-    <theme.bato35compatilble>Совместимо только с Batocers 35 или выше</theme.bato35compatilble>
+    <theme.bato35compatilble>Совместимо только с Batocera 35 или выше</theme.bato35compatilble>
     <theme.netplay-required>Пожалуйста, включите сетевую игру, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.netplay-required>
     <theme.ra-required>Пожалуйста, включите Retroachievements, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.ra-required>
     <theme.hotkey>Показать помощь по горячим клавишам на экране приветствия</theme.hotkey>
