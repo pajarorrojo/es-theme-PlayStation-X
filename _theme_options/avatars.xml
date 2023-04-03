@@ -52,6 +52,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image.avatar ifSubset="system-avatar:pacman-pinky">pacman-pinky.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pacman">pacman.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pajarorrojo">pajarorrojo.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:projectarcade">projectarcade.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:peace">peace.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pikachu">pikachu.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:pole-position">pole-position.png</image.avatar>

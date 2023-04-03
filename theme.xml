@@ -63,6 +63,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include ifNotArch="windows" name="batocera" displayName="batocera" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="true" />
 		<include name="retrobat" displayName="retrobat" />
+		<include name="ProjectArcade" displayName="ProjectArcade" />
 		<include ifArch="windows" name="batocera" displayName="batocera" />
 		<include name="batocera" displayName="batocera" />
 		<include name="batocera-plus" displayName="batocera plus" />
@@ -136,6 +137,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="monkeyisland" displayName="Monkey Island" />
 		<include name="nanaki" displayName="Nanaki (FFVII)" />
 		<include name="outrun" displayName="OutRun" />
+		<include name="projectarcade" displayName="ProjectArcade" />
 		<include name="pacman" displayName="Pac-Man" />
 		<include name="pacman-clyde" displayName="Pac-Man Clyde" />
 		<include name="pacman-inky" displayName="Pac-Man Inky" />
@@ -194,6 +196,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="pajarorrojo" displayName="pajarorrojo" />
 		<include name="recalbox" displayName="Recalbox" />
 		<include name="retroarch" displayName="RetroArch" />
+		<include name="ProjectArcade" displayName="ProjectArcade" />
 		<include name="retrobat" displayName="Retrobat" />
 		<include name="samus" displayName="Samus Aran" />
 		<include name="sephirot" displayName="Sephirot" />

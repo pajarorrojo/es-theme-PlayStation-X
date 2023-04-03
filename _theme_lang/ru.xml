@@ -5,32 +5,32 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   <formatVersion>7</formatVersion>
   <variables lang="ru">
     <theme.welcome>Добро пожаловать в Playstation X для</theme.welcome>
-    <theme.start>Начать</theme.start>
-    <theme.mostplayed>Самые играемые:</theme.mostplayed>
+    <theme.start>Запуск</theme.start>
+    <theme.mostplayed>Часто запускаемые:</theme.mostplayed>
     <theme.items>Элементы:</theme.items>
     <theme.collections>Коллекции:</theme.collections>
-    <GamesNumber>Игры</GamesNumber>
-    <GamesFavs>Избранные</GamesFavs>
-    <NumberPlayed>Сыграно</NumberPlayed>
-    <blue>синий</blue>
-    <black>черный</black>
-    <red>красный</red>
-    <yellow>желтый</yellow>
-    <green>зеленый</green>
-    <purple>фиолетовый</purple>
-    <orange>оранжевый</orange>
-    <pink>розовый</pink>
-    <default>стандартный</default>
-    <big>большой</big>
-    <medium>средний</medium>
-    <small>маленький</small>
-    <yes>да</yes>
-    <no>нет</no>
+    <GamesNumber>игр</GamesNumber>
+    <GamesFavs>избранных</GamesFavs>
+    <NumberPlayed>недавних</NumberPlayed>
+    <blue>Синий</blue>
+    <black>Черный</black>
+    <red>Красный</red>
+    <yellow>Желтый</yellow>
+    <green>Зеленый</green>
+    <purple>Фиолетовый</purple>
+    <orange>Оранжевый</orange>
+    <pink>Розовый</pink>
+    <default>Стандартный</default>
+    <big>Большой</big>
+    <medium>Средний</medium>
+    <small>Маленький</small>
+    <yes>Да</yes>
+    <no>Нет</no>
     <none>Нет</none>
     <never>Никогда</never>
     <always>Всегда</always>
     <iconset>набор иконок</iconset>
-    <theme.frontend>Выберите свой любимый интерфейс</theme.frontend>
+    <theme.frontend>Выберите свой любимый фронтенд</theme.frontend>
     <gameBar>Показать информацию об игре</gameBar>
     <CarouselImageSize>Размер изображения в карусели</CarouselImageSize>
     <theme.videoBackground>Показать видео на экране системы</theme.videoBackground>
@@ -43,24 +43,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.videoaudio>Включить аудио в системных видео</theme.videoaudio>
     <theme.videoRandom>Показать случайное видеоизображение</theme.videoRandom>
     <ifnospot>Если нет системного видео</ifnospot>
-    <theme.Avatar>Выберите свое изображение Аватара</theme.Avatar>
-    <theme.username>Выберите Nick</theme.username>
+    <theme.Avatar>Выберите свой аватар</theme.Avatar>
+    <theme.username>Выберите свой никнейм</theme.username>
     <custom>настроенный</custom>
     <theme.videoGamelistDelay>Задержка видео в списке игр</theme.videoGamelistDelay>
     <VideoOff>Не отображать видео</VideoOff>
     <theme.systemConsole>Показывать логотип и консоли в системном виде</theme.systemConsole>
     <randomGame>Случайная игра</randomGame>
-    <theme.colorset>Набор цветов темы</theme.colorset>
-    <theme.secondaryColorset>Вторичный цвет</theme.secondaryColorset>
+    <theme.colorset>Основной цвет темы</theme.colorset>
+    <theme.secondaryColorset>Дополнительный цвет</theme.secondaryColorset>
     <theme.gridvideo>Отображать видеоигры</theme.gridvideo>
     <theme.videoSnapAudio>Включить звук в видеоиграх</theme.videoSnapAudio>
     <theme.animatedList>Анимированные переходы в списке игр</theme.animatedList>
     <theme.animatedSystem>Анимированные переходы в системном виде</theme.animatedSystem>
     <theme.aspect-ratio>Выберите тип экрана</theme.aspect-ratio>
     <theme.oversizeVideoOption>Увеличенное видео</theme.oversizeVideoOption>
-    <theme.bato35compatilble>Совместим только с batocera 35 или выше</theme.bato35compatilble>
+    <theme.bato35compatilble>Совместимо только с Batocera 35 или выше</theme.bato35compatilble>
     <theme.netplay-required>Пожалуйста, включите сетевую игру, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.netplay-required>
-    <theme.ra-required>Пожалуйста, включите retroachievements, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.ra-required>
+    <theme.ra-required>Пожалуйста, включите Retroachievements, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.ra-required>
     <theme.hotkey>Показать помощь по горячим клавишам на экране приветствия</theme.hotkey>
     <theme.hotkey-x86>Показать быструю справку по горячим клавишам</theme.hotkey-x86>
     <theme.hotkey.gamesplash>Только на экране загрузки игры</theme.hotkey.gamesplash>
@@ -75,6 +75,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemBackground>Изображение фона в виде систем</theme.systemBackground>
     <randomFanart>Случайный фанарт</randomFanart>
     <theme.gamelistBackground>Фоновое изображение в списке игр</theme.gamelistBackground>
-    <theme.forced>принудительный</theme.forced>
+    <theme.forced>Принудительно</theme.forced>
   </variables>
 </theme>
