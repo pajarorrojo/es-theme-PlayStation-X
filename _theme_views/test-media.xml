@@ -1,0 +1,237 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+
+      <customView name="test-medias" inherits="detailed" displayName="game media tester" >
+
+      <image name="background" extra="static">
+         <path>./_theme_inc/images/overlay-full-grid.png</path>
+      </image>
+
+      <image name="background-art" extra="static">
+        <opacity>0</opacity>
+      </image>
+
+      <textlist name="gamelist" >
+         <pos ifSubset="anim-list:YES">-0.5 0.16</pos>
+         <pos ifSubset="anim-list:NO">0 0.16</pos>
+         <size>0.2 0.355</size>
+         <fontSize>0.022</fontSize>
+         <lineSpacing>1.2</lineSpacing>
+      </textlist>
+
+      <datetime name="md_releasedate" >
+         <visible>false</visible>
+      </datetime>
+
+      <text name="md_developer, md_genre, md_description, md_players" >
+         <visible>false</visible>
+      </text>
+
+      <rating name="md_rating" >
+         <visible>false</visible>
+      </rating>
+
+      <image name="md_flag, md_manual,md_nomanual, md_savestate, md_nosavestate, linea-infos, lineas-verticales" >
+         <visible>false</visible>
+		</image>
+
+		<image name="md_savestate,md_nosavestate" onclick="savestates" >
+			<pos>0.49 0.82</pos>
+			<maxSize>0.03 0.04</maxSize>
+			<zIndex>150</zIndex>
+		</image>
+
+
+      <!-- MEDIOS -->
+
+       <image name="md_image, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed" extra="true">
+         <visible>false</visible>
+         <opacity>0</opacity>
+         <pos>-2 -2</pos>
+         <size>0 0</size>
+      </image>
+
+      <image name="image-test, thumbnail-test, marquee-test, boxart-test,cartridge-test, fanart-test, titleshot-test, boxback-test">
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.19 0.25</maxSize>
+      </image>
+
+      <image name="image-test, thumbnail-test, marquee-test">
+            <y>0.29</y>
+      </image>
+
+      <image name="boxart-test, titleshot-test, fanart-test, boxback-test, cartridge-test">
+            <y>0.72</y>
+      </image>
+
+      <text name="video-tag, image-tag, thumbnail-tag, marquee-tag,fanart-tag, titleshot-tag, boxart-tag, boxback-tag, cartridge-tag" extra="true">
+         <default>./../_theme_inc/images/no-image-default.png</default>
+         <fontSize>0.023</fontSize>
+         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <fontSize>0.022</fontSize>
+         <backgroundColor>000000aa</backgroundColor>
+         <color>ffffff</color>
+         <padding>0.02 0</padding>
+         <zIndex>100</zIndex>
+         <origin>0.5 0.5</origin>
+      </text>
+
+      <text name="video-tag, image-tag, thumbnail-tag, marquee-tag" extra="true">
+         <y>0.45</y>
+      </text>
+
+      <text name="fanart-tag, titleshot-tag, boxart-tag, boxback-tag, cartridge-tag" extra="true">
+         <y>0.89</y>
+      </text>
+
+      <video name="md_video" extra="true" ifSubset="game-video:window|inside|default|background|oversize|off">
+         <delay ifSubset="video-gamelist-delay:0sec">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:05sec">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:1sec">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:2sec">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:3sec">0.01</delay>
+         <visible ifSubset="game-video:off">true</visible>
+         <default>./../_theme_inc/images/no-video-default.mp4</default>
+         <y>0.29</y>
+         <x>0.32</x>
+         <maxSize>0.2 0.25</maxSize>
+         <origin>0.5 0.5</origin>
+         <loops>-1</loops>
+         <zIndex>99</zIndex>
+         <size ifSubset="game-video:background">0.2 0.2</size>
+      </video>
+
+      <text name="video-tag" extra="true">
+         <text>VIDEO</text>z
+         <x>0.32</x>
+      </text>
+
+      <image name="image-test" extra="true">
+         <path>{game:image}</path>
+         <x>0.53</x>
+      </image>
+
+      <text name="image-tag" extra="true">
+         <text>IMAGE</text>
+         <x>0.53</x>
+      </text>
+
+      <image name="thumbnail-test" extra="true">
+         <path>{game:thumbnail}</path>
+         <x>0.73</x>
+         <maxSize>0.17 0.25</maxSize>
+      </image>
+
+      <text name="thumbnail-tag" extra="true">
+         <text>THUMBNAIL</text>
+         <x>0.73</x>
+      </text>
+
+      <image name="marquee-test" extra="true">
+         <x>0.91</x>
+         <path>{game:marquee}</path>
+         <maxSize>0.13 0.13</maxSize>
+      </image>
+
+      <text name="marquee-tag" extra="true">
+         <text>MARQUEE</text>
+         <x>0.91</x>
+      </text>
+
+      <image name="linea-central" extra="true" >
+         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <pos>0.5 0.54</pos>
+         <size>1.1 0.0011</size>
+         <color>${gamelistSelectorColor}</color>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+         <origin>0.5 0.5</origin>
+      </image>
+
+
+      <text name="gamename-test" extra="true">
+         <text>{game:name}</text>
+         <pos>0.5 0.52</pos>
+         <size>1 0.05</size>
+         <color>ffffff</color>
+         <fontSize>0.04</fontSize>
+         <alignment>center</alignment>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <origin>0.5 0.5</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+      </text>
+      <image name="fanart-test" extra="true">
+         <path>{game:fanart}</path>
+         <maxSize>0.22 0.25</maxSize>
+         <x>0.12</x>
+      </image>
+
+      <text name="fanart-tag" extra="true">
+         <text>FANART</text>
+         <x>0.12</x>
+      </text>
+
+      <image name="titleshot-test"  extra="true">
+         <path>{game:titleshot}</path>
+         <x>0.36</x>
+      </image>
+
+      <text name="titleshot-tag" extra="true">
+         <text>TITLESHOT</text>
+         <x>0.36</x>
+      </text>
+
+      <image name="boxart-test" extra="true">
+         <path>{game:boxart}</path>
+         <x>0.56</x>
+         <maxSize>0.17 0.25</maxSize>
+      </image>
+
+      <text name="boxart-tag" extra="true">
+         <text>BOXART</text>
+         <x>0.56</x>
+      </text>
+
+      <image name="boxback-test"  extra="true">
+         <path>{game:boxback}</path>
+         <x>0.75</x>
+         <maxSize>0.17 0.25</maxSize>
+      </image>
+
+      <text name="boxback-tag" extra="true">
+         <text>BOXBACK</text>
+         <x>0.75</x>
+      </text>
+
+      <image name="cartridge-test"  extra="true">
+         <path>{game:cartridge}</path>
+         <x>0.92</x>
+         <maxSize>0.14 0.18</maxSize>
+      </image>
+
+      <text name="cartridge-tag" extra="true">
+         <text>CARTRIDGE</text>
+         <x>0.92</x>
+      </text>
+
+
+      <!-- etiquetqas -->
+
+   </customView>
+
+
+
+   
+
+</theme>

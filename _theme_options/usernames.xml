@@ -7,6 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<!-- listado de usuarios-->
 		<theme.nick ifSubset="system-username:aspect-ratio-test">${screen.ratio}</theme.nick>
 		<theme.nick ifSubset="system-username:arch-test">${global.architecture}</theme.nick>
+		<theme.nick ifSubset="system-username:system-test">${system.name}</theme.nick>
 		<theme.nick ifSubset="system-username:batocera">Batocera</theme.nick>
 		<theme.nick ifSubset="system-username:batocera-plus">Batocera Plus</theme.nick>
 		<theme.nick ifSubset="system-username:belmont">Gabriel Belmont</theme.nick>
@@ -17,22 +18,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.nick ifSubset="system-username:guybrush">Guybrush Threepwood</theme.nick>
 		<theme.nick ifSubset="system-username:jackelguapo">Handsome Jack</theme.nick>
 		<theme.nick ifSubset="system-username:kratos">Kratos</theme.nick>
-		<theme.nick ifSubset="system-username:pajarorrojo">pajarorrojo</theme.nick>
-		<theme.nick ifSubset="system-username:projectarcade">ProjectArcade</theme.nick>
-		<theme.nick ifSubset="system-username:sonic">Sonic the Hedgehog</theme.nick>
-		<theme.nick ifSubset="system-username:subzero">Sub Zero</theme.nick>
 		<theme.nick ifSubset="system-username:laracroft">Lara Croft</theme.nick>
 		<theme.nick ifSubset="system-username:larry">Larry Laffer</theme.nick>
 		<theme.nick ifSubset="system-username:linkzelda">Link</theme.nick>
 		<theme.nick ifSubset="system-username:megaman">Mega-Man</theme.nick>
 		<theme.nick ifSubset="system-username:nathandrake">Nathan Drake</theme.nick>
+		<theme.nick ifSubset="system-username:pajarorrojo">pajarorrojo</theme.nick>
+		<theme.nick ifSubset="system-username:projectarcade">ProjectArcade</theme.nick>
 		<theme.nick ifSubset="system-username:recalbox">Recalbox</theme.nick>
 		<theme.nick ifSubset="system-username:retroarch">RetroArch</theme.nick>
 		<theme.nick ifSubset="system-username:retrobat">Retrobat</theme.nick>
 		<theme.nick ifSubset="system-username:retropie">Retropie</theme.nick>
 		<theme.nick ifSubset="system-username:samus">Samus Aran</theme.nick>
-		<theme.nick ifSubset="system-username:sephirot">Sephirot</theme.nick>
+		<theme.nick ifSubset="system-username:sephirot">Sephirot</theme.nick> 
 		<theme.nick ifSubset="system-username:solidsnake">Solid Snake</theme.nick>
+		<theme.nick ifSubset="system-username:sonic">Sonic the Hedgehog</theme.nick>
+		<theme.nick ifSubset="system-username:subzero">Sub Zero</theme.nick>
 		<theme.nick ifSubset="system-username:cheevos" if="{global.cheevos} == false" >${theme.ra-required}</theme.nick>
 		<theme.nick ifSubset="system-username:cheevos"  if="{global.cheevos} == true">${cheevos.username}</theme.nick>
 		<theme.nick ifSubset="system-username:netplay" if="{global.netplay} == false">${theme.netplay-required}</theme.nick>

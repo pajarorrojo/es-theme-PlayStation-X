@@ -13,7 +13,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <tile>false</tile>
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
+         <storyboard ifSubset="anim-list:YES">
+            <animation property="y" from="0.25" duration="300" mode="easeOutCubic" />
+            <sound path="./../_theme_inc/sound-effects/enter-system.ogg"/>
+         </storyboard>
+          <storyboard ifSubset="anim-list:NO">
+            <sound path="./../_theme_inc/sound-effects/enter-system.ogg"/>
+          </storyboard>
       </image>
+
 
       <image name="logo" extra="true" region="us">
          <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
@@ -26,16 +34,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <carousel name="systemcarousel">
+         <type>horizontal</type>
          <systemInfoDelay>5</systemInfoDelay>
          <color>00000000</color>
          <logoAlignment>top</logoAlignment>
          <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>
          <zIndex>80</zIndex>
-         <defaultTransition>instant</defaultTransition>
+         <defaultTransition ifSubset="anim-system:NO">instant</defaultTransition>
+         <defaultTransition ifSubset="anim-system:YES">fade & slide</defaultTransition>
          <transitionSpeed>500</transitionSpeed>
          <minLogoOpacity ifSubset="video-system:background-option">0.4</minLogoOpacity>
          <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>
       </carousel>
+
+
+
 
       <image name="marco-activo" extra="static">
          <path>./../_theme_inc/images/marco-activo-iso.png</path>
@@ -108,7 +121,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="overlay" extra="static">
-         <path>./_theme_inc/images/overlay.png</path>
+         <path>./_theme_inc/images/overlay-systemview.png</path>
          <zIndex>42</zIndex>
       </image>
 
@@ -142,6 +155,66 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
       </image>
+
+      <image name="logo2" extra="true">
+         <pos>0.825 0.78</pos>
+         <alignment>center</alignment>
+         <maxSize>0.16 0.12</maxSize>
+         <origin>0 0</origin>
+         <path>{random:marquee}</path>
+
+         <!--  png -->
+         <path>./_theme_inc/images/logos/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <!-- check if lang resources exist -->
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <zIndex>100</zIndex>
+      </image>
+
+
+      <image name="logo2" extra="true" region="eu" />
+      <image name="logo2" extra="true" region="us">
+         <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./../_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+      </image>
+      <image name="logo2" extra="true" region="jp">
+         <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./../_theme_inc/images/logos/jp/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+      </image>
+
+
+      <image name="consoles" extra="true">
+         <tile>false</tile>
+         <pos>0.825 0.49</pos>
+         <origin>0 0</origin>
+         <verticalAlignment>bottom</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.16 0.25</maxSize>
+         <path>{random:marquee}</path>
+         <path>./_theme_inc/images/consoles/${system.theme}.png</path>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="consoles" extra="true" region="eu" />
+      <image name="consoles" extra="true" region="us">
+         <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
+      </image>
+      <image name="consoles" extra="true" region="jp">
+         <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
+      </image>
+
+
 
    </view>
 

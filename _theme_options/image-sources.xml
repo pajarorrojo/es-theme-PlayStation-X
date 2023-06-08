@@ -3,229 +3,196 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
    <formatVersion>7</formatVersion>
+   <view name="detailed,grid">
+      <image name="background-gamelist" ifSubset="background-list:fanart" extra="static">
+         <path>{game:fanart}</path>
+         <minSize>1.001 1.001</minSize>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <linearSmooth>true</linearSmooth>
+         <tile>true</tile>
+         <zIndex>45</zIndex>
+         <opacity>1</opacity>
+      </image>
+
+      <image name="background-art" extra="true" region="eu" />
+      <image name="background-art" extra="true">
+         <path>./../_theme_inc/images/background/${system.theme}.jpg</path>
+         <minSize>1.001 1.001</minSize>
+         <zIndex>46</zIndex>
+         <storyboard>
+            <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
+            <animation  property="zIndex" to="44" begin="500"  mode="easeIn" />
+         </storyboard>
+      </image>
+      <image name="background-art" extra="true" region="us">
+         <path>./../_theme_inc/images/background/us/${system.theme}.jpg</path>
+      </image>
+      <image name="background-art" extra="true" region="jp">
+         <path>./../_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      </image>
+
+
+   </view>
+
 
    <!-- detallada -->
 
-   <view name=" detailed">
+   <view name="detailed">
 
-      <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot">
+       <image name="md_image" extra="true">
+         <visible>false</visible>
+      </image>
+
+      <image name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
          <pos>0.760 0.405</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.760 0.345</pos>
          <zIndex>91</zIndex>
          <linearSmooth>true</linearSmooth>
          <default>./../_theme_inc/images/no-image-default.png</default>
+         <origin>0.5 0.5</origin>
          <visible>false</visible>
       </image>
 
-      <image name="md_image, md_thumbnail, md_boxart, md_titleshot">
+      <image name="image-detailed, thumbnail-detailed, boxart-detailed, titleshot-detailed, fanart-detailed, boxback-detailed">
          <maxSize>0.42 0.565</maxSize>
          <maxSize ifSubset="aspect-ratio:4-3">0.42 0.425</maxSize>
          <maxSize ifSubset="aspect-ratio:5-4">0.418 0.4</maxSize>
       </image>
 
-      <image name="md_fanart" ifSubset="background-list:default">
-         <maxSize>0.42 0.565</maxSize>
-         <maxSize ifSubset="aspect-ratio:4-3">0.42 0.425</maxSize>
-         <maxSize ifSubset="aspect-ratio:5-4">0.418 0.4</maxSize>
-      </image>
 
-      <image name="md_image" ifSubset="detailed-origin:image">
+      <image name="image-detailed" ifSubset="main-origin:image|default" extra="true">
+         <path>{game:image}</path>
          <visible>true</visible>
       </image>
 
-      <image name="md_thumbnail" ifSubset="detailed-origin:thumbnail">
+
+      <image name="thumbnail-detailed" ifSubset="main-origin:thumbnail" extra="true">
+         <path>{game:thumbnail}</path>
          <visible>true</visible>
       </image>
 
-      <image name="md_marquee" ifSubset="detailed-origin:marquee">
+      <image name="marquee-detailed" ifSubset="main-origin:marquee" extra="true">
+         <path>{game:marquee}</path>
          <maxSize>0.3 0.3</maxSize>
          <visible>true</visible>
       </image>
 
-      <image name="md_boxart" ifSubset="detailed-origin:boxart">
+      <image name="boxart-detailed" ifSubset="main-origin:boxart" extra="true">
+         <path>{game:boxart}</path>
          <visible>true</visible>
       </image>
 
-      <!-- <image name="md_boxback" ifSubset="detailed-origin:boxback">
-         <pos>0.760 0.415</pos>
-         <maxSize>0.42 0.56</maxSize>
-         <zIndex>91</zIndex>
-         <linearSmooth>true</linearSmooth>		
-         <default>./../_theme_inc/images/no-image-default.png</default>
+      <image name="boxback-detailed" ifSubset="main-origin:boxback" extra="true">
+         <path>{game:boxback}</path>
          <visible>true</visible>
-      </image>   -->
+      </image>
 
-      <image name="md_cartridge" ifSubset="detailed-origin:cartridge">
+      <image name="cartridge-detailed" ifSubset="main-origin:cartridge" extra="true">
+         <path>{game:cartridge}</path>
          <maxSize>0.25 0.31</maxSize>
          <visible>true</visible>
       </image>
 
-      <image name="md_fanart" ifSubset="detailed-origin:fanart">
+      <image name="fanart-detailed" ifSubset="main-origin:fanart" extra="true">
+         <path>{game:fanart}</path>
          <visible>true</visible>
       </image>
 
-      <image name="md_titleshot" ifSubset="detailed-origin:titleshot">
+      <image name="titleshot-detailed" ifSubset="main-origin:titleshot" extra="true">
+         <path>{game:titleshot}</path>
          <visible>true</visible>
       </image>
 
-      <image name="md_fanart" ifSubset="background-list:fanart">
-         <minSize>1.001 1.001</minSize>
-         <visible>true</visible>
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <linearSmooth>true</linearSmooth>
-         <tile>true</tile>
-         <zIndex>39</zIndex>
-         <storyboard event="open" ifSubset="anim-list:YES">
-            <animation property="opacity" from="0" to="0"  duration="500" mode="easeInOut" />
-            <animation property="opacity" from="0" to="1" begin="500" duration="500" mode="easeOut" />
-          </storyboard>
-          <storyboard event="activateNext">
-            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
-          </storyboard>
-          <storyboard event="activatePrev" >
-            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
-          </storyboard>
-          <storyboard event="deactivateNext">
-            <animation property="opacity" to="0" duration="100" mode="easeOut" />
-          </storyboard>
-          <storyboard event="deactivatePrev">
-            <animation property="opacity" to="0" duration="100" mode="easeOut" />
-          </storyboard>
-      </image>
-   
-      <image name="background-art" extra="true">
-         <storyboard>
-           <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
-           <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
-         </storyboard>
-         <storyboard ifSubset="background-list:fanart"> 
-           <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
-           <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
-           <animation  property="opacity" to="0" begin="1100" duration="100" mode="linear" />
-         </storyboard>
-       </image>
+
 
    </view>
+
 
    <!-- parrilla -->
 
-   <view name="grid">
+<view name="grid">
 
-      <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_titleshot">
-         <maxSize>0.25 0.335</maxSize>
-         <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
-         <pos>0.155 0.3</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
-         <zIndex>91</zIndex>
-         <linearSmooth>true</linearSmooth>
-         <default>./../_theme_inc/images/no-image-default.png</default>
-         <visible>false</visible>
-      </image>
-
-      <image name="md_fanart" ifSubset="background-list:default">
-         <maxSize>0.25 0.335</maxSize>
-         <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
-         <pos>0.155 0.3</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
-         <zIndex>91</zIndex>
-         <linearSmooth>true</linearSmooth>
-         <default>./../_theme_inc/images/no-image-default.png</default>
-         <visible>false</visible>
-         
-      </image>
-
-      
-      <image name="md_image" ifSubset="grid-main-origin:image">
-         <visible>true</visible>
-      </image>
-
-      <image name="md_thumbnail" ifSubset="grid-main-origin:thumbnail">
-         <visible>true</visible>
-
-      </image>
-
-      <image name="md_marquee" ifSubset="grid-main-origin:marquee">
-         <maxSize>0.18 0.25</maxSize>
-         <visible>true</visible>
-      </image>
-
-      <image name="md_boxart" ifSubset="grid-main-origin:boxart" extra="true">
-         <visible>true</visible>
-
-      </image>
-
-      <!-- <image name="md_boxback" ifSubset="grid-main-origin:boxback" extra="true">
-         <pos>0.15 0.295</pos>
-         <maxSize>0.25 0.31</maxSize>
-         <zIndex>91</zIndex>  
-         <linearSmooth>true</linearSmooth>
-         <default>./../_theme_inc/images/no-image-default.png</default>
-      </image> -->
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <maxSize>0.25 0.335</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
+      <pos>0.155 0.3</pos>
+      <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <default>./../_theme_inc/images/no-image-default.png</default>
+      <visible>false</visible>
+      <origin>0.5 0.5</origin>
+   </image>
 
 
-      <image name="md_cartridge" ifSubset="grid-main-origin:cartridge" extra="true">
-         <maxSize>0.18 0.25</maxSize>
-         <visible>true</visible>
-      </image>
+
+   
+   <image name="image-grid" ifSubset="main-origin:image|default" extra="true">
+      <path>{game:image}</path>
+      <visible>true</visible>
+   </image>
 
 
-      <image name="md_fanart" ifSubset="grid-main-origin:fanart" extra="true">
-         <visible>true</visible>
-      </image>
 
-      <image name="md_titleshot" ifSubset="grid-main-origin:titleshot" extra="true">
-         <visible>true</visible>
+   <image name="thumbnail-grid" ifSubset="main-origin:thumbnail" extra="true">
+      <path>{game:thumbnail}</path>
+      <visible>true</visible>
+   </image>
 
-      </image>
 
-      <image name="md_fanart" ifSubset="background-list:fanart">
-         <minSize>1.001 1.001</minSize>
-         <visible>true</visible>
-         <tile>true</tile>
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>45</zIndex>
-         <storyboard event="open" ifSubset="anim-list:YES">
-            <animation property="opacity" from="0" to="0"  duration="500" mode="easeInOut" />
-            <animation property="opacity" from="0" to="1" begin="500" duration="500" mode="easeOut" />
-          </storyboard>
-          <storyboard event="activateNext">
-            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
-          </storyboard>
-          <storyboard event="activatePrev">
-            <animation property="opacity" from="0" to="1" duration="100" mode="easeOut" />
-          </storyboard>
-          <storyboard event="deactivateNext">
-            <animation property="opacity" to="0" duration="100" mode="easeOut" />
-          </storyboard>
-          <storyboard event="deactivatePrev">
-            <animation property="opacity" to="0" duration="100" mode="easeOut" />
-          </storyboard>
-      </image>
+   <image name="marquee-grid" ifSubset="main-origin:marquee" extra="true">
+       <path>{game:marquee}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
 
-      <image name="background-art" extra="true">
-         <storyboard>
-           <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
-           <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
-         </storyboard>
-         <storyboard ifSubset="background-list:fanart"> 
-           <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
-           <animation property="opacity" to="1" duration="1000" mode="easeInOut" />
-           <animation  property="opacity" to="0" begin="1100" duration="100" mode="linear" />
-         </storyboard>
-       </image>
+   <image name="boxart-grid" ifSubset="main-origin:boxart" extra="true">
+       <path>{game:boxart}</path>
+      <visible>true</visible>
 
-   </view>
+   </image>
 
+
+   <image name="cartridge-grid" ifSubset="main-origin:cartridge" extra="true">
+       <path>{game:cartridge}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+
+
+   <image name="fanart-grid" ifSubset="main-origin:fanart" extra="true">
+       <path>{game:fanart}</path>
+      <visible>true</visible>
+   </image>
+
+   <image name="titleshot-grid" ifSubset="main-origin:titleshot" extra="true">
+       <path>{game:titleshot}</path>
+      <visible>true</visible>
+   </image>
+
+      <image name="boxback-grid" ifSubset="main-origin:boxback" extra="true">
+      <path>{game:boxback}</path>
+      <visible>true</visible>
+   </image>
+
+
+
+
+</view>
+
+   
  <!-- carrusel -->
 
  <customView name="carousel">
 
 
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid">
+      <visible>false</visible>
+   </image>
 
-   <image name="md_image, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_titleshot">
+
+   <image name="image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel">
       <maxSize>0.25 0.335</maxSize>
       <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
       <pos>0.155 0.3</pos>
@@ -234,65 +201,214 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <linearSmooth>true</linearSmooth>
       <default>./../_theme_inc/images/no-image-default.png</default>
       <visible>false</visible>
+      <origin>0.5 0.5</origin>
    </image>
-
-   <image name="md_fanart" ifSubset="background-list:default">
-      <maxSize>0.25 0.335</maxSize>
-      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
-      <pos>0.155 0.3</pos>
-      <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
-      <zIndex>91</zIndex>
-      <linearSmooth>true</linearSmooth>
-      <default>./../_theme_inc/images/no-image-default.png</default>
-      <visible>false</visible>
-      
-   </image>
+  
    
-   <image name="md_image" ifSubset="carousel-main-origin:image">
+   <image name="image-carousel" ifSubset="main-origin:image|default" extra="true">
+       <path>{game:image}</path>
       <visible>true</visible>
    </image>
-
-   <image name="md_thumbnail" ifSubset="carousel-main-origin:thumbnail">
+  
+   <image name="thumbnail-carousel" ifSubset="main-origin:thumbnail" extra="true">
+       <path>{game:thumbnail}</path>
       <visible>true</visible>
-
+  
    </image>
-
-   <image name="md_marquee" ifSubset="carousel-main-origin:marquee">
+  
+   <image name="marquee-carousel" ifSubset="main-origin:marquee" extra="true">
+       <path>{game:marquee}</path>
       <maxSize>0.18 0.25</maxSize>
       <visible>true</visible>
    </image>
-
-   <image name="md_boxart" ifSubset="carousel-main-origin:boxart" extra="true">
+  
+   <image name="boxart-carousel" ifSubset="main-origin:boxart" extra="true">
+       <path>{game:boxart}</path>
       <visible>true</visible>
-
+  
    </image>
-
-   <!-- <image name="md_boxback" ifSubset="carousel-main-origin:boxback" extra="true">
+  
+   <!-- <image name="md_boxback" ifSubset="main-origin:boxback" extra="true">
       <pos>0.15 0.295</pos>
       <maxSize>0.25 0.31</maxSize>
       <zIndex>91</zIndex>  
       <linearSmooth>true</linearSmooth>
       <default>./../_theme_inc/images/no-image-default.png</default>
    </image> -->
+  
+  
+   <image name="cartridge-carousel" ifSubset="main-origin:cartridge" extra="true">
+       <path>{game:cartridge}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+  
+  
+   <image name="fanart-carousel" ifSubset="main-origin:fanart" extra="true">
+       <path>{game:fanart}</path>
+      <visible>true</visible>
+   </image>
+  
+   <image name="titleshot-carousel" ifSubset="main-origin:titleshot" extra="true">
+       <path>{game:titleshot}</path>
+      <visible>true</visible>
+   </image>
+  
+
+  
 
 
-   <image name="md_cartridge" ifSubset="carousel-main-origin:cartridge" extra="true">
+
+</customView>
+
+ <!-- classic -->
+
+ <customView name="classic">
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <visible>false</visible>
+   </image>
+
+   <image name="image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic">
+      <maxSize>0.25 0.3</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
+      <pos>0.15 0.532</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <default>./../_theme_inc/images/no-image-default.png</default>
+      <visible>false</visible>
+      <origin>0.5 0</origin>
+      <verticalAlignment>top</verticalAlignment>
+      <alignment>center</alignment>
+</image>
+
+   
+   <image name="image-classic"  ifSubset="main-origin:image|default" extra="true">
+      <path>{game:image}</path>
+      <visible>true</visible>
+   </image>
+
+
+   <image name="thumbnail-classic" ifSubset="main-origin:thumbnail" extra="true">
+      <path>{game:thumbnail}</path>
+      <visible>true</visible>
+   </image>
+
+   
+
+   <image name="marquee-classic" ifSubset="main-origin:marquee" extra="true">
+      <path>{game:marquee}</path>
+      <visible>true</visible>
+   </image>
+
+
+   <image name="boxart-classic" ifSubset="main-origin:boxart" extra="true">
+      <path>{game:boxart}</path>
+      <visible>true</visible>
+
+   </image>
+
+
+   <image name="cartridge-classic" ifSubset="main-origin:cartridge" extra="true">
+      <path>{game:cartridge}</path>
       <maxSize>0.18 0.25</maxSize>
       <visible>true</visible>
    </image>
 
 
-   <image name="md_fanart" ifSubset="carousel-main-origin:fanart" extra="true">
+   <image name="fanart-classic" ifSubset="main-origin:fanart" extra="true">
+      <path>{game:fanart}</path>
       <visible>true</visible>
    </image>
 
-   <image name="md_titleshot" ifSubset="carousel-main-origin:titleshot" extra="true">
+   <image name="titleshot-classic" ifSubset="main-origin:titleshot" extra="true">
+      <path>{game:titleshot}</path>
       <visible>true</visible>
    </image>
+
+   <image name="boxback-classic" ifSubset="main-origin:boxback" extra="true">
+      <path>{game:boxback}</path>
+      <visible>true</visible>
+   </image>
+
+ </customView>
+
+  <!-- full grid -->
+
+ <customView name="full-grid">
+
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <visible>false</visible>
+   </image>
+
+
+   <image name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+      <maxSize>0.25 0.335</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
+      <pos>0.142 0.340</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <default>./../_theme_inc/images/no-image-default.png</default>
+      <visible>false</visible>
+      <origin>0.5 0.5</origin>
+      <origin tinyScreen="true">0.5 0.52</origin>
+
+   </image>
+  
+   
+
+   <image name="image-full-grid" ifSubset="main-origin:image|default" extra="true">
+      <path>{game:image}</path>
+      <visible>true</visible>
+   </image>
+
+   <image name="thumbnail-full-grid" ifSubset="main-origin:thumbnail" extra="true">
+      <path>{game:thumbnail}</path>
+      <visible>true</visible>
+   </image>
+
+  
+   <image name="marquee-full-grid" ifSubset="main-origin:marquee" extra="true">
+       <path>{game:marquee}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+  
+   <image name="boxart-full-grid" ifSubset="main-origin:boxart" extra="true">
+       <path>{game:boxart}</path>
+      <visible>true</visible>
+  
+   </image>
+  
+  
+   <image name="cartridge-full-grid" ifSubset="main-origin:cartridge" extra="true">
+       <path>{game:cartridge}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+  
+  
+   <image name="fanart-full-grid" ifSubset="main-origin:fanart" extra="true">
+       <path>{game:fanart}</path>
+      <visible>true</visible>
+   </image>
+  
+   <image name="titleshot-full-grid" ifSubset="main-origin:titleshot" extra="true">
+       <path>{game:titleshot}</path>
+      <visible>true</visible>
+   </image>
+   
+   <image name="boxback-full-grid" ifSubset="main-origin:boxback" extra="true">
+      <path>{game:boxback}</path>
+      <visible>true</visible>
+   </image>
+  
 
 
 
 </customView>
+
 
 
   </theme>

@@ -8,9 +8,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The Vectrex is a vector display-based home video game console that was developed by Western Technologies/Smith Engineering. It was licensed and distributed first by General Consumer Electronics (GCE).</text>
-			<text lang="es,ca,eu">Es una consola con pantalla integrada, blanco y negro. Una de sus innovaciones, además de tener la pantalla incluida, son los gráficos basados en vectores, en vez de los indefinidos gráficos a pixeles.</text>
+			<text lang="es">Es una consola con pantalla integrada, blanco y negro. Una de sus innovaciones, además de tener la pantalla incluida, son los gráficos basados en vectores, en vez de los indefinidos gráficos a pixeles.</text>
+			<text lang="ca">És una consola amb una pantalla integrada en blanc i negre. Una de les seves innovacions, a més de tenir la pantalla inclosa, són els gràfics basats en vectors, en lloc dels indefinits gràfics de píxels.</text>
+			<text lang="eu">Pantaila barneko konola da, zuri eta beltza. Bere berritzeetako bat, pantaila barnekoa izateaz gain, bektoreetan oinarritutako grafikoak dira, pixel batzuei oinarritutako argazkiak baino ez dituztenak.</text>
 			<text lang="fr">La Vectrex est une console de jeux vidéo 8 bits développée par Smith Engineering et distribuée par General Consumer Electric, et plus tard par MB (Milton Bradley Company) après le rachat de GCE.</text>
 			<text lang="pt">O Vectrex, que usava o processador Motorola MC68A09, era o único videogame que empregava e apresentava gráficos vetoriais em seu monitor pré-integrado ao console, ao qual era possível conectar até dois controladores.</text>
+			<text lang="it">Il Vectrex è una console per videogiochi domestica basata su un display a vettori, sviluppata da Western Technologies/Smith Engineering. È stata concessa in licenza e distribuita inizialmente da General Consumer Electronics (GCE).</text>
+			<text lang="de">Der Vectrex ist eine Heimvideospielkonsole mit Vektoranzeige, die von Western Technologies/Smith Engineering entwickelt wurde. Zuerst wurde sie von General Consumer Electronics (GCE) lizenziert und vertrieben.</text>
+			<text lang="pl">Vectrex to konsola do gier wideo na ekranie wektorowym, która została opracowana przez Western Technologies/Smith Engineering. Pierwszą licencję na jej dystrybucję i rozpowszechnianie uzyskała General Consumer Electronics (GCE).</text>
+			<text lang="ru">Vectrex - это игровая приставка для домашнего использования с векторным дисплеем, разработанная компанией Western Technologies/Smith Engineering. Первой лицензией на ее распространение и продажу стала General Consumer Electronics (GCE).</text>
+			<text lang="zh">Vectrex是一款基于矢量显示的家用视频游戏机，由Western Technologies/Smith Engineering开发。最初由General Consumer Electronics（GCE）获得许可并进行分销。</text>
+			<text lang="ja">Vectrexは、Western Technologies/Smith Engineeringによって開発されたベクターディスプレイを使用した家庭用ビデオゲーム機です。最初はGeneral Consumer Electronics（GCE）によってライセンスされ、販売されました。</text>
 		</text>
 		
 		<text name="system_name" extra="true">

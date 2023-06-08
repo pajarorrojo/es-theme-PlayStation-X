@@ -7,14 +7,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <menuSelectedColor ifSubset="secondary_colorset:default">ffffff</menuSelectedColor>
       <menuSelectorColor ifSubset="secondary_colorset:default">0070d1</menuSelectorColor>
       <menuSelectorColorEnd ifSubset="secondary_colorset:default">003791</menuSelectorColorEnd>
+      <menuGrouptitle>3CAEFB</menuGrouptitle>
       <menuFontcolor>DFDCDC</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
-      <menuGrouptitle>3CAEFB</menuGrouptitle>
       <menuGroupSeparator>3CAEFB</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>003791</menubgColor>
       <backgroundgrid>2E6DB4</backgroundgrid>
-      <backgroundgridSelect ifSubset="secondary_colorset:default">F3C30060</backgroundgridSelect>
+      <backgroundgridSelect ifSubset="secondary_colorset:default">F3C300</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
       <gamelistSelectorColor ifSubset="secondary_colorset:default">F3C300</gamelistSelectorColor>
@@ -35,6 +35,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <sistema.lineainferior ifSubset="secondary_colorset:default">0070d1</sistema.lineainferior>
       <sistema.pie>030a18de</sistema.pie>
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
+      <classic.tile.background>020C29</classic.tile.background>
+      <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>
+
+
 
    </variables>
 
@@ -47,27 +51,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    </view>
 
-   <view name=" detailed">
+
+
+   <view name="detailed">
       <image name="background" extra="static">
          <path>./blue/default-detailed.png</path>
       </image>
-
-      <image name="background-art" extra="static">
-         <path>./blue/background.jpg</path>
-      </image>
+      
    </view>
 
-   <view name="grid">
 
-      <image name="background" extra="static">
-         <path>./blue/default-grid.png</path>
-      </image>
 
-      <image name="background-art" extra="static">
-         <path>./blue/background.jpg</path>
-      </image>
 
-   </view>
 
    <view name="menu">
       <menuBackground name="menubg">

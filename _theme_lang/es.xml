@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="es">
     <theme.welcome>Bienvenido a Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
     <theme.mostplayed>El más jugado:</theme.mostplayed>
     <theme.items>Número de elementos:</theme.items>
-    <theme.collections>Número de colecciones:</theme.collections>
+    <theme.collections>colecciones</theme.collections>
     <GamesNumber>Juegos</GamesNumber>
     <GamesFavs>Favoritos</GamesFavs>
     <NumberPlayed>Jugados</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>Siempre</always>
     <iconset>Tipo de Iconos y botones</iconset>
     <theme.frontend>Selecciona tu frontend favorito</theme.frontend>
-    <gameBar>Mostrar la barra de información de juegos</gameBar>
-    <CarouselImageSize>Tamaño de imágenes del carrusel</CarouselImageSize>
+    <gameBar>Mostrar la información de juegos</gameBar>
+    <CarouselImageSize>Tamaño del carrusel de sistemas</CarouselImageSize>
     <theme.videoBackground>Mostrar vídeos en la vista de sistemas</theme.videoBackground>
     <theme.videoRandom>Mostrar vídeo de juego aleatorio</theme.videoRandom>
     <ifnospot>Si no existe video del sistema</ifnospot>
@@ -76,5 +77,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<randomFanart>Fanart aleatorio</randomFanart>
     <theme.gamelistBackground>Imagen de fondo en la lista de juegos</theme.gamelistBackground>
     <theme.forced>forzado</theme.forced>
+    <theme.gameDescription>Mostrar descripciones de juegos</theme.gameDescription>
+    <carouselViewName>Carrusel horizontal</carouselViewName>
+    <classiclViewName>Carrusel clásico</classiclViewName>
+    <theme.mainImage>Imagen principal</theme.mainImage>
+		<theme.gridImage>Imagen de la cuadrícula</theme.gridImage>
+    <fullGridlViewName>Cuadrícula ampliada</fullGridlViewName>
   </variables>
 </theme>

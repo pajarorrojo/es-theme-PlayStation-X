@@ -1,0 +1,80 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme defaultView="detailed">
+   <formatVersion>7</formatVersion>
+      <view name="detailed, grid">
+      <text name="games-number" extra="true">
+               <text>{binding:total} ${GamesNumber}</text>
+
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <size>0.385 0.08</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.45 0.08</size>
+         <color>ffffff</color>
+         <pos>0.162 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
+         <pos tinyScreen="true">0.065 0.045</pos>
+         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.030</fontSize>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>502</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>ff000000</backgroundColor>
+         <visible>true</visible>
+      </text>
+
+      <textlist name="gamelist">
+         
+         <extraTextColor>60606000</extraTextColor>
+         <extraTextSelectedColor>A0A0A000</extraTextSelectedColor>
+         <glowColor>00000000</glowColor>
+      </textlist>
+   </view>
+
+   <view name="system">
+
+
+      <text name="systemInfoEx_extra" extra="true">
+         <text>{binding:subSystems} ${theme.collections}</text>
+         <pos>0.162 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
+         <pos tinyScreen="true">0.065 0.045</pos>
+         <size>0.398 0.055</size>
+         <color>FFFFFF</color>
+         <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.030</fontSize>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <backgroundColor>ff000000</backgroundColor>
+         <zIndex>99</zIndex>
+      </text>
+
+   </view>
+
+   <view name="system,detailed,grid">
+
+      
+      <text name="systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime" extra="true">
+         <opacity>0</opacity>
+         <visible>false</visible>
+         <pos>-2 -2</pos>
+         <zIndex>0</zIndex>
+      </text>
+
+      <rating name="md_rating" ifSubset="info-bar:YES">
+         <opacity>0</opacity>
+         <visible>false</visible>
+         <pos>-2 -2</pos>
+         <zIndex>0</zIndex>
+      </rating>
+
+
+   </view>
+
+   
+</theme>

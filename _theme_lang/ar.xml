@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="ar">
     <theme.welcome>مرحبًا بك في Playstation X لـ</theme.welcome>
     <theme.start>ابدأ</theme.start>
     <theme.mostplayed>الأكثر لعبًا:</theme.mostplayed>
     <theme.items>العناصر:</theme.items>
-    <theme.collections>المجموعات:</theme.collections>
+    <theme.collections>المجموعات</theme.collections>
     <GamesNumber>الألعاب</GamesNumber>
     <GamesFavs>المفضلة</GamesFavs>
     <NumberPlayed>الملعوبة</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>دائمًا</always>
     <iconset>مجموعة الأيقونات</iconset>
     <theme.frontend>اختر واجهة المستخدم المفضلة لديك</theme.frontend>
-    <gameBar>إظهار شريط معلومات اللعبة</gameBar>
-    <CarouselImageSize>حجم صورة الدائري</CarouselImageSize>
+    <gameBar> إظهار معلومات اللعبة</gameBar>
+    <CarouselImageSize>حجم دائرة الدائري للأنظمة</CarouselImageSize>
     <theme.videoBackground>إظهار مقاطع الفيديو في وضع النظام</theme.videoBackground>
     <theme.system-description>إظهار وصف النظام</theme.system-description>
     <theme.animated-background>خلفية متحركة (موجات)</theme.animated-background>
@@ -74,5 +75,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselOrigin>صور الدائري</theme.carouselOrigin>
     <theme.systemBackground>صورة الخلفية في عرض الأنظمة</theme.systemBackground>
     <randomFanart>فن آرت عشوائي</randomFanart>
+    <theme.gamelistBackground>صورة خلفية قائمة الألعاب</theme.gamelistBackground>
+    <theme.forced>مجبور</theme.forced>
+    <theme.gameDescription>إظهار وصف الألعاب</theme.gameDescription>
+    <carouselViewName>الدائري الأفقي</carouselViewName>
+    <classiclViewName>دائري كلاسيكي</classiclViewName>
+    <theme.mainImage>الصورة الرئيسية</theme.mainImage>
+    <theme.gridImage>صورة الشبكة</theme.gridImage>
+    <fullGridlViewName>الشبكة الكاملة</fullGridlViewName>
   </variables>
 </theme>

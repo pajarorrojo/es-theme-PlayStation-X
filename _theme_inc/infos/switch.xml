@@ -8,11 +8,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 				
 		<text name="system_description" extra="true">
 			<text>The Nintendo Switch is a video game console developed by Nintendo and released worldwide in most regions on March 3, 2017. The console itself is a tablet that can either be docked for use as a home console or used as a portable device, making it a hybrid console.</text>
-			<text lang="es,ca,eu">Nintendo Switch es una consola de videojuegos desarrollada por Nintendo. Se dio a conocer en octubre de 2016 y fue lanzada mundialmente el 3 de marzo de 2017. Nintendo considera a Switch una consola híbrida. Se puede utilizar como consola de sobremesa con la unidad principal insertada en una estación de acoplamiento para conectarla con un televisor.</text>
+			<text lang="es">Nintendo Switch es una consola de videojuegos desarrollada por Nintendo. Se dio a conocer en octubre de 2016 y fue lanzada mundialmente el 3 de marzo de 2017. Nintendo considera a Switch una consola híbrida. Se puede utilizar como consola de sobremesa con la unidad principal insertada en una estación de acoplamiento para conectarla con un televisor.</text>
+			<text lang="ca">Nintendo Switch és una consola de videojocs desenvolupada per Nintendo. Va ser presentada a l'octubre de 2016 i va ser llançada a tot el món el 3 de març de 2017. Nintendo considera la Switch una consola híbrida. Es pot utilitzar com a consola de sobretaula amb la unitat principal inserida en una estació d'ancoratge per connectar-la a un televisor.</text>
+			<text lang="eu">Nintendo Switch Nintendo-k garatutako bideo-joko-kontsola bat da. 2016ko urriaren hasieran ezagutarazi zen eta 2017ko martxoaren 3an mundu osoan abian jarri zen. Nintendo Switch kontsola hibrido bat bezala kontsideratzen du Nintendo-k. Unitate nagusia mahaian txertatu eta telebista batera konektatzeko dagoen ostatu gisa erabil daiteke, horrela sobremesa kontsolatzat erabili daiteke.</text>
 			<text lang="fr">La Nintendo Switch est une console de jeux vidéo produite par Nintendo, succédant à la Wii U. Il s'agit de la première console hybride de l'histoire des jeux vidéo, pouvant aussi bien faire office de console de salon que de console portable.</text>
 			<text lang="pt">O Nintendo Switch é um console de videogame híbrido produzido pela empresa Nintendo, tendo sido revelado em 20 de outubro de 2016. Foi lançado oficialmente no dia 3 de março de 2017</text>
 			<text  lang="it">Nintendo Switch è una console a 64 bit di natura ibrida sviluppata da Nintendo e distribuita in tutto il mondo a partire dal 3 marzo 2017. Nintendo Switch è stato ufficialmente rivelato il 20 ottobre 2016 ed è arrivato sul mercato in Giappone, Europa e America del Nord il 3 marzo 2017. </text>
+			<text lang="de">Die Nintendo Switch ist eine von Nintendo entwickelte Videospielkonsole. Sie wurde im Oktober 2016 angekündigt und am 3. März 2017 weltweit veröffentlicht. Nintendo betrachtet die Switch als eine Hybridkonsole. Sie kann als stationäre Konsole mit der Haupteinheit in eine Docking-Station eingesetzt werden, um sie mit einem Fernseher zu verbinden.</text>
+			<text lang="pl">Nintendo Switch to konsola do gier opracowana przez firmę Nintendo. Została zaprezentowana w październiku 2016 roku, a światowa premiera odbyła się 3 marca 2017 roku. Nintendo uważa Switch za konsolę hybrydową. Może być używana jako konsola stacjonarna, gdy główna jednostka jest umieszczona w dokującej stacji, aby połączyć ją z telewizorem.</text>
+			<text lang="zh">任天堂Switch是由任天堂开发的游戏机。它于2016年10月公布，并于2017年3月3日全球发售。任天堂将Switch视为一款混合型游戏机。它可以作为家用机，在插入主机的情况下通过底座连接到电视上。</text>
+			<text lang="ja">Nintendo Switchは任天堂が開発したゲーム機です。2016年10月に発表され、2017年3月3日に世界中で発売されました。任天堂はSwitchをハイブリッドなコンソールと位置付けています。本体をドックに挿入してテレビに接続することで、据え置き型のコンソールとして使用することができます。</text>
 		</text>	
+
 
 		<text name="system_name" extra="true">
 			<text>Nintendo Switch</text>

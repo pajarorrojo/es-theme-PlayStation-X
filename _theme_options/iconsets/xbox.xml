@@ -10,10 +10,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<iconUpDown>./xbox/updown.png</iconUpDown>
 			<iconLeftRight>./xbox/leftright.png</iconLeftRight>
 			<iconUpDownLeftRight>./xbox/all.png</iconUpDownLeftRight>
-			<iconA>./xbox/a.png</iconA>
-			<iconB>./xbox/b.png</iconB>
-			<iconX>./xbox/x.png</iconX>
-			<iconY>./xbox/y.png</iconY>
+			<iconA>:/help/button_b.svg</iconA>
+			<iconB>:/help/button_a.svg</iconB>
+			<iconX>:/help/button_y.svg</iconX>
+			<iconY>:/help/button_x.svg</iconY>
 			<iconL>./xbox/l.png</iconL>
 			<iconR>./xbox/r.png</iconR>
 			<iconStart>./xbox/start.png</iconStart>

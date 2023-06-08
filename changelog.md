@@ -1,4 +1,38 @@
+Version 37 (08/06/2023)
+
+- New and improved game list environment, customizable per system and adjustable according to the combination of options.
+- New: Added a new gamelist view called "Classic Carousel," which can be configured with any type of image (thumbnail, image, marquee, cartridge, box art, fanart...) and customized per system.
+- New: Added a new gamelist view called "Full Grid," which can be configured with any type of image and customized per system.
+- New: Added a new gamelist view called "Game Media Tester," a technical view for checking scraped images and tag assignments in your gamelist.
+- New: Restructured theme options to simplify the selection of game images. Now there are two universal options: main image and grid image, which can be applied separately to each view type and also per system through the list options (select button).
+- New: Now is possible to choose none for the main image gamelist in the theme options. The layout adjusts automatically.
+- New: Now is possible to disable game descriptions from the theme options. The layout adjusts automatically.
+- New: Now is possible to hide all extra game information. The layout adjusts automatically.
+- New: Added new navigation sounds when entering and exiting game lists (navigation sounds need to be enabled in the Batocera audio options).
+- New: Added a label to display the name of the system to which the game belongs in the collection and automatic collection lists.
+- New: Added the system's logo and console to which the game belongs in collections and automatic collection lists (Batocera version 37 or higher).
+- New: Added boxback as an option for the main image in all views.
+- New: Added new tags in the top info area for the "grouped collections" system (number of collections and number of games).
+- New: Created a detailed list version for the screenshot gallery and library systems.
+- Change: Adjusted various grid layouts for the new views and image options.
+- Change: Set the new classic game list view as the default.
+- Change: Set the new full grid game list view as the default for tiny screens.
+- Change: Set fanart background as the default image for game lists. If fanart is not available, the system's default background image is displayed.
+- Change: Adjusted the default view for grouped collections.
+- Change: Adjusted the layout for the image gallery and library.
+- Change: Removed the trophy icon from grid views in the retro achievements list.
+- Change: Removed the "show logo and consoles" theme option in the system view.
+- Change: Slightly improved the layout for the screenshot gallery and library in grid mode.
+- Add: Added a new set of button help icons called "position."
+- Add: Added a new set of button help icons called "Xbox."
+- Updated and/or translated descriptions in all languages for the Pc Engine CD, Atari Jaguar, Vectrex, Nintendo Wii, Nintendo Wii U and SEGA Saturn systems.
+- Added: Media data and/or information for the Pyxel, Othello Multivision, Zelda Classic, and Commander Genius systems.
+
+
+
+-----------------------
 Version 36 (14/03/2023)
+
 
 - Added: 9 New languages to the theme interface. Now the theme supports up to 14 languages!
    - English (default)

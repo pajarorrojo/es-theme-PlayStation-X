@@ -3,36 +3,36 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
    <formatVersion>7</formatVersion>
-   <customView name="carousel" inherits="grid">
+   <customView name="carousel" inherits="grid"  displayName="${carouselViewName}">
       <imagegrid name="gamegrid">
-         <imageSource ifSubset="carousel-origin:image">image</imageSource>
-         <imageSource ifSubset="carousel-origin:thumbnail">thumbnail</imageSource>
-         <imageSource ifSubset="carousel-origin:marquee">marquee</imageSource>
-         <imageSource ifSubset="carousel-origin:boxart">boxart</imageSource>
-         <imageSource ifSubset="carousel-origin:fanart">fanart</imageSource>
-         <imageSource ifSubset="carousel-origin:titleshot">titleshot</imageSource>
-         <imageSource ifSubset="carousel-origin:cartridge">cartridge</imageSource>
+         <imageSource ifSubset="grid-origin:image">image</imageSource>
+         <imageSource ifSubset="grid-origin:thumbnail|default">thumbnail</imageSource>
+         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
+         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
+         <imageSource ifSubset="grid-origin:fanart">fanart</imageSource>
+         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
+         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
          <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
-         <autoLayoutSelectedZoom >1.33</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom >1.5</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:thumbnail|boxart|default|cartridge" >1.33</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:marquee" >2</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:fanart" >1.8</autoLayoutSelectedZoom>
          <pos>0 0.475</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
          <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">0 0.48</pos>
          <size>1 0.45</size>
-
-
-
-         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>60</zIndex>
          <padding >0.008 0.05</padding>
          <margin>0.005 0.006</margin>
-         <autoLayout>7 1</autoLayout>
-         <autoLayout tinyScreen="true">5 1</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:4-3|5-4">5 1</autoLayout>
+         <autoLayout>5 1</autoLayout>
+         <autoLayout ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">7 1</autoLayout>
+         <autoLayout ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' ">5 1</autoLayout>
          <scrollDirection>horizontal</scrollDirection>
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
          <animateSelection>false</animateSelection>
+         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
       </imagegrid>
 
       <gridtile name="default">
@@ -41,8 +41,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <selectionMode >image</selectionMode>
          <imageSizeMode >maxSize</imageSizeMode>
          <backgroundEdgeColor>00000000</backgroundEdgeColor>
+         <backgroundCenterColor>00000000</backgroundCenterColor>
          <backgroundCornerSize>0 0</backgroundCornerSize>
-         <imageColor>ffffff</imageColor>
          <reflexion>0.2 0</reflexion>
 
       </gridtile>
@@ -60,19 +60,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <animateColor>${backgroundgridSelect}00</animateColor>
       </ninepatch>
 
+      <image name="gridtile.marquee" ifSubset="grid-origin:marquee|default">
+		   <pos>-2 -2</pos>
+         <size>0 0</size>
+         <visible>false</visible>
+		</image>
+
+      <image name="gridtile.marquee:selected" ifSubset="grid-origin:marquee|default">
+		   <pos>-2 -2</pos>
+         <size>0 0</size>
+         <visible>false</visible>
+		</image>
+
       <image name="linea-inferior" extra="static">
-         <path>./../_theme_inc/images/pixel-blanco.png</path>
-         <pos>0 0.934</pos>
-         <size>1 0.0011</size>
-         <size tinyScreen="true">1 0.005</size>
-         <color>${sistema.lineainferior}</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
+         <visible>true</visible>
       </image>
-
-
 
       <image name="gridtile.favorite">
          <path >./../_theme_inc/images/favorite.png</path>
@@ -93,8 +95,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <origin>0 0</origin>
          <color>Ffffff</color>
       </image>
+
+      <image name="gridtile.cheevos" if="{system.name} == 'retroachievements'">
+         <opacity >0</opacity>
+         <visible>false</visible>
+         <color>00000000</color>
+      </image>
       
    </customView>
-
 
 </theme>

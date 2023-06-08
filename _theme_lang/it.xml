@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="it">
     <theme.welcome>Benvenuto su Playstation X per</theme.welcome>
     <theme.start>Avviare</theme.start>
     <theme.mostplayed>I più giocati:</theme.mostplayed>
     <theme.items>Numero di elementi:</theme.items>
-    <theme.collections>Numero di collezioni:</theme.collections>
+    <theme.collections>collezioni</theme.collections>
     <GamesNumber>Giochi</GamesNumber>
     <GamesFavs>Preferiti</GamesFavs>
     <NumberPlayed>Giochi giocati</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>Sempre</always>
     <iconset>Tipo di icone e pulsanti</iconset>
     <theme.frontend>Seleziona il tuo frontend preferito</theme.frontend>
-    <gameBar>Mostra la barra di informazioni sui giochi</gameBar>
-    <CarouselImageSize>Dimensioni delle immagini del carosello</CarouselImageSize>
+    <gameBar>Mostra informazioni sul gioco</gameBar>
+    <CarouselImageSize>Dimensioni del carosello dei sistemi</CarouselImageSize>
     <theme.videoBackground>Mostra video nella vista dei sistemi</theme.videoBackground>
     <theme.videoRandom>Mostra video di gioco casuale</theme.videoRandom>
     <ifnospot>Se non esiste un video del sistema</ifnospot>
@@ -73,8 +74,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselMainOrigin>Immagine principale in vista carosello</theme.carouselMainOrigin>
     <theme.carouselOrigin>Immagini del carosello</theme.carouselOrigin>
     <theme.systemBackground>Immagine di sfondo nella vista dei sistemi</theme.systemBackground>
-    <randomFanart> Fanart Casuale </randomFanart>
+    <randomFanart>Fanart Casuale</randomFanart>
     <theme.gamelistBackground>Immagine di sfondo nella lista dei giochi</theme.gamelistBackground>
     <theme.forced>forzato</theme.forced>
-  </variables>
+    <theme.gameDescription>Mostra descrizioni dei giochi</theme.gameDescription>
+    <carouselViewName>Carousel orizzontale</carouselViewName>
+    <classiclViewName>Carousel classico</classiclViewName>
+    <theme.mainImage>Immagine principale</theme.mainImage>
+    <theme.gridImage>Immagine griglia</theme.gridImage>
+    <fullGridlViewName>Griglia completa</fullGridlViewName>  </variables>
 </theme>

@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="zh">
     <theme.welcome>欢迎来到 Playstation X for</theme.welcome>
     <theme.start>开始</theme.start>
     <theme.mostplayed>最受欢迎：</theme.mostplayed>
     <theme.items>物品：</theme.items>
-    <theme.collections>收藏：</theme.collections>
+    <theme.collections>收藏</theme.collections>
     <GamesNumber>游戏</GamesNumber>
     <GamesFavs>收藏</GamesFavs>
     <NumberPlayed>游玩次数</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>始终</always>
     <iconset>图标集</iconset>
     <theme.frontend>选择您喜欢的前端</theme.frontend>
-    <gameBar>显示游戏信息栏</gameBar>
-    <CarouselImageSize>轮播图像尺寸</CarouselImageSize>
+    <gameBar>显示游戏信息</gameBar>
+    <CarouselImageSize>系统旋转木马大小</CarouselImageSize>
     <theme.videoBackground>在系统视图中显示视频</theme.videoBackground>
     <theme.system-description>显示系统说明</theme.system-description>
     <theme.animated-background>动画背景（波浪）</theme.animated-background>
@@ -75,7 +76,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemBackground>系统视图中的背景图片</theme.systemBackground>
     <randomFanart>随机Fanart</randomFanart>
     <theme.gamelistBackground>游戏列表背景图像</theme.gamelistBackground>
-    <theme.gamelistBackground>ゲームリストの背景画像</theme.gamelistBackground>
     <theme.forced>強制</theme.forced>
+    <theme.gameDescription>显示游戏描述</theme.gameDescription>
+    <carouselViewName>水平旋转木马</carouselViewName>
+    <classiclViewName>经典旋转木马</classiclViewName>
+    <theme.mainImage>主图像</theme.mainImage>
+    <theme.gridImage>网格图像</theme.gridImage>
+    <fullGridlViewName>完整网格</fullGridlViewName>
   </variables>
 </theme>

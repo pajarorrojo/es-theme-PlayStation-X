@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
 	<formatVersion>7</formatVersion>
+	
 	<variables lang="ja">
 		<theme.welcome>Playstation Xへようこそ</theme.welcome>
 		<theme.start>開始</theme.start>
 		<theme.mostplayed>最もプレイされたもの:</theme.mostplayed>
 		<theme.items>アイテム:</theme.items>
-		<theme.collections>コレクション:</theme.collections>
+		<theme.collections>コレクション</theme.collections>
 		<GamesNumber>ゲーム</GamesNumber>
 		<GamesFavs>お気に入り</GamesFavs>
 		<NumberPlayed>プレイ回数</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<always>常に</always>
 		<iconset>アイコンセット</iconset>
 		<theme.frontend>お気に入りのフロントエンドを選択してください</theme.frontend>
-		<gameBar>ゲーム情報バーを表示</gameBar>
-		<CarouselImageSize>カルーセル画像サイズ</CarouselImageSize>
+		<gameBar>ゲーム情報を表示</gameBar>
+		<CarouselImageSize>システムカルーセルサイズ</CarouselImageSize>
 		<theme.videoBackground>システムビューで動画を表示</theme.videoBackground>
 		<theme.system-description>システム説明を表示</theme.system-description>
 		<theme.animated-background>アニメーション背景（波）</theme.animated-background>
@@ -76,5 +77,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<randomFanart>ランダムファンアート</randomFanart>
 		<theme.gamelistBackground>ゲームリストの背景画像</theme.gamelistBackground>
 		<theme.forced>強制</theme.forced>
+		<theme.gameDescription>ゲームの説明を表示する</theme.gameDescription>
+		<carouselViewName>水平回転木馬</carouselViewName>
+		<classiclViewName>クラシックカルーセル</classiclViewName>
+		<theme.mainImage>メイン画像</theme.mainImage>
+		<theme.gridImage>グリッド画像</theme.gridImage>
+		<fullGridlViewName>フルグリッド</fullGridlViewName>
 	</variables>
 </theme>

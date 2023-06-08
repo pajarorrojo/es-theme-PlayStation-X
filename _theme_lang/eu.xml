@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="eu">
     <theme.welcome>Playstation X-rekin ongi etorri</theme.welcome>
     <theme.start>Hasi</theme.start>
     <theme.mostplayed>Jokatuena:</theme.mostplayed>
     <theme.items>Elementu kopurua:</theme.items>
-    <theme.collections>Kolekzio kopurua:</theme.collections>
+    <theme.collections>bildumak</theme.collections>
     <GamesNumber>Jokoak</GamesNumber>
     <GamesFavs>Gogokoak</GamesFavs>
     <NumberPlayed>Jokatuak</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>Beti</always>
     <iconset>Ikono eta botoi mota</iconset>
     <theme.frontend>Zure front end gogokoena hautatu</theme.frontend>
-    <gameBar>Joko informazioaren barra erakutsi</gameBar>
-    <CarouselImageSize>Irudien karuselaren tamaina</CarouselImageSize>
+    <gameBar>Erakutsi jokoaren informazioa</gameBar>
+    <CarouselImageSize>Sistemen karruselaren tamaina</CarouselImageSize>
     <theme.videoBackground>Sistemen bistaratzean bideoak erakutsi</theme.videoBackground>
     <theme.videoRandom>Joko aleatorioaren bideoa erakutsi</theme.videoRandom>
     <ifnospot>Sistemaren bideoa ez badago</ifnospot>
@@ -76,5 +77,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <randomFanart>Ausazko fanart</randomFanart>
     <theme.gamelistBackground>Atzeko irudia jokoen zerrendan</theme.gamelistBackground>
     <theme.forced>bortitua</theme.forced>
+    <theme.gameDescription>Jokoaren deskribapenak erakutsi</theme.gameDescription>
+    <carouselViewName>Karrusel horizontala</carouselViewName>
+    <classiclViewName>Karrusel klasikoa</classiclViewName>
+    <theme.mainImage>Irudi nagusia</theme.mainImage>
+    <theme.gridImage>Sare-irudia</theme.gridImage>
+    <fullGridlViewName>Sare hedatua</fullGridlViewName>    
   </variables>
 </theme>

@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="ca">
     <theme.welcome>Benvingut a Playstation X per</theme.welcome>
     <theme.start>Iniciar</theme.start>
     <theme.mostplayed>El més jugat:</theme.mostplayed>
     <theme.items>Nombre d'elements:</theme.items>
-    <theme.collections>Nombre de col·leccions:</theme.collections>
+    <theme.collections>col·leccions</theme.collections>
     <GamesNumber>Jocs</GamesNumber>
     <GamesFavs>Favorits</GamesFavs>
     <NumberPlayed>Jugats</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>Sempre</always>
     <iconset>Tipus d'Icones i botons</iconset>
     <theme.frontend>Selecciona el teu frontend preferit</theme.frontend>
-    <gameBar>Mostra la barra d'informació de jocs</gameBar>
-    <CarouselImageSize>Mida d'imatges del carrusel</CarouselImageSize>
+    <gameBar>Mostra l'informació de jocs</gameBar>
+    <CarouselImageSize>Mida del carrusel de sistemes</CarouselImageSize>
     <theme.videoBackground>Mostrar vídeos a la vista de sistemes</theme.videoBackground>
     <theme.videoRandom>Mostrar vídeo de joc aleatori</theme.videoRandom>
     <ifnospot>Si no hi ha vídeo del sistema</ifnospot>
@@ -76,5 +77,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <randomFanart>Fanart aleatori</randomFanart>
     <theme.gamelistBackground>Imatge de fons a la llista de jocs</theme.gamelistBackground>
     <theme.forced>forçat</theme.forced>
+    <theme.gameDescription>Mostra les descripcions dels jocs</theme.gameDescription>
+    <carouselViewName>Carrusel horitzontal</carouselViewName>
+    <classiclViewName>Carrusel clàssic</classiclViewName>
+    <theme.mainImage>Imatge principal</theme.mainImage>
+    <theme.gridImage>Imatge de la graella</theme.gridImage>
+    <fullGridlViewName>Graella ampliada</fullGridlViewName>
   </variables>
 </theme>

@@ -4,17 +4,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
    <variables>
-      <menuSelectedColor ifSubset="secondary_colorset:default">bbbbbb</menuSelectedColor>
-      <menuSelectorColor ifSubset="secondary_colorset:default">444444a6</menuSelectorColor>
-      <menuSelectorColorEnd ifSubset="secondary_colorset:default">666666</menuSelectorColorEnd>
+      <menuSelectedColor ifSubset="secondary_colorset:default">111111</menuSelectedColor>
+      <menuSelectorColor ifSubset="secondary_colorset:default">bbbbbb</menuSelectorColor>
+      <menuSelectorColorEnd ifSubset="secondary_colorset:default">aaaaaa</menuSelectorColorEnd>
       <menuFontcolor>777777</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
-      <menuGrouptitle>bbbbbb</menuGrouptitle>
-      <menuGroupSeparator>bbbbbb</menuGroupSeparator>
+      <menuGrouptitle>dddddd</menuGrouptitle>
+      <menuGroupSeparator>dddddd</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>232323</menubgColor>
       <backgroundgrid>aaaaaa</backgroundgrid>
-      <backgroundgridSelect ifSubset="secondary_colorset:default">DF002430</backgroundgridSelect>
+      <backgroundgridSelect ifSubset="secondary_colorset:default">DF0024</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
       <gamelistSelectorColor ifSubset="secondary_colorset:default">DF0024</gamelistSelectorColor>
@@ -35,7 +35,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <sistema.lineainferior ifSubset="secondary_colorset:default">DF0024</sistema.lineainferior>
       <sistema.pie>000000cf</sistema.pie>
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
-
+      <classic.tile.background>000000</classic.tile.background>
+      <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>
    </variables>
 
 
@@ -52,21 +53,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./black/default-detailed.png</path>
       </image>
 
-      <image name="background-art" extra="static">
-         <path>./black/background.jpg</path>
-      </image>
    </view>
 
-   <view name="grid">
 
-      <image name="background" extra="static">
-         <path>./black/default-grid.png</path>
-      </image>
 
-      <image name="background-art" extra="static">
-         <path>./black/background.jpg</path>
-      </image>
-   </view>
+
 
    <view name="menu">
       <menuBackground name="menubg">

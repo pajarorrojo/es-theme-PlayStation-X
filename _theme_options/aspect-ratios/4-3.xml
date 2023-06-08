@@ -1,0 +1,25 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme >
+	<formatVersion>7</formatVersion>
+	
+    <customView name="classic" >
+		<imagegrid name="gamegrid">
+       	  <pos>-0.725 0.085</pos>
+       	  <size ifSubset="aspect-ratio:4-3">2 0.39</size>
+      	</imagegrid>
+
+	  <text name="start" extra="true">
+         <size>0.216 0.05</size>
+      </text>
+
+      <text name="gamename-classic" extra="true">
+         <x ifSubset="aspect-ratio:4-3">0.390</x>
+      </text>
+
+
+	</customView>
+
+
+</theme>

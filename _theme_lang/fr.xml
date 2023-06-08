@@ -1,16 +1,15 @@
 ﻿<!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
-
-Translation thanks to Soaresden and Snapouille
 -->
 <theme>
   <formatVersion>7</formatVersion>
+
   <variables lang="fr">
     <theme.welcome>Bienvenue sur Playstation X pour</theme.welcome>
     <theme.start>Démarrer</theme.start>
     <theme.mostplayed>Le plus joué :</theme.mostplayed>
     <theme.items>Nombre d'élements :</theme.items>
-    <theme.collections>Nombre de collections :</theme.collections>
+    <theme.collections>collections</theme.collections>
     <GamesNumber>Jeux</GamesNumber>
     <GamesFavs>Favoris</GamesFavs>
     <NumberPlayed>Joués</NumberPlayed>
@@ -33,8 +32,8 @@ Translation thanks to Soaresden and Snapouille
     <always>Toujours</always>
     <iconset>Set d'icones</iconset>
     <theme.frontend>Sélectionnez votre frontend préféré</theme.frontend>
-    <gameBar>Barre d'Informations des Jeux</gameBar>
-    <CarouselImageSize>Taille d'Image du Carrousel</CarouselImageSize>
+    <gameBar>Informations des Jeux</gameBar>
+    <CarouselImageSize>Taille du carrousel des systèmes</CarouselImageSize>
     <theme.videoBackground>Videos Systèmes</theme.videoBackground>
     <theme.system-description>Afficher les descriptions Systèmes ?</theme.system-description>
     <theme.animated-background>Fond animé (vagues) ?</theme.animated-background>
@@ -77,5 +76,11 @@ Translation thanks to Soaresden and Snapouille
     <randomFanart> Fanart Aléatoire </randomFanart>
     <theme.gamelistBackground>Image de fond dans la liste de jeux</theme.gamelistBackground>
     <theme.forced>forcé</theme.forced>
+    <theme.gameDescription>Afficher les descriptions des jeux</theme.gameDescription>
+    <carouselViewName>Carrousel horizontal</carouselViewName>
+    <classiclViewName>Carrousel classique</classiclViewName>
+    <theme.mainImage>Image principale</theme.mainImage>
+    <theme.gridImage>Image de grille</theme.gridImage>
+    <fullGridlViewName>Grille complète</fullGridlViewName>
   </variables>
 </theme>

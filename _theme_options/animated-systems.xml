@@ -10,16 +10,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <transitionSpeed>350</transitionSpeed>
     </carousel>
 
-    <image name="logo">
-      <storyboard>
-        <animation property="y" from="0.25" duration="300" mode="easeOutCubic" />
-      </storyboard>
-    </image>
+
+
+    
     <image name="background-art" extra="true">
       <storyboard>
+        <animation property="offsetY" to="0.08" duration="15000" mode="ease" autoreverse="true"/>
         <animation property="opacity" from="0.4" to="1.0" duration="600" mode="easeOut" />
         <animation property="scale" from="1" to="1.25" duration="15000" mode="easeOut"/>
-        <animation property="scale" from="1.3" to="1" begin="16000" duration="15000" mode="ease"/>
+        <animation property="scale" from="1.25" to="1" begin="16000" duration="15000" mode="ease"/>
       </storyboard>
     </image>
 
@@ -59,7 +58,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <storyboard>
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
-      <reflexion>240</reflexion>
     </image>
 
     <image name="consoles" extra="true">
@@ -108,7 +106,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </image>
 
-    <image name="caratula-overlay">
+    <image name="caratula-overlay" >
       <path>./_theme_inc/images/caratulas/default.png</path>
       <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
       <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
@@ -116,7 +114,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <path ifSubset="colorset:black">./_theme_inc/images/caratulas/${system.theme}-b.png</path>
       <linearSmooth>true</linearSmooth>
     </image>
-
+    <image name="caratula-overlay" extra="true" region="eu" />
     <image name="caratula-overlay" extra="true" region="us">
       <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
     </image>
@@ -125,5 +123,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
     </image>
   </view>
+
+
 
 </theme>

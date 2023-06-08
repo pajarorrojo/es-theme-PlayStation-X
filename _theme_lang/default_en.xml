@@ -9,7 +9,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.start>Start</theme.start>
 		<theme.mostplayed>Most played:</theme.mostplayed>
 		<theme.items>Items:</theme.items>
-		<theme.collections>Collections:</theme.collections>
+		<theme.collections>Collections</theme.collections>
 		<GamesNumber>Games</GamesNumber>
 		<GamesFavs>Favorites</GamesFavs>
 		<NumberPlayed>Played</NumberPlayed>
@@ -32,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<always>Always</always>
 		<iconset>iconset</iconset>
 		<theme.frontend>Select your favorite frontend</theme.frontend>
-		<gameBar>Show game info bar</gameBar>
-		<CarouselImageSize>Carousel Image Size</CarouselImageSize>
+		<gameBar>Show game info</gameBar>
+		<CarouselImageSize>Systems Carousel Size</CarouselImageSize>
 		<theme.videoBackground>Show videos in systems view</theme.videoBackground>
 		<theme.system-description>Show System descriptions</theme.system-description>
 		<theme.animated-background>Animated background (waves)</theme.animated-background>
@@ -75,6 +75,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.carouselOrigin>Carousel images</theme.carouselOrigin>
 		<theme.systemBackground>Background image in systems view</theme.systemBackground>
 		<randomFanart>Random Fanart</randomFanart>
+		<theme.gamelistBackground>Gamelist Background image</theme.gamelistBackground>
 		<theme.forced>forced</theme.forced>
+		<theme.gameDescription>Show game descriptions</theme.gameDescription>
+		<carouselViewName>Horizontal Carousel</carouselViewName>
+		<classiclViewName>Classic Carousel</classiclViewName>
+		<theme.mainImage>Main image</theme.mainImage>
+		<theme.gridImage>Grid image</theme.gridImage>
+		<fullGridlViewName>Full Grid</fullGridlViewName>
+
 	</variables>
 </theme>

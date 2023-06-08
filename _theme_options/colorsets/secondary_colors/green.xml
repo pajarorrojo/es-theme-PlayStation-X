@@ -10,9 +10,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <sistema.lineainferior>00AC97</sistema.lineainferior>
       <splash.progressbarActive>00AC97</splash.progressbarActive>
       <gamelistSelectorColor>00AC97</gamelistSelectorColor>
-      <backgroundgridSelect>00AC977f</backgroundgridSelect>
+      <backgroundgridSelect>00AC97</backgroundgridSelect>
       <gamelist.starFill>00AC97</gamelist.starFill>
-
+      <grid.starFill>00AC97</grid.starFill>
    </variables>
 
 </theme>

@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="ru">
     <theme.welcome>Добро пожаловать в Playstation X для</theme.welcome>
     <theme.start>Запуск</theme.start>
     <theme.mostplayed>Часто запускаемые:</theme.mostplayed>
     <theme.items>Элементы:</theme.items>
-    <theme.collections>Коллекции:</theme.collections>
+    <theme.collections>Коллекции</theme.collections>
     <GamesNumber>игр</GamesNumber>
     <GamesFavs>избранных</GamesFavs>
     <NumberPlayed>недавних</NumberPlayed>
@@ -32,7 +33,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <iconset>набор иконок</iconset>
     <theme.frontend>Выберите свой любимый фронтенд</theme.frontend>
     <gameBar>Показать информацию об игре</gameBar>
-    <CarouselImageSize>Размер изображения в карусели</CarouselImageSize>
+    <CarouselImageSize>Размер карусели систем</CarouselImageSize>
     <theme.videoBackground>Показать видео на экране системы</theme.videoBackground>
     <theme.system-description>Показать описания системы</theme.system-description>
     <theme.animated-background>Анимированный фон (волны)</theme.animated-background>
@@ -76,5 +77,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <randomFanart>Случайный фанарт</randomFanart>
     <theme.gamelistBackground>Фоновое изображение в списке игр</theme.gamelistBackground>
     <theme.forced>Принудительно</theme.forced>
+    <theme.gameDescription>Показать описания игр</theme.gameDescription>
+    <carouselViewName>Горизонтальный карусель</carouselViewName>
+    <classiclViewName>Классическая карусель</classiclViewName>
+    <theme.mainImage>Главное изображение</theme.mainImage>
+    <theme.gridImage>Изображение сетки</theme.gridImage>
+    <fullGridlViewName>Полная сетка</fullGridlViewName>
   </variables>
 </theme>

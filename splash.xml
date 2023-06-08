@@ -83,7 +83,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme Version 36</text>
+			<text>Theme Version 37</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -214,10 +214,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image name="avatar" extra="true">
 			<path>./_theme_options/avatars/${image.avatar}</path>
 			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
-			<storyboard>
-				<animation property="opacity" from="0" to="0" duration="100" mode="linear" />
-				<animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
-			</storyboard>
 		</image>
 	</view>
 	<include>./custom-username.xml</include>

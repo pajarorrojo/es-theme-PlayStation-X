@@ -3,12 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  
   <variables lang="he">
     <theme.welcome>ברוכים הבאים ל-Playstation X עבור</theme.welcome>
     <theme.start>התחלה</theme.start>
     <theme.mostplayed>המשוחק ביותר:</theme.mostplayed>
     <theme.items>פריטים:</theme.items>
-    <theme.collections>אוספים:</theme.collections>
+    <theme.collections>אוספים</theme.collections>
     <GamesNumber>משחקים</GamesNumber>
     <GamesFavs>מועדפים</GamesFavs>
     <NumberPlayed>משוחק</NumberPlayed>
@@ -31,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <always>תמיד</always>
     <iconset>סט צלמיות</iconset>
     <theme.frontend>בחר את ה-Frontend המועדף עליך</theme.frontend>
-    <gameBar>הצג מידע משחק</gameBar>
-    <CarouselImageSize>גודל תמונת קרוסלה</CarouselImageSize>
+    <gameBar>הצג מידע על המשחק</gameBar>
+    <CarouselImageSize>גודל קרוסלת המערכות</CarouselImageSize>
     <theme.videoBackground>הצג וידאו בתצוגת המערכת</theme.videoBackground>
     <theme.system-description>הצג תיאור מערכת</theme.system-description>
     <theme.animated-background>רקע מונפש (גלים)</theme.animated-background>
@@ -74,5 +75,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.carouselOrigin>תמונות קרוסלה</theme.carouselOrigin>
     <theme.systemBackground>תמונת רקע בתצוגת מערכות</theme.systemBackground>
     <randomFanart>פאנארט אקראי</randomFanart>
+    <theme.gamelistBackground>תמונת רקע של רשימת המשחקים</theme.gamelistBackground>
+    <theme.forced>מאולץ</theme.forced>
+    <theme.gameDescription>הצג תיאורי משחקים</theme.gameDescription>
+    <carouselViewName>קרוסלה אופקית</carouselViewName>
+    <classiclViewName>קרוסלה קלאסית</classiclViewName>
+    <theme.mainImage>תמונה ראשית</theme.mainImage>
+    <theme.gridImage>תמונת רשת</theme.gridImage>
+    <fullGridlViewName>רשת מלאה</fullGridlViewName>
   </variables>
 </theme>

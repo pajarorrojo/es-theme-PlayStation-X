@@ -1,37 +1,24 @@
 <theme>
      <formatVersion>7</formatVersion>
      <view name=" detailed, grid">
-          <video name="default_background" extra="true">
+          <video name="default_background" extra="static">
                <pos>0 0</pos>
                <size>1 1</size>
                <opacity>0</opacity>
-               <storyboard ifSubset="anim-list:YES">
-                    <animation property="opacity" from="0" to="0.5" begin="1000" duration="8000"
-                         mode="easeInOut" autoreverse="true" repeat="forever" />
+               <storyboard>
+                    <animation property="opacity" from="0" to="0.6" begin="1000" duration="8000" mode="easeInOut" autoreverse="true" repeat="forever" />
                </storyboard>
+               <zIndex>47</zIndex>
           </video>
 
-          <video name="default_background" extra="true" ifSubset="colorset:blue">
+          <video name="default_background" extra="static" ifSubset="colorset:blue">
                <path>./../_theme_options/colorsets/blue/background-psx-blue.mp4</path>
           </video>
 
-          <video name="default_background" extra="true" ifSubset="colorset:black">
+          <video name="default_background" extra="static" ifSubset="colorset:black">
                <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
           </video>
 
 
-     </view>
-     <view name="grid">
-
-          <video name="default_background" extra="true">
-               <zIndex>46</zIndex>
-          </video>
-     </view>
-
-     <view name="detailed">
-
-          <video name="default_background" extra="true">
-               <zIndex>40</zIndex>
-          </video>
      </view>
 </theme>

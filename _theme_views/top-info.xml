@@ -25,24 +25,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <backgroundColor>ff000000</backgroundColor>
-         <storyboard>
-            <sound path="./../_theme_inc/sound-effects/scroll.wav" at="1000" />
-         </storyboard>
       </text>
 
       <controllerActivity name="controllerActivity">
          <color>FFFFFF90</color>
          <activityColor>F3C30069</activityColor>
          <hotkeyColor>FF000069</hotkeyColor>
-         <pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.957 0.005</pos>
-         <size ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox">0.033</size>
+         <pos ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox|xbox-color|position">0.957 0.005</pos>
+         <size ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|xbox|xbox-color|position">0.033</size>
          <pos ifSubset="iconset:snes">0.962 0.005</pos>
          <size ifSubset="iconset:snes">0.034</size>
          <pos ifSubset="iconset:arcade">0.968 0.005</pos>
          <size ifSubset="iconset:arcade">0.028</size>
          <gunPath>./_theme_inc/images/lightgun.png</gunPath>
          <itemSpacing ifSubset="iconset:snes">0.013</itemSpacing>
-         <itemSpacing ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|">0.005</itemSpacing>
+         <itemSpacing ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|position">0.005</itemSpacing>
          <horizontalAlignment>right</horizontalAlignment>
       </controllerActivity>
 
@@ -173,47 +170,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <animation property="opacity" from="1" to="0" begin="14000" duration="350" mode="easeOut" />
          </storyboard>
       </text>
-      <!--
-      <text name="systemInfoEx" extra="true" if="{system.name} == 'library' ||
-      {system.name} == 'screenshots' || {system.name} == 'imageviewer'">
-         <text>${theme.items}
-      {binding:total}</text>
-         <storyboard repeat="0"></storyboard>
-      </text>
-      <text
-      name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
-      <text>${theme.collections} {binding:subSystems}</text>
-         <storyboard
-      repeat="0"></storyboard>
-      </text>
-
-      <text name="systemInfoEx" extra="true"
-      if="{system.name} == 'odcommander'">
-         <text>${system.fullName}</text>
-         <storyboard
-      repeat="0"></storyboard>
-      </text>
-   -->
-
-      <!--
-      <text name="systemInfoEx2" extra="true" if="{system.name} == 'library' ||
-      {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} ==
-      'collections' || {system.name} == 'odcommander'">
-         <storyboard
-      repeat="0"></storyboard>
-         <opacity>0</opacity>
-         <visible>false</visible>
-      </text>
-
-      <text name="systemInfoEx2" extra="true" if="{system.name} == 'library' ||
-      {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} ==
-      'collections' || {system.name} == 'odcommander'">
-         <storyboard
-      repeat="0"></storyboard>
-         <opacity>0</opacity>
-         <visible>false</visible>
-      </text>
-   -->
+     
 
       <image name="trophy-picto" extra="static" onclick="cheevos">
          <path>./_theme_inc/images/trophy-picto.svg</path>
@@ -312,13 +269,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="consoles" extra="true" region="eu" />
       <image name="consoles" extra="true" region="us">
-         <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
          <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
       </image>
 
       <image name="consoles" extra="true" region="jp">
-         <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
       </image>
@@ -333,38 +288,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
          <singleLineScroll>true</singleLineScroll>
       </text>
-      <!--
-      <text name="md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime"
-      if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} ==
-      'imageviewer' || {system.name} == 'odcommander'">
-         <visible >false</visible>
-      </text>
-      <text name="extra-sistemas" extra="true" if="{system.name} == 'library' || {system.name} ==
-      'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">
-         <pos>0.162
-      0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.065 0.045</pos>
-         <pos
-      tinyScreen="true">0.065 0.045</pos>
-         <text>${system.fullName}</text>
-         <size>0.28
-      0.05</size>
-         <alignment>left</alignment>
-         <color>FFFFFF</color>
-      <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath
-      ifSubset="aspect-ratio:4-3" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-      <zIndex>99</zIndex>
-         <glowColor>00000035</glowColor>
-         <glowSize
-      ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-         <glowOffset
-      ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
-         <fontSize>0.03</fontSize>
-      <backgroundColor>ff000000</backgroundColor>
 
-      </text>
-   -->
       <text name="md_lbl_playcount,md_lbl_gametime">
          <forceUppercase>true</forceUppercase>
          <color>ffffffb1</color>
@@ -404,36 +328,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:3-2|16-10">0.305 0.0703</pos>
          <pos tinyScreen="true">0.265 0.08</pos>
       </text>
-      <!--
-      <text name="md_lbl_lastplayed">
-         <pos>0.39 0.035</pos>
-         <size>0.165
-      0.034</size>
-         <alignment>center</alignment>
-         <fontPath>./../_theme_inc/fonts/SST
-      Roman.ttf</fontPath>
-         <fontSize>0.023</fontSize>
-         <color>${genreColor}</color>
-      <visible>false</visible>
-         <zIndex>51</zIndex>
-      <backgroundColor>0000004d</backgroundColor>
-      </text>
-
-      <datetime
-      name="md_lastplayed">
-         <pos>0.39 0.07</pos>
-         <size>0.16 0.034</size>
-      <alignment>center</alignment>
-         <fontPath>./../_theme_inc/fonts/SST
-      Roman.ttf</fontPath>
-         <fontSize>0.023</fontSize>
-         <color>${releaseColor}</color>
-      <zIndex>51</zIndex>
-         <visible>false</visible>
-      <backgroundColor>0000004d</backgroundColor>
-      </datetime>
-   -->
-
 
    </view>
 
@@ -471,7 +365,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="friends" extra="static">
-         <text>v.36</text>
+         <text>v.37</text>
          <pos>0.563 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
          <size>0.064 0.035</size>

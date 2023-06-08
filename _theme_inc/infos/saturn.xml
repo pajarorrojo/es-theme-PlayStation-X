@@ -8,13 +8,54 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		
 		<text name="system_description" extra="true">
-			<text>The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. Part of the fifth generation of video game consoles, it was the successor to the successful Sega Genesis.</text>
-			<text lang="es,ca,eu">Sega Saturn es la quinta videoconsola de sobremesa producida por Sega. Fue desarrollada para suceder a la Mega Drive y competir contra la 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation, y más adelante Nintendo 64, entre otras.
+			<text>Sega Saturn is the fifth home video game console produced by Sega. It was developed to succeed the Mega Drive and compete against the 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation, and later Nintendo 64, among others.
+
+It was released in the market in November 1994 in Japan and in May 1995 in North America. 170,000 units were sold on the first day of release in Japan, as it was launched earlier to try to outperform Sony's PlayStation. This resulted in very few games being developed for its launch day and the quality of these games not fully showcasing the true capabilities of the machine.
+			</text>			
+			<text lang="es">Sega Saturn es la quinta videoconsola de sobremesa producida por Sega. Fue desarrollada para suceder a la Mega Drive y competir contra la 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation, y más adelante Nintendo 64, entre otras.
 
 Fue lanzada al mercado en noviembre de 1994 en Japón, y en mayo de 1995 en Norteamérica. Se vendieron 170.000 máquinas el primer día de venta en Japón, siendo sacada anticipadamente para intentar imponerse a la PlayStation de Sony. Esto propició que hubiese muy pocos juegos desarrollados para el día de su estreno y que la calidad de estos no reflejaran las verdaderas capacidades de la máquina. 
 			</text>
-			<text lang="fr">La Saturn ou Sega Saturn (セガサターン, Sega Satān) est une console de jeux vidéo de cinquième génération commercialisée par Sega. Quatrième console de salon conçue par l'entreprise japonaise, succédant à la Mega Drive, elle sort le 22 novembre 1994 au Japon, le 11 mai 1995 en Amérique du Nord et le 8 juillet 1995 en Europe. Concurrente de la Sony PlayStation.</text>
-			<text lang="pt">O Sega Saturn foi um console de videogame da quinta geração com 32 bits, lançado pela empresa Sega em 22 de Novembro de 1994 no Japão. Meses depois foi lançado em outros países em: 11 de Maio de 1995 na América do Norte, 30 de agosto de 1995 no Brasil e, 8 de Julho na Europa. </text>
+			<text lang="ca">Sega Saturn és la cinquena videoconsola de sobretaula produïda per Sega. Va ser desenvolupada per a succeir la Mega Drive i competir contra la 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation i més endavant la Nintendo 64, entre d'altres.
+
+Va ser llançada al mercat al novembre de 1994 al Japó i al maig de 1995 a Nord-amèrica. Es van vendre 170.000 màquines el primer dia de venda al Japó, en un intent d'imposar-se a la PlayStation de Sony. Això va propiciar que hi hagués molt pocs jocs desenvolupats per al dia del seu llançament i que la qualitat d'aquests no reflectís les veritables capacitats de la màquina.
+			</text>
+			<text lang="eu">Sega Saturn Sega-ren laugarren etxea da, eta Sega-k sortutako udaberriko bideo-joko konsoletan. Mega Drive-a ordeztea eta 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation eta gero Nintendo 64-ren kontra lehiatzeko garatu zen.
+
+1994ko azaroan Japonian eta 1995eko maiatzean Iparraldean merkatuan jarri zen. Japonian, salmenta egunean 170.000 makinak saldu ziren, Sony-ren PlayStation-a gainditzea asmakizun bat izateko aurretik jaurtiketa egin zen. Honek eragingo zuen jaiotzeneko eguneko joko gutxi izatea eta horien kalitateak ez ziren makinaaren benetako gaitasunak adierazten.
+			</text>
+			<text lang="fr">Sega Saturn est la cinquième console de jeux vidéo de salon produite par Sega. Elle a été développée pour succéder à la Mega Drive et rivaliser avec la 3DO Interactive Multiplayer, l'Atari Jaguar, le Neo Geo CD, la PlayStation et plus tard la Nintendo 64, entre autres.
+
+Elle a été lancée sur le marché en novembre 1994 au Japon et en mai 1995 en Amérique du Nord. 170 000 unités ont été vendues le premier jour de sa sortie au Japon, dans le but de surpasser la PlayStation de Sony. Cela a entraîné un nombre très limité de jeux développés pour sa journée de lancement et la qualité de ces jeux ne reflétait pas pleinement les véritables capacités de la machine.
+			</text>
+			<text lang="pt">Sega Saturn é o quinto console de videogame de mesa produzido pela Sega. Foi desenvolvido para suceder o Mega Drive e competir contra o 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation e posteriormente o Nintendo 64, entre outros.
+
+Foi lançado no mercado em novembro de 1994 no Japão e em maio de 1995 na América do Norte. Foram vendidas 170.000 unidades no primeiro dia de vendas no Japão, sendo lançado antecipadamente para tentar superar o PlayStation da Sony. Isso resultou em poucos jogos desenvolvidos para o dia do lançamento e a qualidade desses jogos não refletiu completamente as verdadeiras capacidades da máquina.
+			</text>
+			<text lang="it">Sega Saturn è la quinta console per videogiochi da tavolo prodotta da Sega. È stata sviluppata per succedere al Mega Drive e competere contro la 3DO Interactive Multiplayer, l'Atari Jaguar, il Neo Geo CD, la PlayStation e successivamente il Nintendo 64, tra gli altri.
+
+È stata lanciata sul mercato nel novembre 1994 in Giappone e nel maggio 1995 in Nord America. Il primo giorno di vendita in Giappone sono state vendute 170.000 unità, nel tentativo di superare anticipatamente la PlayStation di Sony. Ciò ha comportato pochi giochi sviluppati per il giorno del lancio e la qualità di questi giochi non ha completamente mostrato le vere capacità della macchina.
+			</text>
+			<text lang="de">Sega Saturn ist die fünfte Heimvideospielkonsole von Sega. Sie wurde entwickelt, um den Mega Drive abzulösen und gegen den 3DO Interactive Multiplayer, den Atari Jaguar, das Neo Geo CD, die PlayStation und später auch gegen den Nintendo 64 anzutreten.
+
+Sie wurde im November 1994 in Japan und im Mai 1995 in Nordamerika auf den Markt gebracht. Am ersten Verkaufstag wurden in Japan 170.000 Geräte verkauft, da sie vorzeitig veröffentlicht wurde, um sich gegen die PlayStation von Sony durchzusetzen. Dies führte dazu, dass es nur sehr wenige Spiele gab, die am Veröffentlichungstag verfügbar waren, und dass die Qualität dieser Spiele nicht die wahren Fähigkeiten der Konsole widerspiegelte.
+			</text>
+			<text lang="pl">Sega Saturn to piąta konsola do gier wideo produkowana przez Segę. Została stworzona jako następca Mega Drive i miała konkurować z 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation i później z Nintendo 64, oraz innymi.
+
+Została wprowadzona na rynek w listopadzie 1994 roku w Japonii, a w maju 1995 roku w Ameryce Północnej. Pierwszego dnia sprzedaży w Japonii sprzedano 170 000 egzemplarzy, co miało na celu przewyższenie konkurencyjnej konsoli PlayStation firmy Sony. Spowodowało to jednak, że na dzień premiery było niewiele dostępnych gier, których jakość nie odzwierciedlała w pełni możliwości konsoli.
+			</text>
+			<text lang="ru">Sega Saturn - пятая игровая приставка для домашнего использования, выпущенная компанией Sega. Она была разработана как преемник Mega Drive и предназначалась для конкуренции с 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation и позднее с Nintendo 64, и другими консолями.
+
+Она была выпущена на рынок в ноябре 1994 года в Японии и в мае 1995 года в Северной Америке. В первый день продаж в Японии было продано 170 000 экземпляров, чтобы попытаться опередить PlayStation от Sony. Это привело к тому, что на день релиза было разработано очень мало игр, и их качество не полностью отражало возможности приставки.
+			</text>
+			<text lang="zh">世嘉土星是由世嘉公司生产的第五代家用游戏机。它作为Mega Drive的继任者，与3DO Interactive Multiplayer、Atari Jaguar、Neo Geo CD、PlayStation和后来的Nintendo 64等竞争。
+
+它于1994年11月在日本上市，1995年5月在北美上市。在日本首日销售量达到17万台，旨在提前超越索尼的PlayStation。这导致首发日可供游戏非常有限，并且这些游戏的质量并未完全展现出该游戏机的真正能力。
+			</text>
+			<text lang="ja">セガサターンはセガによって生産された家庭用ゲーム機の第5世代です。Mega Driveの後継機として開発され、3DO Interactive MultiplayerやAtari Jaguar、Neo Geo CD、PlayStation、そして後にNintendo 64などと競合しました。
+
+セガサターンは1994年11月に日本で、1995年5月に北米で発売されました。日本では発売初日に17万台以上が販売され、ソニーのPlayStationに先行することを目指しました。しかし、発売日にはほとんどのゲームが開発されず、これらのゲームの品質は機器の真の能力を完全に反映していませんでした。
+			</text>
 		</text>
 
 		<text name="system_name" extra="true">

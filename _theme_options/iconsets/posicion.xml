@@ -7,27 +7,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="menu, system, detailed, grid">
 		<helpsystem name="help">
 			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./posicion/updown.svg</iconUpDown>
-			<iconLeftRight>./posicion/leftright.svg</iconLeftRight>
-			<iconUpDownLeftRight>./posicion/all.svg</iconUpDownLeftRight>
-			<iconA>./posicion/a.svg</iconA>
-			<iconB>./posicion/b.svg</iconB>
-			<iconX>./posicion/x.svg</iconX>
-			<iconY>./posicion/y.svg</iconY>
-			<iconL>./posicion/l.svg</iconL>
-			<iconR>./posicion/r.svg</iconR>
-			<iconStart>./posicion/start.svg</iconStart>
-			<iconSelect>./posicion/select.svg</iconSelect>
+			<iconA>:/help/buttons_east.svg</iconA>
+			<iconB>:/help/buttons_south.svg</iconB>
+			<iconX>:/help/buttons_north.svg</iconX>
+			<iconY>:/help/buttons_west.svg</iconY>
 		</helpsystem>
 	</view>
 
 	<view name="screen">
 
 		<controllerActivity name="controllerActivity">
-			<pos>0.003 0.941</pos>
-			<color>FFFFFF90</color>
-			<imagePath>./posicion/controller.svg</imagePath>
-			<backgroundColor>000000</backgroundColor>
+			<imagePath>./psx/controller.svg</imagePath>
 		</controllerActivity>
 
 

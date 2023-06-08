@@ -1,13 +1,9 @@
 <!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
-<theme defaultView="grid">
+<theme defaultView="classic">
    <formatVersion>7</formatVersion>
-   <view name="grid">
-      <imagegrid name="gamegrid" ifSubset="grid-origin:boxart|thumbnail|titleshot|image|fanart|marquee">
-         <pos>-5 -5</pos>
-      </imagegrid>
-   </view>
+
 
    <view name="system, detailed,  grid">
 

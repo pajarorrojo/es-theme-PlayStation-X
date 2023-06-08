@@ -10,8 +10,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <sistema.lineainferior>8159ED</sistema.lineainferior>
       <splash.progressbarActive>8159ED</splash.progressbarActive>
       <gamelistSelectorColor>8159ED</gamelistSelectorColor>
-      <backgroundgridSelect>8159ED55</backgroundgridSelect>
+      <backgroundgridSelect>8159ED</backgroundgridSelect>
       <gamelist.starFill>8159ED</gamelist.starFill>
+      <grid.starFill>C190FF</grid.starFill>
 
    </variables>
 </theme>

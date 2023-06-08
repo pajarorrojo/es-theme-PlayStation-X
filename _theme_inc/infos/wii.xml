@@ -7,10 +7,54 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>Is a home video game console released by Nintendo on November 19, 2006. As a seventh-generation console, the Wii competed with Microsoft's Xbox 360 and Sony's PlayStation 3.</text>
-			<text lang="es,ca,eu">Wii (ウィー Uī) es una videoconsola producida por Nintendo y estrenada el 19 de noviembre de 2006 en Norteamérica y el 8 de diciembre del mismo año en Europa. Perteneciente a la séptima generación de consolas.</text>
-			<text lang="fr">La Wii est une console de jeux de salon du fabricant japonais Nintendo, sortie en 2006. Console de la septième génération, tout comme la Xbox 360 et la PlayStation 3 avec lesquelles elle est en rivalité bien que moins puissante techniquement.</text>
-			<text lang="pt">É um console de videogame doméstico produzido pela Nintendo e lançado em 2006. É um videogame da sétima geração e o quinto console da Nintendo. Seus principais concorrentes são o Xbox 360 e o Playstation 3.</text>
+			<text>The Nintendo Wii is a revolutionary video game console developed by Nintendo in 2006. It stands out for its innovative approach to motion control, using the Wii Remote to allow players to interact with games by moving the controller in the air.
+
+With a wide variety of games for all ages and abilities, the Wii became a global success by offering an active and participatory gaming experience. Its accessibility and focus on social gaming also made it popular for gatherings and parties, attracting players of all ages and skill levels.
+			</text>
+			<text lang="es">La Nintendo Wii es una consola de videojuegos revolucionaria desarrollada por Nintendo en 2006. Destaca por su enfoque innovador en el control de movimiento, utilizando el Wii Remote para permitir a los jugadores interactuar con los juegos moviendo el controlador en el aire. 
+
+Con una amplia variedad de juegos para todas las edades y habilidades, la Wii se convirtió en un éxito mundial al ofrecer una experiencia de juego activa y participativa. Su accesibilidad y enfoque en el juego social también la hicieron popular para reuniones y fiestas, atrayendo a jugadores de todas las edades y niveles de habilidad. 
+			</text>
+			<text lang="ca">La Nintendo Wii és una consola de videojocs revolucionària desenvolupada per Nintendo el 2006. Destaca pel seu enfocament innovador en el control de moviment, utilitzant el Wii Remote per permetre als jugadors interactuar amb els jocs movent el controlador a l'aire. 
+
+Amb una àmplia varietat de jocs per a totes les edats i habilitats, la Wii es va convertir en un èxit mundial en oferir una experiència de joc activa i participativa. La seva accessibilitat i enfocament en el joc social també la van fer popular per a trobades i festes, atreient jugadors de totes les edats i nivells d'habilitat.
+			</text>
+			<text lang="eu">Nintendo Wii videojoko-kontsola erreboluzionaria da, 2006an Nintendo-k garatuta. Bere mugimendu-kontrolaren jarduera berrikuntza gogoratzen da, Wii Remote erabiltzen du jokalariei jolasak kontrolatzen ahalbidetuz kontroladorea airean mugituz.
+
+Adin eta trebetasun guztietako joko anitz eskaintzen dituelako, Wii mundu-arrakasta lortu zuen joko esperientzia aktibo eta partehartzailea eskaintzeagatik. Iraunkortasuna eta joko sozialaren arreta ere popularitate handia lortu zuen topaketetan eta festetan, adin guztietako eta trebetasun-mailako jokalariei harrapatuz.
+			</text>
+			<text lang="fr">La Nintendo Wii est une console de jeux vidéo révolutionnaire développée par Nintendo en 2006. Elle se distingue par son approche novatrice du contrôle des mouvements, utilisant la télécommande Wii pour permettre aux joueurs d'interagir avec les jeux en déplaçant le contrôleur dans l'air.
+
+Avec une grande variété de jeux pour tous les âges et toutes les compétences, la Wii est devenue un succès mondial en offrant une expérience de jeu active et participative. Son accessibilité et son orientation vers les jeux sociaux en ont également fait un choix populaire pour les rassemblements et les fêtes, attirant des joueurs de tous les âges et de tous les niveaux de compétence.
+			</text>
+			<text lang="pt">O Nintendo Wii é um console de videogame revolucionário desenvolvido pela Nintendo em 2006. Ele se destaca por sua abordagem inovadora no controle de movimento, utilizando o Wii Remote para permitir que os jogadores interajam com os jogos movendo o controle no ar.
+
+Com uma ampla variedade de jogos para todas as idades e habilidades, o Wii se tornou um sucesso mundial ao oferecer uma experiência de jogo ativa e participativa. Sua acessibilidade e foco nos jogos sociais também o tornaram popular para encontros e festas, atraindo jogadores de todas as idades e níveis de habilidade.
+			</text>
+			<text lang="it">Il Nintendo Wii è una console di videogiochi rivoluzionaria sviluppata da Nintendo nel 2006. Si distingue per il suo approccio innovativo al controllo del movimento, utilizzando il Wii Remote per consentire ai giocatori di interagire con i giochi muovendo il controller in aria.
+
+Con una vasta gamma di giochi per tutte le età e abilità, il Wii è diventato un successo mondiale offrendo un'esperienza di gioco attiva e partecipativa. La sua accessibilità e l'attenzione ai giochi sociali lo hanno reso popolare anche per incontri e feste, attirando giocatori di tutte le età e livelli di abilità.
+			</text>
+			<text lang="de">Die Nintendo Wii ist eine revolutionäre Videospielkonsole, die 2006 von Nintendo entwickelt wurde. Sie zeichnet sich durch ihren innovativen Ansatz zur Bewegungssteuerung aus und verwendet die Wii Remote, um den Spielern zu ermöglichen, durch Bewegungen des Controllers in der Luft mit den Spielen zu interagieren.
+
+Mit einer breiten Palette von Spielen für alle Altersgruppen und Fähigkeiten wurde die Wii weltweit erfolgreich, indem sie ein aktives und partizipatives Spielerlebnis bot. Ihre Zugänglichkeit und ihr Fokus auf soziales Spielen machten sie auch bei Treffen und Partys beliebt und zogen Spieler jeden Alters und jeder Fähigkeitsstufe an.
+			</text>
+			<text lang="pl">Nintendo Wii to rewolucyjna konsola do gier opracowana przez firmę Nintendo w 2006 roku. Wyróżnia się innowacyjnym podejściem do sterowania ruchem, wykorzystując Wii Remote, aby umożliwić graczom interakcję z grami poprzez poruszanie kontrolerem w powietrzu.
+
+Z szerokim wyborem gier dla wszystkich grup wiekowych i umiejętności, Wii stało się światowym sukcesem, oferując aktywne i uczestniczące doświadczenie w grach. Jego łatwość dostępu i skupienie na grach społecznościowych sprawiły również, że jest popularne na spotkaniach i imprezach, przyciągając graczy w różnym wieku i o różnym poziomie umiejętności.
+			</text>
+			<text lang="ru">Nintendo Wii - революционная игровая приставка, разработанная компанией Nintendo в 2006 году. Она отличается инновационным подходом к управлению движениями, используя Wii Remote, чтобы позволить игрокам взаимодействовать с играми, двигая контроллером в воздухе.
+
+С широким выбором игр для всех возрастов и уровней навыков, Wii стала мировым успехом, предлагая активный и участвующий игровой опыт. Ее доступность и акцент на социальные игры также сделали ее популярной для встреч и вечеринок, привлекая игроков разных возрастов и уровней навыков.
+			</text>
+			<text lang="zh">任天堂Wii是由任天堂于2006年开发的一款革命性的游戏机。它以其创新的动作控制方式而脱颖而出，使用Wii遥控器使玩家能够通过在空中移动控制器与游戏互动。
+
+Wii拥有丰富多样的适合各个年龄和能力层次的游戏，通过提供积极参与的游戏体验，成为全球成功的游戏机。它的易用性和重视社交游戏也使其在聚会和派对中备受欢迎，吸引了各个年龄和技能水平的玩家。
+			</text>
+			<text lang="ja">任天堂Wiiは、任天堂が2006年に開発した革命的なゲーム機です。空中でコントローラーを動かすことでプレイヤーがゲームと対話する革新的なモーションコントロールが特徴です。
+
+幅広い年齢層と能力に対応した多様なゲームを提供し、積極的で参加型のゲーム体験を提供することで世界的な成功を収めました。そのアクセシビリティとソーシャルゲームへの注力もあり、パーティーや集まりでの人気も高く、様々な年齢層やスキルレベルのプレイヤーを魅了しています。
+			</text>
 		</text>
 		
 		<text name="system_name" extra="true">

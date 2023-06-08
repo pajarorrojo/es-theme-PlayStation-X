@@ -1,16 +1,15 @@
 ﻿<!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
-
-Translation thanks to Janderson
 -->
 <theme>
   <formatVersion>7</formatVersion>
+
   <variables lang="pt">
     <theme.welcome>Bem-vindo ao Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
     <theme.mostplayed>O mais jogado:</theme.mostplayed>
     <theme.items>Número de elementos:</theme.items>
-    <theme.collections>Número de coleções:</theme.collections>
+    <theme.collections>coleções</theme.collections>
     <GamesNumber>Jogos</GamesNumber>
     <GamesFavs>Favoritos</GamesFavs>
     <NumberPlayed>Jogados</NumberPlayed>
@@ -33,7 +32,7 @@ Translation thanks to Janderson
     <always>Sempre</always>
     <iconset>Tipo de ícones e botões</iconset>
     <theme.frontend>Selecione seu frontend favorito</theme.frontend>
-    <gameBar>Mostrar barra de informações do jogo</gameBar>
+    <gameBar>Mostrar informações do jogo</gameBar>
     <CarouselImageSize>Tamanho de imagens do carrossel</CarouselImageSize>
     <theme.videoBackground>Mostrar vídeos na visualização de sistemas</theme.videoBackground>
     <theme.videoRandom>Mostrar vídeo de jogo aleatório</theme.videoRandom>
@@ -78,5 +77,11 @@ Translation thanks to Janderson
     <randomFanart> Fanart Aleatória </randomFanart>
     <theme.gamelistBackground>Imagem de fundo na lista de jogos</theme.gamelistBackground>
     <theme.forced>forçado</theme.forced>
+    <theme.gameDescription>Mostrar descrições de jogos</theme.gameDescription>
+    <carouselViewName>Carrossel horizontal</carouselViewName>
+    <classiclViewName>Carrossel clássico</classiclViewName>
+    <theme.mainImage>Imagem principal</theme.mainImage>
+    <theme.gridImage>Imagem de grade</theme.gridImage>
+    <fullGridlViewName>Grade completa</fullGridlViewName>
   </variables>
 </theme>

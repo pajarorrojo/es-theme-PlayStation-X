@@ -1,14 +1,42 @@
-# es-theme-PlayStation-X
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera and RetroBat.
+# PlayStation-X Retrogaming Frontend
+Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera, RetroBat and EmuElec.
 
 To install, just unzip and copy the content in "/userdata/themes/" or "/share/themes/" folder. Also available via Batocera themes downloader.
 
 Hope you enjoy! any suggestion is fully welcomed.
 
 
+## The version 37 introduce a new and improved game lists enviroment!
+
+The options structure for game lists has been simplified by removing image options specific to each view type. Now there are only two universal options: main image and grid image. Additionally, a new option has been added to hide game descriptions and all information. The screen layout will automatically adapt to all possible combinations. 
+
+Two new gamelist layouts have been included: Classic Carousel, which emulates the classic Ps4 layout, and Full Grid, which takes up more screen space and displays more elements.
+
+This new game list system combines the following options: 5 view types (detailed, grid, horizontal carousel, classic carousel, and full grid), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
+
+[![Playstation X 37 Re-viewed (All Views)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-01.jpg)](https://www.youtube.com/watch?v=cbo0sx8Mk3Eb)
+
+One system, one layout!
+The select button is your friend...
+
+You can customize each system with a completely personalized view. Simply press the select button on your controller (or compatible key) while in a game list to access the specific gamelist settings. From here, you can change the list type (detailed, grid, carousel etc.) and configure it with many custom theme options, such as displaying any type of scraped image or simply hiding it. You can also hide game descriptions or extra information, enable video modes, grid animations, background fanart, etc. Let your imagination run wild, now you have dozens of combinations that will make your environment truly dynamic and different.
+
+|                                    |                                    |                                    |
+| :--------------------------------: | :--------------------------------: | :--------------------------------: |
+| [![Playstation X 37 Re-viewed (Classic Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-03.jpg)](https://www.youtube.com/watch?v=gmeItHffFYA) | [![Playstation X 37 Re-viewed (Full Grid Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-04.jpg)](https://www.youtube.com/watch?v=s2DZsqBRSVg) | [![Playstation X 37 Re-viewed (Horizontal Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-05.jpg)](https://www.youtube.com/watch?v=ZiAk7QotviA) |
+
+Alongside all this, a new utility has been added, a game list called "Game Media Tester." By activating this list, you can quickly check the Batocera-compatible media assigned to each game in a very clear way.
+
+
+[![Playstation X 37 Re-viewed (Game Media Tester View)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-06.jpg)](https://www.youtube.com/watch?v=OxoLxIAK5hs) 
+
+I hope you enjoy the new gamelist layouts! Hard work has been done to improve the user experience and offer more customization options for gamelist. I invite you to try all the possible combinations and discover how you can create a dynamic environment tailored to your preferences. Have fun retro gaming!
+
+
+
 ### COMPATIBLE WITH MULTIPLE SCREEN ASPECT RATIOS
 
-Theme Compatible with common used aspect ratios including tiny screens, the theme automatically adjusts to the next compatible screen resolutions: 
+Theme Compatible with common used aspect ratios including tiny screens, the theme automatically fits to the next compatible screen resolutions: 
 - 4:3 
 - 16:9 
 - 16:10 
@@ -16,30 +44,11 @@ Theme Compatible with common used aspect ratios including tiny screens, the them
 - 5:3
 - 5:4 
 
-NOTE: the automatic adjustment is only compatible with batocera 35 or higher, if you use an older version of batocera, Dont forget to select your correct display type in theme settings to avoid display issues. 
-
-
-### HOW TO CHANGE AVATAR AND USERNAME?
+NOTE: The automatic fit is only compatible with batocera 35 or higher, if you use an older version of batocera, don't forget to select your compatible aspect ratio in theme settings to avoid display issues.
 
 
 
-Playstation-x is ready to display your Netplay or Retroachievements username, you can select it in the theme options.
-
-You can also use a fully customized username and image, for this you will find two files in the theme root folder.
-
-- To change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
-
-- To change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
-
-- To apply don't forget to set in theme options "Choose a nick -> custom" "Choose your avatar -> custom"
-
-
-### HOW CAN USE YOUR CUSTOM BACKGROUND MUSIC?
-
-You can place your favorite music files in /_theme_music/ folder. (.ogg and .mp3 are allowed)
-
-
-##### TRANSLATED INTO 14 LANGUAGES
+### TRANSLATED INTO 14 LANGUAGES
 
 - English (EN) (default for not supported or untranslated languages)
 - Spanish (ES)
@@ -60,81 +69,61 @@ Any collaboration for translation or new language supported is fully appreciated
 
 
 
+### ADAPTED TO NETPLAY AND RETROACHIEVEMENTS
+You can find at the top of the theme the icons that indicate the compatibility of systems or games at a glance:
+
+
+[![Playstation X social icons](https://es-theme-playstation-x.tocapixels.com/img/netplay-ra-table-thumb.png)](https://es-theme-playstation-x.tocapixels.com/img/netplay-ra-table.png)
 
 
 
+### HOW TO CHANGE AVATAR AND USERNAME?
 
-------------------------------------------------------------------------------------------
-
-
-
-Tema inspirado en la interfaz de PlayStation 3/4, con avatar y nombre de usuario personalizados para Batocera y RetroBat. 
-
-Para instalar, simplemente descomprime y copia el contenido en la carpeta "/userdata/themes/" o "/share/themes/". También está disponible para descargar a través del gestor de temas en el menú de Batocera.
-
-Cualquier sugerencia es bienvenida.
+Playstation-x is ready to display your Netplay or Retroachievements username, you can select it in the theme options.
 
 
-### COMPATIBLE CON MULTIPLES FORMATOS DE PANTALLA
+[![Playstation X (Change Username and Avatar)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-02.jpg)](https://www.youtube.com/watch?v=bUSrc7yhSGk)
 
-Desde la versión 33, el tema es compatible con los formatos de pantalla más comunes y para pequeñas pantallas. El tema se ajusta automáticamente a las siguientes resoluciones de pantalla compatibles:
-- 4:3
-- 16:9
-- 16:10
-- 3:2
-- 5:3
-- 5:4
+You can also use a fully customized username and image, for this you will find two files in the theme root folder.
 
-NOTA: El ajuste automático solo es compatible con batocera 35 o superior, si usas una versión anterior de batocera, no olvides seleccionar el tipo de pantalla correcto en la configuración del tema para evitar problemas de visualización.
+- To change the avatar image simply overwrite the PNG file named "custom-avatar.png" (work best with square format)
+
+- To change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
+
+- To apply don't forget to set in theme options "Choose a nick -> custom" "Choose your avatar -> custom"
 
 
 
-### ¿CÓMO CAMBIAR EL AVATAR Y EL NOMBRE DE USUARIO?
+### HOW TO CUSTOMIZE THE SYSTEMS VIEW
 
-Playstation-x está preparado para mostrar tu nombre de usuario de Netplay o retroachievements, puedes seleccionarlos en las opciones del tema. 
+Multiple options for the system view are available, background random fanart, snap videos or advertising videos, carousel size, background video or windowed video, etc:
 
-
-También puedes usar un nombre de usuario e imagen totalmente personalizados, para ello encontrarás dos archivos en la carpeta raiz del tema.
-
-- Para cambiar la imagen del avatar, simplemente sobrescribe el archivo de imagen PNG "custom-avatar.png" (mejor si el formato de la imagen es cuadrado)
-
-- Para cambiar el nombre de usuario, abre el archivo "custom-username.xml" con un editor de texto y cambia "username" por el nombre de usuario que desees.
-
-- Para aplicar, no olvides seleccionar la personalización en las opciones del tema. "Escoge un nick -> personalizado", "Escoge tu avatar" -> personalizado"
+[![Playstation X (How to config system view)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-07.jpg)](https://www.youtube.com/watch?v=Q4Qw6KCCcQk)
 
 
 
-### ¿COMO USAR TU MÚSICA DE FONDO PERSONALIZADA?
+### USE ANOTHER BACKGROUND MUSIC
 
-Puedes colocar tus archivos de música favoritos en la carpeta /_theme_music/
+If the chill audio that comes with the theme doesn't suit you, you can place your favorite music files in /_theme_music/ folder. (.ogg and .mp3 are allowed). 
 
-
-##### TRADUCIDO A 14 IDIOMAS
-
-- Inglés (EN) (predeterminado para idiomas no compatibles o textos sin traducir)
-- Español (ES)
-- Catalán (CA)
-- Euskera (ES)
-- Francés (FR)
-- Portugués (PT)
-- Italiano (IT)
-- Alemán (DE)
-- Japonés (JA)
-- Chino (ZH)
-- Árabe (AR)
-- Hebreo (HE)
-- Ruso (RU)
-- Polaco (PL)
+You can also activate the default music tracks from batocera turning off the "play system-specific music" option under the batocera "sound settings" menu ;)
 
 
-Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
 
+### ENABLE NAVIGATION SOUNDS
+
+Playstation-X has specific navigation sounds to enrich the user experience. Batocera has this feature disabled by default. You can activate the navigation sounds in "Enable navigation sounds" option under the batocera sound menu.
+
+--------------------------------
 
 ![](https://es-theme-playstation-x.tocapixels.com/36/v36-01.jpg)
 
 |                                    |                                    |
 | :--------------------------------: | :--------------------------------: |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/37/v37-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/37/v37-02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/37/v37-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/37/v37-04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/37/v37-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/37/v37-06.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/img/steamdeck-mockup-rev0.png) |
 | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-02.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-03.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-17.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-06.jpg) |
@@ -143,9 +132,7 @@ Se agradece cualquier aporte, colaboración o traducción de un nuevo idioma.
 | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-12.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-14.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-16.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-04.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-06.jpg) |
-
+| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-06.jpg) |
 
 Thanks and credits:
 -------
@@ -199,4 +186,3 @@ contributions under the same license as the original.
 
 No additional restrictions — You may not apply legal terms or technological measures that legally
 restrict others from doing anything the license permits.
-
