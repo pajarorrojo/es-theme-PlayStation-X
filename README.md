@@ -8,7 +8,7 @@ Hope you enjoy! any suggestion is fully welcomed.
 
 ## The version 37 introduce a new and improved game lists enviroment!
 
-The options structure for game lists has been simplified by removing image options specific to each view type. Now there are only two universal options: main image and grid image. Additionally, a new option has been added to hide game descriptions and all information. The screen layout will automatically adapt to all possible combinations. 
+The options structure for game lists has been simplified by removing image options specific to each view type. Now there are only two universal options: main image and grid image. Additionally, new options has been added to hide game descriptions and all game information. The screen layout will automatically adapt to all possible combinations. 
 
 Two new gamelist layouts have been included: Classic Carousel, which emulates the classic Ps4 layout, and Full Grid, which takes up more screen space and displays more elements.
 
@@ -77,7 +77,7 @@ You can find at the top of the theme the icons that indicate the compatibility o
 
 
 
-### HOW TO CHANGE AVATAR AND USERNAME?
+### HOW TO CHANGE AVATAR AND USERNAME
 
 Playstation-x is ready to display your Netplay or Retroachievements username, you can select it in the theme options.
 
@@ -102,7 +102,7 @@ Multiple options for the system view are available, background random fanart, sn
 
 
 
-### USE ANOTHER BACKGROUND MUSIC
+### USING ANOTHER BACKGROUND MUSIC
 
 If the chill audio that comes with the theme doesn't suit you, you can place your favorite music files in /_theme_music/ folder. (.ogg and .mp3 are allowed). 
 
@@ -136,7 +136,7 @@ Playstation-X has specific navigation sounds to enrich the user experience. Bato
 
 Thanks and credits:
 -------
-- Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, always updating and performing. https://github.com/fabricecaruso
+- Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing emulationstation. https://github.com/fabricecaruso
 - Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
 - Snapouille and Soaresden, for helping with French translation 
