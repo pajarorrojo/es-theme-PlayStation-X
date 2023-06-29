@@ -145,6 +145,9 @@ Thanks and credits:
 - Some media files like backgrounds or logos have been selected from the default Carbon theme by @f.caruso
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
 
+Youtube Channel:
+https://www.youtube.com/channel/UC8wfrj_tIeX73ICtk7RVgSA
+
 Batocera discord:
 https://discord.gg/mYREusrT
 
