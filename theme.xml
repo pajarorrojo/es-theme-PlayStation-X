@@ -65,7 +65,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include ifNotArch="windows" name="batocera" displayName="batocera" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="true" />
 		<include name="retrobat" displayName="retrobat" />
-		<!--<include name="ProjectArcade" displayName="ProjectArcade" />-->
+		<include ifArch="windows" name="projectarcade" displayName="projectarcade" />
+		<include name="projectarcade" displayName="projectarcade" />
 		<include ifArch="windows" name="batocera" displayName="batocera" />
 		<include name="batocera" displayName="batocera" />
 		<include name="batocera-plus" displayName="batocera plus" />
