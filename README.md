@@ -106,7 +106,7 @@ Multiple options for the system view are available, background random fanart, sn
 
 If the chill audio that comes with the theme doesn't suit you, you can place your favorite music files in /_theme_music/ folder. (.ogg and .mp3 are allowed). 
 
-You can also activate the default music tracks from batocera turning off the "play system-specific music" option under the batocera "sound settings" menu ;)
+You can also activate the default music tracks from Batocera turning off the "play system-specific music" option under the batocera "sound settings" menu ;)
 
 
 
@@ -136,15 +136,15 @@ Playstation-X has specific navigation sounds to enrich the user experience. Bato
 
 Thanks and credits:
 -------
-- Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing emulationstation. https://github.com/fabricecaruso
-- Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
-- Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
+- [Fabrice Caruso](https://github.com/fabricecaruso), for inspiring me with his awesome carbon theme for batocera, and for always updating and performing EmulationStation
+- [Seis](https://github.com/seeiis), for being the first person to recommend the theme for the Batocera's official list 
+- [Lio](https://github.com/lbrpdx), for posting the theme on Batocera's official list and making it known to the community
 - Snapouille and Soaresden, for helping with French translation 
 - Janderson for helping with Portuguese translation
-- Evgeniy Struchkov [#TheDayG0ne] for helping with Russian translation
+- [Evgeniy Struchkov [#TheDayG0ne]](https://github.com/TheDayG0ne) for helping with Russian translation
 - To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community
-- Some media files like backgrounds or logos have been selected from the default Carbon theme by @f.caruso
-- Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
+- Some media files like backgrounds or logos have been selected from the default Carbon theme by [@f.caruso](https://github.com/fabricecaruso)
+- Nexusone and their [indomitable ARRM scraping software](http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager), which I recommend to keep your media collections always up to date 
 
 Youtube Channel:
 https://www.youtube.com/channel/UC8wfrj_tIeX73ICtk7RVgSA
