@@ -141,7 +141,7 @@ Thanks and credits:
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
 - Snapouille and Soaresden, for helping with French translation 
 - Janderson for helping with Portuguese translation
-- TheDayG0ne for helping with Russian translation
+- Evgeniy Struchkov [#TheDayG0ne] for helping with Russian translation
 - To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community
 - Some media files like backgrounds or logos have been selected from the default Carbon theme by @f.caruso
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
