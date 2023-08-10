@@ -24,6 +24,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.2 0.2</maxSize>
 			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
 			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
+			<path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
 			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
 			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
 			<linearSmooth>true</linearSmooth>
