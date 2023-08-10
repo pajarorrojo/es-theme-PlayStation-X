@@ -100,6 +100,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.1 0.1</maxSize>
 			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
 			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
+			<path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
 			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
 			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
 			<linearSmooth>true</linearSmooth>
@@ -132,6 +133,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="welcome" extra="true">
 			<text ifSubset="frontend:batocera">${theme.welcome} Batocera</text>
 			<text ifSubset="frontend:retrobat">${theme.welcome} Retrobat</text>
+			<text ifSubset="frontend:projectarcade">${theme.welcome} ProjectArcade</text>
 			<text ifSubset="frontend:batocera-plus">${theme.welcome} Batocera Plus</text>
 			<text ifSubset="frontend:emuelec">${theme.welcome} EmuElec</text>
 			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
