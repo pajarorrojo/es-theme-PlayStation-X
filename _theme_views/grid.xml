@@ -25,16 +25,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:4-3|5-4">1 0.480</size>
          <pos>0.022 0.48</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
-         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>60</zIndex>
-         <storyboard ifSubset="anim-list:YES">
-         <animation  property="y" from="0.2" duration="600" mode="easeOutCubic" />
-         <animation  property="opacity" from="0" to="1" duration="600" mode="easeInOut" />
-            <sound path="./../_theme_inc/sound-effects/enter-list.ogg"/>
-         </storyboard>
-         <storyboard ifSubset="anim-list:NO">
-            <sound path="./../_theme_inc/sound-effects/enter-list.ogg"/>
-         </storyboard>
       </imagegrid>
 
   

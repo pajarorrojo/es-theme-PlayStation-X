@@ -82,5 +82,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <classiclViewName>Carousel classico</classiclViewName>
     <theme.mainImage>Immagine principale</theme.mainImage>
     <theme.gridImage>Immagine griglia</theme.gridImage>
-    <fullGridlViewName>Griglia completa</fullGridlViewName>  </variables>
+    <fullGridlViewName>Griglia completa</fullGridlViewName>  
+    <theme.gamesplash-type>Schermata di caricamento del gioco</theme.gamesplash-type>
+    <image-full-size>Immagine a schermo intero</image-full-size>
+    <theme.nav-sounds>Suoni di navigazione</theme.nav-sounds>
+  </variables>
 </theme>

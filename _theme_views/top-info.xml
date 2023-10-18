@@ -38,6 +38,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="iconset:arcade">0.968 0.005</pos>
          <size ifSubset="iconset:arcade">0.028</size>
          <gunPath>./_theme_inc/images/lightgun.png</gunPath>
+         <wheelPath>./_theme_inc/images/wheel.svg</wheelPath>
          <itemSpacing ifSubset="iconset:snes">0.013</itemSpacing>
          <itemSpacing ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|position">0.005</itemSpacing>
          <horizontalAlignment>right</horizontalAlignment>
@@ -365,7 +366,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="friends" extra="static">
-         <text>v.37</text>
+         <text>v.38</text>
          <pos>0.563 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
          <size>0.064 0.035</size>

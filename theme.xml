@@ -259,6 +259,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 
+	<!--SONIDOS DE NAVEGACION-->
+	<subset name="nav-sound" displayName="${theme.nav-sounds}">
+		<include name="default" displayName="${default}">./_theme_options/sound-effects/default.xml</include>
+		<include name="ff" displayName="Final Fantasy" >./_theme_options/sound-effects/ff.xml</include>
+		<include name="sd" displayName="Steam Deck" >./_theme_options/sound-effects/sd.xml</include>
+
+	</subset>
+
+
 	<!--DESCRIPCIONES-->
 	<subset name="system-description" displayName="${theme.system-description}">
 		<include name="NO" displayName="${no}" tinyScreen="true" />
@@ -272,6 +281,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
 		<include name="NO" displayName="${no}" />
 	</subset>
+
+	
 
 	<!--MOSTRAR AYUDA HOTKEYS-->
 
@@ -287,6 +298,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="splash" displayName="${theme.hotkey.splash}" />
 		<include name="both" displayName="${theme.hotkey.both}" />
 		<include tinyScreen="false" name="never" displayName="${never}" />
+	</subset>
+
+	<!--TIPO DE PANTALLA DE CARGA DE JUEGOS-->
+
+	<subset ifArch="windows,x86,x86_64" name="gamesplash-type" displayName="${theme.gamesplash-type}">
+		<include name="default" displayName="${default}" />
+		<include name="image-full-size" displayName="${image-full-size}" />
 	</subset>
 
 
@@ -405,6 +423,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.96 0.961</pos>
 			<size>0.027</size>
 			<color>666666</color>
+			<planemodeIcon>./_theme_inc/menu_icons/Planemode.png</planemodeIcon>
 
 		</batteryIndicator>
 	</view>
@@ -506,6 +525,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<iconFastShutdown>./_theme_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
 			<iconRetroachievements>./_theme_inc/menu_icons/Contest.png</iconRetroachievements>
 			<iconManual>./_theme_inc/menu_icons/Manual.png</iconManual>
+			<iconPlanemode>./_theme_inc/menu_icons/Planemode.png</iconPlanemode>
 		</menuIcons>
 
 

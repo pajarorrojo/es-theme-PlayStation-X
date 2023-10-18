@@ -82,5 +82,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>Image principale</theme.mainImage>
     <theme.gridImage>Image de grille</theme.gridImage>
     <fullGridlViewName>Grille complète</fullGridlViewName>
+    <theme.gamesplash-type>Écran de chargement du jeu</theme.gamesplash-type>
+    <image-full-size>Image en plein écran</image-full-size>
+    <theme.nav-sounds>Sons de navigation</theme.nav-sounds>
   </variables>
 </theme>

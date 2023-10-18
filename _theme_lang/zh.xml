@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>主图像</theme.mainImage>
     <theme.gridImage>网格图像</theme.gridImage>
     <fullGridlViewName>完整网格</fullGridlViewName>
+    <theme.gamesplash-type>游戏加载屏幕</theme.gamesplash-type>
+    <image-full-size>全屏图像</image-full-size>
+    <theme.nav-sounds>导航声音</theme.nav-sounds>
   </variables>
 </theme>

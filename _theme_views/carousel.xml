@@ -27,12 +27,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <margin>0.005 0.006</margin>
          <autoLayout>5 1</autoLayout>
          <autoLayout ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">7 1</autoLayout>
-         <autoLayout ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' ">5 1</autoLayout>
+         <autoLayout ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == '3ds' ">5 1</autoLayout>
          <scrollDirection>horizontal</scrollDirection>
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
          <animateSelection>false</animateSelection>
-         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
       </imagegrid>
 
       <gridtile name="default">

@@ -46,7 +46,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <ifnospot>Если нет системного видео</ifnospot>
     <theme.Avatar>Выберите свой аватар</theme.Avatar>
     <theme.username>Выберите свой никнейм</theme.username>
-    <custom>настроенный</custom>
+    <custom>персонализированный</custom>
     <theme.videoGamelistDelay>Задержка видео в списке игр</theme.videoGamelistDelay>
     <VideoOff>Не отображать видео</VideoOff>
     <theme.systemConsole>Показывать логотип и консоли в системном виде</theme.systemConsole>
@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>Главное изображение</theme.mainImage>
     <theme.gridImage>Изображение сетки</theme.gridImage>
     <fullGridlViewName>Полная сетка</fullGridlViewName>
+    <theme.gamesplash-type>Экран загрузки игры</theme.gamesplash-type>
+    <image-full-size>Изображение на весь экран</image-full-size>
+    <theme.nav-sounds>Звуки навигации</theme.nav-sounds>
   </variables>
 </theme>

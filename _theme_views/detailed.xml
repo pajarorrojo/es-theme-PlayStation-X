@@ -27,20 +27,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.035</fontSize>
          <alignment>left</alignment>
          <lineSpacing>1.45</lineSpacing>
-         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <scrollbarAlignment>outerright</scrollbarAlignment>
          <scrollbarColor>${genreColor}20</scrollbarColor>
          <scrollbarCorner>0.005</scrollbarCorner>
          <scrollbarSize>0.0075</scrollbarSize>
          <zIndex>52</zIndex>
-         <storyboard ifSubset="anim-list:YES"> 
-            <animation property="x" to="0" begin="300" duration="300" mode="easeOutCubic" />
-            <animation property="opacity" to="1" begin="300" duration="600" mode="ease" />
-            <sound path="./../_theme_inc/sound-effects/enter-list.ogg"/>
-         </storyboard>
-         <storyboard ifSubset="anim-list:NO"> 
-            <sound path="./../_theme_inc/sound-effects/enter-list.ogg"/>
-         </storyboard>
       </textlist>
 
 

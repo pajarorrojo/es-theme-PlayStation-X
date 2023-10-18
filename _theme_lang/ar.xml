@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>الصورة الرئيسية</theme.mainImage>
     <theme.gridImage>صورة الشبكة</theme.gridImage>
     <fullGridlViewName>الشبكة الكاملة</fullGridlViewName>
+    <theme.gamesplash-type>شاشة تحميل الألعاب</theme.gamesplash-type>
+    <image-full-size>صورة بحجم الشاشة الكاملة</image-full-size>
+    <theme.nav-sounds>أصوات الملاحة</theme.nav-sounds>
   </variables>
 </theme>

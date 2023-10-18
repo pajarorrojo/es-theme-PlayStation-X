@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>Główny obraz</theme.mainImage>
     <theme.gridImage>Obraz siatki</theme.gridImage>
     <fullGridlViewName>Pełna siatka</fullGridlViewName>
+    <theme.gamesplash-type>Ekran ładowania gry</theme.gamesplash-type>
+    <image-full-size>Obraz na pełnym ekranie</image-full-size>
+    <theme.nav-sounds>Dźwięki nawigacji</theme.nav-sounds>
   </variables>
 </theme>

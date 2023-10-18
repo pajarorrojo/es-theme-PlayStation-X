@@ -1,3 +1,23 @@
+Version 38 (18/10/2023)
+
+- Add: New Steering wheel icon in the controller activity area when a steering wheel is connected.
+- Add: New Plane mode icon in menu and the low bar info when the plane mode is enabled.
+- Add: New theme options to choose differents game loading screen (game splash), with the following options: 
+   - Default
+   - Full size image
+- Add: New theme options to choose differents navigation sounds set, with the following options: 
+   - Default
+   - Final Fantasy
+   - Steam Deck
+- Fix: Normalized volume for default navigation sounds.
+- Fix: Video system advertising for WiiU.
+- Fix: Layout issue with the start label and the white frame in library amd screenshots gallery.
+- Change: Fit 3Ds system grid to 5 elements by default in the carousel gamelist view.
+- Added: Missed medias, logos, data and/or information for multiple ports and new systems included in Batocera 38.
+
+
+
+-----------------------
 Version 37 (08/06/2023)
 
 - New and improved game list environment, customizable per system and adjustable according to the combination of options.

@@ -49,7 +49,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <margin>0.005 0.006</margin>
          <margin tinyScreen="true">0.001 0.001</margin>
          <size>0.7 0.8</size>
-         <scrollSound>./../_theme_inc/sound-effects/scroll.wav</scrollSound>
          <zIndex>199</zIndex>
          <padding>0.005 0.005</padding>
       </imagegrid>

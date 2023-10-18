@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>Imatge principal</theme.mainImage>
     <theme.gridImage>Imatge de la graella</theme.gridImage>
     <fullGridlViewName>Graella ampliada</fullGridlViewName>
+    <theme.gamesplash-type>Pantalla de càrrega de jocs</theme.gamesplash-type>
+    <image-full-size>Imatge a pantalla completa</image-full-size>
+    <theme.nav-sounds>Sons de navegació</theme.nav-sounds>
   </variables>
 </theme>

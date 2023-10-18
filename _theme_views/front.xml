@@ -13,13 +13,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <tile>false</tile>
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
-         <storyboard ifSubset="anim-list:YES">
-            <animation property="y" from="0.25" duration="300" mode="easeOutCubic" />
-            <sound path="./../_theme_inc/sound-effects/enter-system.ogg"/>
-         </storyboard>
-          <storyboard ifSubset="anim-list:NO">
-            <sound path="./../_theme_inc/sound-effects/enter-system.ogg"/>
-          </storyboard>
       </image>
 
 
@@ -38,7 +31,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <systemInfoDelay>5</systemInfoDelay>
          <color>00000000</color>
          <logoAlignment>top</logoAlignment>
-         <scrollSound>./../_theme_inc/sound-effects/scroll-2.wav</scrollSound>
          <zIndex>80</zIndex>
          <defaultTransition ifSubset="anim-system:NO">instant</defaultTransition>
          <defaultTransition ifSubset="anim-system:YES">fade & slide</defaultTransition>

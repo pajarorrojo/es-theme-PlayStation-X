@@ -82,6 +82,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <classiclViewName>Klassisches Karussell</classiclViewName>
     <theme.mainImage>Hauptbild</theme.mainImage>
     <theme.gridImage>Gitterbild</theme.gridImage>  
-    <fullGridlViewName>Vollständiges Raster</fullGridlViewName>  
+    <fullGridlViewName>Vollständiges Raster</fullGridlViewName>
+    <theme.gamesplash-type>Ladescreen für Spiele</theme.gamesplash-type>
+    <image-full-size>Bild im Vollbildmodus</image-full-size>
+    <theme.nav-sounds>Navigationsgeräusche</theme.nav-sounds>
   </variables>
 </theme>

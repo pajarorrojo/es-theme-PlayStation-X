@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.mainImage>Irudi nagusia</theme.mainImage>
     <theme.gridImage>Sare-irudia</theme.gridImage>
     <fullGridlViewName>Sare hedatua</fullGridlViewName>    
+    <theme.gamesplash-type>Jokoen kargatzeko pantaila</theme.gamesplash-type>
+    <image-full-size>Irudi oso-pantaila</image-full-size>
+    <theme.nav-sounds>Nabigazio soinuak</theme.nav-sounds>
   </variables>
 </theme>

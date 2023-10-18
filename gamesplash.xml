@@ -1,13 +1,13 @@
 ﻿<!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
-<theme>
+<theme >
 	<formatVersion>7</formatVersion>
 	<include>./theme.xml</include>
 
 	<view name="splash">
 
-		<image name="background-default" extra="true">
+		<image name="background-default" extra="true"  ifSubset="gamesplash-type:default">
 			<linearSmooth>true</linearSmooth>
 			<path ifSubset="colorset:blue">./_theme_options/colorsets/blue/background.jpg</path>
 			<path ifSubset="colorset:black">./_theme_options/colorsets/black/background.jpg</path>
@@ -17,7 +17,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<zIndex>00</zIndex>
 		</image>
 
-		<image name="logo-splash" extra="true">
+		<image name="logo-splash" extra="true"  ifSubset="gamesplash-type:default">
 			<origin>0 0</origin>
 			<pos>0.03 0.05</pos>
 			<maxSize>0.4 0.3</maxSize>
@@ -40,7 +40,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<zIndex>9999</zIndex>
 		</image>
 
-		<image name="background">
+		<image name="background" ifSubset="gamesplash-type:default">
 			<default>./_theme_inc/images/no-image-default.png</default>
 			<size>0 0.4</size>
 			<size ifSubset="aspect-ratio:9-16">0.4 0</size>
@@ -50,7 +50,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<linearSmooth>false</linearSmooth>
 		</image>
 
-		<image name="linea-inferior" extra="true">
+		<image name="background" ifSubset="gamesplash-type:image-full-size">
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<minSize>1 1</minSize>
+			<roundCorners>0</roundCorners>
+			<linearSmooth>false</linearSmooth>
+			<color>A0A0A0FF</color>
+		  </image>
+
+		<image name="linea-inferior" extra="true"  ifSubset="gamesplash-type:default">
 			<path>./_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
 			<size>1 0.0011</size>
@@ -88,4 +97,4 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 	</view>
-</theme>
+	</theme>

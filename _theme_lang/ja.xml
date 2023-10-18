@@ -83,5 +83,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.mainImage>メイン画像</theme.mainImage>
 		<theme.gridImage>グリッド画像</theme.gridImage>
 		<fullGridlViewName>フルグリッド</fullGridlViewName>
+		<theme.gamesplash-type>ゲームローディング画面</theme.gamesplash-type>
+		<image-full-size>フルスクリーン画像</image-full-size>
+		<theme.nav-sounds>ナビゲーションサウンド</theme.nav-sounds>
 	</variables>
 </theme>
