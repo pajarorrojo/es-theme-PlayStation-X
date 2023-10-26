@@ -139,8 +139,9 @@ Thanks and credits:
 - Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing emulationstation. https://github.com/fabricecaruso
 - Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
-- Snapouille and Soaresden, for helping with French translation 
-- Janderson for helping with Portuguese translation
+- Snapouille and Soaresden, for helping with French translation https://github.com/Snapouille
+- Janderson for helping with Portuguese translation https://github.com/JandersonJS
+- CadmiumRED for helping with some fix and medias https://github.com/CadmiumRED/
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
 - To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community
 

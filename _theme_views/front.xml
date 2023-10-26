@@ -27,6 +27,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <carousel name="systemcarousel">
+           <!--<type>horizontal_wheel</type>
+         <logoRotation>0.039</logoRotation>
+         <logoRotationOrigin>0 1500</logoRotationOrigin>-->
          <type>horizontal</type>
          <systemInfoDelay>5</systemInfoDelay>
          <color>00000000</color>

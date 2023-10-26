@@ -1,4 +1,4 @@
-Version 38 (18/10/2023)
+Version 38 (26/10/2023)
 
 - Add: New Steering wheel icon in the controller activity area when a steering wheel is connected.
 - Add: New Plane mode icon in menu and the low bar info when the plane mode is enabled.
@@ -12,7 +12,10 @@ Version 38 (18/10/2023)
 - Fix: Normalized volume for default navigation sounds.
 - Fix: Video system advertising for WiiU.
 - Fix: Layout issue with the start label and the white frame in library amd screenshots gallery.
+- Fix: Minor code issues on Nes and Game boy xml data
 - Change: Fit 3Ds system grid to 5 elements by default in the carousel gamelist view.
+- Change: Background video for the Arcade system collection (thanks to CadmiumRED for sharing) 
+- Added: New background video for Cave system collection (thanks to CadmiumRED for sharing) 
 - Added: Missed medias, logos, data and/or information for multiple ports and new systems included in Batocera 38.
 
 
