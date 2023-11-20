@@ -7,6 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           <text name="system_description" extra="true">
                <text if="{system.manufacturer} == 'Collections'">Game collection</text>
                <text if="{system.manufacturer} == 'Collections'" lang="es">Colección de juegos</text>
+               <autoScroll>vertical</autoScroll>
                <alignment>left</alignment>
                <verticalAlignment>top</verticalAlignment>
                <color>FFFFFF</color>

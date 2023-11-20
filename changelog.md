@@ -1,3 +1,12 @@
+Version 39 beta (xx/xx/202x)
+
+- Fix clock overflow when am/pm format
+- Fix cropped images and animations in gamelists (batocera 39 beta issue)
+- Added vertical autoscrolling in system descriptions if description overflows
+
+
+
+-----------------------
 Version 38 (26/10/2023)
 
 - Add: New Steering wheel icon in the controller activity area when a steering wheel is connected.

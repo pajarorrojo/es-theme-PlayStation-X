@@ -94,7 +94,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <control name="md_name">
-         <clipRect>0 0 0 0</clipRect>
 
          <storyboard event="open">
             <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />

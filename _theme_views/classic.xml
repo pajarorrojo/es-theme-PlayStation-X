@@ -59,6 +59,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <scrollLoop>true</scrollLoop>
          <animateSelection>false</animateSelection>
 
+
       </imagegrid>
 
       <gridtile name="default">

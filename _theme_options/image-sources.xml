@@ -4,7 +4,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
    <view name="detailed,grid">
-      <image name="background-gamelist" ifSubset="background-list:fanart" extra="static">
+      <image name="background-gamelist" ifSubset="background-list:fanart" extra="true">
          <path>{game:fanart}</path>
          <minSize>1.001 1.001</minSize>
          <origin>0.5 0.5</origin>
