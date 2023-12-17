@@ -1,0 +1,22 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>"Mortal Kombat" is an iconic fighting video game series known for its one-on-one combat style, offering a wide range of special moves, combos, and brutal finishers known as "fatalities". Since its inception in the 1990s, this saga has stood out for its graphic violence, distinctive characters, and intriguing plots that delve into a universe of warriors, mythology, and martial arts.
+
+The franchise has evolved over time, maintaining its essence of competitive combat and introducing new elements such as gameplay modes, graphic improvements, and an expansive storyline that has spanned across multiple console generations.</text>
+			<text lang="es,ca,eu">"Mortal Kombat" es una emblemática serie de videojuegos de lucha reconocida por su estilo de combate uno contra uno, ofreciendo una amplia gama de movimientos especiales, combos y brutales remates conocidos como "fatalities". Desde su inicio en los años 90, esta saga se ha destacado por su violencia gráfica, personajes distintivos y tramas intrigantes que exploran un universo de guerreros, mitología y artes marciales.
+
+La franquicia ha evolucionado a lo largo del tiempo, manteniendo su esencia de combate competitivo y adición de nuevos elementos como modos de juego, mejoras gráficas y una historia expansiva que ha llevado a la serie a través de varias generaciones de consolas</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Mortal Kombat</text>
+		</text>
+	</view>
+</theme>

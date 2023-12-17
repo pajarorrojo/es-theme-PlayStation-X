@@ -1,0 +1,22 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Tetris is an iconic video game saga that began with the release of the original game in 1984, created by Alexey Pajitnov in the Soviet Union. This puzzle game challenges players to fit different geometric shapes, known as tetrominoes, to complete horizontal lines and prevent them from stacking up on the screen.
+
+The release of Tetris for Nintendo's Game Boy was a pivotal milestone in its success and popularity. Despite patent-related issues concerning the game's rights and the Soviet Union, Nintendo obtained the license to distribute Tetris on its handheld Game Boy console. This strategy proved to be a masterstroke, as the game became a massive phenomenon, boosting Game Boy sales and becoming one of the best-selling video games in history.</text>
+			<text lang="es,ca,eu">Tetris es una saga emblemática de videojuegos que comenzó con el lanzamiento del juego original en 1984, creado por Alexey Pajitnov en la Unión Soviética. Este juego de rompecabezas desafía a los jugadores a encajar diferentes formas geométricas, llamadas tetrominós, para completar líneas horizontales y evitar que se acumulen en la pantalla.
+
+El lanzamiento de Tetris para la Game Boy de Nintendo fue un hito clave en su éxito y popularidad. A pesar de los problemas de patente relacionados con los derechos del juego y la Unión Soviética, Nintendo obtuvo la licencia para distribuir Tetris en su consola portátil Game Boy. Esta estrategia resultó ser un movimiento magistral, ya que el juego se convirtió en un fenómeno masivo, impulsando las ventas de la Game Boy y convirtiéndose en uno de los videojuegos más vendidos de la la historia.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Tetris</text>
+		</text>
+	</view>
+</theme>

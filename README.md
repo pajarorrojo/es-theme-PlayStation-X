@@ -141,6 +141,7 @@ Thanks and credits:
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
 - Snapouille and Soaresden, for helping with French translation https://github.com/Snapouille
 - Janderson for helping with Portuguese translation https://github.com/JandersonJS
+- TheDayG0ne for helping with Russian translation https://github.com/TheDayG0ne
 - CadmiumRED for helping with some fix and medias https://github.com/CadmiumRED/
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
 - To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community

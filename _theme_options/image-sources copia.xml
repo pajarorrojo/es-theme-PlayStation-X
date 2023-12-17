@@ -1,0 +1,346 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="detailed,grid">
+      <image name="background-gamelist" ifSubset="background-list:fanart" extra="true">
+         <path>{game:fanart}</path>
+         <minSize>1.001 1.001</minSize>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <linearSmooth>true</linearSmooth>
+         <tile>true</tile>
+         <zIndex>45</zIndex>
+         <opacity>1</opacity>
+      </image>
+
+      <image name="background-art" extra="true" region="eu" />
+      <image name="background-art" extra="true">
+         <path>./../_theme_inc/images/background/${system.theme}.jpg</path>
+         <minSize>1.001 1.001</minSize>
+         <zIndex>46</zIndex>
+         <storyboard>
+            <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
+            <animation  property="zIndex" to="44" begin="500"  mode="easeIn" />
+         </storyboard>
+      </image>
+      <image name="background-art" extra="true" region="us">
+         <path>./../_theme_inc/images/background/us/${system.theme}.jpg</path>
+      </image>
+      <image name="background-art" extra="true" region="jp">
+         <path>./../_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      </image>
+   </view>
+
+
+   <!-- detallada -->
+
+   <view name="detailed">
+
+      <image name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
+         <pos>0.760 0.405</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.760 0.345</pos>
+         <zIndex>91</zIndex>
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>
+         <visible>false</visible>
+         <default>./../_theme_inc/images/no-image-default.png</default>
+      </image>
+
+      <image name="image-detailed, thumbnail-detailed, boxart-detailed, titleshot-detailed, fanart-detailed, boxback-detailed">
+         <maxSize>0.42 0.565</maxSize>
+         <maxSize ifSubset="aspect-ratio:4-3">0.42 0.425</maxSize>
+         <maxSize ifSubset="aspect-ratio:5-4">0.418 0.4</maxSize>
+      </image>
+
+      <image name="image-detailed" ifSubset="main-origin:image|default" extra="true">
+         <path>{game:image}</path>
+         <visible>true</visible>
+      </image>
+
+      <image name="thumbnail-detailed" ifSubset="main-origin:thumbnail" extra="true">
+         <path>{game:thumbnail}</path>
+         <path>exists({game:thumbnail}) ? {game:thumbnail} : {game:image}</path>
+         <visible>true</visible>
+      </image>
+
+      <image name="marquee-detailed" ifSubset="main-origin:marquee" extra="true">
+         <path>{game:marquee}</path>
+         <path>exists({game:marquee}) ? {game:marquee} : {game:image}</path>
+         <maxSize>0.3 0.3</maxSize>
+         <visible>true</visible>
+      </image>
+
+      <image name="boxart-detailed" ifSubset="main-origin:boxart" extra="true">
+         <path>{game:boxart}</path>
+         <path>exists({game:boxart}) ? {game:boxart} : {game:image}</path>
+         <visible>true</visible>
+      </image>
+
+      <image name="cartridge-detailed" ifSubset="main-origin:cartridge" extra="true">
+         <path>{game:cartridge}</path>
+         <path>exists({game:cartridge}) ? {game:cartridge} : {game:image}</path>
+         <maxSize>0.25 0.31</maxSize>
+         <visible>true</visible>
+      </image>
+
+      <image name="fanart-detailed" ifSubset="main-origin:fanart" extra="true">
+         <path>{game:fanart}</path>
+         <path>exists({game:fanart}) ? {game:fanart} : {game:image}</path>
+         <visible>true</visible>
+      </image>
+
+      <image name="titleshot-detailed" ifSubset="main-origin:titleshot" extra="true">
+         <path>{game:titleshot}</path>
+         <path>exists({game:titleshot}) ? {game:titleshot} : {game:image}</path>
+         <visible>true</visible>
+      </image>
+
+      <image name="boxback-detailed" ifSubset="main-origin:boxback" extra="true">
+         <path>{game:boxback}</path>
+         <path>exists({game:boxback}) ? {game:boxback} : {game:image}</path>
+         <visible>true</visible>
+      </image>
+
+
+
+   </view>
+
+
+   <!-- parrilla -->
+
+<view name="grid">
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <maxSize>0.25 0.335</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
+      <pos>0.155 0.3</pos>
+      <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <visible>false</visible>
+      <origin>0.5 0.5</origin>
+      <default>./../_theme_inc/images/no-image-default.png</default>
+   </image>
+
+
+
+   
+   <image name="image-grid, image-carousel, image-classic, image-single, image-full-grid" ifSubset="main-origin:image|default" extra="true">
+      <path>{game:image}</path>
+      <visible>true</visible>
+   </image>
+
+   <image name="thumbnail-grid, thumbnail-carousel, thumbnail-classic, thumbnail-single, thumbnail-full-grid" ifSubset="main-origin:thumbnail" extra="true">
+      <path>{game:thumbnail}</path>
+      <path>exists({game:thumbnail}) ? {game:thumbnail} : {game:image}</path>
+      <visible>true</visible>
+   </image>
+
+
+   <image name="marquee-grid, marquee-carousel, marquee-classic, marquee-single, marquee-full-grid" ifSubset="main-origin:marquee" extra="true">
+      <path>{game:marquee}</path>
+      <path>exists({game:marquee}) ? {game:marquee} : {game:image}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+
+   <image name="boxart-grid, boxart-carousel, boxart-classic, boxart-single, boxart-full-grid" ifSubset="main-origin:boxart" extra="true">
+      <path>{game:boxart}</path>
+      <path>exists({game:boxart}) ? {game:boxart} : {game:image}</path>
+      <visible>true</visible>
+   </image>
+
+   <image name="cartridge-grid, cartridge-carousel, cartridge-classic, cartridge-single, cartridge-full-grid" ifSubset="main-origin:cartridge" extra="true">
+      <path>{game:cartridge}</path>
+      <path>exists({game:cartridge}) ? {game:cartridge} : {game:image}</path>
+      <maxSize>0.18 0.25</maxSize>
+      <visible>true</visible>
+   </image>
+
+   <image name="fanart-grid, fanart-carousel, fanart-classic, fanart-single, fanart-full-grid" ifSubset="main-origin:fanart" extra="true">
+      <path>{game:fanart}</path>
+      <path>exists({game:fanart}) ? {game:fanart} : {game:image}</path>
+      <visible>true</visible>
+   </image>
+
+   <image name="titleshot-grid, titleshot-carousel, titleshot-classic, titleshot-single, titleshot-full-grid" ifSubset="main-origin:titleshot" extra="true">
+      <path>{game:titleshot}</path>
+      <path>exists({game:titleshot}) ? {game:titleshot} : {game:image}</path>
+      <visible>true</visible>
+   </image>
+
+      <image name="boxback-grid, boxback-carousel, boxback-classic, boxback-single, boxback-full-grid" ifSubset="main-origin:boxback" extra="true">
+      <path>{game:boxback}</path>
+      <path>exists({game:boxback}) ? {game:boxback} : {game:image}</path>
+      <visible>true</visible>
+   </image>
+
+
+
+
+</view>
+
+   
+ <!-- carrusel -->
+
+ <customView name="carousel">
+
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <visible>false</visible>
+   </image>
+
+
+   <image name="image-carousel, thumbnail-carousel, marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, boxback-carousel">
+      <maxSize>0.25 0.335</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
+      <pos>0.155 0.3</pos>
+      <pos ifSubset="aspect-ratio:4-3|5-4">0.145 0.272</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+   </image>
+
+</customView>
+
+ <!-- classic -->
+
+ <customView name="classic">
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <visible>false</visible>
+   </image>
+
+   <image name="image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic">
+      <maxSize>0.25 0.3</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
+      <pos>0.15 0.532</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <origin>0.5 0</origin>
+      <verticalAlignment>top</verticalAlignment>
+      <alignment>center</alignment>
+</image>
+
+ </customView>
+
+ <!-- single -->
+
+ <customView name="single">
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <visible>false</visible>
+   </image>
+
+   <image name="image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single">
+      <maxSize>0.25 0.3</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
+      <pos>0.15 0.572</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <origin>0.5 0</origin>
+      <verticalAlignment>top</verticalAlignment>
+      <alignment>center</alignment>
+</image>
+
+ </customView>
+
+  <!-- full grid -->
+
+ <customView name="full-grid">
+
+   <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
+      <visible>false</visible>
+   </image>
+
+   <image name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+      <maxSize>0.25 0.335</maxSize>
+      <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.335</maxSize>
+      <pos>0.142 0.340</pos>
+      <zIndex>91</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <origin tinyScreen="true">0.5 0.52</origin>
+   </image>
+
+</customView>
+
+
+  <!-- ocultar imagen principal de juego si la opcion video es ventana por defecto -->
+
+
+<customView name="full-grid">
+   <image ifSubset="game-video:default, anim-list:YES" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+      <storyboard event="open">
+         <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
+         <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
+         <animation property="opacity" from="0" to="1" begin="100" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activateNext">
+         <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
+         <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activatePrev">
+         <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
+         <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="deactivateNext">
+         <animation property="opacity" to="0" duration="100" mode="easeOut" />
+      </storyboard>
+      <storyboard event="deactivatePrev">
+         <animation property="opacity" to="0" duration="100" mode="easeOut" />
+      </storyboard>
+   </image>
+
+   <image ifSubset="game-video:default, anim-list:NO" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+      <storyboard event="open">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activateNext">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activatePrev">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+   </image>
+</customView>
+
+  <!-- ocultar imagen principal de juego si la opcion video es ventana, activado tambien si anim-lista = no -->
+
+
+<view name="detailed">
+    <image ifSubset="game-video:default|window, anim-list:NO" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
+      <storyboard event="open">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activateNext">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activatePrev">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+   </image>
+</view>
+
+<view name="grid">
+   <image ifSubset="game-video:window, anim-list:NO" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+      <storyboard event="open">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activateNext">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activatePrev">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+   </image>
+</view>
+
+
+
+  </theme>

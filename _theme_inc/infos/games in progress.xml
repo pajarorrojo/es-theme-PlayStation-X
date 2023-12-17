@@ -7,8 +7,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>This collection is designed to add the games that you are completing or want to complete in a future. To keep them on hand and not forget them among your favourites.</text>
-			<text lang="es,ca,eu">Esta colección está pensada para añadir los juegos que estás completando o quieres completar en un futuro, para así tenerlos a mano y no olvidarlos entre tus favoritos.</text>
+			<text>This collection is crafted to ensure quick access to the games you're currently playing or intend to complete in the future.</text>
+			<text lang="es,ca,eu">Esta colección está diseñada para facilitar el acceso rápido a los juegos que estás jugando actualmente o que planeas completar en el futuro.</text>
 		</text>
 
 		<text name="system_name" extra="true">
