@@ -7,7 +7,9 @@ We hope you enjoy it! Any suggestions are fully welcomed.
 
 ## Important notice to Version 39
 Warning: Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, this theme version (39) is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
+
 https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/Previous-releases
+
 https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/current_release
 
 
