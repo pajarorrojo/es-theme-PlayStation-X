@@ -63,7 +63,7 @@ Została wprowadzona na rynek w listopadzie 1994 roku w Japonii, a w maju 1995 r
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>CDCDCD</color>
 			<colorEnd>3A2F9F</colorEnd>
 		</image>

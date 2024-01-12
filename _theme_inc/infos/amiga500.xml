@@ -30,7 +30,7 @@ Ha sido el modelo de la gama con mayores ventas, con un éxito remarcable en Eur
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>0000ff</color>
 			<colorEnd>FF0000</colorEnd>
 		</image>

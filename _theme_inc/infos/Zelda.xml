@@ -22,7 +22,7 @@ Su trama por lo general describe las heroicas aventuras del joven guerrero Link,
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>D90000</color>
 			<colorEnd>D9D900</colorEnd>
 		</image>

@@ -27,16 +27,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>ffffff</color>
 			<colorEnd>0059B2</colorEnd>
 		</image>
-		<image name="linea-inferior" extra="static" region="us" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" region="us" >
 			<color>ffffff</color>
 			<colorEnd>D96D00</colorEnd>
 		</image>
 
-		<image name="linea-inferior" extra="static" region="jp" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" region="jp" >
 			<color>ffffff</color>
 			<colorEnd>D96D00</colorEnd>
 		</image>

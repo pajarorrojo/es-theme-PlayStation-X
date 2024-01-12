@@ -194,7 +194,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>00000000</backgroundColor>
          <padding>0 0</padding>
       </text>
-
+      <image name="linea-inferior" extra="static" ifHelpPrompts="false">
+         <y>0.995</y>
+         <visible>true</visible>
+      </image>
       
    </customView>
 

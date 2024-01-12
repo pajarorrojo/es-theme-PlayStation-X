@@ -329,7 +329,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</image>
 
 
-      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
+      <image name="linea-inferior" extra="static">
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.002</size>
@@ -342,6 +342,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
          <visible>false</visible>
+      </image>
+
+      <image name="linea-inferior" extra="static" ifHelpPrompts="false">
+         <y>0.995</y>
       </image>
 
       <rating name="md_rating" ifSubset="info-bar:NO">

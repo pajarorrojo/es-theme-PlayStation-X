@@ -191,7 +191,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static">
 			<path>./_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
 			<size>1 0.002</size>

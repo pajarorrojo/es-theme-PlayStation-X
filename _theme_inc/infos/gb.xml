@@ -50,7 +50,7 @@ Konsola doczekała się kilku aktualizacji, w tym Game Boy Color i Game Boy Adva
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>B9B9C8</color>
 			<colorEnd>002DB2</colorEnd>
 		</image>

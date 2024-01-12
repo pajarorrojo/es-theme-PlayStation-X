@@ -23,7 +23,7 @@ La saga ha sido alabada por su narrativa compleja y su capacidad para involucrar
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>FF2626</color>
 			<colorEnd>B20000</colorEnd>
 		</image>

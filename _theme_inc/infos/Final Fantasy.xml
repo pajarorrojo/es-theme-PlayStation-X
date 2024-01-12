@@ -22,7 +22,7 @@ Aunque la mayoría de las entregas de la serie son historias propias con diferen
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>ffffff</color>
 			<colorEnd>0098CC</colorEnd>
 		</image>

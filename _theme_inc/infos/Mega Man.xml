@@ -23,7 +23,7 @@ Mega Man, un androide creado por el Dr. Light, enfrenta desafíos en niveles com
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>FDFF00</color>
 			<colorEnd>FF2100</colorEnd>
 		</image>

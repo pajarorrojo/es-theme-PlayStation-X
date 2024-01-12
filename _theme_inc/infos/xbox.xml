@@ -52,7 +52,7 @@ Xboxは、内蔵ハードドライブを標準装備した最初のコンソー�
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>C3DD00</color>
 			<colorEnd>222222</colorEnd>
 		</image>

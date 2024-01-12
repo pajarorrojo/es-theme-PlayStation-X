@@ -44,6 +44,7 @@ Version 39 Beta 2 (12/01/2024)
 - Change: Video displayed in small window by default in the system view.
 - Change: Enabled vertical autoscrolling in system descriptions if description overflows the area.
 - Change: The bottom line has been updated with custom gradient colors specific to each system (currently, on some systems).
+- Change: The bottom part of the layout has been fixed and improved when button help is not displayed.
 - Fix: Enhancements to list animations, now smoother.
 - Fix: Muting videosnaps now also applies to videos within the grid.
 - Fix: Hide the help button bar when the main interface option is set to NO.

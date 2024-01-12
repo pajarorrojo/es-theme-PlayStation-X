@@ -59,7 +59,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<color>A0A0A0FF</color>
 		  </image>
 
-		<image name="linea-inferior" extra="static"  ifSubset="gamesplash-type:default" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static"  ifSubset="gamesplash-type:default" >
 			<path>./_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
 			<size>1 0.002</size>

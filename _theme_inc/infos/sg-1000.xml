@@ -21,7 +21,7 @@ La consola no consiguió gran éxito en ese mercado. Sin embargo, el sistema se 
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>0055A0</color>
 			<colorEnd>FF0000</colorEnd>
 		</image>

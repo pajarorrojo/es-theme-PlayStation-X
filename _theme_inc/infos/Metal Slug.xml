@@ -23,7 +23,7 @@ La serie es celebrada por su intensa jugabilidad de disparos en desplazamiento l
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>FFE700</color>
 			<colorEnd>FF4B00</colorEnd>
 		</image>

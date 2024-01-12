@@ -23,7 +23,7 @@ En 1991, Sega desarrolló para Mega Drive el primer juego de Sonic, lanzado para
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>2A3485</color>
 			<colorEnd>FFDC00</colorEnd>
 		</image>

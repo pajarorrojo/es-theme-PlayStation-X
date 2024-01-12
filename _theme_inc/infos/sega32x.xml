@@ -31,7 +31,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>FF0000</color>
 			<colorEnd>006DD9</colorEnd>
 		</image>

@@ -31,7 +31,7 @@ Debutó en 1986 para Nintendo Family Computer Disk System. La primera entrega y 
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>ff0000</color>
 			<colorEnd>FFBF00</colorEnd>
 		</image>

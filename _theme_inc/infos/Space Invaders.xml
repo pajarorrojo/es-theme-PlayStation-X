@@ -20,7 +20,7 @@ Se distingue por su mecánica de juego simple pero desafiante y adictiva. Los ju
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>40FF00</color>
 			<colorEnd>FFFF4D</colorEnd>
 		</image>

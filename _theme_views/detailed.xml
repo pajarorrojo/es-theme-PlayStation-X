@@ -157,7 +157,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible ifSubset="game-description:no">false</visible>
       </text>
 
-      <image name="pie-barra" extra="static">
+      <image name="pie-barra" extra="static" ifHelpPrompts="true">
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.2</size>
@@ -176,7 +176,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
       </text>
 
-      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
+      <image name="linea-inferior" extra="static" >
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.002</size>
@@ -187,6 +187,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
+      </image>
+
+      <image name="linea-inferior" extra="static" ifHelpPrompts="false">
+         <y>0.995</y>
       </image>
 
       <image name="md_flag" ifSubset="info-bar:YES">

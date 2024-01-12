@@ -47,7 +47,7 @@ Szacuje się, że w ciągu dziesięciu lat sprzedano 105 milionów egzemplarzy, 
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>F2001A</color>
 			<colorEnd>00AD9E</colorEnd>
 		</image>

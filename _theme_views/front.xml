@@ -141,7 +141,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoFade>false</autoFade>
       </image>
 
-      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
+      <image name="linea-inferior" extra="static">
          <path>./_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.002</size>
@@ -151,6 +151,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <gradientType>horizontal</gradientType>
          <zIndex>99</zIndex>
          <autoFade>false</autoFade>
+      </image>
+
+      <image name="linea-inferior" extra="static" ifHelpPrompts="false">
+            <y>0.995</y>
       </image>
 
       <image name="pie-barra" extra="static" ifHelpPrompts="true">
@@ -236,7 +240,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoFade>false</autoFade>
       </image>
       <image name="gamefolder" if="${system.manufacturer} != 'Collections'" ifHelpPrompts="false">
-         <y>0.945</y>
+         <y>0.955</y>
       </image>
 
       
@@ -256,7 +260,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <text name="system-folder" extra="true" if="${system.manufacturer} != 'Collections'"  ifHelpPrompts="false">
-         <y>0.941</y>
+         <y>0.951</y>
       </text>
 
 

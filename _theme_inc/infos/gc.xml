@@ -22,7 +22,7 @@ Sus principales características son su procesador central basado en un IBM Powe
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>452EBC</color>
 			<colorEnd>8083B8</colorEnd>
 		</image>

@@ -82,7 +82,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
+      <image name="linea-inferior" extra="static">
          <visible>true</visible>
       </image>
 
@@ -175,7 +175,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.15 0.45</pos>
       </text>
 
-      <image name="pie-barra" extra="static">
+      <image name="pie-barra" extra="static" ifHelpPrompts="true">
          <visible>true</visible>
       </image>
 

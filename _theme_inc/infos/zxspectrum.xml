@@ -21,7 +21,7 @@ El Sinclair ZX Spectrum fue uno de los microordenadores domésticos más popular
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>DB0014</color>
 			<colorEnd>00A021</colorEnd>
 		</image>

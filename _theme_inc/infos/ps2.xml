@@ -52,7 +52,7 @@ PS2は、DVDプレーヤーを標準搭載した最初のコンソールであ�
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>13017d</color>
 			<colorEnd>118fdb</colorEnd>
 		</image>

@@ -29,7 +29,7 @@ El 2600 fue inicialmente vendido con dos controladores de joystick, un par de co
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>EA6B00</color>
 			<colorEnd>663300</colorEnd>
 		</image>

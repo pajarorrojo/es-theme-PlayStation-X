@@ -63,7 +63,7 @@ Cechy tej maszyny były imponujące jak na tamte czasy, działała na 64 bitach,
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+		<image name="linea-inferior" extra="static" >
 			<color>333333</color>
 			<colorEnd>FB0000</colorEnd>
 		</image>

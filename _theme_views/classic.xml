@@ -110,7 +110,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <scaleOrigin>2 2</scaleOrigin>
       </ninepatch>
 
-      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
+      <image name="linea-inferior" extra="static">
          <visible>true</visible>
       </image>
 
@@ -322,7 +322,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.425 0.785</pos>
       </text>
 
-      <image name="pie-barra" extra="static">
+      <image name="pie-barra" extra="static" ifHelpPrompts="true">
          <visible>true</visible>
       </image>
       
