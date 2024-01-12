@@ -71,18 +71,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>false</visible>
 		</image>
 
-      <image name="linea-inferior" extra="static">
+      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
          <visible>true</visible>
       </image>
 
       <image name="gridtile.favorite">
          <path >./../_theme_inc/images/favorite.png</path>
-         <pos >-0.03 -0.001</pos>
-         <maxSize >0.2 0.20</maxSize>
+         <pos >-0.03 0.02</pos>
+         <maxSize >0.15 0.15</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
          <origin>0 0</origin>
-         <color>F3C300</color>
       </image>
 
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
@@ -100,7 +99,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>false</visible>
          <color>00000000</color>
       </image>
-      
+   
    </customView>
 
 </theme>

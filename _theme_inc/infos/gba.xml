@@ -25,4 +25,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Game Boy Advance</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>B9B9C8</color>
+			<colorEnd>46008C</colorEnd>
+		</image>
+	</view>
 </theme>

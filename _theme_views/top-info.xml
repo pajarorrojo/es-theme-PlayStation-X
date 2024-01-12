@@ -55,6 +55,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
          <path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
          <path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo.png</path>
+         <path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
+			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo-0.png</path>
          <pos>0.009 0.012</pos>
          <maxSize>0.096</maxSize>
          <color>ffffff</color>
@@ -75,39 +77,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
-      </image>
-
-      <image name="linea-superior" extra="static">
-         <path>./_theme_inc/images/pixel-blanco.png</path>
-         <color>ffffff</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
-      </image>
-
-      <image name="linea-superior" ifSubset="aspect-ratio:16-9|4-3|5-3|3-2|5-4" extra="static">
-         <pos>0.07 0.107</pos>
-         <pos ifSubset="frontend:retrobat">0.045 0.107</pos>
-         <pos ifSubset="frontend:batocera-plus">0.045 0.107</pos>
-         <pos ifSubset="frontend:emuelec">0.076 0.107</pos>
-         <pos ifSubset="frontend:no-frontend">0.018 0.107</pos>
-         <size>0.76 0.0011</size>
-         <size ifSubset="frontend:retrobat">0.785 0.0011</size>
-         <size ifSubset="frontend:batocera-plus">0.785 0.0011</size>
-         <size ifSubset="frontend:no-frontend">0.81 0.0011</size>
-      </image>
-
-      <image name="linea-superior" ifSubset="aspect-ratio:16-10" extra="static">
-         <pos>0.078 0.107</pos>
-         <pos ifSubset="frontend:retrobat">0.048 0.107</pos>
-         <pos ifSubset="frontend:batocera-plus">0.046 0.107</pos>
-         <pos ifSubset="frontend:emuelec">0.078 0.105</pos>
-         <pos ifSubset="frontend:no-frontend">0.03 0.107</pos>
-         <size>0.755 0.0011</size>
-         <size ifSubset="frontend:retrobat">0.785 0.0011</size>
-         <size ifSubset="frontend:batocera-plus">0.785 0.0011</size>
-         <size ifSubset="frontend:no-frontend">0.81 0.0011</size>
       </image>
 
       <image name="logo-front, plus-picto" extra="static" tinyScreen="true">
@@ -171,7 +140,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </storyboard>
       </text>
      
+      <image name="users-picto" extra="static" onclick="netplay">
+         <path>./_theme_inc/images/users-picto.svg</path>
+         <pos>0.554 0.047</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
+         <maxSize>0.05</maxSize>
+         <color if="{system.netplay} == true">e8c820cc</color>
+         <color if="{system.netplay} == false">ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+      </image>
 
+      
       <image name="trophy-picto" extra="static" onclick="cheevos">
          <path>./_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
@@ -241,6 +223,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>ffffff</color>
       </image>
 
+      <image name="md_netplay" onclick="netplay">
+         <origin>0 0</origin>
+         <path>./_theme_inc/images/users-picto.svg</path>
+         <pos>0.554 0.047</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
+         <maxSize>0.05</maxSize>
+         <color >e8c820cc</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>99</zIndex>
+         <storyboard >
+				<animation property="opacity" from="0" to="1" duration="350" mode="easeInOut" autoreverse="true" repeat="forever" />
+			</storyboard>
+      </image>
+
+      <image name="users-picto" extra="static" onclick="netplay">
+         <path>./_theme_inc/images/users-picto.svg</path>
+         <pos>0.554 0.047</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
+         <maxSize>0.05</maxSize>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <alignment>left</alignment>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>98</zIndex>
+      </image>
+
       <image name="consoles" extra="true">
          <pos>0.015 0.02</pos>
          <origin>0 0</origin>
@@ -283,7 +293,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:4-3|5-4">0.195 0.034</size>
          <zIndex>99</zIndex>
          <alignment>center</alignment>
-         <backgroundColor>ff000000</backgroundColor>
+         <backgroundColor>00ff0000</backgroundColor>
          <fontSize>0.023</fontSize>
          <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
          <singleLineScroll>true</singleLineScroll>
@@ -381,18 +391,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
-      <image name="users-picto" extra="static" onclick="netplay">
-         <path>./_theme_inc/images/users-picto.svg</path>
-         <pos>0.554 0.047</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
-         <maxSize>0.05</maxSize>
-         <color if="{system.netplay} == true">e8c820cc</color>
-         <color if="{system.netplay} == false">ffffff</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
-      </image>
+
 
       <image name="users-picto" extra="static" if="{global.netplay} == false">
          <color>bbbbbb</color>
@@ -423,6 +422,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
+     <!-- <webImage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.618 0.035</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.613 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webImage>-->
+
       <text name="username" extra="true">
          <text>${theme.nick}</text>
          <text ifSubset="system-username:custom">${custom.nick}</text>
@@ -430,7 +438,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:3-2">0.665 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.670 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.665 0.045</pos>
-
          <size>0.165 0.04</size>
          <color>ffffff</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
@@ -460,7 +467,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="trophy-level" extra="static">
-         <text>2023</text>
+         <text>2024</text>
          <pos>0.875 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.865 0.05</pos>
          <pos ifSubset="aspect-ratio:16-10|5-3">0.88 0.05</pos>

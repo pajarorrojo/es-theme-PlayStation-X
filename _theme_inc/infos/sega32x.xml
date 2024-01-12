@@ -29,5 +29,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text region="jp">Super 32X</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>FF0000</color>
+			<colorEnd>006DD9</colorEnd>
+		</image>
+	</view>
 	
 </theme>

@@ -4,12 +4,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
-      <image name="logo">
-         <storyboard >
-            <animation property="y" from="0.25" duration="300" mode="easeOutCubic" />
-            <sound  path="./../../_theme_inc/sound-effects/sd/enter-system.ogg"/>
-         </storyboard>
-      </image>
 
       <carousel name="systemcarousel">
          <scrollSound>./../../_theme_inc/sound-effects/sd/system-scroll.ogg</scrollSound>
@@ -19,7 +13,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="grid">
       <imagegrid name="gamegrid">
-         <scrollSound  >./../../_theme_inc/sound-effects/sd/gamelist-scroll.ogg</scrollSound>
+         <scrollSound>./../../_theme_inc/sound-effects/sd/gamelist-scroll.ogg</scrollSound>
          <storyboard>
             <animation  property="y" from="0.2" duration="600" mode="easeOutCubic" />
             <animation  property="opacity" from="0" to="1" duration="600" mode="easeInOut" />

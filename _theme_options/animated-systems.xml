@@ -7,13 +7,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   <view name="system">
 
     <carousel name="systemcarousel">
-      <transitionSpeed>350</transitionSpeed>
+      <transitionSpeed>400</transitionSpeed>
     </carousel>
-
-
-
     
-    <image name="background-art" extra="true">
+    <image name="background-art, background-fanart" extra="true">
       <storyboard>
         <animation property="offsetY" to="0.08" duration="15000" mode="ease" autoreverse="true"/>
         <animation property="opacity" from="0.4" to="1.0" duration="600" mode="easeOut" />
@@ -30,7 +27,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
         <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
         <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
         <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
-
       </storyboard>
     </image>
 
@@ -40,7 +36,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </text>
 
-    <text name="system_name" extra="true">
+    <text name="system_name,system-folder" extra="true">
       <storyboard>
         <animation property="h" from="0.2" duration="350" mode="easeOutCubic" />
         <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
@@ -54,17 +50,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </text>
 
-    <image name="logo2" extra="true">
+
+    <image name="logo2, consoles" extra="true" >
       <storyboard>
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
     </image>
 
-    <image name="consoles" extra="true">
-      <storyboard>
-        <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
-      </storyboard>
-    </image>
 
     <image name="border-video" extra="static">
       <storyboard>
@@ -92,11 +84,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <maxSize ifSubset="carousel:small">0.247</maxSize>
 
       <alignment>left</alignment>
-
+      <autoFade>false</autoFade>
       <linearSmooth>true</linearSmooth>
       <zIndex>9999</zIndex>
       <opacity>1</opacity>
-
       <storyboard>
        <animation property="opacity" to="0.4" duration="400" mode="easeIn" />
         <animation property="scale" begin="200" from="1" to="3" duration="400" mode="easeInCubic" />

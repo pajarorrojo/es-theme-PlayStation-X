@@ -62,4 +62,10 @@ Została wprowadzona na rynek w listopadzie 1994 roku w Japonii, a w maju 1995 r
 			<text>SEGA Saturn</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>CDCDCD</color>
+			<colorEnd>3A2F9F</colorEnd>
+		</image>
+	</view>
 </theme>

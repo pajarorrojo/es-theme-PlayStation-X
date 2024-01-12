@@ -52,5 +52,12 @@ Popularizował także kontroler z użyciem krzyżowego padu kierunkowego i przyc
 			<text region="jp">Famicom</text>
 		</text>	
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>FF0000</color>
+			<colorEnd>dddddd</colorEnd>
+		</image>
+	</view>
 	
 </theme>

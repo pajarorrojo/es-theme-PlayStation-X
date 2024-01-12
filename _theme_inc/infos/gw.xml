@@ -20,4 +20,10 @@ Estas consolas portátiles -que en España se conocían popularmente como «maqu
 			<text>Game and Watch</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>B9B9C8</color>
+			<colorEnd>ECECFB</colorEnd>
+		</image>
+	</view>
 </theme>

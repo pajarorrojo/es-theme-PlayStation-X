@@ -18,4 +18,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>XBOX 360</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>B3B2B4</color>
+			<colorEnd>79C900</colorEnd>
+		</image>
+	</view>
 </theme>

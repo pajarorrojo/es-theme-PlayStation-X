@@ -5,19 +5,67 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-
+		
 		<text name="system_description" extra="true" >
-			<text>Atari Jaguar was a video game console released by Atari in 1993. It was developed to outperform Mega Drive and Super Nintendo in processing power.</text>
-			<text lang="es,ca,eu">La Atari Jaguar es una videoconsola lanzada en 1993 y es la última consola lanzada al mercado por Atari.
-			
-Las características de la máquina eran impresionantes para la época, funcionaba a 64 bits cuando la competencia seguía en los 16 bits. Utilizaba cartuchos de videojuegos, aunque posteriormente salió a la venta su unidad de CD, la Atari Jaguar CD. La Jaguar fue un fracaso en ventas, se estima que no vendieron más de doscientas cincuenta mil unidades. 
+			<text>The Atari Jaguar is a video game console released in 1993 and is the last console released to the market by Atari.
+
+The machine's features were impressive for its time, running on 64 bits when the competition was still on 16 bits. It used game cartridges, although its CD unit, the Atari Jaguar CD, was later released. The Jaguar was a sales failure, with estimates suggesting that no more than two hundred fifty thousand units were sold.
 			</text>
-			<text lang="fr">Atari Jaguar était une console de jeux vidéo lancée par Atari en 1993. Elle a été développée pour surpasser Mega Drive et Super Nintendo en termes de puissance de traitement.Console de 64bits</text>
-			<text lang="pt">Atari Jaguar foi um console de videogame lançado pela Atari em 1993. Ele foi desenvolvido para superar o Mega Drive e o Super Nintendo em poder de processamento.</text>
+			<text lang="es">La Atari Jaguar es una videoconsola lanzada en 1993 y es la última consola lanzada al mercado por Atari.
+			
+Las características de la máquina eran impresionantes para la época, funcionaba a 64 bits cuando la competencia seguía en los 16 bits. Utilizaba cartuchos de videojuegos, aunque posteriormente salió a la venta su unidad de CD, la Atari Jaguar CD. La Jaguar fue un fracaso en ventas, se estima que no vendieron más de doscientas cincuenta mil unidades.
+			</text>
+			<text lang="ca">L'Atari Jaguar és una videoconsola llançada el 1993 i és l'última consola llançada al mercat per Atari.
+
+Les característiques de la màquina eren impressionants per a l'època, funcionava a 64 bits quan la competència encara era als 16 bits. Utilitzava cartutxos de videojocs, tot i que posteriorment es va posar a la venda la seva unitat de CD, l'Atari Jaguar CD. La Jaguar va ser un fracàs de vendes, s'estima que no van vendre més de dues-centes cinquanta mil unitats.
+			</text>
+			<text lang="eu">Atari Jaguar 1993an bideratutako bideokonsola bat da, eta Atari-ek merkatuan argitaratutako azken konsola da.
+
+Makinaren ezaugarriak apartak ziren garaian, 64 bitetan funtzionatzen zen, berriz, konpetentzia 16 bitetan zegoen. Bideojoko-kartutxoak erabiltzen zituen, baina gero saldu zen Atari Jaguar CD bere saltoki unitatea. Jaguarra salerosketetan huts egin zuen, uste da ez direla 250.000 unitate baino gehiago saldu ziren.
+			</text>
+			<text lang="fr">L'Atari Jaguar est une console de jeux vidéo sortie en 1993 et c'est la dernière console commercialisée par Atari.
+
+Les caractéristiques de la machine étaient impressionnantes pour l'époque, fonctionnant sur 64 bits alors que la concurrence était encore sur 16 bits. Elle utilisait des cartouches de jeux, bien qu'une unité de CD, l'Atari Jaguar CD, soit sortie ultérieurement. La Jaguar a été un échec commercial, avec des estimations suggérant qu'il n'a pas été vendu plus de deux cent cinquante mille unités.
+			</text>
+			<text lang="pt">O Atari Jaguar é um console de videogame lançado em 1993 e é o último console lançado no mercado pela Atari.
+
+As características da máquina eram impressionantes para a época, operando em 64 bits quando a concorrência ainda estava nos 16 bits. Utilizava cartuchos de jogos, embora posteriormente tenha sido lançada a unidade de CD, a Atari Jaguar CD. O Jaguar foi um fracasso de vendas, estima-se que não foram vendidas mais de duzentas e cinquenta mil unidades.
+			</text>
+			<text lang="it">L'Atari Jaguar è una console per videogiochi lanciata nel 1993 ed è l'ultima console lanciata sul mercato da Atari.
+
+Le caratteristiche della macchina erano impressionanti per l'epoca, funzionava a 64 bit quando la concorrenza era ancora a 16 bit. Utilizzava cartucce di gioco, anche se successivamente è stata messa in vendita l'unità CD, l'Atari Jaguar CD. La Jaguar è stata un fallimento commerciale, si stima che non siano state vendute più di duecentocinquantamila unità.
+			</text>
+			<text lang="de">Der Atari Jaguar ist eine Videospielkonsole, die 1993 veröffentlicht wurde und die letzte Konsole ist, die von Atari auf den Markt gebracht wurde.
+
+Die Eigenschaften der Maschine waren für die damalige Zeit beeindruckend, sie lief mit 64 Bit, während die Konkurrenz noch bei 16 Bit war. Sie verwendete Spielmodule, obwohl später die CD-Einheit, der Atari Jaguar CD, auf den Markt kam. Der Jaguar war ein Verkaufsfiasko, es wird geschätzt, dass nicht mehr als zweihundertfünfzigtausend Einheiten verkauft wurden.
+			</text>
+			<text lang="pl">Atari Jaguar to konsola do gier wideo wydana w 1993 roku i jest ostatnią konsolą wydaną na rynku przez Atari.
+
+Cechy tej maszyny były imponujące jak na tamte czasy, działała na 64 bitach, podczas gdy konkurencja działała na 16 bitach. Używała modułów gier, chociaż później pojawiła się na rynku jej jednostka CD, Atari Jaguar CD. Jaguar był porażką pod względem sprzedaży, szacuje się, że nie sprzedano więcej niż dwieście pięćdziesiąt tysięcy egzemplarzy.
+			</text>
+			<text lang="ru">Atari Jaguar - это игровая приставка, выпущенная в 1993 году, и является последней приставкой, выпущенной на рынок компанией Atari.
+
+Характеристики этой машины были впечатляющими для своего времени: она работала на 64 битах, в то время как конкуренты использовали 16-битную архитектуру. Приставка использовала игровые картриджи, хотя позднее появилась на рынке и её дополнительная единица - Atari Jaguar CD. Jaguar оказался неудачей в продажах, предполагается, что продано не более чем двести пятьдесят тысяч экземпляров.
+			</text>
+			<text lang="zh">Atari Jaguar 是一款于1993年发布的游戏机，也是Atari公司最后一款推出市场的游戏机。
+
+该机器的特点在当时令人印象深刻，采用了64位处理器，而竞争对手仍停留在16位。它使用游戏卡带，后来还推出了Atari Jaguar CD。然而，Jaguar 在销售方面表现不佳，据估计销量不超过25万台。
+			</text>
+			<text lang="ja">Atari Jaguarは、1993年に発売されたゲーム機であり、Atariによって市場に投入された最後のゲーム機です。
+
+当時のこの機械の特徴は驚くべきもので、競合他社が16ビットであった中、64ビットで動作していました。ゲームカートリッジを使用しましたが、後にAtari Jaguar CDというCDユニットも販売されました。Jaguarは販売面で失敗し、販売台数は25万台未満と推定されています。
+			</text>
 		</text>
 
 		<text name="system_name" extra="true">
 			<text>Atari Jaguar</text>
 		</text>
+	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>333333</color>
+			<colorEnd>FB0000</colorEnd>
+		</image>
 	</view>
 </theme>

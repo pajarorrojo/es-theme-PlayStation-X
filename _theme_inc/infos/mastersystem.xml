@@ -24,5 +24,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="system_name" extra="true">
 			<text>Master System</text>
 			<text region="jp">SEGA Mark III</text>
-		</text>	</view>
+		</text>	
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>006699</color>
+			<colorEnd>ff0000</colorEnd>
+		</image>
+	</view>
 </theme>

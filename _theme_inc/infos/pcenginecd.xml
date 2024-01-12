@@ -25,6 +25,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>PC Engine CD</text>
 			<text region="us">TurboGrafx-CD</text>
 		</text>
+		<view name="system,detailed, grid">
+			<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+				<color>FF0000</color>
+				<colorEnd>FF8D00</colorEnd>
+			</image>
+			<image name="linea-inferior" extra="static" region="us" ifHelpPrompts="true">
+				<color>FF8D00</color>
+				<colorEnd>D1E316</colorEnd>
+			</image>
+		</view>
 						
 	</view>
 

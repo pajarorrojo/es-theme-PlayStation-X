@@ -26,4 +26,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="es,ca,eu">Game Boy Color (2 Jugadores)</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>990033</color>
+			<colorEnd>669900</colorEnd>
+		</image>
+	</view>
 </theme>

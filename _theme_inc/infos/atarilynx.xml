@@ -27,4 +27,10 @@ La Lynx compitió con la Game Boy de Nintendo y la Game Gear de Sega, pero nunca
 			<text>Atari Lynx</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ffcc00</color>
+			<colorEnd>ff0000</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -37,9 +37,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--RELACION DE ASPECTO (auto deteccion)-->
 	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
-		<include if="${screen.width} == '800' && ${screen.height} == '480' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch (ojo, solo para pantallas tiny <= 480p)-->
-		<include if="${screen.width} == '1200' && ${screen.height} == '720' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
-		<include if="${screen.width} == '1800' && ${screen.height} == '1080' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
+		<include if="${screen.width} == '800' &amp;&amp; ${screen.height} == '480' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch (ojo, solo para pantallas tiny <= 480p)-->
+		<include if="${screen.width} == '1200' &amp;&amp; ${screen.height} == '720' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
+		<include if="${screen.width} == '1800' &amp;&amp; ${screen.height} == '1080' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
 		<include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 (${theme.detected})" />
 		<include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2 (${theme.detected})" />
 		<include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4 (${theme.detected})" />
@@ -65,20 +65,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include ifNotArch="windows" name="batocera" displayName="batocera" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="true" />
 		<include name="retrobat" displayName="retrobat" />
-		<!--<include name="ProjectArcade" displayName="ProjectArcade" />-->
 		<include ifArch="windows" name="batocera" displayName="batocera" />
 		<include name="batocera" displayName="batocera" />
 		<include name="batocera-plus" displayName="batocera plus" />
 		<include name="emuelec" displayName="emuelec" />
+		<include name="projectarcade" displayName="ProjectArcade" />
+		<include name="jelos" displayName="JELOS" />
 		<include name="no-frontend" displayName="${none}" tinyScreen="false" />
 	</subset>
 
 
 	<!--JUEGO DE COLORES-->
 	<subset name="colorset" displayName="${theme.colorset}">
-		<include name="black" displayName="${black}" tinyScreen="true">./_theme_options/colorsets/black.xml</include>
+		<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
 		<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
-		<include name="black" displayName="${black}" tinyScreen="false">./_theme_options/colorsets/black.xml</include>
 	</subset>
 
 	<!--JUEGO DE COLORES SECUNDARIOS-->
@@ -98,6 +98,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--AVATARES-->
 	<subset name="system-avatar" displayName="${theme.Avatar}">
 		<include name="batocera" displayName="Batocera" />
+		<!--<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements Avatar" />-->
 		<include name="custom" displayName="${custom}" />
 		<include name="castlevania" displayName="Alucard (Castlevania)" />
 		<include name="arale" displayName="Arale Norimaki" />
@@ -117,6 +118,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="doubledragon" displayName="Double Dragon" />
 		<include name="dragons-lair" displayName="Dragon's Lair" />
 		<include name="emulationstation" displayName="Emulation Station" />
+		<include name="fallout-boy" displayName="Fallout (Vault Boy)" />
 		<include name="fatalfury" displayName="Fatal Fury (Terry)" />
 		<include name="finalfight" displayName="Final Fight (Guy)" />
 		<include name="geralt" displayName="Geralt de Rivia" />
@@ -144,7 +146,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="pacman-inky" displayName="Pac-Man Inky" />
 		<include name="pacman-blinky" displayName="Pac-Man Blinky" />
 		<include name="pacman-pinky" displayName="Pac-Man Pinky" />
-		<include name="pajarorrojo" displayName="pajarorrojo" />
 		<include name="peace" displayName="Peace" />
 		<include name="pikachu" displayName="Pikachu" />
 		<include name="pole-position" displayName="Pole Position" />
@@ -178,7 +179,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<!--<include name="aspect-ratio-test" displayName="check aspect ratio" />-->
 		<!--<include name="arch-test" displayName="arch-test" />-->
 	    <!--<include name="system-test" displayName="system-test" />-->
-		<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${cheevos.username}" />
+		<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${global.cheevos.username}" />
 		<include if="{global.netplay} == true" name="netplay" displayName="Netplay ID: ${global.netplay.username}" />
 		<include name="custom" displayName="${custom}: ${custom.nick}" />
 		<include name="batocera" displayName="Batocera" />
@@ -196,7 +197,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="linkzelda" displayName="Link (Zelda)" />
 		<include name="megaman" displayName="Mega-Man" />
 		<include name="nathandrake" displayName="Nathan Drake" />
-		<include name="pajarorrojo" displayName="pajarorrojo" />
 		<include name="ProjectArcade" displayName="ProjectArcade" />
 		<include name="recalbox" displayName="Recalbox" />
 		<include name="retroarch" displayName="RetroArch" />
@@ -239,10 +239,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--OPCIONES DE VIDEO SISTEMAS-->
 	<subset name="video-system" displayName="${theme.videoBackground}">
-		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
-		<include name="NO" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
-		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
-		<include name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+		<include name="NO" displayName="${VideoOff}" tinyScreen="true">./_theme_options/systemvideo/no-video.xml</include>
+		<include  name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+		<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
+		<include name="NO" displayName="${VideoOff}" tinyScreen="false">./_theme_options/systemvideo/no-video.xml</include>
 	</subset>
 
 	<!--RANDOM VIDEOS ON/OFF-->
@@ -317,20 +317,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!-- MOSTRAR /  OCULTAR DESCRIPCIONES DE JUEGOS -->
 
-	<subset name="game-description" displayName="${theme.gameDescription}" appliesTo="detailed, grid, classic, carousel, full-grid">
+	<subset name="game-description" displayName="${theme.gameDescription}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
 		<include tinyScreen="true" name="no" displayName="${no}" />
 		<include name="si" displayName="${yes}" />
 		<include name="no" displayName="${no}" />
 	</subset>
 
 	<!--BARRA DE INFO JUEGOS-->
-	<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed, grid, classic, carousel, full-grid">
+	<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
 		<include name="YES" displayName="${yes}" />
 		<include name="NO" displayName="${no}" />
 	</subset>
 
 	<!--OPCIONES DE IMAGENES-->
-	<subset name="main-origin" displayName="${theme.mainImage}" appliesTo="detailed, grid, classic, carousel, full-grid">
+	<subset name="main-origin" displayName="${theme.mainImage}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
 		<include name="default" displayName="${default}" />
 		<include name="image" displayName="image" />
 		<include name="thumbnail" displayName="thumbnail" />
@@ -356,7 +356,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--OPCIONES DE SNAPVIDEO-->
-	<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid, classic, carousel, full-grid">
+	<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
 		<include tinyScreen="true" name="oversize" displayName="${theme.oversizeVideoOption}" />
 		<include name="default" displayName="${default}" />
 		<include name="window" displayName="${theme.windowVideoOption}" />
@@ -367,13 +367,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--AUDIO VIDEOSNAP ON/OFF-->
-	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid, classic, carousel, full-grid" ifSubset="game-video:window|background|oversize|default">
+	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid, classic, carousel, full-grid, single" ifSubset="game-video:window|background|oversize|default">
 		<include name="enabled" displayName="${yes}" />
 		<include name="disabled" displayName="${no}" />
 	</subset>
 
 	<!--OPCIONES DE RETARDO DE VIDEO-->
-	<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid, classic, carousel, full-grid" ifSubset="game-video:window|background|inside|oversize|default">
+	<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid, classic, carousel, full-grid, single" ifSubset="game-video:window|background|inside|oversize|default">
 		<include name="1sec" displayName="1s" />
 		<include name="2sec" displayName="2s" />
 		<include name="3sec" displayName="3s" />
@@ -383,23 +383,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!-- IMAGEN DE FONDO EN LA LISTA DE JUEGOS -->
 
-	<subset name="background-list" displayName="${theme.gamelistBackground}" appliesTo="detailed, grid, classic, carousel, full-grid">
+	<subset name="background-list" displayName="${theme.gamelistBackground}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
 		<include name="fanart" displayName="fanart" />
 		<include name="sistema" displayName="system" />
 	</subset>
 
 	<!--FONDO ANIMADO-->
-	<subset name="animated-backg" displayName="${theme.animated-background}" appliesTo="detailed, grid, classic, carousel, full-grid">
-		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+	<subset name="animated-backg" displayName="${theme.animated-background}">
+		<include ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 		<include name="NO" displayName="${no}" />
-		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+		<include ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	</subset>
 
 	<!--ANIMACION DE LISTAS-->
-	<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid, classic, carousel, full-grid">
-		<include ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+	<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+		<include ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
 		<include name="NO" displayName="${no}" />
-		<include ifNotArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+		<include ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
 	</subset>
 
 	<!--ESTILO DE LISTA EN LAS COLECCIONES
@@ -549,8 +549,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontSize>0.03</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
 			<glowColor>00000035</glowColor>
-			<glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-			<glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+			<glowSize ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+			<glowOffset ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 	</view>
 
@@ -565,8 +565,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.03</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
 			<glowColor>00000035</glowColor>
-			<glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-			<glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+			<glowSize ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+			<glowOffset ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 
 		
@@ -577,20 +577,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-	<include>./_theme_inc/infos/${system.theme}.xml</include>
 	<include>./_theme_views/detailed.xml</include>
 	<include>./_theme_views/grid.xml</include>
 	<include>./_theme_views/classic.xml</include>
-	<include>./_theme_views/full-grid.xml</include>
 	<include>./_theme_views/carousel.xml</include>
+	<include>./_theme_views/full-grid.xml</include>
+	<include>./_theme_views/single.xml</include>
 	<include>./_theme_views/front.xml</include>
 	<include>./_theme_views/top-info.xml</include>
 	<include>./_theme_options/videosnap-controls.xml</include>
 	<include>./_theme_options/image-sources.xml</include>
 	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
 	<include>./_theme_views/test-media.xml</include>
-	<!--<include if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'imageviewer' || {system.name} == 'odcommander'">./_theme_options/force-gridview.xml</include>-->
-	<!--<include tinyScreen="true">./_theme_options/force-gridview.xml</include>-->
+	<include>./_theme_inc/infos/${system.theme}.xml</include>
+	<include>./_theme_inc/infos/${system.theme}.xml</include>
+
 
 	<!-- COLORES MAESTROS -->
 

@@ -27,4 +27,11 @@ Aunque fue superado por ordenadores posteriores en términos de potencia y carac
 			<text>Atari 800</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>FF8000</color>
+			<colorEnd>dddddd</colorEnd>
+		</image>
+	</view>
 </theme>

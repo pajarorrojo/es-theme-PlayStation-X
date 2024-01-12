@@ -1,0 +1,333 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+    <customView name="single" inherits="grid" displayName="${singlelViewName}">
+
+      <image name="console-grid-view, background" extra="static">
+         <visible>false</visible>      
+      </image>
+
+      
+      <text name="gamename-grid">
+         <visible>false</visible>
+      </text>
+
+
+      <image name="overlay-front" extra="true">
+         <path>./_theme_inc/images/overlay-full-grid.png</path>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <minSize>1.001 1.001</minSize>
+         <linearSmooth>true</linearSmooth>
+         <tile>false</tile>
+         <zIndex>50</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <imagegrid name="gamegrid">
+         <origin>0 0</origin>
+         <pos>-0.315 0.046</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">-0.32 0.035</pos>
+         <autoLayout>1 1</autoLayout>
+         <scale>0.09</scale>
+         <scrollDirection>horizontal</scrollDirection>
+         <animateSelection>false</animateSelection>
+         <showVideoAtDelay>999</showVideoAtDelay>
+      </imagegrid>
+
+      <image name="gridtile.cheevos" if="{global.cheevos} == true">
+         <horizontalAlignment>left</horizontalAlignment>
+         <verticalAlignment>top</verticalAlignment>
+         <maxSize>0.6 0.6</maxSize>
+         <pos>0.15 0.1</pos>
+
+
+         <color>FFFF99cc</color>
+      </image>
+
+
+      <image name="gridtile.favorite">
+         <path >./../_theme_inc/images/favorite.png</path>
+         <pos >0.5 0.15</pos>
+         <maxSize>0.5 0.5</maxSize>
+         <horizontalAlignment>left</horizontalAlignment>
+         <verticalAlignment>top</verticalAlignment>
+      </image>
+
+
+
+
+      <image name="gridtile.marquee">
+		 <visible>false</visible>
+		</image>
+
+      <gridtile name="default">
+         <imageColor>00000000</imageColor>
+         <backgroundEdgeColor>00000000</backgroundEdgeColor>
+         <backgroundCenterColor>00000000</backgroundCenterColor>
+      </gridtile>
+
+      <gridtile name="selected">
+         <imageColor>00000000</imageColor>
+         <backgroundCornerSize>0</backgroundCornerSize>
+         <backgroundEdgeColor>00000000</backgroundEdgeColor>
+    </gridtile>
+
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>00000000</animateColor>
+   </ninepatch>
+
+
+
+      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
+         <visible>true</visible>
+      </image>
+
+
+
+      <text name="start-single" extra="true">
+         <text>${theme.start}</text>
+         <backgroundColor>${sistema.lineainferior}ef</backgroundColor>
+         <alignment>left</alignment>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <zIndex>59</zIndex>
+         <pos>0.025 0.24</pos>
+         <fontSize>0.03</fontSize>
+         <size>0.13 0.055</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.15 0.055</size>
+
+         <padding>0.013 0</padding>
+      </text>
+
+      <text name="gamename-single" extra="true">
+         <text>{game:name}</text>
+         <pos>0.025 0.31</pos>
+         <size>0.9 0.08</size>
+         <color>ffffff</color>
+         <backgroundColor>ff000000</backgroundColor>
+         <fontSize>0.054</fontSize>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+      </text>
+
+      <datetime name="md_releasedate" ifSubset="info-bar:YES">
+         <pos>0.026 0.38</pos>
+         <size>0.038 0.034</size>
+         <size ifSubset="aspect-ratio:5-4">0.042 0.035</size>
+         <size ifSubset="aspect-ratio:4-3">0.048 0.035</size>
+         <fontSize>0.022</fontSize>
+         <zIndex>51</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </datetime>
+
+      <text name="md_developer" ifSubset="info-bar:YES">
+         <size>0.38 0.035</size>
+         <pos>0.066 0.38</pos>
+         <zIndex>52</zIndex>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
+
+      <rating name="md_rating">
+         <pos>0.026 0.42</pos>
+      </rating>
+
+      <text name="md_genre" ifSubset="info-bar:YES" >
+         <pos>0.11 0.415</pos>
+         <size>0.41 0.034</size>
+         <zIndex>51</zIndex>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
+
+
+      <image name="md_flag, md_players,md_manual,md_nomanual, md_savestate,md_nosavestate">
+         <y>0.47</y>
+      </image>
+
+      <image name="md_flag" extra="true">
+			<x>0.036 </x>
+		</image>
+
+      <text name="md_players">
+         <x>0.066 </x>
+      </text>
+
+      <image name="md_manual,md_nomanual" >
+         <x>0.096 </x>
+      </image>
+
+      <image name="md_savestate,md_nosavestate">
+         <x>0.126 </x>
+      </image>
+
+      <text name="system-name" extra="true">
+         <pos>0.15 0.45</pos>
+      </text>
+
+      <image name="pie-barra" extra="static">
+         <visible>true</visible>
+      </image>
+
+
+      <image name="marquee-single-view" extra="true">
+         <path>{game:marquee}</path>
+         <tile>false</tile>
+         <pos>0.9 0.83</pos>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.14 0.14</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'" region="eu" />
+      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'">
+         <path>./../_theme_inc/images/logos/{game:system}.svg</path>
+      </image>
+      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'" region="jp">
+         <default>./../_theme_inc/images/logos/{game:system}.svg</default>
+         <path>./../_theme_inc/images/logos/jp/{game:system}.svg</path>
+      </image>
+      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'" region="us">
+         <default>./../_theme_inc/images/logos/{game:system}.svg</default>
+         <path>./../_theme_inc/images/logos/us/{game:system}.svg</path>
+      </image>
+
+
+      <image name="console-single-view" extra="true">
+         <path>{game:thumbnail}</path>
+         <tile>false</tile>
+         <pos>0.9 0.63</pos>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <verticalAlignment  if="${system.manufacturer} == 'Collections'">bottom</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.125 0.24</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+
+
+      <image name="console-single-view" if="${system.manufacturer} == 'Collections'" region="eu" />
+      <image name="console-single-view" if="${system.manufacturer} == 'Collections'">
+         <path>./../_theme_inc/images/consoles/{game:system}.png</path>
+      </image>
+      <image name="console-single-view" if="${system.manufacturer} == 'Collections'" region="jp">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+         <path>./../_theme_inc/images/consoles/jp/{game:system}.png</path>
+      </image>
+      <image name="console-single-view" if="${system.manufacturer} == 'Collections'" region="us">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+         <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
+      </image>         
+      
+      <text name="md_description">
+         <color>ffffff</color>
+         <pos>0.30 0.58</pos>
+         <size>0.48 0.228</size>
+
+         <size ifSubset="aspect-ratio:4-3">0.48 0.223</size>
+         <size tinyScreen="true">0.44 0.25</size>
+         <lineSpacing>1.1</lineSpacing>
+         <fontSize>0.03</fontSize>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+   </customView>
+
+      
+
+   <customView name="single"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
+      
+      <text name="md_description">
+         <x>0.026</x>
+      </text>
+
+      <text name="system-name" extra="true">
+         <x>0.15</x>
+      </text>
+
+      <text name="md_developer" ifSubset="info-bar:YES">
+         <x>0.066</x>
+      </text>
+
+
+      <text name="md_genre" ifSubset="info-bar:YES" >
+         <x>0.11</x>
+      </text>
+
+   </customView>
+
+
+   <customView name="single"  ifSubset="info-bar:NO">
+      <text name="md_description">
+         <y>0.58</y>
+      </text>
+   </customView>
+
+   <customView name="single"  ifSubset="info-bar:NO, main-origin:none, game-video:background|oversize|inside|off|default">
+      <text name="md_description">
+         <y>0.45</y>
+      </text>
+   </customView>
+
+
+   <customView name="single"  ifSubset="game-description:no">
+      <datetime name="md_releasedate" ifSubset="info-bar:YES">
+         <y>0.38</y>
+      </datetime>
+
+      <text name="md_developer" ifSubset="info-bar:YES">
+         <y>0.38</y>
+      </text>
+
+      <rating name="md_rating">
+         <y>0.42</y>
+      </rating>
+
+      <text name="md_genre" ifSubset="info-bar:YES" >
+         <y>0.415</y>
+      </text>
+
+
+      <image name="md_flag, md_players,md_manual,md_nomanual, md_savestate,md_nosavestate">
+         <y>0.47</y>
+      </image>
+
+      <image name="md_flag" extra="true">
+			<x>0.036 </x>
+		</image>
+
+      <text name="md_players">
+         <x>0.066 </x>
+      </text>
+
+      <image name="md_savestate,md_nosavestate">
+         <x>0.126 </x>
+      </image>
+
+      <image name="md_manual,md_nomanual" >
+         <x>0.096 </x>
+      </image>
+
+      <text name="system-name" extra="true">
+         <y>0.45</y>
+      </text>
+
+
+
+   </customView>
+</theme>

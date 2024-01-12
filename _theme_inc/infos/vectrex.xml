@@ -25,4 +25,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Vectrex</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>336600</color>
+			<colorEnd>2DB200</colorEnd>
+		</image>
+	</view>
 </theme>

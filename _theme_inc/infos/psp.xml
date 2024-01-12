@@ -50,4 +50,10 @@ PSPにはWi-Fiを介したワイヤレス接続もあり、世界中の他のプ
 			<text>Sony PlayStation Portable</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>118fdb</color>
+			<colorEnd>0094FF</colorEnd>
+		</image>
+	</view>
 </theme>

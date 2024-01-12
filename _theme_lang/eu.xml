@@ -86,5 +86,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Jokoen kargatzeko pantaila</theme.gamesplash-type>
     <image-full-size>Irudi oso-pantaila</image-full-size>
     <theme.nav-sounds>Nabigazio soinuak</theme.nav-sounds>
+    <singlelViewName>Jokoaz jokoa</singlelViewName>
+    <theme.timesplayed>Zenbat aldiz jokatua</theme.timesplayed>
   </variables>
 </theme>

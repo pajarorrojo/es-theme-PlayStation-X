@@ -50,4 +50,11 @@ PS2は、DVDプレーヤーを標準搭載した最初のコンソールであ�
 			<text>PlayStation 2</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>13017d</color>
+			<colorEnd>118fdb</colorEnd>
+		</image>
+	</view>
 </theme>

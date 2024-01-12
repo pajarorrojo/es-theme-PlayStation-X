@@ -28,4 +28,11 @@ Ha sido el modelo de la gama con mayores ventas, con un éxito remarcable en Eur
 			<text>Amiga 500 - 600</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>0000ff</color>
+			<colorEnd>FF0000</colorEnd>
+		</image>
+	</view>
 </theme>

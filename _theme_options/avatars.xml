@@ -23,6 +23,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image.avatar ifSubset="system-avatar:doubledragon">doubledragon.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:dragons-lair">dragons-lair.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:emulationstation">emulationstation.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:fallout-boy">fallout-vaultboy.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:fatalfury">fatalfury.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:finalfight">finalfight.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:geralt">geralt.png</image.avatar>

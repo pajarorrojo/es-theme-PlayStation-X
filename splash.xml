@@ -83,7 +83,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme Version 39-ß</text>
+			<text>Theme by pajarorrojo - Version 39-ßeta2</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -102,29 +102,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
 			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
 			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
+			<path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
+			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo-splash.png</path>
+
+
 			<linearSmooth>true</linearSmooth>
 		</image>
 
-
-<!-- not detecting the aspect ratio subset, always take the first option of the subset
-
-		<image name="info-ico-ratio" extra="true" >
-			<path ifSubset="aspect-ratio:4-3">./_theme_inc/images/4-3.svg</path>
-			<path ifSubset="aspect-ratio:16-9">./_theme_inc/images/16-9.svg</path>
-			<path ifSubset="aspect-ratio:16-10">./_theme_inc/images/16-10.svg</path>
-			<path ifSubset="aspect-ratio:3-2">./_theme_inc/images/3-2.svg</path>
-			<path ifSubset="aspect-ratio:5-3">./_theme_inc/images/5-3.svg</path>
-			<path ifSubset="aspect-ratio:5-4">./_theme_inc/images/5-4.svg</path>
-			<origin>0 0</origin>
-			<linearSmooth>true</linearSmooth>
-			<maxSize>0.08 0.08</maxSize>
-			<maxSize tinyScreen="true">0.12 0.12</maxSize>
-			<pos>0.9 0.83</pos>
-			<pos tinyScreen="true">0.87 0.78</pos>
-			<color>ffffff40</color>
-		</image>
-
-	-->
 
 
 
@@ -134,6 +118,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text ifSubset="frontend:retrobat">${theme.welcome} Retrobat</text>
 			<text ifSubset="frontend:batocera-plus">${theme.welcome} Batocera Plus</text>
 			<text ifSubset="frontend:emuelec">${theme.welcome} EmuElec</text>
+			<text ifSubset="frontend:projectarcade">${theme.welcome} ProjectArcade</text>
+			<text ifSubset="frontend:jelos">${theme.welcome} JELOS</text>
 			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
 			<color>ffffff</color>
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
@@ -177,6 +163,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<zIndex>9</zIndex>
 		</image>
 
+		<!--<webImage name="avatar-test"  extra="static">
+			<path>https://media.retroachievements.org/UserPic/{global:cheevosUser}.png</path>
+			<pos>0.618 0.035</pos>
+			<maxSize>0.063 0.063</maxSize>
+			<zIndex>999</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</webImage>-->
+
 
 		<text name="username" extra="true">
 			<text>${theme.nick}</text>
@@ -197,10 +191,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-		<image name="linea-inferior" extra="true">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
 			<path>./_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
-			<size>1 0.0011</size>
+			<size>1 0.002</size>
 			<size tinyScreen="true">1 0.005</size>
 			<backgroundColor>ff000000</backgroundColor>
 			<verticalAlignment>top</verticalAlignment>

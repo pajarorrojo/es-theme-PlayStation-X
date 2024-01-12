@@ -22,5 +22,10 @@ Existen dos versiones, una para cada versión de Mega Drive, el Mega-CD (o Sega 
 			<text region="us">Sega CD</text>
 		</text>	
 	</view>
-
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>86A0CD</color>
+			<colorEnd>FFFFBF</colorEnd>
+		</image>
+	</view>
 </theme>

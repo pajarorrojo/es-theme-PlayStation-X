@@ -86,5 +86,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.gamesplash-type>ゲームローディング画面</theme.gamesplash-type>
 		<image-full-size>フルスクリーン画像</image-full-size>
 		<theme.nav-sounds>ナビゲーションサウンド</theme.nav-sounds>
+		<singlelViewName>試合ごとに</singlelViewName>
+		<theme.timesplayed>プレイ回数</theme.timesplayed>
 	</variables>
 </theme>

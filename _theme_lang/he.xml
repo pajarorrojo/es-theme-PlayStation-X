@@ -86,5 +86,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>מסך טעינת משחקים</theme.gamesplash-type>
     <image-full-size>תמונה במסך מלא</image-full-size>
     <theme.nav-sounds>צלילי ניווט</theme.nav-sounds>
+    <singlelViewName>משחק אחר משחק</singlelViewName>
+    <theme.timesplayed>זמנים שיחקו</theme.timesplayed>
   </variables>
 </theme>

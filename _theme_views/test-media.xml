@@ -48,7 +48,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <!-- MEDIOS -->
 
-       <image name="md_image, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed" extra="true">
+       <image name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed" extra="true">
          <visible>false</visible>
          <opacity>0</opacity>
          <pos>-2 -2</pos>

@@ -53,4 +53,11 @@ Konsola miała niektóre z najbardziej ikonicznych gier wszech czasów, takich j
 			<text>Super Famicom</text>
 		</text>		
 		</view>
+
+		<view name="system,detailed, grid">
+			<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+				<color>FF0000</color>
+				<colorEnd>444444</colorEnd>
+			</image>
+		</view>
 </theme>

@@ -4,9 +4,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme defaultView="detailed">
    <formatVersion>7</formatVersion>
       <view name="detailed, grid">
-      <text name="games-number" extra="true">
-               <text>{binding:total} ${GamesNumber}</text>
 
+      <text name="folders-number, games-number" extra="true">
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.385 0.08</size>
@@ -23,23 +22,25 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
          <zIndex>502</zIndex>
          <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>ff000000</backgroundColor>
-         <visible>true</visible>
+         <backgroundColor>00ff0000</backgroundColor>
       </text>
-
-      <textlist name="gamelist">
-         
-         <extraTextColor>60606000</extraTextColor>
-         <extraTextSelectedColor>A0A0A000</extraTextSelectedColor>
-         <glowColor>00000000</glowColor>
-      </textlist>
+      <text name="folders-number" extra="true">
+         <text>{system:name}: {binding:total} ${GamesNumber}</text>
+         <text>{game:system:name}: {game:system:total} ${GamesNumber}</text>
+         <visible>{game:system:collection}</visible>
+      </text>
+      
+      <text name="games-number" extra="true">
+         <text>${theme.timesplayed}: {game:playcount}</text>
+         <visible>!{game:system:collection}</visible>
+      </text>
    </view>
 
    <view name="system">
 
 
       <text name="systemInfoEx_extra" extra="true">
-         <text>{binding:subSystems} ${theme.collections}</text>
+         <text>{binding:subSystems} ${theme.collections} | {binding:total} ${GamesNumber}</text>
          <pos>0.162 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
          <pos tinyScreen="true">0.065 0.045</pos>
@@ -50,7 +51,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
-         <backgroundColor>ff000000</backgroundColor>
+         <backgroundColor>00ff0000</backgroundColor>
          <zIndex>99</zIndex>
       </text>
 

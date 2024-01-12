@@ -4,20 +4,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
    <variables>
-      <menuSelectedColor ifSubset="secondary_colorset:default">111111</menuSelectedColor>
-      <menuSelectorColor ifSubset="secondary_colorset:default">bbbbbb</menuSelectorColor>
-      <menuSelectorColorEnd ifSubset="secondary_colorset:default">aaaaaa</menuSelectorColorEnd>
-      <menuFontcolor>777777</menuFontcolor>
+      <menuSelectedColor ifSubset="secondary_colorset:default">3CAEFB</menuSelectedColor>
+      <menuSelectorColor >222222</menuSelectorColor>
+      <menuSelectorColorEnd>000000</menuSelectorColorEnd>
+      <menuFontcolor>888888</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
       <menuGrouptitle>dddddd</menuGrouptitle>
       <menuGroupSeparator>dddddd</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
       <menubgColor>232323</menubgColor>
       <backgroundgrid>aaaaaa</backgroundgrid>
-      <backgroundgridSelect ifSubset="secondary_colorset:default">DF0024</backgroundgridSelect>
+      <backgroundgridSelect ifSubset="secondary_colorset:default">666666</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
       <gamelistSelectedColor>3CAEFB</gamelistSelectedColor>
-      <gamelistSelectorColor ifSubset="secondary_colorset:default">DF0024</gamelistSelectorColor>
+      <gamelistSelectorColor ifSubset="secondary_colorset:default">666666</gamelistSelectorColor>
       <helpFontColor>DFDCDC</helpFontColor>
       <helpIconColor>DFDCDC</helpIconColor>
       <developerColor>00AC97</developerColor>
@@ -32,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <splash.progressbarActiveEnd>111111</splash.progressbarActiveEnd>
       <splash.progressbar>ffffff69</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
-      <sistema.lineainferior ifSubset="secondary_colorset:default">DF0024</sistema.lineainferior>
-      <sistema.pie>000000cf</sistema.pie>
+      <sistema.lineainferior ifSubset="secondary_colorset:default">3CAEFB</sistema.lineainferior>
+      <sistema.pie>000000</sistema.pie>
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
       <classic.tile.background>000000</classic.tile.background>
       <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>

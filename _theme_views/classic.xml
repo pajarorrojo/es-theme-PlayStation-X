@@ -1,5 +1,5 @@
 <!-- Theme by pajarorrojo
-https://github.com/pajarorrojo/es-theme-PlayStation-X 
+https://githugam.com/pajarorrojo/es-theme-PlayStation-X 
 -->
 <theme>
    <formatVersion>7</formatVersion>
@@ -10,17 +10,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>false</visible>      
       </image>
 
-      
-      <text name="md_name, gamename-grid">
+      <text name="gamename-grid">
          <visible>false</visible>
       </text>
-
 
       <image name="overlay-front" extra="true">
          <path>./_theme_inc/images/overlay-full-grid.png</path>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
-         <minSize>1.001 1.001</minSize>
+         <minSize>1 1</minSize>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
          <zIndex>50</zIndex>
@@ -58,8 +56,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
          <animateSelection>false</animateSelection>
-
-
       </imagegrid>
 
       <gridtile name="default">
@@ -114,18 +110,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <scaleOrigin>2 2</scaleOrigin>
       </ninepatch>
 
-      <image name="linea-inferior" extra="static">
+      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
          <visible>true</visible>
       </image>
 
       <image name="gridtile.favorite">
          <path >./../_theme_inc/images/favorite.png</path>
          <pos >0.05 0.05</pos>
-         <maxSize>0.08 0.08</maxSize>
+         <maxSize>0.1 0.1</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
          <origin>0 0</origin>
-         <color>F3C300</color>
       </image>
 
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
@@ -206,13 +201,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" region="eu" />
-      <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'">
+      <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" >
          <path>./../_theme_inc/images/logos/{game:system}.svg</path>
       </image>
       <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" region="jp">
+         <default>./../_theme_inc/images/logos/{game:system}.svg</default>
          <path>./../_theme_inc/images/logos/jp/{game:system}.svg</path>
       </image>
       <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" region="us">
+         <default>./../_theme_inc/images/logos/{game:system}.svg</default>
          <path>./../_theme_inc/images/logos/us/{game:system}.svg</path>
       </image>
 
@@ -233,29 +230,45 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" region="eu" />
-      <image name="console-classic-view" if="${system.manufacturer} == 'Collections'">
+      <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" >
          <path>./../_theme_inc/images/consoles/{game:system}.png</path>
       </image>
       <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" region="jp">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
          <path>./../_theme_inc/images/consoles/jp/{game:system}.png</path>
       </image>
       <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" region="us">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
          <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
       </image>      
       
 
       <text name="md_description">
          <color>ffffff</color>
-         <pos>0.30 0.54</pos>
-         <size>0.41 0.149</size>
+         <pos>0.30 0.536</pos>
+         <size>0.49 0.154</size>
          <size tinyScreen="true">0.41 0.139</size>
          <lineSpacing>1.1</lineSpacing>
          <backgroundColor>ff000000</backgroundColor>
+         
       </text>
 
+<!--
+      <text name="game-releasedate" ifSubset="info-bar:YES" extra="true">
+         <text>{game:releaseYear}</text>
+         <pos>0.30 0.707</pos>
+         <size>0.038 0.034</size>
+         <size ifSubset="aspect-ratio:5-4">0.042 0.035</size>
+         <size ifSubset="aspect-ratio:4-3">0.048 0.035</size>
+         <fontSize>0.022</fontSize>
+         <zIndex>51</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+         <color>ffffff</color>
+         <visible>false</visible>
+      </text>-->
 
       <datetime name="md_releasedate" ifSubset="info-bar:YES">
-         <pos>0.30 0.697</pos>
+         <pos>0.30 0.707</pos>
          <size>0.038 0.034</size>
          <size ifSubset="aspect-ratio:5-4">0.042 0.035</size>
          <size ifSubset="aspect-ratio:4-3">0.048 0.035</size>
@@ -266,7 +279,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="md_developer" ifSubset="info-bar:YES">
          <size>0.38 0.035</size>
-         <pos>0.335 0.697</pos>
+         <pos>0.335 0.707</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.345 0.698</pos>
          <pos tinyScreen="true" ifSubset="aspect-ratio:4-3">0.355 0.696</pos>
          <zIndex>52</zIndex>
@@ -274,11 +287,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <rating name="md_rating">
-         <pos>0.3 0.733</pos>
+         <pos>0.3 0.743</pos>
       </rating>
 
       <text name="md_genre" ifSubset="info-bar:YES" >
-         <pos>0.380 0.73</pos>
+         <pos>0.380 0.74</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.405 0.729</pos>
          <size>0.41 0.034</size>
          <zIndex>51</zIndex>
@@ -298,11 +311,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="md_savestate,md_nosavestate">
-         <x>0.372 </x>
+         <x>0.402 </x>
       </image>
 
       <image name="md_manual,md_nomanual" >
-         <x>0.402 </x>
+         <x>0.372 </x>
       </image>
 
       <text name="system-name" extra="true">
@@ -317,10 +330,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <customView name="classic"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
       
-      <text name="md_description">
-         <size>0.47 0.149</size>
-         <size tinyScreen="true">0.47 0.139</size>
-      </text>
+
 
 
       <text name="md_description">
@@ -333,7 +343,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </datetime>
 
       <text name="md_developer">
-         <x>0.195</x>
+         <x>0.198</x>
          <x ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.210</x>
          <x tinyScreen="true" ifSubset="aspect-ratio:4-3">0.220</x>
       </text>

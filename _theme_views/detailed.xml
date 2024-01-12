@@ -13,8 +13,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.458 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
-         <extraTextColor>606060</extraTextColor>
-         <extraTextSelectedColor>A0A0A0</extraTextSelectedColor>
+         <extraTextColor>999999</extraTextColor>
+         <extraTextSelectedColor>dddddd</extraTextSelectedColor>
          <selectorImagePath>./../_theme_inc/images/selector-lineas-blancas-transp50.png</selectorImagePath>
          <horizontalMargin>0.015</horizontalMargin>
          <primaryColor>ffffff</primaryColor>
@@ -22,8 +22,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:4-3|5-4">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
          <glowColor>00000035</glowColor>
-         <glowSize ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-         <glowOffset ifArch="rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+         <glowSize ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+         <glowOffset ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
          <fontSize>0.035</fontSize>
          <alignment>left</alignment>
          <lineSpacing>1.45</lineSpacing>
@@ -166,6 +166,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
+         <opacity>0.4</opacity>
       </image>
 
 
@@ -175,10 +176,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
       </text>
 
-      <image name="linea-inferior" extra="static">
+      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
-         <size>1 0.0011</size>
+         <size>1 0.002</size>
          <size tinyScreen="true">1 0.005</size>
          <color>${sistema.lineainferior}</color>
          <gradientType>horizontal</gradientType>
@@ -213,14 +214,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<path>./../_theme_inc/images/manual.png</path>
 			<maxSize>0.03 0.04</maxSize>
 			<zIndex>100</zIndex>
-			<pos>0.49 0.88</pos>
+			<pos>0.49 0.82</pos>
 		</image>
 
 
 		<image name="md_savestate,md_nosavestate" onclick="savestates" ifSubset="info-bar:YES">
 			<origin>0.5 0.5</origin>
 			<path>./../_theme_inc/images/SaveState.png</path>
-			<pos>0.49 0.82</pos>
+			<pos>0.49 0.88</pos>
 			<maxSize>0.03 0.04</maxSize>
 			<zIndex>150</zIndex>
 		</image>
@@ -231,13 +232,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<image name="md_savestate, md_manual">
 			<color>${gamelistSelectorColor}e6</color>
-		</image>
-
-      <image name="md_manual, md_savestate">
-			<storyboard>
-				<animation property="opacity" from="0.6" to="1" duration="350" mode="easeInOut" autoreverse="true" repeat="forever" />
-
-			</storyboard>
 		</image>
 
    </view>

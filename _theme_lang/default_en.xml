@@ -86,5 +86,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.gamesplash-type>Gamesplash type</theme.gamesplash-type>
 		<image-full-size>Full size image</image-full-size>
 		<theme.nav-sounds>Navigation sounds set</theme.nav-sounds>
+		<singlelViewName>Game by game</singlelViewName>
+		<theme.timesplayed>Times played</theme.timesplayed>
 	</variables>
 </theme>

@@ -27,4 +27,11 @@ El 2600 fue inicialmente vendido con dos controladores de joystick, un par de co
 			<text>Atari 2600</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>EA6B00</color>
+			<colorEnd>663300</colorEnd>
+		</image>
+	</view>
 </theme>

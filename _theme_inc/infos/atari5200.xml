@@ -25,4 +25,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Atari 5200</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ffff00</color>
+			<colorEnd>FF0000</colorEnd>
+		</image>
+	</view>
 </theme>

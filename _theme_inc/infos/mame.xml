@@ -26,4 +26,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Arcade M.A.M.E.</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>00ABD9</color>
+			<colorEnd>004D7C</colorEnd>
+		</image>
+	</view>
 </theme>

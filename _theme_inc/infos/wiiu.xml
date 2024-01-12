@@ -25,4 +25,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Nintendo Wii U</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ffffff</color>
+			<colorEnd>0098CC</colorEnd>
+		</image>
+	</view>
 </theme>

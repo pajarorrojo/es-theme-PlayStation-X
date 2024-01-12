@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>false</visible>      
       </image>
 
-      <text name="md_name, gamename-grid">
+      <text name="gamename-grid">
          <visible>false</visible>
       </text>
 
@@ -82,11 +82,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <maxSize>0.9 0.9</maxSize>
 		</image>
 
-
-
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
          <pos>0.777 0.777</pos>
-         <maxSize>0.155 0.155</maxSize>
+         <maxSize>0.2  0.2</maxSize>
+      </image>
+
+      <image name="gridtile.favorite">
+         <pos>0.02 0.02</pos>
+         <maxSize>0.17 0.17</maxSize>
       </image>
 
       <text name="gamename-full-grid" extra="true">
@@ -170,11 +173,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="md_manual,md_nomanual">
-         <x>0.115 </x>
+         <x>0.085 </x>
       </image>
 
       <image name="md_savestate,md_nosavestate">
-         <x>0.085 </x>
+         <x>0.115 </x>
+
       </image>
 
       <image name="console-grid-view" extra="true" >

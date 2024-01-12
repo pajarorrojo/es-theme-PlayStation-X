@@ -15,4 +15,10 @@
 			<text>PlayStation minis</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>118fdb</color>
+			<colorEnd>0094FF</colorEnd>
+		</image>
+	</view>
 </theme>

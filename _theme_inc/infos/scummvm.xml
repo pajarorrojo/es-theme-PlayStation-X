@@ -22,4 +22,10 @@ ScummVM también soporta una variedad de juegos que no utilizan el motor SCUMM, 
 			<text>ScummVM</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>73DB00</color>
+			<colorEnd>ABACAB</colorEnd>
+		</image>
+	</view>
 </theme>

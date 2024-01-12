@@ -3,10 +3,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
    <formatVersion>7</formatVersion>
-   <variables>
+
+   <variables ifSubset="colorset:blue">
       <menuSelectedColor>ffffff</menuSelectedColor>
       <menuSelectorColor>DF0024a6</menuSelectorColor>
       <menuSelectorColorEnd>DF0024</menuSelectorColorEnd>
+   </variables>
+   <variables ifSubset="colorset:black">
+      <menuSelectedColor>DF0024</menuSelectedColor>
+   </variables>
+   <variables>
       <sistema.lineainferior>DF0024</sistema.lineainferior>
       <splash.progressbarActive>DF0024</splash.progressbarActive>
       <gamelistSelectorColor>DF0024</gamelistSelectorColor>

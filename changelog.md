@@ -1,8 +1,61 @@
-Version 39 beta (xx/xx/202x)
+Version 39 Beta 2 (12/01/2024)
 
-- Fix clock overflow when am/pm format
-- Fix cropped images and animations in gamelists (batocera 39 beta issue)
-- Added vertical autoscrolling in system descriptions if description overflows
+**Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, this theme version is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
+
+- New: Introduced a "Game by Game" gamelist view. This view eliminates the carousel and scrolling, displaying only one game info on the screen. It is particularly useful for systems with just one game or a limited number of titles. Can be configured with any type of image (thumbnail, image, marquee, cartridge, box art, fanart...) and customized per system.
+- New: Normalized themed collections in theme .info file (in Batocera 39 or higher you can create them automatically through the collection options in the frontend):
+   - Castlevania
+   - Donkey kong
+   - Dragon Ball
+   - Final Fantasy
+   - Mario Bros.
+   - Mega Man
+   - Metal Gear
+   - Metal Slug
+   - Metroid
+   - Mortal Kombat
+   - Pac-Man
+   - Sonic
+   - Space Invaders
+   - Street Fighter
+   - Tetris
+   - Zelda
+- New: Information about the ROMs folder is now visibly displayed at the bottom left of the system view screen.
+- New: Added two new favorite frontends option in the theme options: ProjectArcade and JELOS
+- Change: The system carousel has undergone a complete reconstruction, adjusting the spacing between logos to better align with the aesthetic of the PS4 interface.
+- Change: Set "Game by game" view by default in the next systems  
+   - Abuse
+   - Hurrican
+   - Hydra Castle Labyritnth
+   - Mr. Boom
+   - Od Commander
+   - Pr Boom
+   - Sdl Pop
+   - Super Bros. War
+   - Tyrian
+   - TyrQake
+   - Xrick
+- Change: Hearth icons and medias for fav games instead star.
+- Change: Hide favorite icon when browsing favorite games system.
+- Change: The netplay icon (top two face icon) now turns yellow on the game list screen to indicate game compatibility with netplay.
+- Change: In game lists, the main image now disappears when the game video is in window mode and is present, preventing the image from showing beneath when the video is playing.
+- Change: The primary color scheme has been set to black by default instead blue.
+- Change: The secondary colors of the menu have been adjusted for the primary black color scheme.
+- Change: Video displayed in small window by default in the system view.
+- Change: Enabled vertical autoscrolling in system descriptions if description overflows the area.
+- Change: The bottom line has been updated with custom gradient colors specific to each system (currently, on some systems).
+- Fix: Enhancements to list animations, now smoother.
+- Fix: Muting videosnaps now also applies to videos within the grid.
+- Fix: Hide the help button bar when the main interface option is set to NO.
+- Fix: Numerous system videos (advertising) have been adjusted with the correct aspect ratio.
+- Fix: When the random fanart option is enabled in the system view, the system default image is now displayed if fanart is not available.
+- Fix: System names are now visible on inactive carousel logos when no logo image exists.
+- Fix: Image animation for boxback media.
+- Fix: Clock overflow when am/pm format.
+- Fix: Cropped images with animations in batocera 39.
+- Fix: sg-1000 logo and console for collections view.
+- Added: Fallout (Vault Boy) preset avatars
+
 
 
 

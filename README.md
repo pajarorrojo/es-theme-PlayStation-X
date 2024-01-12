@@ -1,9 +1,14 @@
-# PlayStation-X Retrogaming Frontend
-Theme inspired in the PlayStation 3 / 4 interface, with custom avatar and username for Batocera, RetroBat and EmuElec.
+# PlayStation-X Retrogaming theme frontend
+A theme inspired by the PlayStation 3/4 interface, featuring custom avatars, usernames, retroachievements compatibility and much more for Batocera, RetroBat, and EmuElec frontends.
 
-To install, just unzip and copy the content in "/userdata/themes/" or "/share/themes/" folder. Also available via Batocera themes downloader.
+Installation is simple – unzip the file and copy its contents into the "/userdata/themes/" or "/share/themes/" folder. Additionally, you can install it directly through the Batocera themes downloader.
 
-Hope you enjoy! any suggestion is fully welcomed.
+We hope you enjoy it! Any suggestions are fully welcomed.
+
+## Important notice to Version 39
+Warning: Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, this theme version (39) is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
+https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/Previous-releases
+https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/current_release
 
 
 ## The version 37 introduce a new and improved game lists enviroment!

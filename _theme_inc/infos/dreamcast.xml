@@ -25,4 +25,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Dreamcast</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ffffff</color>
+			<colorEnd>0059B2</colorEnd>
+		</image>
+		<image name="linea-inferior" extra="static" region="us" ifHelpPrompts="true">
+			<color>ffffff</color>
+			<colorEnd>D96D00</colorEnd>
+		</image>
+
+		<image name="linea-inferior" extra="static" region="jp" ifHelpPrompts="true">
+			<color>ffffff</color>
+			<colorEnd>D96D00</colorEnd>
+		</image>
+		
+	</view>
 </theme>

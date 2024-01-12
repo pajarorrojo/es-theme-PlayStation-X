@@ -5,8 +5,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <view name="system">
       <image name="logo">
-         <path>./_theme_inc/images/caratulas/default.png</path>
-         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
          <path ifSubset="colorset:black">./_theme_inc/images/caratulas/${system.theme}-b.png</path>
@@ -14,42 +12,74 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
       </image>
-
-
-      <image name="logo" extra="true" region="us">
+      <image name="logo" region="us" extra="true">
          <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
       </image>
 
-      <image name="logo" extra="true" region="jp">
+      <image name="logo" region="jp" extra="true">
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
       </image>
 
       <carousel name="systemcarousel">
-           <!--<type>horizontal_wheel</type>
-         <logoRotation>0.039</logoRotation>
-         <logoRotationOrigin>0 1500</logoRotationOrigin>-->
          <type>horizontal</type>
          <systemInfoDelay>5</systemInfoDelay>
          <color>00000000</color>
          <logoAlignment>top</logoAlignment>
-         <zIndex>80</zIndex>
+         <zIndex>98</zIndex>
          <defaultTransition ifSubset="anim-system:NO">instant</defaultTransition>
-         <defaultTransition ifSubset="anim-system:YES">fade & slide</defaultTransition>
-         <transitionSpeed>500</transitionSpeed>
-         <minLogoOpacity ifSubset="video-system:background-option">0.4</minLogoOpacity>
-         <minLogoOpacity ifSubset="video-system:NO|small-screen">0.7</minLogoOpacity>
+         <defaultTransition ifSubset="anim-system:YES">fade &amp; slide</defaultTransition>
+         <transitionSpeed>600</transitionSpeed>
+         <minLogoOpacity>0.7</minLogoOpacity>
+         <itemTemplate>
+            <container>
+               <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
+                  <path>{system:logo}</path>
+                  </image>
+               <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
+                  <path ifSubset="colorset:blue">./_theme_inc/images/caratulas/default.png</path>
+                  <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
+                  <visible>!exists({system:logo})</visible>
+               </image>
+               <text name="substitutionText" color="white" alignment="center" multiLine="true">
+                  <visible>!exists({system:logo})</visible>
+                  <text>{system:fullName}</text>
+                  <fontSize ifSubset="carousel:big">0.04</fontSize>
+                  <fontSize ifSubset="carousel:medium">0.035</fontSize>
+                  <fontSize ifSubset="carousel:small">0.03</fontSize>
+                  <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+                  <forceUppercase>false</forceUppercase>
+                  <lineSpacing>1.2</lineSpacing>
+                  <color>white</color>
+                  <size>0.625 1</size>
+                  <pos>0.19 0</pos>
+                  <padding>0.04 0 0.04 0</padding>
+               </text>
+               <storyboard ifSubset="nav-sound:default">
+                  <sound  path="./../_theme_inc/sound-effects/enter-system.ogg"/>
+                  <animation property="y" from="1" duration="300" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:ff">
+                  <sound  path="./../_theme_inc/sound-effects/ff/enter-system.ogg"/>
+                  <animation property="y" from="1" duration="300" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:sd">
+                  <sound  path="./../_theme_inc/sound-effects/sd/enter-system.ogg"/>
+                  <animation property="y" from="1" duration="300" mode="easeOutCubic" />
+               </storyboard>
+             </container>
+          </itemTemplate>
+
       </carousel>
-
-
 
 
       <image name="marco-activo" extra="static">
          <path>./../_theme_inc/images/marco-activo-iso.png</path>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
-         <zIndex>89</zIndex>
+         <zIndex>99</zIndex>
+
       </image>
 
       <text name="start" extra="true">
@@ -59,7 +89,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <zIndex>46</zIndex>
+         <zIndex>99</zIndex>
       </text>
 
       <text name="system_name" extra="true">
@@ -69,7 +99,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>FFFFFF</color>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">./../_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <zIndex>45</zIndex>
+         <zIndex>99</zIndex>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -83,64 +113,47 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
-      <text name="fullName" extra="true">
-         <text>${system.theme}</text>
-         <alignment>center</alignment>
-         <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <zIndex>45</zIndex>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <backgroundColor>${psx-theme-blue4}</backgroundColor>
-         <backgroundColor ifSubset="colorset:black">000000</backgroundColor>
-         <storyboard>
-            <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
-            <animation property="opacity" from="0" to="1" begin="300" duration="0" mode="linear" />
-         </storyboard>
-      </text>
-
-      <!-- FIN CARRUSELES -->
-
-      <image name="background" extra="static">
-         <zIndex>1</zIndex>
-      </image>
-
       <image name="background-art" extra="true" region="eu" />
-      <image name="background-art" extra="true" ifSubset="background-system:fanart|default">
+      <image name="background-art" extra="true" ifSubset="background-system:default|fanart">
          <path>./_theme_inc/images/background/${system.theme}.jpg</path>
          <path region="us">./_theme_inc/images/background/us/${system.theme}.jpg</path>
          <path region="jp">./_theme_inc/images/background/jp/${system.theme}.jpg</path>
-         <path ifSubset="background-system:fanart">{random:fanart}</path>
-         <zIndex>40</zIndex>
+         <zIndex>45</zIndex>
       </image>
+      <image name="background-fanart" extra="true" ifSubset="background-system:fanart">
+      <path ifSubset="background-system:fanart">{random:fanart}</path>
+         <zIndex>46</zIndex>
+      </image>
+
+
 
       <image name="overlay" extra="static">
          <path>./_theme_inc/images/overlay-systemview.png</path>
-         <zIndex>42</zIndex>
+         <zIndex>48</zIndex>
       </image>
 
-      <image name="background, background-art, overlay" extra="true">
+      <image name="background-art, overlay, background-fanart">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <minSize>1.002 1.002</minSize>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
+         <autoFade>false</autoFade>
       </image>
 
-      <image name="linea-inferior" extra="static">
+      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
          <path>./_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
-         <size>1 0.0011</size>
+         <size>1 0.002</size>
          <size tinyScreen="true">1 0.005</size>
          <color>${sistema.lineainferior}</color>
-         <verticalAlignment>top</verticalAlignment>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
+         <colorEnd>${sistema.lineainferior}</colorEnd>
+         <gradientType>horizontal</gradientType>
          <zIndex>99</zIndex>
+         <autoFade>false</autoFade>
       </image>
 
-      <image name="pie-barra" extra="static">
+      <image name="pie-barra" extra="static" ifHelpPrompts="true">
          <path>./_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.2</size>
@@ -149,10 +162,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
+         <opacity>0.4</opacity>
       </image>
 
       <image name="logo2" extra="true">
-         <pos>0.825 0.78</pos>
+         <pos>0.825 0.77</pos>
          <alignment>center</alignment>
          <maxSize>0.16 0.12</maxSize>
          <origin>0 0</origin>
@@ -190,7 +204,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="consoles" extra="true">
          <tile>false</tile>
-         <pos>0.825 0.49</pos>
+         <pos>0.825 0.48</pos>
          <origin>0 0</origin>
          <verticalAlignment>bottom</verticalAlignment>
          <alignment>center</alignment>
@@ -208,6 +222,42 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="consoles" extra="true" region="jp">
          <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
       </image>
+
+      <image name="gamefolder" extra="static" if="${system.manufacturer} != 'Collections'">
+         <tile>false</tile>
+         <pos>0.012 0.895</pos>
+         <origin>0 0</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.025 0.025</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+         <path>./_theme_inc/images/gamefolder.png</path>
+         <autoFade>false</autoFade>
+      </image>
+      <image name="gamefolder" if="${system.manufacturer} != 'Collections'" ifHelpPrompts="false">
+         <y>0.945</y>
+      </image>
+
+      
+
+      <text name="system-folder" extra="true" if="${system.manufacturer} != 'Collections'" >
+         <text>/${system.theme}</text>
+         <fontSize>0.025</fontSize>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <color>FFFFFF</color>
+         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <zIndex>99</zIndex>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <pos>0.037 0.891</pos>
+      </text>
+
+      <text name="system-folder" extra="true" if="${system.manufacturer} != 'Collections'"  ifHelpPrompts="false">
+         <y>0.941</y>
+      </text>
 
 
 

@@ -1,0 +1,32 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Donkey Kong story traces back to the classic arcade game of the '80s, where a gorilla named Donkey Kong kidnaps Mario's girlfriend, Pauline. Since then, the franchise has evolved, featuring iconic games like the Donkey Kong Country series, where Donkey Kong and his friends embark on platform-filled adventures, facing challenges to reclaim their beloved bananas and protect their home from foes like the Kremlings.
+
+With its distinctive mix of charismatic characters, clever level designs, and addictive gameplay, the Donkey Kong tale has spanned generations, captivating players with its charm and becoming a cornerstone in the history of video games.
+			</text>
+			<text lang="es,ca,eu">La historia de Donkey Kong se remonta al clásico juego arcade de los años 80, donde un gorila llamado Donkey Kong secuestra a la novia de Mario, Pauline. Desde entonces, la franquicia ha evolucionado, presentando juegos emblemáticos como la serie Donkey Kong Country, donde Donkey Kong y sus amigos se embarcan en aventuras llenas de plataformas, enfrentando desafíos para recuperar sus preciadas bananas y proteger su hogar de enemigos como los Kremlings.
+
+Con su distintiva combinación de personajes carismáticos, diseños de niveles ingeniosos y una jugabilidad adictiva, la historia de Donkey Kong ha trascendido generaciones, cautivando a jugadores con su encanto y convirtiéndose en una piedra angular de la historia de los videojuegos. 
+			</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Donkey Kong</text>
+		</text>
+	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ff0000</color>
+			<colorEnd>ffcc00</colorEnd>
+		</image>
+	</view>
+</theme>

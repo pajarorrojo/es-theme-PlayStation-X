@@ -85,5 +85,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Écran de chargement du jeu</theme.gamesplash-type>
     <image-full-size>Image en plein écran</image-full-size>
     <theme.nav-sounds>Sons de navigation</theme.nav-sounds>
+    <singlelViewName>Jeu à jeu</singlelViewName>
+    <theme.timesplayed>Nombre de parties</theme.timesplayed>
   </variables>
 </theme>

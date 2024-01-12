@@ -13,7 +13,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                   <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
                   <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
                   <delay>1</delay>
-                  <zIndex>41</zIndex>
+                  <zIndex>47</zIndex>
                   <audio ifSubset="video-system-audio:disable-audio">false</audio>
             </video>
 

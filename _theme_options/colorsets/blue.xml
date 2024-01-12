@@ -33,7 +33,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <splash.progressbar>ffffff80</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
       <sistema.lineainferior ifSubset="secondary_colorset:default">0070d1</sistema.lineainferior>
-      <sistema.pie>030a18de</sistema.pie>
+      <sistema.pie>030a18</sistema.pie>
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
       <classic.tile.background>020C29</classic.tile.background>
       <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>

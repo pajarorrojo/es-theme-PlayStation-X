@@ -91,13 +91,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <image name="gridtile.favorite">
-         <path>./../_theme_inc/images/favorite-corner-left.svg</path>
-         <pos>0 0</pos>
-         <maxSize>0.2 0.2</maxSize>
+         <path>./../_theme_inc/images/favorite.png</path>
+         <pos>0.04 0.05</pos>
+         <maxSize>0.12 0.12</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
          <origin>0 0</origin>
-         <color>${grid.starFill}cc</color>
+         <color>${psx-theme-red}</color>
       </image>
 
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
@@ -111,6 +111,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="gridtile.cheevos" if="{system.name} == 'retroachievements'">
+         <visible>false</visible>
+         <color>00000000</color>
+
+      </image>
+
+      <image name="gridtile.favorite" if="{system.name} == 'favorites'">
          <visible>false</visible>
          <color>00000000</color>
 
@@ -148,13 +154,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
          <fontSize tinyScreen="true">0.047</fontSize>
          <origin>0 0</origin>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
          <zIndex>100</zIndex>
          <singleLineScroll>true</singleLineScroll>
          <backgroundColor>ff000000</backgroundColor>
-         
       </text>
 
 
@@ -164,7 +166,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.55 0.09</size>
          <size tinyScreen="true">0.55 0.070</size>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.027</fontSize>
+         <fontSize>0.029</fontSize>
          <lineSpacing>1.1</lineSpacing>
          <origin>0 0</origin>
          <backgroundColor>ff000000</backgroundColor>
@@ -234,6 +236,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y>0.415</y>
       </image>
 
+      <image name="grid-gameFlag, grid_gamePlayers, grid-gameManual, grid-gameSavestate, grid-gameWheel, grid-gameGun">
+         <maxSize>0.025 0.028</maxSize>
+         <y>0.415</y>
+      </image>
+
       <image name="md_flag" extra="true" ifSubset="info-bar:YES">
          <x>0.310</x>
          <maxSize>0.022 0.05</maxSize>
@@ -256,7 +263,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="md_savestate,md_nosavestate" ifSubset="info-bar:YES">
-         <x>0.370</x>
+         <x>0.400</x>
          <origin>0.5 0.5</origin>
          <path>./../_theme_inc/images/SaveState.png</path>
          <zIndex>150</zIndex>
@@ -264,7 +271,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="md_manual,md_nomanual" ifSubset="info-bar:YES">
          <origin>0.5 0.5</origin>
-         <x>0.400</x>
+         <x>0.370</x>
          <path>./../_theme_inc/images/manual.png</path>
          <zIndex>100</zIndex>
       </image>
@@ -321,19 +328,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<color>${grid.starFill}e6</color>
 		</image>
 
-      <image name="md_manual, md_savestate">
-			<storyboard>
-				<animation property="opacity" from="0.4" to="1" duration="350" mode="easeInOut" autoreverse="true" repeat="forever" />
-			</storyboard>
-		</image>
 
-      <image name="linea-inferior" extra="static">
+      <image name="linea-inferior" extra="static" ifHelpPrompts="true">
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
-         <size>1 0.0011</size>
+         <size>1 0.002</size>
          <size tinyScreen="true">1 0.005</size>
          <color>${sistema.lineainferior}</color>
+         <colorEnd>${sistema.lineainferior}</colorEnd>
          <verticalAlignment>top</verticalAlignment>
+         <gradientType>horizontal</gradientType>
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
@@ -393,11 +397,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="md_manual,md_nomanual">
-         <x>0.125 </x>
+         <x>0.095 </x>
       </image>
 
       <image name="md_savestate,md_nosavestate">
-         <x>0.095 </x>
+         <x>0.125 </x>
       </image>
 
       <image name="console-grid-view"  >

@@ -1,12 +1,12 @@
 <theme>
      <formatVersion>7</formatVersion>
-     <view name=" detailed, grid">
+     <view name=" detailed, grid, system">
           <video name="default_background" extra="static">
                <pos>0 0</pos>
                <size>1 1</size>
                <opacity>0</opacity>
                <storyboard>
-                    <animation property="opacity" from="0" to="0.6" begin="1000" duration="8000" mode="easeInOut" autoreverse="true" repeat="forever" />
+                    <animation property="opacity" from="0" to="0.4" begin="1000" duration="8000" mode="easeInOut" autoreverse="true" repeat="forever" />
                </storyboard>
                <zIndex>47</zIndex>
           </video>
@@ -19,6 +19,12 @@
                <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
           </video>
 
+     </view>
+
+     <view name="system">
+          <video name="default_background" extra="static" ifSubset="video-system:background-option">
+               <visible>false</visible>
+          </video>
 
      </view>
 </theme>

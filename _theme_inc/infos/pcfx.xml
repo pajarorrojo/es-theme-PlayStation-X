@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>PC-FX</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>FFC000</color>
+			<colorEnd>06005F</colorEnd>
+		</image>
+	</view>
 </theme>

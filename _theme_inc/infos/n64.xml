@@ -50,4 +50,10 @@ Nintendoは世界中で3200万台以上を販売し、スーパーマリオ64、
 			<text>Nintendo 64</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>009718</color>
+			<colorEnd>1441D6</colorEnd>
+		</image>
+	</view>
 </theme>

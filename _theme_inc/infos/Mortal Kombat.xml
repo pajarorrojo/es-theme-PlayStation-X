@@ -19,4 +19,10 @@ La franquicia ha evolucionado a lo largo del tiempo, manteniendo su esencia de c
 			<text>Mortal Kombat</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>F6D500</color>
+			<colorEnd>E40B03</colorEnd>
+		</image>
+	</view>
 </theme>

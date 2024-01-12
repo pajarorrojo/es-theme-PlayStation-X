@@ -18,4 +18,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Amiga CD32</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ff0000</color>
+			<colorEnd>333333</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -19,4 +19,10 @@ El lanzamiento de Tetris para la Game Boy de Nintendo fue un hito clave en su é
 			<text>Tetris</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>ffff00</color>
+			<colorEnd>0000ff</colorEnd>
+		</image>
+	</view>
 </theme>

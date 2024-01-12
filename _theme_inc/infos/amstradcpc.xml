@@ -35,4 +35,12 @@ Lehen makinak, CPC 464, ofizialki aurkeztu eta handitik merkaturatu ziren 1984ko
 		</text>
 
 	</view>
+
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static" ifHelpPrompts="true">
+			<color>AA0648</color>
+			<colorEnd>838986</colorEnd>
+		</image>
+	</view>
 </theme>

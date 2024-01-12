@@ -86,5 +86,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>游戏加载屏幕</theme.gamesplash-type>
     <image-full-size>全屏图像</image-full-size>
     <theme.nav-sounds>导航声音</theme.nav-sounds>
+    <singlelViewName>逐场比赛</singlelViewName>
+    <theme.timesplayed>游玩次数</theme.timesplayed>
   </variables>
 </theme>

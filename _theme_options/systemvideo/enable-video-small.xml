@@ -5,9 +5,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
      <formatVersion>7</formatVersion>
      <view name="system">
           <video name="system_video" extra="true">
-               <size>0.212 0.25</size>
+               <maxSize>0.225 0.338</maxSize>
                <size ifSubset="aspect-ratio:4-3|5-4">0.22 0.22</size>
-               <size ifSubset="aspect-ratio:16-9|16-10">0.212 0.25</size>
                <effect>none</effect>
                <roundCorners>0</roundCorners>
                <showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -23,47 +22,42 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
           <text name="system_description" extra="true">
                <backgroundColor>ff000000</backgroundColor>
+               <size>0.54 0.315</size>
+               <fontSize>0.026</fontSize>
            </text>
 
+<!-- GRANDE -->
 
           <video name="system_video" extra="true" ifSubset="carousel:big" >
-               <pos>0.02 0.612</pos>
+               <pos>0.02 0.608</pos>
+               <maxSize>0.205 0.27</maxSize>
+
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:big">
-               <size>0.54 0</size>
-               <fontSize>0.023</fontSize>
-               <fontSize ifSubset="aspect-ratio:4-3|5-4">0.02</fontSize>
-               <fontSize ifSubset="aspect-ratio:16-10">0.022</fontSize>
-               <pos>0.26 0.608</pos>
+               <pos>0.24 0.608</pos>
           </text>
 
-
+<!-- MEDIANO -->
           <video name="system_video" extra="true" ifSubset="carousel:medium" >
-               <pos>0.02 0.512</pos>
+               <pos>0.02 0.53</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:medium">
-               <size>0.54 0</size>
-               <pos>0.26 0.512</pos>
-               <fontSize>0.026</fontSize>
-               <fontSize ifSubset="aspect-ratio:4-3|5-4">0.023</fontSize>
-
+               <pos>0.26 0.528</pos>
           </text>
 
+<!-- PEQUEÑO -->
 
           <video name="system_video" extra="true" ifSubset="carousel:small" >
-               <pos>0.02 0.46</pos>
+               <pos>0.02 0.52</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:small">               
-               <size>0.54 0</size>
-               <fontSize>0.026</fontSize>
-               <fontSize ifSubset="aspect-ratio:4-3|5-4">0.024</fontSize>
-               <pos>0.26 0.46</pos>
+               <pos>0.26 0.52</pos>
           </text>
 
 

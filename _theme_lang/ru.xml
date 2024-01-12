@@ -20,7 +20,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <green>Зеленый</green>
     <purple>Фиолетовый</purple>
     <orange>Оранжевый</orange>
-    <pink>Розовый</pink>
+    <pink>Розовый</pink>cus
     <default>Стандартный</default>
     <big>Большой</big>
     <medium>Средний</medium>
@@ -86,5 +86,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Экран загрузки игры</theme.gamesplash-type>
     <image-full-size>Изображение на весь экран</image-full-size>
     <theme.nav-sounds>Звуки навигации</theme.nav-sounds>
+    <singlelViewName>Игра за игрой</singlelViewName>
+    <theme.timesplayed>Сыграно раз</theme.timesplayed>
   </variables>
 </theme>

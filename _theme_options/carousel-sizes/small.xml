@@ -6,28 +6,28 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system">
       <!-- CARRUSEL PEQUEÑO -->
       <carousel name="systemcarousel">
-         <pos>-0.571 0.113</pos>
-         <pos ifSubset="aspect-ratio:16-9">-0.572 0.113</pos>
-         <pos ifSubset="aspect-ratio:4-3">-0.921 0.114</pos>
-         <pos ifSubset="aspect-ratio:3-2">-0.707 0.114</pos>
-         <pos ifSubset="aspect-ratio:16-10">-0.657 0.111</pos>
-         <pos ifSubset="aspect-ratio:5-3">-0.6355 0.113</pos>
-         <pos ifSubset="aspect-ratio:5-4">-1.01 0.114</pos>
+         <logoScale>1.48</logoScale>
+         <logoSize>0.169</logoSize>
+         <scaledLogoSpacing>1.08</scaledLogoSpacing>
+         <maxLogoCount>16</maxLogoCount>
+
+         <pos>-0.545 0.114</pos>
+         <pos ifSubset="aspect-ratio:16-9">-0.545 0.114</pos>
+         <pos ifSubset="aspect-ratio:16-10">-0.622 0.114</pos>
+         <pos ifSubset="aspect-ratio:4-3">-0.881 0.114</pos>
+         <pos ifSubset="aspect-ratio:5-4">-0.945 0.114</pos>
+         <pos ifSubset="aspect-ratio:3-2">-0.682 0.115</pos>
+
+         <size>1.56 1</size>
+         <size ifSubset="aspect-ratio:16-9">1.56 1</size>
+         <size ifSubset="aspect-ratio:16-10">1.73 1</size>
+         <size ifSubset="aspect-ratio:4-3">2.08 1</size>
+         <size ifSubset="aspect-ratio:5-4">2.22 1</size>
+         <size ifSubset="aspect-ratio:3-2">1.86 1</size>
 
 
 
-         <size>1.61 1</size>
-         <size ifSubset="aspect-ratio:16-9">1.6128 1</size>
-         <size ifSubset="aspect-ratio:4-3">2.16 1</size>
-         <size ifSubset="aspect-ratio:3-2">1.91 1</size>
-         <size ifSubset="aspect-ratio:16-10">1.8 1</size>
-         <size ifSubset="aspect-ratio:5-3">1.75 1</size>
-         <size ifSubset="aspect-ratio:5-4">2.35 1</size>
-
-
-         <logoScale>1.175</logoScale>
-         <logoSize>0.212</logoSize>
-         <maxLogoCount>12</maxLogoCount>
+        
       </carousel>
 
       <image name="marco-activo" extra="static">
