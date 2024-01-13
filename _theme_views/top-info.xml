@@ -56,7 +56,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
          <path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo.png</path>
          <path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo-0.png</path>
+			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo.png</path>
          <pos>0.009 0.012</pos>
          <maxSize>0.096</maxSize>
          <color>ffffff</color>
