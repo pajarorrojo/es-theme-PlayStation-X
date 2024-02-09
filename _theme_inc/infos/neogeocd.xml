@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Neo Geo CD</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>f8d805</color>
+			<colorEnd>1682db</colorEnd>
+		</image>
+	</view>
 </theme>

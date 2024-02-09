@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	    
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>The Macintosh (mainly Mac since 1998) is a family of personal computers designed, manufactured, and sold by Apple Inc. (originally as Apple Computer, Inc.) since January 1984.
 
 The original Macintosh is the first successful mass-market all-in-one desktop personal computer to have featured a graphical user interface, built-in screen, and mouse. Apple sold the Macintosh alongside its popular Apple II, Apple IIGS, Apple III, and Apple Lisa families of computers until the other models were discontinued in the 1990s.
@@ -20,5 +20,11 @@ El Mac terminó por convertirse en la línea estándar de desarrollo de los orde
 		<text name="system_name" extra="true">
 			<text>Macintosh</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>006c19</color>
+			<colorEnd>1c00a8</colorEnd>
+		</image>
 	</view>
 </theme>

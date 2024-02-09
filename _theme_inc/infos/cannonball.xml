@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 	
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Cannonball is a program which allows you to play an enhanced version of Yu Suzuki's seminal arcade racer, OutRun, on a variety of systems.
 
 Cannonball is not an emulator; it is a complete rewrite of the original game into portable C++

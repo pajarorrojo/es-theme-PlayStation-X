@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Philips CD-i</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>ee0202</color>
+			<colorEnd>2e89ca</colorEnd>
+		</image>
+	</view>
 </theme>

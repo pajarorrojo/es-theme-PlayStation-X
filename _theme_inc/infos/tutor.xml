@@ -22,4 +22,10 @@ Era arquitectónicamente similar, pero no idéntico, al Texas Instruments TI-99/
 			<text>Tomy Tutor</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>50aee1</color>
+			<colorEnd>9b0d0d</colorEnd>
+		</image>
+	</view>
 </theme>

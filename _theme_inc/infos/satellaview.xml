@@ -22,5 +22,11 @@ Con 1 megabit de espacio de ROM y 512 kB adicionales de RAM, Satellaview permit√
 		<text name="system_name" extra="true">
 			<text>Super Famicom Satellaview</text>
 		</text>
-		</view>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>05a3f8</color>
+			<colorEnd>dbc416</colorEnd>
+		</image>
+	</view>
 </theme>

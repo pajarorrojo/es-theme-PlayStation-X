@@ -3,7 +3,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
    <formatVersion>7</formatVersion>
-   <view name="system">
+   <view name="system" >
+
+
       <image name="logo">
          <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
          <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
@@ -56,17 +58,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                   <pos>0.19 0</pos>
                   <padding>0.04 0 0.04 0</padding>
                </text>
-               <storyboard ifSubset="nav-sound:default">
-                  <sound  path="./../_theme_inc/sound-effects/enter-system.ogg"/>
-                  <animation property="y" from="1" duration="300" mode="easeOutCubic" />
+               <storyboard ifSubset="nav-sound:ps4">
+                  <sound path="./../_theme_inc/sound-effects/ps4/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
                </storyboard>
                <storyboard ifSubset="nav-sound:ff">
                   <sound  path="./../_theme_inc/sound-effects/ff/enter-system.ogg"/>
-                  <animation property="y" from="1" duration="300" mode="easeOutCubic" />
+                  <animation property="y" from="0.5" duration="300" mode="easeOutCubic" />
                </storyboard>
                <storyboard ifSubset="nav-sound:sd">
                   <sound  path="./../_theme_inc/sound-effects/sd/enter-system.ogg"/>
-                  <animation property="y" from="1" duration="300" mode="easeOutCubic" />
+                  <animation property="y" from="0.5" duration="400" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:ps5">
+                  <sound path="./../_theme_inc/sound-effects/ps5/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
                </storyboard>
              </container>
           </itemTemplate>
@@ -78,7 +84,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>./../_theme_inc/images/marco-activo-iso.png</path>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
-         <zIndex>99</zIndex>
+         <zIndex>9999</zIndex>
 
       </image>
 
@@ -115,6 +121,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="background-art" extra="true" region="eu" />
       <image name="background-art" extra="true" ifSubset="background-system:default|fanart">
+         <path>{random:fanart}</path>
          <path>./_theme_inc/images/background/${system.theme}.jpg</path>
          <path region="us">./_theme_inc/images/background/us/${system.theme}.jpg</path>
          <path region="jp">./_theme_inc/images/background/jp/${system.theme}.jpg</path>
@@ -206,7 +213,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
 
-      <image name="consoles" extra="true">
+      <image name="system-console" extra="true">
          <tile>false</tile>
          <pos>0.825 0.48</pos>
          <origin>0 0</origin>
@@ -219,11 +226,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="consoles" extra="true" region="eu" />
-      <image name="consoles" extra="true" region="us">
+      <image name="system-console" extra="true" region="eu" />
+      <image name="system-console" extra="true" region="us">
          <path>./_theme_inc/images/consoles/us/${system.theme}.png</path>
       </image>
-      <image name="consoles" extra="true" region="jp">
+      <image name="system-console" extra="true" region="jp">
          <path>./_theme_inc/images/consoles/jp/${system.theme}.png</path>
       </image>
 
@@ -238,6 +245,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <path>./_theme_inc/images/gamefolder.png</path>
          <autoFade>false</autoFade>
+         <opacity ifSubset="system-rom-folder:dim">0.3</opacity>
+         <visible ifSubset="system-rom-folder:NO">false</visible>
+         <visible ifSubset="system-rom-folder:YES|dim">true</visible>
       </image>
       <image name="gamefolder" if="${system.manufacturer} != 'Collections'" ifHelpPrompts="false">
          <y>0.955</y>
@@ -245,7 +255,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       
 
-      <text name="system-folder" extra="true" if="${system.manufacturer} != 'Collections'" >
+      <text name="system-folder" extra="true" if="${system.manufacturer} != 'Collections'">
          <text>/${system.theme}</text>
          <fontSize>0.025</fontSize>
          <verticalAlignment>center</verticalAlignment>
@@ -257,6 +267,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <pos>0.037 0.891</pos>
+         <opacity ifSubset="system-rom-folder:dim">0.3</opacity>
+         <visible ifSubset="system-rom-folder:NO">false</visible>
+         <visible ifSubset="system-rom-folder:YES|dim">true</visible>
       </text>
 
       <text name="system-folder" extra="true" if="${system.manufacturer} != 'Collections'"  ifHelpPrompts="false">

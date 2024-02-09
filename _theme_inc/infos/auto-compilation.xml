@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Bundles of two or more previously released video games (usually bestsellers) in a later edition and at a lower price.</text>
 			<text lang="es">Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.</text>
 			<text lang="ca">Packs de dos o més videojocs llançats anteriorment (normalment èxits en vendes) en una edició posterior i a un preu més ajustat.</text>
@@ -20,5 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">以前にリリースされた2つ以上のビデオゲーム（通常はベストセラー）を後のエディションで低価格でバンドルしたもの。</text>
 		</text>
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>5eacff</color>
+			<colorEnd>007bff</colorEnd>
+		</image>
 	</view>
 </theme>

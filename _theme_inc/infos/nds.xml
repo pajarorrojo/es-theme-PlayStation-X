@@ -49,5 +49,12 @@ Nintendo DSは、DS LiteやNintendo DSiなどのさまざまなモデルで更�
 			<text>Nintendo DS</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>a70404</color>
+			<colorEnd>646161</colorEnd>
+		</image>
+	</view>
 	
 </theme>

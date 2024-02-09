@@ -14,16 +14,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
          <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
-         <autoLayoutSelectedZoom >1.5</autoLayoutSelectedZoom>
-         <autoLayoutSelectedZoom ifSubset="grid-origin:thumbnail|boxart|default|cartridge" >1.33</autoLayoutSelectedZoom>
-         <autoLayoutSelectedZoom ifSubset="grid-origin:marquee" >2</autoLayoutSelectedZoom>
-         <autoLayoutSelectedZoom ifSubset="grid-origin:fanart" >1.8</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:thumbnail|boxart|default|cartridge">1.33</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:marquee">2</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:fanart">1.8</autoLayoutSelectedZoom>
          <pos>0 0.475</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
          <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">0 0.48</pos>
          <size>1 0.45</size>
          <zIndex>60</zIndex>
-         <padding >0.008 0.05</padding>
+         <padding>0.008 0.05</padding>
          <margin>0.005 0.006</margin>
          <autoLayout>5 1</autoLayout>
          <autoLayout ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">7 1</autoLayout>
@@ -37,8 +37,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <gridtile name="default">
          <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
          <padding ifSubset="aspect-ratio:4-3|5-4">2</padding>
-         <selectionMode >image</selectionMode>
-         <imageSizeMode >maxSize</imageSizeMode>
+         <selectionMode>image</selectionMode>
+         <imageSizeMode>maxSize</imageSizeMode>
          <backgroundEdgeColor>00000000</backgroundEdgeColor>
          <backgroundCenterColor>00000000</backgroundCenterColor>
          <backgroundCornerSize>0 0</backgroundCornerSize>
@@ -76,15 +76,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="gridtile.favorite">
-         <path >./../_theme_inc/images/favorite.png</path>
-         <pos >-0.03 0.02</pos>
-         <maxSize >0.15 0.15</maxSize>
+         <path>./../_theme_inc/images/favorite.png</path>
+         <pos>-0.03 0.02</pos>
+         <maxSize>0.15 0.15</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
          <origin>0 0</origin>
       </image>
 
-      <image name="gridtile.cheevos" if="{global.cheevos} == true">
+      <image name="gridtile.cheevos" if="{global.cheevos} == true &amp;&amp; {system.showCheevos} == true">
          <path>./../_theme_inc/images/cheevos.svg</path>
          <pos>0.84 0.785</pos>
          <maxSize>0.18 0.18</maxSize>
@@ -92,12 +92,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>bottom</verticalAlignment>
          <origin>0 0</origin>
          <color>Ffffff</color>
-      </image>
-
-      <image name="gridtile.cheevos" if="{system.name} == 'retroachievements'">
-         <opacity >0</opacity>
-         <visible>false</visible>
-         <color>00000000</color>
       </image>
    
    </customView>

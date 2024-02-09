@@ -16,4 +16,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Camputers Lynx</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>f6f210</color>
+			<colorEnd>274ae2</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -21,4 +21,10 @@ Una empresa no relacionada con Arcadia Corporation, fabricante del complemento A
 			<text>Arcadia 2001</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>a41818</color>
+			<colorEnd>2005b5</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -10,4 +10,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Flash Player</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>500505</color>
+			<colorEnd>db1616</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 <text>Game or genre that tries to imitate reality as closely as possible, avoiding the simplification of controls or mechanics typical of games and applying the physical laws in a realistic way and often without a defined final objective.
 
 There are countless types based on their theme, such as flight simulation, driving or management (business, construction, etc). They are the opposite of Arcade games.</text>
@@ -45,5 +45,11 @@ Istnieje nieskończona ilość różnych tematów, takich jak symulacja lotów, 
 		</text>
 
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>5eacff</color>
+			<colorEnd>007bff</colorEnd>
+		</image>
 	</view>
 </theme>

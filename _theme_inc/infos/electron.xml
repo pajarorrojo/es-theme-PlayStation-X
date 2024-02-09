@@ -15,4 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Acorn Electron</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>10ae25</color>
+			<colorEnd>465a38</colorEnd>
+		</image>
+	</view>
 </theme>

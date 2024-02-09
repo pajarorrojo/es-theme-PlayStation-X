@@ -11,7 +11,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <roundCorners>0</roundCorners>
                <showSnapshotNoVideo>false</showSnapshotNoVideo>
                <showSnapshotDelay>false</showSnapshotDelay>
-               <default>./../../_theme_inc/videos/no-video.mp4</default>
                <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
                <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
                <delay>0.5</delay>
@@ -22,13 +21,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
           <text name="system_description" extra="true">
                <backgroundColor>ff000000</backgroundColor>
-               <size>0.54 0.315</size>
+               <size>0.54 0.305</size>
                <fontSize>0.026</fontSize>
            </text>
 
 <!-- GRANDE -->
 
-          <video name="system_video" extra="true" ifSubset="carousel:big" >
+          <video name="system_video" extra="true" ifSubset="carousel:big">
                <pos>0.02 0.608</pos>
                <maxSize>0.205 0.27</maxSize>
 
@@ -40,7 +39,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           </text>
 
 <!-- MEDIANO -->
-          <video name="system_video" extra="true" ifSubset="carousel:medium" >
+          <video name="system_video" extra="true" ifSubset="carousel:medium">
                <pos>0.02 0.53</pos>
           </video>
 
@@ -51,7 +50,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 <!-- PEQUEÑO -->
 
-          <video name="system_video" extra="true" ifSubset="carousel:small" >
+          <video name="system_video" extra="true" ifSubset="carousel:small">
                <pos>0.02 0.52</pos>
           </video>
 

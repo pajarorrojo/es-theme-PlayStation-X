@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>The Atari Jaguar is a video game console released in 1993 and is the last console released to the market by Atari.
 
 The machine's features were impressive for its time, running on 64 bits when the competition was still on 16 bits. It used game cartridges, although its CD unit, the Atari Jaguar CD, was later released. The Jaguar was a sales failure, with estimates suggesting that no more than two hundred fifty thousand units were sold.
@@ -63,7 +63,7 @@ Cechy tej maszyny były imponujące jak na tamte czasy, działała na 64 bitach,
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>333333</color>
 			<colorEnd>FB0000</colorEnd>
 		</image>

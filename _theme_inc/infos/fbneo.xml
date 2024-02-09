@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Final Burn Neo was created as an improved version of the popular emulator Final Burn Alpha, and can emulate arcade games from a wide range of systems, such as Neo Geo, Capcom CPS-1 and CPS-2, among others.</text>        
 			<text lang="es">Final Burn Neo fue creado como una versión mejorada del popular emulador Final Burn Alpha, y puede emular juegos de arcade de una amplia gama de sistemas, como Neo Geo, Capcom CPS-1 y CPS-2, entre otros.</text>
 			<text lang="ca">Final Burn Neo va ser creat com una versió millorada del popular emulador Final Burn Alpha, i pot emular jocs d'arcade d'una àmplia gamma de sistemes, com ara Neo Geo, Capcom CPS-1 i CPS-2, entre altres.</text>        
@@ -27,7 +27,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FFA64D</color>
 			<colorEnd>D96D00</colorEnd>
 		</image>

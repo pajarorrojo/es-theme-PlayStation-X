@@ -87,6 +87,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image-full-size>フルスクリーン画像</image-full-size>
 		<theme.nav-sounds>ナビゲーションサウンド</theme.nav-sounds>
 		<singlelViewName>試合ごとに</singlelViewName>
-		<theme.timesplayed>プレイ回数</theme.timesplayed>
+		<theme.box>箱</theme.box>
+		<theme.logo>ロゴ</theme.logo>
+		<theme.romFolder>ROMフォルダの情報を表示</theme.romFolder>
+		<dim>薄暗い</dim>
+		<theme-lastplayedLabel>最後にプレイした日時</theme-lastplayedLabel>
+		<theme-timesPlayedLabel>プレイ回数</theme-timesPlayedLabel>
+		<theme-gameTimeLabel>プレイ時間</theme-gameTimeLabel>
 	</variables>
 </theme>

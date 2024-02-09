@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Genre characterized by challenging the player to solve problems in order to progress in the game. These games can be in 2D or 3D and often feature a simple but challenging gameplay mechanic that requires the player to think of creative solutions to solve the problems. Puzzle games may include puzzle solving, connecting pieces, or manipulating objects to reach the goal.</text>
 			<text lang="es">Género que se caracteriza por desafiar al jugador a resolver problemas para avanzar en el juego. Estos juegos pueden ser en 2D o 3D y a menudo presentan una mecánica de juego simple pero desafiante, que requiere que el jugador piense en soluciones creativas para resolver los problemas. Los juegos de puzzle pueden incluir la resolución de acertijos, la conexión de piezas o la manipulación de objetos para alcanzar el objetivo.</text>
 			<text lang="ca">Gènere que es caracteritza per desafiar el jugador a resoldre problemes per avançar en el joc. Aquests jocs poden ser en 2D o 3D i sovint presenten una mecànica de joc senzilla però desafiadora, que requereix que el jugador pensi en solucions creatives per resoldre els problemes. Els jocs de puzzle poden incloure la resolució de puzles, la connexió de peces o la manipulació d'objectes per aconseguir l'objectiu.</text>
@@ -22,5 +22,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>5eacff</color>
+			<colorEnd>007bff</colorEnd>
+		</image>
 	</view>
 </theme>

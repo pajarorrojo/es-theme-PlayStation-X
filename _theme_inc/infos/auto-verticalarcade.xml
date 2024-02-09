@@ -6,16 +6,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
-			<text>Arcade games were coin-operated entertainment machines typically found in public places such as arcades, bars, and amusement parks. These machines featured a wide variety of game genres, including classic arcade games, racing games, fighting games, and more. Players inserted coins or tokens to play the games, and typically competed for high scores or prizes.</text>			
-			<text lang="es">Los juegos arcade eran máquinas recreativas de entretenimiento que funcionaban con monedas y se encontraban típicamente en lugares públicos como salones recreativos, bares y parques de atracciones. Estas máquinas presentaban una amplia variedad de géneros de juegos, incluyendo juegos clásicos de arcade, juegos de carreras, juegos de lucha y más. Los jugadores insertaban monedas o fichas para jugar, y generalmente competían por obtener altas puntuaciones o premios.</text>	
-			<text lang="ca">Els jocs arcade eren màquines recreatives d'entreteniment que funcionaven amb monedes i es trobaven típicament en llocs públics com a sales recreatives, bars i parcs d'atraccions. Aquestes màquines presentaven una àmplia varietat de gèneres de jocs, incloent jocs clàssics d'arcade, jocs de curses, jocs de lluita i més. Els jugadors inserien monedes o fitxes per jugar, i generalment competien per obtenir altes puntuacions o premis.</text>
-			<text lang="eu">Arcade jokoak publikoan aurkitu ahal izan ziren moneta-ekintzak diren makinak ziren, hala nola jolastokiak, tabernak eta parkeak. Makina horiek joko genero anitzak izan zituzten, Arcade joko klasikoak, lasterketa jokoak, borroka jokoak eta abar barne. Jokalariak moneta edo fitxak sartzen zituzten jolasterakoan eta ohikoa zen altu puntuazioak edo sariak lortu nahi izatea.</text>
-			<text lang="fr">Les jeux d'arcade étaient des machines de divertissement à pièces que l'on trouvait généralement dans des lieux publics tels que des salles d'arcade, des bars et des parcs d'attractions. Ces machines proposaient une grande variété de genres de jeux, notamment des jeux d'arcade classiques, des jeux de course, des jeux de combat, et plus encore. Les joueurs inséraient des pièces ou des jetons pour jouer et se disputaient généralement des scores élevés ou des prix.</text>
-			<text lang="pt">Os jogos de arcade eram máquinas de entretenimento com moedas encontradas normalmente em locais públicos, como arcades, bares e parques de diversão. Essas máquinas apresentavam uma ampla variedade de gêneros de jogos, incluindo jogos clássicos de arcade, jogos de corrida, jogos de luta e muito mais. Os jogadores inseriam moedas ou fichas para jogar e geralmente competiam por pontuações altas ou prêmios.</text>
-			<text lang="it">I giochi arcade erano macchine per il divertimento a gettoni tipicamente trovate in luoghi pubblici come sale giochi, bar e parchi divertimento. Queste macchine presentavano una vasta gamma di generi di giochi, tra cui giochi arcade classici, giochi di corse, giochi di combattimento e molto altro. I giocatori inserivano monete o gettoni per giocare e di solito competevano per ottenere punteggi alti o premi.</text>
-			<text lang="de">Arcade-Spiele waren Münz-Unterhaltungsmaschinen, die typischerweise in öffentlichen Orten wie Spielhallen, Bars und Freizeitparks zu finden waren. Diese Maschinen boten eine Vielzahl von Spielgenres, darunter klassische Arcade-Spiele, Rennspiele, Kampfspiele und mehr. Spieler warfen Münzen oder Tokens ein, um die Spiele zu spielen und konkurrierten in der Regel um hohe Punktzahlen oder Preise.</text>
-			<text lang="pl">Gry arcade były urządzeniami rozrywkowymi na monety, zwykle znajdowanymi w miejscach publicznych, takich jak salony gier, bary i parki rozrywki. Maszyny te oferowały szeroki zakres gatunków gier, w tym klasyczne gry arcade, gry wyścigowe, gry walki i wiele innych. Gracze wrzucali monety lub żetony, aby zagrać w gry i zwykle rywalizowali o wysokie wyniki lub nagrody.</text>
+		<text name="system_description" extra="true">
+			<text>Arcade games were coin-operated entertainment machines typically found in public places such as arcades, bars, and amusement parks. 
+				
+These machines featured a wide variety of game genres, including classic arcade games, racing games, fighting games, and more. Players inserted coins or tokens to play the games, and typically competed for high scores or prizes.</text>			
+			<text lang="es">Los juegos arcade eran máquinas recreativas de entretenimiento que funcionaban con monedas y se encontraban típicamente en lugares públicos como salones recreativos, bares y parques de atracciones. 
+				
+Estas máquinas abarcaban una amplia variedad de géneros de juegos, incluyendo juegos clásicos de arcade, juegos de carreras, juegos de lucha y más. Los jugadores insertaban monedas o fichas para jugar, y generalmente competían por obtener altas puntuaciones o premios.</text>	
+			<text lang="ca">Els jocs arcade eren màquines recreatives d'entreteniment que funcionaven amb monedes i es trobaven típicament en llocs públics com a sales recreatives, bars i parcs d'atraccions. 
+				
+Aquestes màquines presentaven una àmplia varietat de gèneres de jocs, incloent jocs clàssics d'arcade, jocs de curses, jocs de lluita i més. Els jugadors inserien monedes o fitxes per jugar, i generalment competien per obtenir altes puntuacions o premis.</text>
+			<text lang="eu">Arcade jokoak publikoan aurkitu ahal izan ziren moneta-ekintzak diren makinak ziren, hala nola jolastokiak, tabernak eta parkeak. Makina horiek joko genero anitzak izan zituzten, Arcade joko klasikoak, lasterketa jokoak, borroka jokoak eta abar barne. 
+				
+Jokalariak moneta edo fitxak sartzen zituzten jolasterakoan eta ohikoa zen altu puntuazioak edo sariak lortu nahi izatea.</text>
+			<text lang="fr">Les jeux d'arcade étaient des machines de divertissement à pièces que l'on trouvait généralement dans des lieux publics tels que des salles d'arcade, des bars et des parcs d'attractions. 
+				
+Ces machines proposaient une grande variété de genres de jeux, notamment des jeux d'arcade classiques, des jeux de course, des jeux de combat, et plus encore. Les joueurs inséraient des pièces ou des jetons pour jouer et se disputaient généralement des scores élevés ou des prix.</text>
+			<text lang="pt">Os jogos de arcade eram máquinas de entretenimento com moedas encontradas normalmente em locais públicos, como arcades, bares e parques de diversão. 
+				
+Essas máquinas apresentavam uma ampla variedade de gêneros de jogos, incluindo jogos clássicos de arcade, jogos de corrida, jogos de luta e muito mais. Os jogadores inseriam moedas ou fichas para jogar e geralmente competiam por pontuações altas ou prêmios.</text>
+			<text lang="it">I giochi arcade erano macchine per il divertimento a gettoni tipicamente trovate in luoghi pubblici come sale giochi, bar e parchi divertimento. 
+				
+Queste macchine presentavano una vasta gamma di generi di giochi, tra cui giochi arcade classici, giochi di corse, giochi di combattimento e molto altro. I giocatori inserivano monete o gettoni per giocare e di solito competevano per ottenere punteggi alti o premi.</text>
+			<text lang="de">Arcade-Spiele waren Münz-Unterhaltungsmaschinen, die typischerweise in öffentlichen Orten wie Spielhallen, Bars und Freizeitparks zu finden waren. Diese Maschinen boten eine Vielzahl von Spielgenres, darunter klassische Arcade-Spiele, Rennspiele, Kampfspiele und mehr. 
+				
+Spieler warfen Münzen oder Tokens ein, um die Spiele zu spielen und konkurrierten in der Regel um hohe Punktzahlen oder Preise.</text>
+			<text lang="pl">Gry arcade były urządzeniami rozrywkowymi na monety, zwykle znajdowanymi w miejscach publicznych, takich jak salony gier, bary i parki rozrywki. Maszyny te oferowały szeroki zakres gatunków gier, w tym klasyczne gry arcade, gry wyścigowe, gry walki i wiele innych. 
+				
+Gracze wrzucali monety lub żetony, aby zagrać w gry i zwykle rywalizowali o wysokie wyniki lub nagrody.</text>
 			<text lang="ru">Аркадные игры были монетно-оперируемыми развлекательными автоматами, обычно находящимися в общественных местах, таких как игровые залы, бары и парки развлечений. Эти автоматы предлагали широкий выбор жанров игр, включая классические аркадные игры, гонки, боевики и многое другое. Игроки вставляли монеты или жетоны, чтобы играть в игры, и обычно соревновались за высокие счета или призы.</text>
 			<text lang="zh">街机游戏是投币式娱乐机，通常可在公共场所如游戏厅、酒吧和游乐园找到。这些机器包含了各种游戏类型，包括经典的街机游戏、赛车游戏、格斗游戏等等。玩家需要投币或使用代币才能进行游戏，并通常竞争高分或奖品。</text>
 			<text lang="ja">アーケードゲームは、通常、アーケード、バー、遊園地などの公共の場所にある、コイン式の娯楽機です。これらの機械には、クラシックなアーケードゲーム、レースゲーム、格闘ゲームなど、様々なジャンルのゲームがあります。プレーヤーはコインまたはトークンを投入してゲームをプレイし、通常は高得点または賞品を競います。</text>

@@ -45,7 +45,7 @@ Konsola doczekała się kilku aktualizacji, w tym Game Boy Color i Game Boy Adva
 ゲームボーイカラー、ゲームボーイアドバンスなど、いくつかのバージョンがリリースされましたが、オリジナルは今でも最も象徴的な携帯型ゲーム機の1つです。</text> 
 		</text>		
 
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text>Game Boy (2 Players)</text>
 			<text lang="es">Game Boy (2 Jugadores)</text>
 			<text lang="ca">Game Boy (2 Jugadors)</text>
@@ -64,7 +64,7 @@ Konsola doczekała się kilku aktualizacji, w tym Game Boy Color i Game Boy Adva
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>B9B9C8</color>
 			<colorEnd>002DB2</colorEnd>
 		</image>

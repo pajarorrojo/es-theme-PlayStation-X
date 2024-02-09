@@ -87,6 +87,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <image-full-size>صورة بحجم الشاشة الكاملة</image-full-size>
     <theme.nav-sounds>أصوات الملاحة</theme.nav-sounds>
     <singlelViewName>لعبة تلو الأخرى</singlelViewName>
-    <theme.timesplayed>مرات اللعب</theme.timesplayed>
+    <theme.box>صندوق</theme.box>
+		<theme.logo>شعار</theme.logo>
+    <theme.romFolder>عرض معلومات مجلد الروم</theme.romFolder>
+    <dim>مخفت</dim>
+    <theme-lastplayedLabel>آخر ما لعب</theme-lastplayedLabel>
+		<theme-timesPlayedLabel>مرات اللعب</theme-timesPlayedLabel>
+		<theme-gameTimeLabel>وقت اللعب</theme-gameTimeLabel>
   </variables>
 </theme>

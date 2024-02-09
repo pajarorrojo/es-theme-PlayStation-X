@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>NEC SuperGrafx</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>3d8db7</color>
+			<colorEnd>8d8d8d</colorEnd>
+		</image>
+	</view>
 </theme>

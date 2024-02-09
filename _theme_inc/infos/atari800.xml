@@ -6,18 +6,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
-			<text>The Atari 800 is a home computer released by Atari in 1979. It was one of the first systems to offer colorful graphics and high-quality sound for gaming and home applications. The Atari 800 also featured a wide variety of peripherals, such as disk and modem units, making it suitable for both entertainment and productive work. Although it was surpassed by later computers in terms of power and features, the Atari 800 remains an icon of the era of personal computers in the 80s.</text>        
+		<text name="system_description" extra="true">
+			<text>The Atari 800 is a home computer released by Atari in 1979. It was one of the first systems to offer colorful graphics and high-quality sound for gaming and home applications. The Atari 800 also featured a wide variety of peripherals, such as disk and modem units, making it suitable for both entertainment and productive work. 
+				
+Although it was surpassed by later computers in terms of power and features, the Atari 800 remains an icon of the era of personal computers in the 80s.</text>        
 			<text lang="es">El Atari 800 es un ordenador doméstico lanzado por Atari en 1979. Fue uno de los primeros sistemas en ofrecer gráficos a color y sonido de alta calidad para juegos y aplicaciones en el hogar. El Atari 800 también contaba con una amplia variedad de periféricos, como unidades de disco y módems, lo que lo hacía ideal tanto para el entretenimiento como para el trabajo productivo. 
 				
 Aunque fue superado por ordenadores posteriores en términos de potencia y características, el Atari 800 sigue siendo un ícono de la era de los ordenadores personales de los años 80.</text>        
-			<text lang="ca">L'Atari 800 és un ordinador domèstic llançat per Atari el 1979. Va ser un dels primers sistemes a oferir gràfics a color i so de alta qualitat per a jocs i aplicacions a casa. L'Atari 800 també comptava amb una àmplia varietat de perifèrics, com unitats de disc i mòdems, el que el feia ideal tant per a l'entreteniment com per al treball productiu. Tot i que va ser superat per ordinadors posteriors en termes de potència i característiques, l'Atari 800 segueix sent un icona de l'era dels ordinadors personals dels anys 80.</text>        
-			<text lang="eu">Atari 800 Atari-k 1979an jaio zen ordenagailu giroan. Hainbat sistema proposatu zituen, jokoetarako eta etxean aplikazioentzako koloretsu eta soinu kalitate handiko grafikoak eskaintzeko. Atari 800k periferiko anitza ere zituen, disketxu eta modem unitateak bezala, hau entretenimendua eta lana egiteko modukoa egiten duena. Gainera, potentzia eta ezaugarriekin aurre egitea lortu zuten ordenagailu berriagoekin alderatuta, Atari 800 80ko hamarkadako ordenagailu pertsonalaren ikonoa izan daitezke.</text>        
-			<text lang="fr">L'Atari 800 est un ordinateur familial lancé par Atari en 1979. Il a été l'un des premiers systèmes à offrir des graphismes colorés et un son de haute qualité pour les jeux et les applications domestiques. Bien qu'il ait été surpassé par des ordinateurs ultérieurs en termes de puissance et de fonctionnalités, l'Atari 800 reste un icône de l'ère des ordinateurs personnels dans les années 80.</text>        
-			<text lang="pt">O Atari 800 é um computador doméstico lançado pela Atari em 1979. Foi um dos primeiros sistemas a oferecer gráficos coloridos e som de alta qualidade para jogos e aplicativos domésticos. Embora tenha sido superado por computadores posteriores em termos de potência e recursos, o Atari 800 continua sendo um ícone da era dos computadores pessoais nos anos 80.</text>        
-			<text lang="it">L'Atari 800 è un computer domestico lanciato da Atari nel 1979. È stato uno dei primi sistemi a offrire grafica a colori e audio di alta qualità per giochi e applicazioni domestici. Anche se è stato superato da computer successivi in termini di potenza e funzionalità, l'Atari 800 rimane un'icona dell'era dei computer personali degli anni '80.</text>        
-			<text lang="de">Der Atari 800 ist ein Heimcomputer, der von Atari im Jahr 1979 veröffentlicht wurde. Es war eines der ersten Systeme, das farbenfrohe Grafiken und hochwertigen Sound für Spiele und Anwendungen im Haushalt anbot. Obwohl es in Bezug auf Leistung und Funktionen von späteren Computern übertroffen wurde, bleibt der Atari 800 ein Symbol für die Ära der Personal Computer in den 80er Jahren.</text>        
-			<text lang="pl">Atari 800 to komputer domowy wydany przez firmę Atari w 1979 roku. Był to jeden z pierwszych systemów oferujących kolorową grafikę i wysokiej jakości dźwięk dla gier i aplikacji domowych. Choć został przewyższony przez późniejsze komputery pod względem mocy i funkcji, Atari 800 pozostaje ikoną ery komputerów osobistych lat 80.</text>        
+			<text lang="ca">L'Atari 800 és un ordinador domèstic llançat per Atari el 1979. Va ser un dels primers sistemes a oferir gràfics a color i so de alta qualitat per a jocs i aplicacions a casa. L'Atari 800 també comptava amb una àmplia varietat de perifèrics, com unitats de disc i mòdems, el que el feia ideal tant per a l'entreteniment com per al treball productiu. 
+				
+Tot i que va ser superat per ordinadors posteriors en termes de potència i característiques, l'Atari 800 segueix sent un icona de l'era dels ordinadors personals dels anys 80.</text>        
+			<text lang="eu">Atari 800 Atari-k 1979an jaio zen ordenagailu giroan. Hainbat sistema proposatu zituen, jokoetarako eta etxean aplikazioentzako koloretsu eta soinu kalitate handiko grafikoak eskaintzeko. Atari 800k periferiko anitza ere zituen, disketxu eta modem unitateak bezala, hau entretenimendua eta lana egiteko modukoa egiten duena. 
+				
+Gainera, potentzia eta ezaugarriekin aurre egitea lortu zuten ordenagailu berriagoekin alderatuta, Atari 800 80ko hamarkadako ordenagailu pertsonalaren ikonoa izan daitezke.</text>        
+			<text lang="fr">L'Atari 800 est un ordinateur familial lancé par Atari en 1979. Il a été l'un des premiers systèmes à offrir des graphismes colorés et un son de haute qualité pour les jeux et les applications domestiques. 
+				
+Bien qu'il ait été surpassé par des ordinateurs ultérieurs en termes de puissance et de fonctionnalités, l'Atari 800 reste un icône de l'ère des ordinateurs personnels dans les années 80.</text>        
+			<text lang="pt">O Atari 800 é um computador doméstico lançado pela Atari em 1979. Foi um dos primeiros sistemas a oferecer gráficos coloridos e som de alta qualidade para jogos e aplicativos domésticos. 
+				
+Embora tenha sido superado por computadores posteriores em termos de potência e recursos, o Atari 800 continua sendo um ícone da era dos computadores pessoais nos anos 80.</text>        
+			<text lang="it">L'Atari 800 è un computer domestico lanciato da Atari nel 1979. È stato uno dei primi sistemi a offrire grafica a colori e audio di alta qualità per giochi e applicazioni domestici. 
+				
+Anche se è stato superato da computer successivi in termini di potenza e funzionalità, l'Atari 800 rimane un'icona dell'era dei computer personali degli anni '80.</text>        
+			<text lang="de">Der Atari 800 ist ein Heimcomputer, der von Atari im Jahr 1979 veröffentlicht wurde. Es war eines der ersten Systeme, das farbenfrohe Grafiken und hochwertigen Sound für Spiele und Anwendungen im Haushalt anbot. 
+				
+Obwohl es in Bezug auf Leistung und Funktionen von späteren Computern übertroffen wurde, bleibt der Atari 800 ein Symbol für die Ära der Personal Computer in den 80er Jahren.</text>        
+			<text lang="pl">Atari 800 to komputer domowy wydany przez firmę Atari w 1979 roku. Był to jeden z pierwszych systemów oferujących kolorową grafikę i wysokiej jakości dźwięk dla gier i aplikacji domowych. 
+				
+Choć został przewyższony przez późniejsze komputery pod względem mocy i funkcji, Atari 800 pozostaje ikoną ery komputerów osobistych lat 80.</text>        
 			<text lang="ru">Atari 800 - домашний компьютер, выпущенный Atari в 1979 году. Он был одним из первых систем, которые предлагали красочную графику и качественный звук для игр и домашних приложений. Несмотря на то, что он был превзойден более поздними компьютерами в плане мощности и функций, Atari 800 остается символом эры персональных компьютеров в 80-х годах.</text>        
 			<text lang="zh">Atari 800是Atari在1979年发布的家用电脑。它是最早提供彩色图形和高质量声音用于游戏和家庭应用的系统之一。虽然在功率和功能方面被后来的电脑超越，但Atari 800仍然是80年代个人电脑时代的标志。</text>        
 			<text lang="ja">Atari 800はアタリによって1979年に発売された家庭用コンピュータです。それはゲームや家庭用アプリケーションのためにカラフルなグラフィックスと高品質の音声を提供する最初のシステムの1つでした。後続のコンピュータによってパワーや機能の面で超越されたものの、Atari 800は80年代のパーソナルコンピューター時代のアイコンとして残っています。</text>        
@@ -29,7 +45,7 @@ Aunque fue superado por ordenadores posteriores en términos de potencia y carac
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FF8000</color>
 			<colorEnd>dddddd</colorEnd>
 		</image>

@@ -32,4 +32,11 @@ El Adam no tuvo mucho éxito, en parte debido a los problemas iniciales de fabri
 			<text>Coleco Adam</text>
 		</text>
 	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>c51c1c</color>
+			<colorEnd>3309bf</colorEnd>
+		</image>
+	</view>
 </theme>

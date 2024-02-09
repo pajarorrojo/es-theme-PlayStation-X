@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 <text>Beat 'em up (also known as brawler and, in some markets, beat 'em all). Fighting game where the player faces countless enemies, usually in hand-to-hand combat, while moving through a single-direction advancing stage.
 
 It is common for at least two players to participate cooperatively, and often more. It usually progresses through stages, at the end of which there is a more difficult final enemy or boss than the common enemies.</text>
@@ -51,5 +51,11 @@ Zazwyczaj może wziąć udział co najmniej dwóch graczy w sposób kooperacyjny
 </text>
 
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fe2062</color>
+			<colorEnd>ff0000</colorEnd>
+		</image>
 	</view>
 </theme>

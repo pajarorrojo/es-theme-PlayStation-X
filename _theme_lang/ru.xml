@@ -87,6 +87,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <image-full-size>Изображение на весь экран</image-full-size>
     <theme.nav-sounds>Звуки навигации</theme.nav-sounds>
     <singlelViewName>Игра за игрой</singlelViewName>
-    <theme.timesplayed>Сыграно раз</theme.timesplayed>
+    <theme.box>коробка</theme.box>
+    <theme.logo>логотип</theme.logo>
+    <theme.romFolder>Показать информацию о папке с ROM</theme.romFolder>
+    <dim>Затемненный</dim>
+    <theme-lastplayedLabel>Последний запуск</theme-lastplayedLabel>
+		<theme-timesPlayedLabel>Сыграно раз:</theme-timesPlayedLabel>
+		<theme-gameTimeLabel>Время игры:</theme-gameTimeLabel>
   </variables>
 </theme>

@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <menuSelectorColorEnd>DF0024</menuSelectorColorEnd>
    </variables>
    <variables ifSubset="colorset:black">
-      <menuSelectedColor>DF0024</menuSelectedColor>
+      <menuSelectedColor>DF0024e6</menuSelectedColor>
    </variables>
    <variables>
       <sistema.lineainferior>DF0024</sistema.lineainferior>

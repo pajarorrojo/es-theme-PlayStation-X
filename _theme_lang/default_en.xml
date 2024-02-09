@@ -57,7 +57,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.videoSnapAudio>Turn on audio in game videos</theme.videoSnapAudio>
 		<theme.animatedList>Animated transitions in game list</theme.animatedList>
 		<theme.animatedSystem>Animated transitions in systems view</theme.animatedSystem>
-		<theme.aspect-ratio >Select your screen type</theme.aspect-ratio>
+		<theme.aspect-ratio>Select your screen type</theme.aspect-ratio>
 		<theme.oversizeVideoOption>Oversize video</theme.oversizeVideoOption>
 		<theme.bato35compatilble>Only compatible in batocera 35 or higher</theme.bato35compatilble>
 		<theme.netplay-required>Please enable netplay to show your username or select another nick in theme options</theme.netplay-required>
@@ -87,6 +87,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image-full-size>Full size image</image-full-size>
 		<theme.nav-sounds>Navigation sounds set</theme.nav-sounds>
 		<singlelViewName>Game by game</singlelViewName>
-		<theme.timesplayed>Times played</theme.timesplayed>
+		<theme.multidisc>multi-disc</theme.multidisc>
+		<theme.box>Box</theme.box>
+		<theme.logo>Logo</theme.logo>
+		<theme.romFolder>Show ROM Folder Info</theme.romFolder>
+		<dim>Dimmed</dim>
+		<theme-lastplayedLabel>Last Played</theme-lastplayedLabel>
+		<theme-timesPlayedLabel>Times Played:</theme-timesPlayedLabel>
+		<theme-gameTimeLabel>Game Time:</theme-gameTimeLabel>
 	</variables>
 </theme>

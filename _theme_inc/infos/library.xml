@@ -7,22 +7,46 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>Place in library directory your magazine and videos. Acceptable extensions : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
-			<text lang="es">Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... Extensiones aceptadas: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
-			<text lang="ca">Col·loca en el directori "library" els elements que conformaran la teva pròpia biblioteca de mitjans; com ara revistes, catàlegs, vídeos, imatges, etc. Extensions acceptades: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="eu">Jarri "library" direktorioan zure multimedia liburutegiak osatuko dituzun elementuak; hala nola aldizkariak, katalogoak, bideoak, irudiak, etab. Onartutako luzapenak: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="fr">Placez dans le répertoire "library" les éléments qui constitueront votre propre bibliothèque de médias ; tels que des magazines, des catalogues, des vidéos, des images, etc. Extensions acceptées : .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="pt">Coloque no diretório "library" os elementos que constituirão sua própria biblioteca de mídia; como revistas, catálogos, vídeos, imagens, etc. Extensões aceitas: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="it">Posiziona nella directory "library" gli elementi che costituiranno la tua libreria multimediale personale, come riviste, cataloghi, video, immagini, ecc. Estensioni accettate: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="de">Legen Sie die Elemente, die Ihre eigene Medienbibliothek bilden werden, wie Zeitschriften, Kataloge, Videos, Bilder usw., im Verzeichnis "library" ab. Akzeptierte Erweiterungen: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="pl">Umieść w katalogu "library" elementy, które stanowią Twoją własną bibliotekę mediów, takie jak czasopisma, katalogi, filmy, obrazy itp. Akceptowane rozszerzenia: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="ru">Поместите элементы, которые будут составлять вашу собственную библиотеку медиа, такие как журналы, каталоги, видео, изображения и т. д., в каталог "library". Принимаемые расширения: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
-			<text lang="zh">将组成您自己的媒体库的元素放置在目录“library”中，例如杂志、目录、视频、图像等。接受的扩展名：.jpg、.jpeg、.png、.bmp、.psd、.tga、.gif、.hdr、.pic、.ppm、.pgm、.mkv、.pdf、.mp4、.avi、.cbz。</text>
-			<text lang="ja">雑誌、カタログ、動画、画像など、自分自身のメディアライブラリを構成する要素をディレクトリ「library」に配置します。受け入れられる拡張子：.jpg、.jpeg、.png、.bmp、.psd、.tga、.gif、.hdr、.pic、.ppm、.pgm、.mkv、.pdf、.mp4、.avi、.cbz。</text>
+			<text>Place in library directory your magazine and videos. 
+				
+Acceptable extensions : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text lang="es">Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... 
+				
+Extensiones aceptadas: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text lang="ca">Col·loca en el directori "library" els elements que conformaran la teva pròpia biblioteca de mitjans; com ara revistes, catàlegs, vídeos, imatges, etc. 
+				
+Extensions acceptades: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="eu">Jarri "library" direktorioan zure multimedia liburutegiak osatuko dituzun elementuak; hala nola aldizkariak, katalogoak, bideoak, irudiak, etab. 
+				
+Onartutako luzapenak: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="fr">Placez dans le répertoire "library" les éléments qui constitueront votre propre bibliothèque de médias ; tels que des magazines, des catalogues, des vidéos, des images, etc. 
+				
+Extensions acceptées : .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="pt">Coloque no diretório "library" os elementos que constituirão sua própria biblioteca de mídia; como revistas, catálogos, vídeos, imagens, etc. 
+				
+Extensões aceitas: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="it">Posiziona nella directory "library" gli elementi che costituiranno la tua libreria multimediale personale, come riviste, cataloghi, video, immagini, ecc. 
+				
+Estensioni accettate: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="de">Legen Sie die Elemente, die Ihre eigene Medienbibliothek bilden werden, wie Zeitschriften, Kataloge, Videos, Bilder usw., im Verzeichnis "library" ab. 
+				
+Akzeptierte Erweiterungen: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="pl">Umieść w katalogu "library" elementy, które stanowią Twoją własną bibliotekę mediów, takie jak czasopisma, katalogi, filmy, obrazy itp. 
+				
+Akceptowane rozszerzenia: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="ru">Поместите элементы, которые будут составлять вашу собственную библиотеку медиа, такие как журналы, каталоги, видео, изображения и т. д., в каталог "library". 
+				
+Принимаемые расширения: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic, .ppm, .pgm, .mkv, .pdf, .mp4, .avi, .cbz.</text>
+			<text lang="zh">将组成您自己的媒体库的元素放置在目录“library”中，例如杂志、目录、视频、图像等。
+				
+接受的扩展名：.jpg、.jpeg、.png、.bmp、.psd、.tga、.gif、.hdr、.pic、.ppm、.pgm、.mkv、.pdf、.mp4、.avi、.cbz。</text>
+			<text lang="ja">雑誌、カタログ、動画、画像など、自分自身のメディアライブラリを構成する要素をディレクトリ「library」に配置します。
+				
+受け入れられる拡張子：.jpg、.jpeg、.png、.bmp、.psd、.tga、.gif、.hdr、.pic、.ppm、.pgm、.mkv、.pdf、.mp4、.avi、.cbz。</text>
 		</text>
 		
 
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text lang="es">Biblioteca</text>
 			<text lang="ca">Biblioteca</text>
 			<text lang="eu">Liburutegia</text>		

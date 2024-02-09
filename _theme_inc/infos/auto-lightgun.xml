@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>An automatic list of all Light Gun compatible games available on the system.</text>
 			<text lang="es">Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
 			<text lang="ca">Una llista de tots els jocs compatibles amb pistoles (lightgun) disponibles en el sistema.</text>
@@ -21,7 +21,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">システムで利用可能なライトガン対応のゲームのリスト。</text>
 		</text>
 		
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text lang="es">Juegos de pistola (Light Gun)</text>
 		</text>
 	</view>

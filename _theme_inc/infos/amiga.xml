@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>The Amiga is a family of personal computers introduced by Commodore in 1985. The original model is one of a number of computers with 16 or 32-bit processors, 256 KB or more of RAM, mouse-based GUIs, and significantly improved graphics and audio over 8-bit systems. This includes the Atari ST—released earlier the same year—Macintosh, and the Acorn Archimedes. 
 
 Based on the Motorola 68000 microprocessor, the Amiga differs from its contemporaries through the inclusion of custom hardware to accelerate graphics and sound, including sprites and a blitter, and a pre-emptive multitasking operating system called AmigaOS.

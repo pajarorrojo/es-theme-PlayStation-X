@@ -22,4 +22,10 @@ La línea Tandy Color Computer comenzó en 1980 con el que ahora conocemos como 
 			<text>Tandy Color Computer</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>a41818</color>
+			<colorEnd>2ca1d7</colorEnd>
+		</image>
+	</view>
 </theme>

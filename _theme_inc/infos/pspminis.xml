@@ -16,7 +16,7 @@
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>118fdb</color>
 			<colorEnd>0094FF</colorEnd>
 		</image>

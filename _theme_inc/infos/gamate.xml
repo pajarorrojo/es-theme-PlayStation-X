@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	    
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>The Gamate is a handheld game console manufactured by Bit Corporation in the early 1990s, and released in Australia, some parts of Europe, Asia (Taiwan and China), Argentina, and the United States. </text>
 			<text lang="es,ca,eu">La Gamate fue una videoconsola portátil fabricada por Bit Corporation. Se tiene noticias de su venta en Australia, Europa (España, Francia, Reino Unido, Italia, Finlandia, Alemania, Austria...), Asia, Estados Unidos, México, Argentina, Sudáfrica.... Se puso en venta sobre 1990.</text>
 		</text>
@@ -14,5 +14,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="system_name" extra="true">
 			<text>Gamate</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>261894</color>
+			<colorEnd>cedb16</colorEnd>
+		</image>
 	</view>
 </theme>

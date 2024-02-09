@@ -1,0 +1,43 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>This collection is designed to store and organize games you consider completed, serving as a historical record or reference of the titles you have finished.</text>
+			<text lang="es">Esta colección está pensada para guardar y organizar los juegos que consideres finalizados, actuando así como un registro histórico o referencia de los títulos que has completado.</text>
+			<text lang="ca">Aquesta col·lecció està pensada per desar i organitzar els jocs que consideris finalitzats, actuant així com un registre històric o referència dels títols que has completat.</text>
+            <text lang="eu">Kolekzio hau pentsatua dago, jokoen organitzatzeko eta gordeko, amaituak uste dituzun jokoen erregistro historiko edo erreferentzia gisa jarduten dena.</text>
+			<text lang="fr">Cette collection est conçue pour stocker et organiser les jeux que vous considérez comme terminés, servant ainsi de registre historique ou de référence des titres que vous avez terminés.</text>
+			<text lang="pt">Esta coleção foi projetada para armazenar e organizar os jogos que você considera concluídos, atuando como um registro histórico ou referência dos títulos que você terminou.</text>
+			<text lang="it">Questa collezione è progettata per archiviare e organizzare i giochi che ritieni completati, fungendo da registro storico o riferimento dei titoli che hai finito.</text>	
+			<text lang="de">Diese Sammlung wurde entwickelt, um Spiele zu speichern und zu organisieren, die du als abgeschlossen betrachtest, und dient als historisches Protokoll oder Referenz der Titel, die du abgeschlossen hast.</text>
+			<text lang="pl">Ta kolekcja została zaprojektowana do przechowywania i organizacji gier, które uważasz za ukończone, pełniąc rolę historycznego zapisu lub odniesienia do tytułów, które ukończyłeś.</text>
+			<text lang="ru">Эта коллекция создана для хранения и организации игр, которые вы считаете завершенными, служа как историческая запись или справочник завершенных вами заголовков.</text>
+			<text lang="he">אוסף זה נועד לאחסן ולארגן משחקים שאתה רואה כסיומים, שמש כרישום היסטורי או הפניה לכותרים שסיימת.</text>
+			<text lang="ar">تم تصميم هذه المجموعة لتخزين وتنظيم الألعاب التي تعتبرها منتهية، وتعمل كسجل تاريخي أو مرجع للعناوين التي قمت بإكمالها.</text>
+			<text lang="ja">このコレクションは、完了したと見なすゲームを保存および整理するために設計され、完了したタイトルの歴史的な記録や参照として機能します。</text>
+			<text lang="zh">此收藏旨在存储和组织您认为已完成的游戏，充当您完成的标题的历史记录或参考。</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Finished games</text>
+			<text lang="es">Juegos finalizados</text>
+			<text lang="ca">Jocs finalitzats</text>
+			<text lang="eu">Joko amaituak</text>
+			<text lang="fr">Jeux terminés</text>
+			<text lang="pt">Jogos concluídos</text>
+			<text lang="it">Giochi completati</text>
+			<text lang="de">Abgeschlossene Spiele</text>
+			<text lang="pl">Zakończone gry</text>
+			<text lang="ru">Завершенные игры</text>
+			<text lang="he">משחקים שסיימו</text>
+			<text lang="ar">الألعاب المنتهية</text>
+			<text lang="ja">終了したゲーム</text>
+			<text lang="zh-CN">已完成的游戏</text>
+		</text>
+	</view>
+</theme>

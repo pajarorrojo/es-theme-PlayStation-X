@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Atomiswave</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>f54505</color>
+			<colorEnd>19b35e</colorEnd>
+		</image>
+	</view>
 </theme>

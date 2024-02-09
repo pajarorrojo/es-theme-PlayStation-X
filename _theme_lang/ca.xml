@@ -87,6 +87,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <image-full-size>Imatge a pantalla completa</image-full-size>
     <theme.nav-sounds>Sons de navegació</theme.nav-sounds>
     <singlelViewName>Joc a joc</singlelViewName>
-    <theme.timesplayed>Partides jugades</theme.timesplayed>
+    <theme.box>Caixa</theme.box>
+    <theme.romFolder>Mostrar informació de la carpeta de ROMs</theme.romFolder>
+    <dim>Empal·lidit</dim>
+    <theme-lastplayedLabel>Jugat per última vegada</theme-lastplayedLabel>
+    <theme-timesPlayedLabel>Partides Jugades:</theme-timesPlayedLabel>
+    <theme-gameTimeLabel>Temps Jugat:</theme-gameTimeLabel>
   </variables>
 </theme>

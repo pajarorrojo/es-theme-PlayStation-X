@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>An automatic list of all Light Gun compatible games available on the system.</text>
 			<text lang="es,ca,eu">Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
 			<text lang="fr">Une liste de tous les jeux compatibles avec Ligh Guns disponibles sur le système.</text>

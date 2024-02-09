@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 <text>A subgenre of action games where the player faces off against other characters, usually in one-on-one combat controlled by the machine or another human player. In this genre, each character has a large number of different movements, which can be linked together through combos.
 
 Although the term is often interchanged with Beat'em Up, fighting games are generally exclusively one-on-one combat, not one-on-many.</text>
@@ -45,5 +45,11 @@ Chociaż termin często jest wymieniany z Beat'em Up, gry walki zazwyczaj dotycz
 	</text>
 
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fe2062</color>
+			<colorEnd>ff0000</colorEnd>
+		</image>
 	</view>
 </theme>

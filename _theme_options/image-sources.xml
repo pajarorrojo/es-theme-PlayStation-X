@@ -201,11 +201,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <image name="image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic">
       <maxSize>0.25 0.3</maxSize>
       <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
-      <pos>0.15 0.532</pos>
+      <pos>0.15 0.68</pos>
       <zIndex>91</zIndex>
       <linearSmooth>true</linearSmooth>
-      <origin>0.5 0</origin>
-      <verticalAlignment>top</verticalAlignment>
+      <origin>0.5 0.5</origin>
       <alignment>center</alignment>
       <default>{game:image}</default>
 </image>
@@ -223,11 +222,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <image name="image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single">
       <maxSize>0.25 0.3</maxSize>
       <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
-      <pos>0.15 0.572</pos>
+      <pos>0.15 0.710</pos>
       <zIndex>91</zIndex>
       <linearSmooth>true</linearSmooth>
-      <origin>0.5 0</origin>
-      <verticalAlignment>top</verticalAlignment>
+      <origin>0.5 0.5</origin>
       <alignment>center</alignment>
       <default>{game:image}</default>
 </image>
@@ -256,11 +254,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 </customView>
 
 
-  <!-- ocultar imagen principal de juego si la opcion video es ventana por defecto como ocurre en full-grid o single -->
+  <!-- ocultar imagen principal de juego si la opcion video es ventana por defecto (por vista) -->
 
-
+   <!-- retardo del video de 0, 05 y 1 seg -->
 <customView name="full-grid">
-   <image ifSubset="game-video:default, anim-list:YES" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+   <image ifSubset="game-video:default, anim-list:YES, video-gamelist-delay:0s|05s|1s" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
          <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
          <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
@@ -285,7 +283,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
    </image>
 
-   <image ifSubset="game-video:default, anim-list:NO" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+
+
+   <image ifSubset="game-video:default, anim-list:NO, video-gamelist-delay:0s|05s|1s" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
@@ -296,25 +296,25 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
    </image>
-</customView>
 
-<customView name="single">
-   <image ifSubset="game-video:default, anim-list:YES" name="image-single, thumbnail-single,marquee-single, boxart-single, cartridge-single, titleshot-single, fanart-single, boxback-single">
+   <!-- retardo del video de 2 y 3 seg -->
+
+   <image ifSubset="game-video:default, anim-list:YES, video-gamelist-delay:2s|3s" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
          <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
          <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
          <animation property="opacity" from="0" to="1" begin="100" duration="600" mode="easeInOut" />
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activateNext">
          <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
          <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activatePrev">
          <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
          <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="deactivateNext">
          <animation property="opacity" to="0" duration="100" mode="easeOut" />
@@ -324,38 +324,57 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
    </image>
 
-   <image ifSubset="game-video:default, anim-list:NO" name="image-single, thumbnail-single,marquee-single, boxart-single, cartridge-single, titleshot-single, fanart-single, boxback-single">
+   <image ifSubset="game-video:default, anim-list:NO, video-gamelist-delay:2s|3s" name="image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activateNext">
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activatePrev">
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
    </image>
 </customView>
 
-  <!-- ocultar imagen principal de juego si la opcion video es ventana, activado tambien si anim-lista = no -->
+
+
+<!-- ocultar imagen principal de juego si la opcion video es ventana, activado tambien si anim-lista = no -->
 
 
 <view name="detailed">
-    <image ifSubset="game-video:default|window, anim-list:NO" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
+
+      <!-- retardo del video de 0, 05 y 1 seg -->
+      <image ifSubset="game-video:default|window, anim-list:NO, video-gamelist-delay:0s|05s|1s" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
+         <storyboard event="open">
+            <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         </storyboard>
+         <storyboard event="activateNext">
+            <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         </storyboard>
+         <storyboard event="activatePrev">
+            <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         </storyboard>
+      </image>
+
+   <!-- retardo del video de 2 y 3 seg -->
+    <image ifSubset="game-video:default|window, anim-list:NO, , video-gamelist-delay:2s|3s" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
       <storyboard event="open">
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activateNext">
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activatePrev">
-         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
    </image>
 </view>
 
 <view name="grid">
-   <image ifSubset="game-video:window, anim-list:NO" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+
+   <!-- retardo del video de 0, 05 y 1 seg -->
+   <image ifSubset="game-video:window, anim-list:NO, , video-gamelist-delay:0s|05s|1s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
@@ -364,6 +383,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
       <storyboard event="activatePrev">
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
+      </storyboard>
+   </image>
+
+   <!-- retardo del video de 2 y 3 seg -->
+   <image ifSubset="game-video:window, anim-list:NO, , video-gamelist-delay:2s|3s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+      <storyboard event="open">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activateNext">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activatePrev">
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>
    </image>
 </view>

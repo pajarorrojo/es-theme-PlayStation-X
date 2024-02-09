@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 	
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64.</text>
 			<text lang="es,ca,eu">Nintendo GameCube es la quinta consola de sobremesa hecha por Nintendo. Es la sucesora del Nintendo 64 y la predecesora del Wii.
 
@@ -22,7 +22,7 @@ Sus principales características son su procesador central basado en un IBM Powe
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>452EBC</color>
 			<colorEnd>8083B8</colorEnd>
 		</image>

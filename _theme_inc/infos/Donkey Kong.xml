@@ -24,7 +24,7 @@ Con su distintiva combinación de personajes carismáticos, diseños de niveles 
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>ff0000</color>
 			<colorEnd>ffcc00</colorEnd>
 		</image>

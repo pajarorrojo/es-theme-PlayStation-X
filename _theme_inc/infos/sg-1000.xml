@@ -6,8 +6,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
-			<text>The SG-1000[a] is a home video game console manufactured by Sega and released in Japan, Australia, New Zealand, and other regions. It was Sega's first entry into the home video game hardware business. Introduced in 1983, the SG-1000 was released on the same day that Nintendo released the Family Computer in Japan.</text>
+		<text name="system_description" extra="true">
+			<text>The SG-1000 is a home video game console manufactured by Sega and released in Japan, Australia, New Zealand, and other regions. It was Sega's first entry into the home video game hardware business. Introduced in 1983, the SG-1000 was released on the same day that Nintendo released the Family Computer in Japan.</text>
 			<text lang="es,ca,eu">SG-1000, fue la primera videoconsola de sobremesa desarrollada por Sega. Fue primero lanzada al mercado en una primera fase de pruebas en Japón en 1981 y finalmente lanzada al mercado japonés en julio de 1983 por 15.000¥. 
 
 La consola no consiguió gran éxito en ese mercado. Sin embargo, el sistema se vendió bien en Asia hasta 1985. Fue también comercializada en Australia por John Sands, en Nueva Zelanda por Grandstand Leisure Limited, y en otros países como Italia, España, y Sudáfrica. La consola en su versión original nunca llegó a Norteamérica, su nombre es el acrónimo de Sega Game 1000.
@@ -21,7 +21,7 @@ La consola no consiguió gran éxito en ese mercado. Sin embargo, el sistema se 
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>0055A0</color>
 			<colorEnd>FF0000</colorEnd>
 		</image>

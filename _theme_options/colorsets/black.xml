@@ -5,14 +5,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <variables>
       <menuSelectedColor ifSubset="secondary_colorset:default">3CAEFB</menuSelectedColor>
-      <menuSelectorColor >222222</menuSelectorColor>
+      <menuSelectorColor>2d2828</menuSelectorColor>
       <menuSelectorColorEnd>000000</menuSelectorColorEnd>
-      <menuFontcolor>888888</menuFontcolor>
+      <menuFontcolor>cccccc</menuFontcolor>
       <menuSeparatorColor>555555</menuSeparatorColor>
-      <menuGrouptitle>dddddd</menuGrouptitle>
+      <menuGrouptitle>eeeeee</menuGrouptitle>
       <menuGroupSeparator>dddddd</menuGroupSeparator>
       <menuTitleColor>DFDCDC</menuTitleColor>
-      <menubgColor>232323</menubgColor>
+      <menubgColor>2d2828</menubgColor>
       <backgroundgrid>aaaaaa</backgroundgrid>
       <backgroundgridSelect ifSubset="secondary_colorset:default">666666</backgroundgridSelect>
       <menuFooter>555555</menuFooter>
@@ -37,6 +37,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
       <classic.tile.background>000000</classic.tile.background>
       <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>
+      <dimColor>808080</dimColor>
    </variables>
 
 
@@ -48,22 +49,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </view>
 
 
-   <view name=" detailed">
-      <image name="background" extra="static">
-         <path>./black/default-detailed.png</path>
-      </image>
-
-   </view>
-
-
-
 
 
    <view name="menu">
       <menuBackground name="menubg">
          <path>./black/fond_menu.png</path>
-         <fadePath>./black/fond_menu_fade.png</fadePath>
       </menuBackground>
+
 
       <menuTextEdit name="menutextedit">
          <inactive>./../../_theme_inc/images/caja-texto-negra.png</inactive>

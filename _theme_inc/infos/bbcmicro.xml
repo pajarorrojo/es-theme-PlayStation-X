@@ -15,4 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>BBC Micro</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>a41818</color>
+			<colorEnd>1a1a1a</colorEnd>
+		</image>
+	</view>
 </theme>

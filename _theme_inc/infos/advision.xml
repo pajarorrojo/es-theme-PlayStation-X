@@ -31,4 +31,10 @@ Una interesante característica del Adventure Vision era su "monitor", la consol
 			<text>Adventure Vision</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>FF0000</color>
+			<colorEnd>dddddd</colorEnd>
+		</image>
+	</view>
 </theme>

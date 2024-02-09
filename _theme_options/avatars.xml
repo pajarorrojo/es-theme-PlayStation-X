@@ -78,6 +78,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image.avatar ifSubset="system-avatar:willow">willow.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:wonderboy">wonderboy.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:batocera">batocera.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:psx-logo">ps-x-logo-avatar.png</image.avatar>
 	</variables>
 
 </theme>

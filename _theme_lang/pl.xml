@@ -57,7 +57,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.videoSnapAudio>Włącz dźwięk w wideo gier</theme.videoSnapAudio>
     <theme.animatedList>Animowane przejścia w liście gier</theme.animatedList>
     <theme.animatedSystem>Animowane przejścia w widoku systemów</theme.animatedSystem>
-    <theme.aspect-ratio >Wybierz typ ekranu</theme.aspect-ratio>
+    <theme.aspect-ratio>Wybierz typ ekranu</theme.aspect-ratio>
     <theme.oversizeVideoOption>Przeskaluj wideo</theme.oversizeVideoOption>
     <theme.bato35compatilble>Tylko kompatybilne w batocera 35 lub nowszej</theme.bato35compatilble>
     <theme.netplay-required>Proszę włączyć netplay, aby wyświetlić swoją nazwę użytkownika lub wybrać inną nazwę w opcjach motywu</theme.netplay-required>
@@ -87,6 +87,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <image-full-size>Obraz na pełnym ekranie</image-full-size>
     <theme.nav-sounds>Dźwięki nawigacji</theme.nav-sounds>
     <singlelViewName>Gra po grze</singlelViewName>
-    <theme.timesplayed>Rozegrano razy</theme.timesplayed>
+    <theme.box>Pudełko</theme.box>
+    <theme.logo>Loga</theme.logo>
+    <theme.romFolder>Pokaż informacje o folderze ROMów</theme.romFolder>
+    <dim>Przyciemniony</dim>
+    <theme-lastplayedLabel>Ostatnia rozgrywka</theme-lastplayedLabel>
+		<theme-timesPlayedLabel>Rozegrano razy:</theme-timesPlayedLabel>
+		<theme-gameTimeLabel>Czas gry:</theme-gameTimeLabel>
   </variables>
 </theme>

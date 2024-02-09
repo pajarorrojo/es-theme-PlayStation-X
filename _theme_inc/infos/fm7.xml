@@ -15,4 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Fujitsu FM-7</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>777d81</color>
+			<colorEnd>db1616</colorEnd>
+		</image>
+	</view>
 </theme>

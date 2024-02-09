@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 	
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>An open-source port of Prince of Persia, based on the disassembly of the DOS version, extended with new features.</text>
 			<text lang="es,ca,eu">Un port de código abierto del famoso videojuego Prince Of Persia, ampliado con nuevas características</text>
 			<text lang="fr">Un port open-source de Prince of Persia, basé sur le démontage de la version DOS, étendu avec de nouvelles fonctionnalités.</text>

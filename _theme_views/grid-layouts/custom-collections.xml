@@ -5,33 +5,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
       <view name="detailed, grid">
 
-      <text name="folders-number, games-number" extra="true">
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <size>0.385 0.08</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.45 0.08</size>
-         <color>ffffff</color>
-         <pos>0.162 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
-         <pos tinyScreen="true">0.065 0.045</pos>
-         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.030</fontSize>
-         <origin>0 0</origin>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>502</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>00ff0000</backgroundColor>
-      </text>
       <text name="folders-number" extra="true">
-         <text>{system:name}: {binding:total} ${GamesNumber}</text>
+         <text>{system:name}: {system:total} ${GamesNumber}</text>
          <text>{game:system:name}: {game:system:total} ${GamesNumber}</text>
          <visible>{game:system:collection}</visible>
       </text>
       
-      <text name="games-number" extra="true">
-         <text>${theme.timesplayed}: {game:playcount}</text>
+      <text name="gameInfoEx_extra" extra="true">
+         <text>'' + '${theme-timesPlayedLabel}' + ' ' + {game:playcount} + '  •  ' + '${theme-gameTimeLabel}' + ' ' + {game:gametime}.formatseconds() + '' </text>
          <visible>!{game:system:collection}</visible>
       </text>
    </view>
@@ -40,19 +21,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <text name="systemInfoEx_extra" extra="true">
-         <text>{binding:subSystems} ${theme.collections} | {binding:total} ${GamesNumber}</text>
-         <pos>0.162 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
-         <pos tinyScreen="true">0.065 0.045</pos>
-         <size>0.398 0.055</size>
-         <color>FFFFFF</color>
-         <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.030</fontSize>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <backgroundColor>00ff0000</backgroundColor>
-         <zIndex>99</zIndex>
+         <text>{system:subSystems} ${theme.collections}  •  {system:total} ${GamesNumber}</text>
       </text>
 
    </view>
@@ -60,19 +29,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system,detailed,grid">
 
       
-      <text name="systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime" extra="true">
+      <text name="systemInfoEx, systemInfoEx2, gameInfoEx, gameInfoExNull, gameInfoEx2" extra="static">
          <opacity>0</opacity>
          <visible>false</visible>
          <pos>-2 -2</pos>
          <zIndex>0</zIndex>
       </text>
-
-      <rating name="md_rating" ifSubset="info-bar:YES">
-         <opacity>0</opacity>
-         <visible>false</visible>
-         <pos>-2 -2</pos>
-         <zIndex>0</zIndex>
-      </rating>
 
 
    </view>

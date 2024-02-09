@@ -16,4 +16,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Atom</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>268842</color>
+			<colorEnd>133b2c</colorEnd>
+		</image>
+	</view>
 </theme>

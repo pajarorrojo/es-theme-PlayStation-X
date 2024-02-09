@@ -21,4 +21,10 @@ La consola a menudo se refiere a M-1000 o MP-1000, que son los dos números de m
 			<text>APF M1000</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>3d1600</color>
+			<colorEnd>cecece</colorEnd>
+		</image>
+	</view>
 </theme>

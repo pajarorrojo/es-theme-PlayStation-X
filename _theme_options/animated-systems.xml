@@ -39,7 +39,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <text name="system_name,system-folder" extra="true">
       <storyboard>
         <animation property="h" from="0.2" duration="350" mode="easeOutCubic" />
-        <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
+        <animation property="opacity" from="0" duration="500" mode="linear" />
       </storyboard>
     </text>
 
@@ -51,7 +51,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </text>
 
 
-    <image name="logo2, consoles" extra="true" >
+    <image name="logo2, system-console" extra="true">
       <storyboard>
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
@@ -97,7 +97,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </image>
 
-    <image name="caratula-overlay" >
+    <image name="caratula-overlay">
       <path>./_theme_inc/images/caratulas/default.png</path>
       <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
       <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>

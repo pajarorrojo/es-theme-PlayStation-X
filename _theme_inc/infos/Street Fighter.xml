@@ -23,7 +23,7 @@ Los juegos de esta serie son generalmente de pelea uno contra uno. Los personaje
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FF4700</color>
 			<colorEnd>FFE500</colorEnd>
 		</image>

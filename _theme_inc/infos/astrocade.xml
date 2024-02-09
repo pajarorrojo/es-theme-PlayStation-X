@@ -19,7 +19,7 @@ It was originally announced as the "Bally Home Library Computer" in October 1977
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FCAF00</color>
 			<colorEnd>281700</colorEnd>
 		</image>

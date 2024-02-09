@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Is a line of home computers from Atari Corporation and the successor to the Atari 8-bit family. The initial ST model, the 520ST, saw limited release in April–June 1985 and was widely available in July.</text>
 			<text lang="es,ca,eu">Atari ST es una computadora doméstica presentada por la empresa Atari. Las letras "ST" es la abreviación de "Sixteen/Thirty-two" (en castellano, dieciséis/treinta y dos).</text>
 			<text lang="fr">Les Atari ST forment une famille d'ordinateurs personnels conçus par la firme américaine Atari dont le succès commercial a marqué la deuxième moitié des années 1980 et le début des années 1990.</text>
@@ -16,5 +16,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="system_name" extra="true">
 			<text>Atari ST</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>2960a9</color>
+			<colorEnd>636366</colorEnd>
+		</image>
 	</view>
 </theme>

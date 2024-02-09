@@ -6,28 +6,46 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
-			<text>The Nintendo 3DS (abbreviated as 3DS) is a portable console produced by Nintendo and released in 2011, successor to the Nintendo DS. It has the ability to produce three-dimensional images without special glasses.</text>
-			<text lang="es">La Nintendo 3DS (abreviado como 3DS) es una consola portátil producida por Nintendo y lanzada en 2011, sucesor de la Nintendo DS. Tiene la capacidad de producir imágenes en tres dimensiones sin gafas especiales.</text>
-			<text lang="fr">La Nintendo 3DS (en abrégé 3DS) est une console portable produite par Nintendo et sortie en 2011, successeur de la Nintendo DS. Il a la capacité de produire des images en trois dimensions sans lunettes spéciales.</text>
-			<text lang="pt">O Nintendo 3DS (abreviado como 3DS) é um console portátil produzido pela Nintendo e lançado em 2011, sucessor do Nintendo DS. Tem a capacidade de produzir imagens em três dimensões sem óculos especiais.</text>
-			<text lang="ca">La Nintendo 3DS (abreviat com a 3DS) és una consola portàtil produïda per Nintendo i llançada el 2011, successor de la Nintendo DS. Té la capacitat de produir imatges en tres dimensions sense ulleres especials.</text>
-			<text lang="eu">Nintendo 3DS (3DS bezala laburduriz) Nintendo-k ekoiztutako eta 2011n argitaratutako koaderno mugikorra da, Nintendo DS-ren ondorena. Hainbat dimentsioko irudiak sortzeko gaitasuna dauka, berezko betaurrekoak beharrik gabe.</text>				
-			<text lang="de">Der Nintendo 3DS (abgekürzt als 3DS) ist eine tragbare Konsole, die von Nintendo produziert und 2011 als Nachfolger des Nintendo DS veröffentlicht wurde. Es hat die Fähigkeit, dreidimensionale Bilder ohne Spezialbrille zu erzeugen.</text>
-			<text lang="pl">Nintendo 3DS (jap. ニンテンドー3DS Nintendō Surīdīesu) – przenośna konsola gier wideo firmy Nintendo, która została oficjalnie zaprezentowana na targach E3 15 czerwca 2010 jako następca serii Nintendo DS. Ekran konsoli umożliwia oglądanie 3D bez konieczności noszenia specjalnych okularów, wykorzystując do tego metodę autostereoskopii. 11 października 2014 roku została wydana ulepszona wersja konsoli New Nintendo 3DS. Produkcję konsoli zakończono we wrześniu 2020 roku.</text>
-			<text lang="it">Il Nintendo 3DS è una console portatile prodotta da Nintendo. La console è stata annunciata nel marzo 2010 e presentata ufficialmente all'E3 2010 come successore del Nintendo DS. La console è dotata di retrocompatibilità con i vecchi videogiochi per Nintendo DS. Essendo una console di ottava generazione, il suo principale concorrente era la PlayStation Vita di Sony.</text>
-			<text lang="ru">Портативная игровая система производства Nintendo, способная создавать трёхмерный эффект изображения за счёт автостереоскопии, то есть без использования специальных очков. Консоль поступила в продажу во всех регионах до конца финансового года Nintendo, завершившегося в конце марта 2011 г. Игровая система присутствует на рынке одновременно с линейкой игровых систем Nintendo DS.</text>
-			<text lang="ja">ニンテンドー3DSは、2011年に発売された携帯型ビデオゲーム機です。その主な特徴は、特別なメガネを使わずに3D画面が楽しめることです。また、カメラ、マイク、インターネット接続も備えており、オンラインでのプレイや追加コンテンツのダウンロードも可能です。3DSには、スーパーマリオ3Dランドやゼルダの伝説時のオカリナ3Dなどの独占タイトルを含む、豊富なゲームライブラリがあります。</text>
-			<text lang="zh">Nintendo 3DS是任天堂生產的掌上游戲機。它於 2010 年 3 月發布，並在 2010 年 E3 上作為 Nintendo DS 的繼任者亮相。該系統具有向後兼容舊的 Nintendo DS 視頻遊戲的特點。作為第八代遊戲機，其主要競爭對手是索尼的 PlayStation Vita。</text>
+		<text name="system_description" extra="true">
+			<text>The Nintendo 3DS, released in 2011, is a handheld console known for its glasses-free 3D display. It offers a wide variety of games and interactive features, including wireless communication and augmented reality, providing a unique and versatile gaming experience. 
+				
+With additional features such as music playback, internet browsing, and 3D photography, its library offers a variety of games including titles from famous franchises like Mario, Zelda, and Pokémon.</text>
+			<text lang="es">La Nintendo 3DS, lanzada en 2011, es una consola portátil conocida por su pantalla 3D sin gafas. Ofrece una amplia variedad de juegos y funciones interactivas, incluida la comunicación inalámbrica y la realidad aumentada, proporcionando una experiencia de juego única y versátil. 
+				
+Con características adicionales como reproducción de música, navegación por Internet y fotografías en 3D. Su biblioteca ofrece una variedad de juegos que incluyen títulos de franquicias famosas como Mario, Zelda y Pokémon.</text>
+			<text lang="ca">La Nintendo 3DS, llançada el 2011, és una consola portàtil coneguda per la seva pantalla 3D sense ulleres. Ofereix una àmplia varietat de jocs i funcions interactives, incloent la comunicació sense fils i la realitat augmentada, proporcionant una experiència de joc única i versàtil. 
+				
+Amb característiques addicionals com la reproducció de música, navegació per internet i fotografies en 3D, la seva biblioteca ofereix una varietat de jocs incloent títols de franquícies famoses com Mario, Zelda i Pokémon.</text>
+			<text lang="eu">2011ean argitaratutako Nintendo 3DS, pantaila 3D gabeko konsola da, eta harrapatu egiten du. 
+				
+Joko eta funtzio interaktibo ugaritzailea eskaintzen du, sarea gabe eta errealitate areagotuarekin, esperientzia joko berezia eta eraginkorra eskaintzen du. Musika erreproduzitzeko, interneten nabigatzeko eta 3D argazkiak egiteko aukera ditu. Bere liburutegiak Mario, Zelda eta Pokémon bezalako franquizi ospetsuetatik datorren jokoak barne hartzen ditu.</text>
+			<text lang="fr">La Nintendo 3DS, sortie en 2011, est une console portable connue pour son affichage 3D sans lunettes. Elle propose une grande variété de jeux et de fonctionnalités interactives, y compris la communication sans fil et la réalité augmentée, offrant une expérience de jeu unique et polyvalente. 
+				
+Avec des fonctionnalités supplémentaires telles que la lecture de musique, la navigation sur Internet et la photographie en 3D, sa bibliothèque propose une variété de jeux incluant des titres de franchises célèbres comme Mario, Zelda et Pokémon.</text>
+			<text lang="pt">A Nintendo 3DS, lançada em 2011, é uma consola portátil conhecida pelo seu ecrã 3D sem óculos. Oferece uma ampla variedade de jogos e funcionalidades interativas, incluindo comunicação sem fios e realidade aumentada, proporcionando uma experiência de jogo única e versátil. 
+				
+Com funcionalidades adicionais como reprodução de música, navegação na Internet e fotografia em 3D, a sua biblioteca oferece uma variedade de jogos incluindo títulos de franquias famosas como Mario, Zelda e Pokémon.</text>
+			<text lang="it">Il Nintendo 3DS, rilasciato nel 2011, è una console portatile conosciuta per il suo schermo 3D senza occhiali. Offre una vasta gamma di giochi e funzioni interattive, tra cui comunicazione wireless e realtà aumentata, fornendo un'esperienza di gioco unica e versatile. 
+				
+Con funzionalità aggiuntive come la riproduzione di musica, la navigazione su Internet e la fotografia in 3D, la sua libreria offre una varietà di giochi tra cui titoli di famose franchise come Mario, Zelda e Pokémon.</text>
+			<text lang="de">Die Nintendo 3DS, im Jahr 2011 veröffentlicht, ist eine Handheld-Konsole, die für ihr brillenloses 3D-Display bekannt ist. Sie bietet eine breite Palette von Spielen und interaktiven Funktionen, einschließlich drahtloser Kommunikation und erweiterter Realität, die ein einzigartiges und vielseitiges Spielerlebnis bieten. 
+				
+Mit zusätzlichen Funktionen wie Musikwiedergabe, Internet-Browsing und 3D-Fotografie bietet ihre Bibliothek eine Vielzahl von Spielen, darunter Titel berühmter Franchises wie Mario, Zelda und Pokémon.</text>
+			<text lang="pl">Nintendo 3DS, wydana w 2011 roku, to przenośna konsola znana z wyświetlacza 3D bez okularów. Oferuje szeroką gamę gier i funkcji interaktywnych, w tym komunikację bezprzewodową i rzeczywistość rozszerzoną, zapewniając unikalne i wszechstronne doświadczenie w grze.
+
+Dzięki dodatkowym funkcjom, takim jak odtwarzanie muzyki, przeglądanie Internetu i fotografowanie w 3D, jej biblioteka oferuje różnorodność gier, w tym tytuły znanych franczyz, takich jak Mario, Zelda i Pokémon.</text>
+			<text lang="ru">Nintendo 3DS, выпущенная в 2011 году, является портативной консолью, известной своим трехмерным дисплеем без очков. Она предлагает широкий выбор игр и интерактивных функций, включая беспроводную связь и дополненную реальность, обеспечивая уникальный и универсальный игровой опыт. С дополнительными функциями, такими как воспроизведение музыки, просмотр интернета и фотографирование в 3D, ее библиотека предлагает разнообразие игр, включая титулы известных франшиз, таких как Марио, Зельда и Покемон.</text>
+			<text lang="zh">2011年推出的任天堂3DS是一款以无眼镜3D显示而闻名的手持式游戏机。 它提供了丰富多样的游戏和互动功能，包括无线通信和增强现实，为玩家提供独特而多样化的游戏体验。 其附加功能包括音乐播放，互联网浏览和3D摄影，其游戏库提供了各种各样的游戏，包括来自马里奥、塞尔达和宝可梦等知名系列的游戏。</text>
+			<text lang="ar">تُعتبر نينتندو 3DS، التي تم إطلاقها في عام 2011، جهازًا محمولًا معروفًا بشاشته ثلاثية الأبعاد بدون نظارات. إنه يقدم مجموعة واسعة من الألعاب والميزات التفاعلية، بما في ذلك الاتصال اللاسلكي والواقع المعزز، مما يوفر تجربة لعب فريدة ومتعددة الاستخدامات. بفضل الميزات الإضافية مثل تشغيل الموسيقى وتصفح الإنترنت والتصوير بتقنية 3D، توفر مكتبته مجموعة متنوعة من الألعاب بما في ذلك عناوين من العلامات التجارية الشهيرة مثل ماريو وزيلدا وبوكيمون.</text>
+			<text lang="he">ה-Nintendo 3DS, שיצאה לאור ב-2011, היא קונסולת ניידת הידועה בתצוגת 3D ללא משקפיים. היא מציעה מגוון רחב של משחקים ותכונות אינטרקטיביות, כולל תקשורת אלחוטית ומציאות מורחבת, המספקת חוויית משחק ייחודית ורבת עוצמה. עם תכונות נוספות כמו השמעת מוזיקה, גלישה באינטרנט וצילום בתלת-מימד, הספרייה שלה מציעה מגוון של משחקים כולל כותרים מסדרות מותגים כמו מריו, זלדה ופוקימון.</text>
+			<text lang="ja">2011年に発売されたニンテンドー3DSは、メガネなしの3Dディスプレイで知られる携帯ゲーム機です。ワイヤレス通信や拡張現実などの幅広いゲームやインタラクティブ機能を提供し、ユニークで多目的なゲーム体験を提供します。音楽再生、インターネットブラウジング、3D写真撮影などの追加機能を備え、マリオ、ゼルダ、ポケモンなどの有名フランチャイズのタイトルを含む多様なゲームを提供します。</text>
 		</text>
-
-
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text>Nintendo 3DS</text>
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>E10007</color>
 			<colorEnd>333333</colorEnd>
 		</image>

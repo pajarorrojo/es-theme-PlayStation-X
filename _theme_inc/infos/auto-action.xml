@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 <text>An action game is a video game genre that emphasizes physical challenges, including hand-eye coordination and reaction-time. The genre includes a large variety of sub-genres, such as fighting games, beat 'em ups, shooter games, and platform games.</text>
 <text lang="es">Género que se caracteriza porque el jugador debe hacer uso de su velocidad, destreza en el control y tiempo de reacción para avanzar. Se trata de un género muy amplio que abarca los juegos de disparos, los juegos de lucha y que da lugar a hibridaciones con casi cualquier otro tipo de género.</text>
 <text lang="ca">Gènere que es caracteritza perquè el jugador ha de fer ús de la seva velocitat, destresa en el control i temps de reacció per avançar. Es tracta d'un gènere molt ampli que abasta els jocs de trets, els jocs de lluita i que dóna lloc a hibridacions amb quasi qualsevol altre tipus de gènere.</text>
@@ -23,5 +23,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <text lang="ja">アクションゲームは、手と目の協調や反応時間など、身体的なチャレンジに重点を置いたビデオゲームのジャンルです。このジャンルには、格闘ゲーム、ベルトスクロールアクションゲーム、シューティングゲーム、プラットフォームゲームなど、多様なサブジャンルが含まれます。</text>     
 		</text>
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fe2062</color>
+			<colorEnd>ff0000</colorEnd>
+		</image>
 	</view>
 </theme>

@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 <text>Role-playing video games, also known by the abbreviation RPG (role-playing game), belong to a genre where the player controls the actions and story of one or several characters immersed in a detailed world or map.
 
 This genre typically involves some form of progressive development of the characters as the story unfolds, either through the recording of various statistics or the evolution of skills, magic, better weapons, armor, etc...</text>
@@ -47,5 +47,11 @@ Ten gatunek zwykle wymaga pewnej formy progresywnego rozwoju postaci w miarę ro
 		<text name="system_name" extra="true">
 			<text lang="es">Juegos de Rol (RPG)</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>41e7d4</color>
+			<colorEnd>00AC97</colorEnd>
+		</image>
 	</view>
 </theme>

@@ -13,17 +13,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <pos>-0.595 0.115</pos>
          <pos ifSubset="aspect-ratio:16-9">-0.595 0.115</pos>
-         <pos ifSubset="aspect-ratio:16-10">-0.696 0.115</pos>
-         <pos ifSubset="aspect-ratio:4-3">-0.962 0.115</pos>
+         <pos ifSubset="aspect-ratio:16-10">-0.680 0.116</pos>
+         <pos ifSubset="aspect-ratio:4-3">-0.94 0.115</pos>
          <pos ifSubset="aspect-ratio:5-4">-1.028 0.115</pos>
          <pos ifSubset="aspect-ratio:3-2">-0.75 0.115</pos>
+         <pos ifSubset="aspect-ratio:5-3">-0.665 0.115</pos>
+
          
          <size>1.68 1</size>
          <size ifSubset="aspect-ratio:16-9">1.68 1</size>
-         <size ifSubset="aspect-ratio:16-10">1.9 1</size>
-         <size ifSubset="aspect-ratio:4-3">2.27 1</size>
+         <size ifSubset="aspect-ratio:16-10">1.87 1</size>
+         <size ifSubset="aspect-ratio:4-3">2.23 1</size>
          <size ifSubset="aspect-ratio:5-4">2.42 1</size>
          <size ifSubset="aspect-ratio:3-2">2.02 1</size>
+         <size ifSubset="aspect-ratio:5-3">1.83 1</size>
+
 
       </carousel>
 
@@ -41,15 +45,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="start" extra="true">
          <pos>0.165 0.424</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.424</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.423</pos>
+         <pos ifSubset="aspect-ratio:16-9">0.165 0.424</pos>
+         <pos ifSubset="aspect-ratio:16-10">0.165 0.424</pos>
+         <pos ifSubset="aspect-ratio:4-3">0.067 0.425</pos>
+
+         <pos ifSubset="aspect-ratio:5-4">0.063 0.423</pos>
          <pos ifSubset="aspect-ratio:5-3">0.165 0.424</pos>
          <pos ifSubset="aspect-ratio:9-16">0.066 0.295</pos>
          <pos ifSubset="aspect-ratio:3-2">0.165 0.423</pos>
 
          <size>0.16 0.05</size>
          <size ifSubset="aspect-ratio:16-9">0.161 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|9-16">0.218 0.051</size>
+         <size ifSubset="aspect-ratio:4-3">0.215 0.051</size>
          <size ifSubset="aspect-ratio:16-10">0.18 0.052</size>
          <size ifSubset="aspect-ratio:3-2">0.190 0.051</size>
          <size ifSubset="aspect-ratio:5-3">0.172 0.051</size>
@@ -60,7 +67,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <text name="system_name" extra="true">
-         <text>${system.fullName}</text>
+         <text>{system:fullName}.proper()</text>
          <pos>0.335 0.451</pos>
          <pos ifSubset="aspect-ratio:16-9">0.335 0.451</pos>
          <pos ifSubset="aspect-ratio:4-3|9-16">0.295 0.451</pos>

@@ -21,6 +21,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <scale>1</scale>
          <origin>0 0</origin>
          <x>-0.045</x>
+
+
       </imagegrid>
 
       <gridtile name="default">
@@ -79,48 +81,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </view>
 
    <view name="detailed, grid">
-      <text name="md_name">
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <size>0.385 0.08</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.45 0.08</size>
-         <color>ffffff</color>
-         <pos>0.162 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
-         <pos tinyScreen="true">0.065 0.045</pos>
-         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.030</fontSize>
-         <origin>0 0</origin>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <zIndex>502</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <backgroundColor>ff000000</backgroundColor>
-         <visible>true</visible>
+
+      <text name="gameInfoEx, gameInfoExNull, gameInfoEx2, contenedor-gamedata, contenedor-gamedata2, contenedor-iconos" extra="static">
+         <visible>false</visible>
       </text>
 
 
-      <control name="md_name">
+      <text name="galleryInfoEx" extra="true">
+         <text>{game:name}</text>
+      </text>
 
-         <storyboard event="open">
-            <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />
-         </storyboard>
-         <storyboard event="activateNext">
-            <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
-         </storyboard>
-         <storyboard event="activatePrev">
-            <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
-         </storyboard>
-         <storyboard event="deactivateNext">
-            <animation property="opacity" to="0" duration="300" mode="easeOut" />
-         </storyboard>
-         <storyboard event="deactivatePrev">
-            <animation property="opacity" to="0" duration="300" mode="easeOut" />
-         </storyboard>
-      </control>
 
-      <image name="md_image">
+      <image name="gallery_image" extra="true">
+         <path>{game:image}</path>
          <maxSize>1 0.55</maxSize>
          <pos>0.5 0.320</pos>
          <origin>0.5 0.320</origin>
@@ -129,35 +102,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
 
-      <video ifSubset="game-video:default" name="md_video" >
+      <video ifSubset="game-video:default" name="gallery_video" extra="true">
+         <path>{game:video}</path>
          <maxSize>1 0.55</maxSize>
          <pos>0.5 0.3</pos>
          <origin>0.5 0.3</origin>
          <zIndex>100</zIndex>
          <visible>true</visible>      
-         <storyboard>
-            <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
-         </storyboard>
-
       </video>
-
-
-
 
 
       <helpsystem name="help">
          <display>false</display>
          <pos>2 2</pos>
       </helpsystem>
-
-      <image name="pie-galeria" extra="static">
-         <path>./_theme_inc/images/pixel-blanco.png</path>
-         <pos>0 0.725</pos>
-         <size>1 0.3</size>
-         <alignment>left</alignment>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>100</zIndex>
-      </image>
 
       <image name="background">
          <path>./_theme_inc/images/overlay-full-grid.png</path>
@@ -169,20 +127,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system">
       
       <text name="systemInfoEx_extra" extra="true">
-         <text>{binding:total} items </text>
-         <text lang="es">{binding:total} elementos </text>
-         <pos>0.162 0.045</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.045</pos>
-         <pos tinyScreen="true">0.065 0.045</pos>
-         <size>0.398 0.055</size>
-         <color>FFFFFF</color>
-         <fontPath>./../../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.030</fontSize>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <backgroundColor>ff000000</backgroundColor>
-         <zIndex>99</zIndex>
+         <text>{system:total} items </text>
+         <text lang="es">{system:total} elementos</text>
       </text>
 
    </view>
@@ -190,24 +136,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system,detailed,grid">
 
       
-      <text name="gamename-full-grid, gamename-grid,linea-infos,systemInfoEx, systemInfoEx2, md_lbl_playcount, md_playcount, md_lbl_gametime, md_gametime, md_rating, md_developer, md_releasedate, md_genre, md_flag, md_players, md_manual,md_nomanual, md_description,gamename-classic, background-art, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic,marquee-classic, boxart-classic, cartridge-classic, titleshot-classic, fanart-classic, image-single, thumbnail-single,marquee-single, boxart-single, cartridge-single, titleshot-single, fanart-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, md_thumbnail, md_marquee, md_boxart, md_cartridge, md_fanart, md_titleshot, start-single, gamename-single" extra="true">
+      <text name="gamename-full-grid, gamename-grid,linea-infos,systemInfoEx, systemInfoEx2, md_description,gamename-classic, background-art, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic,marquee-classic, boxart-classic, cartridge-classic, titleshot-classic, fanart-classic, image-single, thumbnail-single,marquee-single, boxart-single, cartridge-single, titleshot-single, fanart-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, start-single, gamename-single" extra="true">
          <opacity>0</opacity>
          <visible>false</visible>
          <pos>-2 -2</pos>
          <zIndex>0</zIndex>
       </text>
 
-      <rating name="md_rating" ifSubset="info-bar:YES">
-         <opacity>0</opacity>
-         <visible>false</visible>
-         <pos>-2 -2</pos>
-         <zIndex>0</zIndex>
-      </rating>
-
    </view>
 
    <view name="detailed,grid">
-      <text name="linea-inferior" ifHelpPrompts="true">
+      <text name="linea-inferior">
          <opacity>0</opacity>
          <visible>false</visible>
          <pos>-2 -2</pos>

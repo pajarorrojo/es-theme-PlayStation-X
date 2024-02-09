@@ -6,16 +6,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		
-		<text name="system_description" extra="true" >
-			<text>ColecoVision is a video game console released in 1982 by Coleco Industries. It features a unique design with detachable controllers that can be rotated to accommodate left or right-handed players. The system also had a powerful graphics processor and sound chip, which allowed for high-quality visuals and sound effects. ColecoVision was known for its library of arcade ports, including Donkey Kong, Zaxxon, and Ms. Pac-Man.</text>        
-			<text lang="es">ColecoVision es una consola de videojuegos lanzada en 1982 por Coleco Industries. Cuenta con un diseño único con controladores desmontables que se pueden girar para acomodar a jugadores diestros o zurdos. El sistema también tenía un procesador gráfico y un chip de sonido potentes, lo que permitía visuales y efectos de sonido de alta calidad. ColecoVision era conocida por su biblioteca de ports arcade, incluyendo Donkey Kong, Zaxxon y Ms. Pac-Man.</text>        
-			<text lang="ca">ColecoVision és una consola de videojocs llançada el 1982 per Coleco Industries. Compta amb un disseny únic amb controladors desmuntables que es poden girar per acomodar jugadors dretans o esquerrans. El sistema també tenia un processador gràfic i un xip de so potents, el que permetia visuals i efectes de so d'alta qualitat. ColecoVision era coneguda per la seva biblioteca de ports d'arcade, incloent Donkey Kong, Zaxxon i Ms. Pac-Man.</text>        
-			<text lang="eu">ColecoVision 1982an Coleco Industries-ek argitaratu zen bideo-joko konsoles bat da. Kontroladore desmontagarri batekin diseinu berezi bat du, eskuinaldeko edo ezkerraldeko jokalariei egokitzea ahalbidetzen duena. Sistema honek prozesadore grafiko eta soinu txip indartsuak ere zituen, hauetan kalitate handiko bideo eta soinu efektuak lortu ahal izan ziren.</text>        
-			<text lang="fr">ColecoVision est une console de jeu vidéo publiée en 1982 par Coleco Industries. Elle présente un design unique avec des manettes détachables qui peuvent être tournées pour accommoder les joueurs droitiers ou gauchers. Le système avait également un processeur graphique puissant et une puce sonore, ce qui permettait des visuels de haute qualité et des effets sonores. ColecoVision était connue pour sa bibliothèque de ports d'arcade, y compris Donkey Kong, Zaxxon et Ms. Pac-Man.</text>        
-			<text lang="pt">ColecoVision é um console de videogame lançado em 1982 pela Coleco Industries. Possui um design exclusivo com controladores removíveis que podem ser girados para acomodar jogadores destros ou canhotos. O sistema também possuía um processador gráfico poderoso e um chip de som, o que permitia visuais e efeitos sonoros de alta qualidade. ColecoVision era conhecido por sua biblioteca de portes de arcade, incluindo Donkey Kong, Zaxxon e Ms. Pac-Man.</text>        
-			<text lang="it">ColecoVision è una console per videogiochi rilasciata nel 1982 dalla Coleco Industries. Presenta un design unico con controller staccabili che possono essere ruotati per ospitare giocatori destrimani o mancini. Il sistema aveva anche un potente processore grafico e una scheda audio, che consentiva visivi e effetti sonori di alta qualità. ColecoVision era nota per la sua libreria di port di arcade, tra cui Donkey Kong, Zaxxon e Ms. Pac-Man.</text>        
-			<text lang="de">ColecoVision ist eine Videospielkonsole, die 1982 von Coleco Industries veröffentlicht wurde. Sie verfügt über ein einzigartiges Design mit abnehmbaren Controllern, die für Rechts- oder Linkshändige gedreht werden können. Das System hatte auch einen leistungsstarken Grafikprozessor und einen Soundchip, der hochwertige visuelle und Soundeffekte ermöglichte. ColecoVision war für seine Bibliothek von Arcade-Ports bekannt, einschließlich Donkey Kong, Zaxxon und Ms. Pac-Man.</text>        
-			<text lang="pl">ColecoVision to konsola do gier wideo wydana w 1982 roku przez Coleco Industries. Posiada unikalny design z odłączanymi kontrolerami, które można obracać, aby dostosować się do graczy prawo- lub leworęcznych. System miał również potężny procesor graficzny i chip dźwiękowy, co pozwalało na wysokiej jakości wizualizacje i efekty dźwiękowe. ColecoVision był znany z biblioteki portów arcade, w tym Donkey Kong, Zaxxon i Ms. Pac-Man.</text>        
+		<text name="system_description" extra="true">
+			<text>ColecoVision is a video game console released in 1982 by Coleco Industries. It features a unique design with detachable controllers that can be rotated to accommodate left or right-handed players. 
+				
+The system also had a powerful graphics processor and sound chip, which allowed for high-quality visuals and sound effects. ColecoVision was known for its library of arcade ports, including Donkey Kong, Zaxxon, and Ms. Pac-Man.</text>        
+			<text lang="es">ColecoVision es una consola de videojuegos lanzada en 1982 por Coleco Industries. Cuenta con un diseño único con controladores desmontables que se pueden girar para acomodar a jugadores diestros o zurdos. 
+				
+El sistema también tenía un procesador gráfico y un chip de sonido potentes, lo que permitía visuales y efectos de sonido de alta calidad. ColecoVision era conocida por su biblioteca de ports arcade, incluyendo Donkey Kong, Zaxxon y Ms. Pac-Man.</text>        
+			<text lang="ca">ColecoVision és una consola de videojocs llançada el 1982 per Coleco Industries. Compta amb un disseny únic amb controladors desmuntables que es poden girar per acomodar jugadors dretans o esquerrans. 
+				
+El sistema també tenia un processador gràfic i un xip de so potents, el que permetia visuals i efectes de so d'alta qualitat. ColecoVision era coneguda per la seva biblioteca de ports d'arcade, incloent Donkey Kong, Zaxxon i Ms. Pac-Man.</text>        
+			<text lang="eu">ColecoVision 1982an Coleco Industries-ek argitaratu zen bideo-joko konsoles bat da. Kontroladore desmontagarri batekin diseinu berezi bat du, eskuinaldeko edo ezkerraldeko jokalariei egokitzea ahalbidetzen duena. 
+				
+Sistema honek prozesadore grafiko eta soinu txip indartsuak ere zituen, hauetan kalitate handiko bideo eta soinu efektuak lortu ahal izan ziren.</text>        
+			<text lang="fr">ColecoVision est une console de jeu vidéo publiée en 1982 par Coleco Industries. Elle présente un design unique avec des manettes détachables qui peuvent être tournées pour accommoder les joueurs droitiers ou gauchers. 
+				
+Le système avait également un processeur graphique puissant et une puce sonore, ce qui permettait des visuels de haute qualité et des effets sonores. ColecoVision était connue pour sa bibliothèque de ports d'arcade, y compris Donkey Kong, Zaxxon et Ms. Pac-Man.</text>        
+			<text lang="pt">ColecoVision é um console de videogame lançado em 1982 pela Coleco Industries. Possui um design exclusivo com controladores removíveis que podem ser girados para acomodar jogadores destros ou canhotos. 
+				
+O sistema também possuía um processador gráfico poderoso e um chip de som, o que permitia visuais e efeitos sonoros de alta qualidade. ColecoVision era conhecido por sua biblioteca de portes de arcade, incluindo Donkey Kong, Zaxxon e Ms. Pac-Man.</text>        
+			<text lang="it">ColecoVision è una console per videogiochi rilasciata nel 1982 dalla Coleco Industries. Presenta un design unico con controller staccabili che possono essere ruotati per ospitare giocatori destrimani o mancini. 
+				
+Il sistema aveva anche un potente processore grafico e una scheda audio, che consentiva visivi e effetti sonori di alta qualità. ColecoVision era nota per la sua libreria di port di arcade, tra cui Donkey Kong, Zaxxon e Ms. Pac-Man.</text>        
+			<text lang="de">ColecoVision ist eine Videospielkonsole, die 1982 von Coleco Industries veröffentlicht wurde. Sie verfügt über ein einzigartiges Design mit abnehmbaren Controllern, die für Rechts- oder Linkshändige gedreht werden können. 
+				
+Das System hatte auch einen leistungsstarken Grafikprozessor und einen Soundchip, der hochwertige visuelle und Soundeffekte ermöglichte. ColecoVision war für seine Bibliothek von Arcade-Ports bekannt, einschließlich Donkey Kong, Zaxxon und Ms. Pac-Man.</text>        
+			<text lang="pl">ColecoVision to konsola do gier wideo wydana w 1982 roku przez Coleco Industries. Posiada unikalny design z odłączanymi kontrolerami, które można obracać, aby dostosować się do graczy prawo- lub leworęcznych. 
+				
+System miał również potężny procesor graficzny i chip dźwiękowy, co pozwalało na wysokiej jakości wizualizacje i efekty dźwiękowe. ColecoVision był znany z biblioteki portów arcade, w tym Donkey Kong, Zaxxon i Ms. Pac-Man.</text>        
 			<text lang="ru">ColecoVision - игровая приставка, выпущенная в 1982 году компанией Coleco Industries. Она имеет уникальный дизайн с отсоединяемыми контроллерами, которые могут поворачиваться для адаптации под правых или левых игроков. Система также имела мощный графический процессор и звуковой чип, что позволяло использовать высококачественные визуальные и звуковые эффекты. ColecoVision была известна своей библиотекой портов из аркадных игр, включая Donkey Kong, Zaxxon и Ms. Pac-Man.</text>        
 			<text lang="zh">ColecoVision是由Coleco Industries于1982年发布的一款游戏机。它采用可拆卸控制器的独特设计，可以旋转以适应左撇子或右撇子玩家。该系统还具有强大的图形处理器和音频芯片，可以实现高质量的视觉和音效。ColecoVision以其街机移植库而闻名，其中包括Donkey Kong、Zaxxon和Ms. Pac-Man。</text>        
 			<text lang="ja">ColecoVisionは、Coleco Industriesによって1982年にリリースされたビデオゲームコンソールです。左利きまたは右利きのプレイヤーに対応するように回転可能な取り外し可能なコントローラーを備えたユニークなデザインが特徴です。システムには強力なグラフィックスプロセッサーとサウンドチップがあり、高品質のビジュアルとサウンドエフェクトを実現しました。ColecoVisionは、Donkey Kong、Zaxxon、Ms. Pac-Manを含むアーケード移植のライブラリで知られていました。</text>        
@@ -27,7 +45,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</view>
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FF859D</color>
 			<colorEnd>95DFF4</colorEnd>
 		</image>

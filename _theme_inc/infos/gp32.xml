@@ -15,4 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Game Park 32</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>07a119</color>
+			<colorEnd>072291</colorEnd>
+		</image>
+	</view>
 </theme>

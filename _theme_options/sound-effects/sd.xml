@@ -24,8 +24,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="detailed">
       <textlist name="gamelist">
-         <scrollSound >./../../_theme_inc/sound-effects/sd/gamelist-scroll.ogg</scrollSound>
-         <storyboard > 
+         <scrollSound>./../../_theme_inc/sound-effects/sd/gamelist-scroll.ogg</scrollSound>
+         <storyboard> 
             <animation property="x" to="0" begin="300" duration="300" mode="easeOutCubic" />
             <animation property="opacity" to="1" begin="300" duration="600" mode="ease" />
             <sound path="./../../_theme_inc/sound-effects/sd/enter-gamelist.ogg"/>

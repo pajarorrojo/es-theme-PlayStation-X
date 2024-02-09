@@ -18,4 +18,10 @@ El primer modelo, denominado PET 2001, fue la primera computadora personal dispo
 			<text>Commodore PET</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>757171</color>
+			<colorEnd>9586ec</colorEnd>
+		</image>
+	</view>
 </theme>

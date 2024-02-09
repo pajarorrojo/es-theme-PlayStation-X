@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
     <customView name="single" inherits="grid" displayName="${singlelViewName}">
 
-      <image name="console-grid-view, background" extra="static">
+      <image name=" background" extra="static">
          <visible>false</visible>      
       </image>
 
@@ -43,22 +43,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>top</verticalAlignment>
          <maxSize>0.6 0.6</maxSize>
          <pos>0.15 0.1</pos>
-
-
          <color>FFFF99cc</color>
       </image>
 
 
       <image name="gridtile.favorite">
-         <path >./../_theme_inc/images/favorite.png</path>
-         <pos >0.5 0.15</pos>
+         <path>./../_theme_inc/images/favorite.png</path>
+         <pos>0.5 0.15</pos>
          <maxSize>0.5 0.5</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
       </image>
-
-
-
 
       <image name="gridtile.marquee">
 		 <visible>false</visible>
@@ -81,11 +76,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </ninepatch>
 
 
-
       <image name="linea-inferior" extra="static">
          <visible>true</visible>
       </image>
-
 
 
       <text name="start-single" extra="true">
@@ -100,13 +93,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.03</fontSize>
          <size>0.13 0.055</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.15 0.055</size>
-
          <padding>0.013 0</padding>
       </text>
 
       <text name="gamename-single" extra="true">
          <text>{game:name}</text>
          <pos>0.025 0.31</pos>
+         <y if="${screen.height} &lt;= '480' ">0.29</y>
          <size>0.9 0.08</size>
          <color>ffffff</color>
          <backgroundColor>ff000000</backgroundColor>
@@ -120,125 +113,30 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
          <singleLineScroll>true</singleLineScroll>
+         <autoScrollDelay>0</autoScrollDelay>
       </text>
 
-      <datetime name="md_releasedate" ifSubset="info-bar:YES">
-         <pos>0.026 0.38</pos>
-         <size>0.038 0.034</size>
-         <size ifSubset="aspect-ratio:5-4">0.042 0.035</size>
-         <size ifSubset="aspect-ratio:4-3">0.048 0.035</size>
-         <fontSize>0.022</fontSize>
-         <zIndex>51</zIndex>
-         <backgroundColor>ff000000</backgroundColor>
-      </datetime>
+      <stackpanel name="contenedor-gamedata">
+         <pos>0.026 0.385</pos>
+      </stackpanel>
 
-      <text name="md_developer" ifSubset="info-bar:YES">
-         <size>0.38 0.035</size>
-         <pos>0.066 0.38</pos>
-         <zIndex>52</zIndex>
-         <backgroundColor>00000000</backgroundColor>
-      </text>
-
-      <rating name="md_rating">
-         <pos>0.026 0.42</pos>
-      </rating>
-
-      <text name="md_genre" ifSubset="info-bar:YES" >
-         <pos>0.11 0.415</pos>
-         <size>0.41 0.034</size>
-         <zIndex>51</zIndex>
-         <backgroundColor>00000000</backgroundColor>
-      </text>
-
-
-      <image name="md_flag, md_players,md_manual,md_nomanual, md_savestate,md_nosavestate">
-         <y>0.47</y>
-      </image>
-
-      <image name="md_flag" extra="true">
-			<x>0.036 </x>
-		</image>
-
-      <text name="md_players">
-         <x>0.066 </x>
-      </text>
-
-      <image name="md_manual,md_nomanual" >
-         <x>0.096 </x>
-      </image>
-
-      <image name="md_savestate,md_nosavestate">
-         <x>0.126 </x>
-      </image>
+      <stackpanel name="contenedor-gamedata2">
+         <pos>0.026 0.415</pos>
+      </stackpanel>
 
       <text name="system-name" extra="true">
-         <pos>0.15 0.45</pos>
+         <pos>0.213 0.452</pos>
       </text>
 
-      <image name="pie-barra" extra="static" ifHelpPrompts="true">
-         <visible>true</visible>
-      </image>
+      <stackpanel name="contenedor-iconos">
+         <x>0.026 </x>
+         <y>0.465</y>
+      </stackpanel>
 
-
-      <image name="marquee-single-view" extra="true">
-         <path>{game:marquee}</path>
-         <tile>false</tile>
-         <pos>0.9 0.83</pos>
-         <origin>0.5 0.5</origin>
-         <verticalAlignment>center</verticalAlignment>
-         <alignment>center</alignment>
-         <maxSize>0.14 0.14</maxSize>
-         <zIndex>99</zIndex>
-         <linearSmooth>true</linearSmooth>
-      </image>
-
-      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'" region="eu" />
-      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'">
-         <path>./../_theme_inc/images/logos/{game:system}.svg</path>
-      </image>
-      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'" region="jp">
-         <default>./../_theme_inc/images/logos/{game:system}.svg</default>
-         <path>./../_theme_inc/images/logos/jp/{game:system}.svg</path>
-      </image>
-      <image name="marquee-single-view" if="${system.manufacturer} == 'Collections'" region="us">
-         <default>./../_theme_inc/images/logos/{game:system}.svg</default>
-         <path>./../_theme_inc/images/logos/us/{game:system}.svg</path>
-      </image>
-
-
-      <image name="console-single-view" extra="true">
-         <path>{game:thumbnail}</path>
-         <tile>false</tile>
-         <pos>0.9 0.63</pos>
-         <origin>0.5 0.5</origin>
-         <verticalAlignment>center</verticalAlignment>
-         <verticalAlignment  if="${system.manufacturer} == 'Collections'">bottom</verticalAlignment>
-         <alignment>center</alignment>
-         <maxSize>0.125 0.24</maxSize>
-         <zIndex>99</zIndex>
-         <linearSmooth>true</linearSmooth>
-      </image>
-
-
-
-      <image name="console-single-view" if="${system.manufacturer} == 'Collections'" region="eu" />
-      <image name="console-single-view" if="${system.manufacturer} == 'Collections'">
-         <path>./../_theme_inc/images/consoles/{game:system}.png</path>
-      </image>
-      <image name="console-single-view" if="${system.manufacturer} == 'Collections'" region="jp">
-         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
-         <path>./../_theme_inc/images/consoles/jp/{game:system}.png</path>
-      </image>
-      <image name="console-single-view" if="${system.manufacturer} == 'Collections'" region="us">
-         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
-         <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
-      </image>         
-      
       <text name="md_description">
          <color>ffffff</color>
-         <pos>0.30 0.58</pos>
-         <size>0.48 0.228</size>
-
+         <pos>0.325 0.6</pos>
+         <size>0.48 0.225</size>
          <size ifSubset="aspect-ratio:4-3">0.48 0.223</size>
          <size tinyScreen="true">0.44 0.25</size>
          <lineSpacing>1.1</lineSpacing>
@@ -246,31 +144,102 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
+
+
+      <image name="pie-barra" extra="static" ifHelpPrompts="true">
+         <visible>true</visible>
+      </image>
+
+      <image name="system-logo" extra="static">
+         <pos>0.91 0.18</pos>
+         <alignment>center</alignment>
+         <maxSize>0.135 0.08</maxSize>
+         <origin>0.5 0.5</origin>
+         <opacity>0.7</opacity>
+         <!--  png -->
+         <path>./_theme_inc/images/logos/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <!-- check if lang resources exist -->
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
+         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <zIndex>100</zIndex>
+         <storyboard>
+            <animation property="opacity" from="0" duration="1500" mode="easeOutCubic"/>
+         </storyboard>
+      </image>
+
+
+      <image name="system-logo" extra="static" region="eu" />
+      <image name="system-logo" extra="static" region="us">
+         <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./../_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+      </image>
+      <image name="system-logo" extra="static" region="jp">
+         <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
+         <!--  svg -->
+         <path>./../_theme_inc/images/logos/jp/${system.theme}.svg</path>
+         <!--  svg white -->
+         <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+      </image>
+
+<!-- MEDIOS QUE SE MUESTRAN A LA DERECHA DE LA PANTALLA -->
+
+      <image name="marquee-single-view" extra="true">
+         <path>{game:marquee}</path>
+         <tile>false</tile>
+         <pos>0.91 0.52</pos>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>bottom</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.14 0.14</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+
+
+      <image name="thumbnail-single-view" extra="true">
+         <path>{game:thumbnail}</path>
+         <tile>false</tile>
+         <pos>0.91 0.75</pos>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.125 0.25</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+
+
+      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="eu" />
+      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'">
+         <path>./../_theme_inc/images/consoles/{game:system}.png</path>
+      </image>
+      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="jp">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+         <path>./../_theme_inc/images/consoles/jp/{game:system}.png</path>
+      </image>
+      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="us">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+         <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
+      </image>         
+
    </customView>
 
       
 
-   <customView name="single"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
-      
+   <customView name="single"  ifSubset="main-origin:none, game-video:background|oversize|inside|off">
       <text name="md_description">
          <x>0.026</x>
       </text>
-
-      <text name="system-name" extra="true">
-         <x>0.15</x>
-      </text>
-
-      <text name="md_developer" ifSubset="info-bar:YES">
-         <x>0.066</x>
-      </text>
-
-
-      <text name="md_genre" ifSubset="info-bar:YES" >
-         <x>0.11</x>
-      </text>
-
    </customView>
-
 
    <customView name="single"  ifSubset="info-bar:NO">
       <text name="md_description">
@@ -280,52 +249,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <customView name="single"  ifSubset="info-bar:NO, main-origin:none, game-video:background|oversize|inside|off|default">
       <text name="md_description">
-         <y>0.45</y>
+         <y>0.4</y>
       </text>
    </customView>
 
 
    <customView name="single"  ifSubset="game-description:no">
-      <datetime name="md_releasedate" ifSubset="info-bar:YES">
-         <y>0.38</y>
-      </datetime>
 
-      <text name="md_developer" ifSubset="info-bar:YES">
-         <y>0.38</y>
-      </text>
-
-      <rating name="md_rating">
-         <y>0.42</y>
-      </rating>
-
-      <text name="md_genre" ifSubset="info-bar:YES" >
-         <y>0.415</y>
-      </text>
-
-
-      <image name="md_flag, md_players,md_manual,md_nomanual, md_savestate,md_nosavestate">
-         <y>0.47</y>
-      </image>
-
-      <image name="md_flag" extra="true">
-			<x>0.036 </x>
-		</image>
-
-      <text name="md_players">
-         <x>0.066 </x>
-      </text>
-
-      <image name="md_savestate,md_nosavestate">
-         <x>0.126 </x>
-      </image>
-
-      <image name="md_manual,md_nomanual" >
-         <x>0.096 </x>
-      </image>
-
+         
       <text name="system-name" extra="true">
          <y>0.45</y>
       </text>
+      <stackpanel name="contenedor-gamedata">
+         <y>0.385</y>
+      </stackpanel>
+
+      <stackpanel name="contenedor-gamedata2">
+         <y>0.415</y>
+      </stackpanel>
 
 
 

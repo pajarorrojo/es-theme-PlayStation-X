@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Oric was the name used by Tangerine Computer Systems for a series of home computers, including the original Oric-1, its successor the Oric Atmos and the later Oric Stratos/IQ164 and Oric Telestrat models.</text>
 			<text lang="es,ca,eu">Oric fue el nombre utilizado por Tangerine Computer Systems para una serie de computadoras domésticas, incluidas la original Oric-1, su sucesora, Oric Atmos y la posterior Oric Stratos / IQ164 y Oric Telestrat.</text>
 			<text lang="pt">Oric foi o nome usado pela Tangerine Computer Systems para uma série de computadores domésticos, incluindo o original Oric-1, seu sucessor, o Oric Atmos e os modelos Oric Stratos / IQ164 e Oric Telestrat.</text>

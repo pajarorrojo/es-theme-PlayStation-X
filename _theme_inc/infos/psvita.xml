@@ -51,7 +51,7 @@ PS Vitaでは、PlayStation Storeからゲームやアプリをダウンロー�
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>00A8FB</color>
 			<colorEnd>005DBA</colorEnd>
 		</image>

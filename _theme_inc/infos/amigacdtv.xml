@@ -6,15 +6,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 		
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Amiga CDTV (acronym for Commodore Dynamic Total Vision) was a model of the Commodore Amiga personal computer released in March 1991, being the first console in history to have a factory-built CD player.</text>
 			<text lang="es,ca,eu">Amiga CDTV (acrónimo de Commodore Dynamic Total Vision) fue un modelo de la computadora personal Commodore Amiga lanzada en marzo de 1991, siendo la primera consola en la historia en tener un reproductor de CD de fábrica.</text>
 			<text lang="fr">Amiga CDTV (acronyme de Commodore Dynamic Total Vision) est un modèle d'ordinateur personnel Commodore Amiga lancé en mars 1991, la première console de l'histoire à disposer d'un lecteur de CD fabriqué en usine.</text>
 			<text lang="pt">O Amiga CDTV (acrônimo para Commodore Dynamic Total Vision) foi um modelo do computador pessoal Commodore Amiga lançado em março de 1991, sendo o primeiro console da história, a ter um leitor de CDs de fábrica.</text>
 		</text>
 
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text>Commodore CDTV</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>a19d9d</color>
+			<colorEnd>60390c</colorEnd>
+		</image>
 	</view>
 </theme>

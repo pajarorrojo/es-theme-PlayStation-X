@@ -37,9 +37,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
       <classic.tile.background>020C29</classic.tile.background>
       <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>
-
-
-
+      <dimColor>808080</dimColor>
    </variables>
 
 
@@ -47,17 +45,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="background" extra="static">
          <path>./blue/background.jpg</path>
       </image>
-
-
-   </view>
-
-
-
-   <view name="detailed">
-      <image name="background" extra="static">
-         <path>./blue/default-detailed.png</path>
-      </image>
-      
    </view>
 
 
@@ -67,8 +54,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="menu">
       <menuBackground name="menubg">
          <path>./blue/fond_menu.png</path>
-         <fadePath>./blue/fond_menu_fade.png</fadePath>
-
       </menuBackground>
 
       <menuTextEdit name="menutextedit">

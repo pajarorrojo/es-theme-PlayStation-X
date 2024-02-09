@@ -20,7 +20,7 @@ La franquicia ha evolucionado a lo largo del tiempo, manteniendo su esencia de c
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>F6D500</color>
 			<colorEnd>E40B03</colorEnd>
 		</image>

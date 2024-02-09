@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>They are basically mahjong games and variants of this classic Chines board game.</text>
 			<text lang="es">Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.</text>
 			<text lang="ca">Bàsicament són jocs de mahjong i variants d'aquest clàssic joc de taula d'origen xinès.</text>
@@ -20,5 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">基本的には、麻雀のゲームと、この中国のクラシックなボードゲームのバリエーションです。</text>
 		</text>
 	
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fdea42</color>
+			<colorEnd>ffc400</colorEnd>
+		</image>
 	</view>
 </theme>

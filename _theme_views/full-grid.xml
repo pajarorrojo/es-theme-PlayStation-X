@@ -37,10 +37,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout>5 5</autoLayout>
          <autoLayout tinyScreen="true">3 3</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail" >6 3</autoLayout>
-         <autoLayout tinyScreen="true" ifSubset="grid-origin:boxart|thumbnail" >4 2</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail"  tinyScreen="false" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'nds'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'" >5 3</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail"  tinyScreen="true" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'nds'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'" >3 2</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail">6 3</autoLayout>
+         <autoLayout tinyScreen="true" ifSubset="grid-origin:boxart|thumbnail">4 2</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail"  tinyScreen="false" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'nds'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'">5 3</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail"  tinyScreen="true" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'nds'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'">3 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">4 4</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">3 3</autoLayout>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
@@ -97,7 +97,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.015 0.520</pos>
          <pos ifSubset="aspect-ratio:3-2">0.015 0.510</pos>
          <pos tinyScreen="true">0.015 0.50</pos>
-         <size>0.25 0.08</size>
+         <size>0.27 0.08</size>
          <color>ffffff</color>
          <backgroundColor>ff000000</backgroundColor>
          <fontSize>0.036</fontSize>
@@ -110,42 +110,30 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
          <singleLineScroll>true</singleLineScroll>
+         <autoScrollDelay>0</autoScrollDelay>
       </text>
 
-
-
-      <datetime name="md_releasedate">
-         <pos>x 0.565</pos>
+      <text name="system-name" extra="true">
+         <pos>x 0.855</pos>
          <x>0.015</x>
-         <size>0.038 0.033</size>
-         <size ifSubset="aspect-ratio:5-4|3-2|5-3">0.042 0.036</size>
-         <size ifSubset="aspect-ratio:4-3">0.05 0.036</size>
-         <backgroundColor>ff000000</backgroundColor>
-      </datetime>
-
-      <text name="md_developer" >
-         <pos>x 0.565</pos>
-         <x>0.05</x>
-         <x ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.065</x>
-         <x tinyScreen="true" ifSubset="aspect-ratio:4-3">0.075</x>
-         <size>0.145 0.035</size>
-         <size ifSubset="aspect-ratio:4-3|5-4|3-2">0.22 0.035</size>
-         <backgroundColor>ff000000</backgroundColor>
+         <size>0.15 0.03</size>
+         <backgroundColor>00000000</backgroundColor>
+         <padding>0 0</padding>
       </text>
 
-      <rating name="md_rating" >
+      <stackpanel name="contenedor-gamedata">
+         <pos>x 0.577</pos>
+         <x>0.015</x>
+         <w>0.27</w>
+      </stackpanel>
+
+      <stackpanel name="contenedor-gamedata2">
          <pos>x 0.605</pos>
          <x>0.015</x>
-      </rating>
+         <w>0.27</w>
+         <singleLineScroll>true</singleLineScroll>
 
-      <text name="md_genre" >
-         <pos>x 0.600</pos>
-         <x>0.095</x>
-         <x ifSubset="aspect-ratio:4-3|5-4|3-2">0.120</x>
-         <size>0.175 0.034</size>
-         <size ifSubset="aspect-ratio:4-3|5-4|3-2">0.165 0.035</size>
-         <backgroundColor>ff000000</backgroundColor>
-      </text>
+      </stackpanel>
 
       <text name="md_description">
          <pos>x 0.645</pos>
@@ -155,45 +143,28 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.022</fontSize>
       </text>
 
-      <image name="md_flag" ifSubset="info-bar:NO">
-         <pos>-2 -2</pos>
+
+
+      <stackpanel name="contenedor-iconos">
+         <y>0.785</y>
+         <x>0.015 </x>
+         <w>0.27</w>
+      </stackpanel>
+
+
+      <image name="console-grid-view" extra="true" if="${system.manufacturer} == 'Collections'">
+         <path>./../_theme_inc/images/consoles/{game:system}.png</path>
+         <tile>false</tile>
+         <pos>0.048 0.875</pos>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.08</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+         <visible ifSubset="info-bar:NO">false</visible>
       </image>
 
-
-      <image name="md_flag, md_players, md_manual,md_nomanual, md_savestate,md_nosavestate">
-         <y>0.800</y>
-      </image>
-
-      <image name="md_flag" extra="true">
-			<x>0.025 </x>
-		</image>
-
-      <text name="md_players">
-         <x>0.055 </x>
-      </text>
-
-      <image name="md_manual,md_nomanual">
-         <x>0.085 </x>
-      </image>
-
-      <image name="md_savestate,md_nosavestate">
-         <x>0.115 </x>
-
-      </image>
-
-      <image name="console-grid-view" extra="true" >
-         <pos>x 0.865</pos>
-         <x>0.215</x>
-         <maxSize>0.1 0.1</maxSize>
-      </image>
-
-      <text name="system-name" extra="true">
-         <pos>x 0.835</pos>
-         <x>0.015</x>
-         <size>0.15 0.03</size>
-         <backgroundColor>00000000</backgroundColor>
-         <padding>0 0</padding>
-      </text>
       <image name="linea-inferior" extra="static" ifHelpPrompts="false">
          <y>0.995</y>
          <visible>true</visible>
@@ -208,41 +179,28 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y tinyScreen="true">0.160</y>
       </text>
 
-      <datetime name="md_releasedate">
-         <y>0.227</y>
+      <stackpanel name="contenedor-gamedata">
+         <y>0.243</y>
+      </stackpanel>
 
-      </datetime>
-
-      <text name="md_developer">
-         <y>0.227</y>
-
-      </text>
-
-      <rating name="md_rating" ifSubset="info-bar:YES">
+      <stackpanel name="contenedor-gamedata2">
          <y>0.270</y>
-      </rating>
-
-      <text name="md_genre">
-         <y>0.265</y>
-      </text>
+      </stackpanel>
 
       <text name="md_description">
          <y>0.310</y>
+         <h>0.222</h>
       </text>
+      
+      <stackpanel name="contenedor-iconos">
+         <y>0.565</y>
+      </stackpanel>
 
-      <image name="md_flag,md_manual,md_nomanual, md_savestate,md_nosavestate" ifSubset="info-bar:YES">
-         <y>0.490</y>
-      </image>
-
-      <text name="md_players">
-         <y>0.490</y>
-      </text>
-
-      <image name="console-grid-view" extra="true" >
-         <y>0.575</y>
+      <image name="console-grid-view" extra="true">
+         <y>0.67</y>
       </image>
       <text name="system-name" extra="true">
-         <y>0.545</y>
+         <y>0.64</y>
       </text>
 
 
@@ -253,75 +211,53 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <customView name="full-grid"  ifSubset="game-description:no ">
 
-      <datetime name="md_releasedate" ifSubset="info-bar:YES">
-         <y>0.565</y>
-      </datetime>
-
-      <text name="md_developer" ifSubset="info-bar:YES">
-         <y>0.565</y>
+      <text name="system-name" extra="true">
+         <y>0.73</y>
       </text>
+      
+      <stackpanel name="contenedor-gamedata">
+         <y>0.578</y>
+      </stackpanel>
 
-      <rating name="md_rating" ifSubset="info-bar:YES">
+      <stackpanel name="contenedor-gamedata2">
          <y>0.605</y>
-      </rating>
+      </stackpanel>
 
-      <text name="md_genre" ifSubset="info-bar:YES">
-         <y>0.600</y>
-
-      </text>
-
-      <image name="md_flag,md_manual,md_nomanual, md_savestate,md_nosavestate" ifSubset="info-bar:YES">
-         <y>0.690</y>
-      </image>
-
-      <text name="md_players">
-         <y>0.690</y>
-      </text>
+      <stackpanel name="contenedor-iconos">
+         <y>0.655</y>
+      </stackpanel>
 
       <image name="console-grid-view" extra="true">
          <y>0.775</y>
       </image>
 
-      <text name="system-name" extra="true">
-         <y>0.745</y>
-      </text>
+
 
 
    </customView>
 
    <customView name="full-grid"  ifSubset="game-description:no , game-video:background|oversize|inside|off, main-origin:none ">
 
-       <datetime name="md_releasedate">
-         <y>0.227</y>
-      </datetime>
-
-      <text name="md_developer">
-         <y>0.227</y>
-      </text>
-
-      <rating name="md_rating">
-         <y>0.270</y>
-      </rating>
-
-      <text name="md_genre">
-         <y>0.265</y>
-      </text>
-
-      <image name="md_flag,md_manual,md_nomanual, md_savestate,md_nosavestate">
-         <y>0.360</y>
-      </image>
-
-      <text name="md_players">
-         <y>0.360</y>
-      </text>
-
-      <image name="console-grid-view" extra="true">
-         <y>0.455</y>
-      </image>
-
       <text name="system-name" extra="true">
-         <y>0.425</y>
+         <y>0.4</y>
       </text>
+
+      <stackpanel name="contenedor-gamedata">
+         <y>0.243</y>
+      </stackpanel>
+
+      <stackpanel name="contenedor-gamedata2">
+         <y>0.270</y>
+      </stackpanel>
+
+      <stackpanel name="contenedor-iconos">
+         <y>0.32</y>
+      </stackpanel>
+
+      <image name="console-grid-view">
+         <y>0.450</y>
+      </image>
+
    </customView>
 
    <customView name="full-grid"  ifSubset="info-bar:NO">
@@ -341,10 +277,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.01 0.128</pos>
          <autoLayout>7 5</autoLayout>
          <autoLayout  tinyScreen="true">4 3</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="false" >8 3</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true" >5 2</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="false" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' ||  {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'" >7 3</autoLayout>
-         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'" >4 2</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="false">8 3</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true">5 2</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="false" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' ||  {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'">7 3</autoLayout>
+         <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'">4 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="false" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">6 4</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">4 3</autoLayout>
          <size>0.98 0.8</size>

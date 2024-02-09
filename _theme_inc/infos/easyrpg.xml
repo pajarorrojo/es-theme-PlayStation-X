@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>EasyRPG</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>065f32</color>
+			<colorEnd>58d332</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Sports videogames is a genre that simulates the practice of sports. Most sports have been recreated with a videogame, including team sports, track and field, extreme sports, and combat sports.</text>
 			<text lang="es">Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.</text>
 			<text lang="ca">Els videojocs esportius són un gènere que simula la pràctica de esports. La majoria dels esports han estat recreats en un videojoc, incloent esports d'equip, atletisme, esports extremos i esports de combat.</text>
@@ -20,5 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">スポーツビデオゲームはスポーツの実践を模擬するジャンルです。チームスポーツ、陸上競技、エクストリームスポーツ、格闘スポーツなど、ほとんどのスポーツがビデオゲームで再現されています。</text>
 		</text>
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>41e7d4</color>
+			<colorEnd>00AC97</colorEnd>
+		</image>
 	</view>
 </theme>

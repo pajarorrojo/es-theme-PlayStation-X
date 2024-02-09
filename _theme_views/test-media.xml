@@ -5,7 +5,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
 
 
-      <customView name="test-medias" inherits="detailed" displayName="game media tester" >
+      <customView name="test-medias" inherits="detailed" displayName="game media tester">
+
 
       <image name="background" extra="static">
          <path>./_theme_inc/images/overlay-full-grid.png</path>
@@ -15,45 +16,35 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
         <opacity>0</opacity>
       </image>
 
-      <textlist name="gamelist" >
+      <textlist name="gamelist">
          <pos ifSubset="anim-list:YES">-0.5 0.16</pos>
          <pos ifSubset="anim-list:NO">0 0.16</pos>
-         <size>0.2 0.355</size>
+         <size>0.2 0.385</size>
          <fontSize>0.022</fontSize>
          <lineSpacing>1.2</lineSpacing>
       </textlist>
 
-      <datetime name="md_releasedate" >
-         <visible>false</visible>
-      </datetime>
-
-      <text name="md_developer, md_genre, md_description, md_players" >
+      <text name="md_description">
          <visible>false</visible>
       </text>
 
-      <rating name="md_rating" >
-         <visible>false</visible>
-      </rating>
-
-      <image name="md_flag, md_manual,md_nomanual, md_savestate, md_nosavestate, linea-infos, lineas-verticales" >
+      <image name="linea-infos">
          <visible>false</visible>
 		</image>
 
-		<image name="md_savestate,md_nosavestate" onclick="savestates" >
-			<pos>0.49 0.82</pos>
-			<maxSize>0.03 0.04</maxSize>
-			<zIndex>150</zIndex>
-		</image>
 
 
-      <!-- MEDIOS -->
 
-       <image name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed" extra="true">
+      <!-- ELEMENTOS A OCULTAR HEREDADOS DE OTRAS VISTAS -->
+
+       <image name="contenedor-gamedata, contenedor-gamedata2, contenedor-iconos, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed, cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed" extra="true">
          <visible>false</visible>
          <opacity>0</opacity>
          <pos>-2 -2</pos>
          <size>0 0</size>
       </image>
+
+      <!-- MEDIOS A MOSTRAR -->
 
       <image name="image-test, thumbnail-test, marquee-test, boxart-test,cartridge-test, fanart-test, titleshot-test, boxback-test">
          <zIndex>91</zIndex>
@@ -91,12 +82,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y>0.89</y>
       </text>
 
-      <video name="md_video" extra="true" ifSubset="game-video:window|inside|default|background|oversize|off">
-         <delay ifSubset="video-gamelist-delay:0sec">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:05sec">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:1sec">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:2sec">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:3sec">0.01</delay>
+      <video name="game-video" extra="true" ifSubset="game-video:window|inside|default|background|oversize|off">
+         <delay ifSubset="video-gamelist-delay:0s">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:05s">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:1s">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:2s">0.01</delay>
+         <delay ifSubset="video-gamelist-delay:3s">0.01</delay>
          <visible ifSubset="game-video:off">true</visible>
          <default>./../_theme_inc/images/no-video-default.mp4</default>
          <y>0.29</y>
@@ -145,37 +136,29 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <x>0.91</x>
       </text>
 
-      <image name="linea-central" extra="true" >
-         <path>./_theme_inc/images/pixel-blanco.png</path>
-         <pos>0.5 0.54</pos>
-         <size>1.1 0.0011</size>
-         <color>${gamelistSelectorColor}</color>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
-         <origin>0.5 0.5</origin>
-      </image>
-
 
       <text name="gamename-test" extra="true">
-         <text>{game:name}</text>
-         <pos>0.5 0.52</pos>
-         <size>1 0.05</size>
+         <text>{game:name}   •   {game:rom}</text>
+         <pos>0.22 0.5</pos>
+         <size>0.75 0.05</size>
          <color>ffffff</color>
          <fontSize>0.04</fontSize>
-         <alignment>center</alignment>
          <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <origin>0.5 0.5</origin>
+         <origin>0 0</origin>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
          <singleLineScroll>true</singleLineScroll>
+         <autoScrollDelay>0</autoScrollDelay>
       </text>
       <image name="fanart-test" extra="true">
          <path>{game:fanart}</path>
          <maxSize>0.22 0.25</maxSize>
          <x>0.12</x>
       </image>
+
+      <!-- ETIQUETAS -->
 
       <text name="fanart-tag" extra="true">
          <text>FANART</text>
@@ -226,7 +209,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
 
-      <!-- etiquetqas -->
+
 
    </customView>
 

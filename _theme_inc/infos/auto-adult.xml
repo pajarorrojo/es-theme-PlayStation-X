@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 <text>Keep out of the reach of children... Wink, wink; nudge, nudge.</text>
 <text lang="es">Mantener fuera del alcance de los niños... Guiño, guiño; codazo, codazo.</text>
 <text lang="ca">Manteniu fora de l'abast dels nens...</text>        
@@ -19,7 +19,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <text lang="zh">请勿让儿童接触...</text>        
 <text lang="ja">子供の手の届かない所に保管してください...</text>     
 		</text>
-		
-			
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>4274fd</color>
+			<colorEnd>5100ad</colorEnd>
+		</image>
 	</view>
 </theme>

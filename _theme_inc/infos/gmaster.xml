@@ -15,4 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Game Master</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>ff0000</color>
+			<colorEnd>5f5b5b</colorEnd>
+		</image>
+	</view>
 </theme>

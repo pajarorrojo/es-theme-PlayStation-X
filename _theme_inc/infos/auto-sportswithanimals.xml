@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>This list basically includes horse racing or equestrian games.</text>
 			<text lang="es">En esta lista encontrás basicamente juegos de hípica o carreras de caballos.</text>
 			<text lang="ca">En aquesta llista trobes bàsicament jocs d'hípica o curses de cavalls.</text>
@@ -20,5 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">このリストには、基本的に競馬または乗馬ゲームが含まれています。</text>
 		</text>
 		
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fdea42</color>
+			<colorEnd>ffc400</colorEnd>
+		</image>
 	</view>
 </theme>

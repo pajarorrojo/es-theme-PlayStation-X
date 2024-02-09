@@ -7,15 +7,33 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>MSX is an 8-bit home computer standard marketed during the 1980s and early 1990s. It was defined by Kazuhiko Nishi and introduced on June 27, 1983 in Japan. It was also successful in Europe (Spain, France, and the Netherlands), Brazil, Chile, Argentina, Cuba, and the Soviet Union, where thousands of units were purchased by educational authorities to equip schools. It is virtually unknown in the United States.</text>        
-			<text lang="es">MSX es un estándar de microordenador doméstico de 8 bits comercializado durante los años 1980 y principios de los años 1990. Fue definido por Kazuhiko Nishi y presentado el 27 de junio de 1983 en Japón. Tuvo además éxito en Europa (España, Francia y Países Bajos), Brasil, Chile, Argentina, Cuba y la Unión Soviética, en estos últimos países fueron comprados por las autoridades educativas miles de unidades para equipar escuelas. Es prácticamente desconocido en Estados Unidos.</text>        
-			<text lang="ca">MSX és un estàndard de microordinador domèstic de 8 bits comercialitzat durant els anys 1980 i principis dels anys 1990. Va ser definit per Kazuhiko Nishi i presentat el 27 de juny de 1983 al Japó. Va tenir èxit també a Europa (Espanya, França i Països Baixos), Brasil, Xile, Argentina, Cuba i la Unió Soviètica, on les autoritats educatives van comprar milers d'unitats per equipar escoles. És pràcticament desconegut als Estats Units.</text>        
-			<text lang="eu">MSX 8 biteko mikro-ordenagailuen estandarra da, 1980eko hamarkadan eta 1990eko hamarren hasieran merkaturatu zen. Kazuhiko Nishik defini zuen, eta 1983ko ekainaren 27an aurkeztu zuten Japonian. Europako herrialdeetan (Espainia, Frantzia eta Herbehereak), Brasil, Txile, Argentina, Kubako eta Sobiet Batasuneko ekintza arrakastatsua izan zen, non autoritate hezkuntzaileek eskolak osatzeko milaka unitate erosi zituzten. Ameriketan, baina, erabat ezezaguna da.</text>        
-			<text lang="fr">MSX est une norme d'ordinateur familial 8 bits commercialisée dans les années 1980 et au début des années 1990. Elle a été définie par Kazuhiko Nishi et présentée le 27 juin 1983 au Japon. Elle a également connu un succès en Europe (Espagne, France et Pays-Bas), au Brésil, au Chili, en Argentine, à Cuba et en Union Soviétique, où des milliers d'unités ont été achetées par les autorités éducatives pour équiper les écoles. Elle est pratiquement inconnue aux États-Unis.</text>        
-			<text lang="pt">MSX é um padrão de microcomputador doméstico de 8 bits comercializado durante os anos 1980 e início dos anos 1990. Foi definido por Kazuhiko Nishi e apresentado em 27 de junho de 1983 no Japão. Também teve sucesso na Europa (Espanha, França e Países Baixos), no Brasil, no Chile, na Argentina, em Cuba e na União Soviética, onde milhares de unidades foram compradas pelas autoridades educacionais para equipar escolas. É praticamente desconhecido nos Estados Unidos.</text>        
-			<text lang="it">MSX è uno standard di microcomputer domestico a 8 bit commercializzato negli anni '80 e all'inizio degli anni '90. Fu definito da Kazuhiko Nishi e presentato il 27 giugno 1983 in Giappone. Ebbe successo anche in Europa (Spagna, Francia e Paesi Bassi), Brasile, Cile, Argentina, Cuba e Unione Sovietica, dove migliaia di unità furono acquistate dalle autorità educative per equipaggiare le scuole. È praticamente sconosciuto negli Stati Uniti.</text>        
-			<text lang="de">MSX ist ein Standard für einen 8-Bit-Heimcomputer, der in den 1980er und frühen 1990er Jahren vermarktet wurde. Er wurde von Kazuhiko Nishi definiert und am 27. Juni 1983 in Japan vorgestellt. Er war auch in Europa (Spanien, Frankreich und den Niederlanden), Brasilien, Chile, Argentinien, Kuba und der Sowjetunion erfolgreich, wo Tausende von Einheiten von Bildungsbehörden zur Ausstattung von Schulen gekauft wurden. In den USA ist es praktisch unbekannt.</text>        
-			<text lang="pl">MSX to standard domowego komputera 8-bitowego, który był sprzedawany w latach osiemdziesiątych i na początku lat dziewięćdziesiątych. Został zdefiniowany przez Kazuhiko Nishi i zaprezentowany 27 czerwca 1983 roku w Japonii. Cieszył się także powodzeniem w Europie (Hiszpania, Francja i Holandia), Brazylii, Chile, Argentynie, Kuba i Związku Radzieckim, gdzie tysiące jednostek zostały kupione przez władze edukacyjne, aby wyposażyć szkoły. W Stanach Zjednoczonych jest praktycznie nieznany.</text>        
+			<text>MSX is an 8-bit home computer standard marketed during the 1980s and early 1990s. It was defined by Kazuhiko Nishi and introduced on June 27, 1983 in Japan. 
+				
+It was also successful in Europe (Spain, France, and the Netherlands), Brazil, Chile, Argentina, Cuba, and the Soviet Union, where thousands of units were purchased by educational authorities to equip schools. It is virtually unknown in the United States.</text>        
+			<text lang="es">MSX es un estándar de microordenador doméstico de 8 bits comercializado durante los años 1980 y principios de los años 1990. Fue definido por Kazuhiko Nishi y presentado el 27 de junio de 1983 en Japón. 
+				
+Tuvo además éxito en Europa (España, Francia y Países Bajos), Brasil, Chile, Argentina, Cuba y la Unión Soviética, en estos últimos países fueron comprados por las autoridades educativas miles de unidades para equipar escuelas. Es prácticamente desconocido en Estados Unidos.</text>        
+			<text lang="ca">MSX és un estàndard de microordinador domèstic de 8 bits comercialitzat durant els anys 1980 i principis dels anys 1990. Va ser definit per Kazuhiko Nishi i presentat el 27 de juny de 1983 al Japó. 
+				
+Va tenir èxit també a Europa (Espanya, França i Països Baixos), Brasil, Xile, Argentina, Cuba i la Unió Soviètica, on les autoritats educatives van comprar milers d'unitats per equipar escoles. És pràcticament desconegut als Estats Units.</text>        
+			<text lang="eu">MSX 8 biteko mikro-ordenagailuen estandarra da, 1980eko hamarkadan eta 1990eko hamarren hasieran merkaturatu zen. Kazuhiko Nishik defini zuen, eta 1983ko ekainaren 27an aurkeztu zuten Japonian. 
+				
+Europako herrialdeetan (Espainia, Frantzia eta Herbehereak), Brasil, Txile, Argentina, Kubako eta Sobiet Batasuneko ekintza arrakastatsua izan zen, non autoritate hezkuntzaileek eskolak osatzeko milaka unitate erosi zituzten. Ameriketan, baina, erabat ezezaguna da.</text>        
+			<text lang="fr">MSX est une norme d'ordinateur familial 8 bits commercialisée dans les années 1980 et au début des années 1990. Elle a été définie par Kazuhiko Nishi et présentée le 27 juin 1983 au Japon. 
+				
+Elle a également connu un succès en Europe (Espagne, France et Pays-Bas), au Brésil, au Chili, en Argentine, à Cuba et en Union Soviétique, où des milliers d'unités ont été achetées par les autorités éducatives pour équiper les écoles. Elle est pratiquement inconnue aux États-Unis.</text>        
+			<text lang="pt">MSX é um padrão de microcomputador doméstico de 8 bits comercializado durante os anos 1980 e início dos anos 1990. Foi definido por Kazuhiko Nishi e apresentado em 27 de junho de 1983 no Japão. 
+				
+Também teve sucesso na Europa (Espanha, França e Países Baixos), no Brasil, no Chile, na Argentina, em Cuba e na União Soviética, onde milhares de unidades foram compradas pelas autoridades educacionais para equipar escolas. É praticamente desconhecido nos Estados Unidos.</text>        
+			<text lang="it">MSX è uno standard di microcomputer domestico a 8 bit commercializzato negli anni '80 e all'inizio degli anni '90. Fu definito da Kazuhiko Nishi e presentato il 27 giugno 1983 in Giappone. 
+				
+Ebbe successo anche in Europa (Spagna, Francia e Paesi Bassi), Brasile, Cile, Argentina, Cuba e Unione Sovietica, dove migliaia di unità furono acquistate dalle autorità educative per equipaggiare le scuole. È praticamente sconosciuto negli Stati Uniti.</text>        
+			<text lang="de">MSX ist ein Standard für einen 8-Bit-Heimcomputer, der in den 1980er und frühen 1990er Jahren vermarktet wurde. Er wurde von Kazuhiko Nishi definiert und am 27. Juni 1983 in Japan vorgestellt. 
+				
+Er war auch in Europa (Spanien, Frankreich und den Niederlanden), Brasilien, Chile, Argentinien, Kuba und der Sowjetunion erfolgreich, wo Tausende von Einheiten von Bildungsbehörden zur Ausstattung von Schulen gekauft wurden. In den USA ist es praktisch unbekannt.</text>        
+			<text lang="pl">MSX to standard domowego komputera 8-bitowego, który był sprzedawany w latach osiemdziesiątych i na początku lat dziewięćdziesiątych. Został zdefiniowany przez Kazuhiko Nishi i zaprezentowany 27 czerwca 1983 roku w Japonii. 
+				
+Cieszył się także powodzeniem w Europie (Hiszpania, Francja i Holandia), Brazylii, Chile, Argentynie, Kuba i Związku Radzieckim, gdzie tysiące jednostek zostały kupione przez władze edukacyjne, aby wyposażyć szkoły. W Stanach Zjednoczonych jest praktycznie nieznany.</text>        
 			<text lang="ru">MSX является стандартом домашнего 8-битного компьютера, который был продаваем в 1980-х и в начале 1990-х годов. Он был определен Кадзухико Ниси и представлен 27 июня 1983 года в Японии. Он также имел успех в Европе (Испания, Франция и Нидерланды), Бразилии, Чили, Аргентине, Кубе и Советском Союзе, где тысячи единиц были куплены учебными властями для оснащения школ. В США он практически неизвестен.</text>        
 			<text lang="zh">MSX是在1980年代和1990年代初期销售的8位家用微型计算机标准。它是由西和彦定义并于1983年6月27日在日本推出的。它还在欧洲（西班牙，法国和荷兰），巴西，智利，阿根廷，古巴和苏联取得了成功，在这些国家，教育当局购买了数千台设备来装备学校。在美国，它几乎是未知的。</text>        
 			<text lang="ja">MSXは、1980年代から1990年代初頭にかけて販売された8ビットの家庭用マイクロコンピューターの規格です。西和彦によって定義され、1983年6月27日に日本で発表されました。スペイン、フランス、オランダ、ブラジル、チリ、アルゼンチン、キューバ、そしてソビエト連邦でも成功を収め、これらの国々では教育当局が数千のユニットを購入して学校を装備しました。アメリカではほとんど知られていません。</text>        
@@ -26,7 +44,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FF0000</color>
 			<colorEnd>9B0008</colorEnd>
 		</image>

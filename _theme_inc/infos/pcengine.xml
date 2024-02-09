@@ -13,18 +13,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="pt">É um console de videogame lançado em 1987 pela NEC e Hudson Soft. Após seu lançamento no Japão e sua aceitação nesse país, foi lançado em 1988 nos Estados Unidos batizado de Turbo Grafx-16.</text>
 		</text>
 		
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text>PC Engine</text>
 			<text region="us">TurboGrafx-16</text>
 		</text>
 
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FF0000</color>
 			<colorEnd>dddddd</colorEnd>
 		</image>
-		<image name="linea-inferior" extra="static" region="us" >
+		<image name="linea-inferior" extra="static" region="us">
 			<color>FF8D00</color>
 			<colorEnd>D1E316</colorEnd>
 		</image>

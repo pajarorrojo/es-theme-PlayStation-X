@@ -22,4 +22,10 @@ Las versiones de consumo posteriores reemplazaron los paneles sensibles al tacto
 			<text>Arduboy</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>8c36c1</color>
+			<colorEnd>d01c1c</colorEnd>
+		</image>
+	</view>
 </theme>

@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>It was a peripheral for the Nintendo 64. It was plugged through the EXTension Port and allowed the N64 to use 64 MB proprietary magnetic disks to increase data storage capacity.</text>
 			<text lang="es">Era un periférico para Nintendo 64. Estaba conectado a través del puerto de extension y permitía que la N64 usara discos magnéticos patentados de 64 MB para así aumentar la capacidad de almacenamiento de datos.</text>
 			<text lang="ca">Era un perifèric per a Nintendo 64. Estava connectat a través del port d'extensió i permetia que la N64 usés discs magnètics patentats de 64 MB per augmentar la capacitat d'emmagatzematge de dades.</text>
@@ -22,7 +22,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 		
 		
-		<text name="system_name" extra="true" >
+		<text name="system_name" extra="true">
 			<text>Nintendo 64 DD</text>
 		</text>
 	</view>

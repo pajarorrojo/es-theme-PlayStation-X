@@ -21,7 +21,7 @@ La serie se distingue por su énfasis en desbloquear habilidades y mejoras para 
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FF5900</color>
 			<colorEnd>FFBF00</colorEnd>
 		</image>

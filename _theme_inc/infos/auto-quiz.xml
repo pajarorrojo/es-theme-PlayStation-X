@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>This type of video game usually adopts the contest format for several players in turns. Tests, questions, riddles... Who will win?</text>
 			<text lang="es">Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.</text>
 			<text lang="ca">Aquest tipus de videojocs sol adoptar el format de concurs per a diversos jugadors per torns. Proves, preguntes, endevinalles... Qui guanyarà?</text>
@@ -25,5 +25,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ca">Jocs de preguntes</text>
 			<text lang="eu">Galdera jokoak</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>4274fd</color>
+			<colorEnd>5100ad</colorEnd>
+		</image>
 	</view>
 </theme>

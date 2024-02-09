@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>WonderSwan</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>0d002d</color>
+			<colorEnd>db1616</colorEnd>
+		</image>
+	</view>
 </theme>

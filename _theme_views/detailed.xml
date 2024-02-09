@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <textlist name="gamelist">
          <pos ifSubset="anim-list:YES">-0.5 0.134</pos>
          <pos ifSubset="anim-list:NO">0 0.134</pos>
-         <size>0.458 0.81</size>
+         <size>0.52 0.81</size>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <extraTextColor>999999</extraTextColor>
@@ -34,98 +34,145 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>52</zIndex>
       </textlist>
 
+      <textlist name="gamelist" ifHelpPrompts="false">
+         <size>0.458 0.85</size>
+
+      </textlist>
+
+
 
       <image name="background" extra="static">
+         <path>./_theme_inc/images/overlay-full-grid.png</path>
          <zIndex>51</zIndex>
          <color ifSubset="background-list:fanart">ffffffd9</color>
          <size>1 1</size>
       </image>
 
 
-      <image name="background, background-art, lineas-verticales, overlay" extra="true">
+
+      <image name="background, background-art, overlay" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
       </image>
 
+      <!-- stackpanel para datos de juegos -->
 
-      <image name="lineas-verticales" extra="true" ifSubset="background-list:sistema">
-         <path>./_theme_inc/images/lineas-detailed.png</path>
-         <zIndex>52</zIndex>
-         <color>000000</color>
-         <size>1 1</size>
-      </image>
-
-
-      <datetime name="md_releasedate" ifSubset="info-bar:YES">
+      <stackpanel name="contenedor-gamedata" extra="true" ifSubset="info-bar:YES">
+         <separator>0.015</separator>
          <pos>0.55 0.696</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.556</pos>
-         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.55 0.686</pos>
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <size>0.032 0.05</size>
-         <size ifSubset="aspect-ratio:3-2">0.036 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.04 0.05</size>
-         <size ifSubset="3-2" tinyScreen="true">0.044 0.05</size>
-         <color>${releaseColor}</color>
-         <format>%Y</format>
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <fontSize>0.022</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.02</fontSize>
-         <zIndex>52</zIndex>
-         <backgroundColor>ff00000000</backgroundColor>
-         <singleLineScroll>true</singleLineScroll>
-      </datetime>
+         <y ifSubset="aspect-ratio:4-3|5-4">0.565</y>
+         <size>0.5 0.04</size>
+         <orientation>horizontal</orientation>
+         <backgroundColor>ff000000</backgroundColor>
+         <zIndex>99</zIndex>
 
+         <text name="gamedata-releaseyear">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>{game:releaseyear}</text>
+            <visible>!empty({game:releaseyear})</visible>
+            <color>${releaseColor}</color>
+         </text>
 
-      <text name="md_developer" ifSubset="info-bar:YES">
-         <size>0.250 0.037</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.230 0.037</size>
-         <pos>0.585 0.702</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.592 0.562</pos>
-         <pos ifSubset="aspect-ratio:5-4">0.592 0.561</pos>
-         <pos ifSubset="aspect-ratio:3-2">0.595 0.699</pos>
-         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.595 0.562</pos>
-         <pos ifSubset="aspect-ratio:5-4" tinyScreen="true">0.595 0.561</pos>
-         <pos ifSubset="aspect-ratio:5-3|16-10" tinyScreen="true">0.593 0.691</pos>
+         <text name="gamedata-noreleaseyear">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>------</text>
+            <visible>empty({game:releaseyear})</visible>
+            <color>${dimColor}</color>
+         </text>
 
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <fontSize>0.023</fontSize>
-         <color>${developerColor}</color>
-         <zIndex>52</zIndex>
-         <backgroundColor>0ff00000</backgroundColor>
-         <singleLineScroll>true</singleLineScroll>
-      </text>
+         <text name="gamedata-developer">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  {game:developer}</text>
+            <visible>!empty({game:developer})</visible>
+            <color>${developerColor}</color>
+         </text>
 
-      <text name="md_genre" ifSubset="info-bar:YES">
-         <pos>0.55 0.73</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.590</pos>
-         <size>0.27 0.034</size>
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <fontSize>0.023</fontSize>
-         <color>${genreColor}</color>
-         <zIndex>52</zIndex>
-         <backgroundColor>00000000</backgroundColor>
-         <singleLineScroll>true</singleLineScroll>
-      </text>
+         <text name="gamedata-nodeveloper">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  -------------</text>
+            <visible>empty({game:developer})</visible>
+            <color>${dimColor}</color>
+         </text>
 
-      <rating name="md_rating" ifSubset="info-bar:YES">
-         <pos>0.825 0.705</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.834 0.705</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.827 0.57</pos>
-         <pos ifSubset="aspect-ratio:5-4">0.815 0.57</pos>
+         <text name="contenedor-separador1">
+            <text>•</text>
+            <alignment>center</alignment>
+            <fontSize>0.022</fontSize>
+            <color>${psx-theme-yellow}</color>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <visible>${theme.game-hasMultidisc}</visible>            
+          </text>
+          <text name="multidisc-game" ifSubset="info-bar:YES" extra="true">
+            <text>${theme.multidisc}</text>
+            <fontSize>0.024</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <color>${psx-theme-yellow}</color>
+            <padding>0.008 0.008</padding>
+            <backgroundColor>00000066</backgroundColor>
+            <visible>${theme.game-hasMultidisc}</visible>            
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </text>
+         
+      </stackpanel>
 
-         <pos ifSubset="aspect-ratio:16-10">0.846 0.715</pos>
-         <size>0.04 0.04</size>
-         <size ifSubset="aspect-ratio:16-9">0.05 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|5-4|16-10">0.04 0.04</size>
-         <unfilledColor>${starUnfill}</unfilledColor>
-         <color>${gamelist.starFill}</color>
-         <unfilledPath>./../_theme_inc/images/star_empty.svg</unfilledPath>
-         <zIndex>52</zIndex>
-         <filledPath>./../_theme_inc/images/star_filled.svg</filledPath>
-      </rating>
+      <stackpanel name="contenedor-gamedata2" extra="true" ifSubset="info-bar:YES">
+         <separator>0.015</separator>
+         <pos>0.55 0.727</pos>
+         <y ifSubset="aspect-ratio:4-3|5-4">0.595</y>
+
+         <size>0.5 0.04</size>
+         <orientation>horizontal</orientation>
+         <backgroundColor>ff000000</backgroundColor>
+         <zIndex>99</zIndex>
+
+         <text name="game-stars">
+            <fontSize>0.023</fontSize>
+            <text>{game:stars}</text>
+            <color>${gamelist.starFill}</color>
+            <visible>!empty({game:stars})</visible>
+         </text>
+
+         <text name="game-nostars">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>------</text>
+            <visible>empty({game:stars})</visible>
+            <color>${dimColor}</color>
+         </text>
+
+         <text name="icono-players">
+            <fontPath>./../_theme_inc/fonts/players.ttf</fontPath>
+            <text>{game:playerCount}</text>
+           <alignment>center</alignment>
+           <fontSize>0.034</fontSize>
+           <color>eeeeee</color>
+           <padding>5 0</padding>
+         </text>
+         <text name="gamedata-genre">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  {game:genre}</text>
+            <visible>!empty({game:genre})</visible>
+            <color>${genreColor}</color>
+         </text>
+
+         <text name="gamedata-nogenre">
+            <fontSize>0.023</fontSize>
+            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  -------------</text>
+            <visible>empty({game:genre})</visible>
+            <color>${dimColor}</color>
+         </text>
+      </stackpanel>
+
 
       <image name="linea-infos" extra="true"  ifSubset="info-bar:YES">
          <path>./_theme_inc/images/pixel-blanco.png</path>
@@ -138,6 +185,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>52</zIndex>
+         <visible ifSubset="game-description:no">false</visible>
       </image>
 
 
@@ -166,7 +214,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
-         <opacity>0.4</opacity>
       </image>
 
 
@@ -176,7 +223,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
       </text>
 
-      <image name="linea-inferior" extra="static" >
+      <image name="linea-inferior" extra="static">
          <path>./../_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.002</size>
@@ -193,52 +240,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y>0.995</y>
       </image>
 
-      <image name="md_flag" ifSubset="info-bar:YES">
-			<pos>0.490 0.70</pos>
-			<maxSize>0.031</maxSize>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>51</zIndex>
-		</image>
-
-		<text name="md_players" onclick="gameoptions" ifSubset="info-bar:YES">
-			<origin>0.5 0.5</origin>
-			<fontPath>./../_theme_inc/fonts/players.ttf</fontPath>
-			<text>1</text>
-			<pos>0.49 0.76</pos>
-			<alignment>center</alignment>
-			<fontSize>0.042</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.035</fontSize>
-			<color>ffffff</color>
-			<zIndex>100</zIndex>
-		</text>
-
-
-		<image name="md_manual,md_nomanual" ifSubset="info-bar:YES">
-			<origin>0.5 0.5</origin>
-			<path>./../_theme_inc/images/manual.png</path>
-			<maxSize>0.03 0.04</maxSize>
-			<zIndex>100</zIndex>
-			<pos>0.49 0.82</pos>
-		</image>
-
-
-		<image name="md_savestate,md_nosavestate" onclick="savestates" ifSubset="info-bar:YES">
-			<origin>0.5 0.5</origin>
-			<path>./../_theme_inc/images/SaveState.png</path>
-			<pos>0.49 0.88</pos>
-			<maxSize>0.03 0.04</maxSize>
-			<zIndex>150</zIndex>
-		</image>
-
-		<image name="md_nosavestate, md_nomanual">
-			<color>808080</color>
-		</image>
-
-		<image name="md_savestate, md_manual">
-			<color>${gamelistSelectorColor}e6</color>
-		</image>
-
    </view>
+
+
 
    
 

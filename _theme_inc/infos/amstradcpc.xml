@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Is a series of 8-bit home computers produced by Amstrad between 1984 and 1990. It was designed to compete in the mid-1980s home computer market dominated by the Commodore 64 and the ZX Spectrum.</text>
 			<text lang="es">Amstrad CPC (acrónimo del inglés Colour Personal Computer) fue una serie de ordenadores personales de 8 bits producidos por Amstrad durante la década de 1980 y a principios de la década de 1990. 
 
@@ -20,7 +20,7 @@ La primera màquina, el CPC 464, es va presentar oficialment i es va comercialit
 
 Lehen makinak, CPC 464, ofizialki aurkeztu eta handitik merkaturatu ziren 1984ko ekainaren 21etatik aurrera. Commodore 64 eta Sinclair ZX Spectrum-en eragile direktu moduan diseinatu zen. CPC sorta arrakastatsua izan zen. 3 milioi baino gehiago saldu ziren makina bizitza-lerroan.
 			</text>
-			<text lang="fr" >Amstrad CPC est un ordinateur personnel 8 bits produit par Amstrad dans les années 1980. CPC est le sigle de Colour Personal Computer, même si une version dotée d'un moniteur monochrome était disponible.</text>
+			<text lang="fr">Amstrad CPC est un ordinateur personnel 8 bits produit par Amstrad dans les années 1980. CPC est le sigle de Colour Personal Computer, même si une version dotée d'un moniteur monochrome était disponible.</text>
 			<text lang="pt">Amstrad CPC foi uma série computadores pessoais de 8 bits produzidos pela Amstrad durante a década de 1980 e início de 1990. CPC significa Colour Personal Computer ("Computador Colorido Pessoal").</text>
 			<text lang="it">La serie Amstrad CPC è composta da computer domestici a 8 bit prodotti da Amstrad tra il 1984 e il 1990. Sono stati progettati per competere nel mercato dei computer domestici degli anni '80 dominato dal Commodore 64 e dallo ZX Spectrum.</text>        
 			<text lang="de">Die Amstrad CPC-Serie besteht aus 8-Bit-Heimcomputern, die von Amstrad zwischen 1984 und 1990 produziert wurden. Sie wurden entwickelt, um im Heimcomputermarkt der mittleren 1980er Jahre zu konkurrieren, der vom Commodore 64 und dem ZX Spectrum dominiert wurde.</text>        
@@ -38,7 +38,7 @@ Lehen makinak, CPC 464, ofizialki aurkeztu eta handitik merkaturatu ziren 1984ko
 
 
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>AA0648</color>
 			<colorEnd>838986</colorEnd>
 		</image>

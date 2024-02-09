@@ -18,4 +18,10 @@ Tras su salida al mercado, pronto se hizo evidente que el hardware era más déb
 			<text>Casio PV-1000</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>dd9f0d</color>
+			<colorEnd>db1616</colorEnd>
+		</image>
+	</view>
 </theme>

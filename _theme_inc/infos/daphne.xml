@@ -6,7 +6,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>DAPHNE is a free laserdisc game emulator that allows you to play arcade laserdisc games like Dragon's Lair, Space Ace, Astron Belt, and many more.</text>			
 			<text lang="es">DAPHNE es un emulador de juegos de disco láser gratuito que permite jugar a juegos de arcade laserdisc, como Dragon's Lair, Space Ace, Astron Belt y muchos más.</text>
 			<text lang="ca">DAPHNE és un emulador de jocs de disc làser gratuït que permet jugar a jocs d'arcade laserdisc, com ara Dragon's Lair, Space Ace, Astron Belt i molts més.</text>			
@@ -25,7 +25,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FFF300</color>
 			<colorEnd>FF9200</colorEnd>
 		</image>

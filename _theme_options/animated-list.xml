@@ -6,30 +6,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 <!-- DETALLADA -->
 <view name="detailed">
-  <control name="md_flag,md_players,md_manual,md_savestate">
-    <storyboard event="open">
-      <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
-      <animation property="offsetY" from="0.5" to="0" begin="300" duration="300" mode="easeOutCubic" />
-      <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />
-    </storyboard>
-  </control>
 
-  <control name="md_flag,md_players">
-    <storyboard event="activateNext">
-      <animation property="opacity" from="0" to="1" duration="400" mode="linear" />
-    </storyboard>
-    <storyboard event="activatePrev">
-      <animation property="opacity" from="0" to="1" duration="400" mode="linear" />
-    </storyboard>
-    <storyboard event="deactivateNext">
-      <animation property="opacity" to="0" duration="400" mode="linear" />
-    </storyboard>
-    <storyboard event="deactivatePrev">
-      <animation property="opacity" to="0" duration="400" mode="linear" />
-    </storyboard>
-  </control>
-
-  <control name="md_image, md_name, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, image-detailed, thumbnail-detailed, boxart-detailed, marquee-detailed, boxback-detailed, fanart-detailed, titleshot-detailed, cartridge-detailed, linea-infos,">
+  <control name="md_description, contenedor-gamedata, contenedor-gamedata2 , image-detailed, thumbnail-detailed, boxart-detailed, marquee-detailed, boxback-detailed, fanart-detailed, titleshot-detailed, cartridge-detailed, linea-infos">
     <storyboard event="open">
       <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
       <animation property="offsetX" from="0.5" to="0" begin="300" duration="300" mode="easeOutCubic" />
@@ -60,10 +38,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </storyboard>
     <storyboard event="activateNext">
       <animation property="offsetY" from="0.1" begin="0" to="0" duration="400" mode="easeOut" />
+      <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
       <animation property="scale"  from="1" to="1.3" begin="0" duration="30000" mode="easeOut" />
     </storyboard>
     <storyboard event="activatePrev">
       <animation property="offsetY" from="-0.1" begin="0" to="0" duration="400" mode="easeOut" />
+      <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
       <animation property="scale"  from="1" to="1.3" begin="0" duration="30000" mode="easeOut" />
     </storyboard>
     <storyboard event="deactivateNext">
@@ -80,19 +60,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   <!-- GRID -->
 
   <view name="grid">
-    <control name="md_image, image-grid, image-carousel, image-classic, image-single, thumbnail-grid, thumbnail-carousel, thumbnail-classic, thumbnail-single, marquee-grid, marquee-carousel, marquee-classic, marquee-single, boxart-grid, boxart-carousel, boxart-classic, boxart-single, cartridge-grid, cartridge-carousel, cartridge-classic, cartridge-single, fanart-grid, fanart-carousel, fanart-classic, fanart-single, titleshot-grid, titleshot-carousel, titleshot-classic, titleshot-single, md_name, md_flag, md_nosavestate, md_savestate, md_nomanual, md_manual, md_players, md_description, md_genre, md_developer, md_releasedate, md_publisher, md_rating, system-name, console-grid-view, image-full-grid thumbnail-full-grid, boxart-full-grid, marquee-full-grid, boxback-full-grid, fanart-full-grid, titleshot-full-grid, cartridge-full-grid,gamename-full-grid, gamename-grid, gamename-single, boxback-carousel, boxback-grid, boxback-classic, boxback-single">
+    <control name="contenedor-iconos, contenedor-gamedata, contenedor-gamedata2, console-grid-view, image-grid, image-carousel, image-classic, image-single, thumbnail-grid, thumbnail-carousel, thumbnail-classic, thumbnail-single, marquee-grid, marquee-carousel, marquee-classic, marquee-single, boxart-grid, boxart-carousel, boxart-classic, boxart-single, cartridge-grid, cartridge-carousel, cartridge-classic, cartridge-single, fanart-grid, fanart-carousel, fanart-classic, fanart-single, titleshot-grid, titleshot-carousel, titleshot-classic, titleshot-single, md_description, system-name, , image-full-grid thumbnail-full-grid, boxart-full-grid, marquee-full-grid, boxback-full-grid, fanart-full-grid, titleshot-full-grid, cartridge-full-grid,gamename-full-grid, gamename-grid, gamename-single, boxback-carousel, boxback-grid, boxback-classic, boxback-single, gallery_image, gallery_video">
       <storyboard event="open">
-        <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
-        <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
-        <animation property="opacity" from="0" to="1" begin="100" duration="600" mode="easeInOut" />
+        <animation property="offsetY" from="0.25" to="0" begin="50" duration="500" mode="easeOutCubic" />
       </storyboard>
       <storyboard event="activateNext">
         <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
-        <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
       </storyboard>
       <storyboard event="activatePrev">
         <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
-        <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
       </storyboard>
       <storyboard event="deactivateNext">
         <animation property="opacity" to="0" duration="100" mode="easeOut" />
@@ -104,25 +80,27 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   
   <control name="background-gamelist">
     <storyboard event="open">
-        <animation property="offsetY" to="0.15" duration="30000" mode="ease"/>
-        <animation property="scale" to="1.3"  duration="30000" mode="easeOut"/>
+      <animation property="offsetY" to="0.15" duration="30000" mode="ease"/>
+      <animation property="scale" to="1.3"  duration="30000" mode="easeOut"/>
     </storyboard>
     <storyboard event="activateNext">
       <animation property="offsetX" from="0.02" to="0" begin="0" duration="400" mode="easeOut" />
-        <animation property="offsetY" begin="100"  to="0.15" duration="30000" mode="ease"/>
-        <animation property="scale" begin="100"  to="1.3" duration="30000" mode="linear"/>
+      <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+      <animation property="offsetY" begin="100"  to="0.15" duration="30000" mode="ease"/>
+      <animation property="scale" begin="100"  to="1.3" duration="30000" mode="linear"/>
       </storyboard>
     <storyboard event="activatePrev">
       <animation property="offsetX" from="-0.02" to="0"  duration="400" mode="easeOut" />
+      <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
       <animation property="offsetY" begin="100"  to="-0.15" duration="30000" mode="ease"/>
       <animation property="scale"  to="1.3" begin="100" duration="30000" mode="easeOut" />
     </storyboard>
-      <storyboard event="deactivateNext">
-        <animation property="opacity" begin="100" to="0" duration="200" mode="easeOut" />
-      </storyboard>
-      <storyboard event="deactivatePrev">
-        <animation property="opacity" begin="100" to="0" duration="200" mode="easeOut" />
-      </storyboard>
+    <storyboard event="deactivateNext">
+      <animation property="opacity" begin="100" to="0" duration="200" mode="easeOut" />
+    </storyboard>
+    <storyboard event="deactivatePrev">
+      <animation property="opacity" begin="100" to="0" duration="200" mode="easeOut" />
+    </storyboard>
   </control>
 
   </view>
@@ -202,7 +180,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </control>
 
-    <control name="marquee-classic-view, thumbnail-classic-view, console-classic-view">
+    <control name="marquee-classic-view, thumbnail-classic-view, thumbnail-classic-view">
       <storyboard event="open">
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
@@ -227,7 +205,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   <customView name="single">
 
-    <control name="marquee-single-view, thumbnail-single-view, console-single-view">
+    <control name="marquee-single-view, thumbnail-single-view, thumbnail-single-view">
       <storyboard event="open">
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
@@ -274,14 +252,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   <!-- ocultar imagen principal de juego si la opcion video es ventana (revisar opcion defecto en image-sorces) -->
 
+   <!-- retardo del video de 0, 05 y 1 seg -->
   <view name="detailed">
-    <image ifSubset="game-video:default|window|inside" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
+    <image ifSubset="game-video:default|window|inside, video-gamelist-delay:0s|05s|1s" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
        <storyboard event="open">
           <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
           <animation property="offsetX" from="0.5" to="0" begin="300" duration="300" mode="easeOutCubic" />
           <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />
           <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
-       </storyboard>
+        </storyboard>
        <storyboard event="activateNext">
           <animation property="opacity" to="0" duration="1" mode="linear" />
           <animation property="offsetY" from="0.78" to="0" duration="550" mode="easeOutCubic" />
@@ -302,11 +281,47 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           <animation property="opacity" to="0" duration="400" mode="easeOut" />
        </storyboard>
     </image>
-    </view>
 
 
-<view name="grid">
-  <image ifSubset="game-video:window" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-classic, boxback-single">
+   <!-- retardo del video de 2 y 3 seg -->
+
+    <image ifSubset="game-video:default|window|inside, video-gamelist-delay:2s|3s" name="image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, boxback-detailed">
+      <storyboard event="open">
+         <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
+         <animation property="offsetX" from="0.5" to="0" begin="300" duration="300" mode="easeOutCubic" />
+         <animation property="opacity" from="0" to="1" begin="300" duration="600" mode="easeInOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+       </storyboard>
+      <storyboard event="activateNext">
+         <animation property="opacity" to="0" duration="1" mode="linear" />
+         <animation property="offsetY" from="0.78" to="0" duration="550" mode="easeOutCubic" />
+         <animation property="opacity" from="0" to="1" duration="800" mode="easeOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="activatePrev">
+         <animation property="offsetY" from="-0.78" to="0" duration="550" mode="easeOutCubic" />
+         <animation property="opacity" from="0" to="1" duration="800" mode="easeOut" />
+         <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+      </storyboard>
+      <storyboard event="deactivateNext">
+         <animation property="offsetY" to="-0.78" duration="500" mode="easeOutCubic" />
+         <animation property="opacity" to="0" duration="400" mode="easeOut" />
+      </storyboard>
+      <storyboard event="deactivatePrev">
+         <animation property="offsetY" to="0.78" duration="500" mode="easeOutCubic" />
+         <animation property="opacity" to="0" duration="400" mode="easeOut" />
+      </storyboard>
+   </image>
+  </view>
+
+  
+
+
+<view name="grid"> <!-- (revisar opcion defecto en image-sorces) full-grid por defecto es ventana -->
+
+     <!-- retardo del video de 0, 05 y 1 seg -->
+
+  <image ifSubset="game-video:window, video-gamelist-delay:0s|05s|1s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-classic, boxback-single">
     <storyboard event="open">
        <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
        <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
@@ -330,6 +345,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
        <animation property="opacity" to="0" duration="100" mode="easeOut" />
     </storyboard>
  </image>
+
+
+   <!-- retardo del video de 2 y 3 seg -->
+
+ <image ifSubset="game-video:window, video-gamelist-delay:2s|3s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-classic, boxback-single">
+  <storyboard event="open">
+     <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
+     <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
+     <animation property="opacity" from="0" to="1" begin="100" duration="600" mode="easeInOut" />
+     <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+  </storyboard>
+  <storyboard event="activateNext">
+     <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
+     <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+     <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+  </storyboard>
+  <storyboard event="activatePrev">
+     <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
+     <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+     <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
+  </storyboard>
+  <storyboard event="deactivateNext">
+     <animation property="opacity" to="0" duration="100" mode="easeOut" />
+  </storyboard>
+  <storyboard event="deactivatePrev">
+     <animation property="opacity" to="0" duration="100" mode="easeOut" />
+  </storyboard>
+</image>
 </view>
 
 

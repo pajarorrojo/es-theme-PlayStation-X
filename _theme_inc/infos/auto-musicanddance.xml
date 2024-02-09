@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>A genre characterized by its focus on using music to drive gameplay, often based on more or less realistic interpretations of the music. The list includes karaoke games, rhythm games, dance games, and games with musical instruments.</text>
 			<text lang="es">Género que se caracteriza por centrarse en el uso de la música para desarrollar la jugabilidad, a menudo basada en la interpretación más o menos realista de la misma. La lista incluye juegos de karaoke, juegos de ritmo, juegos de baile y juegos con instrumentos musicales.</text>
 			<text lang="ca">Gènere que es caracteritza per centrar-se en l'ús de la música per desenvolupar la jugabilitat, sovint basada en la interpretació més o menys realista de la mateixa. La llista inclou jocs de karaoke, jocs de ritme, jocs de ball i jocs amb instruments musicals.</text>
@@ -19,5 +19,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="zh">这种类型的游戏以使用音乐来开发游戏玩法为特点，通常基于更或者更少现实的演奏方式。列表包括卡拉OK游戏，节奏游戏，舞蹈游戏和乐器游戏。</text>
 			<text lang="ja">音楽を使ってゲームプレイを展開することが特徴のジャンルで、しばしばよりまたはより少しリアルな演奏に基づいています。リストには、カラオケ、リズムゲーム、ダンスゲーム、楽器ゲームが含まれています。</text>
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>5eacff</color>
+			<colorEnd>007bff</colorEnd>
+		</image>
 	</view>
 </theme>

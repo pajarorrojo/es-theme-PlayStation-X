@@ -20,7 +20,7 @@ Pac-Man, fué inicialmente llamado Puck-Man en Japón. El cambio de nombre a Pac
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>FFFF00</color>
 			<colorEnd>FFBF00</colorEnd>
 		</image>

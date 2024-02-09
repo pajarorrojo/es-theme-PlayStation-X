@@ -20,4 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">スキル、知識、コンセプトを教えることに焦点を当てたビデオゲーム。通常、さまざまな年齢層や/またはスキルレベルに合わせて設計されています。さらに、質問と回答、パズル、シミュレーションなど、さまざまなゲームメカニックを使用して教育目標を達成することができます。</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>41e7d4</color>
+			<colorEnd>00AC97</colorEnd>
+		</image>
+	</view>
+	
 </theme>

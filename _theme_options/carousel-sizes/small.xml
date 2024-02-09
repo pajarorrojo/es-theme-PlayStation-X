@@ -17,6 +17,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:4-3">-0.881 0.114</pos>
          <pos ifSubset="aspect-ratio:5-4">-0.945 0.114</pos>
          <pos ifSubset="aspect-ratio:3-2">-0.682 0.115</pos>
+         <pos ifSubset="aspect-ratio:5-3">-0.605 0.114</pos>
+
 
          <size>1.56 1</size>
          <size ifSubset="aspect-ratio:16-9">1.56 1</size>
@@ -24,6 +26,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:4-3">2.08 1</size>
          <size ifSubset="aspect-ratio:5-4">2.22 1</size>
          <size ifSubset="aspect-ratio:3-2">1.86 1</size>
+         <size ifSubset="aspect-ratio:5-3">1.69 1</size>
+
 
 
 
@@ -39,10 +43,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="start" extra="true">
          <size>0.138 0.045</size>
-         <size ifSubset="aspect-ratio:16-9">0.139 0.045</size>
+         <size ifSubset="aspect-ratio:16-9">0.139 0.047</size>
+         <size ifSubset="aspect-ratio:16-10">0.156 0.047</size>
          <size ifSubset="aspect-ratio:3-2">0.166 0.048</size>
          <size ifSubset="aspect-ratio:4-3">0.187 0.045</size>
-         <size ifSubset="aspect-ratio:16-10">0.156 0.045</size>
          <size ifSubset="aspect-ratio:5-3">0.149 0.045</size>
          <size ifSubset="aspect-ratio:5-4">0.2 0.045</size>
 
@@ -57,7 +61,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <text name="system_name" extra="true">
          <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
          <text>${system.name}</text> -->
-         <text>${system.fullName}</text>
+         <text>{system:fullName}.proper()</text>
          <pos>0.312 0.405</pos>
          <pos ifSubset="aspect-ratio:16-9">0.312 0.405</pos>
          <pos ifSubset="aspect-ratio:3-2">0.339 0.405</pos>

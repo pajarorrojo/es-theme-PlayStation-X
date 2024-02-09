@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Games designed for a broad audience that is not specialized in video games. These games are usually easy to play, with simple mechanics and clear objectives. Some examples of this type of videogames are Candy Crush, Farmville or Angry Birds.</text>
 			<text lang="es">Juegos diseñados para una audiencia amplia y no especializada en videojuegos. Estos juegos suelen ser fáciles de jugar, con mecánicas sencillas y objetivos claros. Algunos ejemplos de este tipo de videjuegos son Candy Crush, Farmville o Angry Birds entre otros.</text>
 			<text lang="ca">Jocs dissenyats per a una audiència àmplia i no especialitzada en videojocs. Aquests jocs solen ser fàcils de jugar, amb mecàniques senzilles i objectius clars. Alguns exemples d'aquest tipus de videojocs són Candy Crush, Farmville o Angry Birds, entre d'altres.</text>
@@ -19,5 +19,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="zh">针对广泛受众，不专门从事电子游戏的游戏设计。这些游戏通常易于玩，具有简单的机制和明确的目标。其中一些游戏的示例包括糖果传奇，农场游戏或愤怒的小鸟等。</text>	
 			<text lang="ja">広い観客層を対象とした、ビデオゲームに特化していない人々のために設計されたゲームです。これらのゲームは、簡単にプレイでき、シンプルなゲームメカニクスと明確な目標を持っています。この種のビデオゲームの例には、Candy Crush、Farmville、Angry Birdsなどがあります。</text>	
 		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>4274fd</color>
+			<colorEnd>5100ad</colorEnd>
+		</image>
 	</view>
 </theme>

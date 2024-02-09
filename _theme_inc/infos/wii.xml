@@ -61,4 +61,10 @@ Wii拥有丰富多样的适合各个年龄和能力层次的游戏，通过提�
 			<text>Nintendo Wii</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>d8dcde</color>
+			<colorEnd>2abef5</colorEnd>
+		</image>
+	</view>
 </theme>

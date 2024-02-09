@@ -21,4 +21,10 @@ El nombre también es usado comúnmente para describir ordenadores que están ba
 			<text>Archimedes</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>a41818</color>
+			<colorEnd>f7a903</colorEnd>
+		</image>
+	</view>
 </theme>

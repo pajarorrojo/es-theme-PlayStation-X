@@ -17,4 +17,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>LUTRO</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>11018c</color>
+			<colorEnd>bab6b6</colorEnd>
+		</image>
+	</view>
 </theme>

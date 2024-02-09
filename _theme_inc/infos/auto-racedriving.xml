@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>There are usually two types of racing games, arcade and simulation. Arcade-style racing games provide fun and fast-paced experience above all, while simulation-style racing games focus on realistically mimicking vehicle handling, track conditions, and physics mechanics.</text>
 			<text  lang="es">Suelen existir dos tipos de juegos de carreras, los arcade y los de simulación. Los juegos de carreras estilo arcade brindan diversión y una experiencia trepidante por encima de todo, mientras que en los de simulación se centran en imitar realísticamente el manejo de los vehículos, condiciones de la pista o la propia mecánica física.</text>
 			<text lang="ca">Solen existir dos tipus de jocs de carreres, els arcade i els de simulació. Els jocs de carreres estil arcade proporcionen diversió i una experiència trepidant per sobre de tot, mentre que en els de simulació es centren en imitar realísticament el maneig dels vehicles, condicions de la pista o la pròpia mecànica física.</text>			

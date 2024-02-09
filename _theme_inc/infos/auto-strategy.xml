@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>Video game genre that emphasizes thinking and planning over action to achieve victory. Although many types of video games may contain strategic elements, as a genre, strategy games are most commonly defined as those that primarily focus on strategy, logistics, and resource management.</text>
 			<text lang="es">Género de videojuegos que enfatiza el pensamiento y la planificación sobre la acción para lograr la victoria. Aunque muchos tipos de videojuegos pueden contener elementos estratégicos, como género, los juegos de estrategia se definen más comúnmente como aquellos que se centran principalmente en la estrategia, la logística y la gestión de recursos.</text>
 			<text lang="ca">Gènere de videojocs que enfatitza el pensament i la planificació sobre l'acció per aconseguir la victòria. Tot i que molts tipus de videojocs poden contenir elements estratègics, com a gènere, els jocs d'estratègia es defineixen més comúment com aquells que es centren principalment en l'estratègia, la logística i la gestió de recursos.</text>
@@ -21,5 +21,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fe2062</color>
+			<colorEnd>ff0000</colorEnd>
+		</image>
 	</view>
 </theme>

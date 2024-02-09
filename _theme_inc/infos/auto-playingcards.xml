@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
+		<text name="system_description" extra="true">
 			<text>In this list you will find classic card games, especially poker games in their many variations. It also includes any type of game that uses cards for its performance, such as role-playing, casual, collectible, etc...</text>
 			<text lang="es">En esta lista encontrarás juegos de cartas clásicos, sobretodo de poker en sus muchas variantes. También se incluye cualquier tipo de juego que utilice cartas para su desarrollo, ya sean del tipo rol, casual, coleccionables  etc...</text>
 			<text lang="ca">En aquesta llista trobaràs jocs de cartes clàssics, especialment jocs de pòquer en les seves moltes variants. També inclou qualsevol tipus de joc que utilitzi cartes per al seu funcionament, com ara jocs de rol, casuals, col·leccionables, etc...</text>
@@ -20,5 +20,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">このリストには、特に多数のバリエーションを持つポーカーゲームを含む古典的なカードゲームが含まれています。また、カードを使用してパフォーマンスを行うあらゆるタイプのゲーム、例えばロールプレイング、カジュアル、コレクタブルなども含まれます...</text>
 		</text>
 
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fdea42</color>
+			<colorEnd>ffc400</colorEnd>
+		</image>
 	</view>
 </theme>

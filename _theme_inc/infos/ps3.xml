@@ -52,7 +52,7 @@ Wprowadzono również możliwość gry online i pobierania gier za pośrednictwe
 		</text>
 	</view>
 	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static" >
+		<image name="linea-inferior" extra="static">
 			<color>ff0000</color>
 			<colorEnd>8C0000</colorEnd>
 		</image>

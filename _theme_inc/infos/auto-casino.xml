@@ -20,4 +20,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="ja">スロットマシン、ルーレット、カード、またはスクリーンに適応された他の種類のカジノゲーム。</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>fdea42</color>
+			<colorEnd>ffc400</colorEnd>
+		</image>
+	</view>
 </theme>
