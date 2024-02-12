@@ -5,9 +5,45 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The CP System II (CPシステムII, shīpī shisutemu tsū) or CPS-2 is an arcade system board that Capcom first used in 1993 for Super Street Fighter II. It was the successor to their previous CP System and Capcom Power System Changer arcade hardware and was succeeded by the CP System III hardware in 1996, of which the CPS-2 would outlive by over four years.
+				
+The arcade system had new releases for it until the end of 2003, ending with Hyper Street Fighter II.</text>
+			<text lang="es">El CP System II (CPシステムII, shīpī shisutemu tsū) o CPS-2 es una placa de sistema arcade que Capcom utilizó por primera vez en 1993 para Super Street Fighter II. Fue el sucesor de su anterior sistema CP System y hardware arcade Capcom Power System Changer y fue sucedido por el hardware CP System III en 1996, del cual el CPS-2 sobreviviría por más de cuatro años.
+				
+El sistema arcade tuvo nuevos lanzamientos hasta finales de 2003, terminando con Hyper Street Fighter II.</text>
+			<text lang="ca">El CP System II (CPシステムII, shīpī shisutemu tsū) o CPS-2 és una placa de sistema arcade que Capcom va utilitzar per primera vegada el 1993 per a Super Street Fighter II. Va ser el successor del seu anterior sistema CP System i hardware arcade Capcom Power System Changer i va ser succeït pel hardware CP System III el 1996, del qual el CPS-2 sobreviuria per més de quatre anys.
+				
+El sistema arcade va tenir nous llançaments fins a finals de 2003, acabant amb Hyper Street Fighter II.</text>
+			<text lang="eu">CP System II (CPシステムII, shīpī shisutemu tsū) edo CPS-2 Capcomek lehenengo aldiz erabili zuen sistema plaka arcade bat da, 1993an Super Street Fighter II. Bere aurreko CP System eta Capcom Power System Changer arcaden hardwarearen ondorengo jarraitzailea izan zen, eta 1996an CP System III hardwarea jarraitu zuen, CPS-2ak lau urte baino gehiagoko iraupena izango zuen.
+				
+Arcaden sistema berriak izan zituen 2003 amaieran arte, Hyper Street Fighter II-arekin bukatzeko.</text>
+			<text lang="fr">Le CP System II (CPシステムII, shīpī shisutemu tsū) ou CPS-2 est une carte mère de système d'arcade que Capcom a utilisée pour la première fois en 1993 pour Super Street Fighter II. Il était le successeur de leur précédent CP System et du matériel d'arcade Capcom Power System Changer et a été succédé par le matériel CP System III en 1996, dont le CPS-2 survivrait de plus de quatre ans.
+				
+Le système d'arcade a connu de nouvelles sorties jusqu'à la fin de 2003, se terminant par Hyper Street Fighter II.</text>
+			<text lang="pt">O CP System II (CPシステムII, shīpī shisutemu tsū) ou CPS-2 é uma placa de sistema de arcade que a Capcom usou pela primeira vez em 1993 para Super Street Fighter II. Foi o sucessor do seu sistema CP System anterior e do hardware de arcade Capcom Power System Changer e foi sucedido pelo hardware CP System III em 1996, do qual o CPS-2 sobreviveria por mais de quatro anos.
+				
+O sistema de arcade teve novos lançamentos até o final de 2003, terminando com o Hyper Street Fighter II.</text>
+			<text lang="it">Il CP System II (CPシステムII, shīpī shisutemu tsū) o CPS-2 è una scheda di sistema arcade che Capcom ha utilizzato per la prima volta nel 1993 per Super Street Fighter II. È stato il successore del precedente CP System e dell'hardware arcade Capcom Power System Changer ed è stato sostituito dall'hardware CP System III nel 1996, del quale il CPS-2 sarebbe sopravvissuto per oltre quattro anni.
+				
+Il sistema arcade ha avuto nuove uscite fino alla fine del 2003, terminando con Hyper Street Fighter II.</text>
+			<text lang="de">Das CP System II (CPシステムII, shīpī shisutemu tsū) oder CPS-2 ist eine Arcade-Systemplatine, die Capcom erstmals 1993 für Super Street Fighter II verwendete. Es war der Nachfolger ihres vorherigen CP Systems und des Capcom Power System Changer-Arcade-Hardware und wurde 1996 vom CP System III-Hardware abgelöst, von dem das CPS-2 um über vier Jahre überleben würde.
+				
+Das Arcade-System hatte neue Veröffentlichungen bis Ende 2003, endend mit Hyper Street Fighter II.</text>
+			<text lang="pl">CP System II (CPシステムII, shīpī shisutemu tsū) lub CPS-2 to płyta systemowa systemu arcade, którą Capcom po raz pierwszy użył w 1993 roku w grze Super Street Fighter II. Był on następcą poprzedniego systemu CP oraz sprzętu do automatów Capcom Power System Changer, a zastąpiony został przez sprzęt CP System III w 1996 roku, który CPS-2 przetrwał o ponad cztery lata.
+				
+System arcade miał nowe wydania aż do końca 2003 roku, kończąc się grą Hyper Street Fighter II.</text>
+			<text lang="ru">CP System II (CPシステムII, shīpī shisutemu tsū) или CPS-2 - это аркадная игровая плата, которую Capcom впервые использовал в 1993 году для Super Street Fighter II. Она была преемницей предыдущей системы CP System и аппаратного обеспечения Capcom Power System Changer, и была заменена аппаратным обеспечением CP System III в 1996 году, которое превзошло CPS-2 более четырех лет.
+				
+Аркадная система имела новые выпуски до конца 2003 года, завершившись игрой Hyper Street Fighter II.</text>
+			<text lang="zh">CP System II (CPシステムII, shīpī shisutemu tsū)或CPS-2是Capcom于1993年首次用于超级街头霸王II的街机系统板。它是其先前CP系统和Capcom Power System Changer街机硬件的继任者，并于1996年被CP System III硬件取代，CPS-2将比后者多活了四年以上。该街机系统直到2003年底都有新版本发布，最后一款是《超级街头霸王II》。</text>
+			<text lang="ar">النظام الأساسي CP II (CPシステムII, shīpī shisutemu tsū) أو CPS-2 هو لوحة نظام أركيد استخدمتها كابكوم لأول مرة في عام 1993 لـ سوبر ستريت فايتر II. كان خليفة نظام CP السابق وأجهزة أركيد Capcom Power System Changer ونجحها النظام الأساسي CP III في عام 1996 ، حيث ستكون لـ CPS-2 عمر أطول من CP III بأكثر من أربع سنوات.كان للنظام الأركيد إصدارات جديدة حتى نهاية عام 2003 ، مع Hyper Street Fighter II.</text>
+			<text lang="he">ה-CP System II (CPシステムII, shīpī shisutemu tsū) או CPS-2 הוא לוח מערכת ארקייד שהותקן לראשונה על ידי קאפקום ב-1993 למשחק Super Street Fighter II. הוא היה היורש של ה-CP System הקודם ושל הקאפקום פאוור סיסטם צ'יינג'ר, ונעשה על ידי ה-CP System III ב-1996, שבו ה-CPS-2 היה ישראלי ביותר ביותר מארבע שנים.המערכת ארקייד הייתה להוציא גרסאות חדשות עד לסוף 2003, הסתיימה ב-Hyper Street Fighter II.</text>
+			<text lang="ja">CPシステムII（CP System II、CPシステムII、CP System II）またはCPS-2は、1993年にカプコンが初めて使用したアーケードシステムボードであり、スーパーストリートファイターII用です。これは、CPシステムおよびカプコンパワーシステムチェンジャーの前のバージョンの後継であり、1996年にCPシステムIIIハードウェアによって置き換えられました。CPS-2はCPシステムIIIよりも4年以上長く続きました。アーケードシステムは2003年末まで新しいリリースがあり、最後はハイパーストリートファイターIIでした。</text>
+		</text>
 
 		<text name="system_name" extra="true">
-			<text>Capcom Play System 2</text>
+			<text>CAPCOM Play System 2</text>
 		</text>
 	</view>
 </theme>

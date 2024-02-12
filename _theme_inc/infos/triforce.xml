@@ -7,11 +7,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 				
 		<text name="system_description" extra="true">
-			<text>The Triforce is an arcade board developed in a joint venture between Sega, Nintendo, and Namco. It is based upon the Nintendo GameCube video game console to reduce development costs, and allowed for arcade ports of home console games, and vice versa. 
+			<text>The Triforce is an arcade board developed in a joint venture between SEGA, Nintendo, and Namco. It is based upon the Nintendo GameCube video game console to reduce development costs, and allowed for arcade ports of home console games, and vice versa. 
 					
 It is named after the magical, often sought-after object in Nintendo's popular The Legend of Zelda series.
 			</text>
-			<text lang="es,ca,eu">Triforce es una placa de sistema arcade desarrollada en conjunto por Nintendo, Namco y Sega, apareciendo los primeros juegos en 2002. 
+			<text lang="es,ca,eu">Triforce es una placa de sistema arcade desarrollada en conjunto por Nintendo, Namco y SEGA, apareciendo los primeros juegos en 2002. 
 					
 El logo y el nombre fueron concebidos en honor a la saga de Nintendo, The Legend of Zelda, tomando como referente el objeto de la Trifuerza, y simbolizó la implicación de las tres compañías en el proyecto.
 			</text>		

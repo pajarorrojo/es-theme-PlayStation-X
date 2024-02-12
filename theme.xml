@@ -246,7 +246,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--OPCIONES DE VIDEO SISTEMAS-->
 	<subset name="video-system" displayName="${theme.videoBackground}">
 		<include name="NO" displayName="${VideoOff}" tinyScreen="true">./_theme_options/systemvideo/no-video.xml</include>
-		<include  name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+		<include name="NO" ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
+		<include  name="small-screen" ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
 		<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
 		<include name="NO" displayName="${VideoOff}" tinyScreen="false">./_theme_options/systemvideo/no-video.xml</include>
 	</subset>
@@ -295,18 +296,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--MOSTRAR AYUDA HOTKEYS-->
-	<subset ifNotArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey}">
+	<subset name="hotkey-guide" displayName="${theme.hotkey}">
 		<include tinyScreen="true" name="NO" displayName="${no}" />
 		<include name="YES" displayName="${yes}" />
 		<include tinyScreen="false" name="NO" displayName="${no}" />
-	</subset>
-
-	<subset ifArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey-x86}">
-		<include tinyScreen="true" name="never" displayName="${never}" />
-		<include name="gamesplash" displayName="${theme.hotkey.gamesplash}" />
-		<include name="splash" displayName="${theme.hotkey.splash}" />
-		<include name="both" displayName="${theme.hotkey.both}" />
-		<include tinyScreen="false" name="never" displayName="${never}" />
 	</subset>
 
 	<!--TIPO DE PANTALLA DE CARGA DE JUEGOS-->

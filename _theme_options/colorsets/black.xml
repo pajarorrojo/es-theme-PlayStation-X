@@ -53,7 +53,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="menu">
       <menuBackground name="menubg">
-         <path>./black/fond_menu.png</path>
+         <path>./black/fond_menu.jpg</path>
       </menuBackground>
 
 

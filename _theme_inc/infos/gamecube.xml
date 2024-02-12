@@ -12,12 +12,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 Sus principales características son su procesador central basado en un IBM PowerPC y su procesador gráfico desarrollado por ATI Technologies. Nintendo, por primera vez, prescinde del cartucho como formato de almacenamiento, y adopta un formato óptico propio, el Nintendo Optical Disc. Es además la primera consola de Nintendo que no cuenta en su fecha de lanzamiento con un juego de Mario, mascota oficial de la compañía. 
 			</text>
-			<text  lang="fr">Le Nintendo GameCube (ニンテンドーゲームキューブ, Nintendō Gēmukyūbu?, prononcé en anglais : [ˈɡeɪm.kjuːb]) est une console de jeux vidéo de salon du fabricant japonais Nintendo, sortie en 2001 (2002 en Europe), développée en association avec IBM, NEC et ATI. Elle fut en concurrence avec la PlayStation 2 de Sony, la Xbox de Microsoft et la Dreamcast de Sega, qui forment ensemble la sixième génération de consoles de jeux vidéo. </text>
+			<text  lang="fr">Le Nintendo GameCube (ニンテンドーゲームキューブ, Nintendō Gēmukyūbu?, prononcé en anglais : [ˈɡeɪm.kjuːb]) est une console de jeux vidéo de salon du fabricant japonais Nintendo, sortie en 2001 (2002 en Europe), développée en association avec IBM, NEC et ATI. Elle fut en concurrence avec la PlayStation 2 de Sony, la Xbox de Microsoft et la Dreamcast de SEGA, qui forment ensemble la sixième génération de consoles de jeux vidéo. </text>
 			<text lang="pt">O Nintendo GameCube (comumente abreviado como GameCube) é um console de videogame doméstico lançado pela Nintendo no Japão e na América do Norte em 2001 e Europa e Austrália em 2002. Como parte da sexta geração de consoles, é o sucessor do Nintendo 64.</text>
 		</text>
 
 		<text name="system_name" extra="true">
-			<text>GameCube</text>
+			<text>Nintendo GameCube</text>
 		</text>
 	</view>
 </theme>

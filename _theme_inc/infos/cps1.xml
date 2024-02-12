@@ -5,9 +5,61 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The CP System (CPシステム, shīpī shisutemu, CPS for short and retroactively known as CPS-1) is an arcade system board developed by Capcom that ran game software stored on removable daughterboards. More than two dozen arcade titles were released for CPS-1, before Capcom shifted game development over to its successor, the CP System II.
+				
+Among the 33 titles released for the original CP System include Street Fighter II: The World Warrior and its first two follow-ups, Street Fighter II: Champion Edition and Street Fighter II: Hyper Fighting.</text>
+			<text lang="es">El CP System (CPシステム, shīpī shisutemu, conocido como CPS de forma abreviada y retroactivamente como CPS-1) es una placa de sistema arcade desarrollada por Capcom que ejecutaba software de juegos almacenado en placas secundarias extraíbles. Se lanzaron más de dos docenas de títulos arcade para CPS-1, antes de que Capcom trasladara el desarrollo de juegos a su sucesor, el CP System II.
+				
+Entre los 33 títulos lanzados para el CP System original se encuentran Street Fighter II: The World Warrior y sus dos primeras secuelas, Street Fighter II: Champion Edition y Street Fighter II: Hyper Fighting.</text>
+
+			<text lang="ca">El CP System (CPシステム, shīpī shisutemu, conegut com a CPS de forma abreviada i retroactivament com a CPS-1) és una placa de sistema arcade desenvolupada per Capcom que executava programari de joc emmagatzemat en plaques filles extraïbles. Es van llançar més de dos dotzenes de títols arcade per a CPS-1, abans que Capcom traslladés el desenvolupament de jocs al seu successor, el CP System II.
+				
+Entre els 33 títols llançats per al CP System original es troben Street Fighter II: The World Warrior i les seves dues primeres següeles, Street Fighter II: Champion Edition i Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="eu">CP System (CPシステム, shīpī shisutemu, abreviatu bezala CPS eta retroaktiboki CPS-1 izenarekin ezaguna) da Capcom-ek garatutako arkade sistema plaka, era askotako joko softwarea exkurrak era desmontagarrian gordeta exekutatzen zuena. CPS-1rako bi dozinetako joko arkade bideotan argitaratu ziren, baina Capcom-ek jokoaren garapena bere ondoko gailuari, CP System II, mugitu zuen.
+				
+Lehen CP System-rako argitaratutako 33 titulu artean Street Fighter II: The World Warrior eta haren lehen bi jarraipenak, Street Fighter II: Champion Edition eta Street Fighter II: Hyper Fighting aurkitzen dira.</text>
+			
+			<text lang="fr">Le CP System (CPシステム, shīpī shisutemu, abrégé en CPS et rétrospectivement connu sous le nom de CPS-1) est une carte mère de système d'arcade développée par Capcom qui exécutait des logiciels de jeux stockés sur des cartes filles amovibles. Plus de deux douzaines de titres d'arcade ont été publiés pour le CPS-1, avant que Capcom ne transfère le développement de jeux sur son successeur, le CP System II.
+				
+Parmi les 33 titres sortis pour le CP System original, on trouve Street Fighter II: The World Warrior et ses deux premières suites, Street Fighter II: Champion Edition et Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="pt">O CP System (CPシステム, shīpī shisutemu, conhecido como CPS abreviadamente e retroativamente como CPS-1) é uma placa de sistema de arcade desenvolvida pela Capcom que executava software de jogos armazenado em placas filhas removíveis. Mais de duas dezenas de títulos de arcade foram lançados para o CPS-1, antes da Capcom transferir o desenvolvimento de jogos para o seu sucessor, o CP System II.
+				
+Entre os 33 títulos lançados para o CP System original estão Street Fighter II: The World Warrior e suas duas primeiras sequências, Street Fighter II: Champion Edition e Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="it">Il CP System (CPシステム, shīpī shisutemu, abbreviato in CPS e retroattivamente noto come CPS-1) è una scheda madre di sistema arcade sviluppata da Capcom che eseguiva software di gioco memorizzato su schede figlie rimovibili. Più di due dozzine di titoli arcade sono stati rilasciati per il CPS-1, prima che Capcom spostasse lo sviluppo del gioco sul suo successore, il CP System II.
+				
+Tra i 33 titoli rilasciati per il CP System originale ci sono Street Fighter II: The World Warrior e i suoi primi due seguiti, Street Fighter II: Champion Edition e Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="de">Das CP System (CPシステム, shīpī shisutemu, kurz CPS und rückwirkend als CPS-1 bekannt) ist eine Arcade-Systemplatine, die von Capcom entwickelt wurde und auf der Spielsoftware ausgeführt wurde, die auf austauschbaren Tochterplatinen gespeichert war. Mehr als zwei Dutzend Arcade-Titel wurden für das CPS-1 veröffentlicht, bevor Capcom die Spieleentwicklung auf seinen Nachfolger, das CP System II, umstellte.
+				
+Zu den 33 Titeln, die für das Original-CP-System veröffentlicht wurden, gehören Street Fighter II: The World Warrior und seine ersten beiden Fortsetzungen, Street Fighter II: Champion Edition und Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="pl">System CP (CPシステム, shīpī shisutemu, znany skrótowo jako CPS i retroaktywnie jako CPS-1) to płyta systemowa do automatów arcade opracowana przez Capcom, która uruchamiała oprogramowanie gier przechowywane na wymiennych płytkach córek. Ponad dwadzieścia gier arcade zostało wydanych na CP-1, zanim Capcom nie przeniósł produkcji gier na jego następcę, CP System II.
+				
+Wśród 33 tytułów wydanych na oryginalnym systemie CP są Street Fighter II: The World Warrior i jego dwie pierwsze kontynuacje, Street Fighter II: Champion Edition i Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="ru">CP System (CPシステム, shīpī shisutemu, сокращенно CPS и ретроспективно известный как CPS-1) - это аркадная системная плата, разработанная Capcom, которая запускала игровое программное обеспечение, хранящееся на съемных дочерних платах. Более двух десятков аркадных игр были выпущены для CPS-1, прежде чем Capcom перевел разработку игр на его преемника, CP System II.
+				
+Среди 33 игр, выпущенных для оригинальной системы CP, есть Street Fighter II: The World Warrior и его первые две продолжения, Street Fighter II: Champion Edition и Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="zh">CP System (CPシステム, shīpī shisutemu，缩写为CPS，历史上也被称为CPS-1) 是由卡普空（Capcom）开发的街机系统板，其运行的游戏软件存储在可移动的子板上。 CPS-1 共发布了二十多个街机游戏标题，然后卡普空将游戏开发转移到了其后继者 CP System II 上。* 在原始 CP System 上发布的 33 个标题中包括《街头霸王II：全球战士》及其前两部续作，《街头霸王II：冠军版》和《街头霸王II：极速对决》。</text>
+			
+			<text lang="ar">نظام CP (CPシステム, shīpī shisutemu, اختصارًا CPS ويُعرف بشكلٍ مُعاكس باسم CPS-1) هو لوحة نظام أركيد تم تطويرها بواسطة كابكوم وتشغيل برامج الألعاب المخزنة على لوحات فرعية قابلة للإزالة. تم إصدار أكثر من اثنين وعشرين عنوانًا للأركيد لـ CPS-1، قبل أن تنتقل كابكوم إلى تطوير الألعاب على خليفتها، CP System II.
+				
+من بين 33 عنوانًا تم إصدارها لنظام CP الأصلي تشمل Street Fighter II: The World Warrior والجزئين الأولين منها، Street Fighter II: Champion Edition وStreet Fighter II: Hyper Fighting.</text>
+			
+			<text lang="he">ה-CP System (CPシステム, shīpī shisutemu, הכונן קיצור כ-CPS ובצורה חוזרת בשם CPS-1) הוא לוח מערכת למשחקי ארקייד שפותח על ידי קאפקום, שהפעל תוכנה של משחקים המאוחסנת על כרטיסיות נפרדות נשלפות. יותר משני עשרים כותרי ארקייד הושקו עבור CPS-1, לפני שקאפקום העבירה את פיתוח המשחק ליורשתו, CP System II.
+				
+מתוך 33 כותרים שיצאו עבור ה-CP System המקורי כוללים את Street Fighter II: The World Warrior ושתי ההמשכים הראשונים שלו, Street Fighter II: Champion Edition ו-Street Fighter II: Hyper Fighting.</text>
+			
+			<text lang="ja">CP System (CPシステム, shīpī shisutemu、CPSとして略され、後にCPS-1としても知られる) は、カプコンによって開発されたアーケードシステム基板で、取り外し可能な娘ボードに格納されたゲームソフトウェアを実行しました。 CPS-1には2ダース以上のアーケードタイトルがリリースされましたが、カプコンはその後、後継機であるCP System IIにゲーム開発を移行しました。* オリジナルのCPシステムにリリースされた33のタイトルには、Street Fighter II: The World Warriorとその最初の2つの続編であるStreet Fighter II: Champion EditionとStreet Fighter II: Hyper Fightingが含まれます。</text>
+					</text>
 
 		<text name="system_name" extra="true">
-			<text>Capcom Play System 1</text>
+			<text>CAPCOM Play System 1</text>
 		</text>
 	</view>
 </theme>
