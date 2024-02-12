@@ -296,10 +296,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--MOSTRAR AYUDA HOTKEYS-->
-	<subset name="hotkey-guide" displayName="${theme.hotkey}">
+	<subset ifNotArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey}">
 		<include tinyScreen="true" name="NO" displayName="${no}" />
 		<include name="YES" displayName="${yes}" />
 		<include tinyScreen="false" name="NO" displayName="${no}" />
+	</subset>
+
+	<subset ifArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey-x86}">
+		<include tinyScreen="true" name="never" displayName="${never}" />
+		<include name="both" displayName="${theme.hotkey.both}" />
+		<include name="gamesplash" displayName="${theme.hotkey.gamesplash}" />
+		<include name="splash" displayName="${theme.hotkey.splash}" />
+		<include tinyScreen="false" name="never" displayName="${never}" />
 	</subset>
 
 	<!--TIPO DE PANTALLA DE CARGA DE JUEGOS-->
