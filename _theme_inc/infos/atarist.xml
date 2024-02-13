@@ -7,10 +7,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>Is a line of home computers from Atari Corporation and the successor to the Atari 8-bit family. The initial ST model, the 520ST, saw limited release in April–June 1985 and was widely available in July.</text>
-			<text lang="es,ca,eu">Atari ST es una computadora doméstica presentada por la empresa Atari. Las letras "ST" es la abreviación de "Sixteen/Thirty-two" (en castellano, dieciséis/treinta y dos).</text>
-			<text lang="fr">Les Atari ST forment une famille d'ordinateurs personnels conçus par la firme américaine Atari dont le succès commercial a marqué la deuxième moitié des années 1980 et le début des années 1990.</text>
-			<text lang="pt">É um computador doméstico/pessoal produzido pela Atari Corporation e vendido entre 1985 e o início da década de 1990. Oficialmente, ST significava "Sixteen/Thirty-two" ("Dezesseis/Trinta e dois").</text>
+			<text>The Atari ST was a series of computers developed by Atari Corporation in the 1980s. It stood out for its architecture based on the Motorola 68000 microprocessor and its ability to run a variety of software, from productivity applications to video games.
+				
+Recognized for its sound and graphics quality, especially in music production, the Atari ST had a significant impact on the home computer market before being discontinued in the early 1990s. "ST" is an abbreviation for "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="es">El Atari ST fue una serie de ordenadores desarrollados por Atari Corporation en la década de 1980. Destacó por su arquitectura basada en el microprocesador Motorola 68000 y su capacidad para ejecutar una variedad de software, desde aplicaciones de productividad hasta videojuegos.
+				
+Reconocido por su calidad de sonido y gráficos, especialmente en la producción musical, el Atari ST tuvo un impacto significativo en el mercado de la informática doméstica antes de ser discontinuado a principios de la década de 1990. "ST" es la abreviación de "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="ca">L'Atari ST va ser una sèrie d'ordinadors desenvolupats per Atari Corporation a la dècada de 1980. Es va destacar per la seva arquitectura basada en el microprocessador Motorola 68000 i la seva capacitat per executar una varietat de programari, des d'aplicacions de productivitat fins a videojocs.
+				
+Reconegut per la seva qualitat de so i gràfics, especialment en la producció musical, l'Atari ST va tenir un impacte significatiu en el mercat de la informàtica domèstica abans de ser discontinuat a principis de la dècada de 1990. "ST" és l'abreviació de "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="eu">Atari ST izan zen Atari Corporation-ek garatutako ordenagailuen multzo bat 1980ko hamarkadan. Motorola 68000 mikroprozesadorean oinarritutako arkitektura nabarmendu zuen, eta software anitzak exekutatzeko gaitasuna zuen, produktibitate-aplikazioetatik bideo-jokoetara.
+				
+Hainbat alorretako softwareen exekuzioa ahalbidetu zuen, batez ere musika produkzioan, Atari STk informatika etxeko merkatuan eragin handia izan zuen 1990eko hamarkadaren hasieran bertan amaitu baino lehen. "ST" da "Sixteen/Thirty-two" (16/32)ren laburpena.</text>
+			<text lang="fr">L'Atari ST était une série d'ordinateurs développés par Atari Corporation dans les années 1980. Il se distinguait par son architecture basée sur le microprocesseur Motorola 68000 et sa capacité à exécuter une variété de logiciels, des applications de productivité aux jeux vidéo.
+				
+Reconnu pour sa qualité sonore et graphique, notamment dans la production musicale, l'Atari ST a eu un impact significatif sur le marché de l'informatique domestique avant d'être abandonné au début des années 1990. "ST" est l'abréviation de "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="pt">O Atari ST foi uma série de computadores desenvolvidos pela Atari Corporation na década de 1980. Destacou-se por sua arquitetura baseada no microprocessador Motorola 68000 e sua capacidade de executar uma variedade de software, desde aplicativos de produtividade até videogames.
+				
+Reconhecido por sua qualidade de som e gráficos, especialmente na produção musical, o Atari ST teve um impacto significativo no mercado de computadores domésticos antes de ser descontinuado no início da década de 1990. "ST" é a abreviação de "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="it">L'Atari ST è stata una serie di computer sviluppati da Atari Corporation negli anni '80. Si distinse per la sua architettura basata sul microprocessore Motorola 68000 e la sua capacità di eseguire una varietà di software, dalle applicazioni di produttività ai videogiochi.
+				
+Riconosciuto per la sua qualità audio e grafica, soprattutto nella produzione musicale, l'Atari ST ebbe un impatto significativo sul mercato dei computer domestici prima di essere interrotto all'inizio degli anni '90. "ST" è l'abbreviazione di "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="de">Der Atari ST war eine Serie von Computern, die von Atari Corporation in den 1980er Jahren entwickelt wurde. Er zeichnete sich durch seine Architektur auf Basis des Motorola 68000 Mikroprozessors aus und hatte die Fähigkeit, eine Vielzahl von Softwareanwendungen von Produktivitätsanwendungen bis hin zu Videospielen auszuführen.
+				
+Bekannt für seine Klang- und Grafikqualität, insbesondere in der Musikproduktion, hatte der Atari ST einen bedeutenden Einfluss auf den Markt der Heimcomputer, bevor er Anfang der 1990er Jahre eingestellt wurde. "ST" ist die Abkürzung für "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="pl">Atari ST to seria komputerów opracowanych przez Atari Corporation w latach 80. Wyróżniał się architekturą opartą na mikroprocesorze Motorola 68000 i zdolnością do uruchamiania różnorodnego oprogramowania, od aplikacji produkcyjnych po gry wideo.
+				
+Znany ze swojej jakości dźwięku i grafiki, zwłaszcza w produkcji muzycznej, Atari ST miało znaczący wpływ na rynek komputerów domowych przed swoim wycofaniem na początku lat 90. "ST" to skrót od "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="ru">Atari ST был серией компьютеров, разработанных корпорацией Atari в 1980-х годах. Он выделялся своей архитектурой на основе микропроцессора Motorola 68000 и способностью выполнять различное программное обеспечение, от прикладных программ до видеоигр.
+				
+Известный своим качеством звука и графики, особенно в музыкальной продукции, Atari ST оказал значительное влияние на рынок домашних компьютеров до своего прекращения в начале 1990-х годов. "ST" является сокращением от "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="he">ה- Atari ST היה סדרת מחשבים שפותחה על ידי Atari Corporation בשנות ה- 1980. הוא ייחודי בארכיטקטורתו המבוססת על המיקרופרוססור Motorola 68000 וביכולתו להריץ מגוון של תוכנות, החל מיישומי יעילות ועד משחקי מחשב. מוכר באיכות הקול והגרפיקה שלו, במיוחד בייצור המוזיקה, ה- Atari ST תרם לשוק המחשבים הביתיים לפני שהופסק בתחילת שנות ה- 1990. "ST" הוא ראשי תיבות של "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="ar">كان Atari ST سلسلة من الحواسيب التي طورتها شركة Atari Corporation في الثمانينات. تميزت ببنيتها الأساسية على معالج Motorola 68000 وقدرتها على تشغيل مجموعة متنوعة من البرمجيات، بدءًا من تطبيقات الإنتاجية إلى ألعاب الفيديو. اشتهر Atari ST بجودة صوته ورسومه، خاصة في إنتاج الموسيقى، حيث كان له تأثير كبير على سوق الحواسيب المنزلية قبل أن يتم إيقافه في بداية التسعينات. "ST" هو اختصار لـ "Sixteen/Thirty-two" (16/32).</text>
+			<text lang="zh">Atari ST是Atari Corporation在1980年代开发的一系列计算机。它以基于Motorola 68000微处理器的架构和运行各种软件的能力著称，从生产力应用到视频游戏。* Atari ST以其声音和图形质量而闻名，特别是在音乐制作中，在被于1990年代初停产之前，在家用计算机市场上产生了重大影响。 "ST" 是 "Sixteen/Thirty-two" (16/32)的缩写。</text>
+			<text lang="ja">Atari STは1980年代にAtari Corporationによって開発された一連のコンピュータです。Motorola 68000マイクロプロセッサに基づくアーキテクチャと、生産性アプリケーションからビデオゲームまでさまざまなソフトウェアを実行できる能力で注目されました。* 音声とグラフィックスの品質、特に音楽制作において、Atari STは1990年代初頭に廃止される前に、家庭用コンピュータ市場に重要な影響を与えました。 "ST"は "Sixteen/Thirty-two" (16/32)の略です。</text>
 		</text>
 
 		<text name="system_name" extra="true">

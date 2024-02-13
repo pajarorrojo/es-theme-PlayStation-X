@@ -7,8 +7,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>The Atari XE Video Game System (Atari XEGS) is an industrial redesign of the Atari 65XE home computer and the final model in the Atari 8-bit family. It was released by Atari Corporation in 1987.</text>
-			<text lang="es,ca,eu">La Atari XE Video Game System (o Atari XEGS) es una consola de videojuegos lanzada por Atari Corporation en 1987. Basada en el microordenador Atari 65XE, la XEGS es compatible con la biblioteca de software de las máquinas de la familia Atari de 8 bits.</text>
+			<text>The Atari XE Video Game System (or Atari XEGS) is a video game console released by Atari Corporation in 1987. Based on the Atari 65XE microcomputer. It stood out for its ability to run a wide range of classic games from the Atari 8-bit era, making it a popular choice for retro gaming enthusiasts.
+				
+Additionally, the XEGS offered unique features such as a detachable keyboard, disk drives, or printers among others, which turned it into a basic personal computer expanding its functionality beyond being a game console.</text>
+			<text lang="es">La Atari XE Video Game System (o Atari XEGS) es una consola de videojuegos lanzada por Atari Corporation en 1987. Basada en el microordenador Atari 65XE. Destacó por su capacidad para ejecutar una amplia gama de juegos clásicos de la era Atari de 8 bits, lo que la convirtió en una opción popular para los entusiastas de los videojuegos retro.
+				
+Además, la XEGS ofrecía características únicas, como un teclado desmontable, unidades de disco o impresoras entre otros, que la convertían en un ordenador personal básico ampliando así su funcionalidad más allá de ser una consola de juegos.</text>
+			<text lang="ca">L'Atari XE Video Game System (o Atari XEGS) és una consola de videojocs llançada per Atari Corporation el 1987. Basada en el microordinador Atari 65XE. Es va destacar per la seva capacitat per executar una àmplia gamma de jocs clàssics de l'era Atari de 8 bits, la qual cosa la va convertir en una opció popular per als entusiastes dels videojocs retro.
+				
+A més, la XEGS ofereix característiques úniques, com un teclat desmuntable, unitats de disc o impressores entre d'altres, que la converteixen en un ordinador personal bàsic ampliant així la seva funcionalitat més enllà de ser una consola de jocs.</text>
+			<text lang="eu">Atari XE Video Game System (edo Atari XEGS) Atari Corporation-ek 1987an argitaratutako bideo-joko konsola bat da. Atari 65XE mikroordenagailuan oinarritua. Atari 8 biteko aroko joko klasiko ugariren erabilera gaitzeko gaitasunagatik nabarmendu zen, retro bideo-joko entzusiasmoaren aukera arrakasta lortu zuen.
+				
+Gainera, XEGS-k tekladu desmontagarri, disko-geruzak edo inprimagailuak bezalako ezaugarri bereziak eskaini zituen, besteak beste, ordenagailu pertsonal basiko bilakatuz, bere funtzionalitatea joko-konzola baino handiagoa izan zen.</text>
+			<text lang="fr">L'Atari XE Video Game System (ou Atari XEGS) est une console de jeux vidéo sortie par Atari Corporation en 1987. Basée sur le microordinateur Atari 65XE. Elle s'est distinguée par sa capacité à exécuter une large gamme de jeux classiques de l'ère Atari 8 bits, ce qui en a fait un choix populaire pour les passionnés de jeux rétro.
+				
+De plus, le XEGS proposait des fonctionnalités uniques telles qu'un clavier détachable, des lecteurs de disque ou des imprimantes entre autres, ce qui en faisait un ordinateur personnel de base étendant ainsi sa fonctionnalité au-delà d'une simple console de jeu.</text>
+			<text lang="pt">O Atari XE Video Game System (ou Atari XEGS) é um console de videogame lançado pela Atari Corporation em 1987. Baseado no microcomputador Atari 65XE. Destacou-se por sua capacidade de executar uma ampla gama de jogos clássicos da era Atari de 8 bits, tornando-se uma escolha popular para os entusiastas de jogos retrô.
+				
+Além disso, o XEGS oferecia recursos únicos, como um teclado removível, unidades de disco ou impressoras, entre outros, o que o transformava em um computador pessoal básico ampliando assim sua funcionalidade além de ser apenas um console de jogos.</text>
+			<text lang="it">L'Atari XE Video Game System (o Atari XEGS) è una console per videogiochi rilasciata da Atari Corporation nel 1987. Basato sul microcomputer Atari 65XE. Si è distinto per la sua capacità di eseguire una vasta gamma di giochi classici dell'era Atari a 8 bit, diventando una scelta popolare per gli appassionati di giochi retrò.
+				
+Inoltre, l'XEGS offriva funzioni uniche come una tastiera rimovibile, unità disco o stampanti tra gli altri, che lo trasformavano in un computer personale di base espandendo così la sua funzionalità oltre ad essere solo una console di gioco.</text>
+			<text lang="de">Das Atari XE Video Game System (oder Atari XEGS) ist eine von der Atari Corporation im Jahr 1987 veröffentlichte Videospielkonsole. Basierend auf dem Mikrocomputer Atari 65XE. Es zeichnete sich durch seine Fähigkeit aus, eine Vielzahl klassischer Spiele aus der Atari 8-Bit-Ära auszuführen, was es zu einer beliebten Wahl für Retro-Gaming-Enthusiasten machte.
+				
+Darüber hinaus bot der XEGS einzigartige Funktionen wie eine abnehmbare Tastatur, Diskettenlaufwerke oder Drucker unter anderem, was ihn zu einem grundlegenden Personal Computer machte und seine Funktionalität über eine reine Spielekonsole hinaus erweiterte.</text>
+			<text lang="pl">Atari XE Video Game System (lub Atari XEGS) to konsola do gier wideo wydana przez Atari Corporation w 1987 roku. Oparta na mikrokomputerze Atari 65XE. Wyróżniała się zdolnością do uruchamiania szerokiego zakresu klasycznych gier z ery Atari 8-bitowej, co sprawiło, że stała się popularnym wyborem wśród entuzjastów retro-gamingu.
+				
+Ponadto XEGS oferował unikalne funkcje, takie jak odłączana klawiatura, napędy dyskowe lub drukarki, co uczyniło go podstawowym komputerem osobistym, rozszerzając jego funkcjonalność poza zwykłą konsolę do gier.</text>
+			<text lang="ru">Atari XE Video Game System (или Atari XEGS) - игровая приставка, выпущенная компанией Atari Corporation в 1987 году. Основана на микрокомпьютере Atari 65XE. Отличалась возможностью запуска широкого спектра классических игр эпохи Atari 8-bit, что сделало ее популярным выбором среди энтузиастов ретро-игр.
+				
+Кроме того, XEGS предлагала уникальные функции, такие как съемная клавиатура, дисководы или принтеры, что превращало ее в базовый персональный компьютер и расширяло ее функциональность за пределы простой игровой приставки.</text>
+			<text lang="he">Atari XE Video Game System (או Atari XEGS) הוא מערכת משחקים וידאו שיצאה לאור על ידי Atari Corporation בשנת 1987. מבוסס על המחשב המיקרו Atari 65XE. הוא ניתן להדגמה על יכולתו להפעיל מגוון רחב של משחקים קלאסיים מעידן Atari ב- 8 ביטים, מה שהפך אותו לבחירה פופולרית למעריצי המשחקים הרטרו. בנוסף, ה-XEGS הציע תכונות ייחודיות כגון מקלדת נשלפת, יחידות דיסק או מדפסות בין השאר, שהפכו אותו למחשב אישי בסיסי המרחיב את יכולותיו מעבר להיותו רק מערכת משחקים.</text>
+			<text lang="ar">جهاز Atari XE Video Game System (أو Atari XEGS) هو جهاز ألعاب فيديو أطلقته شركة Atari Corporation في عام 1987. مبني على الحاسوب الصغير Atari 65XE. تميز بقدرته على تشغيل مجموعة متنوعة من الألعاب الكلاسيكية من عصر Atari بتقنية 8 بت، مما جعله خيارًا شائعًا بين عشاق ألعاب الفيديو الكلاسيكية. بالإضافة إلى ذلك، كان يقدم XEGS ميزات فريدة مثل لوحة مفاتيح قابلة للفصل، وحدات أقراص، أو طابعات بين أمور أخرى، مما جعله جهاز كمبيوتر شخصي أساسي يوسع وظائفه بعيدًا عن كونه مجرد جهاز للألعاب.</text>
+			<text lang="zh">Atari XE Video Game System（或Atari XEGS）是Atari Corporation于1987年推出的一款视频游戏机。 基于Atari 65XE微型计算机。 它以其能够运行来自Atari 8位时代的经典游戏的广泛范围而著称，使其成为复古游戏爱好者的热门选择。 此外，XEGS提供了独特的功能，如可拆卸键盘、磁盘驱动器或打印机等，将其转变为基本个人电脑，扩展其功能超越了仅仅是游戏机的范畴。</text>
+			<text lang="ja">Atari XE Video Game System（またはAtari XEGS）は、1987年にAtari Corporationによってリリースされたビデオゲームコンソールです。 Atari 65XEマイクロコンピュータに基づいています。 Atari 8ビット時代のクラシックゲームの幅広い範囲を実行できる能力で注目され、レトロゲーム愛好家の間で人気を博しました。 さらに、XEGSには取り外し可能なキーボード、ディスクドライブ、プリンターなどのユニークな機能が備わっており、それにより、単なるゲームコンソールを超えた基本的なパーソナルコンピュータに拡張されました。</text>
 		</text>
 
 		<text name="system_name" extra="true">

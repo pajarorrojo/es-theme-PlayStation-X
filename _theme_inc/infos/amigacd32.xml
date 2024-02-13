@@ -7,10 +7,41 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		
 		<text name="system_description" extra="true">
-			<text>Amiga CD32 was a video game console, the first being a 32-bit CD-ROM sold in Western Europe and North America. It was released in September 1993, in Europe, Australia, Canada and Brazil.</text>
-			<text lang="es,ca,eu">La Amiga CD32 es la primera consola de videojuegos de 32 bits basada en CD-ROM vendida en Europa occidental y Norteamérica. Fue lanzada en septiembre de 1993, en Europa, Australia, Canadá y Brasil.</text>
-			<text lang="fr">Amiga CD32 était une console de jeux vidéo, la première étant un CD-ROM 32 bits vendu en Europe occidentale et en Amérique du Nord. Il a été publié en septembre 1993 en Europe, en Australie, au Canada et au Brésil.</text>
-			<text lang="pt">Amiga CD32 foi um console de videogame, sendo o primeiro baseado CD-ROM de 32-bit vendido na Europa ocidental e na América do Norte.  Foi lançado em setembro de 1993, na Europa, Austrália, Canadá e Brasil.</text>
+			<text>The Amiga CD32, developed by Commodore International, marked a milestone as the first 32-bit video game console to use CD-ROM in Western Europe and North America. Its release in September 1993 spanned several markets, including Europe, Australia, Canada, and Brazil, generating significant anticipation among gaming enthusiasts and technology followers.
+				
+Equipped with advanced capabilities for its time, the CD32 offered a wide range of titles that leveraged its power and storage capacity, setting a new standard in the interactive entertainment industry.</text>
+			<text lang="es">La Amiga CD32, desarrollada por Commodore International, marcó un hito al ser la primera consola de videojuegos de 32 bits en utilizar CD-ROM en Europa occidental y Norteamérica. Su lanzamiento en septiembre de 1993 abarcó varios mercados, incluyendo Europa, Australia, Canadá y Brasil, generando una anticipación significativa entre los entusiastas de los videojuegos y los seguidores de la tecnología.
+				
+Equipada con capacidades avanzadas para la época, la CD32 ofrecía una amplia gama de títulos que aprovechaban su potencia y capacidad de almacenamiento, estableciendo un nuevo estándar en la industria del entretenimiento interactivo.</text>
+			<text lang="ca">L'Amiga CD32, desenvolupada per Commodore International, va marcar un abric com la primera consola de videojocs de 32 bits en utilitzar CD-ROM a Europa occidental i Amèrica del Nord. El seu llançament al setembre de 1993 va abastar diversos mercats, incloent Europa, Austràlia, Canadà i Brasil, generant una expectació significativa entre els aficionats als videojocs i els seguidors de la tecnologia.
+				
+Equipada amb capacitats avançades per a l'època, la CD32 oferia una àmplia gamma de títols que aprofitaven la seva potència i capacitat d'emmagatzematge, establint un nou estàndard en la indústria de l'entreteniment interactiu.</text>
+			<text lang="eu">Amiga CD32, Commodore International-ek garatu zen 32 bit-bitarteko lehen konsola bideogea CD-ROMak erabiltzen Europako mendebaldean eta Ipar Amerikan. 1993ko irailean argitaratua zen, hainbat merkatu hartuta, Europaren artean, Australia, Kanada eta Brasil, jolasen maitale eta teknologiaren jarraitzaileen artean esperantza handia sortuz.
+				
+Garai horretarako aurreratuak zituen gaitasunekin, CD32ak ahalmen eta biltegiak erabiliz, estandar berri bat ezarri zuten industria interaktiboaren alorrean.</text>
+			<text lang="fr">La Amiga CD32, développée par Commodore International, a marqué un jalon en étant la première console de jeux vidéo 32 bits à utiliser un CD-ROM en Europe occidentale et en Amérique du Nord. Sa sortie en septembre 1993 a couvert plusieurs marchés, dont l'Europe, l'Australie, le Canada et le Brésil, générant une anticipation significative parmi les amateurs de jeux vidéo et les adeptes de la technologie.
+				
+Équipée de capacités avancées pour l'époque, la CD32 offrait une large gamme de titres qui exploitaient sa puissance et sa capacité de stockage, établissant une nouvelle norme dans l'industrie du divertissement interactif.</text>
+			<text lang="pt">A Amiga CD32, desenvolvida pela Commodore International, marcou um marco por ser o primeiro console de jogos de 32 bits a utilizar CD-ROM na Europa Ocidental e na América do Norte. Seu lançamento em setembro de 1993 abrangeu vários mercados, incluindo Europa, Austrália, Canadá e Brasil, gerando uma antecipação significativa entre os entusiastas de jogos e seguidores da tecnologia.
+				
+Equipada com capacidades avançadas para a época, a CD32 oferecia uma ampla gama de títulos que aproveitavam seu poder e capacidade de armazenamento, estabelecendo um novo padrão na indústria do entretenimento interativo.</text>
+			<text lang="it">L'Amiga CD32, sviluppata da Commodore International, ha segnato una pietra miliare essendo la prima console da gioco a 32 bit a utilizzare CD-ROM in Europa occidentale e Nord America. Il suo lancio nel settembre 1993 ha coperto diversi mercati, tra cui Europa, Australia, Canada e Brasile, generando un'anticipazione significativa tra gli appassionati di videogiochi e gli appassionati di tecnologia.
+				
+Dotata di capacità avanzate per l'epoca, la CD32 offriva una vasta gamma di titoli che sfruttavano la sua potenza e capacità di archiviazione, stabilendo un nuovo standard nell'industria dell'intrattenimento interattivo.</text>
+			<text lang="de">Die Amiga CD32, entwickelt von Commodore International, markierte einen Meilenstein als erste 32-Bit-Videospielkonsole, die in Westeuropa und Nordamerika CD-ROMs verwendete. Ihre Veröffentlichung im September 1993 umfasste mehrere Märkte, darunter Europa, Australien, Kanada und Brasilien, und erzeugte eine erhebliche Vorfreude unter Videospiel-Enthusiasten und Technologieanhängern.
+				
+Ausgestattet mit fortschrittlichen Funktionen für die damalige Zeit bot die CD32 eine breite Palette von Titeln, die ihre Leistung und Speicherkapazität nutzten und einen neuen Standard in der interaktiven Unterhaltungsindustrie setzten.</text>
+			<text lang="pl">Amiga CD32, opracowana przez Commodore International, stanowiła kamień milowy jako pierwsza 32-bitowa konsola do gier wykorzystująca CD-ROM w Europie Zachodniej i Ameryce Północnej. Jej premiera we wrześniu 1993 roku obejmowała kilka rynków, w tym Europę, Australię, Kanadę i Brazylię, generując znaczące oczekiwania wśród entuzjastów gier komputerowych i obserwatorów technologii.
+				
+Wyposażona w zaawansowane możliwości dla swojej epoki, CD32 oferowała szeroki zakres tytułów wykorzystujących jej moc i pojemność magazynu, ustanawiając nowy standard w branży interaktywnej rozrywki.</text>
+			<text lang="ru">Amiga CD32, разработанная Commodore International, стала вехой как первая 32-разрядная видеоигровая консоль, использующая CD-ROM в Западной Европе и Северной Америке. Её выпуск в сентябре 1993 года охватил несколько рынков, включая Европу, Австралию, Канаду и Бразилию, вызвав значительные ожидания среди поклонников видеоигр и последователей технологии.
+				
+Оборудованная передовыми возможностями для своего времени, CD32 предлагала широкий спектр игр, которые использовали её мощность и объём хранения, устанавливая новый стандарт в индустрии интерактивного развлечения.</text>
+			<text lang="he">ה- Amiga CD32, שפותחה על ידי Commodore International, סימנה יום חשוב כמערכת המשחקים הראשונה ב-32 ביטים המשתמשת ב- CD-ROM במערב אירופה ובצפון אמריקה. השקתה בספטמבר 1993 כללה מספר שווקים, כולל אירופה, אוסטרליה, קנדה וברזיל, וייצרה ציפיות משמעותיות בקרב חובבי משחקים ועוקבי טכנולוגיה. מאובזרת ביכולות מתקדמות עבור תקופתה, ה- CD32 הציעה מגוון רחב של כותרים שניצלו את הכוח והאפשרויות לאחסון שלה, וקבעו סטנדרט חדש בתעשיית הבידור האינטראקטיבי.</text>
+			<text lang="ar">ل Amiga CD32، التي وضعتها Commodore International، كانت نقطة تحول باعتبارها أول جهاز ألعاب فيديو بت 32 يستخدم CD-ROM في غرب أوروبا وشمال أمريكا. صدرت في سبتمبر 1993 وشملت عدة أسواق، بما في ذلك أوروبا وأستراليا وكندا والبرازيل، مما أثار توقعات كبيرة بين عشاق الألعاب ومتابعي التكنولوجيا. مجهزة بقدرات متقدمة لعصرها، كان لدى CD32 مجموعة واسعة من العناوين التي استفادت من قوتها وسعة تخزينها، مما وضع معيارًا جديدًا في صناعة الترفيه التفاعلي.</text>
+			<text lang="zh">Amiga CD32，由Commodore International开发，标志着作为第一台32位视频游戏主机在西欧和北美使用CD-ROM。1993年9月发行，涵盖了包括欧洲、澳大利亚、加拿大和巴西在内的多个市场，引发了游戏爱好者和技术追随者的重大期待。* 配备了当时先进的功能，CD32提供了广泛的游戏选择，充分利用了其性能和存储容量，为互动娱乐行业树立了新的标准。</text>
+			<text lang="ja">Amiga CD32、Commodore Internationalによって開発され、西ヨーロッパと北アメリカでCD-ROMを使用する最初の32ビットビデオゲームコンソールとしての一歩を示しました。1993年9月にリリースされ、欧州、オーストラリア、カナダ、ブラジルなど、複数の市場にまたがり、ゲーム愛好家やテクノロジーフォロワーの間で大きな期待を呼び起こしました。* 当時の先進的な機能を備え、CD32はその性能とストレージ容量を活用した幅広いタイトルを提供し、インタラクティブエンターテインメント業界の新基準を確立しました。</text>
+
 		</text>
 		
 
