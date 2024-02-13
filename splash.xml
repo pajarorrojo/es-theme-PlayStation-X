@@ -82,7 +82,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 39-final</text>
+			<text>Theme by pajarorrojo - Version 39-final-rev2</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -188,6 +188,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
 			<path ifSubset="system-avatar:cheevos">./_theme_options/avatars/ps-x-logo-avatar.png</path>
 		</image>
+		<!--
+		<webimage name="avatar-test"  extra="true">
+			<path>https://media.retroachievements.org/UserPic/pajarorrojo.png</path>
+			<path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+			<pos>0.618 0.035</pos>
+			<pos ifSubset="aspect-ratio:4-3|5-4">0.613 0.035</pos>
+			<maxSize>0.063 0.063</maxSize>
+			<zIndex>99</zIndex>
+			<linearSmooth>true</linearSmooth>
+		  </webimage>
+		-->
 	</view>
 	<include>./custom-username.xml</include>
 	<include>./_theme_options/usernames.xml</include>
