@@ -4,8 +4,43 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
 	<formatVersion>7</formatVersion>
 
-	<view name="system">		
-
+	<view name="system">	
+		<text name="system_description" extra="true">
+			<text>The Amstrad GX4000 is a video game console released in 1990 as a successor to the popular Amstrad CPC, but focused exclusively on gaming. It featured enhanced graphics and sound capabilities compared to its predecessor, with the ability to display up to 32 colors on screen simultaneously and offer improved sound thanks to its integrated sound chip.
+				
+Despite its improvements, it failed to achieve the expected success due to various factors, including competition with other very popular consoles of the time such as the Mega Drive and the Super Nintendo.</text>
+			<text lang="es">La Amstrad GX4000 es una consola de videojuegos lanzada en 1990 como una sucesora del popular Amstrad CPC, pero enfocada exclusivamente en juegos. Presentaba capacidades mejoradas de gráficos y sonido en comparación con su predecesora, con la capacidad de mostrar hasta 32 colores en pantalla simultáneamente y ofrecer un sonido mejorado gracias a su chip de sonido integrado.
+				
+A pesar de sus mejoras, no logró alcanzar el éxito esperado debido a varios factores, incluyendo la competencia con otras consolas muy populares de la época como la Mega Drive y la Super Nintendo.</text>
+			<text lang="ca">La Amstrad GX4000 és una consola de videojocs llançada el 1990 com a successor del popular Amstrad CPC, però enfocada exclusivament en jocs. Presentava capacitats millorades de gràfics i so en comparació amb la seva predecessora, amb la capacitat de mostrar fins a 32 colors a la pantalla simultàniament i oferir un so millorat gràcies al seu xip de so integrat.
+				
+Malgrat les seves millores, no va aconseguir l'èxit esperat a causa de diversos factors, incloent-hi la competència amb altres consoles molt populars de l'època com la Mega Drive i la Super Nintendo.</text>
+			<text lang="eu">Amstrad GX4000 1990ean argitaratu zen Amstrad CPC arrakasta handiaren ondorengo sukzesioa bezala, baina jokoetan bakarrik aritzeko zentratua. Bere aurrekoaren konparazioan, grafiko eta soinu ezaugarri hobetuak aurkezten zituen, 32 kolore gehienez pantailan aldi berean erakusteko gaitasuna eta berezko soinu txipari esker hobetutako soinua eskaintzea.
+				
+Hobekuntzen aurrean, ez lortu espero den arrakasta, hainbat faktoreengatik, besteak beste, Mega Drive eta Super Nintendo bezalako garaipen handiko beste kontrako konsolen erasoa.</text>
+			<text lang="fr">La Amstrad GX4000 est une console de jeux vidéo sortie en 1990 en tant que successeur du populaire Amstrad CPC, mais axée exclusivement sur les jeux. Elle présentait des capacités graphiques et sonores améliorées par rapport à son prédécesseur, avec la capacité d'afficher jusqu'à 32 couleurs simultanément à l'écran et d'offrir un son amélioré grâce à sa puce sonore intégrée.
+				
+Malgré ses améliorations, elle n'a pas réussi à atteindre le succès escompté en raison de divers facteurs, notamment la concurrence avec d'autres consoles très populaires de l'époque telles que la Mega Drive et la Super Nintendo.</text>
+			<text lang="pt">A Amstrad GX4000 é um console de videogame lançado em 1990 como sucessor do popular Amstrad CPC, mas focado exclusivamente em jogos. Apresentava capacidades gráficas e sonoras aprimoradas em comparação com seu antecessor, com a capacidade de exibir até 32 cores na tela simultaneamente e oferecer som melhorado graças ao seu chip de som integrado.
+				
+Apesar de suas melhorias, não conseguiu alcançar o sucesso esperado devido a vários fatores, incluindo a competição com outros consoles muito populares da época, como o Mega Drive e o Super Nintendo.</text>
+			<text lang="it">La Amstrad GX4000 è una console per videogiochi lanciata nel 1990 come successore del popolare Amstrad CPC, ma focalizzata esclusivamente sul gaming. Presentava capacità grafiche e sonore migliorate rispetto al suo predecessore, con la capacità di visualizzare fino a 32 colori sullo schermo contemporaneamente e offrire un suono migliorato grazie al suo chip audio integrato.
+				
+Nonostante i miglioramenti, non è riuscita a raggiungere il successo atteso a causa di vari fattori, tra cui la concorrenza con altre console molto popolari dell'epoca come il Mega Drive e il Super Nintendo.</text>
+			<text lang="de">Die Amstrad GX4000 ist eine Videospielkonsole, die 1990 als Nachfolger des beliebten Amstrad CPC herausgebracht wurde, jedoch ausschließlich auf Spiele ausgerichtet war. Sie verfügte über verbesserte Grafik- und Soundfunktionen im Vergleich zu ihrem Vorgänger und war in der Lage, bis zu 32 Farben gleichzeitig auf dem Bildschirm anzuzeigen und dank ihres integrierten Soundchips einen verbesserten Klang zu bieten.
+				
+Trotz ihrer Verbesserungen gelang es ihr nicht, den erwarteten Erfolg zu erzielen, was auf verschiedene Faktoren zurückzuführen ist, darunter der Wettbewerb mit anderen sehr beliebten Konsolen der Zeit wie der Mega Drive und der Super Nintendo.</text>
+			<text lang="pl">Atari XE Video Game System (lub Atari XEGS) to konsola do gier wideo wydana przez Atari Corporation w 1987 roku. Oparta na mikrokomputerze Atari 65XE. Wyróżniała się zdolnością do uruchamiania szerokiego zakresu klasycznych gier z ery Atari 8-bit, co sprawiło, że stała się popularnym wyborem wśród entuzjastów retro-gamingu.
+				
+Ponadto XEGS oferował unikalne funkcje, takie jak odłączana klawiatura, napędy dyskowe lub drukarki, co uczyniło go podstawowym komputerem osobistym, rozszerzając jego funkcjonalność poza zwykłą konsolę do gier.</text>
+			<text lang="ru">Atari XE Video Game System (или Atari XEGS) - игровая приставка, выпущенная компанией Atari Corporation в 1987 году. Основана на микрокомпьютере Atari 65XE. Отличалась возможностью запуска широкого спектра классических игр эпохи Atari 8-bit, что сделало ее популярным выбор ом среди энтузиастов ретро-игр.
+				
+Кроме того, XEGS предлагала уникальные функции, такие как съемная клавиатура, дисководы или принтеры, что превращало ее в базовый персональный компьютер и расширяло ее функциональность за пределы простой игровой приставки.</text>
+			<text lang="he">Atari XE Video Game System (או Atari XEGS) הוא מערכת משחקים וידאו שיצאה לאור על ידי Atari Corporation בשנת 1987. מבוסס על המחשב המיקרו Atari 65XE. הוא ניתן להדגמה על יכולתו להפעיל מגוון רחב של משחקים קלאסיים מעידן Atari ב- 8 ביטים, מה שהפך אותו לבחירה פופולרית למעריצי המשחקים הרטרו. בנוסף, ה-XEGS הציע תכונות ייחודיות כגון מקלדת נשלפת, יחידות דיסק או מדפסות בין השאר, שהפכו אותו למחשב אישי בסיסי המרחיב את יכולותיו מעבר להיותו רק מערכת משחקים.</text>
+			<text lang="ar">جهاز Atari XE Video Game System (أو Atari XEGS) هو جهاز ألعاب فيديو أطلقته شركة Atari Corporation في عام 1987. مبني على الحاسوب الصغير Atari 65XE. تميز بقدرته على تشغيل مجموعة متنوعة من الألعاب الكلاسيكية من عصر Atari بتقنية 8 بت، مما جعله خيارًا شائعًا بين عشاق ألعاب الفيديو الكلاسيكية. بالإضافة إلى ذلك، كان يقدم XEGS ميزات فريدة مثل لوحة مفاتيح قابلة للفصل، وحدات أقراص، أو طابعات بين أمور أخرى، مما جعله جهاز كمبيوتر شخصي أساسي يوسع وظائفه بعيدًا عن كونه مجرد جهاز للألعاب.</text>
+			<text lang="zh">Atari XE Video Game System（或Atari XEGS）是Atari Corporation于1987年推出的一款视频游戏机。 基于Atari 65XE微型计算机。 它以其能够运行来自Atari 8位时代的经典游戏的广泛范围而著称，使其成为复古游戏爱好者的热门选择。 此外，XEGS提供了独特的功能，如可拆卸键盘、磁盘驱动器或打印机等，将其转变为基本个人电脑，扩展其功能超越了仅仅是游戏机的范畴。</text>
+			<text lang="ja">Atari XE Video Game System（またはAtari XEGS）は、1987年にAtari Corporationによってリリースされたビデオゲームコンソールです。 Atari 65XEマイクロコンピュータに基づいています。 Atari 8ビット時代のクラシックゲームの幅広い範囲を実行できる能力で注目され、レトロゲーム愛好家の間で人気を博しました。 さらに、XEGSには取り外し可能なキーボード、ディスクドライブ、プリンターなどのユニークな機能が備わっており、それにより、単なるゲームコンソールを超えた基本的なパーソナルコンピュータに拡張されました。</text>
+		</text>
 		<text name="system_name" extra="true">
 			<text>Amstrad GX4000</text>
 		</text>

@@ -7,11 +7,41 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>The X1 (エックスワン, Ekkusuwan), sometimes called the Sharp X1, is a series of home computers released by Sharp Corporation from 1982 to 1988. It was based on a Z80 CPU. </text>
-			<text lang="es,ca,eu">El Sharp X1, también llamado solo X1, fue una serie de computadoras domésticas lanzadas por Sharp Corporation entre 1982 y 1988. Se basó en una CPU Z80.</text>
-			<text lang="fr">Le Sharp X1 est le nom donné à une série de micro-ordinateurs japonais créé par Sharp Corporation de 1982 à 1988. Ils intègrent tous un processeur Zilog Z80. </text>
-			<text lang="pt">O computador doméstico X1 (ou CZ-800C) foi o primeiro de uma bem-sucedida série de máquinas multimídia precoces vendidas no Japão entre 1982 e 1988 pela Sharp.</text>
-		</text>
+			<text>The Sharp X1 is a series of personal computers manufactured by the Japanese company Sharp Corporation between 1982 and 1988. These computers were popular in Japan and were characterized by their graphic and sound capabilities, as well as their expandability. They used the Zilog Z80 microprocessor and were mainly used for productivity tasks, gaming, and programming.
+				
+Their compatibility with high-resolution graphics and advanced sound made them a popular choice among Japanese users during the 1980s.</text>
+			<text lang="es">El Sharp X1 es una serie de ordenadores personales fabricados por la empresa japonesa Sharp Corporation entre 1982 y 1988. Estos ordenadores eran populares en Japón y se caracterizaban por su capacidad gráfica y de sonido, así como por su expandibilidad. Utilizaban el microprocesador Zilog Z80 y se empleaban principalmente para tareas de productividad, juegos y programación.
+				
+Su compatibilidad con gráficos de alta resolución y sonido avanzado los convirtió en una opción popular entre los usuarios japoneses durante los años 80.</text>
+			<text lang="ca">El Sharp X1 és una sèrie d'ordinadors personals fabricats per l'empresa japonesa Sharp Corporation entre 1982 i 1988. Aquests ordinadors eren populars al Japó i es caracteritzaven per la seva capacitat gràfica i de so, així com per la seva expansibilitat. Utilitzaven el microprocessador Zilog Z80 i s'empleaven principalment per a tasques de productivitat, jocs i programació.
+				
+La seva compatibilitat amb gràfics d'alta resolució i so avançat els va convertir en una opció popular entre els usuaris japonesos durant els anys 80.</text>
+			<text lang="eu">Sharp X1 japoniar Sharp Corporation enpresak 1982 eta 1988 artean fabrikatutako ordenagailu pertsonal multzo bat da. Ordenagailu hauek Japonian oso ohikoak ziren eta ezaugarri grafiko eta soinu bidezkoak, bai eta zabalkundea ere izaten zuten. Zilog Z80 mikroprozesadorea erabiltzen zuten eta produktibitate-lanetarako, jokoetarako eta programatzeko bidean erabiltzen ziren.
+				
+Grafika bolumen altuko eta soinu aurreratua dutela erakargarriak izan ziren erabiltzaile japoniarren artean 80ko hamarkadan.</text>
+			<text lang="fr">Le Sharp X1 est une série d'ordinateurs personnels fabriqués par l'entreprise japonaise Sharp Corporation entre 1982 et 1988. Ces ordinateurs étaient populaires au Japon et se caractérisaient par leurs capacités graphiques et sonores, ainsi que par leur extensibilité. Ils utilisaient le microprocesseur Zilog Z80 et étaient principalement utilisés pour les tâches de productivité, les jeux et la programmation.
+				
+Leur compatibilité avec les graphismes haute résolution et le son avancé en a fait un choix populaire parmi les utilisateurs japonais dans les années 1980.</text>
+			<text lang="pt">O Sharp X1 é uma série de computadores pessoais fabricados pela empresa japonesa Sharp Corporation entre 1982 e 1988. Estes computadores eram populares no Japão e eram caracterizados por suas capacidades gráficas e sonoras, bem como por sua capacidade de expansão. Eles usavam o microprocessador Zilog Z80 e eram principalmente usados para tarefas de produtividade, jogos e programação.
+				
+Sua compatibilidade com gráficos de alta resolução e som avançado os tornou uma escolha popular entre os usuários japoneses durante os anos 80.</text>
+			<text lang="it">Lo Sharp X1 è una serie di personal computer prodotti dalla società giapponese Sharp Corporation tra il 1982 e il 1988. Questi computer erano popolari in Giappone e si caratterizzavano per le loro capacità grafiche e sonore, nonché per la loro espandibilità. Utilizzavano il microprocessore Zilog Z80 e venivano utilizzati principalmente per attività di produttività, giochi e programmazione.
+				
+La loro compatibilità con grafica ad alta risoluzione e audio avanzato li ha resi una scelta popolare tra gli utenti giapponesi durante gli anni '80.</text>
+			<text lang="de">Der Sharp X1 ist eine Serie von Personal Computern, die von dem japanischen Unternehmen Sharp Corporation zwischen 1982 und 1988 hergestellt wurden. Diese Computer waren in Japan beliebt und zeichneten sich durch ihre grafischen und klanglichen Fähigkeiten sowie ihre Erweiterbarkeit aus. Sie verwendeten den Zilog Z80 Mikroprozessor und wurden hauptsächlich für Produktivitätsaufgaben, Spiele und Programmierung verwendet.
+				
+Ihre Kompatibilität mit hochauflösender Grafik und fortschrittlichem Sound machte sie in den 1980er Jahren bei japanischen Benutzern beliebt.</text>
+			<text lang="pl">Sharp X1 to seria komputerów osobistych produkowanych przez japońską firmę Sharp Corporation w latach 1982–1988. Komputery te były popularne w Japonii i wyróżniały się zdolnościami graficznymi i dźwiękowymi, a także możliwością rozbudowy. Korzystały z mikroprocesora Zilog Z80 i głównie służyły do zadań związanych z produktywnością, grami i programowaniem.
+				
+Ich kompatybilność z grafiką o wysokiej rozdzielczości i zaawansowanym dźwiękiem sprawiła, że stały się popularnym wyborem wśród japońskich użytkowników w latach 80.</text>
+			<text lang="ru">Sharp X1 - это серия персональных компьютеров, производимых японской компанией Sharp Corporation с 1982 по 1988 год. Эти компьютеры были популярны в Японии и отличались графическими и звуковыми возможностями, а также расширяемостью. Они использовали микропроцессор Zilog Z80 и в основном применялись для задач производительности, игр и программирования.
+				
+Их совместимость с высоким разрешением графики и продвинутым звуком сделала их популярным выбором среди японских пользователей в 1980-х годах.</text>
+			<text lang="he">ה-Sharp X1 הוא סדרת מחשבים אישיים שיוצרו על ידי חברת Sharp Corporation היפנית בין השנים 1982 ל-1988. מחשבים אלה היו פופולריים ביפן וניכרו ביכולותיהם הגרפיות והשמע, כמו גם בהרחבתם. הם השתמשו במעבד Zilog Z80 ושימשו בעיקר למשימות של יעילות, משחקים ותכנות. ההתאמה שלהם לגרפיקה ברזולוציה גבוהה ולשמע מתקדם הפכה אותם לבחירה פופולרית בין המשתמשים היפניים בשנות ה-80.</text>
+			<text lang="ar">الشارب إكس 1 هو سلسلة من أجهزة الكمبيوتر الشخصية التي تم تصنيعها من قبل شركة شارب اليابانية بين عامي 1982 و 1988. كانت هذه الحواسيب شائعة في اليابان وتتميز بقدراتها الرسومية والصوتية، بالإضافة إلى قابليتها للتوسع. كانت تستخدم معالج Zilog Z80 وكانت تستخدم بشكل رئيسي لمهام الإنتاجية والألعاب والبرمجة. توافقها مع الرسومات عالية الدقة والصوت المتقدم جعلها خيارًا شائعًا بين المستخدمين اليابانيين خلال الثمانينيات.</text>
+			<text lang="zh">Sharp X1是日本夏普公司于1982年至1988年间生产的一系列个人电脑。 这些计算机在日本很受欢迎，以其图形和音频功能以及可扩展性而闻名。 它们使用Zilog Z80微处理器，主要用于生产力任务、游戏和编程。 它们与高分辨率图形和先进声音的兼容性使它们成为1980年代日本用户的热门选择。</text>
+			<text lang="ja">シャープX1は、1982年から1988年にかけて日本の企業であるシャープ株式会社によって製造されたパーソナルコンピュータのシリーズです。 これらのコンピュータは日本で人気があり、グラフィックおよびサウンドの能力、および拡張性で特徴付けられています。 彼らはZilog Z80マイクロプロセッサを使用し、生産性の高いタスク、ゲーム、プログラミングに主に使用されました。 高解像度グラフィックと高度なサウンドとの互換性により、これらは1980年代の日本のユーザーの間で人気のある選択肢となりました。</text>
+					</text>
 
 		<text name="system_name" extra="true">
 			<text>Sharp X1</text>

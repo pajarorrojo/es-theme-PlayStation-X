@@ -1,0 +1,47 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">	
+		<text name="system_description" extra="true">
+			<text>SEGA Pico is a video game console released by SEGA in 1993. It is primarily designed for young children and focuses on educational and interactive entertainment games. The console includes an optical pen that allows children to interact with games and activities on the screen. 
+				
+SEGA Pico had some success in its initial release, especially in Japan and some other markets, but eventually it was discontinued in favor of more advanced SEGA consoles.</text>
+			<text lang="es">La SEGA Pico es una consola de videojuegos lanzada por SEGA en 1993. Está diseñada principalmente para niños pequeños y se centra en juegos educativos y de entretenimiento interactivos. La consola incluye un lápiz óptico que permite a los niños interactuar con los juegos y actividades en la pantalla.
+				
+La SEGA Pico tuvo cierto éxito en su lanzamiento inicial, especialmente en Japón y algunos otros mercados, pero eventualmente fue descontinuada en favor de otras consolas más avanzadas de SEGA.</text>
+			<text lang="ca">La SEGA Pico és una consola de videojocs llançada per SEGA el 1993. Està dissenyada principalment per a nens petits i es centra en jocs educatius i d'entreteniment interactius. La consola inclou un llapis òptic que permet als nens interactuar amb els jocs i activitats a la pantalla. 
+				
+La SEGA Pico va tenir cert èxit en el seu llançament inicial, especialment al Japó i alguns altres mercats, però eventualment va ser discontinuada en favor d'altres consoles més avançades de SEGA.</text>
+			<text lang="eu">SEGA Pico SEGA-ek 1993an argitaratutako bideo-joko konsoletik da. Bereziki haur txikientzako diseinatua dago eta jolas heziketa eta entretenimendu interaktiboetan oinarritzen da. Konsolak arbel optiko bat barne hartzen du, haurrak jolas eta ekintzekin interaktibatzeko pantailan. 
+				
+SEGA Picok arrakastar bat izan zuen bere hasierako salmentan, batez ere Japonian eta beste merkatu batzuetan, baina azken finean SEGA-ren kontsolak aurreratuagoak direlakoan bertan behera utzi zen.</text>
+			<text lang="fr">La SEGA Pico est une console de jeux vidéo lancée par SEGA en 1993. Elle est principalement conçue pour les jeunes enfants et se concentre sur des jeux éducatifs et de divertissement interactifs. La console comprend un stylet optique qui permet aux enfants d'interagir avec les jeux et les activités à l'écran. 
+				
+La SEGA Pico a connu un certain succès lors de son lancement initial, notamment au Japon et dans certains autres marchés, mais elle a finalement été abandonnée au profit d'autres consoles plus avancées de SEGA.</text>
+			<text lang="pt">SEGA Pico é um console de videogame lançado pela SEGA em 1993. É projetado principalmente para crianças pequenas e concentra-se em jogos educativos e de entretenimento interativos. O console inclui uma caneta óptica que permite que as crianças interajam com jogos e atividades na tela. 
+				
+A SEGA Pico teve algum sucesso em seu lançamento inicial, especialmente no Japão e em alguns outros mercados, mas eventualmente foi descontinuada em favor de consoles mais avançados da SEGA.</text>
+			<text lang="it">SEGA Pico è una console per videogiochi lanciata da SEGA nel 1993. È progettata principalmente per bambini piccoli e si concentra su giochi educativi e di intrattenimento interattivi. La console include una penna ottica che consente ai bambini di interagire con i giochi e le attività sullo schermo. 
+				
+SEGA Pico ha avuto un certo successo al suo lancio iniziale, specialmente in Giappone e in alcuni altri mercati, ma alla fine è stata interrotta in favore di console SEGA più avanzate.</text>
+			<text lang="de">Die SEGA Pico ist eine Spielkonsole, die von SEGA im Jahr 1993 veröffentlicht wurde. Sie ist hauptsächlich für kleine Kinder konzipiert und konzentriert sich auf interaktive Lern- und Unterhaltungsspiele. Die Konsole enthält einen optischen Stift, mit dem Kinder mit Spielen und Aktivitäten auf dem Bildschirm interagieren können.
+				
+Die SEGA Pico hatte bei ihrer ersten Veröffentlichung einen gewissen Erfolg, insbesondere in Japan und einigen anderen Märkten, wurde aber schließlich zugunsten fortschrittlicherer SEGA-Konsolen eingestellt.</text>
+			<text lang="pl">SEGA Pico to konsola do gier wideo wydana przez SEGA w 1993 roku. Została głównie zaprojektowana dla małych dzieci i skupia się na interaktywnych grach edukacyjnych i rozrywkowych. 
+				
+Konsola zawiera optyczny rysik, który umożliwia dzieciom interakcję z grami i aktywnościami na ekranie. SEGA Pico odniosła pewien sukces przy swoim pierwotnym wydaniu, szczególnie w Japonii i niektórych innych rynkach, ale ostatecznie została wycofana na rzecz bardziej zaawansowanych konsoli SEGA.</text>
+			<text lang="ru">SEGA Pico - это игровая приставка, выпущенная компанией SEGA в 1993 году. Она предназначена в основном для маленьких детей и сосредоточена на образовательных и интерактивных развлекательных играх. Приставка включает оптический стилус, который позволяет детям взаимодействовать с играми и активностями на экране. У SEGA Pico был определенный успех при ее первоначальном выпуске, особенно в Японии и некоторых других рынках, но в конечном итоге она была снята с производства в пользу более продвинутых приставок SEGA.</text>
+			<text lang="he">סגה פיקו היא קונסולת משחקים שיצאה לשוק על ידי סגה ב-1993. היא מיועדת בעיקר לילדים קטנים ומתמקדת במשחקים לימודיים ובידור אינטראקטיביים. הקונסולה כוללת עט אופטי שמאפשר לילדים לפעול במשחקים ובפעילויות על המסך. סגה פיקו הצליחה לציין יחסית רב בשוק כאשר הושקה, במיוחד ביפן ובשווקים אחרים, אך בסופו של דבר הופסקה לטובת קונסולות סגה מתקדמות יותר.</text>
+			<text lang="ar">سيجا بيكو هي جهاز ألعاب فيديو أطلقته شركة سيجا في عام 1993. تم تصميمها في الأساس للأطفال الصغار وتركز على الألعاب التعليمية والترفيهية التفاعلية. تشمل الجهاز قلمًا بصريًا يتيح للأطفال التفاعل مع الألعاب والأنشطة على الشاشة. حققت سيجا بيكو نجاحًا معينًا في إطلاقها الأولي، خاصة في اليابان وبعض الأسواق الأخرى، ولكن في نهاية المطاف تم إيقافها لصالح أجهزة سيجا الأكثر تطورًا.</text>
+			<text lang="zh">世嘉Pico是世嘉于1993年推出的一款游戏机。 它主要针对幼儿设计，专注于教育和互动娱乐游戏。 该游戏机配备了光学笔，使儿童可以与屏幕上的游戏和活动进行互动。 世嘉Pico在首次推出时取得了一定的成功，特别是在日本和一些其他市场，但最终被更先进的世嘉游戏机所取代。</text>
+			<text lang="ja">セガピコは1993年にセガが発売したビデオゲーム機です。 主に幼少期の子供向けに設計されており、教育的でインタラクティブな娯楽ゲームに焦点を当てています。 このコンソールには光学ペンが付属しており、子供たちは画面上のゲームや活動と対話することができます。 セガピコは初期の発売時に一定の成功を収めましたが、特に日本と一部の他の市場で、最終的にはより高度なセガのコンソールに置き換えられました。</text>
+		</text>
+		
+		<text name="system_name" extra="true">
+			<text>SEGA Pico</text>
+		</text>
+	</view>
+</theme>

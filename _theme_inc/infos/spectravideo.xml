@@ -5,6 +5,42 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">	
+		<text name="system_description" extra="true">
+			<text>The Spectravideo is a series of personal computers manufactured by the American company Spectravideo International. Launched in the early 1980s, these computers were known for their affordability and graphic capabilities for their time.
+				
+The Spectravideo SV-318 and SV-328 were flagship models of the series, based on the Zilog Z80 processor and compatible with a wide range of software available at that time. Although the Spectravideo did not achieve the same fame as other computers of the 1980s, it left a mark on the history of personal computing.</text>
+			<text lang="es">El Spectravideo es una serie de ordenadores personales fabricados por la empresa estadounidense Spectravideo International. Lanzados a principio de la década de 1980, estos ordenadores fueron conocidos por su asequibilidad y capacidades gráficas para su época.
+				
+El Spectravideo SV-318 y SV-328 fueron modelos emblemáticos de la serie, basados en el procesador Zilog Z80 y compatibles con una amplia gama de software disponible en ese momento. Aunque el Spectravideo no alcanzó la misma fama que otros ordenadores de la década de 1980, dejó una marca en la historia de la informática personal.</text>
+			<text lang="ca">El Spectravideo és una sèrie d'ordinadors personals fabricats per l'empresa estatunidenca Spectravideo International. Llançats a principis de la dècada de 1980, aquests ordinadors eren coneguts per la seva asequibilitat i capacitats gràfiques per a la seva època.
+				
+Els models emblemàtics de la sèrie Spectravideo SV-318 i SV-328 estaven basats en el processador Zilog Z80 i eren compatibles amb una àmplia gamma de programari disponible en aquell moment. Tot i que el Spectravideo no va assolir la mateixa fama que altres ordinadors de la dècada de 1980, va deixar una empremta en la història de la informàtica personal.</text>
+			<text lang="eu">Spectravideo amerikar Spectravideo International enpresak ekoiztutako ordenagailu pertsonalen multzo bat da. 1980ko hamarkadaren hasieran argitaratuak, ordenagailu hauek ahalmen ekonomikoa eta irudiak bere garaikoak izan ziren.
+				
+Spectravideo SV-318 eta SV-328 modelo ikonikoak seriearen oinarrian Zilog Z80 prozesadorean oinarrituta zegoen eta hainbat software-era eskuragarri zegoen eremu zabalean erabil daitezke. Halere, Spectravideok ez zuen lortu 1980ko hamarkadako beste ordenagailu batzuen izen ona, baina informatika pertsonalaren historian marka utzi zuen.</text>
+			<text lang="fr">Le Spectravideo est une série d'ordinateurs personnels fabriqués par l'entreprise américaine Spectravideo International. Lancés au début des années 1980, ces ordinateurs étaient connus pour leur accessibilité financière et leurs capacités graphiques pour l'époque.
+				
+Les Spectravideo SV-318 et SV-328 étaient des modèles phares de la série, basés sur le processeur Zilog Z80 et compatibles avec une large gamme de logiciels disponibles à l'époque. Bien que le Spectravideo n'ait pas atteint la même renommée que d'autres ordinateurs des années 1980, il a marqué l'histoire de l'informatique personnelle.</text>
+			<text lang="pt">O Spectravideo é uma série de computadores pessoais fabricados pela empresa americana Spectravideo International. Lançados no início da década de 1980, esses computadores eram conhecidos por sua acessibilidade financeira e capacidades gráficas para a época.
+				
+O Spectravideo SV-318 e SV-328 foram modelos emblemáticos da série, baseados no processador Zilog Z80 e compatíveis com uma ampla gama de software disponível na época. Embora o Spectravideo não tenha alcançado a mesma fama que outros computadores da década de 1980, deixou sua marca na história da computação pessoal.</text>
+			<text lang="it">Il Spectravideo è una serie di personal computer prodotti dall'azienda americana Spectravideo International. Lanciati all'inizio degli anni '80, questi computer erano conosciuti per la loro accessibilità economica e le loro capacità grafiche per l'epoca.
+				
+Il Spectravideo SV-318 e SV-328 erano modelli di punta della serie, basati sul processore Zilog Z80 e compatibili con una vasta gamma di software disponibili all'epoca. Anche se il Spectravideo non ha raggiunto la stessa fama di altri computer degli anni '80, ha lasciato il segno nella storia dell'informatica personale.</text>
+			<text lang="de">Der Spectravideo ist eine Serie von Personal Computern, die vom amerikanischen Unternehmen Spectravideo International hergestellt wurden. Diese Computer wurden Anfang der 1980er Jahre bekannt für ihre finanzielle Zugänglichkeit und ihre grafischen Fähigkeiten für die damalige Zeit.
+				
+Der Spectravideo SV-318 und SV-328 waren die Flaggschiffmodelle der Serie, basierend auf dem Zilog Z80 Prozessor und kompatibel mit einer breiten Palette von Software, die damals verfügbar war. Obwohl der Spectravideo nicht den gleichen Ruhm erlangte wie andere Computer der 1980er Jahre, hinterließ er einen bleibenden Eindruck in der Geschichte der persönlichen Computern.</text>
+			<text lang="pl">Spectravideo to seria komputerów osobistych produkowanych przez amerykańską firmę Spectravideo International. Wprowadzone na rynek na początku lat 80., te komputery były znane ze swojej dostępności finansowej i możliwości graficznych jak na tamte czasy.
+				
+Spectravideo SV-318 i SV-328 były flagowymi modelami serii, opartymi na procesorze Zilog Z80 i kompatybilnymi z szeroką gamą oprogramowania dostępnego wówczas. Choć Spectravideo nie osiągnęło tego samego sukcesu co inne komputery lat 80., pozostawiło ślad w historii komputerów osobistych.</text>
+			<text lang="ru">Spectravideo - это серия персональных компьютеров, производимых американской компанией Spectravideo International. Запущенные в начале 1980-х годов, эти компьютеры были известны своей доступностью и графическими возможностями для того времени.
+				
+Spectravideo SV-318 и SV-328 были флагманскими моделями серии, основанными на процессоре Zilog Z80 и совместимыми с широким спектром программного обеспечения, доступного на тот момент. Хотя Spectravideo не достиг такой же известности, как другие компьютеры 1980-х годов, он оставил свой след в истории персональных компьютеров.</text>
+			<text lang="he">ה-Spectravideo הוא סדרת מחשבים אישיים שיוצרו על ידי חברת Spectravideo International האמריקאית. הושקו בתחילת שנות ה-80, המחשבים הללו היו ידועים בזכות נגישותם הכלכלית ויכולות הגרפיקה שלהם לאותו תקופה. ה-Spectravideo SV-318 וה-SV-328 היו דגמי דגל של הסדרה, מבוססים על מעבד Zilog Z80 ומתאימים למגוון רחב של תוכנות הזמינות באותו זמן. למרות שה-Spectravideo לא הצליח להגיע לאותה פרופיל פופולריות כמו מחשבים אחרים משנות ה-80, הוא השאיר את חותמו בהיסטוריה של המחשבים האישיים.</text>
+			<text lang="ar">السبكترافيديو هو سلسلة من أجهزة الكمبيوتر الشخصية المصنوعة من قبل شركة سبكترافيديو الأمريكية. تم إطلاقها في بداية الثمانينات، وكانت هذه الحواسيب معروفة بأسعارها المعقولة وقدراتها الرسومية لتلك الحقبة. كانت طرازات سبكترافيديو SV-318 و SV-328 هي الطرز الرئيسية للسلسلة، والتي استندت على معالج Zilog Z80 وكانت متوافقة مع مجموعة واسعة من البرمجيات المتاحة في ذلك الوقت. على الرغم من أن السبكترافيديو لم يحقق نفس الشهرة التي حققها أجهزة الكمبيوتر الأخرى في عقد الثمانينات، إلا أنه ترك بصمته في تاريخ الحواسيب الشخصية.</text>
+			<text lang="zh">Spectravideo是由美国公司Spectravideo International制造的一系列个人电脑。这些计算机是在上世纪80年代初推出的，以其经济实惠和当时的图形能力而闻名。 Spectravideo SV-318和SV-328是该系列的旗舰型号，基于Zilog Z80处理器，并与当时可用的各种软件兼容。尽管Spectravideo没有像1980年代的其他计算机那样获得同样的声誉，但它在个人计算机历史上留下了痕迹。</text>
+			<text lang="ja">Spectravideoは、アメリカの会社であるSpectravideo Internationalによって製造された一連のパーソナルコンピューターです。 これらのコンピューターは1980年代初頭に発売され、その当時の手頃な価格とグラフィックスの能力で知られていました。 Spectravideo SV-318とSV-328は、Zilog Z80プロセッサーをベースにしたシリーズのフラッグシップモデルであり、当時利用可能だったさまざまなソフトウェアと互換性があります。 Spectravideoは1980年代の他のコンピューターと同じような名声を得ることはありませんでしたが、個人コンピューターの歴史においてその足跡を残しました。</text>
+		</text>
 
 		<text name="system_name" extra="true">
 			<text>Spectravideo</text>

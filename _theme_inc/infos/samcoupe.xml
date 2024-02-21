@@ -4,8 +4,44 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
 	<formatVersion>7</formatVersion>
 
-	<view name="system">		
-
+	<view name="system">	
+		<text name="system_description" extra="true">
+			<text>The SAM Coupé is an 8-bit microcomputer released in 1989 by Miles Gordon Technology (MGT) in the United Kingdom. It was designed as an improvement over the Sinclair ZX Spectrum, aiming to offer enhanced capabilities. It was equipped with a 6 MHz Z80A processor and provided improved graphic resolution and advanced sound capabilities compared to the ZX Spectrum.
+				
+Although the SAM Coupé received praise for its technical capabilities, it failed to achieve the expected commercial success, and its production ceased in  1992.</text>
+			<text lang="es">El SAM Coupé es un microordenador de 8 bits lanzado en 1989 por Miles Gordon Technology (MGT) en el Reino Unido. Fue diseñado como una mejora del Sinclair ZX Spectrum, con el objetivo de ofrecer capacidades mejoradas. Estaba equipado con un procesador Z80A de 6 MHz y ofrecía una resolución gráfica mejorada y capacidades de sonido avanzadas en comparación con el ZX Spectrum.
+				
+Aunque el SAM Coupé recibió elogios por sus capacidades técnicas, no logró alcanzar el éxito comercial esperado y su producción se detuvo en  1992.</text>
+			<text lang="ca">El SAM Coupé és un microordinador de 8 bits llançat el 1989 per Miles Gordon Technology (MGT) al Regne Unit. Va ser dissenyat com una millora del Sinclair ZX Spectrum, amb l'objectiu d'oferir capacitats millorades. Estava equipat amb un processador Z80A de 6 MHz i oferia una resolució gràfica millorada i capacitats de so avançades en comparació amb el ZX Spectrum.
+				
+Tot i que el SAM Coupé va rebre elogis per les seves capacitats tècniques, no va aconseguir assolir l'èxit comercial esperat i la seva producció es va aturar el  1992.</text>
+			<text lang="eu">SAM Coupé 8 biteko mikroordenagailua da, 1989an Miles Gordon Technology (MGT)ek Erresuma Batuan argitaratu zuena. Sinclair ZX Spectrum hobetzeko diseinatua izan zen, hobekuntzak eskaintzeko asmoa. 6 MHz-ko Z80A prozesadorearekin eratuta zegoen eta ZX Spectrum baino grafika hobea eta soinu aurreratuagoak eskaintzen zituen.
+				
+SAM Coupék bere gaitasun teknikoengatik epaimahaia jaso zuen, baina ez lortu espero zen merkataritza-arrakasta eta 1992an produkzioa gelditu zen.</text>
+			<text lang="fr">Le SAM Coupé est un microordinateur 8 bits lancé en 1989 par Miles Gordon Technology (MGT) au Royaume-Uni. Il a été conçu comme une amélioration du Sinclair ZX Spectrum, dans le but d'offrir des capacités améliorées. Il était équipé d'un processeur Z80A de 6 MHz et offrait une résolution graphique améliorée ainsi que des capacités sonores avancées par rapport au ZX Spectrum.
+				
+Bien que le SAM Coupé ait été salué pour ses capacités techniques, il n'a pas réussi à atteindre le succès commercial escompté et sa production s'est arrêtée en  1992.</text>
+			<text lang="pt">O SAM Coupé é um microcomputador de 8 bits lançado em 1989 pela Miles Gordon Technology (MGT) no Reino Unido. Foi projetado como uma melhoria do Sinclair ZX Spectrum, com o objetivo de oferecer capacidades aprimoradas. Estava equipado com um processador Z80A de 6 MHz e oferecia uma resolução gráfica melhorada e capacidades de som avançadas em comparação com o ZX Spectrum.
+				
+Embora o SAM Coupé tenha recebido elogios por suas capacidades técnicas, não conseguiu alcançar o sucesso comercial esperado e sua produção foi interrompida em  1992.</text>
+			<text lang="it">Il SAM Coupé è un microcomputer a 8 bit lanciato nel 1989 da Miles Gordon Technology (MGT) nel Regno Unito. È stato progettato come un miglioramento del Sinclair ZX Spectrum, con l'obiettivo di offrire capacità migliorate. Era dotato di un processore Z80A da 6 MHz e offriva una risoluzione grafica migliorata e capacità audio avanzate rispetto allo ZX Spectrum.
+				
+Anche se il SAM Coupé è stato lodato per le sue capacità tecniche, non è riuscito a raggiungere il successo commerciale atteso e la sua produzione è cessata nel  1992.</text>
+			<text lang="de">Der SAM Coupé ist ein 8-Bit-Mikrocomputer, der 1989 von Miles Gordon Technology (MGT) im Vereinigten Königreich veröffentlicht wurde. Er wurde als Verbesserung des Sinclair ZX Spectrum konzipiert, um verbesserte Funktionen zu bieten. Er war mit einem 6-MHz-Z80A-Prozessor ausgestattet und bot im Vergleich zum ZX Spectrum eine verbesserte Grafikauflösung und erweiterte Soundfähigkeiten.
+				
+Obwohl der SAM Coupé für seine technischen Fähigkeiten gelobt wurde, gelang ihm der erwartete kommerzielle Erfolg nicht, und seine Produktion wurde 1992 eingestellt.</text>
+			<text lang="pl">SAM Coupé to 8-bitowy mikrokomputer wydany w 1989 roku przez Miles Gordon Technology (MGT) w Wielkiej Brytanii. Został zaprojektowany jako ulepszenie Sinclair ZX Spectrum, mające na celu oferowanie ulepszonych możliwości. Był wyposażony w procesor Z80A o taktowaniu 6 MHz i oferował ulepszoną rozdzielczość grafiki oraz zaawansowane możliwości dźwiękowe w porównaniu do ZX Spectrum.
+				
+Choć SAM Coupé otrzymał pochwały za swoje zdolności techniczne, nie udało mu się osiągnąć oczekiwanego sukcesu komercyjnego, a jego produkcja została zatrzymana w 1992 roku</text>
+			<text lang="ru">SAM Coupé - это 8-битный микрокомпьютер, выпущенный в 1989 году компанией Miles Gordon Technology (MGT) в Великобритании. Он был разработан как улучшение Sinclair ZX Spectrum с целью предложить улучшенные возможности. Он был оснащен процессором Z80A с тактовой частотой 6 МГц и предлагал улучшенное графическое разрешение и продвинутые звуковые возможности по сравнению с ZX Spectrum.
+				
+Хотя SAM Coupé получил похвалу за свои технические возможности, он не смог достичь ожидаемого коммерческого успеха, и его производство прекратилось в 1992 году</text>
+			<text lang="he">ה-SAM Coupé הוא מחשב מיקרו ביט 8 שנוצר ב-1989 על ידי Miles Gordon Technology (MGT) בממלכה המאוחדת. פותח כשיפור ל-Sinclair ZX Spectrum, עם המטרה להציע יכולות משופרות. הוא הואבטח במעבד Z80A במהירות של 6 מגההרץ וסיפק רזולוציה גרפית משופרת ויכולות סאונד מתקדמות בהשוואה ל-Sinclair ZX Spectrum. למרות שה-SAM Coupé קיבל מחמאות על יכולותיו הטכניות, לא הצליח להגיע להצלחה מסחרית צפויה והייצור שלו הופסק ב-1992</text>
+			<text lang="ar">الـSAM Coupé هو حاسوب ميكروبت 8 بت تم إصداره في عام 1989 من قبل Miles Gordon Technology (MGT) في المملكة المتحدة. تم تصميمه كتحسين لجهاز Sinclair ZX Spectrum ، بهدف تقديم إمكانيات محسنة. كان مجهزًا بمعالج Z80A بسرعة 6 ميجاهرتز وقدم دقة رسومات محسنة وإمكانيات صوت متقدمة مقارنة بجهاز ZX Spectrum. على الرغم من أن الـSAM Coupé حصل على إشادة بقدراته التقنية ، إلا أنه فشل في تحقيق النجاح التجاري المتوقع وتوقف إنتاجه في عام 1992</text>
+			<text lang="zh">SAM Coupé 是一款 8 位微型计算机，于 1989 年由英国 Miles Gordon Technology (MGT) 发布。 它被设计为 Sinclair ZX Spectrum 的改进版本，旨在提供增强功能。 它配备了一个 6 MHz 的 Z80A 处理器，相比于 ZX Spectrum，提供了更高的图形分辨率和先进的音频功能。 尽管 SAM Coupé 因其技术能力而受到赞扬，但未能实现预期的商业成功，其生产在 1992 年停止</text>
+			<text lang="ja">SAM Coupéは、1989年にイギリスのMiles Gordon Technology（MGT）によってリリースされた8ビットのマイクロコンピュータです。 Sinclair ZX Spectrumの改良版として設計され、拡張機能を提供することを目指しています。 6MHzのZ80Aプロセッサーを搭載し、ZX Spectrumと比較して改善されたグラフィック解像度と高度なサウンド機能を提供しました。 SAM Coupéは技術的な能力に対して賞賛されましたが、期待された商業的成功を収めることはできず、その製造は1992年に中止されました</text>
+		</text>
+		
 		<text name="system_name" extra="true">
 			<text>SAM Coupé</text>
 		</text>

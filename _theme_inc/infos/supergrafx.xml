@@ -7,10 +7,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>The PC Engine SuperGrafx (PCエンジンスーパーグラフィックス), is a video game console by NEC Home Electronics, released exclusively in Japan. It is an upgraded version of the PC Engine, released two years prior.</text>
-			<text lang="es,ca,eu">Fue lanzado en el continente europeo en noviembre de 1989 bajo el nombre de Turbografx, pero era muy difícil encontrar la consola ya que fueron lanzadas pocas unidades en ese mercado.</text>
-			<text lang="fr">SuperGrafx est une console de jeux vidéo fabriquée par NEC Corporation et lancée en décembre 1989 au Japon. Il s'agit d'une version améliorée de la PC-Engine (ou CoreGrafX).</text>
-			<text lang="pt">Além de rodar todos os jogos do PC Engine, rodava jogos feitos exclusivamente para ele. Porém, somente 5 jogos foram lançados (1941: Counter Attack, Aldynes, Battle Ace, Ghouls'n Ghosts e Madō King Granzort).</text>
+			<text>The SuperGrafx is a video game console released by NEC Corporation in 1989 in Japan. It was an enhanced version of the popular PC Engine console, also known as the TurboGrafx-16 in North America. The SuperGrafx aimed to offer improved graphical and sound performance compared to its predecessor.
+				
+However, despite its technical improvements, the console failed to achieve the expected success due to its short lifespan in the market and the simultaneous release of other competing consoles.</text>
+			<text lang="es">La SuperGrafx es una consola de videojuegos lanzada por NEC Corporation en 1989 en Japón. Fue una versión mejorada de la popular consola PC Engine, también conocida como TurboGrafx-16 en América del Norte. La SuperGrafx tenía como objetivo ofrecer un rendimiento gráfico y sonoro mejorado en comparación con su predecesora.
+				
+Sin embargo, a pesar de sus mejoras técnicas, la consola no logró alcanzar el éxito esperado debido a su corta vida en el mercado y al lanzamiento simultáneo de otras consolas competidoras.</text>
+			<text lang="ca">La SuperGrafx és una consola de videojocs llançada per NEC Corporation el 1989 al Japó. Va ser una versió millorada de la popular consola PC Engine, també coneguda com a TurboGrafx-16 a Amèrica del Nord. La SuperGrafx tenia com a objectiu oferir un rendiment gràfic i sonor millorat en comparació amb la seva predecessora.
+				
+No obstant això, malgrat les seves millores tècniques, la consola no va aconseguir l'èxit esperat a causa de la seva curta vida al mercat i del llançament simultani d'altres consoles competidores.</text>
+			<text lang="eu">SuperGrafx NEC Corporationek 1989an Japonian argitaratu zuen bideojoko konola bat da. PC Engine modu hobetu bat zen, TurboGrafx-16 gisa ezaguna ere izan zen, Ipar Amerikan. SuperGrafx-ek aurreko bertsioarekin alderatuta hobetutako errendimendu grafikoa eta soinua eskaintzea zuen helburua.
+				
+Hala ere, bere hobekuntza teknikoen aurrean, konola merkatuan duen bizitza motza eta beste konpetentziako konposizioen aldi bereko argitaratzeak espero zen arrakasta lortzea ezinezkoa egin zuen.</text>
+			<text lang="fr">La SuperGrafx est une console de jeux vidéo lancée par NEC Corporation en 1989 au Japon. Il s'agissait d'une version améliorée de la console populaire PC Engine, également connue sous le nom de TurboGrafx-16 en Amérique du Nord. La SuperGrafx visait à offrir des performances graphiques et sonores améliorées par rapport à son prédécesseur.
+				
+Cependant, malgré ses améliorations techniques, la console n'a pas réussi à atteindre le succès escompté en raison de sa courte durée de vie sur le marché et du lancement simultané d'autres consoles concurrentes.</text>
+			<text lang="pt">O SuperGrafx é um console de videogame lançado pela NEC Corporation em 1989 no Japão. Foi uma versão aprimorada do popular console PC Engine, também conhecido como TurboGrafx-16 na América do Norte. O SuperGrafx visava oferecer um desempenho gráfico e sonoro aprimorado em comparação com seu antecessor.
+				
+No entanto, apesar de suas melhorias técnicas, o console não conseguiu alcançar o sucesso esperado devido à sua curta vida útil no mercado e ao lançamento simultâneo de outros consoles concorrentes.</text>
+			<text lang="it">La SuperGrafx è una console per videogiochi lanciata dalla NEC Corporation nel 1989 in Giappone. Si trattava di una versione potenziata della popolare console PC Engine, nota anche come TurboGrafx-16 in Nord America. La SuperGrafx mirava a offrire prestazioni grafiche e sonore migliorate rispetto al suo predecessore.
+				
+Tuttavia, nonostante i suoi miglioramenti tecnici, la console non è riuscita a ottenere il successo previsto a causa della sua breve durata nel mercato e del lancio simultaneo di altre console concorrenti.</text>
+			<text lang="de">Die SuperGrafx ist eine Videospielkonsole, die von NEC Corporation 1989 in Japan veröffentlicht wurde. Es handelte sich um eine verbesserte Version der beliebten PC Engine-Konsole, die auch als TurboGrafx-16 in Nordamerika bekannt ist. Die SuperGrafx sollte eine verbesserte grafische und akustische Leistung im Vergleich zu ihrem Vorgänger bieten.
+				
+Trotz ihrer technischen Verbesserungen gelang es der Konsole jedoch nicht, den erwarteten Erfolg zu erzielen, da sie eine kurze Lebensdauer auf dem Markt hatte und gleichzeitig andere konkurrierende Konsolen veröffentlicht wurden.</text>
+			<text lang="pl">SuperGrafx to konsola do gier wideo wydana przez NEC Corporation w 1989 roku w Japonii. Była to ulepszona wersja popularnej konsoli PC Engine, znanej również jako TurboGrafx-16 w Ameryce Północnej. SuperGrafx miała na celu zaoferowanie lepszej wydajności graficznej i dźwiękowej w porównaniu z poprzednią wersją.
+				
+Jednak pomimo technicznych udoskonaleń konsola nie osiągnęła oczekiwanego sukcesu ze względu na krótki okres życia na rynku i jednoczesne wprowadzenie innych konkurencyjnych konsol.</text>
+			<text lang="ru">SuperGrafx - это игровая приставка, выпущенная корпорацией NEC в 1989 году в Японии. Это была улучшенная версия популярной игровой консоли PC Engine, также известной как TurboGrafx-16 в Северной Америке. SuperGrafx стремился предложить улучшенную графическую и звуковую производительность по сравнению с предыдущей моделью.
+				
+Однако, несмотря на технические улучшения, консоль не смогла добиться ожидаемого успеха из-за своего короткого срока службы на рынке и одновременного выпуска других конкурирующих приставок.</text>
+			<text lang="he">הסופרגרפיקס הוא קונסולת משחקים שהופקה על ידי חברת NEC Corporation בשנת 1989 ביפן. מדובר בגרסה משופרת של הקונסולה הפופולרית PC Engine, הידועה גם בשם TurboGrafx-16 בצפון אמריקה. המטרה של הסופרגרפיקס הייתה להציע ביצועים גרפיים ושמע משופרים בהשוואה לקודמתה. אף על פי שהיתה יישום שיפורים טכניים, הקונסולה לא הצליחה להשיג את ההצלחה הצפויה עקב חייו הקצרים בשוק והשקת קונסולות תחרותיות.</text>
+			<text lang="ar">السوبر جرافيكس هي جهاز ألعاب فيديو أصدرته شركة إن إي سي كوربوريشن في عام 1989 في اليابان. كانت نسخة محسنة من جهاز الكمبيوتر الشخصي المشهور PC Engine، المعروف أيضًا باسم TurboGrafx-16 في أمريكا الشمالية. كان هدف السوبر جرافيكس تقديم أداء رسومي وصوتي محسن بالمقارنة مع سابقتها. ومع ذلك، على الرغم من التحسينات التقنية، فإن الجهاز لم يتمكن من تحقيق النجاح المتوقع بسبب عمره القصير في السوق وإطلاق أجهزة ألعاب منافسة في نفس الوقت.</text>
+			<text lang="zh">SuperGrafx是NEC Corporation于1989年在日本推出的一款视频游戏机。它是PC Engine游戏机的改进版本，北美也称为TurboGrafx-16。 SuperGrafx旨在提供比前任更好的图形和声音性能。 然而，尽管有技术上的改进，但由于其在市场上的短暂寿命和其他竞争性游戏机的同时发布，该游戏机未能取得预期的成功。</text>
+			<text lang="ja">スーパーグラフィックスは1989年にNEC Corporationによって日本で発売されたビデオゲームコンソールです。 これは、北米ではTurboGrafx-16としても知られる人気のPC Engineコンソールの強化版でした。 SuperGrafxは、以前のモデルと比較して改善されたグラフィックスおよびサウンドパフォーマンスを提供することを目指していました。 しかし、技術的な改善があったにもかかわらず、市場での短い寿命と他の競合するコンソールの同時リリースのため、コンソールは期待される成功を収めることが</text>
 		</text>
 		
 		<text name="system_name" extra="true">

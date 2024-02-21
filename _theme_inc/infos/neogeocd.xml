@@ -7,10 +7,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>The Neo Geo CD, though not a blockbuster, had an enviable game library for the time, with near-perfect conversions of the arcade versions.</text>
-			<text lang="es,ca,eu">El Neo Geo CD, a pesar de no haber sido un éxito de ventas, tenía una biblioteca de juegos envidiable para la época, con conversiones casi perfectas de las versiones de arcade.</text>
-			<text lang="fr">La Neo Geo CD, bien que n'étant pas un blockbuster, possédait une bibliothèque de jeux enviable avec des conversions quasi-parfaites des versions arcade.</text>
-			<text lang="pt">O Neo Geo CD, apesar de não ter sido um sucesso de vendas, tinha uma biblioteca de jogos invejável para a época, com conversões quase perfeitas das versões de arcade.</text>
+			<text>The Neo Geo CD is a console released by SNK Corporation in 1994 as a more affordable version of its Neo Geo AES cartridge console. It used CDs instead of cartridges, which made games more affordable.
+				
+It maintained the same power and graphic quality as the cartridge version, making it an attractive option; however, the loading speed of games was noticeably slower and sometimes affected the gaming experience. Despite its power and game library, it did not achieve the commercial success of other consoles of its time.</text>
+			<text lang="es">La Neo Geo CD es una consola lanzada por SNK Corporation en 1994 como una versión más asequible de su consola de cartuchos Neo Geo AES. Utilizaba CD's en lugar de cartuchos, lo que hacía que los juegos fueran más asequibles.
+				
+Mantenía la misma potencia y calidad gráfica que la versión de cartuchos, lo que la hacía una opción atractiva, sin embargo, la velocidad de carga de los juegos era notablemente más lenta y a veces afectaba la experiencia de juego. A pesar de su potencia y biblioteca de juegos, no logró alcanzar el éxito comercial de otras consolas de su época.</text>
+			<text lang="ca">La Neo Geo CD és una consola llançada per SNK Corporation el 1994 com una versió més assequible de la seva consola de cartutxos Neo Geo AES. Utilitzava CD en lloc de cartutxos, la qual cosa feia que els jocs fossin més assequibles.
+				
+Mantenia la mateixa potència i qualitat gràfica que la versió de cartutxos, la qual cosa la feia una opció atractiva, però la velocitat de càrrega dels jocs era notablement més lenta i a vegades afectava l'experiència de joc. Malgrat la seva potència i biblioteca de jocs, no va aconseguir assolir l'èxit comercial d'altres consoles del seu temps.</text>
+			<text lang="eu">Neo Geo CD 1994an SNK Corporation-ek argitaratu zuen konsola bat da, bere kartutxo Neo Geo AES bertsioaren bertsio bideragarrizago gisa. Kartutxoak bezalako CDak erabiltzen zituen, horrek jokoak merkeagoak egiten zituen.
+				
+Kartutxo bertsioaren boterea eta kalitate grafikoa mantendu zuen, horrek aukera erakargarria bihurtzen zuen; hala ere, jokoak kargatzeko abiadura nabarmenduago motelagoa zen eta batzuetan joko esperientzia eragiten zuen. Bere boterea eta joko liburutegia izan arren, ez lortu garai bereko beste konsola batzuen arrakasta komertziala.</text>
+			<text lang="fr">La Neo Geo CD est une console lancée par SNK Corporation en 1994 comme une version plus abordable de sa console à cartouches Neo Geo AES. Elle utilisait des CD au lieu de cartouches, ce qui rendait les jeux plus abordables.
+				
+Elle conservait la même puissance et la même qualité graphique que la version à cartouches, ce qui en faisait une option attrayante ; cependant, la vitesse de chargement des jeux était nettement plus lente et affectait parfois l'expérience de jeu. Malgré sa puissance et sa bibliothèque de jeux, elle n'a pas réussi à atteindre le succès commercial d'autres consoles de son époque.</text>
+			<text lang="pt">O Neo Geo CD é um console lançado pela SNK Corporation em 1994 como uma versão mais acessível de seu console de cartuchos Neo Geo AES. Utilizava CDs em vez de cartuchos, o que tornava os jogos mais acessíveis.
+				
+Mantinha a mesma potência e qualidade gráfica da versão de cartuchos, o que a tornava uma opção atraente; no entanto, a velocidade de carregamento dos jogos era perceptivelmente mais lenta e às vezes afetava a experiência de jogo. Apesar de sua potência e biblioteca de jogos, não conseguiu alcançar o sucesso comercial de outros consoles de sua época.</text>
+			<text lang="it">Il Neo Geo CD è una console lanciata dalla SNK Corporation nel 1994 come una versione più economica della sua console a cartucce Neo Geo AES. Utilizzava CD invece di cartucce, rendendo i giochi più accessibili.
+				
+Manteneva la stessa potenza e qualità grafica della versione a cartucce, rendendola un'opzione attraente; tuttavia, la velocità di caricamento dei giochi era notevolmente più lenta e a volte influenzava l'esperienza di gioco. Nonostante la sua potenza e la sua libreria di giochi, non è riuscita a raggiungere il successo commerciale di altre console dell'epoca.</text>
+			<text lang="de">Die Neo Geo CD ist eine Konsole, die von der SNK Corporation im Jahr 1994 als eine erschwinglichere Version ihrer Neo Geo AES Cartridge-Konsole veröffentlicht wurde. Sie verwendete CDs anstelle von Modulen, was die Spiele erschwinglicher machte.
+				
+Sie behielt die gleiche Leistung und grafische Qualität wie die Modulversion bei, was sie zu einer attraktiven Option machte; jedoch war die Ladezeit der Spiele spürbar langsamer und beeinträchtigte manchmal das Spielerlebnis. Trotz ihrer Leistung und Spielsammlung konnte sie nicht den kommerziellen Erfolg anderer Konsolen ihrer Zeit erreichen.</text>
+			<text lang="pl">Neo Geo CD to konsola wydana przez SNK Corporation w 1994 roku jako tańsza wersja konsoli z kartridżami Neo Geo AES. Używała płyt CD zamiast kartridży, co sprawiało, że ​​gry były bardziej dostępne.
+				
+Zachowała tę samą moc i jakość grafiki co wersja z kartridżami, co czyniło ją atrakcyjną opcją; jednak prędkość wczytywania gier była znacznie wolniejsza i czasami wpływała na doświadczenie gry. Pomimo swojej mocy i biblioteki gier, nie osiągnęła komercyjnego sukcesu innych konsol tamtego czasu.</text>
+			<text lang="ru">Neo Geo CD - это игровая консоль, выпущенная SNK Corporation в 1994 году как более доступная версия своей картриджной консоли Neo Geo AES. Она использовала CD вместо картриджей, что делало игры более доступными.
+				
+Она сохраняла ту же мощность и качество графики, что и версия с картриджами, что делало ее привлекательным выбором; однако скорость загрузки игр была заметно медленнее и иногда влияла на игровой опыт. Несмотря на свою мощь и игровую библиотеку, она не смогла достичь коммерческого успеха других консолей своего времени.</text>
+			<text lang="he">ה-Neo Geo CD הוא קונסולת משחקים שהושקה על ידי SNK Corporation ב-1994 כגרסה יותר זולה של הקונסולה שלה, Neo Geo AES. השתמשה ב-CD במקום קלטות, מה שהפך את המשחקים לפחות יקרים. שמרה על אותה העוצמה ואיכות הגרפיקה כמו בגרסת הקלטות, מה שהפך אותה לאפשרות מושכת; בכל זאת, מהירות הטעינה של המשחקים הייתה אטה יותר ולעיתים קרובות השפיעה על חוויית המשחק. למרות העוצמה שלה וספריית המשחקים שלה, היא לא הצליחה להשיג את הצלחתם המסחרית של קונסולות אחרות מהתקופה שלה.</text>
+			<text lang="ar">النيو جيو سي دي هي جهاز أطلقته شركة إس إن كاوربوريشن في عام 1994 كنسخة أكثر توفرًا من جهازها الأصلي نيو جيو AES. كانت تستخدم الأقراص المدمجة بدلاً من البطاقات، مما جعل الألعاب أكثر توفرًا. حافظت على نفس القوة وجودة الرسوم كنسخة البطاقات، مما جعلها خيارًا جذابًا؛ ومع ذلك، كانت سرعة تحميل الألعاب أبطأ بشكل ملحوظ وأحيانًا كانت تؤثر على تجربة اللعب. على الرغم من قوتها ومكتبة ألعابها، إلا أنها لم تحقق النجاح التجاري الذي حققته أجهزة أخرى في عصرها.</text>
+			<text lang="zh">Neo Geo CD 是 SNK Corporation 于 1994 年推出的一款游戏机，是其 Neo Geo AES 软件卡版本的更实惠版本。它使用光盘而不是软件卡，使得游戏更加实惠。* 它保持了与软件卡版本相同的性能和图形质量，使其成为一个吸引人的选择；然而，游戏加载速度明显较慢，有时会影响游戏体验。尽管拥有强大的性能和游戏库，但它并没有取得其他同期游戏机的商业成功。</text>
+			<text lang="ja">Neo Geo CD は、1994 年に SNK Corporation によって発売された、Neo Geo AES カートリッジ版のより手頃なバージョンです。カートリッジの代わりにCDを使用し、ゲームをより手頃な価格にしました。* カートリッジ版と同じパワーとグラフィック品質を維持し、魅力的な選択肢となっていましたが、ゲームの読み込み速度が著しく遅く、時々ゲーム体験に影響を与えることがありました。その性能やゲームライブラリーの優れた点にもかかわらず、当時の他のコンソールと同様の商業的成功を収めることはできませんでした。</text>
 		</text>
 		
 		<text name="system_name" extra="true">

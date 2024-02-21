@@ -7,18 +7,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>The Vectrex is a vector display-based home video game console that was developed by Western Technologies/Smith Engineering. It was licensed and distributed first by General Consumer Electronics (GCE).</text>
-			<text lang="es">Es una consola con pantalla integrada, blanco y negro. Una de sus innovaciones, además de tener la pantalla incluida, son los gráficos basados en vectores, en vez de los indefinidos gráficos a pixeles.</text>
-			<text lang="ca">És una consola amb una pantalla integrada en blanc i negre. Una de les seves innovacions, a més de tenir la pantalla inclosa, són els gràfics basats en vectors, en lloc dels indefinits gràfics de píxels.</text>
-			<text lang="eu">Pantaila barneko konola da, zuri eta beltza. Bere berritzeetako bat, pantaila barnekoa izateaz gain, bektoreetan oinarritutako grafikoak dira, pixel batzuei oinarritutako argazkiak baino ez dituztenak.</text>
-			<text lang="fr">La Vectrex est une console de jeux vidéo 8 bits développée par Smith Engineering et distribuée par General Consumer Electric, et plus tard par MB (Milton Bradley Company) après le rachat de GCE.</text>
-			<text lang="pt">O Vectrex, que usava o processador Motorola MC68A09, era o único videogame que empregava e apresentava gráficos vetoriais em seu monitor pré-integrado ao console, ao qual era possível conectar até dois controladores.</text>
-			<text lang="it">Il Vectrex è una console per videogiochi domestica basata su un display a vettori, sviluppata da Western Technologies/Smith Engineering. È stata concessa in licenza e distribuita inizialmente da General Consumer Electronics (GCE).</text>
-			<text lang="de">Der Vectrex ist eine Heimvideospielkonsole mit Vektoranzeige, die von Western Technologies/Smith Engineering entwickelt wurde. Zuerst wurde sie von General Consumer Electronics (GCE) lizenziert und vertrieben.</text>
-			<text lang="pl">Vectrex to konsola do gier wideo na ekranie wektorowym, która została opracowana przez Western Technologies/Smith Engineering. Pierwszą licencję na jej dystrybucję i rozpowszechnianie uzyskała General Consumer Electronics (GCE).</text>
-			<text lang="ru">Vectrex - это игровая приставка для домашнего использования с векторным дисплеем, разработанная компанией Western Technologies/Smith Engineering. Первой лицензией на ее распространение и продажу стала General Consumer Electronics (GCE).</text>
-			<text lang="zh">Vectrex是一款基于矢量显示的家用视频游戏机，由Western Technologies/Smith Engineering开发。最初由General Consumer Electronics（GCE）获得许可并进行分销。</text>
-			<text lang="ja">Vectrexは、Western Technologies/Smith Engineeringによって開発されたベクターディスプレイを使用した家庭用ビデオゲーム機です。最初はGeneral Consumer Electronics（GCE）によってライセンスされ、販売されました。</text>
+			<text>The Vectrex is a video game console released in 1982 by General Consumer Electronics (GCE), which was later acquired by Milton Bradley Company. It included a built-in monochrome vector display and a set of pre-installed games. What made it unique was its ability to display graphics using vector lines, giving it a distinctive and futuristic look for its time.
+				
+Despite its uniqueness and quality, the Vectrex did not achieve great commercial success and was discontinued shortly after its release.</text>
+			<text lang="es">La Vectrex es una consola de videojuegos lanzada en 1982 por la compañía General Consumer Electronics (GCE), que luego fue adquirida por Milton Bradley Company. Incluía una pantalla de vector monocromática integrada y un conjunto de juegos preinstalados. Lo que la hacía única era su capacidad para mostrar gráficos en líneas vectoriales, lo que le otorgaba un aspecto distintivo y futurista para la época.
+				
+A pesar de su singularidad y calidad, la Vectrex no tuvo un gran éxito comercial y fue descontinuada poco tiempo después de su lanzamiento.</text>
+			<text lang="ca">La Vectrex és una consola de videojocs llançada el 1982 per la companyia General Consumer Electronics (GCE), que després va ser adquirida per Milton Bradley Company. Incloïa una pantalla de vector monocrom integrada i un conjunt de jocs preinstal·lats. El que la feia única era la seva capacitat per mostrar gràfics en línies vectorials, el que li atorgava un aspecte distintiu i futurista per a l'època.
+				
+Malgrat la seva singularitat i qualitat, la Vectrex no va tenir un gran èxit comercial i va ser discontinuada poc temps després del seu llançament.</text>
+			<text lang="eu">Vectrex 1982an General Consumer Electronics (GCE) enpresak bideo-joko konola bat aurkeztu zuen, Milton Bradley Company-k geroago erosi zuen. Barnean banatutako monokromo bektore pantaila eta joko preinstalatuen multzo bat zuen. Bakarra egin zion ezaugarri berezia bidea bektore lerroetan grafikoak erakusteko gaitasuna, garai horretarako ikuspegi berezia eta futuristiko bat ematen zion.
+				
+Unikalitate eta kalitatea izan arren, Vectrex-ek ez zuen arrakasta komertzial handia lortu, eta bere berritzea pixka bat geroago gelditu zen.</text>
+			<text lang="fr">La Vectrex est une console de jeux vidéo lancée en 1982 par la société General Consumer Electronics (GCE), qui a ensuite été rachetée par Milton Bradley Company. Elle comprenait un écran vectoriel monochrome intégré et un ensemble de jeux préinstallés. Ce qui la rendait unique était sa capacité à afficher des graphiques en lignes vectorielles, lui donnant un aspect distinctif et futuriste pour son époque.
+				
+Malgré son caractère unique et sa qualité, la Vectrex n'a pas connu un grand succès commercial et a été abandonnée peu de temps après sa sortie.</text>
+			<text lang="pt">O Vectrex é um console de videogame lançado em 1982 pela General Consumer Electronics (GCE), que mais tarde foi adquirida pela Milton Bradley Company. Incluía um display de vetor monocromático integrado e um conjunto de jogos pré-instalados. O que a tornava única era sua capacidade de exibir gráficos em linhas vetoriais, dando-lhe um aspecto distintivo e futurista para a época.
+				
+Apesar de sua singularidade e qualidade, o Vectrex não obteve grande sucesso comercial e foi descontinuado pouco tempo após seu lançamento.</text>
+			<text lang="it">Il Vectrex è una console per videogiochi lanciata nel 1982 dalla General Consumer Electronics (GCE), che in seguito è stata acquisita dalla Milton Bradley Company. Includeva un display a vettori monocromatico integrato e un set di giochi preinstallati. Ciò che lo rendeva unico era la sua capacità di visualizzare grafica mediante linee vettoriali, conferendogli un aspetto distintivo e futuristico per l'epoca.
+				
+Nonostante la sua unicità e qualità, il Vectrex non ottenne un grande successo commerciale e fu interrotto poco dopo il suo lancio.</text>
+			<text lang="de">Die Vectrex ist eine Videospielkonsole, die 1982 von General Consumer Electronics (GCE) herausgebracht wurde und später von Milton Bradley Company übernommen wurde. Sie enthielt ein integriertes monochromes Vektor-Display und eine Reihe von vorinstallierten Spielen. Was sie einzigartig machte, war ihre Fähigkeit, Grafiken mit Vektorlinien darzustellen, was ihr für ihre Zeit ein unverwechselbares und futuristisches Aussehen verlieh.
+				
+Trotz ihrer Einzigartigkeit und Qualität hatte die Vectrex keinen großen kommerziellen Erfolg und wurde kurz nach ihrer Veröffentlichung eingestellt.</text>
+			<text lang="pl">Vectrex to konsola do gier wideo wydana w 1982 roku przez General Consumer Electronics (GCE), która później została przejęta przez Milton Bradley Company. Zawierała wbudowany monochromatyczny wyświetlacz wektorowy i zestaw wstępnie zainstalowanych gier. To, co ją wyróżniało, to zdolność wyświetlania grafiki za pomocą linii wektorowych, co nadawało jej charakterystyczny i futurystyczny wygląd dla tamtej epoki.
+				
+Pomimo jej wyjątkowości i jakości, Vectrex nie odniosła wielkiego sukcesu komercyjnego i została wycofana z rynku krótko po swoim debiucie.</text>
+			<text lang="ru">Vectrex - это игровая консоль, выпущенная в 1982 году компанией General Consumer Electronics (GCE), которая позже была приобретена компанией Milton Bradley Company. Она включала в себя встроенный монохромный векторный дисплей и набор предустановленных игр. То, что делало ее уникальной, - это способность отображать графику с использованием векторных линий, что придавало ей характерный и футуристический вид для своего времени.
+				
+Несмотря на ее уникальность и качество, Vectrex не добилась большого коммерческого успеха и была снята с производства вскоре после выпуска.</text>
+			<text lang="he">הוקטרקס הוא קונסולת משחקים שיצאה לשוק בשנת 1982 על ידי חברת המוצרים הצרכניים הכללית (GCE), שאחר כך נרכשה על ידי חברת מילטון בראדלי. הוא כלל מסך מובנה צבעוני וסט של משחקים מותקנים מראש. מה שהפך אותו לייחודי היה היכולת שלו להציג גרפיקה בקווי וקטור, נותן לו מראה מתקדם וייחודי לאותו זמן. למרות הייחודיות והאיכות שלו, הוקטרקס לא הצליחה להשיג הצלחה מסחרית גדולה ונכנסה להשעיה מול תחרות רבת התחרות.</text>
+			<text lang="ar">فيكتريكس هي جهاز ألعاب فيديو تم إطلاقه في عام 1982 من قبل شركة General Consumer Electronics (GCE)، التي تم بعد ذلك استحواذها من قبل شركة Milton Bradley. كانت تشتمل على شاشة عرض ناقلات أحادية اللون مدمجة ومجموعة من الألعاب المثبتة مسبقًا. ما جعلها فريدة كانت قدرتها على عرض الرسومات باستخدام خطوط الناقلات، مما منحها مظهرًا مميزًا ومستقبليًا للغاية لتلك الفترة. على الرغم من فرادتها وجودتها، لم تحقق فيكتريكس نجاحًا تجاريًا كبيرًا وتم إيقافها قليلًا بعد إطلاقها.</text>
+			<text lang="zh">Vectrex是由General Consumer Electronics（GCE）于1982年推出的一款视频游戏机，后来被Milton Bradley Company收购。它包括一个内置的单色矢量显示器和一组预装的游戏。使其独特的是其能够使用矢量线显示图形，为其赋予了独特和未来感的外观。 尽管其独特性和质量，Vectrex并没有取得巨大的商业成功，并在发布后不久就被停产了。</text>
+			<text lang="ja">Vectrexは、General Consumer Electronics（GCE）によって1982年に発売され、後にMilton Bradley Companyに買収されたビデオゲームコンソールです。内蔵の単色ベクトルディスプレイと一連のプリインストールされたゲームが含まれています。そのユニークさは、ベクトルラインを使用してグラフィックを表示する能力にあり、その時代に特徴的で未来的な外観を与えました。 その独自性と品質にもかかわらず、Vectrexは大きな商業的成功を収めることはありませんでした。また、発売後間もなく生産終了となりました。</text>
 		</text>
 		
 		<text name="system_name" extra="true">

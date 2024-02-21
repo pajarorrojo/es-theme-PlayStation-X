@@ -7,10 +7,39 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_description" extra="true">
-			<text>The ZX81 is a home computer that was produced by Sinclair Research and manufactured in Dundee, Scotland by Timex Corporation. It was launched in the United Kingdom in March 1981 as the successor to ZX80.</text>
-			<text lang="es,ca,eu">ZX81, lanzado por Sinclair Research en 1981, fue el computador de menor precio de la época y se vendía en la versión de kit por 49,95 libras esterlinas, y por 69,95 montado. Este era la versión mejorada del ZX80.</text>
-			<text lang="fr">La conception du ZX81 avait pour objectif de produire un ordinateur aux performances, certes modeste, mais à un coût raisonnable. Cela passait d'abord par une réduction du nombre des composants et par l'optimisation de leur utilisation.</text>
-			<text lang="pt">Sinclair ZX81, lançado pela Sinclair Research em 1981, veio em sequência ao ZX80. Foi o primeiro computador doméstico no mundo vendido abaixo de US$ 100 (sob a forma de "kit").</text>
+			<text>The Sinclair ZX81 was a home computer released by Sinclair Research in 1981 as an improved version of the Sinclair ZX80. It was the cheapest computer of its time and was sold in kit form for £49.95, and for £69.95 assembled.
+				
+The ZX81 featured a compact design and was based on a Zilog Z80 microprocessor running at 3.25 MHz. It had 1 KB of RAM and used cassette tapes to store programs. Although its capabilities were limited, it contributed to the popularization of home computing in the 1980s due to its low cost and accessibility.</text>
+			<text lang="es">El Sinclair ZX81 fue un ordenador doméstico lanzado por Sinclair Research en 1981 como una versión mejorada del Sinclair ZX80. Era el ordenador más barato de la época y se vendía en la versión de kit por 49,95 libras esterlinas, y por 69,95 ya montado.
+				
+El ZX81 presentaba un diseño compacto y estaba basado en un microprocesador Zilog Z80 a una velocidad de 3.25 MHz. Tenía 1 KB de memoria RAM y usaba cintas de casete para almacenar programas. Aunque sus capacidades eran limitadas, contribuyó a la popularización de la informática doméstica en la década de 1980 debido a su bajo coste y su accesibilidad.</text>
+			<text lang="ca">El Sinclair ZX81 va ser un ordinador domèstic llançat per Sinclair Research el 1981 com una versió millorada del Sinclair ZX80. Era l'ordinador més barat de l'època i es venia en la versió de kit per 49,95 lliures esterlines, i per 69,95 muntat.
+				
+El ZX81 presentava un disseny compacte i estava basat en un microprocessador Zilog Z80 amb una velocitat de 3,25 MHz. Tenia 1 KB de memòria RAM i feia servir cintes de caset per emmagatzemar programes. Tot i que les seves capacitats eren limitades, va contribuir a la popularització de la informàtica domèstica a la dècada de 1980 a causa del seu baix cost i la seva accessibilitat.</text>
+			<text lang="eu">Sinclair ZX81 Sinclair Research-ek 1981ean egindako ordenagailu domestikoa izan zen Sinclair ZX80 bertsio hobetua. Garai horretako ordenagailu merkeena zen eta kit bertsioan saldu zen, 49,95 liber esterlinetan, eta muntatuta, 69,95an.
+				
+ZX81 diseinu konpaktua zuen eta Zilog Z80 mikroprozesadorean oinarrituta zegoen 3,25 MHz-eko abiaduran. 1 KB-ko RAM memoria zuen eta kaseteak erabiltzen zituen programak biltegiratzeko. Bere gaitasunak mugatuak izan arren, 1980ko hamarkadako informatika etxeko popularizazioan lagundu zuen, bere kostu baxuarekin eta eskuragarritasunarekin.</text>
+			<text lang="fr">Le Sinclair ZX81 était un ordinateur familial lancé par Sinclair Research en 1981 comme une version améliorée du Sinclair ZX80. C'était l'ordinateur le moins cher de l'époque et il était vendu en kit pour 49,95 livres sterling, et pour 69,95 assemblé.
+				
+Le ZX81 présentait un design compact et était basé sur un microprocesseur Zilog Z80 fonctionnant à 3,25 MHz. Il avait 1 Ko de RAM et utilisait des cassettes pour stocker les programmes. Bien que ses capacités étaient limitées, il a contribué à la popularisation de l'informatique domestique dans les années 1980 en raison de son faible coût et de son accessibilité.</text>
+			<text lang="pt">O Sinclair ZX81 foi um computador doméstico lançado pela Sinclair Research em 1981 como uma versão melhorada do Sinclair ZX80. Era o computador mais barato da época e era vendido na versão de kit por £49,95 e montado por £69,95.
+				
+O ZX81 apresentava um design compacto e era baseado em um microprocessador Zilog Z80 com uma velocidade de 3,25 MHz. Tinha 1 KB de RAM e utilizava fitas cassete para armazenar programas. Embora suas capacidades fossem limitadas, contribuiu para a popularização da computação doméstica na década de 1980 devido ao seu baixo custo e acessibilidade.</text>
+			<text lang="it">Lo Sinclair ZX81 era un computer domestico lanciato dalla Sinclair Research nel 1981 come versione migliorata dello Sinclair ZX80. Era il computer più economico del tempo e veniva venduto nella versione kit per £49,95 e montato per £69,95.
+				
+Lo ZX81 presentava un design compatto e era basato su un microprocessore Zilog Z80 con una velocità di 3,25 MHz. Aveva 1 KB di RAM e utilizzava cassette per memorizzare i programmi. Nonostante le sue capacità fossero limitate, ha contribuito alla popolarizzazione dell'informatica domestica negli anni '80 grazie al suo basso costo e alla sua accessibilità.</text>
+			<text lang="de">Der Sinclair ZX81 war ein Heimcomputer, den Sinclair Research 1981 als verbesserte Version des Sinclair ZX80 herausbrachte. Er war der billigste Computer seiner Zeit und wurde als Bausatz für £49,95 und zusammengebaut für £69,95 verkauft.
+				
+Der ZX81 hatte ein kompaktes Design und basierte auf einem Zilog Z80 Mikroprozessor mit einer Geschwindigkeit von 3,25 MHz. Er hatte 1 KB RAM und verwendete Kassetten, um Programme zu speichern. Obwohl seine Fähigkeiten begrenzt waren, trug er aufgrund seiner geringen Kosten und seiner Zugänglichkeit zur Popularisierung der Heimcomputer in den 1980er Jahren bei.</text>
+			<text lang="pl">Sinclair ZX81 to komputer domowy wprowadzony przez Sinclair Research w 1981 roku jako ulepszona wersja Sinclair ZX80. Był najtańszym komputerem swoich czasów i był sprzedawany w wersji zestawu za £49,95, a złożony za £69,95.
+				
+ZX81 cechował się kompaktowym designem i był oparty na mikroprocesorze Zilog Z80 o prędkości 3,25 MHz. Miał 1 KB pamięci RAM i używał kaset magnetofonowych do przechowywania programów. Choć jego możliwości były ograniczone, przyczynił się do popularyzacji komputerów domowych w latach 80. ze względu na niski koszt i dostępność.</text>
+			<text lang="ru">Sinclair ZX81 был домашним компьютером, выпущенным Sinclair Research в 1981 году как улучшенная версия Sinclair ZX80. Он был самым дешевым компьютером своего времени и продавался в виде комплекта за £49.95 и собранный за £69.95.
+				
+ZX81 имел компактный дизайн и был основан на микропроцессоре Zilog Z80 с частотой 3,25 МГц. У него было 1 КБ оперативной памяти и для хранения программ использовались магнитофонные кассеты. Несмотря на ограниченные возможности, он способствовал популяризации домашних компьютеров в 1980-х годах из-за низкой стоимости и доступности.</text>
+			<text lang="he">ה-Sinclair ZX81 היה מחשב ביתי שהושק על ידי Sinclair Research בשנת 1981 כגרסה משופרת של ה-Sinclair ZX80. הוא היה המחשב הזול ביותר של זמנו ונמכר בגרסת קיט ב-£49.95, ומורכב ב-£69.95. ה-ZX81 הציג עיצוב קומפקטי והיה מבוסס על מעבד Zilog Z80 במהירות של 3.25 מגההרץ. הוא כלל 1 קילובייט של זיכרון RAM והשתמש בקלטות קסטה לאחסון תוכניות. למרות שיכולותיו היו מוגבלות, תרם לפופולריזציה של המחשבים הביתיים בשנות ה-80 עקב העלות הנמוכה והנגישות שלו.</text>
+			<text lang="zh">Sinclair ZX81是由Sinclair Research在1981年推出的家用电脑，是Sinclair ZX80的改进版本。它是当时最便宜的计算机，以49.95英镑的套件版本销售，以69.95英镑的装配版本销售。 ZX81采用紧凑设计，基于Zilog Z80微处理器，速度为3.25 MHz。它有1 KB的RAM，并使用磁带存储程序。尽管其功能有限，但由于其低廉的价格和易获取性，它为80年代家庭计算机的普及做出了贡献。</text>
+			<text lang="ja">Sinclair ZX81は、1981年にSinclair ResearchによってSinclair ZX80の改良版としてリリースされた家庭用コンピュータです。当時最も安価なコンピュータで、キット版が£49.95で、組み立てられたものが£69.95で販売されていました。 ZX81はコンパクトなデザインで、Zilog Z80マイクロプロセッサをベースにしており、動作速度は3.25 MHzです。1 KBのRAMを搭載し、プログラムを保存するためにカセットテープを使用していました。その機能は限られていましたが、低価格と利便性から、1980年代の家庭用コンピュータの普及に貢献しました。</text>
 		</text>
 		
 		<text name="system_name" extra="true">

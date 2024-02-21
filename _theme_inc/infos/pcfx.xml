@@ -7,10 +7,39 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		
 		<text name="system_description" extra="true">
-			<text>It is a 32-bit home console made by NEC. It is the successor to PC Engine, known as TurboGrafx-16 in North America.</text>
-			<text lang="es,ca,eu">Es una consola doméstica de 32 bits hecha por NEC. Es el sucesor del PC Engine, conocido como TurboGrafx-16 en América del Norte.</text>
-			<text lang="fr">C'est une console domestique 32 bits créée par NEC. C'est le successeur de PC Engine, connu sous le nom de TurboGrafx-16 en Amérique du Nord.</text>
-			<text lang="pt">É um console doméstico de 32 bits feito pela NEC. É o sucessor do PC Engine, conhecido como TurboGrafx-16 na América do Norte.</text>
+			<text>The PC-FX is a video game console released by NEC Corporation in Japan in 1994. Designed as the successor to the popular PC Engine (TurboGrafx-16 in North America), it primarily focused on offering CD-ROM-based gaming experiences with improved graphics and sound compared to its predecessor.
+				
+It featured advanced multimedia capabilities for its time, including high-quality video sequences and CD audio. However, it failed to achieve significant commercial success due to its limited game catalog and competition from other consoles like Sony's PlayStation.</text>
+			<text lang="es">La PC-FX es una consola de videojuegos lanzada por NEC Corporation en Japón en 1994. Diseñada como sucesora de la popular PC Engine (TurboGrafx-16 en América del Norte), se centró principalmente en ofrecer experiencias de juego basadas en CD-ROM con gráficos y sonido mejorados en comparación con su predecesora.
+				
+Presentaba capacidades multimedia avanzadas para su época, incluidas secuencias de video de alta calidad y audio de CD. Sin embargo no logró alcanzar un éxito comercial significativo debido a su limitado catálogo de juegos y a la competencia de otras consolas como la PlayStation de Sony.</text>
+			<text lang="ca">La PC-FX és una consola de videojocs llançada per NEC Corporation al Japó el 1994. Dissenyada com a successora de la popular PC Engine (TurboGrafx-16 a Amèrica del Nord), es va centrar principalment en oferir experiències de joc basades en CD-ROM amb gràfics i so millorats en comparació amb la seva predecessora.
+				
+Presentava capacitats multimèdia avançades per a la seva època, incloses seqüències de vídeo de alta qualitat i àudio de CD. No obstant això, no va aconseguir un èxit comercial significatiu a causa del seu catàleg de jocs limitat i de la competència d'altres consoles com la PlayStation de Sony.</text>
+			<text lang="eu">PC-FX NEC Corporationek 1994an Japonian argitaratutako bideo-joko konsola bat da. PC Engine-ren (TurboGrafx-16 Ipar Amerikan) arrakastailearen ondorengo gisa diseinatua, nagusiki CD-ROMek oinarritutako jolastoki esperientziak eskaintzen zituen, grafiko eta so hobetuak aurreko bertsioarekin alderatuz.
+				
+Garai hartarako multimedia gaitasun aurreratuak aurkezten zituen, bideo-sekuentzia kalitate handikoak eta CD-audioa barne. Hala ere, ez lortu arrakastarik handirik merkataritzan, joko-katalogo mugatua eta beste konsolak, Sony-ren PlayStation bezala, lehentasuna izan zituzten.</text>
+			<text lang="fr">La PC-FX est une console de jeux vidéo lancée par NEC Corporation au Japon en 1994. Conçue comme le successeur de la populaire PC Engine (TurboGrafx-16 en Amérique du Nord), elle se concentrait principalement sur l'offre d'expériences de jeu basées sur CD-ROM avec des graphismes et un son améliorés par rapport à son prédécesseur.
+				
+Elle présentait des capacités multimédias avancées pour son époque, notamment des séquences vidéo de haute qualité et un son CD. Cependant, elle n'a pas réussi à connaître un succès commercial significatif en raison de son catalogue de jeux limité et de la concurrence d'autres consoles telles que la PlayStation de Sony.</text>
+			<text lang="pt">O PC-FX é um console de videogame lançado pela NEC Corporation no Japão em 1994. Projetado como sucessor do popular PC Engine (TurboGrafx-16 na América do Norte), focou principalmente em oferecer experiências de jogo baseadas em CD-ROM com gráficos e som aprimorados em comparação com seu antecessor.
+				
+Apresentava capacidades multimídia avançadas para a época, incluindo sequências de vídeo de alta qualidade e áudio de CD. No entanto, não conseguiu alcançar um sucesso comercial significativo devido ao seu catálogo de jogos limitado e à concorrência de outros consoles como o PlayStation da Sony.</text>
+			<text lang="it">La PC-FX è una console per videogiochi lanciata dalla NEC Corporation in Giappone nel 1994. Progettata come successore del popolare PC Engine (TurboGrafx-16 in Nord America), si è concentrata principalmente nell'offrire esperienze di gioco basate su CD-ROM con grafica e audio migliorati rispetto al suo predecessore.
+				
+Presentava capacità multimediali avanzate per l'epoca, inclusi sequenze video di alta qualità e audio CD. Tuttavia, non è riuscita a ottenere un successo commerciale significativo a causa del suo limitato catalogo di giochi e della concorrenza di altre console come la PlayStation di Sony.</text>
+			<text lang="de">Die PC-FX ist eine Videospielkonsole, die 1994 von NEC Corporation in Japan veröffentlicht wurde. Als Nachfolger des beliebten PC Engine (TurboGrafx-16 in Nordamerika) konzipiert, konzentrierte sie sich hauptsächlich darauf, CD-ROM-basierte Spielerlebnisse mit verbesserten Grafiken und Sound im Vergleich zu ihrem Vorgänger anzubieten.
+				
+Sie verfügte über erweiterte Multimedia-Fähigkeiten für ihre Zeit, darunter hochwertige Videosequenzen und CD-Audio. Dennoch gelang es ihr nicht, aufgrund ihres begrenzten Spielkatalogs und des Wettbewerbs mit anderen Konsolen wie der PlayStation von Sony einen signifikanten kommerziellen Erfolg zu erzielen.</text>
+			<text lang="pl">PC-FX to konsola do gier wideo wydana przez NEC Corporation w Japonii w 1994 roku. Zaprojektowana jako następca popularnego PC Engine (TurboGrafx-16 w Ameryce Północnej), głównie skupiała się na oferowaniu doświadczeń z gier opartych na CD-ROMach z ulepszoną grafiką i dźwiękiem w porównaniu z poprzednikiem.
+				
+Wyposażona była w zaawansowane możliwości multimedialne jak na tamte czasy, w tym wysokiej jakości sekwencje wideo i dźwięk CD. Jednak nie osiągnęła znaczącego sukcesu komercyjnego ze względu na ograniczony katalog gier i konkurencję innych konsol, takich jak PlayStation od Sony.</text>
+			<text lang="ru">PC-FX - это игровая приставка, выпущенная NEC Corporation в Японии в 1994 году. Представляя собой преемника популярной PC Engine (TurboGrafx-16 в Северной Америке), она в основном сосредоточилась на предоставлении игровых впечатлений на основе CD-ROM с улучшенной графикой и звуком по сравнению с предыдущей версией.
+				
+Она обладала расширенными мультимедийными возможностями для своего времени, включая высококачественные видео-последовательности и аудио CD. Однако не смогла добиться значительного коммерческого успеха из-за своего ограниченного игрового каталога и конкуренции с другими консолями, такими как PlayStation от Sony.</text>
+			<text lang="he">ה-PC-FX הוא מכשיר משחקים לסרטונים שיצא לאור על ידי NEC Corporation ביפן ב-1994. הוא עוצב כצורן להמשך הפופולרי PC Engine (TurboGrafx-16 בצפון אמריקה), והתמקד בעיקר בספק חוויות משחק מבוססות על CD-ROM עם גרפיקה וצליל משופרים בהשוואה לקודמו. הוא הציג יכולות מולטימדיה מתקדמות לתקופתו, כולל רצפי וידאו באיכות גבוהה ושמע של תקליטורים. אף על פי שלא הצליח להשיג הצלחה מסחרית משמעותית עקב קטלוג משחקים מוגבל והתחרות מקונסולות אחרות כמו ה-PlayStation של סוני.</text>
+			<text lang="zh">PC-FX是NEC Corporation于1994年在日本推出的一款视频游戏主机。 PC-FX被设计为PC Engine（北美的TurboGrafx-16）的继任者，主要专注于提供基于CD-ROM的游戏体验，与其前身相比，图形和声音都得到了改进。 它具有当时先进的多媒体功能，包括高质量的视频序列和CD音频。 但由于其有限的游戏目录和其他游戏机（如索尼的PlayStation）的竞争，它未能取得显着的商业成功。</text>
+			<text lang="ja">PC-FXは、1994年にNEC Corporationによって日本で発売されたビデオゲームコンソールです。 PC Engine（北米ではTurboGrafx-16）の後継機として設計され、CD-ROMベースのゲーム体験を提供することに主眼を置き、前機種と比較してグラフィックスとサウンドが向上しています。 当時の先進的なマルチメディア機能を備えており、高品質のビデオシーケンスやCD音声を含んでいます。 しかし、限られたゲームカタログと他のゲーム機（ソニーのPlayStationなど）との競争のため、商業的な成功を収めることはできませんでした。</text>
 		</text>
 		
 		<text name="system_name" extra="true">
