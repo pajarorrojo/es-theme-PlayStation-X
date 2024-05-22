@@ -82,7 +82,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 39-final-rev2</text>
+			<text>Theme by pajarorrojo - Version 39-final-rev3</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -138,8 +138,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<path>./_theme_inc/images/frame-splash.png</path>
 			<pos>0.5 0.326</pos>
 			<maxSize>0.255 0.255</maxSize>
-			<verticalAlignment>middle</verticalAlignment>
-			<alignment>center</alignment>
+
 			<linearSmooth>true</linearSmooth>
 			<zIndex>9</zIndex>
 		</image>
@@ -176,8 +175,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<size>1 0.002</size>
 			<size tinyScreen="true">1 0.005</size>
 			<backgroundColor>ff000000</backgroundColor>
-			<verticalAlignment>top</verticalAlignment>
-			<alignment>left</alignment>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>99</zIndex>
 		</image>
