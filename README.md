@@ -5,6 +5,10 @@ Installation is simple – unzip the file and copy its contents into the "/userd
 
 We hope you enjoy it! Any suggestions are fully welcomed.
 
+If you enjoyed the theme, please give it a star on GitHub to help more people discover it.
+
+[![Playstation X Cconfig guide](https://es-theme-playstation-x.tocapixels.com/thumbvideo/psx-video-guide.jpg)](https://www.youtube.com/watch?v=6xfdHXLDhWs)
+
 ## Important notice to the theme Version 39 and next
 **Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, the theme version 39 is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
 
@@ -32,8 +36,6 @@ Alongside all this, a new utility has been added, a game list called "Game Media
 [![(Game Media Tester View)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-06.jpg)](https://www.youtube.com/watch?v=OxoLxIAK5hs) 
 
 I hope you enjoy the theme! Hard work has been done to improve the user experience and offer more customization options for gamelist. I invite you to try all the possible combinations and discover how you can create a dynamic environment tailored to your preferences.
-
-If you enjoyed the theme, please give it a star on GitHub to help more people discover it.
 
 Have fun with retro gaming!
 
