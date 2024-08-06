@@ -1,43 +1,41 @@
-# PlayStation-X Retrogaming theme frontend
+# PlayStation-X Retrogaming theme
 A theme inspired by the PlayStation 3/4 interface, featuring custom avatars, usernames, retroachievements compatibility and much more for Batocera, RetroBat, and EmuElec frontends.
 
-Installation is simple – unzip the file and copy its contents into the "/userdata/themes/" or "/share/themes/" folder. Additionally, you can install it directly through the Batocera themes downloader.
+Installation is simple – unzip the file and copy its contents into the "/userdata/themes/" or "/share/themes/" folder. Additionally, you can install it directly through the themes downloader in your favorite frontend.
 
 We hope you enjoy it! Any suggestions are fully welcomed.
 
-## Important notice to Version 39
-**Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, this theme version (39) is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
+## Important notice to the theme Version 39 and next
+**Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, the theme version 39 is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
 
 https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/Previous-releases
 
-https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/current_release
 
+## An improved game lists enviroment!
 
-## The version 37 introduce a new and improved game lists enviroment!
-
-The options structure for game lists has been simplified by removing image options specific to each view type. Now there are only two universal options: main image and grid image. Additionally, new options has been added to hide game descriptions and all game information. The screen layout will automatically adapt to all possible combinations. 
-
-Two new gamelist layouts have been included: Classic Carousel, which emulates the classic Ps4 layout, and Full Grid, which takes up more screen space and displays more elements.
-
-This new game list system combines the following options: 5 view types (detailed, grid, horizontal carousel, classic carousel, and full grid), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
+Since version 37 the game list combines the following theme options: 6 view types (detailed, grid, horizontal carousel, classic carousel, full grid and Game by game), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
 
 [![Playstation X 37 Re-viewed (All Views)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-01.jpg)](https://www.youtube.com/watch?v=cbo0sx8Mk3Eb)
 
 One system, one layout!
 The select button is your friend...
 
-You can customize each system with a completely personalized view. Simply press the select button on your controller (or compatible key) while in a game list to access the specific gamelist settings. From here, you can change the list type (detailed, grid, carousel etc.) and configure it with many custom theme options, such as displaying any type of scraped image or simply hiding it. You can also hide game descriptions or extra information, enable video modes, grid animations, background fanart, etc. Let your imagination run wild, now you have dozens of combinations that will make your environment truly dynamic and different.
+You can customize each system with a completely personalized view. Simply press the select button on your controller (or compatible key) while in a game list to access the specific gamelist settings. From here, you can change the list type (detailed, grid, carousel etc.) and configure it with many custom theme options, such as displaying any type of scraped image or simply hiding it. You can also hide game descriptions or extra information, enable video modes, grid animations, background fanart, etc. Let your imagination run wild, now you have dozens of combinations that will make your environment truly dynamic, fresh and different.
 
 |                                    |                                    |                                    |
 | :--------------------------------: | :--------------------------------: | :--------------------------------: |
-| [![Playstation X 37 Re-viewed (Classic Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-03.jpg)](https://www.youtube.com/watch?v=gmeItHffFYA) | [![Playstation X 37 Re-viewed (Full Grid Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-04.jpg)](https://www.youtube.com/watch?v=s2DZsqBRSVg) | [![Playstation X 37 Re-viewed (Horizontal Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-05.jpg)](https://www.youtube.com/watch?v=ZiAk7QotviA) |
+| [![(Classic Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-03.jpg)](https://www.youtube.com/watch?v=gmeItHffFYA) | [![(Full Grid Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-04.jpg)](https://www.youtube.com/watch?v=s2DZsqBRSVg) | [![(Horizontal Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-05.jpg)](https://www.youtube.com/watch?v=ZiAk7QotviA) |
 
 Alongside all this, a new utility has been added, a game list called "Game Media Tester." By activating this list, you can quickly check the Batocera-compatible media assigned to each game in a very clear way.
 
 
-[![Playstation X 37 Re-viewed (Game Media Tester View)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-06.jpg)](https://www.youtube.com/watch?v=OxoLxIAK5hs) 
+[![(Game Media Tester View)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-06.jpg)](https://www.youtube.com/watch?v=OxoLxIAK5hs) 
 
-I hope you enjoy the new gamelist layouts! Hard work has been done to improve the user experience and offer more customization options for gamelist. I invite you to try all the possible combinations and discover how you can create a dynamic environment tailored to your preferences. Have fun retro gaming!
+I hope you enjoy the theme! Hard work has been done to improve the user experience and offer more customization options for gamelist. I invite you to try all the possible combinations and discover how you can create a dynamic environment tailored to your preferences.
+
+If you enjoyed the theme, please give it a star on GitHub to help more people discover it.
+
+Have fun with retro gaming!
 
 
 
@@ -51,26 +49,28 @@ Theme Compatible with common used aspect ratios including tiny screens, the them
 - 5:3
 - 5:4 
 
-NOTE: The automatic fit is only compatible with batocera 35 or higher, if you use an older version of batocera, don't forget to select your compatible aspect ratio in theme settings to avoid display issues.
+NOTE: The automatic fit is only compatible with batocera 35 or higher, if you use an older version of batocera, don't forget to manually select your correct aspect ratio in theme settings to avoid display issues.
 
 
 
-### TRANSLATED INTO 14 LANGUAGES
+### TRANSLATED INTO 15 LANGUAGES
 
 - English (EN) (default for not supported or untranslated languages)
 - Spanish (ES)
 - Catalan (CA)
 - Euskara (EU)
+- Galego (GL)
 - French (FR)
 - Portuguese (PT)
 - Italian (IT)
 - Deutch (DE)
-- Japanese (JA)
-- Chinese (ZH)
+- Polish (PL)
+- Russian (RU)
 - Arabic (AR)
 - Hebrew (HE)
-- Russian (RU)
-- Polish (PL)
+- Chinese (ZH)
+- Japanese (JA)
+
 
 Any collaboration for translation or new language supported is fully appreciated
 
