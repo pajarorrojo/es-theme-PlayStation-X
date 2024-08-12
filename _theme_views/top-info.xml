@@ -398,7 +398,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoScrollDelay>0</autoScrollDelay>
       </text>
 
-      <image name="puntoazul-1" extra="static">
+      <image name="puntoazul-1" extra="static" ifSubset="dummy-data:default|show_version">
          <path>./_theme_inc/images/punto-azul.png</path>
          <pos>0.551 0.024</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.532 0.024</pos>
@@ -412,8 +412,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <saturation if="{global.netplay} == true">1</saturation>
       </image>
 
-      <text name="version" extra="static">
-         <text>v.39</text>
+      <text name="version" extra="static" ifSubset="dummy-data:default|show_version">
+         <text>v.40</text>
          <pos>0.563 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
          <size>0.064 0.035</size>
@@ -490,7 +490,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>bbbbbb</color>
       </image>
 
-      <image name="star-picto" extra="static">
+      <image name="star-picto" extra="static"  ifSubset="dummy-data:default|show_year">
          <path>./_theme_inc/images/star-picto.png</path>
          <pos>0.856 0.054</pos>
          <pos ifSubset="aspect-ratio:16-10|5-3">0.86 0.054</pos>
@@ -503,7 +503,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible ifSubset="aspect-ratio:4-3|3-2|5-4">false</visible>
       </image>
 
-      <text name="trophy-level" extra="static">
+      <text name="theme-release-year" extra="static" ifSubset="dummy-data:default|show_year">
          <text>2024</text>
          <pos>0.875 0.052</pos>
          <pos ifSubset="aspect-ratio:16-10">0.88 0.052</pos>

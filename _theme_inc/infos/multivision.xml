@@ -5,6 +5,70 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Othello Multivision, released in 1983 by Tsukuda Original, is a video game console based on the Sega SG-1000 hardware, offering a gaming experience similar to the Sega Master System and the Nintendo Famicom. Although it had a distinctive casing design and compatibility with exclusive accessories, it did not achieve the same popularity as its competitors.
+			
+Despite its competition, the Othello Multivision is appreciated by retro video game enthusiasts and considered a collectible item. It represents an interesting part of video game history in Japan during the 1980s, highlighting the competition and innovation of that era.
+				</text>
+			<text lang="es">La Othello Multivision, lanzada en 1983 por Tsukuda Original, es una consola de videojuegos basada en el hardware de la Sega SG-1000, ofreciendo una experiencia de juego similar a la Sega Master System y la Nintendo Famicom. Aunque tenía un diseño de carcasa distintivo y compatibilidad con accesorios exclusivos, no logró la misma popularidad que sus competidores.
+			
+A pesar de su competencia, la Othello Multivision es apreciada por los entusiastas de los videojuegos retro y considerada un ítem de colección. Representa una pieza interesante de la historia de los videojuegos en Japón durante los años 80, destacando la competencia y la innovación de esa época.
+			</text>
+			<text lang="ca">La Othello Multivision, llançada el 1983 per Tsukuda Original, és una consola de videojocs basada en el maquinari de la Sega SG-1000, oferint una experiència de joc similar a la Sega Master System i la Nintendo Famicom. Tot i que tenia un disseny de carcassa distintiu i compatibilitat amb accessoris exclusius, no va aconseguir la mateixa popularitat que els seus competidors.
+			
+Malgrat la seva competència, la Othello Multivision és apreciada pels entusiastes dels videojocs retro i considerada un ítem de col·lecció. Representa una peça interessant de la història dels videojocs al Japó durant els anys 80, destacant la competència i la innovació d'aquella època.
+			</text>
+			<text lang="eu">Othello Multivision, 1983an Tsukuda Original-ek kaleratua, Sega SG-1000 hardwarean oinarritutako bideojoko kontsola bat da, Sega Master System eta Nintendo Famicom-en antzeko jokatzeko esperientzia eskaintzen duena. Karkasa diseinu bereizgarria eta esklusiboki bateragarriak diren osagarriak zituen arren, ez zuen lehiakideek bezainbesteko ospea lortu.
+			
+Lehiari aurre egin arren, Othello Multivision bideojoko retroko zaleek estimatzen dute eta bilduma-elementu bat bezala hartzen da. Japoniako bideojokoen historiako zati interesgarri bat da 80ko hamarkadan, garai hartako lehia eta berrikuntza nabarmentzen dituena.
+			</text>
+			<text lang="gl">A Othello Multivision, lanzada en 1983 por Tsukuda Original, é unha consola de videoxogos baseada no hardware da Sega SG-1000, ofrecendo unha experiencia de xogo similar á Sega Master System e á Nintendo Famicom. Aínda que tiña un deseño de carcasa distintivo e compatibilidade con accesorios exclusivos, non acadou a mesma popularidade que os seus competidores.
+			
+A pesar da súa competencia, a Othello Multivision é apreciada polos entusiastas dos videoxogos retro e considerada un ítem de colección. Representa unha peza interesante da historia dos videoxogos no Xapón durante os anos 80, destacando a competencia e a innovación desa época.
+			</text>
+			<text lang="fr">La Othello Multivision, lancée en 1983 par Tsukuda Original, est une console de jeux vidéo basée sur le matériel de la Sega SG-1000, offrant une expérience de jeu similaire à la Sega Master System et à la Nintendo Famicom. Bien qu'elle ait un design de boîtier distinctif et une compatibilité avec des accessoires exclusifs, elle n'a pas atteint la même popularité que ses concurrents.
+			
+Malgré sa concurrence, l'Othello Multivision est appréciée par les amateurs de jeux vidéo rétro et considérée comme un objet de collection. Elle représente une partie intéressante de l'histoire des jeux vidéo au Japon dans les années 80, mettant en avant la concurrence et l'innovation de cette époque.
+			</text>
+			<text lang="pt">O Othello Multivision, lançado em 1983 pela Tsukuda Original, é um console de videogame baseado no hardware do Sega SG-1000, oferecendo uma experiência de jogo semelhante ao Sega Master System e ao Nintendo Famicom. Embora tivesse um design de caixa distinto e compatibilidade com acessórios exclusivos, não alcançou a mesma popularidade que seus concorrentes.
+			
+Apesar da concorrência, o Othello Multivision é apreciado pelos entusiastas dos videogames retro e considerado um item de coleção. Representa uma parte interessante da história dos videogames no Japão durante os anos 80, destacando a concorrência e a inovação dessa época.
+			</text>
+			<text lang="it">La Othello Multivision, lanciata nel 1983 da Tsukuda Original, è una console per videogiochi basata sull'hardware della Sega SG-1000, offrendo un'esperienza di gioco simile alla Sega Master System e alla Nintendo Famicom. Sebbene avesse un design distintivo della scocca e la compatibilità con accessori esclusivi, non raggiunse la stessa popolarità dei suoi concorrenti.
+			
+Nonostante la concorrenza, la Othello Multivision è apprezzata dagli appassionati di videogiochi retrò ed è considerata un oggetto da collezione. Rappresenta una parte interessante della storia dei videogiochi in Giappone negli anni '80, mettendo in risalto la competizione e l'innovazione di quell'epoca.
+			</text>
+			<text lang="de">Die Othello Multivision, die 1983 von Tsukuda Original veröffentlicht wurde, ist eine Videospielkonsole, die auf der Hardware des Sega SG-1000 basiert und ein Spielerlebnis ähnlich dem der Sega Master System und der Nintendo Famicom bietet. Obwohl sie ein markantes Gehäusedesign und Kompatibilität mit exklusiven Zubehörteilen hatte, erreichte sie nicht die gleiche Popularität wie ihre Konkurrenten.
+			
+Trotz der Konkurrenz wird die Othello Multivision von Retro-Videospiel-Enthusiasten geschätzt und als Sammlerstück betrachtet. Sie stellt einen interessanten Teil der Videospielgeschichte in Japan während der 1980er Jahre dar und hebt den Wettbewerb und die Innovation dieser Zeit hervor.
+			</text>
+			<text lang="pl">Othello Multivision, wydana w 1983 roku przez Tsukuda Original, to konsola do gier wideo oparta na sprzęcie Sega SG-1000, oferująca doświadczenie rozgrywki podobne do Sega Master System i Nintendo Famicom. Chociaż miała charakterystyczny design obudowy i była kompatybilna z ekskluzywnymi akcesoriami, nie osiągnęła tej samej popularności co jej konkurenci.
+			
+Pomimo konkurencji, Othello Multivision jest ceniona przez entuzjastów retro gier wideo i uważana za przedmiot kolekcjonerski. Reprezentuje interesującą część historii gier wideo w Japonii lat 80., podkreślając konkurencję i innowacje tamtej epoki.
+			</text>
+			<text lang="ru">Othello Multivision, выпущенная в 1983 году компанией Tsukuda Original, представляет собой игровую консоль, основанную на аппаратной платформе Sega SG-1000, предлагая игровой опыт, аналогичный Sega Master System и Nintendo Famicom. Хотя у нее был уникальный дизайн корпуса и совместимость с эксклюзивными аксессуарами, она не достигла такой же популярности, как ее конкуренты.
+			
+Несмотря на конкуренцию, Othello Multivision ценится энтузиастами ретро-видеоигр и считается коллекционным предметом. Она представляет собой интересную часть истории видеоигр в Японии 80-х годов, подчеркивая конкуренцию и инновации того времени.
+			</text>
+			<text lang="zh">Othello Multivision 是由 Tsukuda Original 于1983年发布的基于 Sega SG-1000 硬件的视频游戏机，提供类似于 Sega Master System 和 Nintendo Famicom 的游戏体验。尽管它具有独特的外壳设计和兼容专属配件，但它并没有达到与竞争对手相同的受欢迎程度。
+			
+尽管存在竞争，Othello Multivision 仍然受到复古视频游戏爱好者的喜爱，并被视为收藏品。它代表了1980年代日本视频游戏历史中的一个有趣部分，突显了那个时代的竞争与创新。
+			</text>
+			<text lang="ar">أوتيلو مولتيفيجن، التي أصدرت في 1983 من قبل تسوكودا أوريجينال، هي وحدة تحكم لألعاب الفيديو تستند إلى أجهزة سيجا SG-
+			
+1000، وتقدم تجربة لعب مشابهة لجهاز سيجا ماستر سيستم ونينتندو فاميكوم. على الرغم من أنها كانت تتميز بتصميم مميز للهيكل وتوافق مع ملحقات حصرية، إلا أنها لم تحقق نفس الشعبية مثل منافسيها.
+			
+على الرغم من المنافسة، فإن أوتيلو مولتيفيجن محل تقدير من قبل عشاق ألعاب الفيديو القديمة وتعتبر قطعة قابلة للجمع. تمثل جزءًا مثيرًا للاهتمام من تاريخ ألعاب الفيديو في اليابان خلال الثمانينيات، مما يبرز المنافسة والابتكار في ذلك العصر.
+			</text>
+			<text lang="he">אוטלו מולטיוויז'ן, שהושקה בשנת 1983 על ידי Tsukuda Original, היא קונסולת משחקי וידאו המבוססת על החומרה של Sega SG-1000, ומציעה חוויית משחק דומה לזו של Sega Master System ו-Nintendo Famicom. אף על פי שהיה לה עיצוב ייחודי של המארז והתאמה לאביזרים בלעדיים, היא לא השיגה את אותה פופולריות כמו מתחרותיה.
+			
+למרות התחרות, אוטלו מולטיוויז'ן מוערכת על ידי חובבי משחקי וידאו רטרו ונחשבת לפריט אספנות. היא מייצגת חלק מעניין מההיסטוריה של משחקי הווידאו ביפן במהלך שנות ה-80, ומדגישה את התחרות והחדשנות של אותה תקופה.
+			</text>
+			<text lang="ja">オセロマルチビジョンは、1983年にツクダオリジナルによって発売されたセガSG-1000のハードウェアをベースにしたゲームコンソールで、セガマスターシステムや任天堂ファミコンと同様のゲーム体験を提供します。独自のケースデザインと専用アクセサリとの互換性を備えていましたが、競合他社ほどの人気を博しませんでした。
+			
+競争にもかかわらず、オセロマルチビジョンはレトロゲーム愛好家に評価され、コレクターズアイテムと見なされています。1980年代の日本のゲームの歴史の中で興味深い一部を代表しており、その時代の競争と革新を強調しています。
+			</text>
+		</text>
 				
 		<text name="system_name" extra="true">
 			<text>Multivision</text>

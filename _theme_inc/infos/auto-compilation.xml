@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>Bundles of two or more previously released video games (usually bestsellers) in a later edition and at a lower price.</text>
-			<text lang="es">Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.</text>
+			<text lang="es,gl">Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.</text>
 			<text lang="ca">Packs de dos o més videojocs llançats anteriorment (normalment èxits en vendes) en una edició posterior i a un preu més ajustat.</text>
 			<text lang="eu">Aurreko batez ere argitaratutako bi edo gehiago bideojoko pack-ak (soilik saltzaile onenak) atzerriko bertsioan eta prezio baxuan.</text>
 			<text lang="fr">Ensembles de deux jeux vidéo ou plus précédemment publiés (généralement des meilleures ventes) dans une édition ultérieure et à un prix inférieur.</text>

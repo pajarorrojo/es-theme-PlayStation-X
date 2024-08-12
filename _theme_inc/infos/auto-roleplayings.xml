@@ -9,7 +9,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <text>Role-playing video games, also known by the abbreviation RPG (role-playing game), belong to a genre where the player controls the actions and story of one or several characters immersed in a detailed world or map.
 
 This genre typically involves some form of progressive development of the characters as the story unfolds, either through the recording of various statistics or the evolution of skills, magic, better weapons, armor, etc...</text>
-<text lang="es">Los videojuegos de rol, también llamados por simplificación con las siglas inglesas RPG (role-playing game) pertenecen a un género donde el jugador controla las acciones y la historia de uno o varios personajes inmersos en un mundo o mapa detallado. 
+<text lang="es,gl">Los videojuegos de rol, también llamados por simplificación con las siglas inglesas RPG (role-playing game) pertenecen a un género donde el jugador controla las acciones y la historia de uno o varios personajes inmersos en un mundo o mapa detallado. 
 
 Este género normalmente implica alguna forma de desarrollo progresivo de sus personajes a medida que transcurre la historia, ya sea mediante el registro de estadísticas varias o la evolución de habilidades, magias, mejores armas, armaduras etc...</text>
 <text lang="ca">Els videojocs de rol, també anomenats per simplificació amb les sigles angleses RPG (role-playing game) pertanyen a un gènere on el jugador controla les accions i la història d'un o diversos personatges immersos en un món o mapa detallat.
@@ -45,7 +45,7 @@ Ten gatunek zwykle wymaga pewnej formy progresywnego rozwoju postaci w miarę ro
 </text>
 
 		<text name="system_name" extra="true">
-			<text lang="es">Juegos de Rol (RPG)</text>
+			<text lang="es,gl">Juegos de Rol (RPG)</text>
 		</text>
 	</view>
 	<view name="system,detailed, grid">

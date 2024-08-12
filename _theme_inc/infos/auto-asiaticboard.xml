@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>They are basically mahjong games and variants of this classic Chines board game.</text>
-			<text lang="es">Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.</text>
+			<text lang="es,gl">Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.</text>
 			<text lang="ca">Bàsicament són jocs de mahjong i variants d'aquest clàssic joc de taula d'origen xinès.</text>
 			<text lang="eu">Oinezko joko klasiko txinarraren mahjong jokoak eta aldaketak dira funtsezki.</text>
 			<text lang="fr">Essentiellement, ce sont des jeux de mahjong et des variantes de ce jeu de plateau classique d'origine chinoise.</text>

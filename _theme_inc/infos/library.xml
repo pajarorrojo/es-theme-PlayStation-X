@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Place in library directory your magazine and videos. 
 				
 Acceptable extensions : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
-			<text lang="es">Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... 
+			<text lang="es,gl">Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... 
 				
 Extensiones aceptadas: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
 			<text lang="ca">Col·loca en el directori "library" els elements que conformaran la teva pròpia biblioteca de mitjans; com ara revistes, catàlegs, vídeos, imatges, etc. 
@@ -47,7 +47,7 @@ Akceptowane rozszerzenia: .jpg, .jpeg, .png, .bmp, .psd, .tga, .gif, .hdr, .pic,
 		
 
 		<text name="system_name" extra="true">
-			<text lang="es">Biblioteca</text>
+			<text lang="es,gl">Biblioteca</text>
 			<text lang="ca">Biblioteca</text>
 			<text lang="eu">Liburutegia</text>		
 		</text>

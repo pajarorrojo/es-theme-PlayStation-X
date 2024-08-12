@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>Xash3D FWGS is a fork of Xash3D Engine, which compatible with GoldSrc engine. Allows play Half-Life out-of-the-box and many Half-Life based modifications.</text>
-			<text lang="es,ca,eu">Xash3D FWGS es una bifurcación del motor Xash3D, que es compatible con el motor GoldSrc. Permite jugar Half-Life fuera de la caja y muchas modificaciones basadas en Half-Life.</text>
+			<text lang="es,gl,ca,eu">Xash3D FWGS es una bifurcación del motor Xash3D, que es compatible con el motor GoldSrc. Permite jugar Half-Life fuera de la caja y muchas modificaciones basadas en Half-Life.</text>
 			<text lang="fr">Xash3D FWGS est un fork de Xash3D Engine, compatible avec le moteur GoldSrc. Permet de jouer à Half-Life et à de nombreux mods d'Half-Life.</text>
 			<text lang="pt">O Xash3D FWGS é um fork do Xash3D Engine, compatível com o mecanismo GoldSrc. Permite jogar o Half-Life out-of-the-box e muitas modificações baseadas no Half-Life.</text>
 		</text>

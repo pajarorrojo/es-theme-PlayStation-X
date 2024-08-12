@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving</text>
-			<text lang="es">Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.</text>
+			<text lang="es,gl">Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.</text>
 			<text lang="ca">Aquests jocs es caracteritzen per l'exploració, la investigació, la resolució de puzles, la interacció amb personatges i el progrés de manera lineal i centrada en la trama del joc.</text>
 			<text lang="eu">Joko hauek esplorazioarekin, ikerketarekin, puzzle-en ebazpenarekin, pertsonaien arteko interakzioarekin eta jokoaren plotan zentratutako progresio linealarekin ezaugarritzen dira.</text>
 			<text lang="fr">Ces jeux se caractérisent par l'exploration, l'investigation, la résolution de puzzles, l'interaction avec des personnages et une progression linéaire centrée sur l'intrigue du jeu.</text>

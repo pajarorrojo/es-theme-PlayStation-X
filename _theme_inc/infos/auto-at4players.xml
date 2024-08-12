@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>A list of all compatible games for four players, of any system.</text>
-			<text lang="es">Una lista con todos los juegos compatibles para cuatro jugadores, de cualquier sistema.</text>
+			<text lang="es,gl">Una lista con todos los juegos compatibles para cuatro jugadores, de cualquier sistema.</text>
 			<text lang="ca">Llista de tots els jocs compatibles per a quatre jugadors, de qualsevol sistema.</text>
 			<text lang="eu">Laneko sistema bakoitzeko lau jokalarien arteko joko guztiak bilduko dituen zerrenda.</text>
 			<text lang="fr">Une liste de tous les jeux compatibles pour quatre joueurs, de n'importe quel système.</text>

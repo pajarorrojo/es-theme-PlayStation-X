@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>Games that consist of a board, specific rules, and pieces of different shapes and elaborated colors, usually in this list you will find classic board games adapted to the screen and especially chess games.</text>
-			<text lang="es">Juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.</text>
+			<text lang="es,gl">Juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.</text>
 			<text lang="ca">Jocs que consten d'un tauler, regles específiques i fitxes de diferents formes i colors més o menys elaborades, per lo general en aquesta llista trobaràs jocs de taula clàssics adaptats a la pantalla i sobretot jocs d'escacs.</text>
 			<text lang="eu">Taula-joko batzuk dira, arau bereziak eta formak eta koloreak bereiziak diren piezak dituztenak, oso ohikoak dira taula-joko klasikoak pantailara egokituak eta batez ere xake jokoak.</text>
 			<text lang="fr">Jeux qui consistent en un plateau, des règles spécifiques et des pièces de formes et couleurs différentes plus ou moins élaborées, généralement dans cette liste vous trouverez des jeux de société classiques adaptés à l'écran et surtout des jeux d'échecs.</text>

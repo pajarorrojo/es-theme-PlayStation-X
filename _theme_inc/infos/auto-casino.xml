@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>Slot machines, roulette, cards or any other type of casino game adapted for the screen.</text>
-			<text lang="es">Tragaperras, ruleta, cartas o cualquier otro tipo de juego de casino adaptado a la pantalla.</text>
+			<text lang="es,gl">Tragaperras, ruleta, cartas o cualquier otro tipo de juego de casino adaptado a la pantalla.</text>
 			<text lang="ca">Tragamonedes, ruleta, cartes o qualsevol altre tipus de joc de casino adaptat a la pantalla.</text>
 			<text lang="eu">Pantailara egokitu diren slot makina, erruleta, karta edo kasino joko mota guztiak.</text>
 			<text lang="fr">Machines à sous, roulette, cartes ou tout autre type de jeu de casino adapté à l'écran.</text>

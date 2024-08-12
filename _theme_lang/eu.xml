@@ -93,5 +93,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-lastplayedLabel>Azken jokatutakoa</theme-lastplayedLabel>
 		<theme-timesPlayedLabel>Zenbat aldiz jokatua:</theme-timesPlayedLabel>
 		<theme-gameTimeLabel>Joko Denbora:</theme-gameTimeLabel>
+    <theme.dummydata>Bertsioa eta urtea goiko aldean erakutsi</theme.dummydata>
+    <dummydata.showversion>Bertsioa bakarrik</dummydata.showversion>
+    <dummydata.showyear>Urtea bakarrik</dummydata.showyear>    
   </variables>
 </theme>

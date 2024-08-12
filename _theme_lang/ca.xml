@@ -93,5 +93,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme-lastplayedLabel>Jugat per última vegada</theme-lastplayedLabel>
     <theme-timesPlayedLabel>Partides Jugades:</theme-timesPlayedLabel>
     <theme-gameTimeLabel>Temps Jugat:</theme-gameTimeLabel>
+    <theme.dummydata>Mostrar versió i any a la part superior</theme.dummydata>
+    <dummydata.showversion>Només versió</dummydata.showversion>
+    <dummydata.showyear>Només any</dummydata.showyear>
   </variables>
 </theme>

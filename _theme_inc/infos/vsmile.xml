@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The V.Smile is a sixth-generation educational home video game console manufactured and released by VTech. Titles are available on ROM cartridges called "Smartridges" and the graphics are primarily sprite-based. </text>
-			<text lang="es,ca,eu">V.Smile es una consola de videojuegos doméstica educativa de sexta generación fabricada y lanzada por VTech. Los títulos están disponibles en cartuchos ROM llamados "Smartridges" y los gráficos se basan principalmente en sprites.</text>
+			<text lang="es,gl,ca,eu">V.Smile es una consola de videojuegos doméstica educativa de sexta generación fabricada y lanzada por VTech. Los títulos están disponibles en cartuchos ROM llamados "Smartridges" y los gráficos se basan principalmente en sprites.</text>
 		</text>
 
 		<text name="system_name" extra="true">

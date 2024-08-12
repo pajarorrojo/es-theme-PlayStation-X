@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>Porting is also the term used when a video game designed to run on one platform, be it an arcade, video game console, or personal computer, is converted to run on a different platform.</text>
-			<text lang="es,ca,eu">"Port" es un videojuego que ha sido convertido o "portado" de la plataforma para la que ha sido desarrollada originalmente a una nueva plataforma, sin sufrir ningún cambio significativo en su estructura.</text>
+			<text lang="es,gl,ca,eu">"Port" es un videojuego que ha sido convertido o "portado" de la plataforma para la que ha sido desarrollada originalmente a una nueva plataforma, sin sufrir ningún cambio significativo en su estructura.</text>
 			<text lang="fr">Plusieurs développeurs ont publié le code source sur bon nombre de leurs anciens titres, leur permettant d’exécuter des applications natives sur de nombreuses plates-formes alternatives, y compris Linux.</text>
 			<text lang="pt">Vários desenvolvedores lançaram o código-fonte para muitos de seus títulos clássicos, permitindo que eles sejam nativos para muitas plataformas alternativas, incluindo o Linux.</text>
 		</text>

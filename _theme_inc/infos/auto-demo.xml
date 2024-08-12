@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>A fragment or limited version of a video game distributed (usually for free) in order to showcase the main features of the game and promote it among players.</text>
-			<text lang="es">Fragmento o versión limitada de un videojuego distribuído (normalmente de manera gratuíta) con el fin de dar a conocer las características principales del juego y promocionarlo entre los jugadores.</text>
+			<text lang="es,gl">Fragmento o versión limitada de un videojuego distribuído (normalmente de manera gratuíta) con el fin de dar a conocer las características principales del juego y promocionarlo entre los jugadores.</text>
 			<text lang="ca">Fragment o versió limitada d'un videojoc distribuïda (normalment de manera gratuïta) amb la finalitat de donar a conèixer les característiques principals del joc i promocionar-lo entre els jugadors.</text>
 			<text lang="eu">Bideo-jokoa nahastu edo mugarikatuaren bertsioa (ohikoa da doako moduan banatuta) jokoaren ezaugarri nagusiak ezagutarazteko eta jokalarien artean sustatzeko banatzen da.</text>
 			<text lang="fr">Fragment ou version limitée d'un jeu vidéo distribué (généralement gratuitement) afin de présenter les principales caractéristiques du jeu et de le promouvoir auprès des joueurs.</text>

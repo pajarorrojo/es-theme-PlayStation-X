@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>Sports videogames is a genre that simulates the practice of sports. Most sports have been recreated with a videogame, including team sports, track and field, extreme sports, and combat sports.</text>
-			<text lang="es">Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.</text>
+			<text lang="es,gl">Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.</text>
 			<text lang="ca">Els videojocs esportius són un gènere que simula la pràctica de esports. La majoria dels esports han estat recreats en un videojoc, incloent esports d'equip, atletisme, esports extremos i esports de combat.</text>
 			<text lang="eu">Kirol joko bideoak kirola praktikatzeari ohikoak dira. Kirol asko bideojoko batean erreproduziatu dira, talde kirolak, atletismoa, kirol ekstremoak eta borroka kirolak barne.</text>
 			<text lang="fr">Les jeux vidéo de sport est un genre qui simule la pratique des sports. La plupart des sports ont été recréés avec un jeu, y compris les sports d'équipe, l'athlétisme, les sports extrêmes et les sports de combat.</text>

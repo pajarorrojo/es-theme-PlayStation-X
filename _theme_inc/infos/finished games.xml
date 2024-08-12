@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>This collection is designed to store and organize games you consider completed, serving as a historical record or reference of the titles you have finished.</text>
-			<text lang="es">Esta colección está pensada para guardar y organizar los juegos que consideres finalizados, actuando así como un registro histórico o referencia de los títulos que has completado.</text>
+			<text lang="es,gl">Esta colección está pensada para guardar y organizar los juegos que consideres finalizados, actuando así como un registro histórico o referencia de los títulos que has completado.</text>
 			<text lang="ca">Aquesta col·lecció està pensada per desar i organitzar els jocs que consideris finalitzats, actuant així com un registre històric o referència dels títols que has completat.</text>
             <text lang="eu">Kolekzio hau pentsatua dago, jokoen organitzatzeko eta gordeko, amaituak uste dituzun jokoen erregistro historiko edo erreferentzia gisa jarduten dena.</text>
 			<text lang="fr">Cette collection est conçue pour stocker et organiser les jeux que vous considérez comme terminés, servant ainsi de registre historique ou de référence des titres que vous avez terminés.</text>
@@ -25,7 +25,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_name" extra="true">
 			<text>Finished games</text>
-			<text lang="es">Juegos finalizados</text>
+			<text lang="es,gl">Juegos finalizados</text>
 			<text lang="ca">Jocs finalitzats</text>
 			<text lang="eu">Joko amaituak</text>
 			<text lang="fr">Jeux terminés</text>

@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The Super A'can is a home video game console released exclusively in Taiwan in 1995 by Funtech/Dunhuang Technology. It is based around the Motorola 68000 microchip, which is also used in the SEGA Genesis and Neo Geo. Twelve games have been confirmed to exist for the system. </text>
-			<text lang="es,ca,eu">El Super A'can es una consola de sobremesa que fue lanzada exclusivamente en Taiwán, en 1995, por la empresa Funtech. En el interior posee un Motorola 68000, también utilizado en la SEGA Génesis y Neo-Geo. Doce juegos fueron confirmados para el sistema. </text>
+			<text lang="es,gl,ca,eu">El Super A'can es una consola de sobremesa que fue lanzada exclusivamente en Taiwán, en 1995, por la empresa Funtech. En el interior posee un Motorola 68000, también utilizado en la SEGA Génesis y Neo-Geo. Doce juegos fueron confirmados para el sistema. </text>
 		</text>
 
 		<text name="system_name" extra="true">

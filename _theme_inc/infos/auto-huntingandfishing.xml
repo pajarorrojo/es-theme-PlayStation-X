@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>In this type of video game the player basically fishes or hunts. Usually they take the form of tournaments and many have a wide variety of places to catch and collect the largest number of pieces.</text>
-			<text lang="es">En este tipo de videojuegos el jugador basicamente pesca o caza. En general suelen adoptar la forma de torneos y muchos cuentan con una amplia variedad de lugares en los que atrapar y coleccionar el mayor numero de piezas.</text>
+			<text lang="es,gl">En este tipo de videojuegos el jugador basicamente pesca o caza. En general suelen adoptar la forma de torneos y muchos cuentan con una amplia variedad de lugares en los que atrapar y coleccionar el mayor numero de piezas.</text>
 			<text lang="ca">En aquest tipus de videojocs el jugador bàsicament pesca o caça. En general solen adoptar la forma de tornejos i molts compten amb una àmplia varietat de llocs on atrapar i col·leccionar el major nombre de peces.</text>
 			<text lang="eu">Joko mota honetan, jokalaria batez ere arrantzatzen edo ehiztatzen da. Oro har, txapelketen antzekoak dira eta askotan pieza kopuru handia atzitzerakoan kokapen anitz eskaintzen dute.</text>
 			<text lang="fr">Dans ce type de jeu vidéo, le joueur pêche ou chasse essentiellement. En général, ils prennent la forme de tournois et nombreux sont ceux qui offrent une grande variété d'emplacements pour attraper et collecter le plus grand nombre de pièces.</text>

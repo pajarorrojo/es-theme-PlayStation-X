@@ -4,7 +4,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
   <formatVersion>7</formatVersion>
   
-  <variables lang="es">
+  <variables lang="es,gl">
     <theme.welcome>Bienvenido a Playstation X para</theme.welcome>
     <theme.start>Iniciar</theme.start>
     <theme.mostplayed>El más jugado:</theme.mostplayed>
@@ -57,7 +57,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.videoSnapAudio>Activar el audio en los vídeos de juegos</theme.videoSnapAudio>
     <theme.animatedList>Transiciones animadas en la lista de juegos</theme.animatedList>
     <theme.animatedSystem>Transiciones animadas en la vista de sistemas</theme.animatedSystem>
-    <theme.aspect-ratio>Seleciona tu tipo de pantalla</theme.aspect-ratio>
+    <theme.aspect-ratio>Selecciona tu tipo de pantalla</theme.aspect-ratio>
     <theme.oversizeVideoOption>Video superpuesto</theme.oversizeVideoOption>
     <theme.bato35compatilble>Solo compatible en batocera 35 o superior</theme.bato35compatilble>
     <theme.netplay-required>Activa netplay en el sistema para mostrar tu nombre de usuario o selecciona otro nick en las opciones del tema</theme.netplay-required>
@@ -94,5 +94,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme-lastplayedLabel>Jugaste por última vez</theme-lastplayedLabel>
     <theme-timesPlayedLabel>Partidas Jugadas:</theme-timesPlayedLabel>
     <theme-gameTimeLabel>Tiempo Jugado:</theme-gameTimeLabel>
+    <theme.dummydata>Mostrar versión y año en la parte superior</theme.dummydata>
+    <dummydata.showversion>Solo versión</dummydata.showversion>
+    <dummydata.showyear>Solo año</dummydata.showyear>
   </variables>
 </theme>

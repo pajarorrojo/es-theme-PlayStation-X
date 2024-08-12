@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>Lutro is an experimental lua game framework for libretro following the LÖVE API.</text>
-			<text lang="es,ca,eu">Lutro es un motor lua experimental basado en la arquitectura libretro usando la LÖVE API como referencia.</text>
+			<text lang="es,gl,ca,eu">Lutro es un motor lua experimental basado en la arquitectura libretro usando la LÖVE API como referencia.</text>
 			<text lang="fr">Lutro est un framework de jeu lua expérimental pour libretro suivant l'API LÖVE.</text>
 			<text lang="pt">Lutro é uma engine lua experimental baseada na arquitetura libretro usando a LÖVE API como referência.</text>
 		</text>

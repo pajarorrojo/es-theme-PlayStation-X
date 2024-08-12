@@ -292,31 +292,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <visible if="${system.manufacturer} == 'Collections'">contains(lower({game:region}), ',') &amp;&amp; !empty({game:region})</visible>
          </image>
 
-         
-         <!--
-         <text name="gamedata-region">
-            <fontSize>0.018</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>{game:region}.upper()</text>
-            <color>${releaseColor}</color>
-            <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
-            <y>0.02</y>
-            <visible>contains(lower({game:region}), ',') &amp;&amp; !empty({game:region}) &amp;&amp; {system:showFlags}  !=0</visible>
-            <visible if="${system.manufacturer} == 'Collections'">contains(lower({game:region}), ',') &amp;&amp; !empty({game:region})</visible>
-         </text> 
-
-         <text name="contenedor-separador-gamedatalang">
-            <text>/</text>
-            <fontSize>0.022</fontSize>
-            <horizontalAlignment>right</horizontalAlignment>
-            <color>${releaseColor}</color>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <visible>contains(lower({game:lang}), ',') &amp;&amp; contains(lower({game:region}), ',')  &amp;&amp; !empty({game:lang})  &amp;&amp; !empty({game:region}) &amp;&amp; {system:showFlags}  !=0</visible>
-            <visible if="${system.manufacturer} == 'Collections'">contains(lower({game:lang}), ',') &amp;&amp; contains(lower({game:region}), ',')  &amp;&amp; !empty({game:lang})  &amp;&amp; !empty({game:region})</visible>
-          </text>
-          -->
-
          <image name="flag-lang">
             <path>./../_theme_inc/images/flags/${theme.lang-flag}.png</path>
             <maxSize>1</maxSize>
@@ -486,9 +461,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size tinyScreen="true">1 0.005</size>
          <color>${sistema.lineainferior}</color>
          <colorEnd>${sistema.lineainferior}</colorEnd>
-         <verticalAlignment>top</verticalAlignment>
          <gradientType>horizontal</gradientType>
-         <alignment>left</alignment>
          <linearSmooth>true</linearSmooth>
          <zIndex>99</zIndex>
          <visible>false</visible>

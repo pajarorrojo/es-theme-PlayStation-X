@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>The Nintendo Game Boy is a portable game console released in 1989. It was the first handheld console with a grayscale screen and became a commercial success by offering a wide variety of games, including classics like Super Mario Land and Tetris.
 
 The console had several updates, including the Game Boy Color and the Game Boy Advance, but the original remains one of the most iconic handheld consoles of all time.</text>        
-			<text lang="es">La Game Boy de Nintendo es una consola de juegos portátil lanzada en 1989. Fue la primera consola portátil con una pantalla en escala de grises y se convirtió en un éxito comercial al ofrecer una amplia variedad de juegos, incluyendo clásicos como Super Mario Land o Tetris.
+			<text lang="es,gl">La Game Boy de Nintendo es una consola de juegos portátil lanzada en 1989. Fue la primera consola portátil con una pantalla en escala de grises y se convirtió en un éxito comercial al ofrecer una amplia variedad de juegos, incluyendo clásicos como Super Mario Land o Tetris.
 
 La consola tuvo varias actualizaciones, incluyendo la Game Boy Color y la Game Boy Advance, pero la original sigue siendo una de las consolas portátiles más icónicas de todos los tiempos.</text>
 			<text lang="ca">La Game Boy de Nintendo és una consola de jocs portàtil llançada el 1989. Va ser la primera consola portàtil amb una pantalla en escala de grisos i es va convertir en un èxit comercial en oferir una àmplia varietat de jocs, incloent clàssics com Super Mario Land o Tetris.
@@ -47,7 +47,7 @@ Konsola doczekała się kilku aktualizacji, w tym Game Boy Color i Game Boy Adva
 
 		<text name="system_name" extra="true">
 			<text>Game Boy (2 Players)</text>
-			<text lang="es">Game Boy (2 Jugadores)</text>
+			<text lang="es,gl">Game Boy (2 Jugadores)</text>
 			<text lang="ca">Game Boy (2 Jugadors)</text>
 			<text lang="eu">Game Boy (2 Jokalari)</text>
 			<text lang="fr">Game Boy (2 Joueurs)</text>

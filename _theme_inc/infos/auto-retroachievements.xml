@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>An automatic list of all Retroachivements compatible games available on the system.</text>
-			<text lang="es">Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
+			<text lang="es,gl">Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
 			<text lang="ca">Una llista de tots els jocs compatibles amb 'Retroachievements' disponibles en el sistema.</text>
 			<text lang="eu">'Retroachievements' sistemako erabilgarri dauden joko guztien zerrenda.</text>
 			<text lang="fr">Une liste de tous les jeux compatibles avec Retroachivements disponibles sur le système.</text>
@@ -22,7 +22,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="system_name" extra="true">
-			<text lang="es">Retro Logros (trofeos)</text>
+			<text lang="es,gl">Retro Logros (trofeos)</text>
 		</text>
 	</view>
 </theme>

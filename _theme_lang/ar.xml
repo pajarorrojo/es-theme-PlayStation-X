@@ -94,5 +94,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme-lastplayedLabel>آخر ما لعب</theme-lastplayedLabel>
 		<theme-timesPlayedLabel>مرات اللعب</theme-timesPlayedLabel>
 		<theme-gameTimeLabel>وقت اللعب</theme-gameTimeLabel>
+    <theme.dummydata>عرض الإصدار والسنة في الأعلى</theme.dummydata>
+    <dummydata.showversion>إصدار فقط</dummydata.showversion>
+    <dummydata.showyear>سنة فقط</dummydata.showyear>        
   </variables>
 </theme>

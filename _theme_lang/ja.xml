@@ -94,5 +94,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-lastplayedLabel>最後にプレイした日時</theme-lastplayedLabel>
 		<theme-timesPlayedLabel>プレイ回数</theme-timesPlayedLabel>
 		<theme-gameTimeLabel>プレイ時間</theme-gameTimeLabel>
+		<theme.dummydata>バージョンと年を上部に表示</theme.dummydata>
+		<dummydata.showversion>バージョンのみ</dummydata.showversion>
+		<dummydata.showyear>年のみ</dummydata.showyear>				
 	</variables>
 </theme>

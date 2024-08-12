@@ -94,5 +94,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme-lastplayedLabel>Последний запуск</theme-lastplayedLabel>
 		<theme-timesPlayedLabel>Сыграно раз:</theme-timesPlayedLabel>
 		<theme-gameTimeLabel>Время игры:</theme-gameTimeLabel>
+    <theme.dummydata>Показать версию и год в верхней части</theme.dummydata>
+    <dummydata.showversion>Только версия</dummydata.showversion>
+    <dummydata.showyear>Только год</dummydata.showyear>        
   </variables>
 </theme>

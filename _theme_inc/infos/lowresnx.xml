@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 				
 		<text name="system_description" extra="true">
 			<text>LowRes NX was inspired by real 8- and 16-bit systems and simulates chips for graphics, sound and I/O, which actually work like classic hardware.</text>
-			<text lang="es,ca,eu">LowRes NX se inspira en sistemas reales de 8 y 16 bits y simula chips para gráficos, sonido, procesadores... etc para funcionar como el hardware clásico.</text>		
+			<text lang="es,gl,ca,eu">LowRes NX se inspira en sistemas reales de 8 y 16 bits y simula chips para gráficos, sonido, procesadores... etc para funcionar como el hardware clásico.</text>		
 		</text>
 
 		<text name="system_name" extra="true">

@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 <text>Keep out of the reach of children... Wink, wink; nudge, nudge.</text>
-<text lang="es">Mantener fuera del alcance de los niños... Guiño, guiño; codazo, codazo.</text>
+<text lang="es,gl">Mantener fuera del alcance de los niños... Guiño, guiño; codazo, codazo.</text>
 <text lang="ca">Manteniu fora de l'abast dels nens...</text>        
 <text lang="eu">Umeentzako erabilera debekatuta...</text>        
 <text lang="fr">Tenir hors de portée des enfants...</text>        

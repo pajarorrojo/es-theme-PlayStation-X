@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>A list of the last 50 games you have played.</text>
-			<text lang="es">Una lista de los últimos 50 juegos a los que has jugado.</text>
+			<text lang="es,gl">Una lista de los últimos 50 juegos a los que has jugado.</text>
 			<text lang="ca">Una llista dels últims 50 jocs que has jugat.</text>
 			<text lang="eu">Jolastu dituzun azken 50 jokoaren zerrenda.</text>
 			<text lang="fr">Une liste des 50 derniers jeux auxquels vous avez joué.</text>
@@ -22,7 +22,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="system_name" extra="true">
-			<text lang="es">Jugados Recientemente</text>
+			<text lang="es,gl">Jugados Recientemente</text>
 			<text lang="ca">Recents</text>
 			<text lang="eu">Berriki</text>
 			<text lang="fr">Dernier Joués</text>

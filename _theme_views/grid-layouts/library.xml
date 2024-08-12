@@ -128,7 +128,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       
       <text name="systemInfoEx_extra" extra="true">
          <text>{system:total} items </text>
-         <text lang="es">{system:total} elementos</text>
+         <text lang="es,gl">{system:total} elementos</text>
       </text>
 
    </view>

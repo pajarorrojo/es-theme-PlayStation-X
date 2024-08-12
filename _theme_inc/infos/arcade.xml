@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text>Arcade games were coin-operated entertainment machines typically found in public places such as arcades, bars, and amusement parks. 
 				
 These machines featured a wide variety of game genres, including classic arcade games, racing games, fighting games, and more. Players inserted coins or tokens to play the games, and typically competed for high scores or prizes.</text>			
-			<text lang="es">Los juegos arcade eran máquinas recreativas de entretenimiento que funcionaban con monedas y se encontraban típicamente en lugares públicos como salones recreativos, bares y parques de atracciones. 
+			<text lang="es,gl">Los juegos arcade eran máquinas recreativas de entretenimiento que funcionaban con monedas y se encontraban típicamente en lugares públicos como salones recreativos, bares y parques de atracciones. 
 				
 Estas máquinas abarcaban una amplia variedad de géneros de juegos, incluyendo juegos clásicos de arcade, juegos de carreras, juegos de lucha y más. Los jugadores insertaban monedas o fichas para jugar, y generalmente competían por obtener altas puntuaciones o premios.</text>	
 			<text lang="ca">Els jocs arcade eren màquines recreatives d'entreteniment que funcionaven amb monedes i es trobaven típicament en llocs públics com a sales recreatives, bars i parcs d'atraccions. 
@@ -40,7 +40,7 @@ Gracze wrzucali monety lub żetony, aby zagrać w gry i zwykle rywalizowali o wy
 		</text>
 
 		<text name="system_name" extra="true">
-			<text lang="es">Juegos Arcade</text>
+			<text lang="es,gl">Juegos Arcade</text>
 		</text>
 	</view>
 </theme>

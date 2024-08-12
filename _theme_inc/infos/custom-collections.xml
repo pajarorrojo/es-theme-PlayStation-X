@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 
 		<text name="system_name" extra="true">			
-			<text lang="es">Colecciones Personalizadas</text>
+			<text lang="es,gl">Colecciones Personalizadas</text>
 		</text>
 
 	</view>

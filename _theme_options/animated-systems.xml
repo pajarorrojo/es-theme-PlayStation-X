@@ -83,7 +83,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <maxSize ifSubset="carousel:medium">0.2876</maxSize>
       <maxSize ifSubset="carousel:small">0.247</maxSize>
 
-      <alignment>left</alignment>
       <autoFade>false</autoFade>
       <linearSmooth>true</linearSmooth>
       <zIndex>9999</zIndex>

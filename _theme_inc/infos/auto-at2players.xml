@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>A list of all compatible games for two players, of any system.</text>
-			<text lang="es">Una lista con todos los juegos compatibles para dos jugadores, de cualquier sistema.</text>
+			<text lang="es,gl">Una lista con todos los juegos compatibles para dos jugadores, de cualquier sistema.</text>
 			<text lang="ca">Una llista de tots els jocs compatibles per a dos jugadors, de qualsevol sistema.</text>
 			<text lang="eu">Bi jokalarien arteko bideogame guztien zerrenda, edozein sisteman erabilgarri.</text>
 			<text lang="fr">Une liste de tous les jeux compatibles pour deux joueurs, de n'importe quel système.</text>

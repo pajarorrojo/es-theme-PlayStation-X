@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>In this list you will find classic card games, especially poker games in their many variations. It also includes any type of game that uses cards for its performance, such as role-playing, casual, collectible, etc...</text>
-			<text lang="es">En esta lista encontrarás juegos de cartas clásicos, sobretodo de poker en sus muchas variantes. También se incluye cualquier tipo de juego que utilice cartas para su desarrollo, ya sean del tipo rol, casual, coleccionables  etc...</text>
+			<text lang="es,gl">En esta lista encontrarás juegos de cartas clásicos, sobretodo de poker en sus muchas variantes. También se incluye cualquier tipo de juego que utilice cartas para su desarrollo, ya sean del tipo rol, casual, coleccionables  etc...</text>
 			<text lang="ca">En aquesta llista trobaràs jocs de cartes clàssics, especialment jocs de pòquer en les seves moltes variants. També inclou qualsevol tipus de joc que utilitzi cartes per al seu funcionament, com ara jocs de rol, casuals, col·leccionables, etc...</text>
 			<text lang="eu">Kartako joko klasikoak, bere anitzetako poker jokoak batez ere, aurkituko dituzu zerrenda honetan. Kartak erabiltzen dituzten jokoen mota guztiak ere barne hartzen ditu, hala nola rol-jokoak, casual, bildagarriak, eta abar...</text>
 			<text lang="fr">Dans cette liste, vous trouverez des jeux de cartes classiques, en particulier des jeux de poker dans leurs nombreuses variantes. Il comprend également tout type de jeu qui utilise des cartes pour sa performance, tels que des jeux de rôle, des jeux occasionnels, collectionnables, etc...</text>

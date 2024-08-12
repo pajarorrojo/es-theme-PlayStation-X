@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 				
 		<text name="system_description" extra="true">
 			<text>EasyRPG is a community project to create a free, open source, role playing game creation tool, compatible with RPG Maker 2000/2003 games.</text>
-			<text lang="es,ca,eu">EasyRPG es un proyecto comunitario de herramienta gratuita para la creación de juegos de rol de código abierto, compatible con los juegos RPG Maker 2000/2003.</text>
+			<text lang="es,gl,ca,eu">EasyRPG es un proyecto comunitario de herramienta gratuita para la creación de juegos de rol de código abierto, compatible con los juegos RPG Maker 2000/2003.</text>
 			<text lang="fr">EasyRPG est un projet communautaire visant à créer un outil de création de jeux de rôle gratuit, open source, compatible avec les jeux RPG Maker 2000/2003.</text>
 			<text lang="pt">EasyRPG é um projeto comunitário para criar uma ferramenta de criação de jogos RPG de código aberto, compatível com jogos RPG Maker 2000/2003.</text>
 		</text>

@@ -1,0 +1,71 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+
+				<text>The Philips Videopac+ G7400, released in 1983, is a video game console that improves upon its predecessor, the Videopac G7000, also known as Magnavox Odyssey² in North America. The G7400 offered higher resolution and more detailed graphics and maintained compatibility with the entire G7000 game library.
+				
+The console also included an integrated keyboard, which made it easier to use for a variety of applications in addition to video games. Although it did not achieve great popularity, the G7400 represented a significant advance in graphics capabilities for its time.</text>
+				<text lang="es">La Philips Videopac+ G7400, lanzada en 1983, es una consola de videojuegos que mejora sobre su predecesora, la Videopac G7000, también conocida como Magnavox Odyssey² en Norteamérica. La G7400 Ofrecía gráficos de mayor resolución y más detallados y mantenía la compatibilidad con toda la biblioteca de juegos de la G7000.
+
+La consola también incluía un teclado integrado, lo que facilitaba su uso para una variedad de aplicaciones además de los videojuegos. Aunque no alcanzó gran popularidad, la G7400 representaba un avance significativo en términos de capacidades gráficas para su época.</text>
+				
+				<text lang="ca">La Philips Videopac+ G7400, llançada el 1983, és una consola de videojocs que millora la seva predecessora, la Videopac G7000, també coneguda com a Magnavox Odyssey² a Amèrica del Nord. La G7400 oferia gràfics de major resolució i més detallats i mantenia la compatibilitat amb tota la biblioteca de jocs de la G7000.
+				
+La consola també incloïa un teclat integrat, cosa que facilitava el seu ús per a una varietat d'aplicacions a més dels videojocs. Tot i que no va aconseguir una gran popularitat, la G7400 representava un avenç significatiu en termes de capacitats gràfiques per a la seva època.</text>
+				<text lang="eu">Philips Videopac+ G7400, 1983an kaleratua, bere aurrekoa den Videopac G7000 hobetu duen bideojoko kontsola da, Ipar Amerikan Magnavox Odyssey² izenez ere ezagutzen dena. G7400ak erresoluzio handiagoko eta xehetasun handiagoko grafikak eskaintzen zituen eta G7000 joko liburutegi osoarekin bateragarritasuna mantentzen zuen.
+				
+Kontsolak teklatu integratua ere bazuen, eta horrek bideojokoez gain hainbat aplikaziotarako erabiltzea errazten zuen. Ez zuen ospe handirik lortu arren, G7400ak aurrerapen esanguratsua irudikatzen zuen bere garairako grafiko gaitasunetan.</text>
+				<text lang="gl">A Philips Videopac+ G7400, lanzada en 1983, é unha consola de videoxogos que mellora sobre a súa predecesora, a Videopac G7000, tamén coñecida como Magnavox Odyssey² en Norteamérica. A G7400 ofrecía gráficos de maior resolución e máis detallados e mantíña a compatibilidade con toda a biblioteca de xogos da G7000.
+				
+A consola tamén incluía un teclado integrado, o que facilitaba o seu uso para unha variedade de aplicacións ademais dos videoxogos. Aínda que non acadou gran popularidade, a G7400 representaba un avance significativo en termos de capacidades gráficas para a súa época.</text>
+				<text lang="fr">La Philips Videopac+ G7400, lancée en 1983, est une console de jeux vidéo qui améliore son prédécesseur, la Videopac G7000, également connue sous le nom de Magnavox Odyssey² en Amérique du Nord. La G7400 offrait des graphismes de plus haute résolution et plus détaillés et maintenait la compatibilité avec toute la bibliothèque de jeux de la G7000.
+				
+La console incluait également un clavier intégré, ce qui facilitait son utilisation pour diverses applications en plus des jeux vidéo. Bien qu'elle n'ait pas atteint une grande popularité, la G7400 représentait une avancée significative en termes de capacités graphiques pour son époque.</text>
+				<text lang="pt">O Philips Videopac+ G7400, lançado em 1983, é um console de videogame que melhora em relação ao seu antecessor, o Videopac G7000, também conhecido como Magnavox Odyssey² na América do Norte. O G7400 oferecia gráficos de maior resolução e mais detalhados e mantinha a compatibilidade com toda a biblioteca de jogos do G7000.
+				
+O console também incluía um teclado integrado, o que facilitava seu uso para uma variedade de aplicações além dos videogames. Embora não tenha alcançado grande popularidade, o G7400 representava um avanço significativo em termos de capacidades gráficas para sua época.</text>
+				<text lang="it">La Philips Videopac+ G7400, lanciata nel 1983, è una console per videogiochi che migliora il suo predecessore, la Videopac G7000, nota anche come Magnavox Odyssey² in Nord America. La G7400 offriva grafica a risoluzione più alta e più dettagliata e manteneva la compatibilità con l'intera libreria di giochi della G7000.
+				
+La console includeva anche una tastiera integrata, che ne facilitava l'uso per una varietà di applicazioni oltre ai videogiochi. Sebbene non abbia raggiunto una grande popolarità, la G7400 rappresentava un significativo avanzamento nelle capacità grafiche per il suo tempo.</text>
+				<text lang="de">Die Philips Videopac+ G7400, die 1983 veröffentlicht wurde, ist eine Videospielkonsole, die auf ihrem Vorgänger, der Videopac G7000, auch bekannt als Magnavox Odyssey² in Nordamerika, aufbaut. Die G7400 bot eine höhere Auflösung und detailliertere Grafiken und behielt die Kompatibilität mit der gesamten Spielbibliothek der G7000 bei.
+				
+Die Konsole verfügte auch über eine integrierte Tastatur, die die Nutzung für eine Vielzahl von Anwendungen neben Videospielen erleichterte. Obwohl sie keine große Popularität erreichte, stellte die G7400 einen bedeutenden Fortschritt in Bezug auf Grafikfähigkeiten ihrer Zeit dar.</text>
+				<text lang="pl">Philips Videopac+ G7400, wydana w 1983 roku, to konsola do gier wideo, która poprawia swojego poprzednika, Videopac G7000, znaną również jako Magnavox Odyssey² w Ameryce Północnej. G7400 oferowała grafikę o wyższej rozdzielczości i większej szczegółowości oraz zachowała kompatybilność z całą biblioteką gier G7000.
+				
+Konsola ta miała również zintegrowaną klawiaturę, co ułatwiało jej użycie do różnych aplikacji oprócz gier wideo. Chociaż nie osiągnęła dużej popularności, G7400 reprezentowała znaczny postęp w zakresie możliwości graficznych na swoje czasy.</text>
+				<text lang="ru">Philips Videopac+ G7400, выпущенная в 1983 году, представляет собой игровую консоль, которая является улучшенной версией своего предшественника Videopac G7000, также известного как Magnavox Odyssey² в Северной Америке. G7400 предлагала графику с более высоким разрешением и большей детализацией, сохраняя совместимость с всей библиотекой игр G7000.
+				
+Консоль также включала интегрированную клавиатуру, что облегчало её использование для различных приложений, помимо видеоигр. Хотя она не достигла большой популярности, G7400 представляла значительный шаг вперёд в графических возможностях своего времени.</text>
+				<text lang="zh">飞利浦Videopac+ G7400于1983年发布，是一款改进版的游戏机，基于其前身Videopac G7000（在北美也被称为Magnavox Odyssey²）。G7400提供了更高分辨率和更详细的图形，同时保持与G7000游戏库的兼容性。
+				
+这款游戏机还包含一个集成键盘，除了电子游戏外，还便于各种应用程序使用。尽管它没有达到很高的流行度，但G7400在当时的图形能力方面代表了一个显著的进步。</text>
+				<text lang="ar"><text lang="ar">إن Philips Videopac+ G7400، الذي تم إطلاقه في عام 1983، عبارة عن وحدة تحكم لألعاب الفيديو تعمل على تحسين سابقتها، Videopac G7000، والمعروفة أيضًا باسم Magnavox Odyssey² في أمريكا الشمالية. قدم G7400 دقة أعلى ورسومات أكثر تفصيلاً مع الحفاظ على التوافق مع مكتبة الألعاب الكاملة لجهاز G7000.
+
+تشتمل وحدة التحكم أيضًا على لوحة مفاتيح مدمجة، مما يجعلها سهلة الاستخدام لمجموعة متنوعة من التطبيقات إلى جانب ألعاب الفيديو. على الرغم من أنه لم يحقق شعبية واسعة النطاق، إلا أن جهاز G7400 يمثل تقدمًا كبيرًا من حيث القدرات الرسومية في وقته.</text></text>
+				<text lang="he"><text lang="en">ה-Philips Videopac+ G7400, שהושק בשנת 1983, הוא קונסולת משחקי וידאו המשופרת על קודמו, ה-Videopac G7000, הידועה גם בשם Magnavox Odyssey² בצפון אמריקה. ה-G7400 הציע רזולוציה גבוהה יותר, גרפיקה מפורטת יותר תוך שמירה על תאימות עם כל ספריית המשחקים של ה-G7000.
+
+הקונסולה כללה גם מקלדת מובנית, מה שמקל על השימוש במגוון יישומים מלבד משחקי וידאו. למרות שהוא לא זכה לפופולריות רחבה, ה-G7400 ייצג התקדמות משמעותית מבחינת יכולות גרפיות לתקופתו.</text></text>
+				<text lang="ja">1983 年に発売された Philips Videopac+ G7400 は、北米では Magnavox Odyssey² としても知られる、前身である Videopac G7000 を改良したビデオ ゲーム コンソールです。 G7400 は、G7000 のゲーム ライブラリ全体との互換性を維持しながら、より高解像度でより詳細なグラフィックスを提供しました。
+
+	このコンソールにはキーボードも内蔵されており、ビデオ ゲーム以外のさまざまなアプリケーションでも簡単に使用できます。 G7400 は広く普及することはありませんでしたが、当時としてはグラフィックス機能の点で大幅な進歩を遂げました。</text>
+
+			</text>
+
+		<text name="system_name" extra="true">
+			<text>Videopac+ G7400</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>FFF300</color>
+			<colorEnd>FF9200</colorEnd>
+		</image>
+	</view>
+
+</theme>

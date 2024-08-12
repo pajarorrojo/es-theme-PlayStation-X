@@ -8,7 +8,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<text name="system_description" extra="true">
 			<text>The BBC Micro is a series of microcomputers and associated peripherals designed and built by Acorn Computers in 1981 for The British Broadcasting Corporation (BBC).</text>
-			<text lang="es,ca,eu">El BBC Micro, conocido cariñosamente como el Beeb, fue uno de los primeros ordenadores domésticos. Fue diseñado y construido en 1981 por Acorn Computers para la British Broadcasting Corporation (BBC).</text>
+			<text lang="es,gl,ca,eu">El BBC Micro, conocido cariñosamente como el Beeb, fue uno de los primeros ordenadores domésticos. Fue diseñado y construido en 1981 por Acorn Computers para la British Broadcasting Corporation (BBC).</text>
 		</text>
 
 		<text name="system_name" extra="true">

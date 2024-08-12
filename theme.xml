@@ -15,19 +15,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--IDIOMAS-->
 	<include>./_theme_lang/default_en.xml</include>
-	<include lang="es">./_theme_lang/${lang}.xml</include>
-	<include lang="ca">./_theme_lang/${lang}.xml</include>
-	<include lang="eu">./_theme_lang/${lang}.xml</include>
-	<include lang="fr">./_theme_lang/${lang}.xml</include>
-	<include lang="pt">./_theme_lang/${lang}.xml</include>
-	<include lang="it">./_theme_lang/${lang}.xml</include>
-	<include lang="ja">./_theme_lang/${lang}.xml</include>
-	<include lang="de">./_theme_lang/${lang}.xml</include>
-	<include lang="ar">./_theme_lang/${lang}.xml</include>
-	<include lang="he">./_theme_lang/${lang}.xml</include>
-	<include lang="ru">./_theme_lang/${lang}.xml</include>
-	<include lang="pl">./_theme_lang/${lang}.xml</include>
-	<include lang="zh">./_theme_lang/${lang}.xml</include>
+	<include lang="es,ca,eu,fr,pt,it,ja,de,ar,he,ru,pl,zh,gl">./_theme_lang/${lang}.xml</include>
 
 
 	<!--PERSONALIZACION-->
@@ -316,6 +304,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="image-full-size" displayName="${image-full-size}" />
 	</subset>
 
+	<!--MOSTRAR DATOS FAKE-->
+	<subset name="dummy-data" displayName="${theme.dummydata}">
+		<include name="default" displayName="${yes}" />
+		<include name="show_version" displayName="${dummydata.showversion}" />
+		<include name="show_year" displayName="${dummydata.showyear}" />
+		<include name="none" displayName="${none}" />
+	</subset>
+
 
 
 
@@ -375,7 +371,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--AUDIO VIDEOSNAP ON/OFF-->
-	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid, classic, carousel, full-grid, single" ifSubset="game-video:window|background|oversize|default">
+	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
 		<include name="enabled" displayName="${yes}" />
 		<include name="disabled" displayName="${no}" />
 	</subset>
@@ -593,8 +589,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
 	<include>./_theme_views/test-media.xml</include>
 	<include>./_theme_inc/infos/${system.theme}.xml</include>
-	<include>./_theme_inc/infos/${system.theme}.xml</include>
-
 
 <!-- VARIABLES DE LAYOUT -->
 
@@ -611,7 +605,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<!-- VARIABLES EXTRAS -->
 		<theme.lang-flag>{game:lang}</theme.lang-flag>
 		<theme.region-flag>{game:region}</theme.region-flag>
-		<theme.game-hasMultidisc>contains(lower({game:rom}), 'disc 1') || contains(lower({game:rom}), 'disc-1') || contains(lower({game:rom}), 'disc1') || contains(lower({game:rom}), 'disc 2') || contains(lower({game:rom}), 'disc-2') || contains(lower({game:rom}), 'disc2') || contains(lower({game:rom}), 'disc 3') || contains(lower({game:rom}), 'disc-3') || contains(lower({game:rom}), 'disc3') || contains(lower({game:rom}), 'disc 4') || contains(lower({game:rom}), 'disc-4') || contains(lower({game:rom}), 'disc4') || contains(lower({game:rom}), 'disc 5') || contains(lower({game:rom}), 'disc-5') || contains(lower({game:rom}), 'disc5') || contains(lower({game:rom}), 'disc 6') || contains(lower({game:rom}), 'disc-6') || contains(lower({game:rom}), 'disc6') || contains(lower({game:rom}), 'disc 7') || contains(lower({game:rom}), 'disc-7') || contains(lower({game:rom}), 'disc7') || contains(lower({game:rom}), 'disc 8') || contains(lower({game:rom}), 'disc-8') || contains(lower({game:rom}), 'disc8') || contains(lower({game:rom}), 'disc 9') || contains(lower({game:rom}), 'disc-9') || contains(lower({game:rom}), 'disc9') || contains(lower({game:rom}), 'part 1') || contains(lower({game:rom}), 'part 2') || contains(lower({game:rom}), 'part 3') || contains(lower({game:rom}), 'part 4') || contains(lower({game:rom}), 'parte 1') || contains(lower({game:rom}), 'parte 2') || contains(lower({game:rom}), 'parte 3')  || contains(lower({game:rom}), 'parte 4') || contains(lower({game:rom}), 'part-1') || contains(lower({game:rom}), 'part-2') || contains(lower({game:rom}), 'part-3') || contains(lower({game:rom}), 'part4')</theme.game-hasMultidisc>
+		<theme.game-hasMultidisc>contains(lower({game:rom}), 'disk 1') || contains(lower({game:rom}), 'disk 2') || contains(lower({game:rom}), 'disk 3') || contains(lower({game:rom}), 'disk 4') || contains(lower({game:rom}), 'disk 5') || contains(lower({game:rom}), 'disk 6') || contains(lower({game:rom}), 'disk1') || contains(lower({game:rom}), 'disk2') || contains(lower({game:rom}), 'disk3') || contains(lower({game:rom}), 'disk4') || contains(lower({game:rom}), 'disk5') || contains(lower({game:rom}), 'disc a') || contains(lower({game:rom}), 'disc b') || contains(lower({game:rom}), 'disc 1') || contains(lower({game:rom}), 'disc-1') || contains(lower({game:rom}), 'disc1') || contains(lower({game:rom}), 'disc 2') || contains(lower({game:rom}), 'disc-2') || contains(lower({game:rom}), 'disc2') || contains(lower({game:rom}), 'disc 3') || contains(lower({game:rom}), 'disc-3') || contains(lower({game:rom}), 'disc3') || contains(lower({game:rom}), 'disc 4') || contains(lower({game:rom}), 'disc-4') || contains(lower({game:rom}), 'disc4') || contains(lower({game:rom}), 'disc 5') || contains(lower({game:rom}), 'disc-5') || contains(lower({game:rom}), 'disc5') || contains(lower({game:rom}), 'disc 6') || contains(lower({game:rom}), 'disc-6') || contains(lower({game:rom}), 'disc6') || contains(lower({game:rom}), 'disc 7') || contains(lower({game:rom}), 'disc-7') || contains(lower({game:rom}), 'disc7') || contains(lower({game:rom}), 'disc 8') || contains(lower({game:rom}), 'disc-8') || contains(lower({game:rom}), 'disc8') || contains(lower({game:rom}), 'disc 9') || contains(lower({game:rom}), 'disc-9') || contains(lower({game:rom}), 'disc9') || contains(lower({game:rom}), 'part 1') || contains(lower({game:rom}), 'part 2') || contains(lower({game:rom}), 'part 3') || contains(lower({game:rom}), 'part 4') || contains(lower({game:rom}), 'parte 1') || contains(lower({game:rom}), 'parte 2') || contains(lower({game:rom}), 'parte 3')  || contains(lower({game:rom}), 'parte 4') || contains(lower({game:rom}), 'part-1') || contains(lower({game:rom}), 'part-2') || contains(lower({game:rom}), 'part-3') || contains(lower({game:rom}), 'part-4') || contains(lower({game:rom}), 'disc_1') || contains(lower({game:rom}), 'disc_2') || contains(lower({game:rom}), 'disc_3') || contains(lower({game:rom}), 'disc_')</theme.game-hasMultidisc>
 
 	</variables>
 

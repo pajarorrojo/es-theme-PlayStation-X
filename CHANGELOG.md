@@ -1,3 +1,22 @@
+Version 40 (12/08/2024)
+
+- Fix: The scroll delay in system descriptions has been corrected.
+- Fix: An issue in image galleries displaying a small thumbnail when forced to classic or "game by game" view has been corrected.
+- Fix: Snap video audio in carousel view with grid mode enabled has been corrected.
+- Fix: Typo in Spanish language.
+- Fix: System video (commercial) for Game Boy color (2 players).
+- Added: New theme option to hide year and version from top info area.
+- Added: "diskX" and "disk x" terms have been added to the multi-disc filters.
+- Added: Various media files for systems have been modified or added (thanks to CadmiunRED).
+- Added: System descriptions for Multivision and Videopac+.
+- Added: System videos (commercials) for Multivision game park 32, Super Game Boy and Fujitsu FM-7.
+- Added: New themeable collection: "Star Wars."
+- Added: Galician language to theme options. Untranslated systems descriptions will be shown in Spanish by default.
+
+
+
+
+-----------------------
 Version 39 (09/02/2024)
 
 **Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, this theme version is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.

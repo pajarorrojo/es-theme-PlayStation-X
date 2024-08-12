@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>This list basically includes horse racing or equestrian games.</text>
-			<text lang="es">En esta lista encontrás basicamente juegos de hípica o carreras de caballos.</text>
+			<text lang="es,gl">En esta lista encontrás basicamente juegos de hípica o carreras de caballos.</text>
 			<text lang="ca">En aquesta llista trobes bàsicament jocs d'hípica o curses de cavalls.</text>
 			<text lang="eu">Listan honetan hipikako jokoak edo zaldi lasterketak daude oinarrizkoz.</text>
 			<text lang="fr">Cette liste comprend essentiellement des jeux de courses hippiques ou équestres.</text>

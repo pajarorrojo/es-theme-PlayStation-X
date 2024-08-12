@@ -7,7 +7,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>This type of video game usually adopts the contest format for several players in turns. Tests, questions, riddles... Who will win?</text>
-			<text lang="es">Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.</text>
+			<text lang="es,gl">Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.</text>
 			<text lang="ca">Aquest tipus de videojocs sol adoptar el format de concurs per a diversos jugadors per torns. Proves, preguntes, endevinalles... Qui guanyarà?</text>
 			<text lang="eu">Jokalari anitzeko lehiaketarako txandakatu joko mota hau izaten da ohikoak. Frogak, galderak, aurreiritziak ... Nork irabaziko du?</text>
 			<text lang="fr">Ce type de jeu vidéo adopte généralement le format d'un jeu télévisé multijoueur tour par tour. Défis, questions, énigmes... Qui gagnera ?</text>
@@ -21,7 +21,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="system_name" extra="true">
-			<text lang="es">Juegos de preguntas</text>
+			<text lang="es,gl">Juegos de preguntas</text>
 			<text lang="ca">Jocs de preguntes</text>
 			<text lang="eu">Galdera jokoak</text>
 		</text>

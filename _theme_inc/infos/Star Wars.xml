@@ -1,0 +1,31 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Star Wars saga has had a vast presence in video games since the 80s, with titles like "Star Wars: The Empire Strikes Back" (1982) and "Star Wars" (1983), followed by "Star Wars: X-Wing" (1993) and "Star Wars: TIE Fighter" (1994). Other notable games from the 90s include "Star Wars: Dark Forces" (1995) and "Star Wars: Shadows of the Empire" (1996).
+
+In the 2000s, acclaimed games like "Star Wars: Knights of the Old Republic" (2003), "Star Wars: Battlefront" (2004), and "Star Wars: Republic Commando" (2005) were released. The saga continues to be a highly active IP in the realm of video games, with new releases for various platforms.
+			</text>
+			<text lang="es,gl,ca,eu">La saga de Star Wars ha tenido una vasta presencia en los videojuegos desde los años 80, con títulos como "Star Wars: The Empire Strikes Back" (1982) y "Star Wars" (1983), seguidos por "Star Wars: X-Wing" (1993) y "Star Wars: TIE Fighter" (1994). Otros juegos destacados de los 90 incluyen "Star Wars: Dark Forces" (1995) y "Star Wars: Shadows of the Empire" (1996).
+
+En la década de 2000, se lanzaron juegos aclamados como "Star Wars: Knights of the Old Republic" (2003), "Star Wars: Battlefront" (2004) y "Star Wars: Republic Commando" (2005). La saga continua siendo hoy en dia una IP muy activa en el ámbito y lanzamiento de videojuegos para distinta plataformas. 
+			</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Star Wars</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>FF3300</color>
+			<colorEnd>FF0000</colorEnd>
+		</image>
+	</view>
+</theme>

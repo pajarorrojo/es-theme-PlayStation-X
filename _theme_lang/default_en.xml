@@ -95,5 +95,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-lastplayedLabel>Last Played</theme-lastplayedLabel>
 		<theme-timesPlayedLabel>Times Played:</theme-timesPlayedLabel>
 		<theme-gameTimeLabel>Game Time:</theme-gameTimeLabel>
+		<theme.dummydata>Display version and year in the top area</theme.dummydata>
+		<dummydata.showversion>Only version</dummydata.showversion>
+		<dummydata.showyear>Only year</dummydata.showyear>	
 	</variables>
 </theme>

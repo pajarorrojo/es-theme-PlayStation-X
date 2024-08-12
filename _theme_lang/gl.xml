@@ -1,0 +1,101 @@
+﻿<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <variables lang="gl">
+    <theme.welcome>Benvido a Playstation X para</theme.welcome>
+    <theme.start>Iniciar</theme.start>
+    <theme.mostplayed>O máis xogado:</theme.mostplayed>
+    <theme.items>Número de elementos:</theme.items>
+    <theme.collections>coleccións</theme.collections>
+    <GamesNumber>Xogos</GamesNumber>
+    <GamesFavs>Favoritos</GamesFavs>
+    <NumberPlayed>Xogados</NumberPlayed>
+    <blue>Azul</blue>
+    <black>Negro</black>
+    <red>vermello</red>
+    <yellow>amarelo</yellow>
+    <green>verde</green>
+    <purple>morado</purple>
+    <orange>laranxa</orange>
+    <pink>rosa</pink>
+    <default>por defecto</default>
+    <big>grande</big>
+    <medium>mediano</medium>
+    <small>pequeno</small>
+    <yes>Si</yes>
+    <no>Non</no>
+    <none>Ningún</none>
+    <never>Nunca</never>
+    <always>Sempre</always>
+    <iconset>Tipo de Iconas e botóns</iconset>
+    <theme.frontend>Selecciona o teu frontend favorito</theme.frontend>
+    <gameBar>Mostrar a información de xogos</gameBar>
+    <CarouselImageSize>Tamaño do carrusel de sistemas</CarouselImageSize>
+    <theme.videoBackground>Mostrar vídeos na vista de sistemas</theme.videoBackground>
+    <theme.videoRandom>Mostrar vídeo de xogo aleatorio</theme.videoRandom>
+    <ifnospot>Se non existe vídeo do sistema</ifnospot>
+    <theme.system-description>Mostrar descricións de sistemas</theme.system-description>
+    <theme.animated-background>Fondo animado (ondas)</theme.animated-background>
+    <theme.backgroundVideoOption>Vídeo de fondo</theme.backgroundVideoOption>
+    <theme.windowVideoOption>Vídeo en xanela</theme.windowVideoOption>
+    <theme.insideVideoOption>Dentro da cuadrícula</theme.insideVideoOption>
+    <theme.smallScreenOption>Ventá pequena</theme.smallScreenOption>
+    <theme.videoaudio>Activar o audio nos vídeos de sistemas</theme.videoaudio>
+    <theme.Avatar>Escolle a túa imaxe de Avatar</theme.Avatar>
+    <theme.username>Escolle un Nick</theme.username>
+    <custom>Personalizado</custom>
+    <theme.videoGamelistDelay>Retardo do vídeo na lista de xogos</theme.videoGamelistDelay>
+    <VideoOff>Non mostrar vídeo</VideoOff>
+    <theme.systemConsole>Mostrar consola e logo na vista de sistemas</theme.systemConsole>
+    <randomGame>Xogo Aleatorio</randomGame>
+    <theme.colorset>Cor do tema</theme.colorset>
+    <theme.secondaryColorset>Cor secundaria</theme.secondaryColorset>
+    <theme.gridvideo>Mostrar vídeos de xogos</theme.gridvideo>
+    <theme.videoSnapAudio>Activar o audio nos vídeos de xogos</theme.videoSnapAudio>
+    <theme.animatedList>Transicións animadas na lista de xogos</theme.animatedList>
+    <theme.animatedSystem>Transicións animadas na vista de sistemas</theme.animatedSystem>
+    <theme.aspect-ratio>Selecciona o teu tipo de pantalla</theme.aspect-ratio>
+    <theme.oversizeVideoOption>Vídeo superposto</theme.oversizeVideoOption>
+    <theme.bato35compatilble>Só compatible en batocera 35 ou superior</theme.bato35compatilble>
+    <theme.netplay-required>Activa netplay no sistema para mostrar o teu nome de usuario ou selecciona outro nick nas opcións do tema</theme.netplay-required>
+    <theme.ra-required>Activa retroachievements no sistema para mostrar o teu nome de usuario ou selecciona outro nick nas opcións do tema</theme.ra-required>
+    <theme.hotkey>Mostrar axuda hotkey na pant. benvida</theme.hotkey>
+    <theme.hotkey-x86>Mostrar axuda rápida hotkey</theme.hotkey-x86>
+    <theme.hotkey.gamesplash>Só na pantalla de carga do xogo</theme.hotkey.gamesplash>
+    <theme.hotkey.splash>Só na pantalla de benvida</theme.hotkey.splash>
+    <theme.hotkey.both>En ambas pantallas</theme.hotkey.both>
+    <theme.detected>detectada</theme.detected>
+    <theme.detailedorigin>Imaxe na vista detallada</theme.detailedorigin>
+    <theme.gridMainorigin>Imaxe principal na vista de cuadrícula</theme.gridMainorigin>
+    <theme.gridorigin>Imaxes da cuadrícula</theme.gridorigin>
+    <theme.carouselMainOrigin>Imaxe principal na vista de carrusel</theme.carouselMainOrigin>
+    <theme.carouselOrigin>Imaxes do carrusel</theme.carouselOrigin>
+    <theme.systemBackground>Imaxe de fondo na vista de sistemas</theme.systemBackground>
+		<randomFanart>Fanart aleatorio</randomFanart>
+    <theme.gamelistBackground>Imaxe de fondo na lista de xogos</theme.gamelistBackground>
+    <theme.forced>forzado</theme.forced>
+    <theme.gameDescription>Mostrar descricións de xogos</theme.gameDescription>
+    <carouselViewName>Carrusel horizontal</carouselViewName>
+    <classiclViewName>Carrusel clásico</classiclViewName>
+    <theme.mainImage>Imaxe principal</theme.mainImage>
+		<theme.gridImage>Imaxe da cuadrícula</theme.gridImage>
+    <fullGridlViewName>Cuadrícula ampliada</fullGridlViewName>
+    <theme.gamesplash-type>Pantalla de carga de xogos</theme.gamesplash-type>
+		<image-full-size>Imaxe a pantalla completa</image-full-size>
+    <theme.nav-sounds>Sons de navegación</theme.nav-sounds>
+    <singlelViewName>Xogo a xogo</singlelViewName>
+    <theme.multidisc>multi-disco</theme.multidisc>
+    <theme.box>Caixa</theme.box>
+    <theme.romFolder>Mostrar info da carpeta de ROMs</theme.romFolder>
+    <dim>Atenuado</dim>
+    <theme-lastplayedLabel>Xogaches por última vez</theme-lastplayedLabel>
+    <theme-timesPlayedLabel>Partidas Xogadas:</theme-timesPlayedLabel>
+    <theme-gameTimeLabel>Tempo Xogado:</theme-gameTimeLabel>
+    <theme.dummydata>Amosar versión e ano na parte superior</theme.dummydata>
+    <dummydata.showversion>Só versión</dummydata.showversion>
+    <dummydata.showyear>Só ano</dummydata.showyear>    
+  </variables>
+</theme>

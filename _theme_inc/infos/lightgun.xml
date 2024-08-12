@@ -8,14 +8,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	
 		<text name="system_description" extra="true">
 			<text>An automatic list of all Light Gun compatible games available on the system.</text>
-			<text lang="es,ca,eu">Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
+			<text lang="es,gl,ca,eu">Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
 			<text lang="fr">Une liste de tous les jeux compatibles avec Ligh Guns disponibles sur le système.</text>
 			<text lang="pt">Uma lista automática de todos os jogos compatíveis com Light Guns disponíveis no sistema. </text>
 		</text>
 		
 		<text name="system_name" extra="true">
 			<text>Light Gun Games</text>
-			<text lang="es,ca,eu">Juegos de pistola (Light Gun)</text>
+			<text lang="es,gl,ca,eu">Juegos de pistola (Light Gun)</text>
 		</text>
 	</view>
 </theme>
