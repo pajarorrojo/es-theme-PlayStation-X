@@ -58,8 +58,8 @@ NOTE: The automatic fit is only compatible with batocera 35 or higher, if you us
 ### TRANSLATED INTO 15 LANGUAGES
 
 - English (EN) (default for not supported or untranslated languages)
-- Spanish (ES)
-- Catalan (CA)
+- Español (ES)
+- Català (CA)
 - Euskara (EU)
 - Galego (GL)
 - French (FR)
