@@ -15,10 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="background-front" extra="true">
-         <path>./_theme_inc/images/overlay-full-grid.png</path>
+         <path>${themePath}/_theme_inc/images/overlay-full-grid.png</path>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
-         <minSize>1.001 1.001</minSize>
+         <minSize>1 1</minSize>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
          <zIndex>50</zIndex>
@@ -43,8 +43,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoLayout ifSubset="grid-origin:boxart|thumbnail"  tinyScreen="true" if="{system.theme} == 'dreamcast' || {system.theme} == 'gb' || {system.theme} == 'gba' || {system.theme} == 'gbc'|| {system.theme} == 'nds'|| {system.theme} == 'psx' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcenginecd' || {system.theme} == 'pce-cd' || {system.theme} == 'segacd' || {system.theme} == 'virtualboy'">3 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">4 4</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" tinyScreen="true" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">3 3</autoLayout>
-         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
-         <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
+         <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>
+         <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1.15</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
          <margin tinyScreen="true">0.001 0.001</margin>
@@ -53,15 +53,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <padding>0.005 0.005</padding>
       </imagegrid>
 
+      <image name="overlay-arts" extra="static" ifSubset="overlay-arts:YES">
+         <visible>false</visible>
+      </image>
   
-
       <gridtile name="default">
          <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
          <backgroundEdgeColor ifSubset="grid-origin:thumbnail|boxart|cartridge">00000000</backgroundEdgeColor>
          <backgroundCenterColor>ffffff99</backgroundCenterColor>
          <backgroundCenterColor ifSubset="grid-origin:thumbnail|boxart|cartridge">00000000</backgroundCenterColor>
          <imageSizeMode>minSize</imageSizeMode>
-         <backgroundImage>./_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
+         <backgroundImage>${themePath}/_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
          <imageSizeMode ifSubset="grid-origin:thumbnail|boxart|cartridge">maxSize</imageSizeMode>
          <padding>6</padding>
          <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
@@ -100,10 +102,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.27 0.08</size>
          <color>ffffff</color>
          <backgroundColor>ff000000</backgroundColor>
-         <fontSize>0.036</fontSize>
+         <fontSize>0.033</fontSize>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
          <origin>0 0</origin>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
@@ -153,7 +155,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <image name="console-grid-view" extra="true" if="${system.manufacturer} == 'Collections'">
-         <path>./../_theme_inc/images/consoles/{game:system}.png</path>
+         <path>${themePath}/_theme_inc/images/consoles/{game:system}.png</path>
          <tile>false</tile>
          <pos>0.048 0.875</pos>
          <origin>0.5 0.5</origin>

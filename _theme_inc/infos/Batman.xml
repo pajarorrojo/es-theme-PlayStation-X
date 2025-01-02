@@ -1,0 +1,79 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+<text>Batman made his video game debut in the 1980s with titles aiming to bring the atmosphere of the comics and movies into an interactive format. One of the earliest games, Batman (1986) for the ZX Spectrum, stood out for its isometric design and focus on puzzles, setting a standard for early adaptations of the character. During these years, the Dark Knight appeared on various platforms of the time, including personal computers like the Amstrad CPC, MSX, and Commodore 64.
+
+In the 1990s, Batman expanded his presence to more advanced consoles such as the NES, Sega Genesis, SNES, and arcade systems. Games like Batman (1989), based on Tim Burton's movie, and The Adventures of Batman & Robin (1994) became milestones for capturing the character's action-packed and dark atmosphere. These years cemented Batman as a key figure in video games, adapting to various styles and platforms while continuing to explore his rich narrative in an interactive medium.</text>
+<text lang="es">Batman hizo su debut en los videojuegos en la década de los 80, con títulos que buscaban trasladar la atmósfera de los cómics y películas al formato interactivo. Uno de los primeros juegos, Batman (1986) para ZX Spectrum, destacaba por su diseño isométrico y enfoque en puzzles, estableciendo un estándar para las adaptaciones tempranas del personaje. Durante estos años, el Caballero Oscuro apareció en diversas plataformas de la época, incluyendo ordenadores personales como Amstrad CPC, MSX y Commodore 64.
+
+En los 90, Batman amplió su presencia a consolas más avanzadas como NES, Sega Genesis, SNES y sistemas arcade. Juegos como Batman (1989), basado en la película de Tim Burton, y The Adventures of Batman & Robin (1994), se convirtieron en hitos por capturar el espíritu de acción y la ambientación oscura del personaje. Estos años consolidaron a Batman como una figura clave en los videojuegos, adaptándose a diversos estilos de juego y plataformas, mientras seguía explorando su rica narrativa en el ámbito interactivo.</text>
+<text lang="ca">Batman va debutar en els videojocs durant la dècada dels 80, amb títols que buscaven traslladar l’atmosfera dels còmics i les pel·lícules al format interactiu. Un dels primers jocs, Batman (1986) per a ZX Spectrum, destacava pel seu disseny isomètric i l’enfocament en trencaclosques, establint un estàndard per a les primeres adaptacions del personatge. Durant aquells anys, el Cavaller Fosc va aparèixer en diverses plataformes de l’època, incloent ordinadors personals com l’Amstrad CPC, MSX i Commodore 64.
+
+Als anys 90, Batman va ampliar la seva presència a consoles més avançades com la NES, Sega Genesis, SNES i sistemes arcade. Jocs com Batman (1989), basat en la pel·lícula de Tim Burton, i The Adventures of Batman & Robin (1994) es van convertir en fites per capturar l’esperit d’acció i l’ambientació fosca del personatge. Aquells anys van consolidar Batman com una figura clau en els videojocs, adaptant-se a diversos estils de joc i plataformes mentre seguia explorant la seva rica narrativa en el mitjà interactiu.</text>
+
+<text lang="eu">Batmanek bideojokoetan debuta egin zuen 80ko hamarkadan, komikien eta filmen atmosfera formatu interaktibora eramateko asmoz sortutako izenburuekin. Lehenengo jokoetako bat, Batman (1986), ZX Spectrumerako, ikuspegi isometrikoagatik eta puzzleetan oinarritzeagatik nabarmentzen zen, pertsonaiaren lehen egokitzapenetarako estandar bat ezarriz. Garai horietan, Zaldun Iluna garai hartako hainbat plataformatan agertu zen, hala nola Amstrad CPC, MSX eta Commodore 64 ordenagailu pertsonaletan.
+
+90eko hamarkadan, Batmanek NES, Sega Genesis, SNES eta arcade sistemak bezalako kontsola aurreratuagoetara zabaldu zuen bere presentzia. Tim Burtonen filmearen oinarritutako Batman (1989) eta The Adventures of Batman & Robin (1994) jokoak mugarri bihurtu ziren pertsonaiaren ekintza eta iluntasun giroa harrapatzeagatik. Garai horiek Batman bideojokoetan funtsezko figura bihurtu zuten, joko estilo eta plataforma ezberdinetara egokituz, bitarte interaktiboan bere narrazio aberatsa esploratzen jarraitzen zuen bitartean.</text>
+
+<text lang="gl">Batman fixo o seu debut nos videoxogos na década dos 80, con títulos que buscaban trasladar a atmosfera dos cómics e películas ao formato interactivo. Un dos primeiros xogos, Batman (1986) para ZX Spectrum, destacaba polo seu deseño isométrico e o enfoque en crebacabezas, establecendo un estándar para as primeiras adaptacións do personaxe. Durante estes anos, o Cabaleiro Escuro apareceu en varias plataformas da época, incluíndo ordenadores persoais como Amstrad CPC, MSX e Commodore 64.
+
+Nos 90, Batman ampliou a súa presenza a consolas máis avanzadas como NES, Sega Genesis, SNES e sistemas arcade. Xogos como Batman (1989), baseado na película de Tim Burton, e The Adventures of Batman & Robin (1994) convertéronse en fitos por capturar o espírito de acción e a ambientación escura do personaxe. Estes anos consolidaron a Batman como unha figura clave nos videoxogos, adaptándose a varios estilos de xogo e plataformas mentres continuaba explorando a súa rica narrativa no ámbito interactivo.</text>
+
+<text lang="fr">Batman a fait ses débuts dans les jeux vidéo dans les années 80, avec des titres cherchant à transposer l'atmosphère des bandes dessinées et des films dans un format interactif. L'un des premiers jeux, Batman (1986) pour ZX Spectrum, se distinguait par son design isométrique et son accent sur les énigmes, établissant un standard pour les premières adaptations du personnage. Durant ces années, le Chevalier Noir est apparu sur diverses plateformes de l'époque, notamment des ordinateurs personnels comme l'Amstrad CPC, le MSX et le Commodore 64.
+
+Dans les années 90, Batman a élargi sa présence sur des consoles plus avancées comme la NES, la Sega Genesis, la SNES et les systèmes d'arcade. Des jeux comme Batman (1989), basé sur le film de Tim Burton, et The Adventures of Batman & Robin (1994) sont devenus des jalons pour leur capacité à capturer l'action et l'atmosphère sombre du personnage. Ces années ont consolidé Batman en tant que figure clé des jeux vidéo, s'adaptant à divers styles et plateformes tout en explorant sa riche narration dans un médium interactif.</text>
+
+<text lang="pt">Batman fez sua estreia nos videogames nos anos 80, com títulos que buscavam trazer a atmosfera dos quadrinhos e filmes para um formato interativo. Um dos primeiros jogos, Batman (1986) para ZX Spectrum, destacou-se por seu design isométrico e foco em puzzles, estabelecendo um padrão para as primeiras adaptações do personagem. Durante esses anos, o Cavaleiro das Trevas apareceu em várias plataformas da época, incluindo computadores pessoais como Amstrad CPC, MSX e Commodore 64.
+
+Nos anos 90, Batman expandiu sua presença para consoles mais avançados, como NES, Sega Genesis, SNES e sistemas de arcade. Jogos como Batman (1989), baseado no filme de Tim Burton, e The Adventures of Batman & Robin (1994) tornaram-se marcos por capturar a ação e a atmosfera sombria do personagem. Esses anos consolidaram Batman como uma figura chave nos videogames, adaptando-se a diversos estilos e plataformas enquanto explorava sua rica narrativa em um meio interativo.</text>
+
+<text lang="it">Batman ha fatto il suo debutto nei videogiochi negli anni '80, con titoli che cercavano di trasportare l'atmosfera dei fumetti e dei film in un formato interattivo. Uno dei primi giochi, Batman (1986) per ZX Spectrum, si distingue per il design isometrico e l'attenzione agli enigmi, stabilendo uno standard per le prime trasposizioni del personaggio. Durante quegli anni, il Cavaliere Oscuro è apparso su diverse piattaforme dell'epoca, inclusi computer personali come Amstrad CPC, MSX e Commodore 64.
+
+Negli anni '90, Batman ha ampliato la sua presenza a console più avanzate come NES, Sega Genesis, SNES e sistemi arcade. Giochi come Batman (1989), basato sul film di Tim Burton, e The Adventures of Batman & Robin (1994) sono diventati pietre miliari per catturare l'azione e l'atmosfera oscura del personaggio. Quegli anni hanno consolidato Batman come figura chiave nei videogiochi, adattandosi a diversi stili e piattaforme mentre esplorava la sua ricca narrativa in un mezzo interattivo.</text>
+
+<text lang="de">Batman debütierte in den 1980er Jahren in Videospielen mit Titeln, die die Atmosphäre der Comics und Filme in ein interaktives Format bringen wollten. Eines der ersten Spiele, Batman (1986) für den ZX Spectrum, zeichnete sich durch sein isometrisches Design und den Fokus auf Rätsel aus und setzte damit einen Standard für frühe Adaptionen der Figur. In diesen Jahren erschien der Dunkle Ritter auf verschiedenen Plattformen seiner Zeit, darunter Heimcomputer wie Amstrad CPC, MSX und Commodore 64.
+
+In den 1990er Jahren erweiterte Batman seine Präsenz auf fortschrittlichere Konsolen wie NES, Sega Genesis, SNES und Arcade-Systeme. Spiele wie Batman (1989), basierend auf Tim Burtons Film, und The Adventures of Batman & Robin (1994) wurden zu Meilensteinen, da sie den actionreichen und düsteren Geist der Figur einfingen. Diese Jahre festigten Batmans Rolle als Schlüsselfigur in Videospielen, indem er sich an verschiedene Spielstile und Plattformen anpasste und weiterhin seine reichhaltige Erzählung in einem interaktiven Medium erkundete.</text>
+
+<text lang="pl">Batman zadebiutował w grach wideo w latach 80., w tytułach, które starały się oddać atmosferę komiksów i filmów w formacie interaktywnym. Jedną z pierwszych gier był Batman (1986) na ZX Spectrum, wyróżniający się izometrycznym designem i naciskiem na zagadki, co ustanowiło standard wczesnych adaptacji postaci. W tych latach Mroczny Rycerz pojawił się na różnych platformach, takich jak Amstrad CPC, MSX i Commodore 64.
+
+W latach 90. Batman rozszerzył swoją obecność na bardziej zaawansowane konsole, takie jak NES, Sega Genesis, SNES i systemy arcade. Gry takie jak Batman (1989), oparte na filmie Tima Burtona, oraz The Adventures of Batman & Robin (1994) stały się kamieniami milowymi dzięki uchwyceniu akcji i mrocznej atmosfery postaci. Te lata ugruntowały pozycję Batmana jako kluczowej postaci w grach wideo, dostosowując się do różnych stylów i platform, eksplorując jednocześnie bogatą narrację w interaktywnym medium.</text>
+
+<text lang="ru">Бэтмен дебютировал в видеоиграх в 1980-х годах с играми, которые стремились перенести атмосферу комиксов и фильмов в интерактивный формат. Одна из первых игр, Batman (1986) для ZX Spectrum, выделялась изометрическим дизайном и упором на головоломки, что установило стандарт для ранних адаптаций персонажа. В те годы Тёмный Рыцарь появился на различных платформах того времени, включая персональные компьютеры Amstrad CPC, MSX и Commodore 64.
+
+В 1990-х годах Бэтмен расширил своё присутствие на более продвинутые консоли, такие как NES, Sega Genesis, SNES, а также игровые автоматы. Игры, такие как Batman (1989), основанная на фильме Тима Бертона, и The Adventures of Batman & Robin (1994), стали вехами за захватывающую атмосферу действия и мрака. Эти годы укрепили статус Бэтмена как ключевой фигуры в видеоиграх, адаптируясь к различным стилям игр и платформам, продолжая исследовать его богатый сюжет в интерактивной форме.</text>
+
+<text lang="zh">蝙蝠侠于20世纪80年代首次出现在电子游戏中，这些作品试图将漫画和电影的氛围带入互动形式。其中之一是《Batman》（1986年）为ZX Spectrum开发，因其等距设计和以谜题为中心的玩法而脱颖而出，为角色早期的改编设立了标准。在这些年里，这位黑暗骑士出现在多个平台上，包括Amstrad CPC、MSX和Commodore 64等个人电脑。
+
+到90年代，蝙蝠侠的影响力扩展到更先进的主机，如NES、Sega Genesis、SNES以及街机系统。像《Batman》（1989年）基于蒂姆·伯顿电影的游戏，以及《The Adventures of Batman & Robin》（1994年），因其捕捉到角色的动作精神和黑暗氛围而成为里程碑。这些年巩固了蝙蝠侠在电子游戏领域的重要地位，他不断适应不同风格和平台，同时在互动媒介中探索其丰富的叙事。</text>
+
+<text lang="ar">ظهر باتمان لأول مرة في ألعاب الفيديو في الثمانينيات مع عناوين هدفت إلى نقل أجواء القصص المصورة والأفلام إلى شكل تفاعلي. كانت إحدى أولى الألعاب، "باتمان" (1986) لـ ZX Spectrum، مميزة بتصميمها الإسومتري وتركيزها على الألغاز، مما وضع معيارًا للتكييفات الأولى للشخصية. خلال تلك الفترة، ظهر فارس الظلام على منصات مختلفة مثل Amstrad CPC وMSX وCommodore 64.
+
+في التسعينيات، وسع باتمان وجوده ليشمل أجهزة أكثر تقدمًا مثل NES وSega Genesis وSNES وأنظمة الأركيد. أصبحت ألعاب مثل "باتمان" (1989) المستوحاة من فيلم تيم برتون، و"The Adventures of Batman & Robin" (1994) علامات فارقة بسبب قدرتها على التقاط روح الحركة والأجواء الداكنة للشخصية. عززت تلك السنوات مكانة باتمان كشخصية رئيسية في ألعاب الفيديو، حيث تكيف مع أنماط اللعب المختلفة والمنصات مع الاستمرار في استكشاف سرد قصصي غني في وسط تفاعلي.</text>
+
+<text lang="he">באטמן עשה את הופעת הבכורה שלו במשחקי וידאו בשנות ה-80, עם כותרים שניסו להעביר את האווירה של הקומיקס והסרטים לפורמט אינטראקטיבי. אחד המשחקים הראשונים, Batman (1986) עבור ZX Spectrum, התבלט בעיצוב האיזומטרי ובמיקוד בחידות, והציב סטנדרט לעיבודים מוקדמים של הדמות. במהלך השנים הללו, באטמן הופיע בפלטפורמות שונות כמו Amstrad CPC, MSX ו-Commodore 64.
+
+בשנות ה-90, הרחיב באטמן את נוכחותו לקונסולות מתקדמות יותר כמו NES, Sega Genesis, SNES ומערכות ארקייד. משחקים כמו Batman (1989) המבוסס על סרטו של טים ברטון, ו-The Adventures of Batman & Robin (1994) הפכו לציוני דרך בזכות תפיסת האקשן והאווירה האפלה של הדמות. בשנים הללו התבסס באטמן כדמות מפתח בעולם משחקי הווידאו, תוך התאמה לסגנונות משחק ופלטפורמות מגוונות, והמשיך לחקור את הנרטיב העשיר שלו במדיום האינטראקטיבי.</text>
+
+<text lang="ja">バットマンは1980年代にビデオゲームに初登場し、コミックや映画の雰囲気をインタラクティブな形式に取り込むことを目指したタイトルが登場しました。その中でも『バットマン』（1986年）はZX Spectrum向けにリリースされ、アイソメトリックデザインとパズル中心のゲームプレイで注目され、キャラクターの初期の適応における基準を確立しました。この時代、ダークナイトはAmstrad CPC、MSX、Commodore 64といったパーソナルコンピュータを含むさまざまなプラットフォームに登場しました。
+
+1990年代になると、バットマンはNES、セガジェネシス、SNES、アーケードシステムといったより高度なコンソールへと活躍の場を広げました。ティム・バートンの映画に基づいた『バットマン』（1989年）や『The Adventures of Batman & Robin』（1994年）は、アクションと暗い雰囲気を見事に捉えたことでマイルストーンとなりました。この時期、バットマンはさまざまなゲームスタイルやプラットフォームに適応しながら、インタラクティブな媒体でその豊かな物語を探求し続ける重要なキャラクターとしての地位を確立しました。</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Batman</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>333333</color>
+			<colorEnd>FFD24D</colorEnd>
+		</image>
+	</view>
+</theme>

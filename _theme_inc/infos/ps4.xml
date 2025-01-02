@@ -1,0 +1,65 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The PlayStation 4 (PS4), launched in 2013 by Sony, is an eighth-generation console that stood out for its graphical power and extensive game catalog. With a design focused on player experience and developer-friendly architecture, it offered impressive titles such as "The Last of Us Part II", "God of War", "Horizon Zero Dawn", and "Ghost of Tsushima". Additionally, it integrated entertainment platforms and online services like PlayStation Network.
+
+The PS4 sold over 117 million units worldwide, solidifying itself as one of the most successful consoles in history. Its legacy is built on high-level narrative and graphical gaming experiences, along with a robust multiplayer ecosystem and a global gaming community.</text>
+			<text lang="es">La PlayStation 4 (PS4), lanzada en 2013 por Sony, es una consola de octava generación que destacó por su potencia gráfica y su extenso catálogo de juegos. Con un diseño enfocado en la experiencia del jugador y una arquitectura amigable para los desarrolladores, ofreció títulos impresionantes como "The Last of Us Part II", "God of War", "Horizon Zero Dawn", o "Ghost of Tsushima". Además, integró plataformas de entretenimiento y servicios online como PlayStation Network.
+
+La PS4 vendió más de 117 millones de unidades a nivel mundial, consolidándose como una de las consolas más exitosas de la historia. Su legado se basa en experiencias de juego narrativas y gráficas de alto nivel, junto con un robusto ecosistema multijugador y una comunidad global de jugadores.</text>
+			<text lang="ca">La PlayStation 4 (PS4), llançada el 2013 per Sony, és una consola d'octava generació que es va destacar per la seva potència gràfica i el seu extens catàleg de jocs. Amb un disseny enfocat en l'experiència del jugador i una arquitectura amigable per als desenvolupadors, va oferir títols impressionants com "The Last of Us Part II", "God of War", "Horizon Zero Dawn" o "Ghost of Tsushima". A més, va integrar plataformes d'entreteniment i serveis en línia com PlayStation Network.
+
+La PS4 va vendre més de 117 milions d'unitats a nivell mundial, consolidant-se com una de les consoles més exitoses de la història. El seu llegat es basa en experiències de joc narratives i gràfiques d'alt nivell, juntament amb un robust ecosistema multijugador i una comunitat global de jugadors.</text>
+			<text lang="eu">PlayStation 4 (PS4), 2013an Sonyk kaleratutako, zortzigarren belaunaldiko kontsola da, grafiko potentziagatik eta jokoa katalogo zabalgatik nabarmendu zena. Jokalarien esperientzian zentratutako diseinu batekin eta garatzaileentzat lagungarria den arkitektura batekin, "The Last of Us Part II", "God of War", "Horizon Zero Dawn" edo "Ghost of Tsushima" bezalako titulu ikusgarriak eskaini zituen. Gainera, entretenimendu plataforma eta PlayStation Network bezalako zerbitzu linealak integratu zituen.
+				
+PS4k 117 milioi unitate baino gehiago saldu zituen mundu osoan, historian arrakastatsuenetako kontsola bihurtuz. Bere legatua narrazio eta grafiko esperientzia altuetan oinarritzen da, baita jokalarien komunitate globalean eta ekosistema multijugador sendoan ere.</text>
+			<text lang="gl">A PlayStation 4 (PS4), lanzada en 2013 por Sony, é unha consola de oitava xeración que destacou pola súa potencia gráfica e o seu extenso catálogo de xogos. Cun deseño enfocado na experiencia do xogador e unha arquitectura amigable para os desenvolvedores, ofrecía títulos impresionantes como "The Last of Us Part II", "God of War", "Horizon Zero Dawn" ou "Ghost of Tsushima". Ademais, integrou plataformas de entretemento e servizos en liña como PlayStation Network.
+				
+A PS4 vendeu máis de 117 millóns de unidades a nivel mundial, consolidándose como unha das consolas máis exitosas da historia. O seu legado baséase en experiencias de xogo narrativas e gráficas de alto nivel, xunto cun robusto ecosistema multixogador e unha comunidade global de xogadores.</text>
+			<text lang="fr">La PlayStation 4 (PS4), lancée en 2013 par Sony, est une console de huitième génération qui s'est distinguée par sa puissance graphique et son vaste catalogue de jeux. Avec un design axé sur l'expérience du joueur et une architecture conviviale pour les développeurs, elle a proposé des titres impressionnants tels que "The Last of Us Part II", "God of War", "Horizon Zero Dawn" et "Ghost of Tsushima". De plus, elle a intégré des plateformes de divertissement et des services en ligne tels que PlayStation Network.
+				
+La PS4 a vendu plus de 117 millions d'unités dans le monde entier, s'affirmant comme l'une des consoles les plus réussies de l'histoire. Son héritage repose sur des expériences de jeu narratives et graphiques de haut niveau, ainsi qu'un écosystème multijoueur robuste et une communauté mondiale de joueurs.</text>
+			<text lang="pt">A PlayStation 4 (PS4), lançada em 2013 pela Sony, é um console de oitava geração que se destacou por seu poder gráfico e seu extenso catálogo de jogos. Com um design focado na experiência do jogador e uma arquitetura amigável para os desenvolvedores, ofereceu títulos impressionantes como "The Last of Us Part II", "God of War", "Horizon Zero Dawn" e "Ghost of Tsushima". Além disso, integrou plataformas de entretenimento e serviços online como PlayStation Network.
+				
+A PS4 vendeu mais de 117 milhões de unidades em todo o mundo, consolidando-se como um dos consoles mais bem-sucedidos da história. Seu legado baseia-se em experiências de jogo narrativas e gráficas de alto nível, juntamente com um robusto ecossistema multijogador e uma comunidade global de jogadores.</text>
+			<text lang="it">La PlayStation 4 (PS4), lanciata nel 2013 da Sony, è una console di ottava generazione che si è distinta per la sua potenza grafica e il suo ampio catalogo di giochi. Con un design incentrato sull'esperienza del giocatore e un'architettura amichevole per gli sviluppatori, ha offerto titoli impressionanti come "The Last of Us Part II", "God of War", "Horizon Zero Dawn" e "Ghost of Tsushima". Inoltre, ha integrato piattaforme di intrattenimento e servizi online come PlayStation Network.
+				
+La PS4 ha venduto oltre 117 milioni di unità in tutto il mondo, consolidandosi come una delle console di maggior successo della storia. Il suo lascito si basa su esperienze di gioco narrative e grafiche di alto livello, insieme a un robusto ecosistema multiplayer e a una comunità globale di giocatori.</text>
+			<text lang="de">Die PlayStation 4 (PS4), die 2013 von Sony auf den Markt gebracht wurde, ist eine Konsole der achten Generation, die sich durch ihre grafische Leistung und ihr umfangreiches Spielekatalog auszeichnet. Mit einem design, das auf das Spielerlebnis ausgerichtet ist, und einer entwicklerfreundlichen Architektur bot sie beeindruckende Titel wie "The Last of Us Part II", "God of War", "Horizon Zero Dawn" und "Ghost of Tsushima". Darüber hinaus integrierte sie Unterhaltungsplattformen und Online-Dienste wie PlayStation Network.
+				
+Die PS4 verkaufte weltweit über 117 Millionen Einheiten und festigte sich damit als eine der erfolgreichsten Konsolen der Geschichte. Ihr Erbe basiert auf hochwertigen narrativen und grafischen Spielerlebnissen sowie einem robusten Multiplayer-Ökosystem und einer globalen Spielergemeinschaft.</text>
+			<text lang="pl">PlayStation 4 (PS4), wydana w 2013 roku przez Sony, to konsola ósmej generacji, która wyróżnia się swoją mocą graficzną i rozległym katalogiem gier. Z projektem skoncentrowanym na doświadczeniach gracza i architekturą przyjazną dla deweloperów, oferowała imponujące tytuły, takie jak "The Last of Us Part II", "God of War", "Horizon Zero Dawn" i "Ghost of Tsushima". Dodatkowo zintegrowała platformy rozrywkowe oraz usługi online, takie jak PlayStation Network.
+				
+PS4 sprzedała ponad 117 milionów egzemplarzy na całym świecie, co sprawiło, że stała się jedną z najbardziej udanych konsol w historii. Jej dziedzictwo opiera się na wysokiej jakości doświadczeniach narracyjnych i graficznych, a także solidnym ekosystemie wieloosobowym i globalnej społeczności graczy.</text>
+			<text lang="ru">PlayStation 4 (PS4), выпущенная в 2013 году компанией Sony, — это консоль восьмого поколения, которая выделялась своей графической мощностью и обширным каталогом игр. С дизайном, ориентированным на опыт игрока, и удобной для разработчиков архитектурой, она предложила впечатляющие титулы, такие как "The Last of Us Part II", "God of War", "Horizon Zero Dawn" и "Ghost of Tsushima". Кроме того, она интегрировала развлекательные платформы и онлайн-сервисы, такие как PlayStation Network.
+				
+PS4 была продана более чем в 117 миллионов экземпляров по всему миру, что сделало ее одной из самых успешных консолей в истории. Ее наследие основано на высококачественном игровом опыте, а также на надежной многопользовательской экосистеме и глобальном сообществе игроков.</text>
+			<text lang="zh">PlayStation 4（PS4）是索尼于2013年推出的第八代游戏机，以其强大的图形性能和广泛的游戏目录而闻名。凭借以玩家体验为中心的设计和对开发者友好的架构，它提供了诸如《最后生还者第二部》、《战神》、《地平线零之曙光》和《对马岛之魂》等令人印象深刻的游戏。此外，它还整合了娱乐平台和在线服务，如PlayStation Network。
+				
+PS4在全球售出了超过1.17亿台，巩固了其作为历史上最成功的游戏机之一的地位。其遗产建立在高水平的叙事和图形游戏体验基础上，以及强大的多人生态系统和全球游戏社区。</text>
+			<text lang="ar">بلاي ستيشن 4 (PS4)، التي أطلقتها سوني في عام 2013، هي وحدة تحكم من الجيل الثامن تميزت بقوتها الرسومية وكتالوج ألعابها الواسع. مع تصميم يركز على تجربة اللاعب وبنية صديقة للمطورين، قدمت عناوين رائعة مثل "The Last of Us Part II" و "God of War" و "Horizon Zero Dawn" و "Ghost of Tsushima". بالإضافة إلى ذلك، دمجت منصات الترفيه والخدمات عبر الإنترنت مثل PlayStation Network.
+				
+لقد باعت PS4 أكثر من 117 مليون وحدة على مستوى العالم، مما جعلها واحدة من أنجح وحدات التحكم في التاريخ. يستند إرثها إلى تجارب لعب سردية ورسومية عالية المستوى، إلى جانب نظام بيئي متعدد اللاعبين قوي ومجتمع عالمي من اللاعبين.</text>
+			<text lang="he">ה-PlayStation 4 (PS4), שהושקה בשנת 2013 על ידי סוני, היא קונסולת משחקים מדור שמיני שהצטיינה בעוצמתה הגרפית ובקטלוג המשחקים הרחב שלה. עם עיצוב ממוקד חווית השחקן וארכיטקטורה ידידותית למפתחים, היא הציעה כותרות מרשימות כמו "The Last of Us Part II", "God of War", "Horizon Zero Dawn" ו-"Ghost of Tsushima". בנוסף, היא שילבה פלטפורמות בידור ושירותים מקוונים כמו PlayStation Network.
+				
+ה-PS4 נמכרה ביותר מ-117 מיליון יחידות ברחבי העולם, והשתרשה כאחת מקונסולות המשחקים המצליחות ביותר בהיסטוריה. המורשת שלה מבוססת על חוויות משחק נרטיביות וגרפיות ברמה גבוהה, יחד עם מערכת אקולוגית רב-משתמשים חזקה וקהילת שחקנים גלובלית.</text>
+			<text lang="ja">PlayStation 4（PS4）は、2013年にソニーから発売された第8世代のゲーム機で、グラフィック性能の高さと豊富なゲームカタログで知られています。プレイヤーの体験に重点を置いたデザインと、開発者に優しいアーキテクチャを備え、「The Last of Us Part II」、「God of War」、「Horizon Zero Dawn」、「Ghost of Tsushima」などの印象的なタイトルを提供しました。さらに、PlayStation Networkのようなエンターテインメントプラットフォームやオンラインサービスも統合されています。
+				
+PS4は全世界で1億1700万台以上を販売し、歴史上最も成功したゲーム機の1つとしての地位を確立しました。その遺産は、高品質のナarrativeとグラフィック体験、強力なマルチプレイヤーエコシステム、そしてグローバルなゲームコミュニティに基づいています。</text>
+		</text>		
+		<text name="system_name" extra="true">
+			<text>Sony PlayStation 4</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>0070d1</color>
+			<colorEnd>003791</colorEnd>
+		</image>
+	</view>
+</theme>

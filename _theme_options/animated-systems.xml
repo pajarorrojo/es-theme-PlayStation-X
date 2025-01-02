@@ -43,12 +43,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </text>
 
-    <text name="system_description" extra="true">
+    <control name="system_description, contenedor-systemdata" extra="true">
       <storyboard>
         <animation property="opacity" from="0" to="0" duration="1" mode="linear" />
-        <animation property="opacity" from="0" to="1" begin="500" duration="350" mode="easeOut" />
+        <animation property="opacity" from="0" to="1" begin="300" duration="350" mode="linear" />
       </storyboard>
-    </text>
+    </control>
+
+    <control name="overlay-arts" extra="true">
+      <storyboard>
+        <animation property="opacity" from="0" to="1" begin="300" duration="350" mode="linear" />
+        <animation property="offsetX" to="0.028" duration="22222" mode="linear" autoreverse="true" />
+      </storyboard>
+    </control>
 
 
     <image name="logo2, system-console" extra="true">
@@ -57,13 +64,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </image>
 
-
-    <image name="border-video" extra="static">
-      <storyboard>
-        <animation property="opacity" from="0" to="0" duration="1" mode="linear" />
-        <animation property="opacity" from="0" to="1" begin="300" duration="500" mode="easeIn" />
-      </storyboard>
-    </image>
 
   </view>
 
@@ -97,20 +97,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </image>
 
     <image name="caratula-overlay">
-      <path>./_theme_inc/images/caratulas/default.png</path>
-      <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
-      <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
-      <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
-      <path ifSubset="colorset:black">./_theme_inc/images/caratulas/${system.theme}-b.png</path>
+      <path>${themePath}/_theme_inc/images/caratulas/default.png</path>
+      <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/default-b.png</path>
+      <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.jpg</path>
+      <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.png</path>
+      <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/${system.theme}-b.png</path>
       <linearSmooth>true</linearSmooth>
     </image>
     <image name="caratula-overlay" extra="true" region="eu" />
     <image name="caratula-overlay" extra="true" region="us">
-      <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
+      <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.png</path>
     </image>
 
     <image name="caratula-overlay" extra="true" region="jp">
-      <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+      <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.png</path>
     </image>
   </view>
 

@@ -1,0 +1,76 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true">
+<text>The video games of Spider-Man have reflected the evolution of interactive media since their beginnings in the 1980s. His debut came in 1982 with Spider-Man for the Atari 2600, a simple yet innovative game focused on climbing buildings and defusing bombs, marking the beginning of a long trajectory of adaptations of the wall-crawler. During the 80s, it appeared on systems like Commodore 64, DOS, and Amstrad CPC, with titles that, though technically limited, sought to capture the essence of the comics.
+
+In the 90s, with the arrival of more advanced consoles like the Sega Genesis, SNES, and PlayStation, Spider-Man games reached a new level of quality. Titles like Spider-Man vs. The Kingpin (1991) and Spider-Man: The Animated Series (1995) offered better graphics and more complex mechanics, also drawing inspiration from popular TV and film adaptations. Over the decades, Spider-Man consolidated his position as one of the most iconic superheroes in the world of video games, with titles exploring various genres like platformers, action, and adventure, and establishing a connection with a global audience.</text>
+
+<text lang="es">Los videojuegos de Spider-Man han reflejado la evolución de los medios interactivos desde sus inicios en los años 80. Su debut se dio en 1982 con Spider-Man para Atari 2600, un juego simple pero innovador, centrado en la escalada de edificios y la desactivación de bombas, lo que marcó el inicio de una larga trayectoria de adaptaciones del trepamuros. Durante los años 80, apareció en sistemas como Commodore 64, DOS y Amstrad CPC, con títulos que, aunque limitados técnicamente, buscaban capturar la esencia de los cómics. 
+
+En los 90, con la llegada de consolas más avanzadas como Sega Genesis, SNES y PlayStation, los juegos de Spider-Man alcanzaron un nuevo nivel de calidad. Títulos como Spider-Man vs. The Kingpin (1991) y Spider-Man: The Animated Series (1995) ofrecieron mejores gráficos y mecánicas más complejas, además de inspirarse en populares adaptaciones televisivas y cinematográficas. A lo largo de estas décadas, Spider-Man consolidó su posición como uno de los superhéroes más icónicos en el mundo de los videojuegos, con títulos que exploraron diversos géneros como plataformas, acción y aventuras, y estableciendo su vínculo con una audiencia global.</text>
+
+<text lang="ca">Els videojocs de Spider-Man han reflectit l’evolució dels mitjans interactius des dels seus inicis als anys 80. El seu debut va tenir lloc el 1982 amb Spider-Man per a Atari 2600, un joc senzill però innovador, centrat en l'escalada d'edificis i la desactivació de bombes, marcant l'inici d'una llarga trajectòria d'adaptacions de l'home aranya. Durant els anys 80, va aparèixer en sistemes com el Commodore 64, DOS i Amstrad CPC, amb títols que, tot i les limitacions tècniques, buscaven capturar l'essència dels còmics.
+
+Als anys 90, amb l'arribada de consoles més avançades com la Sega Genesis, SNES i PlayStation, els jocs de Spider-Man van assolir un nou nivell de qualitat. Títols com Spider-Man vs. The Kingpin (1991) i Spider-Man: The Animated Series (1995) van oferir millors gràfics i mecàniques més complexes, a més d'inspirar-se en populars adaptacions televisives i cinematogràfiques. Al llarg d’aquestes dècades, Spider-Man va consolidar la seva posició com un dels superherois més icònics al món dels videojocs, amb títols que van explorar diversos gèneres com plataformes, acció i aventures, establint el seu vincle amb una audiència global.</text>
+
+<text lang="eu">Spider-Man-en bideojokoek interaktiboen medioen bilakaera islatzen dute 1980ko hamarkadatik. Bere lehenengo agerpena 1982an izan zen Spider-Man Atari 2600rako, joko sinple baina berritzaile bat, eraikinak igotzean eta bonbak desaktibatzean zentratua, eta horrek hormako eskarapauaren egokitzapen luze baten hasiera markatu zuen. 80ko hamarkadan, Commodore 64, DOS eta Amstrad CPC bezalako sistemaetan agertu zen, teknikarik gabe, baina komikien muina harrapatzen saiatzen ziren tituluak.
+
+90eko hamarkadan, Sega Genesis, SNES eta PlayStation bezalako kontsola aurreratuen agerpenarekin, Spider-Manen bideojokoek kalitate maila berri bat iritsi zuten. Spider-Man vs. The Kingpin (1991) eta Spider-Man: The Animated Series (1995) bezalako tituluak grafiko hobeak eta mekanika konplexuagoak eskaini zituzten, telebista eta zinemako egokitzapen ospetsuen inspirazioari jarraituz. Hamarkada hauetan zehar, Spider-Manek bere lekua finkatu zuen superheroi ikonikotzat munduko bideojokoetan, plataforma, ekintza eta abentura bezalako generoetan tituluak esploratuz eta audientzia globalean bere lotura sendotuz.</text>
+
+<text lang="gl">Os videoxogos de Spider-Man reflexaron a evolución dos medios interactivos dende os seus comezos nos anos 80. O seu debut tivo lugar en 1982 con Spider-Man para Atari 2600, un xogo sinxelo pero innovador, centrado na escalada de edificios e a desactivación de bombas, marcando o comezo dunha longa traxectoria de adaptacións do trepamuros. Durante os anos 80, apareceu en sistemas como Commodore 64, DOS e Amstrad CPC, con títulos que, aínda que limitados tecnicamente, buscaban captar a esencia dos cómics.
+
+Nos 90, coa chegada de consolas máis avanzadas como Sega Genesis, SNES e PlayStation, os xogos de Spider-Man alcanzaron un novo nivel de calidade. Títulos como Spider-Man vs. The Kingpin (1991) e Spider-Man: The Animated Series (1995) ofreceron mellores gráficos e mecánicas máis complexas, ademais de inspirarse en populares adaptacións televisivas e cinematográficas. Ao longo destas décadas, Spider-Man consolidou a súa posición como un dos superhéroes máis icónicos no mundo dos videoxogos, con títulos que exploraron diversos xéneros como plataformas, acción e aventura, establecendo unha vinculación cunha audiencia global.</text>
+
+<text lang="fr">Les jeux vidéo de Spider-Man ont reflété l’évolution des médias interactifs depuis leurs débuts dans les années 80. Ses débuts ont eu lieu en 1982 avec Spider-Man pour Atari 2600, un jeu simple mais innovant, centré sur l’escalade d’immeubles et la désactivation de bombes, marquant le début d’une longue série d’adaptations du super-héros. Pendant les années 80, il est apparu sur des systèmes comme Commodore 64, DOS et Amstrad CPC, avec des titres qui, bien que techniquement limités, cherchaient à capturer l’essence des bandes dessinées.
+
+Dans les années 90, avec l’arrivée de consoles plus avancées comme la Sega Genesis, la SNES et la PlayStation, les jeux Spider-Man ont atteint un nouveau niveau de qualité. Des titres comme Spider-Man vs. The Kingpin (1991) et Spider-Man: The Animated Series (1995) ont offert de meilleurs graphismes et des mécaniques plus complexes, tout en s’inspirant des populaires adaptations télévisées et cinématographiques. Au fil des décennies, Spider-Man a consolidé sa position en tant que l’un des super-héros les plus emblématiques dans l’univers du jeu vidéo, avec des titres explorant divers genres comme les plateformes, l’action et l’aventure, et en établissant un lien avec un public mondial.</text>
+
+<text lang="pt">Os videojogos de Spider-Man refletiram a evolução dos meios interativos desde os seus primeiros anos na década de 1980. O seu debut ocorreu em 1982 com Spider-Man para o Atari 2600, um jogo simples mas inovador, centrado na escalada de edifícios e na desativação de bombas, marcando o início de uma longa trajetória de adaptações do aracnídeo. Durante os anos 80, apareceu em sistemas como o Commodore 64, DOS e Amstrad CPC, com títulos que, embora limitados tecnicamente, procuravam capturar a essência das histórias em quadrinhos.
+
+Nos anos 90, com a chegada de consoles mais avançados como o Sega Genesis, SNES e PlayStation, os jogos de Spider-Man atingiram um novo nível de qualidade. Títulos como Spider-Man vs. The Kingpin (1991) e Spider-Man: The Animated Series (1995) ofereceram gráficos melhores e mecânicas mais complexas, além de se inspirarem nas populares adaptações televisivas e cinematográficas. Ao longo dessas décadas, Spider-Man consolidou a sua posição como um dos super-heróis mais icônicos no mundo dos videojogos, com títulos que exploraram diversos gêneros como plataformas, ação e aventura, estabelecendo um vínculo com uma audiência global.</text>
+
+<text lang="pl">Gry wideo o Spider-Manie odzwierciedlają ewolucję mediów interaktywnych od ich początków w latach 80-tych. Jego debiut miał miejsce w 1982 roku w grze Spider-Man na Atari 2600, prostym, ale innowacyjnym tytule, skupiającym się na wspinaniu się po budynkach i dezaktywacji bomb, co stało się początkiem długiej serii adaptacji postaci. W latach 80-tych pojawił się na systemach takich jak Commodore 64, DOS i Amstrad CPC, z tytułami, które, mimo ograniczeń technicznych, starały się uchwycić istotę komiksów.
+
+W latach 90-tych, wraz z pojawieniem się bardziej zaawansowanych konsol, takich jak Sega Genesis, SNES i PlayStation, gry o Spider-Manie osiągnęły nowy poziom jakości. Takie tytuły jak Spider-Man vs. The Kingpin (1991) i Spider-Man: The Animated Series (1995) oferowały lepszą grafikę i bardziej złożoną mechanikę, czerpiąc także inspirację z popularnych adaptacji telewizyjnych i filmowych. Przez te dekady, Spider-Man umocnił swoją pozycję jako jeden z najbardziej ikonicznych superbohaterów w świecie gier wideo, z tytułami, które eksplorowały różne gatunki, takie jak platformówki, akcja i przygoda, a także nawiązały więź z globalną publicznością.</text>
+
+<text lang="ru">Видеоигры о Человеке-пауке отразили эволюцию интерактивных медиа с их начала в 80-х годах. Его дебют состоялся в 1982 году с игрой Spider-Man для Atari 2600, простой, но инновационной игры, сосредоточенной на подъеме по зданиям и обезвреживании бомб, что стало началом долгого пути адаптаций героя. В 80-х годах он появился на таких системах, как Commodore 64, DOS и Amstrad CPC, с играми, которые, несмотря на технические ограничения, стремились передать суть комиксов.
+
+В 90-х годах, с появлением более продвинутых консолей, таких как Sega Genesis, SNES и PlayStation, игры о Человеке-пауке достигли нового уровня качества. Такие игры, как Spider-Man vs. The Kingpin (1991) и Spider-Man: The Animated Series (1995), предложили улучшенную графику и более сложную механику, а также вдохновлялись популярными телесериальными и киноадаптациями. За эти десятилетия Человек-паук укрепил свою позицию как один из самых культовых супергероев в мире видеоигр, с играми, которые исследовали различные жанры, такие как платформеры, экшен и приключения, и установили связь с мировой аудиторией.</text>
+
+<text lang="zh">蜘蛛侠的电子游戏反映了互动媒体自80年代以来的演变。他的首次亮相是在1982年，推出了 Spider-Man，适用于Atari 2600，一款简单但创新的游戏，专注于攀爬建筑物和拆除炸弹，这标志着蜘蛛侠适配的漫长历程的开始。在80年代，他出现在如Commodore 64、DOS和Amstrad CPC等系统上，这些游戏虽然技术上有限，但力求捕捉漫画的精髓。
+
+90年代，随着像Sega Genesis、SNES和PlayStation等更先进主机的问世，蜘蛛侠的游戏达到了新的质量水平。Spider-Man vs. The Kingpin（1991）和 Spider-Man: The Animated Series（1995）等游戏提供了更好的图形和更复杂的机制，同时也汲取了受欢迎的电视和电影改编作品的灵感。几十年来，蜘蛛侠巩固了他作为世界上最具代表性的超级英雄之一的地位，游戏涵盖了平台游戏、动作冒险等多种类型，建立了与全球观众的联系。</text>
+
+<text lang="ar">لقد عكست ألعاب سبايدر مان تطور الوسائط التفاعلية منذ بداياتها في الثمانينات. كانت بدايته في عام 1982 مع سبايدر مان لأتاري 2600، وهي لعبة بسيطة ولكن مبتكرة تركز على تسلق المباني وتعطيل القنابل، مما شكل بداية مسار طويل من التكيفات للشخصية. خلال الثمانينات، ظهرت اللعبة على أنظمة مثل Commodore 64 و DOS و Amstrad CPC، مع ألعاب حاولت على الرغم من القيود التقنية التقاط جوهر القصص المصورة.
+
+في التسعينيات، ومع ظهور منصات أكثر تطوراً مثل Sega Genesis و SNES و PlayStation، وصلت ألعاب سبايدر مان إلى مستوى جديد من الجودة. قدمت ألعاب مثل سبايدر مان ضد كينغبين (1991) و سبايدر مان: السلسلة المتحركة (1995) رسومات أفضل وآليات أكثر تعقيداً، واستلهمت أيضاً من التعديلات التلفزيونية والسينمائية الشهيرة. على مدار هذه العقود، رسخ سبايدر مان مكانته كأحد أكثر الأبطال الخارقين شهرة في عالم ألعاب الفيديو، مع ألعاب استكشفت أنواعاً متعددة مثل الألعاب المنصات والأكشن والمغامرة، وأقامت روابط مع جمهور عالمي.</text>		
+
+<text lang="it">I videogiochi di Spider-Man hanno riflesso l’evoluzione dei media interattivi fin dai suoi esordi negli anni ‘80. Il suo debutto avvenne nel 1982 con Spider-Man per Atari 2600, un gioco semplice ma innovativo, incentrato sulla scalata degli edifici e la disattivazione delle bombe, segnando l’inizio di una lunga serie di adattamenti dell’uomo ragno. Negli anni ‘80, apparve su sistemi come Commodore 64, DOS e Amstrad CPC, con titoli che, seppur tecnicamente limitati, cercavano di catturare l’essenza dei fumetti.
+
+Negli anni ‘90, con l’arrivo di console più avanzate come Sega Genesis, SNES e PlayStation, i giochi di Spider-Man raggiunsero un nuovo livello di qualità. Titoli come Spider-Man vs. The Kingpin (1991) e Spider-Man: The Animated Series (1995) offrirono grafica migliore e meccaniche più complesse, ispirandosi anche a popolari adattamenti televisivi e cinematografici. Durante questi decenni, Spider-Man consolidò la sua posizione come uno dei supereroi più iconici nel mondo dei videogiochi, con titoli che esplorarono diversi generi come i platform, l’azione e l’avventura, stabilendo un legame con il pubblico globale.</text>
+
+<text lang="he">המשחקים של ספיידרמן שיקפו את התפתחות המדיה האינטראקטיבית מאז ראשיתם בשנות ה-80. הבכורה שלו הייתה בשנת 1982 עם ספיידרמן עבור Atari 2600, משחק פשוט אך חדשני, שהתמקד בהעפלה על בניינים ופיצוץ פצצות, מה שסימן את תחילת הדרך של דמות זו במשחקי וידאו. בשנות ה-80, הוא הופיע על מערכות כמו Commodore 64, DOS ו-Amstrad CPC, עם משחקים שניסו, למרות המגבלות הטכנולוגיות, ללכוד את מהות הקומיקס.
+
+בשנות ה-90, עם הגעת קונסולות מתקדמות יותר כמו Sega Genesis, SNES ו-PlayStation, משחקי ספיידרמן הגיעו לרמה חדשה של איכות. משחקים כמו Spider-Man vs. The Kingpin (1991) ו-Spider-Man: The Animated Series (1995) הציעו גרפיקה מתקדמת יותר ומכניקות משחק מורכבות יותר, וגם שאבו השראה מהתאמות פופולריות של טלוויזיה וקולנוע. לאורך השנים, ספיידרמן חיזק את מעמדו כאחד הגיבורים העליונים האיקוניים ביותר בעולם משחקי הווידאו, עם משחקים שבחנו ז'אנרים שונים כמו פלטפורמות, אקשן והרפתקאות, ויצרו קשר עם קהל עולמי.</text>
+
+<text lang="ja">スパイダーマンのビデオゲームは、1980年代初頭からインタラクティブメディアの進化を反映しています。彼のデビュー作は1982年にSpider-ManがAtari 2600用に発売され、シンプルでありながら革新的なゲームで、建物を登り、爆弾を解除することに焦点を当てており、この作品が長い間続くスパイダーマンのゲームシリーズの始まりを告げました。1980年代には、Commodore 64、DOS、Amstrad CPCなどのシステムで登場し、技術的な制限はありましたが、コミックの本質を捉えようとしたタイトルが多くありました。
+
+1990年代には、Sega Genesis、SNES、PlayStationなどのより進んだコンソールの登場により、スパイダーマンのゲームは新たな品質のレベルに達しました。Spider-Man vs. The Kingpin（1991）やSpider-Man: The Animated Series（1995）などのゲームは、より優れたグラフィックと複雑なメカニクスを提供し、またテレビや映画の人気アダプテーションからインスパイアを受けていました。これらの数十年を通じて、スパイダーマンはビデオゲームの世界で最も象徴的なスーパーヒーローの一つとしてその地位を確立し、プラットフォーム、アクション、冒険などのジャンルを探索し、世界中のオーディエンスとのつながりを築きました。</text>
+</text>
+
+		<text name="system_name" extra="true">
+			<text>Spider-Man</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>D90000</color>
+			<colorEnd>0040FF</colorEnd>
+		</image>
+	</view>
+</theme>

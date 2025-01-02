@@ -30,7 +30,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.nick ifSubset="system-username:solidsnake">Solid Snake</theme.nick>
 		<theme.nick ifSubset="system-username:sonic">Sonic the Hedgehog</theme.nick>
 		<theme.nick ifSubset="system-username:subzero">Sub Zero</theme.nick>
-		<theme.nick iftArch="windows" ifSubset="system-username:netplay" if="{global.netplay} == true">${global.netplay.username}</theme.nick>
+		<theme.nick ifArch="windows" ifSubset="system-username:netplay" if="{global.netplay} == true">${global.netplay.username}</theme.nick>
 		<theme.nick ifSubset="system-username:playstation-x">PlayStation-X</theme.nick>
 		<theme.nick ifNotArch="windows" ifSubset="system-username:netplay" if="{global.netplay} == true">${global.netplay.username}</theme.nick>
 		<theme.nick ifSubset="system-username:cheevos"  if="{global.cheevos} == true">${cheevos.username}</theme.nick>

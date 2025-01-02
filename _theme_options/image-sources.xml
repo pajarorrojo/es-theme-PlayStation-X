@@ -4,8 +4,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
    <view name="detailed,grid">
-      <image name="background-gamelist" ifSubset="background-list:fanart" extra="true">
-         <path>{game:fanart}</path>
+      <image name="background-gamelist" ifSubset="background-gamelist:fanart" extra="true">
+			<path>firstfile({game:fanart}, {game:thumbnail})</path>
          <minSize>1 1</minSize>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
@@ -13,24 +13,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <tile>false</tile>
          <zIndex>45</zIndex>
          <autoFade>false</autoFade>
-         <visible>exists({game:fanart})</visible>
       </image>
 
-      <image name="background-art" extra="true" region="eu" />
+      <image name="background-art" extra="true" region="eu"/>
       <image name="background-art" extra="true">
-         <path>./../_theme_inc/images/background/${system.theme}.jpg</path>
+         <path>${themePath}/_theme_inc/images/background/${system.theme}.jpg</path>
          <minSize>1 1</minSize>
          <zIndex>46</zIndex>
+         <opacity ifSubset="background-gamelist:none" >0</opacity>
          <storyboard>
             <animation  property="scale" from="1.08" to="1" duration="500" mode="easeOut"/>
             <animation  property="zIndex" to="44" begin="500"  mode="easeIn" />
          </storyboard>
       </image>
       <image name="background-art" extra="true" region="us">
-         <path>./../_theme_inc/images/background/us/${system.theme}.jpg</path>
+         <path>${themePath}/_theme_inc/images/background/us/${system.theme}.jpg</path>
       </image>
-      <image name="background-art" extra="true" region="jp">
-         <path>./../_theme_inc/images/background/jp/${system.theme}.jpg</path>
+      <image name="background-art" extra="true" region="jp" >
+         <path>${themePath}/_theme_inc/images/background/jp/${system.theme}.jpg</path>
       </image>
    </view>
 
@@ -121,45 +121,45 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
    
-   <image name="image-grid, image-carousel, image-classic, image-single, image-full-grid" ifSubset="main-origin:image|default" extra="true">
+   <image name="image-grid, image-carousel, image-ps4Style, image-single, image-full-grid" ifSubset="main-origin:image|default" extra="true">
       <path>{game:image}</path>
       <visible>true</visible>
    </image>
 
-   <image name="thumbnail-grid, thumbnail-carousel, thumbnail-classic, thumbnail-single, thumbnail-full-grid" ifSubset="main-origin:thumbnail" extra="true">
+   <image name="thumbnail-grid, thumbnail-carousel, thumbnail-ps4Style, thumbnail-single, thumbnail-full-grid" ifSubset="main-origin:thumbnail" extra="true">
       <path>{game:thumbnail}</path>
       <visible>true</visible>
    </image>
 
 
-   <image name="marquee-grid, marquee-carousel, marquee-classic, marquee-single, marquee-full-grid" ifSubset="main-origin:marquee" extra="true">
+   <image name="marquee-grid, marquee-carousel, marquee-ps4Style, marquee-single, marquee-full-grid" ifSubset="main-origin:marquee" extra="true">
       <path>{game:marquee}</path>
       <maxSize>0.18 0.25</maxSize>
       <visible>true</visible>
    </image>
 
-   <image name="boxart-grid, boxart-carousel, boxart-classic, boxart-single, boxart-full-grid" ifSubset="main-origin:boxart" extra="true">
+   <image name="boxart-grid, boxart-carousel, boxart-ps4Style, boxart-single, boxart-full-grid" ifSubset="main-origin:boxart" extra="true">
       <path>{game:boxart}</path>
       <visible>true</visible>
    </image>
 
-   <image name="cartridge-grid, cartridge-carousel, cartridge-classic, cartridge-single, cartridge-full-grid" ifSubset="main-origin:cartridge" extra="true">
+   <image name="cartridge-grid, cartridge-carousel, cartridge-ps4Style, cartridge-single, cartridge-full-grid" ifSubset="main-origin:cartridge" extra="true">
       <path>{game:cartridge}</path>
       <maxSize>0.18 0.25</maxSize>
       <visible>true</visible>
    </image>
 
-   <image name="fanart-grid, fanart-carousel, fanart-classic, fanart-single, fanart-full-grid" ifSubset="main-origin:fanart" extra="true">
+   <image name="fanart-grid, fanart-carousel, fanart-ps4Style, fanart-single, fanart-full-grid" ifSubset="main-origin:fanart" extra="true">
       <path>{game:fanart}</path>
       <visible>true</visible>
    </image>
 
-   <image name="titleshot-grid, titleshot-carousel, titleshot-classic, titleshot-single, titleshot-full-grid" ifSubset="main-origin:titleshot" extra="true">
+   <image name="titleshot-grid, titleshot-carousel, titleshot-ps4Style, titleshot-single, titleshot-full-grid" ifSubset="main-origin:titleshot" extra="true">
       <path>{game:titleshot}</path>
       <visible>true</visible>
    </image>
 
-      <image name="boxback-grid, boxback-carousel, boxback-classic, boxback-single, boxback-full-grid" ifSubset="main-origin:boxback" extra="true">
+      <image name="boxback-grid, boxback-carousel, boxback-ps4Style, boxback-single, boxback-full-grid" ifSubset="main-origin:boxback" extra="true">
       <path>{game:boxback}</path>
       <visible>true</visible>
    </image>
@@ -189,19 +189,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 </customView>
 
- <!-- classic -->
+ <!-- ps4Style -->
 
- <customView name="classic">
+ <customView name="ps4Style">
 
    <image name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid">
       <visible>true</visible>
       <pos>-2 -2</pos>
    </image>
 
-   <image name="image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic">
+   <image name="image-ps4Style, thumbnail-ps4Style, fanart-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, marquee-ps4Style, boxback-ps4Style">
       <maxSize>0.25 0.3</maxSize>
       <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
-      <pos>0.15 0.68</pos>
+      <pos>0.15 0.73</pos>
       <zIndex>91</zIndex>
       <linearSmooth>true</linearSmooth>
       <origin>0.5 0.5</origin>
@@ -221,7 +221,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <image name="image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single">
       <maxSize>0.25 0.3</maxSize>
       <maxSize ifSubset="aspect-ratio:4-3|5-4">0.275 0.3</maxSize>
-      <pos>0.15 0.710</pos>
+      <pos>0.15 0.760</pos>
       <zIndex>91</zIndex>
       <linearSmooth>true</linearSmooth>
       <origin>0.5 0.5</origin>
@@ -264,20 +264,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activateNext">
-         <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
+         <animation property="offsetX" from="0.05" to="0" duration="300" mode="easeOutCubic" />
          <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="activatePrev">
-         <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
+         <animation property="offsetX" from="-0.05" to="0" duration="300" mode="easeOutCubic" />
          <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
       <storyboard event="deactivateNext">
          <animation property="opacity" to="0" duration="100" mode="easeOut" />
+         <animation property="offsetX" to="-0.05" duration="300" mode="easeOutCubic" />
+
       </storyboard>
       <storyboard event="deactivatePrev">
          <animation property="opacity" to="0" duration="100" mode="easeOut" />
+         <animation property="offsetX" to="0.05" duration="300" mode="easeOutCubic" />
+
       </storyboard>
    </image>
 
@@ -372,7 +376,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <view name="grid">
 
    <!-- retardo del video de 0, 05 y 1 seg -->
-   <image ifSubset="game-video:window, anim-list:NO, , video-gamelist-delay:0s|05s|1s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+   <image ifSubset="game-video:window, anim-list:NO, , video-gamelist-delay:0s|05s|1s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-ps4Style, thumbnail-ps4Style, fanart-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, marquee-ps4Style, boxback-ps4Style, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
       </storyboard>
@@ -385,7 +389,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </image>
 
    <!-- retardo del video de 2 y 3 seg -->
-   <image ifSubset="game-video:window, anim-list:NO, , video-gamelist-delay:2s|3s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
+   <image ifSubset="game-video:window, anim-list:NO, , video-gamelist-delay:2s|3s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-ps4Style, thumbnail-ps4Style, fanart-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, marquee-ps4Style, boxback-ps4Style, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid">
       <storyboard event="open">
          <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
       </storyboard>

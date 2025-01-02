@@ -3,13 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
 	<formatVersion>7</formatVersion>
-	<include>./theme.xml</include>
+	<include>${themePath}/theme.xml</include>
 
 
 	<view name="splash">
 
 		<text name="label">
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<pos>0 0.703</pos>
 			<color>${splash.labelColor}</color>
 			<fontSize>0.030</fontSize>
@@ -37,11 +37,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<image name="background">
 			<linearSmooth>true</linearSmooth>
-			<path ifSubset="colorset:blue">./_theme_options/colorsets/blue/background.jpg</path>
-			<path ifSubset="colorset:black">./_theme_options/colorsets/black/background.jpg</path>
+			<path ifSubset="colorset:blue">${themePath}/_theme_options/colorsets/blue/background.jpg</path>
+			<path ifSubset="colorset:black">${themePath}/_theme_options/colorsets/black/background.jpg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<size>0 1</size>
+			<minSize>1 1</minSize>
 			<zIndex>00</zIndex>
 		</image>
 
@@ -50,8 +50,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>1 0.443</pos>
 			<maxSize>0.35</maxSize>
 			<maxSize tinyScreen="true">0.45</maxSize>
-			<path>./_theme_inc/images/hotkey-tips/en.png</path>
-			<path>./_theme_inc/images/hotkey-tips/${lang}.png</path>
+			<path>${themePath}/_theme_inc/images/hotkey-tips/en.png</path>
+			<path>${themePath}/_theme_inc/images/hotkey-tips/${lang}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>9999</zIndex>
 		</image>
@@ -61,7 +61,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>-0.02 0.945</pos>
 			<size>1 0.05</size>
 			<color>ffffff</color>
-			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.026</fontSize>
 			<fontSize tinyScreen="true">0.031</fontSize>
 			<alignment>right</alignment>
@@ -72,20 +72,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<backgroundColor>ff000000</backgroundColor>
 		</text>
 		<text name="region" extra="true" region="eu">
-			<text>Region: Europe</text>
+			<text>${theme.region}: ${theme.europe}</text>
 		</text>
 		<text name="region" extra="true" region="jp">
-			<text>Region: Japan</text>
+			<text>${theme.region}: ${theme.japan}</text>
 		</text>
 		<text name="region" extra="true" region="us">
-			<text>Region: America</text>
+			<text>${theme.region}: ${theme.usa}</text>
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 40</text>
+			<text>Theme by pajarorrojo - Version 41</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
-			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
 			<fontSize>0.0220</fontSize>
 			<alignment>left</alignment>
 			<zIndex>99</zIndex>
@@ -97,13 +97,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.03 0.05</pos>
 			<maxSize>0.25 0.25</maxSize>
 			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.1 0.1</maxSize>
-			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
-			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo-splash.png</path>
-			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
-			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
-			<path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo-splash.png</path>
-			<path ifSubset="frontend:emulationstation">./_theme_inc/images/es-logo-splash.png</path>
+			<path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/batocera-logo-splash.svg</path>
+			<path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/retrobat-logo-splash.png</path>
+			<path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/batocera_plus_logo.png</path>
+			<path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/emuelec-logo-splash.png</path>
+			<path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/projectarcade-logo.png</path>
+			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/jelos-logo-splash.png</path>
+			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/es-logo-splash.png</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
 
@@ -118,7 +118,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text ifSubset="frontend:emulationstation">${theme.welcome} EmulationStation</text>
 			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
 			<color>ffffff</color>
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.038</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.03</fontSize>
@@ -135,7 +135,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<image name="avatarFrame" extra="true">
 			<origin>0.5 0</origin>
-			<path>./_theme_inc/images/frame-splash.png</path>
+			<path>${themePath}/_theme_inc/images/frame-splash.png</path>
 			<pos>0.5 0.326</pos>
 			<maxSize>0.255 0.255</maxSize>
 
@@ -159,7 +159,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0 0.58</pos>
 			<size>1 0.034</size>
 			<color>ffffff</color>
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.038</fontSize>
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>
@@ -170,10 +170,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<image name="linea-inferior" extra="static">
-			<path>./_theme_inc/images/pixel-blanco.png</path>
+			<path>${themePath}/_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
 			<size>1 0.002</size>
 			<size tinyScreen="true">1 0.005</size>
+         	<color ifSubset="colorset:black">0070d1</color>
 			<backgroundColor>ff000000</backgroundColor>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>99</zIndex>
@@ -181,9 +182,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<!-- CONFIGURACION EXTRA PARA AVATARES -->
 		<image name="avatar" extra="true">
-			<path>./_theme_options/avatars/${image.avatar}</path>
-			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
-			<path ifSubset="system-avatar:cheevos">./_theme_options/avatars/ps-x-logo-avatar.png</path>
+			<path>${themePath}/_theme_options/avatars/${image.avatar}</path>
+			<path ifSubset="system-avatar:custom">${themePath}/custom-avatar.png</path>
+			<path ifSubset="system-avatar:cheevos">${themePath}/_theme_options/avatars/ps-x-logo-avatar.png</path>
 		</image>
 		<!--
 		<webimage name="avatar-test"  extra="true">
@@ -197,9 +198,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		  </webimage>
 		-->
 	</view>
-	<include>./custom-username.xml</include>
-	<include>./_theme_options/usernames.xml</include>
-	<include>./_theme_options/avatars.xml</include>
+	<include>${themePath}/custom-username.xml</include>
+	<include>${themePath}/_theme_options/usernames.xml</include>
+	<include>${themePath}/_theme_options/avatars.xml</include>
 
 
 </theme>

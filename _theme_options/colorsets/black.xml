@@ -28,15 +28,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
-      <splash.progressbarActive ifSubset="secondary_colorset:default">666666</splash.progressbarActive>
+      <splash.progressbarActive>0070d1</splash.progressbarActive>
       <splash.progressbarActiveEnd>111111</splash.progressbarActiveEnd>
       <splash.progressbar>ffffff69</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
-      <sistema.lineainferior ifSubset="secondary_colorset:default">3CAEFB</sistema.lineainferior>
+      <sistema.lineainferior ifSubset="secondary_colorset:default">0070d1</sistema.lineainferior>
       <sistema.pie>000000</sistema.pie>
-      <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
-      <classic.tile.background>000000</classic.tile.background>
-      <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>
+      <gamelist.starFill>DF0024</gamelist.starFill>
+      <ps4Style.tile.background>000000</ps4Style.tile.background>
+      <grid.starFill>F3C300</grid.starFill>
       <dimColor>808080</dimColor>
    </variables>
 
@@ -58,8 +58,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <menuTextEdit name="menutextedit">
-         <inactive>./../../_theme_inc/images/caja-texto-negra.png</inactive>
-         <active>./../../_theme_inc/images/caja-texto-negra-activa.png</active>
+         <inactive>${themePath}/_theme_inc/images/caja-texto-negra.png</inactive>
+         <active>${themePath}/_theme_inc/images/caja-texto-negra-activa.png</active>
       </menuTextEdit>
    </view>
 

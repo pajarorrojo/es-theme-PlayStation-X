@@ -1,0 +1,45 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme defaultView="full-grid">
+   <formatVersion>7</formatVersion>
+
+   <view name="system, detailed,  grid">
+
+      <text name="systemInfoEx, systemInfoEx2, gameInfoEx, gameInfoEx2, gameInfoExNull, contenedor-gamedata, contenedor-gamedata2, contenedor-iconos" extra="true">
+         <opacity>0</opacity>
+         <visible>false</visible>
+      </text>
+
+      <text name="system_name_extra" extra="true">
+         <text>${system.fullName}</text>
+      </text>
+
+   </view>
+
+<customView name="full-grid" inherits="grid" displayName="${fullGridlViewName}">
+
+      <imagegrid name="gamegrid">
+         <imageSource>marquee</imageSource>
+      </imagegrid>
+
+      <gridtile name="default">
+         <imageColor>ffffff00</imageColor>
+      </gridtile>
+
+      <gridtile name="selected">
+         <imageColor>ffffff00</imageColor>
+      </gridtile>
+
+      <image name="gridtile.marquee" >
+		   <pos>0.5 0.5</pos>
+		   <origin>0.5 0.5</origin>
+         <maxSize>0.8 0.8</maxSize>
+		</image>
+
+      <image name="gridtile.marquee:selected">
+         <maxSize>0.9 0.9</maxSize>
+		</image>
+
+</customView>
+</theme>

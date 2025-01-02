@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>bortitua</theme.forced>
     <theme.gameDescription>Jokoaren deskribapenak erakutsi</theme.gameDescription>
     <carouselViewName>Karrusel horizontala</carouselViewName>
-    <classiclViewName>Karrusel klasikoa</classiclViewName>
-    <theme.mainImage>Irudi nagusia</theme.mainImage>
+    <ps4StylelViewName>PS4 estiloa</ps4StylelViewName>    
+    <theme.mainImage>Irudi aipagarria</theme.mainImage>    
     <theme.gridImage>Sare-irudia</theme.gridImage>
     <fullGridlViewName>Sare hedatua</fullGridlViewName>    
     <theme.gamesplash-type>Jokoen kargatzeko pantaila</theme.gamesplash-type>
@@ -95,6 +95,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-gameTimeLabel>Joko Denbora:</theme-gameTimeLabel>
     <theme.dummydata>Bertsioa eta urtea goiko aldean erakutsi</theme.dummydata>
     <dummydata.showversion>Bertsioa bakarrik</dummydata.showversion>
-    <dummydata.showyear>Urtea bakarrik</dummydata.showyear>    
+    <dummydata.showyear>Urtea bakarrik</dummydata.showyear>
+    <theme.hardwareType if="${system.hardwareType} == 'console'">Kontsola</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">Ordenagailua</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">Bilduma pertsonalizatua</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">Kontsola eramangarria</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">Sistema</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">Bilduma automatikoa</theme.hardwareType>
+    <theme.thumbnail-type>Joko kutxa mota (lehentasuna)</theme.thumbnail-type>
+    <theme.showlogo>Erakutsi jokoaren logotipoa</theme.showlogo>
+    <theme.topinfoarea>Goiko informazio eremua</theme.topinfoarea>
+    <theme.clean>Garbitu / Gutxieneko</theme.clean>
+    <theme.region>Eskualdea</theme.region>
+    <theme.europe>Europa</theme.europe>
+    <theme.usa>Estatu Batuak</theme.usa>
+    <theme.japan>Japonia</theme.japan>
+    <theme.overlayExtra>Systemen ikuspegiaren gaineko arteak erakutsi</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>Jokoen zerrendan gaineko arteak erakutsi</theme.gamelistOverlayExtra>
+    <theme.nonumbers>Ez bertsio eta urteko zenbakiak</theme.nonumbers>
+    <theme.highVramRequired>(VRAM balio altuak behar ditu)</theme.highVramRequired>
   </variables>
 </theme>

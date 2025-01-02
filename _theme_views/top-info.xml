@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <!--RELOJ-->
    <view name="screen">
       <text name="clock">
-         <fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <alignment>right</alignment>
          <size>0.075 0.038</size>
          <fontSize>0.029</fontSize>
@@ -36,8 +36,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="iconset:snes">0.034</size>
          <pos ifSubset="iconset:arcade">0.968 0.005</pos>
          <size ifSubset="iconset:arcade">0.028</size>
-         <gunPath>./_theme_inc/images/lightgun.png</gunPath>
-         <wheelPath>./_theme_inc/images/wheel.svg</wheelPath>
+         <gunPath>${themePath}/_theme_inc/images/lightgun.png</gunPath>
+         <wheelPath>${themePath}/_theme_inc/images/wheel.svg</wheelPath>
          <itemSpacing ifSubset="iconset:snes">0.013</itemSpacing>
          <itemSpacing ifSubset="iconset:psx|psx-light|psx-color|psx-color-2|position">0.005</itemSpacing>
          <horizontalAlignment>right</horizontalAlignment>
@@ -52,13 +52,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="system">
       <image name="frontend-logo" extra="true">
-         <path ifSubset="frontend:batocera">./_theme_inc/images/logo-bato-front.svg</path>
-         <path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
-         <path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
-         <path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo.png</path>
-         <path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo.png</path>
-			<path ifSubset="frontend:emulationstation">./_theme_inc/images/es-logo.png</path>
+         <path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/logo-bato-front.svg</path>
+         <path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/retrobat-logo.png</path>
+         <path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/batocera_plus_logo.png</path>
+         <path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/emuelec-logo.png</path>
+         <path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/projectarcade-logo.png</path>
+			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/jelos-logo.png</path>
+			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/es-logo.png</path>
          <pos>0.009 0.012</pos>
          <maxSize>0.096</maxSize>
          <color>ffffff</color>
@@ -73,9 +73,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <image name="plus-picto" extra="static">
-         <path>./_theme_inc/images/plus-picto-bato.svg</path>
+         <path>${themePath}/_theme_inc/images/plus-picto-bato.svg</path>
          <pos>0.086 0.045</pos>
-         <pos ifSubset="frontend:no-frontend">0.02 0.045</pos>
+         <pos ifSubset="frontend:none">0.02 0.045</pos>
          <maxSize>0.050</maxSize>
          <color>ffffff</color>
          <verticalAlignment>top</verticalAlignment>
@@ -95,20 +95,17 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 <!-- INFO DE JUEGOS EN VISTA SISTEMA -->
 
-      <text name="systemInfo">
-         <visible>false</visible>
-      </text>
 
       <!-- CONTADORES DE JUEGOS DEL SISTEMA + EL MAS JUGADO -->
 
       <text name="systemInfoEx" extra="static">
-         <text>{system:total} ${GamesNumber}  •  {system:favorites} ${GamesFavs}  •  {system:gamesPlayed} ${NumberPlayed}</text>
-         <text tinyScreen="true">{system:total} ${GamesNumber}  •  {system:favorites} ${GamesFavs}</text>
+         <text>''+ {system:total}  + ' ' +'${GamesNumber}' + '  •  '  +  {system:favorites}.tointeger() + ' ' + '${GamesFavs}' + '  •  '  +  {system:gamesPlayed} + ' ' +  '${NumberPlayed}' + ''</text>
+         <text tinyScreen="true">'' + {system:total}  + ' ' + '${GamesNumber}' + '  •  '  +  {system:favorites}.tointeger() + ' ' +  '${GamesFavs}' + ''</text>
          <visible>{system:total} &gt; 0 ? 1 : 0</visible>
       </text>
 
       <text name="systemInfoEx2" extra="static">
-         <text>${theme.mostplayed} {system:mostPlayed}</text>
+         <text>''+ '${theme.mostplayed}' + ' ' + {system:mostPlayed} ''+</text>
          <opacity>0</opacity>
          <visible>{system:total} &gt; 0 ? 1 : 0</visible>
       </text>
@@ -137,7 +134,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </control>
 
       <image name="users-picto" extra="static" onclick="netplay">
-         <path>./_theme_inc/images/users-picto.svg</path>
+         <path>${themePath}/_theme_inc/images/users-picto.svg</path>
          <pos>0.554 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
          <maxSize>0.05</maxSize>
@@ -151,7 +148,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       
       <image name="trophy-picto" extra="static" onclick="cheevos">
-         <path>./_theme_inc/images/trophy-picto.svg</path>
+         <path>${themePath}/_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3">0.885 0.05</pos>
          <pos ifSubset="aspect-ratio:5-4">0.875 0.045</pos>
@@ -179,7 +176,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="detailed, grid">
 
       <image name="cheevos-picto, trophy-picto" extra="static" onclick="cheevos">
-         <path>./_theme_inc/images/trophy-picto.svg</path>
+         <path>${themePath}/_theme_inc/images/trophy-picto.svg</path>
          <pos>0.827 0.045</pos>
          <pos ifSubset="aspect-ratio:4-3">0.885 0.05</pos>
          <pos ifSubset="aspect-ratio:5-4">0.875 0.045</pos>
@@ -211,7 +208,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="md_netplay" onclick="netplay">
          <origin>0 0</origin>
-         <path>./_theme_inc/images/users-picto.svg</path>
+         <path>${themePath}/_theme_inc/images/users-picto.svg</path>
          <pos>0.554 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
          <maxSize>0.05</maxSize>
@@ -226,7 +223,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="users-picto" extra="static" onclick="netplay">
-         <path>./_theme_inc/images/users-picto.svg</path>
+         <path>${themePath}/_theme_inc/images/users-picto.svg</path>
          <pos>0.554 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.534 0.047</pos>
          <maxSize>0.05</maxSize>
@@ -244,11 +241,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>bottom</verticalAlignment>
          <maxSize>0.096</maxSize>
          <maxSize ifSubset="aspect-ratio:3-2">0.085 0.1</maxSize>
-         <path>./_theme_inc/images/caratulas/default.png</path>
-         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/default-b.png</path>
-         <path>./_theme_inc/images/caratulas/${system.theme}.jpg</path>
-         <path>./_theme_inc/images/caratulas/${system.theme}.png</path>
-         <path ifSubset="colorset:black">./_theme_inc/images/caratulas/${system.theme}-b.png</path>
+         <path>${themePath}/_theme_inc/images/caratulas/default.png</path>
+         <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/default-b.png</path>
+         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.jpg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.png</path>
+         <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/${system.theme}-b.png</path>
          <autoFade>false</autoFade>
          <opacity>0</opacity>
          <zIndex>99</zIndex>
@@ -269,13 +266,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="caratula-top" extra="static" region="eu" />
       <image name="caratula-top" extra="static" region="us">
-         <path>./_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
-         <path>./_theme_inc/images/caratulas/us/${system.theme}.png</path>
+         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.png</path>
       </image>
 
       <image name="caratula-top" extra="static" region="jp">
-         <path>./_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
-         <path>./_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.png</path>
       </image>
 
 
@@ -363,7 +360,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="detailed, grid, system">
 
       <image name="info-picto" extra="static">
-         <path>./_theme_inc/images/info-picto.svg</path>
+         <path>${themePath}/_theme_inc/images/info-picto.svg</path>
          <pos>0.125 0.047</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.02 0.047</pos>
          <maxSize>0.045</maxSize>
@@ -387,8 +384,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.387 0.05</size>
          <size ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.46 0.055</size>
          <color>FFFFFF</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.028</fontSize>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.029</fontSize>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -398,8 +395,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoScrollDelay>0</autoScrollDelay>
       </text>
 
-      <image name="puntoazul-1" extra="static" ifSubset="dummy-data:default|show_version">
-         <path>./_theme_inc/images/punto-azul.png</path>
+      <image name="puntoazul-1" extra="static" ifSubset="top-info:default">
+         <path>${themePath}/_theme_inc/images/punto-azul.png</path>
          <pos>0.551 0.024</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.532 0.024</pos>
          <maxSize>0.016</maxSize>
@@ -412,13 +409,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <saturation if="{global.netplay} == true">1</saturation>
       </image>
 
-      <text name="version" extra="static" ifSubset="dummy-data:default|show_version">
-         <text>v.40</text>
+      <text name="version" extra="static" ifSubset="top-info:default">
+         <text>v.41</text>
          <pos>0.563 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
          <size>0.064 0.035</size>
          <color>ffffff</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.023</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.02</fontSize>
          <alignment>left</alignment>
@@ -430,7 +427,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="puntoazul-2" extra="static">
-         <path>./_theme_inc/images/punto-azul.png</path>
+         <path>${themePath}/_theme_inc/images/punto-azul.png</path>
          <pos>0.604 0.063</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.605 0.063</pos>
          <maxSize>0.016</maxSize>
@@ -444,8 +441,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="avatar" extra="static">
-         <path>./_theme_options/avatars/${image.avatar}</path>
-         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <path>${themePath}/_theme_options/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">${themePath}/custom-avatar.png</path>
          <pos>0.618 0.039</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.625 0.039</pos>
          <maxSize>0.063 0.063</maxSize>
@@ -457,7 +454,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
          <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
          <pos>0.618 0.035</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.613 0.035</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.625 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
@@ -474,7 +471,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:4-3|5-4">0.185 0.04</size>
          <size ifSubset="aspect-ratio:3-2">0.205 0.04</size>
          <color>ffffff</color>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.028</fontSize>
          <fontSize ifSubset="aspect-ratio:3-2">0.03</fontSize>
          <alignment>left</alignment>
@@ -490,8 +487,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>bbbbbb</color>
       </image>
 
-      <image name="star-picto" extra="static"  ifSubset="dummy-data:default|show_year">
-         <path>./_theme_inc/images/star-picto.png</path>
+      <image name="star-picto" extra="static"  ifSubset="top-info:default">
+         <path>${themePath}/_theme_inc/images/star-picto.png</path>
          <pos>0.856 0.054</pos>
          <pos ifSubset="aspect-ratio:16-10|5-3">0.86 0.054</pos>
          <maxSize>0.03</maxSize>
@@ -503,15 +500,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible ifSubset="aspect-ratio:4-3|3-2|5-4">false</visible>
       </image>
 
-      <text name="theme-release-year" extra="static" ifSubset="dummy-data:default|show_year">
-         <text>2024</text>
+      <text name="theme-release-year" extra="static" ifSubset="top-info:default">
+         <text>2025</text>
          <pos>0.875 0.052</pos>
          <pos ifSubset="aspect-ratio:16-10">0.88 0.052</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.87 0.052</pos>
          <pos ifSubset="aspect-ratio:5-3">0.88 0.052</pos>
          <size>0.048 0.035</size>
          <color>ffffff</color>
-         <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
          <fontSize>0.025</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3" tinyScreen="true">0.02</fontSize>
          <alignment>left</alignment>
@@ -520,24 +517,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
          <visible ifSubset="aspect-ratio:4-3|3-2|5-4">false</visible>
-
          <backgroundColor>ff000000</backgroundColor>
       </text>
+
       <image name="linea-guia-TEST-HOR" extra="static">
-         <path>./_theme_inc/images/pixel-blanco.png</path>
-         <pos>0 0.825</pos>
+         <path>${themePath}/_theme_inc/images/pixel-blanco.png</path>
+         <pos>0 0.35</pos>
          <size>1 0.001</size>
          <color>ff00ff00</color>
-         <zIndex>9999</zIndex>
+         <zIndex>0</zIndex>
          <visible>false</visible>
       </image>
 
       <image name="linea-guia-TEST-VERT" extra="static">
-         <path>./_theme_inc/images/pixel-blanco.png</path>
+         <path>${themePath}/_theme_inc/images/pixel-blanco.png</path>
          <pos>0.2 0</pos>
          <size>0.002 1</size>
          <color>FF000000</color>
-         <zIndex>9999</zIndex>
+         <zIndex>0</zIndex>
          <visible>false</visible>
       </image>
    </view>

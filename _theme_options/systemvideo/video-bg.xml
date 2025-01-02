@@ -1,0 +1,67 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+      <formatVersion>7</formatVersion>
+      <view name="system" ifSubset="video-system:background-option">
+            <video name="system_video_bg" extra="true" >
+                  <pos>0 0</pos>
+                  <effect>none</effect>
+                  <size>1 1</size>
+                  <showSnapshotNoVideo>false</showSnapshotNoVideo>
+                  <showSnapshotDelay>false</showSnapshotDelay>
+                  <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
+                  <path ifSubset="video-system-random:disable-random|enable-ifnospot">${themePath}/_theme_inc/videos/${system.theme}.mp4</path>
+                  <delay>1</delay>
+                  <zIndex>47</zIndex>
+                  <audio ifSubset="video-system-audio:disable-audio">false</audio>
+            </video>
+      </view>
+
+      <view name="system" ifSubset="carousel:small">
+
+            <stackpanel name="contenedor-systemdata" extra="true">
+                  <pos>0.163 0.46</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.46</pos>
+                  <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.46</pos>             
+            </stackpanel>
+
+            <text name="system_description" extra="true">
+                  <pos>0.163 0.5</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.5</pos>
+                  <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.5</pos>
+            </text>
+      </view>
+
+      <view name="system" ifSubset="carousel:medium">
+
+            <stackpanel name="contenedor-systemdata" extra="true">
+                  <pos>0.163 0.51</pos>
+                  <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.5</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.51</pos>
+             </stackpanel>
+
+            <text name="system_description" extra="true">
+                  <pos>0.163 0.55</pos>
+                  <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.54</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.54</pos>
+                  <backgroundColor>00000000</backgroundColor>
+            </text>
+      </view>
+
+      <view name="system" ifSubset="carousel:big">
+
+            <stackpanel name="contenedor-systemdata" extra="true">
+                  <pos>0.163 0.6</pos>
+                  <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.59</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.595</pos>             
+            </stackpanel>
+
+            <text name="system_description" extra="true" ifSubset="carousel:big">
+                  <pos>0.163 0.64</pos>
+                  <pos ifSubset="aspect-ratio:4-3|5-4">0.063 0.63</pos>
+                  <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.635</pos>
+            </text>
+
+      </view>
+</theme>

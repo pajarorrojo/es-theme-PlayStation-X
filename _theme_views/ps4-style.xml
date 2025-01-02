@@ -1,0 +1,307 @@
+<!-- Theme by pajarorrojo
+https://githugam.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+    <customView name="ps4Style" inherits="grid" displayName="${ps4StylelViewName}">
+      
+      <image name="background" extra="static">
+         <visible>false</visible>      
+      </image>
+
+      <text name="gamename-grid">
+         <visible>false</visible>
+      </text>
+
+      <image name="overlay-front" extra="true">
+         <path>${themePath}/_theme_inc/images/overlay-single.png</path>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <minSize>1 1</minSize>
+         <linearSmooth>true</linearSmooth>
+         <tile>false</tile>
+         <zIndex>50</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <imagegrid name="gamegrid">
+         <imageSource ifSubset="grid-origin:image">image</imageSource>
+         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
+         <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
+         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
+         <imageSource ifSubset="grid-origin:fanart|default">fanart</imageSource>
+         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
+         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
+         <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>
+         <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
+         <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+         <pos>-0.505 0.085</pos>
+         <x ifSubset="aspect-ratio:4-3">-0.725 0.085</x>
+         <x ifSubset="aspect-ratio:5-4">-0.81 0.085</x>
+         <x ifSubset="aspect-ratio:16-10">-0.595 0.085</x>
+         <x ifSubset="aspect-ratio:3-2">-0.615 0.085</x>
+         <x ifSubset="aspect-ratio:5-3">-0.585 0.085</x>
+         <size>1.501 0.39</size>
+         <size ifSubset="aspect-ratio:4-3">2 0.39</size>
+         <size ifSubset="aspect-ratio:5-4">2.180 0.39</size>
+         <size ifSubset="aspect-ratio:16-10">1.7 0.39</size>
+         <size ifSubset="aspect-ratio:3-2">1.75 0.39</size>
+         <size ifSubset="aspect-ratio:5-3">1.67 0.39</size>
+         <zIndex>60</zIndex>
+         <padding>0.008 0.05</padding>
+         <autoLayout>9 1</autoLayout>
+         <scrollDirection>horizontal</scrollDirection>
+         <centerSelection>true</centerSelection>
+         <scrollLoop>true</scrollLoop>
+         <animateSelection>false</animateSelection>
+      </imagegrid>
+
+      <gridtile name="default">
+         <padding>0 0</padding>
+         <selectionMode>full</selectionMode>
+         <imageSizeMode>minSize</imageSizeMode>
+         <backgroundImage>${themePath}/_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
+         <imageSizeMode ifSubset="grid-origin:boxart|cartridge">maxSize</imageSizeMode>
+         <padding ifSubset="grid-origin:boxart|cartridge">18 18</padding>
+         <backgroundEdgeColor>ffffff99</backgroundEdgeColor>
+         <backgroundCenterColor>ffffff99</backgroundCenterColor>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <imageColor ifSubset="grid-origin:marquee">ffffff00</imageColor>
+         <imageColor ifSubset="grid-origin:default">ffffff66</imageColor>
+         <size>0.2 0.2</size>
+      </gridtile>
+
+      <gridtile name="selected">
+         <imageColor>ffffff</imageColor>
+         <imageColor ifSubset="grid-origin:default">ffffff44</imageColor>
+         <imageColor ifSubset="grid-origin:marquee">ffffff00</imageColor>
+         <backgroundCornerSize>0</backgroundCornerSize>
+         <padding>0 0</padding>
+         <padding ifSubset="grid-origin:boxart|cartridge">18 18</padding>
+         <backgroundEdgeColor>ffffff</backgroundEdgeColor>
+         <backgroundCenterColor>ffffff</backgroundCenterColor>
+      </gridtile>
+
+      <image name="gridtile.marquee" ifSubset="grid-origin:marquee|default">
+		   <pos>0.5 0.5</pos>
+		   <origin>0.5 0.5</origin>
+         <maxSize>0.7 0.7</maxSize>
+		</image>
+
+      <image name="gridtile.marquee:selected" ifSubset="grid-origin:marquee|default">
+		   <pos>0.5 0.45</pos>
+		   <origin>0.5 0.5</origin>
+         <maxSize>0.9 0.9</maxSize>
+		</image>
+
+      <image name="gridtile.marquee:videoplaying" ifSubset="grid-origin:marquee|default">
+         <pos>0.5 0.15</pos>
+         <maxSize>0.5 0.2</maxSize>
+      </image>
+
+      <ninepatch name="gridtile:selected">
+         <scaleOrigin>2 2</scaleOrigin>
+      </ninepatch>
+
+      <image name="linea-inferior" extra="static">
+         <visible>true</visible>
+      </image>
+
+      <image name="gridtile.favorite">
+         <path>${themePath}/_theme_inc/images/favorite.png</path>
+         <pos>0.05 0.05</pos>
+         <maxSize>0.1 0.1</maxSize>
+         <horizontalAlignment>left</horizontalAlignment>
+         <verticalAlignment>top</verticalAlignment>
+         <origin>0 0</origin>
+      </image>
+
+      <image name="gridtile.cheevos" if="{global.cheevos} == true">
+         <pos>0.85 0.85</pos>
+         <maxSize>0.1 0.1</maxSize>
+      </image>
+
+      <image name="gridtile.cheevos:selected" if="{global.cheevos} == true">
+         <pos>0.85 1.035</pos>
+         <color>F2BC00dd</color>
+         <maxSize>0.09 0.09</maxSize>
+         <visible>true</visible>
+      </image>
+
+      <image name="gridtile.cheevos:selected" if="{system.name} == 'retroachievements'">
+         <visible>false</visible>
+         <color>00000000</color>
+      </image>
+
+      <image name="marco-activo" extra="static">
+         <path>${themePath}/_theme_inc/images/marco-activo-iso.png</path>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <zIndex>89</zIndex>
+         <pos>0.162 0.132</pos>
+         <maxSize>0.347</maxSize>
+         <origin>0 0</origin>
+      </image>
+
+      <text name="start" extra="true">
+         <text>${theme.start}</text>
+         <backgroundColor>00000069</backgroundColor>
+         <alignment>center</alignment>
+         <color>FFFFFF</color>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
+         <zIndex>59</zIndex>
+         <pos>0.165 0.424</pos>
+         <fontSize>0.03</fontSize>
+         <size>0.16 0.05</size>
+         <size ifSubset="aspect-ratio:4-3">0.216 0.05</size>
+         <size ifSubset="aspect-ratio:5-4">0.230 0.05</size>
+         <size ifSubset="aspect-ratio:16-10">0.178 0.05</size>
+         <size ifSubset="aspect-ratio:3-2">0.192 0.05</size>
+         <size ifSubset="aspect-ratio:5-3">0.173 0.05</size>
+      </text>
+
+      <text name="gamename-ps4Style" extra="true">
+         <text>{game:name}</text>
+         <pos>0.335 0.418</pos>
+         <x ifSubset="aspect-ratio:4-3">0.390</x>
+         <x ifSubset="aspect-ratio:5-4">0.405</x>
+         <x ifSubset="aspect-ratio:16-10">0.352</x>
+         <x ifSubset="aspect-ratio:3-2">0.365</x>
+         <x ifSubset="aspect-ratio:5-3">0.35</x>
+         <size>0.65 0.08</size>
+         <size ifSubset="aspect-ratio:5-3">0.62 0.08</size>
+         <color>ffffff</color>
+         <backgroundColor>ff000000</backgroundColor>
+         <fontSize>0.054</fontSize>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <autoScrollDelay>0</autoScrollDelay>
+      </text>
+<!-- mmedios que apareecen en la esquina inf. der. -->
+
+      <image name="marquee-ps4Style-view" extra="true" ifSubset="showlogo:enabled">
+         <path>{game:marquee}</path>
+         <tile>false</tile>
+         <pos>0.91 0.84</pos>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.14 0.14</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="thumbnail-ps4Style-view" extra="true">
+         <path ifSubset="thumbnail-type:thumbnail">{game:thumbnail}</path>
+         <path ifSubset="thumbnail-type:boxart">firstfile({game:boxart}, {game:thumbnail})</path>
+         <path ifSubset="thumbnail-type:boxback">firstfile({game:boxback}, {game:thumbnail})</path>
+         <path ifSubset="thumbnail-type:cartridge">firstfile({game:cartridge}, {game:thumbnail})</path>
+         <tile>false</tile>
+         <pos>0.91 0.63</pos>
+         <maxSize>0.125 0.26</maxSize>
+         <pos ifSubset="showlogo:disabled">0.91 0.73</pos>
+         <maxSize ifSubset="showlogo:disabled">0.14 0.29</maxSize>
+         <origin>0.5 0.5</origin>
+         <verticalAlignment>center</verticalAlignment>
+         <alignment>center</alignment>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>  
+      
+      <text name="md_description">
+         <color>ffffff</color>
+         <pos>0.30 0.586</pos>
+         <size>0.42 0.156</size>
+         <size tinyScreen="true">0.41 0.139</size>
+         <lineSpacing>1.1</lineSpacing>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+      <stackpanel name="contenedor-gamedata">
+         <pos>0.300 0.755</pos>
+      </stackpanel>
+
+      <stackpanel name="contenedor-gamedata2">
+         <pos>0.3 0.785</pos>
+      </stackpanel>
+
+      <stackpanel name="contenedor-iconos">
+         <x>0.3</x>
+         <y>0.835</y>
+      </stackpanel>
+
+      <image name="pie-barra" extra="static" ifHelpPrompts="true">
+         <visible>true</visible>
+      </image>
+
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12" extra="static">
+         <visible>true</visible>
+      </image>
+      
+   </customView>
+
+   <customView name="ps4Style"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
+
+      <text name="system-name" extra="true">
+         <x>0.360</x>
+      </text>
+
+      <text name="md_description">
+         <x>0.163</x>
+      </text>
+
+      <stackpanel name="contenedor-gamedata">
+         <x>0.163</x>
+      </stackpanel>
+
+      <stackpanel name="contenedor-gamedata2">
+         <x>0.163</x>
+      </stackpanel>
+
+      <stackpanel name="contenedor-iconos" >
+         <x>0.163</x>
+      </stackpanel>
+
+   </customView>
+
+   <customView name="ps4Style"  ifSubset="game-description:no">
+
+      <image name="overlay-front" extra="true">
+         <path>${themePath}/_theme_inc/images/overlay-full-grid.png</path>
+      </image>
+
+      <text name="system-name" extra="true">
+         <y>0.682</y>
+      </text>
+
+      <stackpanel name="contenedor-gamedata">
+         <y>0.590</y>
+      </stackpanel>
+
+      <stackpanel name="contenedor-gamedata2">
+         <y>0.62</y>
+      </stackpanel>
+
+      <stackpanel name="contenedor-iconos" >
+         <y>0.67</y>
+      </stackpanel>
+
+   </customView>
+
+   <customView name="ps4Style"  ifSubset="info-bar:NO">
+      <text name="md_description">
+         <y>0.59</y>
+      </text>
+   </customView>
+   
+
+</theme>

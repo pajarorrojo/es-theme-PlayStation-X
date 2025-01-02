@@ -42,7 +42,7 @@ Była to próba przedłużenia żywotności oryginalnej konsoli SEGA Mega Drive 
 			<text lang="ja">メガドライブ32X、またはアメリカではセガ32X、日本ではスーパー32Xとしても知られる、1994年にセガが発売した周辺機器で、16ビットのセガメガドライブに32ビットの拡張を提供しました。これは、セガメガドライブ本体の寿命を延ばすために、処理能力とグラフィックス能力を向上させることを目指したものでした。いくつかの素晴らしいゲーム体験を提供しましたが、32Xは期待された商業的成功を収めず、発売後間もなく生産中止となりました。</text>		</text>
 		
 		<text name="system_name" extra="true">
-			<text>SEGA Mega Drive 32X</text>
+			<text>Mega Drive 32X</text>
 			<text region="us">SEGA 32X</text>
 			<text region="jp">Super 32X</text>
 		</text>

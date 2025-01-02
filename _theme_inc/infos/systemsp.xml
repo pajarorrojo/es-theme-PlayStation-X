@@ -1,0 +1,68 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Sega System SP is an arcade board developed by Sega, entering service in 2004. It was a cost-reduced version of the NAOMI board, using a system-on-a-chip design with a custom Linux operating system. Games were distributed on CompactFlash cards instead of GD-ROMs or cartridges, making it more affordable and efficient for certain types of games.
+
+The System SP was primarily used for simpler arcade games aimed at younger audiences, like Love and Berry and Dinosaur King, as well as experimental titles like Brick People and Tetris Giant. Due to its focus on less demanding games, it was mostly used in Japan, with its final game released in 2014. Unlike NAOMI, the System SP integrated controls directly, making installation simpler and more cost-effective.</text>        
+			<text lang="es">La Sega System SP es una placa arcade desarrollada por Sega, que entró en servicio en 2004. Era una versión más económica de la placa NAOMI, utilizando un diseño de system-on-a-chip con un sistema operativo Linux personalizado. Los juegos se distribuían en tarjetas CompactFlash en lugar de GD-ROMs o cartuchos, lo que la hacía más asequible y eficiente para ciertos tipos de juegos.
+
+La System SP se utilizó principalmente para juegos arcade más sencillos dirigidos a un público joven, como Love and Berry y Dinosaur King, así como títulos experimentales como Brick People y Tetris Giant. Debido a su enfoque en juegos menos exigentes, se usó principalmente en Japón, con su último juego lanzado en 2014. A diferencia de la NAOMI, la System SP integraba los controles directamente, lo que hacía su instalación más simple y económica.</text>        
+			<text lang="ca">La Sega System SP és una placa arcade desenvolupada per Sega que va entrar en servei el 2004. Era una versió més econòmica de la placa NAOMI, utilitzant un disseny de system-on-a-chip amb un sistema operatiu Linux personalitzat. Els jocs es distribuïen en targetes CompactFlash en lloc de GD-ROMs o cartutxos, fent-la més assequible i eficient per a certs tipus de jocs.
+
+La System SP s'utilitzava principalment per a jocs arcade més senzills dirigits a un públic més jove, com Love and Berry i Dinosaur King, així com títols experimentals com Brick People i Tetris Giant. A causa del seu enfocament en jocs menys exigents, es va utilitzar principalment al Japó, amb el seu últim joc llançat el 2014. A diferència de la NAOMI, la System SP integrava els controls directament, fent la instal·lació més simple i econòmica.</text>
+			<text lang="eu">Sega System SP Sega-k garatutako arcade plaka bat da, 2004an zerbitzuan sartu zena. NAOMI plakaren bertsio merkeago bat zen, system-on-a-chip diseinua eta Linux sistema eragile pertsonalizatu bat erabiliz. Jokoak CompactFlash txarteletan banatzen ziren, GD-ROM edo kartrutxoen ordez, jolas mota batzuetarako merkeagoa eta eraginkorragoa bihurtuz.
+	
+System SPa, batez ere, ikusle gazteei zuzendutako arcade joko sinpleagoetarako erabiltzen zen, hala nola Love and Berry eta Dinosaur King, baita Brick People eta Tetris Giant bezalako esperimentalagoetarako ere. Exijentzia txikiagoko jokoetan zentratzen zenez, gehienbat Japonian erabili zen, eta bere azken jokoa 2014an kaleratu zen. NAOMI ez bezala, System SP-k kontrolak zuzenean integratzen zituen, instalazioa sinpleagoa eta merkeagoa eginez.</text>
+			<text lang="gl">A Sega System SP é unha placa arcade desenvolvida por Sega, que entrou en servizo en 2004. Era unha versión máis económica da placa NAOMI, usando un deseño de system-on-a-chip cun sistema operativo Linux personalizado. Os xogos distribuíanse en tarxetas CompactFlash no canto de GD-ROMs ou cartuchos, facendo que fose máis accesible e eficiente para certos tipos de xogos.
+	
+A System SP usábase principalmente para xogos arcade máis sinxelos dirixidos a públicos máis novos, como Love and Berry e Dinosaur King, así como títulos experimentais como Brick People e Tetris Giant. Debido ao seu enfoque en xogos menos esixentes, usouse sobre todo en Xapón, co seu último xogo lanzado en 2014. A diferenza de NAOMI, a System SP integraba os controis directamente, facendo a instalación máis sinxela e económica.</text>
+			<text lang="fr">La Sega System SP est une carte arcade développée par Sega, entrée en service en 2004. Il s'agissait d'une version moins coûteuse de la carte NAOMI, utilisant un design de système sur puce avec un système d'exploitation Linux personnalisé. Les jeux étaient distribués sur des cartes CompactFlash au lieu de GD-ROMs ou de cartouches, ce qui les rendait plus abordables et efficaces pour certains types de jeux.
+	
+Le System SP était principalement utilisé pour des jeux d'arcade plus simples destinés à un jeune public, tels que Love and Berry et Dinosaur King, ainsi que des titres expérimentaux comme Brick People et Tetris Giant. En raison de son focus sur des jeux moins exigeants, il a été principalement utilisé au Japon, avec son dernier jeu sorti en 2014. Contrairement à la NAOMI, le System SP intégrait directement les commandes, rendant l'installation plus simple et plus rentable.</text>
+			<text lang="pt">A Sega System SP é uma placa arcade desenvolvida pela Sega, que entrou em serviço em 2004. Era uma versão mais econômica da placa NAOMI, usando um design de system-on-a-chip com um sistema operacional Linux personalizado. Os jogos eram distribuídos em cartões CompactFlash em vez de GD-ROMs ou cartuchos, tornando-o mais acessível e eficiente para certos tipos de jogos.
+	
+O System SP era usado principalmente para jogos arcade mais simples, voltados para um público mais jovem, como Love and Berry e Dinosaur King, além de títulos experimentais como Brick People e Tetris Giant. Devido ao seu foco em jogos menos exigentes, foi utilizado principalmente no Japão, com seu último jogo lançado em 2014. Ao contrário do NAOMI, o System SP integrava controles diretamente, tornando a instalação mais simples e econômica.</text>
+			<text lang="it">La Sega System SP è una scheda arcade sviluppata da Sega, entrata in servizio nel 2004. Era una versione a basso costo della scheda NAOMI, utilizzando un design system-on-a-chip con un sistema operativo Linux personalizzato. I giochi venivano distribuiti su schede CompactFlash anziché su GD-ROM o cartucce, rendendolo più accessibile ed efficiente per determinati tipi di giochi.
+	
+Il System SP veniva utilizzato principalmente per giochi arcade più semplici destinati a un pubblico più giovane, come Love and Berry e Dinosaur King, così come titoli sperimentali come Brick People e Tetris Giant. A causa della sua attenzione su giochi meno esigenti, è stato utilizzato principalmente in Giappone, con il suo ultimo gioco rilasciato nel 2014. A differenza del NAOMI, il System SP integrava i controlli direttamente, rendendo l'installazione più semplice ed economica.</text>
+			<text lang="de">Das Sega System SP ist eine Arcade-Platine, die von Sega entwickelt wurde und 2004 in Betrieb genommen wurde. Es war eine kostengünstigere Version der NAOMI-Platine und nutzte ein System-on-a-Chip-Design mit einem angepassten Linux-Betriebssystem. Spiele wurden auf CompactFlash-Karten statt auf GD-ROMs oder Cartridges verteilt, was es erschwinglicher und effizienter für bestimmte Arten von Spielen machte.
+	
+Das System SP wurde hauptsächlich für einfachere Arcade-Spiele verwendet, die für ein jüngeres Publikum entwickelt wurden, wie Love and Berry und Dinosaur King, sowie für experimentelle Titel wie Brick People und Tetris Giant. Aufgrund seines Fokus auf weniger anspruchsvolle Spiele wurde es hauptsächlich in Japan verwendet, wobei das letzte Spiel 2014 veröffentlicht wurde. Im Gegensatz zu NAOMI integrierte das System SP die Steuerungen direkt, was die Installation einfacher und kostengünstiger machte.</text>
+			<text lang="pl">Sega System SP to płyta arcade opracowana przez Segę, która weszła do użytku w 2004 roku. Była to tańsza wersja płyty NAOMI, wykorzystująca projekt system-on-a-chip z niestandardowym systemem operacyjnym Linux. Gry były dystrybuowane na kartach CompactFlash zamiast na płytach GD-ROM lub kartridżach, co czyniło ją bardziej przystępną i wydajną dla określonych typów gier.
+	
+System SP był używany głównie do prostszych gier arcade skierowanych do młodszych odbiorców, takich jak Love and Berry oraz Dinosaur King, a także do tytułów eksperymentalnych, takich jak Brick People i Tetris Giant. Ze względu na skupienie się na mniej wymagających grach, był głównie używany w Japonii, a jego ostatnia gra została wydana w 2014 roku. W przeciwieństwie do NAOMI, System SP miał bezpośrednio zintegrowane sterowanie, co sprawiało, że instalacja była prostsza i tańsza.</text>
+			<text lang="ru">Sega System SP — это аркадная плата, разработанная компанией Sega и поступившая в эксплуатацию в 2004 году. Это была удешевлённая версия платы NAOMI, использующая архитектуру system-on-a-chip с операционной системой на основе Linux. Игры распространялись на картах CompactFlash вместо GD-ROM или картриджей, что делало её более доступной и эффективной для определённых типов игр.
+	
+System SP в основном использовалась для более простых аркадных игр, ориентированных на молодую аудиторию, таких как Love and Berry и Dinosaur King, а также для экспериментальных проектов, таких как Brick People и Tetris Giant. Из-за ориентации на менее требовательные игры она использовалась главным образом в Японии, а её последняя игра вышла в 2014 году. В отличие от NAOMI, System SP имела встроенные элементы управления, что упрощало и удешевляло установку.</text>
+			<text lang="zh">Sega System SP 是由 Sega 开发的街机主板，于 2004 年投入使用。它是 NAOMI 主板的低成本版本，采用系统芯片设计，运行定制的 Linux 操作系统。游戏通过 CompactFlash 卡分发，而不是 GD-ROM 或卡带，这使其对某些类型的游戏更加经济和高效。
+	
+System SP 主要用于较简单的街机游戏，目标人群是年轻玩家，如Love and Berry和Dinosaur King，以及实验性游戏如Brick People和Tetris Giant。由于其专注于技术要求较低的游戏，它主要在日本使用，最后一款游戏于 2014 年发布。与 NAOMI 不同，System SP 将控制直接集成，使安装更加简单和经济。</text>
+			<text lang="ar">تعد Sega System SP لوحة أركيد طورتها شركة سيجا، وبدأت الخدمة بها في عام 2004. كانت نسخة منخفضة التكلفة من لوحة NAOMI، حيث استخدمت تصميم نظام على رقاقة مع نظام تشغيل لينكس مخصص. تم توزيع الألعاب على بطاقات CompactFlash بدلاً من GD-ROM أو الخراطيش، مما جعلها أكثر تكلفة وكفاءة لبعض أنواع الألعاب.
+	
+تم استخدام نظام SP بشكل أساسي لألعاب الأركيد الأبسط الموجهة إلى الجماهير الأصغر سنًا، مثل Love and Berry وDinosaur King، بالإضافة إلى العناوين التجريبية مثل Brick People وTetris Giant. بسبب تركيزها على الألعاب الأقل تطلبًا، تم استخدامها في الغالب في اليابان، حيث تم إصدار آخر لعبة لها في عام 2014. على عكس NAOMI، قامت System SP بدمج التحكمات مباشرة، مما جعل التثبيت أبسط وأقل تكلفة.</text>
+			<text lang="he">Sega System SP היא לוח ארקייד שפותח על ידי סגה, ונכנס לשירות בשנת 2004. זה היה גרסה מוזלת של לוח ה-NAOMI, תוך שימוש בעיצוב מערכת על שבב עם מערכת הפעלה מבוססת לינוקס מותאמת אישית. המשחקים הופצו על כרטיסי CompactFlash במקום GD-ROM או מחסניות, מה שהפך את המערכת ליותר משתלמת ויעילה לסוגי משחקים מסוימים.
+	
+לוח ה-System SP שימש בעיקר למשחקי ארקייד פשוטים יותר שהיו מכוונים לקהל צעיר, כמו Love and Berry ו-Dinosaur King, וכן לכותרי ניסוי כמו Brick People ו-Tetris Giant. בגלל מיקודו במשחקים פחות תובעניים, הלוח שימש בעיקר ביפן, כאשר המשחק האחרון יצא בשנת 2014. בניגוד ל-NAOMI, ה-System SP שילבה את בקרות המשחק ישירות, מה שהפך את ההתקנה לפשוטה ומשתלמת יותר.</text>
+			<text lang="ja">セガシステムSPは、セガによって開発され、2004年にサービスを開始したアーケード基板です。NAOMI基板のコスト削減バージョンであり、システムオンチップ設計とカスタムLinuxオペレーティングシステムを使用していました。ゲームは、GD-ROMやカートリッジではなく、CompactFlashカードで配布され、特定の種類のゲームに対してより手頃で効率的でした。
+	
+システムSPは、主に若年層を対象としたシンプルなアーケードゲーム（例: Love and BerryやDinosaur King）や、Brick People、Tetris Giantのような実験的なタイトルに使用されました。負荷の少ないゲームに特化していたため、主に日本で使用され、最後のゲームは2014年にリリースされました。NAOMIとは異なり、システムSPは制御装置を直接統合しており、インストールがより簡単でコスト効率が良いものでした。</text>
+			</text>
+
+		<text name="system_name" extra="true">
+			<text>SEGA System SP</text>
+		</text>
+	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>FF8000</color>
+			<colorEnd>dddddd</colorEnd>
+		</image>
+	</view>
+</theme>

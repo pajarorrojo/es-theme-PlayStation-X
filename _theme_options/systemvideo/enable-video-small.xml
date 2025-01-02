@@ -12,51 +12,63 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <showSnapshotNoVideo>false</showSnapshotNoVideo>
                <showSnapshotDelay>false</showSnapshotDelay>
                <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
-               <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
-               <delay>0.5</delay>
+               <path ifSubset="video-system-random:disable-random|enable-ifnospot">${themePath}/_theme_inc/videos/${system.theme}.mp4</path>
+               <delay>0.3</delay>
                <zIndex>70</zIndex>
                <audio ifSubset="video-system-audio:disable-audio">false</audio>
+               <default>${themePath}/_theme_inc/videos/no-video.mp4</default>
           </video>
 
-
-          <text name="system_description" extra="true">
-               <backgroundColor>ff000000</backgroundColor>
-               <size>0.54 0.305</size>
-               <fontSize>0.026</fontSize>
-           </text>
+     </view>
 
 <!-- GRANDE -->
+     <view name="system" ifSubset="carousel:big">
 
-          <video name="system_video" extra="true" ifSubset="carousel:big">
+
+          <video name="system_video" extra="true" >
                <pos>0.02 0.608</pos>
                <maxSize>0.205 0.27</maxSize>
-
           </video>
 
-
-          <text name="system_description" extra="true" ifSubset="carousel:big">
+          <stackpanel name="contenedor-systemdata" extra="true">
                <pos>0.24 0.608</pos>
+          </stackpanel>
+
+          <text name="system_description" extra="true">
+               <pos>0.24 0.648</pos>
           </text>
+     </view>
 
 <!-- MEDIANO -->
-          <video name="system_video" extra="true" ifSubset="carousel:medium">
+     <view name="system" ifSubset="carousel:medium">
+
+          <video name="system_video" extra="true">
                <pos>0.02 0.53</pos>
           </video>
 
-
-          <text name="system_description" extra="true" ifSubset="carousel:medium">
+          <stackpanel name="contenedor-systemdata" extra="true">
                <pos>0.26 0.528</pos>
+          </stackpanel>
+
+          <text name="system_description" extra="true" >
+               <pos>0.26 0.568</pos>
           </text>
+     </view>
 
 <!-- PEQUEÑO -->
+     <view name="system" ifSubset="carousel:small"> 
 
-          <video name="system_video" extra="true" ifSubset="carousel:small">
+
+          <video name="system_video" extra="true" >
                <pos>0.02 0.52</pos>
           </video>
 
-
-          <text name="system_description" extra="true" ifSubset="carousel:small">               
+          <stackpanel name="contenedor-systemdata" extra="true">
                <pos>0.26 0.52</pos>
+          </stackpanel>
+
+          <text name="system_description" extra="true">               
+               <pos>0.26 0.56</pos>
           </text>
 
 

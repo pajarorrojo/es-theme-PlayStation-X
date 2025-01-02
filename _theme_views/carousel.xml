@@ -12,22 +12,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:fanart">fanart</imageSource>
          <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
-         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
-         <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
+         <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>
+         <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
-         <autoLayoutSelectedZoom ifSubset="grid-origin:thumbnail|boxart|default|cartridge">1.33</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom ifSubset="grid-origin:thumbnail|boxart|default|cartridge">1.35</autoLayoutSelectedZoom>
          <autoLayoutSelectedZoom ifSubset="grid-origin:marquee">2</autoLayoutSelectedZoom>
          <autoLayoutSelectedZoom ifSubset="grid-origin:fanart">1.8</autoLayoutSelectedZoom>
          <pos>0 0.475</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
          <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">0 0.48</pos>
          <size>1 0.45</size>
-         <zIndex>60</zIndex>
+         <zIndex>99</zIndex>
          <padding>0.008 0.05</padding>
          <margin>0.005 0.006</margin>
          <autoLayout>5 1</autoLayout>
-         <autoLayout ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">7 1</autoLayout>
-         <autoLayout ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == '3ds' ">5 1</autoLayout>
+         <autoLayout tinyScreen="false" if="{screen.ratio} != '4/3'" ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">9 1</autoLayout>
+         <autoLayout tinyScreen="false" if="{screen.ratio} != '4/3'" ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == '3ds' || {system.theme} == 'megaduck' || {system.theme} == 'pcengine' || {system.theme} == 'pce-cd' ">7 1</autoLayout>
          <scrollDirection>horizontal</scrollDirection>
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
@@ -39,11 +39,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <padding ifSubset="aspect-ratio:4-3|5-4">2</padding>
          <selectionMode>image</selectionMode>
          <imageSizeMode>maxSize</imageSizeMode>
+         <imageColor>ffffffb2</imageColor>
          <backgroundEdgeColor>00000000</backgroundEdgeColor>
          <backgroundCenterColor>00000000</backgroundCenterColor>
          <backgroundCornerSize>0 0</backgroundCornerSize>
          <reflexion>0.2 0</reflexion>
-
       </gridtile>
 
       <gridtile name="selected">
@@ -76,7 +76,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="gridtile.favorite">
-         <path>./../_theme_inc/images/favorite.png</path>
+         <path>${themePath}/_theme_inc/images/favorite.png</path>
          <pos>-0.03 0.02</pos>
          <maxSize>0.15 0.15</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
@@ -85,7 +85,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="gridtile.cheevos" if="{global.cheevos} == true &amp;&amp; {system.showCheevos} == true">
-         <path>./../_theme_inc/images/cheevos.svg</path>
+         <path>${themePath}/_theme_inc/images/cheevos.svg</path>
          <pos>0.84 0.785</pos>
          <maxSize>0.18 0.18</maxSize>
          <horizontalAlignment>right</horizontalAlignment>

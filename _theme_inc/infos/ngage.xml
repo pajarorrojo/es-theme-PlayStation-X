@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The N-Gage is a mobile device combining features of a cellular phone and a handheld game system developed by Nokia, released on 7 October 2003.Officially nicknamed as the game deck,the N-Gage's phone works on the GSM cellular network, and software-wise runs on the Series 60 platform on top of Symbian OS v6.1.</text>
+			<text lang="es">El N-Gage es un dispositivo móvil que combina características de un teléfono celular y un sistema de juegos portátil desarrollado por Nokia, lanzado el 7 de octubre de 2003. Oficialmente apodado como consola de juegos, el teléfono N-Gage funciona en la red celular GSM y, en cuanto al software, se ejecuta en la plataforma Serie 60 sobre Symbian OS v6.1.</text>
+			<text lang="ca">El N-Gage és un dispositiu mòbil que combina característiques d'un telèfon mòbil i un sistema de jocs portàtil desenvolupat per Nokia, llançat el 7 d'octubre de 2003. Oficialment anomenat consola de jocs, el telèfon N-Gage funciona a la xarxa mòbil GSM i, pel que fa al programari, s'executa a la plataforma Sèrie 60 sobre Symbian OS v6.1.</text>
+			<text lang="eu">N-Gage gailu mugikor bat da, telefono mugikor baten eta joko sistema eramangarri baten ezaugarriak uztartzen dituena. Nokia-k garatua, 2003ko urriaren 7an kaleratu zen. Joko kontsola izen ofiziala jaso zuen, eta N-Gage telefonoa GSM sarean funtzionatzen du, Serie 60 plataforman oinarritutako Symbian OS v6.1 softwarearekin.</text>
+			<text lang="gl">O N-Gage é un dispositivo móbil que combina características dun teléfono móbil e un sistema de xogos portátil desenvolvido por Nokia, lanzado o 7 de outubro de 2003. Oficialmente apodado como consola de xogos, o teléfono N-Gage funciona na rede móbil GSM e, en canto ao software, execútase na plataforma Serie 60 sobre Symbian OS v6.1.</text>	
+			<text lang="fr">Le N-Gage est un appareil mobile qui combine les fonctionnalités d'un téléphone portable et d'une console de jeux portable développé par Nokia, lancé le 7 octobre 2003. Officiellement surnommé console de jeux, le téléphone N-Gage fonctionne sur le réseau cellulaire GSM et, côté logiciel, il utilise la plateforme Série 60 sur Symbian OS v6.1.</text>
+			<text lang="pt">O N-Gage é um dispositivo móvel que combina características de um telefone celular e um sistema de jogos portátil desenvolvido pela Nokia, lançado em 7 de outubro de 2003. Oficialmente apelidado de console de jogos, o telefone N-Gage opera na rede celular GSM e, em termos de software, é executado na plataforma Série 60 sobre Symbian OS v6.1.</text>
+			<text lang="it">Il N-Gage è un dispositivo mobile che combina le caratteristiche di un telefono cellulare e di una console di gioco portatile sviluppato da Nokia, lanciato il 7 ottobre 2003. Ufficialmente soprannominato console di gioco, il telefono N-Gage funziona sulla rete cellulare GSM e, per quanto riguarda il software, gira sulla piattaforma Serie 60 su Symbian OS v6.1.</text>
+			<text lang="de">Das N-Gage ist ein mobiles Gerät, das Merkmale eines Mobiltelefons und eines tragbaren Spielsystems kombiniert. Es wurde von Nokia entwickelt und am 7. Oktober 2003 veröffentlicht. Offiziell als Spielkonsole bezeichnet, läuft das N-Gage-Telefon im GSM-Mobilfunknetz und verwendet softwareseitig die Plattform Serie 60 auf Symbian OS v6.1.</text>
+			<text lang="pl">N-Gage to urządzenie mobilne łączące cechy telefonu komórkowego i przenośnego systemu gier, opracowane przez firmę Nokia i wydane 7 października 2003 roku. Oficjalnie nazwane konsolą gier, telefon N-Gage działa w sieci GSM i opiera się na platformie Series 60 działającej na systemie Symbian OS v6.1.</text>
+			<text lang="ru">N-Gage — это мобильное устройство, сочетающее функции мобильного телефона и портативной игровой консоли, разработанное компанией Nokia и выпущенное 7 октября 2003 года. Официально названное игровой консолью, телефон N-Gage работает в сети GSM и использует программную платформу Series 60 на базе Symbian OS v6.1.</text>
+			<text lang="zh">N-Gage 是一款由诺基亚开发的移动设备，结合了手机和便携式游戏系统的功能，于 2003 年 10 月 7 日发布。官方称其为游戏主机，N-Gage 手机在 GSM 移动网络上运行，软件方面使用 Series 60 平台基于 Symbian OS v6.1。</text>
+			<text lang="ar">N-Gage هو جهاز محمول يجمع بين ميزات الهاتف المحمول ونظام الألعاب المحمول، تم تطويره من قبل نوكيا وأُطلق في 7 أكتوبر 2003. يُعرف رسميًا كجهاز ألعاب، يعمل هاتف N-Gage على شبكة GSM ويعمل برمجيًا على منصة Series 60 باستخدام نظام Symbian OS v6.1.</text>
+			<text lang="he">ה-N-Gage הוא מכשיר נייד המשלב תכונות של טלפון סלולרי ומערכת משחקים ניידת שפותח על ידי נוקיה, ויצא לשוק ב-7 באוקטובר 2003. המכשיר, שמכונה רשמית קונסולת משחקים, פועל ברשת GSM ומשתמש בפלטפורמת Series 60 המבוססת על Symbian OS v6.1.</text>
+			<text lang="ja">N-Gageは、携帯電話と携帯型ゲーム機の機能を組み合わせた、ノキアが開発したモバイルデバイスです。2003年10月7日に発売され、正式にはゲームコンソールと呼ばれています。N-GageはGSMネットワークで動作し、ソフトウェアとしてはSymbian OS v6.1に基づいたSeries 60プラットフォームを使用しています。</text>
+		</text>
+		<text name="system_name" extra="true">
+			<text>Nokia N-Gage</text>
+		</text>
+
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>FF0000</color>
+			<colorEnd>99B3FF</colorEnd>
+		</image>
+	</view>
+</theme>

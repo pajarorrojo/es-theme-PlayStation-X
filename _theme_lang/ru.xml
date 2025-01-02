@@ -6,8 +6,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   
   <variables lang="ru">
     <theme.welcome>Добро пожаловать в Playstation X для</theme.welcome>
-    <theme.start>Запуск</theme.start>
-    <theme.mostplayed>Часто запускаемые:</theme.mostplayed>
+    <theme.start>Пуск</theme.start>
+    <theme.mostplayed>Самая запускаемая:</theme.mostplayed>
     <theme.items>Элементы:</theme.items>
     <theme.collections>Коллекции</theme.collections>
     <GamesNumber>игр</GamesNumber>
@@ -30,40 +30,40 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <none>Нет</none>
     <never>Никогда</never>
     <always>Всегда</always>
-    <iconset>набор иконок</iconset>
-    <theme.frontend>Выберите свой любимый фронтенд</theme.frontend>
+    <iconset>Набор кнопок и иконок</iconset>
+    <theme.frontend>Используемый фронтенд (оболочка)</theme.frontend>
     <gameBar>Показать информацию об игре</gameBar>
-    <CarouselImageSize>Размер карусели систем</CarouselImageSize>
-    <theme.videoBackground>Показать видео на экране системы</theme.videoBackground>
-    <theme.system-description>Показать описания системы</theme.system-description>
+    <CarouselImageSize>Размер списка систем</CarouselImageSize>
+    <theme.videoBackground>Показать видео в списке систем</theme.videoBackground>
+    <theme.system-description>Показать описание системы</theme.system-description>
     <theme.animated-background>Анимированный фон (волны)</theme.animated-background>
-    <theme.backgroundVideoOption>Фоновое видео</theme.backgroundVideoOption>
-    <theme.windowVideoOption>Видео в окне</theme.windowVideoOption>
+    <theme.backgroundVideoOption>В качестве фона</theme.backgroundVideoOption>
+    <theme.windowVideoOption>В маленьком окне</theme.windowVideoOption>
     <theme.insideVideoOption>Внутри тайла</theme.insideVideoOption>
-    <theme.smallScreenOption>Маленький экран</theme.smallScreenOption>
-    <theme.videoaudio>Включить аудио в системных видео</theme.videoaudio>
-    <theme.videoRandom>Показать случайное видеоизображение</theme.videoRandom>
-    <ifnospot>Если нет системного видео</ifnospot>
-    <theme.Avatar>Выберите свой аватар</theme.Avatar>
-    <theme.username>Выберите свой никнейм</theme.username>
-    <custom>персонализированный</custom>
+    <theme.smallScreenOption>В маленьком окне</theme.smallScreenOption>
+    <theme.videoaudio>Включить звук в системных видео</theme.videoaudio>
+    <theme.videoRandom>Показать случайный видеофрагмент</theme.videoRandom>
+    <ifnospot>Если системного видео нет</ifnospot>
+    <theme.Avatar>Отображаемый аватар</theme.Avatar>
+    <theme.username>Отображаемый псевдоним (Ник)</theme.username>
+    <custom>Персональный</custom>
     <theme.videoGamelistDelay>Задержка видео в списке игр</theme.videoGamelistDelay>
-    <VideoOff>Не отображать видео</VideoOff>
-    <theme.systemConsole>Показывать логотип и консоли в системном виде</theme.systemConsole>
+    <VideoOff>Не отображать</VideoOff>
+    <theme.systemConsole>Показывать логотип и консоли в списке систем</theme.systemConsole>
     <randomGame>Случайная игра</randomGame>
     <theme.colorset>Основной цвет темы</theme.colorset>
     <theme.secondaryColorset>Дополнительный цвет</theme.secondaryColorset>
-    <theme.gridvideo>Отображать видеоигры</theme.gridvideo>
-    <theme.videoSnapAudio>Включить звук в видеоиграх</theme.videoSnapAudio>
+    <theme.gridvideo>Отображать видеофрагмент игры</theme.gridvideo>
+    <theme.videoSnapAudio>Включить звук в видеофрагментах</theme.videoSnapAudio>
     <theme.animatedList>Анимированные переходы в списке игр</theme.animatedList>
-    <theme.animatedSystem>Анимированные переходы в системном виде</theme.animatedSystem>
-    <theme.aspect-ratio>Выберите тип экрана</theme.aspect-ratio>
-    <theme.oversizeVideoOption>Увеличенное видео</theme.oversizeVideoOption>
+    <theme.animatedSystem>Анимированные переходы в списке систем</theme.animatedSystem>
+    <theme.aspect-ratio>Соотношение Сторон Экрана</theme.aspect-ratio>
+    <theme.oversizeVideoOption>В большом окне</theme.oversizeVideoOption>
     <theme.bato35compatilble>Совместимо только с Batocera 35 или выше</theme.bato35compatilble>
     <theme.netplay-required>Пожалуйста, включите сетевую игру, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.netplay-required>
     <theme.ra-required>Пожалуйста, включите Retroachievements, чтобы показать свое имя пользователя или выберите другой ник в настройках темы</theme.ra-required>
-    <theme.hotkey>Показать помощь по горячим клавишам на экране приветствия</theme.hotkey>
-    <theme.hotkey-x86>Показать быструю справку по горячим клавишам</theme.hotkey-x86>
+    <theme.hotkey>Справка по горячим клавишам на экране приветствия</theme.hotkey>
+    <theme.hotkey-x86>Показать справку по горячим клавишам</theme.hotkey-x86>
     <theme.hotkey.gamesplash>Только на экране загрузки игры</theme.hotkey.gamesplash>
     <theme.hotkey.splash>Только на экране приветствия</theme.hotkey.splash>
     <theme.hotkey.both>На обоих экранах</theme.hotkey.both>
@@ -73,12 +73,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gridorigin>Изображения в сетке</theme.gridorigin>
     <theme.carouselMainOrigin>Главное изображение в виде карусели</theme.carouselMainOrigin>
     <theme.carouselOrigin>Изображения в карусели</theme.carouselOrigin>
-    <theme.systemBackground>Изображение фона в виде систем</theme.systemBackground>
+    <theme.systemBackground>Фон в списке систем</theme.systemBackground>
     <randomFanart>Случайный фанарт</randomFanart>
     <theme.gamelistBackground>Фоновое изображение в списке игр</theme.gamelistBackground>
     <theme.forced>Принудительно</theme.forced>
     <theme.gameDescription>Показать описания игр</theme.gameDescription>
-    <carouselViewName>Горизонтальный карусель</carouselViewName>
+    <carouselViewName>Горизонтальная карусель</carouselViewName>
     <classiclViewName>Классическая карусель</classiclViewName>
     <theme.mainImage>Главное изображение</theme.mainImage>
     <theme.gridImage>Изображение сетки</theme.gridImage>
@@ -89,13 +89,31 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <singlelViewName>Игра за игрой</singlelViewName>
     <theme.box>коробка</theme.box>
     <theme.logo>логотип</theme.logo>
-    <theme.romFolder>Показать информацию о папке с ROM</theme.romFolder>
+    <theme.romFolder>Показать информацию о папке с ROMами</theme.romFolder>
     <dim>Затемненный</dim>
     <theme-lastplayedLabel>Последний запуск</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>Сыграно раз:</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>Время игры:</theme-gameTimeLabel>
+    <theme-timesPlayedLabel>Запусков:</theme-timesPlayedLabel>
+    <theme-gameTimeLabel>Время игры:</theme-gameTimeLabel>
     <theme.dummydata>Показать версию и год в верхней части</theme.dummydata>
     <dummydata.showversion>Только версия</dummydata.showversion>
-    <dummydata.showyear>Только год</dummydata.showyear>        
+    <dummydata.showyear>Только год</dummydata.showyear>    
+    <theme.hardwareType if="${system.hardwareType} == 'console'">Консоль</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">Компьютер</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">Пользовательская коллекция</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">Портативная консоль</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">Cистема</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">Автоматическая коллекция</theme.hardwareType>
+    <theme.thumbnail-type>Тип игровой коробки (приоритет)</theme.thumbnail-type>
+    <theme.showlogo>Показать логотип игры</theme.showlogo>
+    <theme.topinfoarea>Область верхней информации</theme.topinfoarea>
+    <theme.clean>Чистый/минимальный</theme.clean>
+    <theme.region>Регион</theme.region>
+    <theme.europe>Европа</theme.europe>
+    <theme.usa>США</theme.usa>
+    <theme.japan>Япония</theme.japan>
+    <theme.overlayExtra>Показать наложенные изображения в представлении систем</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>Показать наложенные изображения в списке игр</theme.gamelistOverlayExtra>
+    <theme.nonumbers>Без номеров версии и года</theme.nonumbers>
+    <theme.highVramRequired>(требуются высокие значения VRAM)</theme.highVramRequired>
   </variables>
 </theme>

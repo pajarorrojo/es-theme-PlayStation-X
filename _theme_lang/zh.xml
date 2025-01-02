@@ -30,7 +30,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <none>无</none>
     <never>从不</never>
     <always>始终</always>
-    <iconset>图标集</iconset>
+    <iconset>按钮和图标集</iconset>
     <theme.frontend>选择您喜欢的前端</theme.frontend>
     <gameBar>显示游戏信息</gameBar>
     <CarouselImageSize>系统旋转木马大小</CarouselImageSize>
@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>強制</theme.forced>
     <theme.gameDescription>显示游戏描述</theme.gameDescription>
     <carouselViewName>水平旋转木马</carouselViewName>
-    <classiclViewName>经典旋转木马</classiclViewName>
-    <theme.mainImage>主图像</theme.mainImage>
+    <ps4StylelViewName>PS4 风格</ps4StylelViewName>    
+    <theme.mainImage>特色图片</theme.mainImage>    
     <theme.gridImage>网格图像</theme.gridImage>
     <fullGridlViewName>完整网格</fullGridlViewName>
     <theme.gamesplash-type>游戏加载屏幕</theme.gamesplash-type>
@@ -97,5 +97,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.dummydata>在顶部显示版本和年份</theme.dummydata>
     <dummydata.showversion>仅版本</dummydata.showversion>
     <dummydata.showyear>仅年份</dummydata.showyear>
+    <theme.hardwareType if="${system.hardwareType} == 'console'">游戏机</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">电脑</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">自定义收藏</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">便携式游戏机</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">系统</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">自动收藏</theme.hardwareType>
+    <theme.thumbnail-type>游戏盒子类型（优先</theme.thumbnail-type>
+    <theme.showlogo>显示游戏徽标</theme.showlogo>
+    <theme.topinfoarea>热门信息区域</theme.topinfoarea>
+    <theme.clean>干净/最小</theme.clean>
+    <主题.region>区域</主题.region>
+    <主题.欧洲>欧洲</主题.欧洲>
+    <theme.usa>美国</theme.usa>
+    <theme.japan>日本</theme.japan>  
+    <theme.overlayExtra>显示系统视图中的叠加艺术</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>在游戏列表中显示叠加艺术</theme.gamelistOverlayExtra>
+    <theme.nonumbers>没有版本号和年份</theme.nonumbers>
+    <theme.highVramRequired>(需要较高的VRAM值)</theme.highVramRequired>
   </variables>
 </theme>

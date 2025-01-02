@@ -6,29 +6,29 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system">
       
       <carousel name="systemcarousel">
-         <scrollSound>./../../_theme_inc/sound-effects/ff/system-scroll.ogg</scrollSound>
+         <scrollSound>${themePath}/_theme_inc/sound-effects/ff/system-scroll.ogg</scrollSound>
       </carousel>
 
    </view>
 
    <view name="grid">
       <imagegrid name="gamegrid">
-         <scrollSound>./../../_theme_inc/sound-effects/ff/gamelist-scroll.ogg</scrollSound>
+         <scrollSound>${themePath}/_theme_inc/sound-effects/ff/gamelist-scroll.ogg</scrollSound>
          <storyboard>
             <animation  property="y" from="0.2" duration="600" mode="easeOutCubic" />
             <animation  property="opacity" from="0" to="1" duration="600" mode="easeInOut" />
-            <sound path="./../../_theme_inc/sound-effects/ff/enter-gamelist.ogg"/>
+            <sound path="${themePath}/_theme_inc/sound-effects/ff/enter-gamelist.ogg"/>
          </storyboard>
       </imagegrid>
    </view>
 
    <view name="detailed">
       <textlist name="gamelist">
-         <scrollSound>./../../_theme_inc/sound-effects/ff/gamelist-scroll.ogg</scrollSound>
+         <scrollSound>${themePath}/_theme_inc/sound-effects/ff/gamelist-scroll.ogg</scrollSound>
          <storyboard> 
             <animation property="x" to="0" begin="300" duration="300" mode="easeOutCubic" />
             <animation property="opacity" to="1" begin="300" duration="600" mode="ease" />
-            <sound path="./../../_theme_inc/sound-effects/ff/enter-gamelist.ogg"/>
+            <sound path="${themePath}/_theme_inc/sound-effects/ff/enter-gamelist.ogg"/>
          </storyboard>
       </textlist>
    </view>

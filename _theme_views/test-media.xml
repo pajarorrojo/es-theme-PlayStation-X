@@ -9,7 +9,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
       <image name="background" extra="static">
-         <path>./_theme_inc/images/overlay-full-grid.png</path>
+         <path>${themePath}/_theme_inc/images/overlay-full-grid.png</path>
       </image>
 
       <image name="background-art" extra="static">
@@ -49,7 +49,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="image-test, thumbnail-test, marquee-test, boxart-test,cartridge-test, fanart-test, titleshot-test, boxback-test">
          <zIndex>91</zIndex>
          <linearSmooth>true</linearSmooth>
-         <default>./../_theme_inc/images/no-image-default.png</default>
+         <default>${themePath}/_theme_inc/images/no-image-default.png</default>
          <origin>0.5 0.5</origin>
          <maxSize>0.19 0.25</maxSize>
       </image>
@@ -63,9 +63,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="video-tag, image-tag, thumbnail-tag, marquee-tag,fanart-tag, titleshot-tag, boxart-tag, boxback-tag, cartridge-tag" extra="true">
-         <default>./../_theme_inc/images/no-image-default.png</default>
+         <default>${themePath}/_theme_inc/images/no-image-default.png</default>
          <fontSize>0.023</fontSize>
-         <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
          <fontSize>0.022</fontSize>
          <backgroundColor>000000aa</backgroundColor>
          <color>ffffff</color>
@@ -89,7 +89,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <delay ifSubset="video-gamelist-delay:2s">0.01</delay>
          <delay ifSubset="video-gamelist-delay:3s">0.01</delay>
          <visible ifSubset="game-video:off">true</visible>
-         <default>./../_theme_inc/images/no-video-default.mp4</default>
+         <default>${themePath}/_theme_inc/images/no-video-default.mp4</default>
          <y>0.29</y>
          <x>0.32</x>
          <maxSize>0.2 0.25</maxSize>
@@ -100,7 +100,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </video>
 
       <text name="video-tag" extra="true">
-         <text>VIDEO</text>z
+         <text>&lt;/VIDEO&gt;</text>z
          <x>0.32</x>
       </text>
 
@@ -110,7 +110,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="image-tag" extra="true">
-         <text>IMAGE</text>
+         <text>&lt;/IMAGE&gt;</text>
          <x>0.53</x>
       </text>
 
@@ -121,7 +121,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="thumbnail-tag" extra="true">
-         <text>THUMBNAIL</text>
+         <text>&lt;/THUMBNAIL&gt;</text>
          <x>0.73</x>
       </text>
 
@@ -132,7 +132,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="marquee-tag" extra="true">
-         <text>MARQUEE</text>
+         <text>&lt;/MARQUEE&gt;</text>
          <x>0.91</x>
       </text>
 
@@ -143,7 +143,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.75 0.05</size>
          <color>ffffff</color>
          <fontSize>0.04</fontSize>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <origin>0 0</origin>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
@@ -161,7 +161,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <!-- ETIQUETAS -->
 
       <text name="fanart-tag" extra="true">
-         <text>FANART</text>
+         <text>&lt;/FANART&gt;</text>
          <x>0.12</x>
       </text>
 
@@ -171,7 +171,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="titleshot-tag" extra="true">
-         <text>TITLESHOT</text>
+         <text>&lt;/TITLESHOT&gt;</text>
          <x>0.36</x>
       </text>
 
@@ -182,7 +182,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="boxart-tag" extra="true">
-         <text>BOXART</text>
+         <text>&lt;/BOXART&gt;</text>
          <x>0.56</x>
       </text>
 
@@ -193,7 +193,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="boxback-tag" extra="true">
-         <text>BOXBACK</text>
+         <text>&lt;/BOXBACK&gt;</text>
          <x>0.75</x>
       </text>
 
@@ -204,7 +204,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="cartridge-tag" extra="true">
-         <text>CARTRIDGE</text>
+         <text>&lt;/CARTRIDGE&gt;</text>
          <x>0.92</x>
       </text>
 

@@ -12,11 +12,11 @@
           </video>
 
           <video name="default_background" extra="static" ifSubset="colorset:blue">
-               <path>./../_theme_options/colorsets/blue/background-psx-blue.mp4</path>
+               <path>${themePath}/_theme_options/colorsets/blue/background-psx-blue.mp4</path>
           </video>
 
           <video name="default_background" extra="static" ifSubset="colorset:black">
-               <path>./../_theme_options/colorsets/black/background-psx-black.mp4</path>
+               <path>${themePath}/_theme_options/colorsets/black/background-psx-black.mp4</path>
           </video>
 
      </view>

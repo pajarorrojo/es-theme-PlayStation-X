@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>forçat</theme.forced>
     <theme.gameDescription>Mostra les descripcions dels jocs</theme.gameDescription>
     <carouselViewName>Carrusel horitzontal</carouselViewName>
-    <classiclViewName>Carrusel clàssic</classiclViewName>
-    <theme.mainImage>Imatge principal</theme.mainImage>
+    <ps4StylelViewName>Estil PS4</ps4StylelViewName>    
+    <theme.mainImage>Imatge destacada</theme.mainImage>   
     <theme.gridImage>Imatge de la graella</theme.gridImage>
     <fullGridlViewName>Graella ampliada</fullGridlViewName>
     <theme.gamesplash-type>Pantalla de càrrega de jocs</theme.gamesplash-type>
@@ -96,5 +96,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.dummydata>Mostrar versió i any a la part superior</theme.dummydata>
     <dummydata.showversion>Només versió</dummydata.showversion>
     <dummydata.showyear>Només any</dummydata.showyear>
-  </variables>
+    <theme.hardwareType if="${system.hardwareType} == 'console'">Consola</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">Ordinador</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">Col·lecció personalitzada</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">Consola portàtil</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">Sistema</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">Col·lecció automàtica</theme.hardwareType>
+    <theme.thumbnail-type>Tipus de caixa de joc (prioritat)</theme.thumbnail-type>
+    <theme.showlogo>Mostrar el logo del joc</theme.showlogo>
+    <theme.topinfoarea>Àrea superior d'informació</theme.topinfoarea>
+    <theme.clean>Net / Mínim</theme.clean>
+    <theme.region>Regió</theme.region>
+    <theme.europe>Europa</theme.europe>
+    <theme.usa>Estats Units</theme.usa>
+    <theme.japan>Japó</theme.japan>  </variables>
+    <theme.overlayExtra>Mostrar sobreimpressions d'arts a la vista de sistemes</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>Mostrar sobreimpressions d'arts a la llista de jocs</theme.gamelistOverlayExtra>
+    <theme.nonumbers>Sense números de versió i any</theme.nonumbers>
+    <theme.highVramRequired>(requereix valors elevats de VRAM)</theme.highVramRequired>
 </theme>

@@ -30,7 +30,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <none>ללא</none>
     <never>אף פעם</never>
     <always>תמיד</always>
-    <iconset>סט צלמיות</iconset>
+    <iconset>סט לחצנים וסמלים</iconset>
     <theme.frontend>בחר את ה-Frontend המועדף עליך</theme.frontend>
     <gameBar>הצג מידע על המשחק</gameBar>
     <CarouselImageSize>גודל קרוסלת המערכות</CarouselImageSize>
@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>מאולץ</theme.forced>
     <theme.gameDescription>הצג תיאורי משחקים</theme.gameDescription>
     <carouselViewName>קרוסלה אופקית</carouselViewName>
-    <classiclViewName>קרוסלה קלאסית</classiclViewName>
-    <theme.mainImage>תמונה ראשית</theme.mainImage>
+    <ps4StylelViewName>סגנון PS4</ps4StylelViewName>    
+    <theme.mainImage>תמונה מוצגת</theme.mainImage>    
     <theme.gridImage>תמונת רשת</theme.gridImage>
     <fullGridlViewName>רשת מלאה</fullGridlViewName>
     <theme.gamesplash-type>מסך טעינת משחקים</theme.gamesplash-type>
@@ -96,6 +96,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-gameTimeLabel>זמן משחק</theme-gameTimeLabel>
     <theme.dummydata>הצג גרסה ושנה בחלק העליון</theme.dummydata>
     <dummydata.showversion>רק גרסה</dummydata.showversion>
-    <dummydata.showyear>רק שנה</dummydata.showyear>        
+    <dummydata.showyear>רק שנה</dummydata.showyear>
+    <theme.hardwareType if="${system.hardwareType} == 'console'">קונסולה</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">מחשב</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">אוסף מותאם אישית</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">קונסולה ניידת</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">מַעֲרֶכֶת</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">אוסף אוטומטי</theme.hardwareType>
+    <theme.thumbnail-type>סוג תיבת משחק (עדיפות)</theme.thumbnail-type>
+    <theme.showlogo>הצג את לוגו המשחק</theme.showlogo>
+    <theme.topinfoarea>אזור מידע מוביל</theme.topinfoarea>
+    <theme.clean>נקי / מינימלי</theme.clean>
+    <theme.region>אזור</theme.region>
+    <theme.europe>אירופה</theme.europe>
+    <theme.usa>ארצות הברית</theme.usa>
+    <theme.japan>יפן</theme.japan>
+    <theme.overlayExtra>הצגת אמנות חפופה בתצוגת מערכות</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>הצגת אמנות חפופה ברשימת המשחקים</theme.gamelistOverlayExtra>
+    <theme.nonumbers>ללא מספרי גרסה ושנה</theme.nonumbers>
+    <theme.highVramRequired>(דורש ערכי VRAM גבוהים)</theme.highVramRequired>
   </variables>
 </theme>

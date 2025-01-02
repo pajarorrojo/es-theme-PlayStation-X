@@ -37,7 +37,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:4-3|9-16|5-4">0.063 0.132</pos>
 
          <maxSize>0.347</maxSize>
-         <maxSize ifSubset="aspect-ratio:9-16">0.294</maxSize>
          <maxSize ifSubset="aspect-ratio:3-2">0.346</maxSize>
 
          <origin>0 0</origin>
@@ -51,7 +50,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <pos ifSubset="aspect-ratio:5-4">0.063 0.423</pos>
          <pos ifSubset="aspect-ratio:5-3">0.165 0.424</pos>
-         <pos ifSubset="aspect-ratio:9-16">0.066 0.295</pos>
          <pos ifSubset="aspect-ratio:3-2">0.165 0.423</pos>
 
          <size>0.16 0.05</size>
@@ -61,7 +59,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:3-2">0.190 0.051</size>
          <size ifSubset="aspect-ratio:5-3">0.172 0.051</size>
          <size ifSubset="aspect-ratio:5-4">0.235 0.051</size>
-         <size ifSubset="aspect-ratio:9-16">0.288 0.0285</size>
 
          <fontSize>0.03</fontSize>
       </text>
@@ -75,7 +72,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:16-10">0.353 0.451</pos>
          <pos ifSubset="aspect-ratio:5-3">0.345 0.451</pos>
          <pos ifSubset="aspect-ratio:5-4">0.305 0.451</pos>
-         <pos ifSubset="aspect-ratio:9-16">0.367 0.312</pos>
       </text>
 
       <text name="fullName" extra="true">
@@ -83,7 +79,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:16-9|16-10">0.164 0.136</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.066 0.136</pos>
          <pos ifSubset="aspect-ratio:5-3">0.165 0.137</pos>
-         <pos ifSubset="aspect-ratio:9-16">0.066 0.133</pos>
 
          <size>0.161 0.288</size>
          <size ifSubset="aspect-ratio:16-9">0.161 0.288</size>
@@ -92,7 +87,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:3-2">0.190 0.288</size>
          <size ifSubset="aspect-ratio:5-3">0.172 0.287</size>
          <size ifSubset="aspect-ratio:5-4">0.232 0.288</size>
-         <size ifSubset="aspect-ratio:9-16">0.289 0.162</size>
 
          <fontSize>0.028</fontSize>
 

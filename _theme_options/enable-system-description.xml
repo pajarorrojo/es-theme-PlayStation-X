@@ -4,19 +4,68 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
      <formatVersion>7</formatVersion>
      <view name="system">
+
           <text name="system_description" extra="true">
-               <text if="{system.manufacturer} == 'Collections'">Game collection</text>
-               <text if="{system.manufacturer} == 'Collections'" lang="es,gl">Colección de juegos</text>
                <autoScroll>vertical</autoScroll>
                <alignment>left</alignment>
                <verticalAlignment>top</verticalAlignment>
                <color>FFFFFF</color>
-               <fontPath>./../_theme_inc/fonts/SST Roman.ttf</fontPath>
+               <fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
                <lineSpacing>1.2</lineSpacing>
-               <zIndex>80</zIndex>
+               <zIndex>99</zIndex>
                <glowColor>00000069</glowColor>
-               <glowSize>1</glowSize>
+               <glowSize>2</glowSize>
                <glowOffset>3 2</glowOffset>
+               <backgroundColor>00000000</backgroundColor>
+               <autoScrollDelay>7000</autoScrollDelay>
+               <autoScrollSpeed>45</autoScrollSpeed>
+               <autoScrollSpeed ifSubset="aspect-ratio:16-10">100</autoScrollSpeed>
+               <size>0.46 0.139</size>
+               <fontSize>0.028</fontSize>
           </text>
+
+      <!-- stackpanel para datos de sistemas -->
+
+       <stackpanel name="contenedor-systemdata" extra="true" >
+      
+          <separator>0.007</separator>
+          <size>0.5 0.028</size>
+          <orientation>horizontal</orientation>
+          <backgroundColor>ff0000</backgroundColor>
+          <zIndex>99</zIndex>
+ 
+          <text name="systemdata-hardware">
+               <fontSize>0.023</fontSize>
+               <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+               <text>${theme.hardwareType}</text>
+               <visible>!empty({system:hardwareType})</visible>
+               <color>ffffff</color>
+               <singleLineScroll>true</singleLineScroll>
+               <autoScrollDelay>0</autoScrollDelay>
+               <forceUppercase>true</forceUppercase>
+
+            </text>
+   
+          <text name="systemdata-releaseyear">
+             <fontSize>0.023</fontSize>
+             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+             <text>• {system:releaseYear}</text>
+             <visible>!empty({system:releaseYear})</visible>
+             <color>ffffff</color>
+          </text>
+ 
+          <text name="systemdata-manufacturer">
+               <fontSize>0.023</fontSize>
+               <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+               <text>• {system:manufacturer}</text>
+               <visible>!empty({system:releaseYear}) &amp;&amp; {system:manufacturer} != 'Ports' &amp;&amp; {system:manufacturer}.lower() != {system:hardwareType}.lower()</visible>
+               <color>ffffff</color>
+               <singleLineScroll>true</singleLineScroll>
+               <autoScrollDelay>0</autoScrollDelay>
+               <forceUppercase>true</forceUppercase>
+
+            </text>
+   
+       </stackpanel>
      </view>
 </theme>

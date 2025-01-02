@@ -22,7 +22,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="system_name" extra="true">
-			<text lang="es,gl">Retro Logros (trofeos)</text>
+			<text>Retroachievements</text>
 		</text>
 	</view>
 </theme>

@@ -1,17 +1,12 @@
 <!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
-<theme defaultView="classic" defaultTransition="instant">
+<theme defaultView="ps4Style" defaultTransition="instant">
 
 
 
 
 	<formatVersion>7</formatVersion>
-
-	<!-- declarar dummy region para que aparezca arriba en las opciones de tema -->
-	<variables region="eu"></variables>
-
-
 
 	<!--IDIOMAS-->
 	<include>./_theme_lang/default_en.xml</include>
@@ -25,6 +20,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 	<!--THEME OPTIONS-->
+
+	<subset name="region" displayName="${theme.region}">
+		<include name="eu" displayName="${theme.europe}"/>
+		<include name="us" displayName="${theme.usa}"/>
+		<include name="jp" displayName="${theme.japan}"/>
+	</subset>
 
 
 
@@ -56,7 +57,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--FRONTEND-->
 	<subset name="frontend" displayName="${theme.frontend}">
 		<include ifNotArch="windows" name="batocera" displayName="batocera" />
-		<include name="no-frontend" displayName="${none}" tinyScreen="true" />
+		<include name="none" displayName="${none}" tinyScreen="true" />
 		<include name="retrobat" displayName="retrobat" />
 		<include ifArch="windows" name="batocera" displayName="batocera" />
 		<include name="batocera" displayName="batocera" />
@@ -65,28 +66,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="projectarcade" displayName="ProjectArcade" />
 		<include name="jelos" displayName="JELOS" />
 		<include name="emulationstation" displayName="EmulationStation" />
-
-		<include name="no-frontend" displayName="${none}" tinyScreen="false" />
-	</subset>
-
-
-	<!--JUEGO DE COLORES-->
-	<subset name="colorset" displayName="${theme.colorset}">
-		<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
-		<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
-	</subset>
-
-	<!--JUEGO DE COLORES SECUNDARIOS-->
-	<subset name="secondary_colorset" displayName="${theme.secondaryColorset}">
-		<include name="default" displayName="${none} (${default})" />
-		<include name="yellow" displayName="${yellow}">./_theme_options/colorsets/secondary_colors/yellow.xml</include>
-		<include name="green" displayName="${green}">./_theme_options/colorsets/secondary_colors/green.xml</include>
-		<include name="purple" displayName="${purple}">./_theme_options/colorsets/secondary_colors/purple.xml</include>
-		<include name="orange" displayName="${orange}">./_theme_options/colorsets/secondary_colors/orange.xml</include>
-		<include name="red" displayName="${red}">./_theme_options/colorsets/secondary_colors/red.xml</include>
-		<include name="pink" displayName="${pink}">./_theme_options/colorsets/secondary_colors/pink.xml</include>
-		<include name="blue" displayName="${blue}">./_theme_options/colorsets/secondary_colors/blue.xml</include>
-		<include name="black" displayName="${black}">./_theme_options/colorsets/secondary_colors/black.xml</include>
+		<include name="none" displayName="${none}" tinyScreen="false" />
 	</subset>
 
 	<!--AVATARES-->
@@ -125,7 +105,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="lara" displayName="Lara Croft" />
 		<include name="larry" displayName="Larry Laffer" />
 		<include name="lemmings" displayName="Lemmings" />
-		<include name="zelda" displayName="Link (Zelda Classic)" />
+		<include name="zelda" displayName="Link (Zelda NES)" />
 		<include name="zelda-ocarina" displayName="Link (Zelda Ocarina)" />
 		<include name="mario" displayName="Mario Bros." />
 		<include name="mazinger" displayName="Mazinger Z" />
@@ -201,6 +181,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="subzero" displayName="Sub Zero" />
 	</subset>
 
+	<!--TOP INFO AREA-->
+	<subset name="top-info" displayName="${theme.topinfoarea}">
+		<include tinyScreen="true" name="clean" displayName="${theme.clean}">./_theme_views/top-info-clean.xml</include>
+		<include name="default" displayName="${default}">./_theme_views/top-info.xml</include>
+		<include name="no-numbers" displayName="${theme.nonumbers}">./_theme_views/top-info.xml</include>
+		<include name="clean" displayName="${theme.clean}">./_theme_views/top-info-clean.xml</include>
+	</subset>
+
 	<!--SETS DE ICONOS-->
 	<subset name="iconset" displayName="${iconset}">
 		<include name="psx" displayName="PSX">./_theme_options/iconsets/psx.xml</include>
@@ -214,6 +202,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="arcade" displayName="ARCADE">./_theme_options/iconsets/arcade.xml</include>
 	</subset>
 
+	<!--JUEGO DE COLORES-->
+	<subset name="colorset" displayName="${theme.colorset}">
+		<include name="black" displayName="${black}">./_theme_options/colorsets/black.xml</include>
+		<include name="blue" displayName="${blue}">./_theme_options/colorsets/blue.xml</include>
+	</subset>
+
+	<!--JUEGO DE COLORES SECUNDARIOS-->
+	<subset name="secondary_colorset" displayName="${theme.secondaryColorset}">
+		<include name="default" displayName="${default}" />
+		<include name="yellow" displayName="${yellow}">./_theme_options/colorsets/secondary_colors/yellow.xml</include>
+		<include name="green" displayName="${green}">./_theme_options/colorsets/secondary_colors/green.xml</include>
+		<include name="purple" displayName="${purple}">./_theme_options/colorsets/secondary_colors/purple.xml</include>
+		<include name="orange" displayName="${orange}">./_theme_options/colorsets/secondary_colors/orange.xml</include>
+		<include name="red" displayName="${red}">./_theme_options/colorsets/secondary_colors/red.xml</include>
+		<include name="pink" displayName="${pink}">./_theme_options/colorsets/secondary_colors/pink.xml</include>
+		<include name="blue" displayName="${blue}">./_theme_options/colorsets/secondary_colors/blue.xml</include>
+		<include name="black" displayName="${black}">./_theme_options/colorsets/secondary_colors/black.xml</include>
+	</subset>
 
 	<!--TAMAÑO CARRUSEL-->
 	<subset name="carousel" displayName="${CarouselImageSize}">
@@ -223,8 +229,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="small" displayName="${small}">./_theme_options/carousel-sizes/small.xml</include>
 	</subset>
 
-	<!--TIPO DE BACKGROUND EN VISTA DE SISTEMAS-->
 
+	<!--ARTE SUPERPUESTO-->
+	<subset name="overlay-arts" displayName="${theme.overlayExtra}">
+		<include tinyScreen="true" name="NO" displayName="${no}" />
+		<include if="{screen.ratio} == '4/3' || {screen.ratio} == '5/4'" name="NO" displayName="${no}" />
+		<include name="YES" displayName="${yes}" />
+		<include name="NO" displayName="${no}" />
+	</subset>
+
+	<!--TIPO DE BACKGROUND EN VISTA DE SISTEMAS-->
 	<subset name="background-system" displayName="${theme.systemBackground}">
 		<include name="default" displayName="${default}" />
 		<include name="fanart" displayName="${randomFanart}" />
@@ -233,11 +247,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--OPCIONES DE VIDEO SISTEMAS-->
 	<subset name="video-system" displayName="${theme.videoBackground}">
-		<include name="NO" displayName="${VideoOff}" tinyScreen="true">./_theme_options/systemvideo/no-video.xml</include>
-		<include name="NO" ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${VideoOff}">./_theme_options/systemvideo/no-video.xml</include>
+		<include name="NO" displayName="${VideoOff}" tinyScreen="true">./_theme_options/systemvideo/video-bg.xml</include>
+		<include name="NO" ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${VideoOff}">./_theme_options/systemvideo/video-bg.xml</include>
 		<include  name="small-screen" ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
-		<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/enable-video-bg.xml</include>
-		<include name="NO" displayName="${VideoOff}" tinyScreen="false">./_theme_options/systemvideo/no-video.xml</include>
+		<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/video-bg.xml</include>
+		<include name="NO" displayName="${VideoOff}" tinyScreen="false">./_theme_options/systemvideo/video-bg.xml</include>
 	</subset>
 
 	<!--RANDOM VIDEOS ON/OFF-->
@@ -270,13 +284,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="NO" displayName="${no}" tinyScreen="false" />
 	</subset>
 
-	<!-- MOSTRAR INFO CARPETA ROMS -->
-	<subset name="system-rom-folder" displayName="${theme.romFolder}">
-		<include name="NO" displayName="${no}" />
-		<include name="YES" displayName="${yes}"/>
-		<include name="dim" displayName="${dim}" />
-	</subset>
-
 	<!--ANIMACIONES DE VISTA SISTEMAS-->
 	<subset name="anim-system" displayName="${theme.animatedSystem}">
 		<include name="YES" displayName="${yes}">./_theme_options/animated-systems.xml</include>
@@ -292,49 +299,63 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<subset ifArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey-x86}">
 		<include tinyScreen="true" name="never" displayName="${never}" />
+		<include name="splash" displayName="${theme.hotkey.splash}" />
 		<include name="both" displayName="${theme.hotkey.both}" />
 		<include name="gamesplash" displayName="${theme.hotkey.gamesplash}" />
-		<include name="splash" displayName="${theme.hotkey.splash}" />
 		<include tinyScreen="false" name="never" displayName="${never}" />
 	</subset>
 
-	<!--TIPO DE PANTALLA DE CARGA DE JUEGOS-->
-	<subset ifArch="windows,x86,x86_64" name="gamesplash-type" displayName="${theme.gamesplash-type}">
-		<include name="default" displayName="${default}" />
-		<include name="image-full-size" displayName="${image-full-size}" />
+	<!-- MOSTRAR INFO CARPETA ROMS -->
+	<subset name="system-rom-folder" displayName="${theme.romFolder}">
+		<include name="NO" displayName="${no}" />
+		<include name="YES" displayName="${yes}"/>
+		<include name="dim" displayName="${dim}" />
 	</subset>
 
-	<!--MOSTRAR DATOS FAKE-->
-	<subset name="dummy-data" displayName="${theme.dummydata}">
-		<include name="default" displayName="${yes}" />
-		<include name="show_version" displayName="${dummydata.showversion}" />
-		<include name="show_year" displayName="${dummydata.showyear}" />
-		<include name="none" displayName="${none}" />
+	<!--FONDO ANIMADO-->
+	<subset name="animated-backg" displayName="${theme.animated-background}">
+		<include ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+		<include name="NO" displayName="${no}" />
+		<include ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	</subset>
-
-
-
-
-
-
-
+	
 <!--OPCIONES GAMELISTS-->
 
+	<!--ARTE SUPERPUESTO-->
+	<subset name="overlay-gamelist-arts" displayName="${theme.gamelistOverlayExtra}"  appliesTo="ps4Style, single">
+		<include tinyScreen="true" name="NO" displayName="${no}" />
+		<include if="{screen.ratio} == '4/3' || {screen.ratio} == '5/4'" name="NO" displayName="${no}" />
+		<include name="YES" displayName="${yes}" />
+		<include name="NO" displayName="${no}" />
+	</subset>
+
 	<!-- MOSTRAR /  OCULTAR DESCRIPCIONES DE JUEGOS -->
-	<subset name="game-description" displayName="${theme.gameDescription}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="game-description" displayName="${theme.gameDescription}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include tinyScreen="true" name="no" displayName="${no}" />
 		<include name="si" displayName="${yes}" />
 		<include name="no" displayName="${no}" />
 	</subset>
 
 	<!--BARRA DE INFO JUEGOS-->
-	<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="info-bar" displayName="${gameBar}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include name="YES" displayName="${yes}" />
 		<include name="NO" displayName="${no}" />
 	</subset>
 
+	<!--OPCIONES DE IMAGENES (EN LA CUADRICULA)-->
+	<subset name="grid-origin" displayName="${theme.gridImage}" appliesTo="grid, ps4Style, carousel, full-grid">
+		<include name="default" displayName="${default}" />
+		<include name="image" displayName="image" />
+		<include name="thumbnail" displayName="thumbnail  (${theme.box})" />
+		<include name="marquee" displayName="marquee  (${theme.logo})" />
+		<include name="fanart" displayName="fanart" />
+		<include name="titleshot" displayName="titleshot" />
+		<include name="boxart" displayName="boxart" />
+		<include name="cartridge" displayName="cartridge" />
+	</subset>
+
 	<!--OPCIONES DE IMAGENES (PRINCIPAL)-->
-	<subset name="main-origin" displayName="${theme.mainImage}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="main-origin" displayName="${theme.mainImage}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include name="default" displayName="${default}" />
 		<include name="image" displayName="image" />
 		<include name="thumbnail" displayName="thumbnail (${theme.box})" />
@@ -347,20 +368,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="none" displayName="${none}" />
 	</subset>
 
-	<!--OPCIONES DE IMAGENES (EN LA CUADRICULA)-->
-	<subset name="grid-origin" displayName="${theme.gridImage}" appliesTo="grid, classic, carousel, full-grid">
-		<include name="default" displayName="${default}" />
-		<include name="image" displayName="image" />
-		<include name="thumbnail" displayName="thumbnail  (${theme.box})" />
-		<include name="marquee" displayName="marquee  (${theme.logo})" />
-		<include name="fanart" displayName="fanart" />
-		<include name="titleshot" displayName="titleshot" />
+	<!-- CAJA EN VISTA CLASICA Y SINGLE -->
+	<subset name="thumbnail-type" displayName="${theme.thumbnail-type}" appliesTo="ps4Style, single" >
+		<include name="thumbnail" displayName="thumbnail (${default})" />
 		<include name="boxart" displayName="boxart" />
+		<include name="boxback" displayName="boxback" />
 		<include name="cartridge" displayName="cartridge" />
+		<include name="none" displayName="${none}" />
+	</subset>
+
+	<!-- LOGO EN VISTA CLASICA Y SINGLE -->
+	<subset name="showlogo" displayName="${theme.showlogo}" appliesTo="ps4Style, single">
+		<include name="enabled" displayName="${yes}" />
+		<include name="disabled" displayName="${no}" />
 	</subset>
 
 	<!--OPCIONES DE SNAPVIDEO-->
-	<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="game-video" displayName="${theme.gridvideo}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include tinyScreen="true" name="oversize" displayName="${theme.oversizeVideoOption}" />
 		<include name="default" displayName="${default}" />
 		<include name="window" displayName="${theme.windowVideoOption}" />
@@ -371,13 +395,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--AUDIO VIDEOSNAP ON/OFF-->
-	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="videosnap-audio" displayName="${theme.videoSnapAudio}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include name="enabled" displayName="${yes}" />
 		<include name="disabled" displayName="${no}" />
 	</subset>
 
 	<!--OPCIONES DE RETARDO DE VIDEO-->
-	<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid, classic, carousel, full-grid, single" ifSubset="game-video:window|background|inside|oversize|default">
+	<subset name="video-gamelist-delay" displayName="${theme.videoGamelistDelay}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single" ifSubset="game-video:window|background|inside|oversize|default">
 		<include name="1s" displayName="1s" />
 		<include name="2s" displayName="2s" />
 		<include name="3s" displayName="3s" />
@@ -386,20 +410,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!-- IMAGEN DE FONDO EN LA LISTA DE JUEGOS -->
-	<subset name="background-list" displayName="${theme.gamelistBackground}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="background-gamelist" displayName="${theme.gamelistBackground}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include name="fanart" displayName="fanart" />
-		<include name="sistema" displayName="system" />
-	</subset>
-
-	<!--FONDO ANIMADO-->
-	<subset name="animated-backg" displayName="${theme.animated-background}">
-		<include ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
-		<include name="NO" displayName="${no}" />
-		<include ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+		<include name="default" displayName="${default}" />
+		<include name="none" displayName="${none}" />
 	</subset>
 
 	<!--ANIMACION DE LISTAS-->
-	<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid, classic, carousel, full-grid, single">
+	<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
 		<include ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
 		<include name="NO" displayName="${no}" />
 		<include ifNotArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
@@ -537,6 +555,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
+
+
+		<text name="systemInfo">
+			<visible>false</visible>
+		 </text>
+
+		 
 		<!--BACKGROUND MUSIC you can put your favorite music in /_theme_music/ folder-->
 		<sound name="directory">
 			<path>./_theme_music/</path>
@@ -578,17 +603,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<include>./_theme_views/detailed.xml</include>
 	<include>./_theme_views/grid.xml</include>
-	<include>./_theme_views/classic.xml</include>
+	<include ifSubset="overlay-gamelist-arts:YES">${themePath}/_theme_options/gamelist-overlay.xml</include>
+	<include>./_theme_views/ps4-style.xml</include>
 	<include>./_theme_views/carousel.xml</include>
 	<include>./_theme_views/full-grid.xml</include>
 	<include>./_theme_views/single.xml</include>
 	<include>./_theme_views/front.xml</include>
-	<include>./_theme_views/top-info.xml</include>
 	<include>./_theme_options/videosnap-controls.xml</include>
 	<include>./_theme_options/image-sources.xml</include>
 	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
 	<include>./_theme_views/test-media.xml</include>
 	<include>./_theme_inc/infos/${system.theme}.xml</include>
+
 
 <!-- VARIABLES DE LAYOUT -->
 
@@ -596,7 +622,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<!-- COLORES MAESTROS -->
 		<psx-theme-yellow>F3C300</psx-theme-yellow>
 		<psx-theme-red>DF0024</psx-theme-red>
-		<psx-theme-green>00AC97</psx-theme-green>
+		<psx-theme-green>00AC97</psx-theme-green> 
 		<psx-theme-blue1>3CAEFB</psx-theme-blue1>
 		<psx-theme-blue2>0070d1</psx-theme-blue2>
 		<psx-theme-blue3>2E6DB4</psx-theme-blue3>
@@ -605,8 +631,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<!-- VARIABLES EXTRAS -->
 		<theme.lang-flag>{game:lang}</theme.lang-flag>
 		<theme.region-flag>{game:region}</theme.region-flag>
-		<theme.game-hasMultidisc>contains(lower({game:rom}), 'disk 1') || contains(lower({game:rom}), 'disk 2') || contains(lower({game:rom}), 'disk 3') || contains(lower({game:rom}), 'disk 4') || contains(lower({game:rom}), 'disk 5') || contains(lower({game:rom}), 'disk 6') || contains(lower({game:rom}), 'disk1') || contains(lower({game:rom}), 'disk2') || contains(lower({game:rom}), 'disk3') || contains(lower({game:rom}), 'disk4') || contains(lower({game:rom}), 'disk5') || contains(lower({game:rom}), 'disc a') || contains(lower({game:rom}), 'disc b') || contains(lower({game:rom}), 'disc 1') || contains(lower({game:rom}), 'disc-1') || contains(lower({game:rom}), 'disc1') || contains(lower({game:rom}), 'disc 2') || contains(lower({game:rom}), 'disc-2') || contains(lower({game:rom}), 'disc2') || contains(lower({game:rom}), 'disc 3') || contains(lower({game:rom}), 'disc-3') || contains(lower({game:rom}), 'disc3') || contains(lower({game:rom}), 'disc 4') || contains(lower({game:rom}), 'disc-4') || contains(lower({game:rom}), 'disc4') || contains(lower({game:rom}), 'disc 5') || contains(lower({game:rom}), 'disc-5') || contains(lower({game:rom}), 'disc5') || contains(lower({game:rom}), 'disc 6') || contains(lower({game:rom}), 'disc-6') || contains(lower({game:rom}), 'disc6') || contains(lower({game:rom}), 'disc 7') || contains(lower({game:rom}), 'disc-7') || contains(lower({game:rom}), 'disc7') || contains(lower({game:rom}), 'disc 8') || contains(lower({game:rom}), 'disc-8') || contains(lower({game:rom}), 'disc8') || contains(lower({game:rom}), 'disc 9') || contains(lower({game:rom}), 'disc-9') || contains(lower({game:rom}), 'disc9') || contains(lower({game:rom}), 'part 1') || contains(lower({game:rom}), 'part 2') || contains(lower({game:rom}), 'part 3') || contains(lower({game:rom}), 'part 4') || contains(lower({game:rom}), 'parte 1') || contains(lower({game:rom}), 'parte 2') || contains(lower({game:rom}), 'parte 3')  || contains(lower({game:rom}), 'parte 4') || contains(lower({game:rom}), 'part-1') || contains(lower({game:rom}), 'part-2') || contains(lower({game:rom}), 'part-3') || contains(lower({game:rom}), 'part-4') || contains(lower({game:rom}), 'disc_1') || contains(lower({game:rom}), 'disc_2') || contains(lower({game:rom}), 'disc_3') || contains(lower({game:rom}), 'disc_')</theme.game-hasMultidisc>
-
+		<theme.game-hasMultidisc>contains(lower({game:rom}), 'disk 1') || contains(lower({game:rom}), 'disk 2') || contains(lower({game:rom}), 'disk 3') || contains(lower({game:rom}), 'disk 4') || contains(lower({game:rom}), 'disk 5') || contains(lower({game:rom}), 'disk 6') || contains(lower({game:rom}), 'disk1') || contains(lower({game:rom}), 'disk2') || contains(lower({game:rom}), 'disk3') || contains(lower({game:rom}), 'disk4') || contains(lower({game:rom}), 'disk5') || contains(lower({game:rom}), 'disc a') || contains(lower({game:rom}), 'disc b') || contains(lower({game:rom}), 'disc 1') || contains(lower({game:rom}), 'disc-1') || contains(lower({game:rom}), 'disc1') || contains(lower({game:rom}), 'disc 2') || contains(lower({game:rom}), 'disc-2') || contains(lower({game:rom}), 'disc2') || contains(lower({game:rom}), 'disc 3') || contains(lower({game:rom}), 'disc-3') || contains(lower({game:rom}), 'disc3') || contains(lower({game:rom}), 'disc 4') || contains(lower({game:rom}), 'disc-4') || contains(lower({game:rom}), 'disc4') || contains(lower({game:rom}), 'disc 5') || contains(lower({game:rom}), 'disc-5') || contains(lower({game:rom}), 'disc5') || contains(lower({game:rom}), 'disc 6') || contains(lower({game:rom}), 'disc-6') || contains(lower({game:rom}), 'disc6') || contains(lower({game:rom}), 'disc 7') || contains(lower({game:rom}), 'disc-7') || contains(lower({game:rom}), 'disc7') || contains(lower({game:rom}), 'disc 8') || contains(lower({game:rom}), 'disc-8') || contains(lower({game:rom}), 'disc8') || contains(lower({game:rom}), 'disc 9') || contains(lower({game:rom}), 'disc-9') || contains(lower({game:rom}), 'disc9')  || contains(lower({game:rom}), 'parte 1') || contains(lower({game:rom}), 'parte 2') || contains(lower({game:rom}), 'parte 3')  || contains(lower({game:rom}), 'parte 4') || contains(lower({game:rom}), 'part-1') || contains(lower({game:rom}), 'part-2') || contains(lower({game:rom}), 'part-3') || contains(lower({game:rom}), 'part-4') || contains(lower({game:rom}), 'disc_1') || contains(lower({game:rom}), 'disc_2') || contains(lower({game:rom}), 'disc_3') || contains(lower({game:rom}), 'disc_')</theme.game-hasMultidisc>
+		<theme.overlayArtsPath>_theme_inc/images/overlay-arts</theme.overlayArtsPath>
 	</variables>
 
 </theme>

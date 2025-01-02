@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>forçado</theme.forced>
     <theme.gameDescription>Mostrar descrições de jogos</theme.gameDescription>
     <carouselViewName>Carrossel horizontal</carouselViewName>
-    <classiclViewName>Carrossel clássico</classiclViewName>
-    <theme.mainImage>Imagem principal</theme.mainImage>
+    <ps4StylelViewName>Estilo PS4</ps4StylelViewName>    
+    <theme.mainImage>Imagem de destaque</theme.mainImage>    
     <theme.gridImage>Imagem de grade</theme.gridImage>
     <fullGridlViewName>Grade completa</fullGridlViewName>
     <theme.gamesplash-type>Tela de carregamento do jogo</theme.gamesplash-type>
@@ -96,6 +96,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-gameTimeLabel>Tempo de jogo:</theme-gameTimeLabel>
     <theme.dummydata>Mostrar versão e ano na parte superior</theme.dummydata>
     <dummydata.showversion>Apenas versão</dummydata.showversion>
-    <dummydata.showyear>Apenas ano</dummydata.showyear>        
+    <dummydata.showyear>Apenas ano</dummydata.showyear>
+    <theme.hardwareType if="${system.hardwareType} == 'console'">Consola</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">Computador</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">Coleção personalizada</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">Consola portátil</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">Sistema</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">Coleção automática</theme.hardwareType>
+    <theme.thumbnail-type>Tipo de caixa de jogo (prioridade)</theme.thumbnail-type>
+    <theme.showlogo>Mostrar logotipo do jogo</theme.showlogo>
+    <theme.topinfoarea>Área de informação principal</theme.topinfoarea>
+    <theme.clean>Limpo / Mínimo</theme.clean>
+    <theme.region>Região</theme.region>
+    <theme.europe>Europa</theme.europe>
+    <theme.usa>Estados Unidos</theme.usa>
+    <theme.japan>Japão</theme.japan>
+    <theme.overlayExtra>Mostrar artes sobrepostos na vista dos sistemas</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>Mostrar artes sobrepostos na lista de jogos</theme.gamelistOverlayExtra>
+    <theme.nonumbers>Sem números de versão e ano</theme.nonumbers>
+    <theme.highVramRequired>(requer valores elevados de VRAM)</theme.highVramRequired>
   </variables>
 </theme>

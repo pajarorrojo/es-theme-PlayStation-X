@@ -16,8 +16,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoLayout>5 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail">9 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">5 2</autoLayout>
-         <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
-         <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
+         <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>
+         <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1.15</autoLayoutSelectedZoom>
          <margin>0.005 0.006</margin>
          <padding>0.005 0.005</padding>
@@ -25,16 +25,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:4-3|5-4">1 0.480</size>
          <pos>0.022 0.48</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
-         <zIndex>60</zIndex>
+         <zIndex>99</zIndex>
+         <opacity>0</opacity>
       </imagegrid>
-
-  
 
       <gridtile name="default">
          <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
          <backgroundCenterColor>ffffff99</backgroundCenterColor>
          <imageSizeMode>minSize</imageSizeMode>
-         <backgroundImage>./_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
+         <backgroundImage>${themePath}/_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
          <imageSizeMode ifSubset="grid-origin:thumbnail|boxart|cartridge">maxSize</imageSizeMode>
          <padding>6</padding>
          <padding ifSubset="aspect-ratio:5-4">7</padding>
@@ -62,8 +61,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <maxSize>0.6 0.6</maxSize>
 		</image>
 
-
-
       <image name="gridtile.marquee:selected" ifSubset="grid-origin:marquee|default">
 		   <pos>0.5 0.45</pos>
 		   <origin>0.5 0.5</origin>
@@ -89,9 +86,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <roundCorners>0</roundCorners>
       </image>
 
-
       <image name="gridtile.favorite">
-         <path>./../_theme_inc/images/favorite.png</path>
+         <path>${themePath}/_theme_inc/images/favorite.png</path>
          <pos>0.04 0.05</pos>
          <maxSize>0.12 0.12</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
@@ -100,14 +96,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>${psx-theme-red}</color>
       </image>
 
-      <image name="gridtile.cheevos" if="{global.cheevos} == true &amp;&amp; {system.showCheevos} == true" extra="true">
-         <path>./../_theme_inc/images/trophy-picto.svg</path>
+      <image name="gridtile.cheevos" if="{global.cheevos} == true" extra="true">
+         <path>${themePath}/_theme_inc/images/trophy-picto.svg</path>
          <pos>0.83 0.83</pos>
          <maxSize>0.12 0.12</maxSize>
          <horizontalAlignment>right</horizontalAlignment>
          <verticalAlignment>bottom</verticalAlignment>
          <origin>0 0</origin>
          <color>F2BC00</color>
+      </image>
+
+      <image name="gridtile.cheevos" if="{system.name} == 'retroachievements'">
+         <visible>false</visible>
+         <color>00000000</color>
+      </image>
+
+      <image name="gridtile.cheevos:selected" if="{system.name} == 'retroachievements'">
+         <visible>false</visible>
+         <color>00000000</color>
       </image>
 
       <image name="gridtile.favorite" if="{system.name} == 'favorites'">
@@ -118,19 +124,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="background" extra="static">
          <zIndex>50</zIndex>
          <linearSmooth>true</linearSmooth>
-         <path>./_theme_inc/images/overlay-carousel.png</path>
+         <path>${themePath}/_theme_inc/images/overlay-carousel.png</path>
       </image>
 
       <image name="background, background-art" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
-         <minSize>1.001 1.001</minSize>
+         <minSize>1 1</minSize>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
       </image>
-
-
-
 
       <text name="gamename-grid" extra="true">
          <text>{game:name}</text>
@@ -139,8 +142,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.630 0.08</size>
          <color>ffffff</color>
          <pos>0.30 0.140</pos>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontSize>0.060</fontSize>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <fontSize>0.05</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
          <fontSize tinyScreen="true">0.047</fontSize>
          <origin>0 0</origin>
@@ -150,14 +153,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
-      
-
       <text name="md_description">
          <color>ffffff</color>
          <pos>0.30 0.287</pos>
          <size>0.55 0.09</size>
          <size tinyScreen="true">0.55 0.070</size>
-         <fontPath>./../_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.029</fontSize>
          <lineSpacing>1.1</lineSpacing>
          <origin>0 0</origin>
@@ -165,12 +166,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <forceUppercase tinyScreen="true">true</forceUppercase>
          <zIndex>90</zIndex>
          <visible ifSubset="game-description:no">false</visible>
+         <autoScrollDelay>10000</autoScrollDelay>
+         <autoScrollSpeed>100</autoScrollSpeed>
+         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+
       </text>
+
 
       <!-- stackpanel para datos de juegos -->
 
       <stackpanel name="contenedor-gamedata" extra="true" ifSubset="info-bar:YES">
-      
          <separator>0.015</separator>
          <pos>0.3 0.22</pos>
          <size>0.5 0.028</size>
@@ -180,7 +185,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="gamedata-releaseyear">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>{game:releaseyear}</text>
             <visible>!empty({game:releaseyear})</visible>
             <color>${releaseColor}</color>
@@ -188,17 +193,47 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="gamedata-noreleaseyear">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>------</text>
             <visible>empty({game:releaseyear})</visible>
             <color>${dimColor}</color>
          </text>
 
+         <text name="gamedata-publisher-developer">
+            <fontSize>0.023</fontSize>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  {game:publisher} / {game:developer} </text>
+            <visible>{game:publisher} != {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
+            <color>${developerColor}</color>
+            <singleLineScroll>true</singleLineScroll>
+            <autoScrollDelay>0</autoScrollDelay>
+         </text>
+
          <text name="gamedata-developer">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  {game:developer}</text>
-            <visible>!empty({game:developer})</visible>
+            <visible>{game:publisher} == {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
+            <color>${developerColor}</color>
+            <singleLineScroll>true</singleLineScroll>
+            <autoScrollDelay>0</autoScrollDelay>
+         </text>
+
+         <text name="gamedata-developer">
+            <fontSize>0.023</fontSize>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  {game:developer}</text>
+            <visible>empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
+            <color>${developerColor}</color>
+            <singleLineScroll>true</singleLineScroll>
+            <autoScrollDelay>0</autoScrollDelay>
+         </text>
+
+         <text name="gamedata-publisher">
+            <fontSize>0.023</fontSize>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <text>•  {game:publisher}</text>
+            <visible>empty({game:developer}) &amp;&amp; !empty({game:publisher})</visible>
             <color>${developerColor}</color>
             <singleLineScroll>true</singleLineScroll>
             <autoScrollDelay>0</autoScrollDelay>
@@ -206,9 +241,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="gamedata-nodeveloper">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  -------------</text>
-            <visible>empty({game:developer})</visible>
+            <visible>empty({game:developer}) &amp;&amp; empty({game:publisher})</visible>
             <color>${dimColor}</color>
          </text>
       </stackpanel>
@@ -222,7 +257,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <orientation>horizontal</orientation>
 			<backgroundColor>ff000000</backgroundColor>
          <zIndex>99</zIndex>
-
+         <visible>{system:total} &gt; 0 ? 1 : 0</visible>
          <text name="game-stars">
             <fontSize>0.023</fontSize>
             <text>{game:stars}</text>
@@ -232,7 +267,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="game-nostars">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>------</text>
             <visible>empty({game:stars})</visible>
             <color>${dimColor}</color>
@@ -240,7 +275,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="gamedata-genre">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  {game:genre}</text>
             <visible>!empty({game:genre})</visible>
             <color>${genreColor}</color>
@@ -250,7 +285,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="gamedata-nogenre">
             <fontSize>0.023</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  -------------</text>
             <visible>empty({game:genre})</visible>
             <color>${dimColor}</color>
@@ -268,7 +303,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
           <image name="flag-region">
-            <path>./../_theme_inc/images/flags/${theme.region-flag}.png</path>
+            <path>${themePath}/_theme_inc/images/flags/${theme.region-flag}.png</path>
             <maxSize>1</maxSize>
             <linearSmooth>true</linearSmooth>
             <opacity>0.8</opacity>
@@ -276,15 +311,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </image>
 
          <image name="flag-region-col" if="${system.manufacturer} == 'Collections'">
-            <path>./../_theme_inc/images/flags/${theme.region-flag}.png</path>
+            <path>${themePath}/_theme_inc/images/flags/${theme.region-flag}.png</path>
             <maxSize>1</maxSize>
             <linearSmooth>true</linearSmooth>
             <opacity>0.8</opacity>
-            <visible>{game:region} != {game:lang} &amp;&amp; !contains(lower({game:region}), ',') &amp;&amp; !empty({game:region})</visible>
+            <visible>{game:region}.lower() != {game:lang}.lower() &amp;&amp; !contains(lower({game:region}), ',') &amp;&amp; !empty({game:region})</visible>
          </image>
 
          <image name="force-world-flag">
-            <path>./../_theme_inc/images/flags/wor.png</path>
+            <path>${themePath}/_theme_inc/images/flags/wor.png</path>
             <maxSize>1</maxSize>
             <linearSmooth>true</linearSmooth>
             <opacity>0.8</opacity>
@@ -293,7 +328,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </image>
 
          <image name="flag-lang">
-            <path>./../_theme_inc/images/flags/${theme.lang-flag}.png</path>
+            <path>${themePath}/_theme_inc/images/flags/${theme.lang-flag}.png</path>
             <maxSize>1</maxSize>
             <linearSmooth>true</linearSmooth>
             <opacity>0.8</opacity>
@@ -301,7 +336,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </image>
 
          <image name="flag-lang-col" if="${system.manufacturer} == 'Collections'">
-            <path>./../_theme_inc/images/flags/${theme.lang-flag}.png</path>
+            <path>${themePath}/_theme_inc/images/flags/${theme.lang-flag}.png</path>
             <maxSize>1</maxSize>
             <linearSmooth>true</linearSmooth>
             <opacity>0.8</opacity>
@@ -310,7 +345,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <text name="gamedata-lang">
             <fontSize>0.018</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>{game:lang}.upper()</text>
             <color>${releaseColor}</color>
             <singleLineScroll>true</singleLineScroll>
@@ -325,7 +360,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <text>•</text>
             <fontSize>0.022</fontSize>
             <color>FFFFFF</color>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <visible>!empty({game:lang}) || !empty({game:region}) </visible>
           </text>
 
@@ -333,89 +368,107 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <text>•</text>
             <fontSize>0.022</fontSize>
             <color>FFFFFF</color>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <visible>!empty({game:lang}) || !empty({game:region}) </visible>
           </text>
 
          <text name="icono-players">
-            <fontPath>./../_theme_inc/fonts/players.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/players.ttf</fontPath>
             <text>{game:playerCount}</text>
-           <alignment>center</alignment>
-           <fontSize>0.034</fontSize>
-           <color>eeeeee</color>
+            <alignment>center</alignment>
+            <fontSize>0.036</fontSize>
+            <color>eeeeee</color>
+            <visible>{system:total} &gt; 0 ? 1 : 0</visible>
          </text>
-         <image name="icono-manual" >
-            <visible>{game:hasManual} &amp;&amp; {system:showManual}</visible>
-            <linearSmooth>true</linearSmooth>
-           <padding>0 0</padding>
-           <path>./../_theme_inc/images/manual.png</path>
-           <maxSize>1 1</maxSize>
-           <color>${grid.starFill}e6</color>
-           <storyboard>
-            <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
-         </storyboard>
-         </image>
-         <image name="icono-nomanual">
-           <visible>!{game:hasManual} &amp;&amp; {system:showManual}</visible>
-           <linearSmooth>true</linearSmooth>
-           <padding>0 0</padding>
-           <path>./../_theme_inc/images/manual.png</path>
-           <maxSize>1 1</maxSize>
-           <color>${dimColor}</color>
-         </image>
+
+         <text name="contenedor-separador">
+            <text>•</text>
+            <fontSize>0.022</fontSize>
+            <color>FFFFFF</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <visible>{game:hasSaveState} &amp;&amp; {system:showSaveStates} || {game:hasManual} &amp;&amp; {system:showManual} || {game:kidGame} || {game:wheelGame} &amp;&amp; {system:showWheel} || {game:gunGame} &amp;&amp; {system:showGun}</visible>
+          </text>
+
          <image name="icono-savestate">
             <visible>{game:hasSaveState} &amp;&amp; {system:showSaveStates}</visible>
             <linearSmooth>true</linearSmooth>
             <padding>0 0</padding>
-            <path>./../_theme_inc/images/SaveState.png</path>
+            <path>${themePath}/_theme_inc/images/SaveState.png</path>
             <maxSize>1 1</maxSize>
             <color>${grid.starFill}e6</color>
-            <storyboard>
-               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
-            </storyboard>
          </image>
-          <image name="icono-nosavestate">
-            <visible>!{game:hasSaveState} &amp;&amp; {system:showSaveStates}</visible>
+
+         <image name="icono-manual" >
+            <visible>{game:hasManual} &amp;&amp; {system:showManual}</visible>
+            <linearSmooth>true</linearSmooth>
+           <padding>0 0</padding>
+           <path>${themePath}/_theme_inc/images/manual.png</path>
+           <maxSize>1 1</maxSize>
+           <color>${grid.starFill}e6</color>
+         </image>
+
+         <image name="icono-kidgame">
+            <visible>{game:kidGame}</visible>
             <linearSmooth>true</linearSmooth>
             <padding>0 0</padding>
-            <path>./../_theme_inc/images/SaveState.png</path>
+            <path>${themePath}/_theme_inc/images/kidgame.png</path>
             <maxSize>1 1</maxSize>
-            <color>${dimColor}</color>
+            <color>${grid.starFill}e6</color>
          </image>
+         
          <image name="icono-wheel">
             <visible>{game:wheelGame} &amp;&amp; {system:showWheel}</visible>
             <linearSmooth>true</linearSmooth>
             <padding>0 0</padding>
-            <path>./../_theme_inc/images/volante.png</path>
+            <path>${themePath}/_theme_inc/images/volante.png</path>
             <maxSize>1 1</maxSize>
             <color>${grid.starFill}e6</color>
-            <storyboard>
-               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
-            </storyboard>
          </image>
+
           <image name="icono-gun">
             <visible>{game:gunGame} &amp;&amp; {system:showGun}</visible>
             <linearSmooth>true</linearSmooth>
             <padding>0 0</padding>
-            <path>./../_theme_inc/images/lightgun.png</path>
+            <path>${themePath}/_theme_inc/images/lightgun.png</path>
             <maxSize>1 1</maxSize>
             <color>${grid.starFill}e6</color>
+         </image>
+
+         <text name="contenedor-separador-kb">
+            <text>•</text>
+            <fontSize>0.022</fontSize>
+            <color>FFFFFF</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <visible>{game:hasKeyboardMapping}</visible>
+          </text>
+
+         <image name="icono-keyboardMapping">
+            <visible>{game:hasKeyboardMapping}</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/_theme_inc/images/keyboardmap.png</path>
+            <maxSize>1 1</maxSize>
+            <color>eeeeee</color>
             <storyboard>
                <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
             </storyboard>
-         </image>
+         </image> 
+
+
          <text name="contenedor-separador1">
             <text>•</text>
             <alignment>center</alignment>
             <fontSize>0.022</fontSize>
             <color>ffffff</color>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <visible>${theme.game-hasMultidisc}</visible>            
           </text>
+
+
           <text name="multidisc-game" ifSubset="info-bar:YES" extra="true">
             <text>${theme.multidisc}</text>
             <fontSize>0.024</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <color>${psx-theme-yellow}</color>
             <padding>0.008 0.008</padding>
             <backgroundColor>00000066</backgroundColor>
@@ -433,13 +486,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <alignment>center</alignment>
             <fontSize>0.022</fontSize>
             <color>ffffff</color>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
           </text>
 
          <text name="system-name" if="${system.manufacturer} == 'Collections'">
             <text>{game:systemName}</text>
             <fontSize>0.024</fontSize>
-            <fontPath>./../_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <color>ffffff</color>
             <padding>0.008 0.008</padding>
             <backgroundColor>00000066</backgroundColor>
@@ -455,7 +508,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <image name="linea-inferior" extra="static">
-         <path>./../_theme_inc/images/pixel-blanco.png</path>
+         <path>${themePath}/_theme_inc/images/pixel-blanco.png</path>
          <pos>0 0.934</pos>
          <size>1 0.002</size>
          <size tinyScreen="true">1 0.005</size>
@@ -463,15 +516,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <colorEnd>${sistema.lineainferior}</colorEnd>
          <gradientType>horizontal</gradientType>
          <linearSmooth>true</linearSmooth>
-         <zIndex>99</zIndex>
+         <zIndex>60</zIndex>
          <visible>false</visible>
       </image>
 
       <image name="linea-inferior" extra="static" ifHelpPrompts="false">
          <y>0.995</y>
       </image>
-
-
       
    </view>
 
@@ -498,9 +549,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <x>0.025</x>
       </stackpanel>
 
-
-
    </view>
+
+
 
    <view name="grid"  ifSubset="game-description:no">
 
@@ -527,7 +578,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y>0.225</y>
       </text>
    </view>
-
-
 
 </theme>

@@ -30,7 +30,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <none>Keine</none>
     <never>Niemals</never>
     <always>Immer</always>
-    <iconset>Iconset</iconset>
+    <iconset>Schaltflächen und Symbolsatz</iconset>
     <theme.frontend>Wähle dein bevorzugtes Frontend</theme.frontend>
     <gameBar>Spielinformationen anzeigen</gameBar>
     <CarouselImageSize>Systemkarussellgröße</CarouselImageSize>
@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>erzwungen</theme.forced>
     <theme.gameDescription>Spielbeschreibungen anzeigen</theme.gameDescription>
     <carouselViewName>Horizontales Karussell</carouselViewName>
-    <classiclViewName>Klassisches Karussell</classiclViewName>
-    <theme.mainImage>Hauptbild</theme.mainImage>
+    <ps4StylelViewName>PS4-Stil</ps4StylelViewName>    
+    <theme.mainImage>Ausgewähltes Bild</theme.mainImage>    
     <theme.gridImage>Gitterbild</theme.gridImage>  
     <fullGridlViewName>Vollständiges Raster</fullGridlViewName>
     <theme.gamesplash-type>Ladescreen für Spiele</theme.gamesplash-type>
@@ -94,6 +94,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-gameTimeLabel>Spielzeit:</theme-gameTimeLabel>
     <theme.dummydata>Version und Jahr oben anzeigen</theme.dummydata>
     <dummydata.showversion>Nur Version</dummydata.showversion>
-    <dummydata.showyear>Nur Jahr</dummydata.showyear>        
+    <dummydata.showyear>Nur Jahr</dummydata.showyear>
+    <theme.hardwareType if="${system.hardwareType} == 'console'">Konsole</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'computer'">Computer</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">Benutzerdefinierte Sammlung</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'portable'">Tragbare Konsole</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'system'">System</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">Automatische Sammlung</theme.hardwareType>
+    <theme.thumbnail-type>Spielboxtyp (Priorität)</theme.thumbnail-type>
+    <theme.showlogo>Spiellogo anzeigen</theme.showlogo>
+    <theme.topinfoarea>Top-Infobereich</theme.topinfoarea>
+    <theme.clean>Sauber / Minimal</theme.clean>
+    <theme.region>Region</theme.region>
+    <theme.europa>Europa</theme.europa>
+    <theme.usa>Vereinigte Staaten</theme.usa>
+    <theme.japan>Japan</theme.japan>
+    <theme.overlayExtra>Überlagerte Kunstwerke in der Systemansicht anzeigen</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>Überlagerte Kunstwerke in der Spieleanzeige anzeigen</theme.gamelistOverlayExtra>
+    <theme.nonumbers>Keine Versions- und Jahreszahlen anzeigen</theme.nonumbers>
+    <theme.highVramRequired>(erfordert hohe VRAM-Werte)</theme.highVramRequired>
   </variables>
 </theme>

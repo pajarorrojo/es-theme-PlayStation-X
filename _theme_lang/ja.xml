@@ -30,7 +30,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<none>なし</none>
 		<never>しない</never>
 		<always>常に</always>
-		<iconset>アイコンセット</iconset>
+		<iconset>ボタンとアイコンセット</iconset>
 		<theme.frontend>お気に入りのフロントエンドを選択してください</theme.frontend>
 		<gameBar>ゲーム情報を表示</gameBar>
 		<CarouselImageSize>システムカルーセルサイズ</CarouselImageSize>
@@ -79,8 +79,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.forced>強制</theme.forced>
 		<theme.gameDescription>ゲームの説明を表示する</theme.gameDescription>
 		<carouselViewName>水平回転木馬</carouselViewName>
-		<classiclViewName>クラシックカルーセル</classiclViewName>
-		<theme.mainImage>メイン画像</theme.mainImage>
+		<ps4StylelViewName>PS4 スタイル</ps4StylelViewName>		
+		<theme.mainImage>注目の画像</theme.mainImage>		
 		<theme.gridImage>グリッド画像</theme.gridImage>
 		<fullGridlViewName>フルグリッド</fullGridlViewName>
 		<theme.gamesplash-type>ゲームローディング画面</theme.gamesplash-type>
@@ -96,6 +96,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme-gameTimeLabel>プレイ時間</theme-gameTimeLabel>
 		<theme.dummydata>バージョンと年を上部に表示</theme.dummydata>
 		<dummydata.showversion>バージョンのみ</dummydata.showversion>
-		<dummydata.showyear>年のみ</dummydata.showyear>				
+		<dummydata.showyear>年のみ</dummydata.showyear>
+		<theme.hardwareType if="${system.hardwareType} == 'console'">コンソール</theme.hardwareType>
+		<theme.hardwareType if="${system.hardwareType} == 'computer'">コンピューター</theme.hardwareType>
+		<theme.hardwareType if="${system.hardwareType} == 'custom collection'">カスタムコレクション</theme.hardwareType>
+		<theme.hardwareType if="${system.hardwareType} == 'portable'">携帯ゲーム機</theme.hardwareType>
+		<theme.hardwareType if="${system.hardwareType} == 'system'">システム</theme.hardwareType>
+		<theme.hardwareType if="${system.hardwareType} == 'auto collection'">自動コレクション</theme.hardwareType>
+		<theme.thumbnail-type>ゲームボックスタイプ（優先）</theme.thumbnail-type>
+		<theme.showlogo>ゲームのロゴを表示</theme.showlogo>
+		<theme.topinfoarea>トップ情報エリア</theme.topinfoarea>
+		<theme.clean>クリーン / 最小限</theme.clean>
+		<theme.region>地域</theme.region>
+		<theme.europe>ヨーロッパ</theme.europe>
+		<theme.usa>米国</theme.usa>
+		<theme.japan>日本</theme.japan>
+		<theme.overlayExtra>システムビューに重ね合わせアートを表示</theme.overlayExtra>
+		<theme.gamelistOverlayExtra>ゲームリストに重ね合わせアートを表示</theme.gamelistOverlayExtra>
+		<theme.nonumbers>バージョン番号と年号なし</theme.nonumbers>
+		<theme.highVramRequired>(高いVRAM値が必要です)</theme.highVramRequired>
 	</variables>
 </theme>

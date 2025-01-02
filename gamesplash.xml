@@ -3,98 +3,423 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
 	<formatVersion>7</formatVersion>
-	<include>./theme.xml</include>
+	<include>${themePath}/theme.xml</include>
 
 	<view name="splash">
-
-		<image name="background-default" extra="true"  ifSubset="gamesplash-type:default">
-			<linearSmooth>true</linearSmooth>
-			<path ifSubset="colorset:blue">./_theme_options/colorsets/blue/background.jpg</path>
-			<path ifSubset="colorset:black">./_theme_options/colorsets/black/background.jpg</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<size>0 1</size>
-			<zIndex>00</zIndex>
-		</image>
-
-		<image name="logo-splash" extra="true"  ifSubset="gamesplash-type:default">
-			<origin>0 0</origin>
-			<pos>0.03 0.05</pos>
-			<maxSize>0.4 0.3</maxSize>
-			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.2 0.2</maxSize>
-			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
-			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
-			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
-			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
-			<linearSmooth>true</linearSmooth>
-		</image>
-
-       <image name="hotkey-tips" extra="true" ifSubset="hotkey-guide:both|gamesplash">
+		<image name="hotkey-tips" extra="true" ifSubset="hotkey-guide:both|gamesplash">
 			<origin>1 0.5</origin>
 			<pos>1 0.443</pos>
 			<maxSize>0.35</maxSize>
 			<maxSize tinyScreen="true">0.45</maxSize>			
-			<path>./_theme_inc/images/hotkey-tips/en.png</path>
-			<path>./_theme_inc/images/hotkey-tips/${lang}.png</path>
+			<path>${themePath}/_theme_inc/images/hotkey-tips/en.png</path>
+			<path>${themePath}/_theme_inc/images/hotkey-tips/${lang}.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>9999</zIndex>
+			<zIndex>05</zIndex>
+			<backgroundColor>ff0000</backgroundColor>
 		</image>
 
-		<image name="background" ifSubset="gamesplash-type:default">
-			<default>./_theme_inc/images/no-image-default.png</default>
-			<size>0 0.4</size>
-			<size ifSubset="aspect-ratio:9-16">0.4 0</size>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<roundCorners>1</roundCorners>
-			<linearSmooth>false</linearSmooth>
-		</image>
+		<stackpanel name="contenedor-loading" extra="true">
+      
+			<separator>0.01</separator>
+			<pos>0.025 0.94</pos>
+			<size>1 0.05</size>
+			<orientation>horizontal</orientation>
+			<backgroundColor>ff000000</backgroundColor>
+			<zIndex>05</zIndex>
 
-		<image name="background" ifSubset="gamesplash-type:image-full-size">
+			<text name="loading" extra="true">
+				<text>Loading ...</text>
+				<color>ffffff</color>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+				<fontSize>0.032</fontSize>
+				<glowColor>00000035</glowColor>
+				<glowSize>1</glowSize>
+				<glowOffset>3 2</glowOffset>
+				<zIndex>05</zIndex>
+				<backgroundColor>ff000000</backgroundColor>
+			</text>
+
+			<text name="game-path" extra="true">
+				<origin>0 -0.035</origin>
+				<text>{game:rom}</text>
+				<color>ffffff</color>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+				<fontSize>0.028</fontSize>
+				<glowColor>00000035</glowColor>
+				<glowSize>1</glowSize>
+				<glowOffset>3 2</glowOffset>
+				<zIndex>05</zIndex>
+				<backgroundColor>ff000000</backgroundColor>
+			</text>
+		</stackpanel>
+
+			<image name="background-system" extra="true" region="eu" />
+			<image name="background-system" extra="true">
+				<path>"${themePath}/_theme_inc/images/background/"+ {game:system} +".jpg</path>
+				<path region="us">"${themePath}/_theme_inc/images/background/us/"+ {game:system} +".jpg</path>
+				<path region="jp">"${themePath}/_theme_inc/images/background/jp/"+ {game:system} +".jpg</path>
+				<visible>empty({game:fanart}) &amp;&amp; empty({game:thumbnail}) &amp;&amp; empty({game:image})</visible>
+			</image>
+
+			<image name="overlay-gamesplash" extra="true">
+				<path>${themePath}/_theme_inc/images/overlay-gamesplash.png</path>
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<minSize>1 1</minSize>
+				<linearSmooth>true</linearSmooth>
+				<tile>false</tile>
+				<zIndex>01</zIndex>
+				<linearSmooth>true</linearSmooth>
+			 </image>
+	
+
+		  <image name="background-fanart"  extra="true">
+			<path>firstfile({game:fanart}, {game:thumbnail}, {game:image})</path>
+		  </image>
+
+		  <image name="background-fanart, background-system"  extra="true">
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<minSize>1 1</minSize>
 			<roundCorners>0</roundCorners>
 			<linearSmooth>false</linearSmooth>
 			<color>A0A0A0FF</color>
+			<zIndex>00</zIndex>
 		  </image>
 
-		<image name="linea-inferior" extra="static"  ifSubset="gamesplash-type:default">
-			<path>./_theme_inc/images/pixel-blanco.png</path>
-			<pos>0 0.935</pos>
-			<size>1 0.002</size>
-			<backgroundColor>ff000000</backgroundColor>
-			<verticalAlignment>top</verticalAlignment>
-			<alignment>left</alignment>
+		  <image name="marquee-splash" extra="true">
+			<path>{game:marquee}</path>
+			<tile>false</tile>
+			<pos>0.023 0.17</pos>
+			<origin>0 1</origin>
+			<maxSize>0.14 0.14</maxSize>
+			<zIndex>05</zIndex>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>99</zIndex>
-		</image>
+		 </image>
 
-		<text name="loading" extra="true">
-			<text>Loading... </text>
-			<origin>0 0</origin>
-			<pos>-0.02 0.945</pos>
-			<size>1 0.05</size>
+		  <text name="gamename-splash" extra="true">
+			<text>{game:name}</text>
+			<pos>0.023 0.17</pos>
+			<size>0.9 0.08</size>
 			<color>ffffff</color>
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
-			<fontSize>0.028</fontSize>
-			<alignment>right</alignment>
+			<backgroundColor>ff000000</backgroundColor>
+			<fontSize>0.06</fontSize>
+			<alignment>left</alignment>
+			<verticalAlignment>top</verticalAlignment>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+			<origin>0 0</origin>
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
-			<zIndex>99</zIndex>
+			<zIndex>05</zIndex>
+			<singleLineScroll>true</singleLineScroll>
+			<autoScrollDelay>0</autoScrollDelay>
+		 </text>
+
+		 <image name="console-splash" extra="true">
+			<tile>false</tile>
+			<pos>0.89 0.93</pos>
+			<origin>0.5 1</origin>
+			<verticalAlignment>center</verticalAlignment>
+			<alignment>center</alignment>
+			<maxSize>0.165 0.23</maxSize>
+			<zIndex>05</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<reflexion>0.3 0.0</reflexion>
+			<visible>!empty({game:fanart}) || !empty({game:thumbnail}) || !empty({game:image})</visible>
+		 </image>
+
+		 <image name="console-splash" extra="true" region="eu" />
+		 <image name="console-splash" extra="true">
+			<path>"${themePath}/_theme_inc/images/consoles/"+ {game:system} +".png</path>
+		 </image>
+		 <image name="console-splash" extra="true" region="jp">
+			<path>"${themePath}/_theme_inc/images/consoles/jp/"+ {game:system} +".png</path>
+		 </image>
+		 <image name="console-splash" extra="true" region="us">
+			<path>"${themePath}/_theme_inc/images/consoles/us/"+ {game:system} +".png</path>
+		 </image>
+
+
+
+		 <!-- stackpanel para datos de juegos -->
+
+		 <stackpanel name="contenedor-gamedata" extra="true">
+			<separator>0.015</separator>
+			<pos>0.025 0.26</pos>
+			<size>0.5 0.032</size>
+			<orientation>horizontal</orientation>
 			<backgroundColor>ff000000</backgroundColor>
-		</text>
+			<zIndex>05</zIndex>
+   
+			<text name="gamedata-releaseyear">
+			   <fontSize>0.028</fontSize>
+			   <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+			   <text>{game:releaseyear}</text>
+			   <visible>!empty({game:releaseyear})</visible>
+			   <color>ffffff</color>
+			   <glowColor>00000035</glowColor>
+			   <glowSize>1</glowSize>
+			</text>
+   
+
+			<text name="gamedata-publisher-developer">
+				<fontSize>0.028</fontSize>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+				<text>•  {game:publisher} / {game:developer} </text>
+				<visible>{game:publisher} != {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
+				<color>ffffff</color>
+				<glowColor>00000035</glowColor>
+				<glowSize>1</glowSize>
+	
+			 </text>
+	
+			 <text name="gamedata-developer">
+				<fontSize>0.028</fontSize>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+				<text>•  {game:developer}</text>
+				<visible>{game:publisher} == {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
+				<color>ffffff</color>
+				<glowColor>00000035</glowColor>
+				<glowSize>1</glowSize>
+		
+			 </text>
+	
+			 <text name="gamedata-developer">
+				<fontSize>0.028</fontSize>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+				<text>•  {game:developer}</text>
+				<visible>empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
+				<color>ffffff</color>
+				<glowColor>00000035</glowColor>
+				<glowSize>1</glowSize>
+
+			 </text>
+	
+			 <text name="gamedata-publisher">
+				<fontSize>0.028</fontSize>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+				<text>•  {game:publisher}</text>
+				<visible>empty({game:developer}) &amp;&amp; !empty({game:publisher})</visible>
+				<color>ffffff</color>
+				<glowColor>00000035</glowColor>
+				<glowSize>1</glowSize>				
+
+			 </text>
+
+		 </stackpanel>
+		
+		 <!-- stackpanel para datos de juegos 2a linea-->
+   
+		 <stackpanel name="contenedor-gamedata2" extra="true">
+			<separator>0.018</separator>
+			<pos>0.025 0.3</pos>
+			<size>0.5 0.032</size>
+			<orientation>horizontal</orientation>
+			<backgroundColor>ff000000</backgroundColor>
+			<zIndex>05</zIndex>
+   
+			<text name="game-stars">
+			   <fontSize>0.025</fontSize>
+			   <text>{game:stars}</text>
+			   <color>${gamelist.starFill}</color>
+			   <visible>!empty({game:stars})</visible>
+			</text>
+   
+			<text name="gamedata-genre">
+			   <fontSize>0.028</fontSize>
+			   <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+			   <text>•  {game:genre}</text>
+			   <visible>!empty({game:genre})</visible>
+			   <color>ffffff</color>
+			   <glowColor>00000035</glowColor>
+			   <glowSize>1</glowSize>
+			   <singleLineScroll>true</singleLineScroll>
+			   <autoScrollDelay>0</autoScrollDelay>
+			</text>
+		 </stackpanel>
+   
+		 <!-- stackpanel para iconos de juegos -->
+		 <stackpanel name="contenedor-iconos" extra="true">
+			<separator>0.015</separator>
+			<pos>0.024 0.35</pos>
+			<size>0.7 0.03</size>
+			<orientation>horizontal</orientation>
+			   <backgroundColor>ff000000</backgroundColor>
+			<zIndex>05</zIndex>
+   
+   
+			 <image name="flag-region">
+			   <path>${themePath}/_theme_inc/images/flags/${theme.region-flag}.png</path>
+			   <maxSize>1</maxSize>
+			   <linearSmooth>true</linearSmooth>
+			   <opacity>0.8</opacity>
+			   <visible>{game:region} != {game:lang} &amp;&amp; !contains(lower({game:region}), ',') &amp;&amp; !empty({game:region})</visible>
+			</image>
+   
+			<image name="force-world-flag">
+			   <path>${themePath}/_theme_inc/images/flags/wor.png</path>
+			   <maxSize>1</maxSize>
+			   <linearSmooth>true</linearSmooth>
+			   <opacity>0.8</opacity>
+			   <visible>contains(lower({game:region}), ',') &amp;&amp; !empty({game:region})</visible>
+			</image>
+   
+			<image name="flag-lang">
+			   <path>${themePath}/_theme_inc/images/flags/${theme.lang-flag}.png</path>
+			   <maxSize>1</maxSize>
+			   <linearSmooth>true</linearSmooth>
+			   <opacity>0.8</opacity>
+			   <visible>!contains(lower({game:lang}), ',') &amp;&amp; !empty({game:lang})</visible>
+			</image>
+   
+			<text name="gamedata-lang">
+			   <fontSize>0.02</fontSize>
+			   <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+			   <text>{game:lang}.upper()</text>
+			   <color>ffffff</color>
+			   <glowColor>00000035</glowColor>
+			   <glowSize>1</glowSize>			   
+			   <singleLineScroll>true</singleLineScroll>
+			   <autoScrollDelay>0</autoScrollDelay>
+			   <y>0.02</y>
+			   <visible>contains(lower({game:lang}), ',') &amp;&amp; !empty({game:lang})</visible>
+			</text>
+
+			<text name="contenedor-separador">
+				<text>•</text>
+				<fontSize>0.028</fontSize>
+				<color>FFFFFF</color>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+				<visible>!empty({game:lang}) || !empty({game:region}) </visible>
+			  </text>
+   
+			<text name="icono-players">
+			   <fontPath>${themePath}/_theme_inc/fonts/players.ttf</fontPath>
+			   <text>{game:playerCount}</text>
+			  <alignment>center</alignment>
+			  <fontSize>0.034</fontSize>
+			  <color>eeeeee</color>
+			</text>
+
+			<image name="icono-cheevos">
+				<visible>{game:cheevos}</visible>
+				<path>${themePath}/_theme_inc/images/trophy-picto.svg</path>
+				<linearSmooth>true</linearSmooth>
+				<color>e8c820e6</color>
+				<padding>0 0</padding>
+			   <maxSize>1 1</maxSize>
+				<storyboard>
+					<animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+				 </storyboard>
+			 </image>
+
+
+			<image name="icono-wheel">
+			   <visible>{game:wheelGame} &amp;&amp; {system:showWheel}</visible>
+			   <linearSmooth>true</linearSmooth>
+			   <padding>0 0</padding>
+			   <path>${themePath}/_theme_inc/images/volante.png</path>
+			   <maxSize>1 1</maxSize>
+			   <color>${grid.starFill}e6</color>
+			   <storyboard>
+				  <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+			   </storyboard>
+			</image>
+
+			 <image name="icono-gun">
+			   <visible>{game:gunGame} &amp;&amp; {system:showGun}</visible>
+			   <linearSmooth>true</linearSmooth>
+			   <padding>0 0</padding>
+			   <path>${themePath}/_theme_inc/images/lightgun.png</path>
+			   <maxSize>1 1</maxSize>
+			   <color>${grid.starFill}e6</color>
+			   <storyboard>
+				  <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+			   </storyboard>
+			</image>
+
+			<text name="contenedor-separador-kb">
+				<text>•</text>
+				<fontSize>0.028</fontSize>
+				<color>FFFFFF</color>
+				<fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+				<visible>{game:hasKeyboardMapping}</visible>
+			  </text>
+	
+			 <image name="icono-keyboardMapping">
+				<visible>{game:hasKeyboardMapping}</visible>
+				<linearSmooth>true</linearSmooth>
+				<padding>0 0</padding>
+				<path>${themePath}/_theme_inc/images/keyboardmap.png</path>
+				<maxSize>1 1</maxSize>
+				<color>eeeeee</color>
+				<storyboard>
+				   <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+				</storyboard>
+			 </image> 
+
+		  </stackpanel>
+
+		<!-- Anterior a v41 -->
+
+		<image name="background-default" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<path ifSubset="colorset:blue">${themePath}/_theme_options/colorsets/blue/background.jpg</path>
+			<path ifSubset="colorset:black">${themePath}/_theme_options/colorsets/black/background.jpg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<zIndex>04</zIndex>
+			<visible>empty({game:rom})</visible>
+		</image>
+
+		<image name="logo-splash" extra="true">
+			<origin>0 0</origin>
+			<pos>0.03 0.05</pos>
+			<maxSize>0.4 0.3</maxSize>
+			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.2 0.2</maxSize>
+			<path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/batocera-logo-splash.svg</path>
+			<path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/retrobat-logo.png</path>
+			<path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/batocera_plus_logo.png</path>
+			<path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/emuelec-logo-splash.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>05</zIndex>
+			<visible>empty({game:rom})</visible>
+		</image>
+
 
 		<text name="label">
-			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<color>ffffff</color>
 			<fontSize>0.045</fontSize>
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
+			<visible>empty({game:rom})</visible>
 		</text>
 
+		<image name="background">
+			<default>${themePath}/_theme_inc/images/no-image-default.png</default>
+			<size>0 0.4</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<roundCorners>1</roundCorners>
+			<linearSmooth>false</linearSmooth>
+			<visible>empty({game:rom})</visible>
+		</image>
+
+		<image name="linea-inferior" extra="static">
+			<path>${themePath}/_theme_inc/images/pixel-blanco.png</path>
+			<pos>0 0.935</pos>
+			<size>1 0.002</size>
+			<backgroundColor>ff000000</backgroundColor>
+			<verticalAlignment>top</verticalAlignment>
+			<alignment>left</alignment>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>05</zIndex>
+			<visible>empty({game:rom})</visible>
+		</image>
 	</view>
 	</theme>

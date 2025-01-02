@@ -7,7 +7,7 @@ We hope you enjoy it! Any suggestions are fully welcomed.
 
 If you enjoyed the theme, please give it a star on GitHub to help more people discover it.
 
-[![Playstation X Cconfig guide](https://es-theme-playstation-x.tocapixels.com/thumbvideo/psx-video-guide.jpg)](https://www.youtube.com/watch?v=6xfdHXLDhWs)
+[![Playstation X Config guide](https://es-theme-playstation-x.tocapixels.com/thumbvideo/psx-video-guide.jpg)](https://www.youtube.com/watch?v=6xfdHXLDhWs)
 
 ## Important notice to the theme Version 39 and next
 **Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, the theme version 39 is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
@@ -17,7 +17,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/Previous-rele
 
 ## An improved game lists enviroment!
 
-Since version 37 the game list combines the following theme options: 6 view types (detailed, grid, horizontal carousel, classic carousel, full grid and Game by game), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
+Since version 37 the game list combines the following theme options: 6 view types (detailed, grid, horizontal carousel, ps4Style carousel, full grid and Game by game), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
 
 [![Playstation X 37 Re-viewed (All Views)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-01.jpg)](https://www.youtube.com/watch?v=cbo0sx8Mk3Eb)
 
@@ -28,7 +28,7 @@ You can customize each system with a completely personalized view. Simply press 
 
 |                                    |                                    |                                    |
 | :--------------------------------: | :--------------------------------: | :--------------------------------: |
-| [![(Classic Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-03.jpg)](https://www.youtube.com/watch?v=gmeItHffFYA) | [![(Full Grid Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-04.jpg)](https://www.youtube.com/watch?v=s2DZsqBRSVg) | [![(Horizontal Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-05.jpg)](https://www.youtube.com/watch?v=ZiAk7QotviA) |
+| [![(ps4 Style Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-03.jpg)](https://www.youtube.com/watch?v=gmeItHffFYA) | [![(Full Grid Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-04.jpg)](https://www.youtube.com/watch?v=s2DZsqBRSVg) | [![(Horizontal Carousel Custom)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-05.jpg)](https://www.youtube.com/watch?v=ZiAk7QotviA) |
 
 Alongside all this, a new utility has been added, a game list called "Game Media Tester." By activating this list, you can quickly check the Batocera-compatible media assigned to each game in a very clear way.
 
@@ -55,23 +55,23 @@ NOTE: The automatic fit is only compatible with batocera 35 or higher, if you us
 
 
 
-### TRANSLATED INTO 15 LANGUAGES
+### AVAILABLE IN 15 LANGUAGES
 
 - English (EN) (default for not supported or untranslated languages)
 - Español (ES)
 - Català (CA)
 - Euskara (EU)
 - Galego (GL)
-- French (FR)
-- Portuguese (PT)
-- Italian (IT)
-- Deutch (DE)
-- Polish (PL)
-- Russian (RU)
-- Arabic (AR)
-- Hebrew (HE)
-- Chinese (ZH)
-- Japanese (JA)
+- Français (FR)
+- Português (PT)
+- Italiano (IT)
+- Deutsch (DE)
+- Polski (PL)
+- Русский (RU)
+- عربي (AR)
+- עִברִית (HE)
+- 简体中文 (ZH)
+- 日本語 (JA)
 
 
 Any collaboration for translation or new language supported is fully appreciated
@@ -99,7 +99,7 @@ You can also use a fully customized username and image, for this you will find t
 
 - To change the username string, open the file "custom-username.xml" with a text editor and change "username" for the desired nick
 
-- To apply don't forget to set in theme options "Choose a nick -> custom" "Choose your avatar -> custom"
+- To apply don't forget to set in theme options "Choose a nick -> custom" and/or "Choose your avatar -> custom"
 
 
 
@@ -125,43 +125,45 @@ Playstation-X has specific navigation sounds to enrich the user experience. Bato
 
 --------------------------------
 
-![](https://es-theme-playstation-x.tocapixels.com/36/v36-01.jpg)
+![](https://es-theme-playstation-x.tocapixels.com/41/00.jpg)
 
 |                                    |                                    |
 | :--------------------------------: | :--------------------------------: |
-| ![](https://es-theme-playstation-x.tocapixels.com/37/v37-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/37/v37-02.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/37/v37-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/37/v37-04.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/37/v37-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/37/v37-06.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/img/steamdeck-mockup-rev0.png) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-02.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-03.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-17.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-06.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-08.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-10.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-12.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-14.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-16.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/36/v36-mockup-06.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/12.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/14.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/18.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |
 
 Thanks and credits:
 -------
-- Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing emulationstation. https://github.com/fabricecaruso
+- Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing batocera-emulationstation. https://github.com/fabricecaruso
 - Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
 - Snapouille and Soaresden, for helping with French translation https://github.com/Snapouille
 - Janderson for helping with Portuguese translation https://github.com/JandersonJS
-- TheDayG0ne for helping with Russian translation https://github.com/TheDayG0ne
+- TheDayG0ne and Vortex or helping with Russian translation https://github.com/TheDayG0ne
 - CadmiumRED for helping with some test and medias https://github.com/CadmiumRED/
+- renetrox87 for inspiration with the overlayed arts https://github.com/Renetrox/
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
-- To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community
+- To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community.
 
-- Some media files like system backgrounds, consoles or logos have been selected from the default Carbon theme by @f.caruso
+Some media files like system backgrounds, consoles or logos have been selected from the default Carbon theme by @f.caruso
 
 Youtube Channel:
-https://www.youtube.com/channel/UC8wfrj_tIeX73ICtk7RVgSA
+https://www.youtube.com/@pajarorrojo/featured
 
 Batocera discord:
 https://discord.gg/mYREusrT
+
+Batocera reddit:
+https://www.reddit.com/r/batocera/
 
 Batocera forum:
 https://forum.batocera.org/

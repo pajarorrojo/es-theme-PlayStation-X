@@ -5,9 +5,63 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
+		<text name="system_description" extra="true">
+			<text>Chihiro is an arcade board developed in the early 2000s by Sega in collaboration with Microsoft. Based on the hardware of the original Xbox, it shared components like the Intel processor and an NVIDIA GPU, which made it easier to adapt games between both platforms.
+
+It was designed for arcade games with greater graphical capacity and performance, and was used in titles like OutRun 2 and Virtua Cop 3. Although it did not achieve massive adoption in arcades, it was a showcase of the temporary alliance between Sega and Microsoft during a time when Sega had just stopped manufacturing home consoles.</text>
+			<text lang="es">Chihiro es una placa arcade desarrollada a principios de los 2000 por Sega en colaboración con Microsoft. Basada en el hardware de la Xbox original, compartía componentes como el procesador Intel y una GPU NVIDIA, lo que facilitó la adaptación de juegos entre ambas plataformas.
+
+Fue diseñada para juegos de arcade con mayor capacidad gráfica y rendimiento, y se utilizó en títulos como OutRun 2 y Virtua Cop 3. Aunque no alcanzó una adopción masiva en los salones de arcade, fue una muestra de la alianza temporal entre Sega y Microsoft en una época donde Sega justo había dejado de fabricar consolas domésticas.</text>
+			<text lang="ca">Chihiro és una placa arcade desenvolupada a principis dels 2000 per Sega en col·laboració amb Microsoft. Basada en el maquinari de la Xbox original, compartia components com el processador Intel i una GPU NVIDIA, cosa que va facilitar l'adaptació de jocs entre ambdues plataformes.
+
+Va ser dissenyada per a jocs arcade amb una major capacitat gràfica i rendiment, i es va utilitzar en títols com OutRun 2 i Virtua Cop 3. Tot i que no va assolir una adopció massiva a les sales recreatives, va ser una mostra de l'aliança temporal entre Sega i Microsoft en una època en què Sega acabava de deixar de fabricar consoles domèstiques.</text>
+			<text lang="eu">Chihiro Sega eta Microsoft-en arteko lankidetzan garatutako arcade-plaka bat da, 2000ko hamarkadaren hasieran. Jatorrizko Xboxaren hardwarean oinarrituta, Intel prozesadorea eta NVIDIA GPU bezalako osagaiak partekatzen zituen, eta horrek jokoen egokitzapena erraztu zuen bi plataformen artean.
+	
+Arcade jokoetarako diseinatua izan zen, grafiko-gaitasun eta errendimendu handiagoarekin, eta OutRun 2 eta Virtua Cop 3 bezalako tituluetan erabili zen. Arcade aretoetan adopzio masiboa lortu ez zuen arren, Sega eta Microsoft-en arteko aldi baterako aliantza baten erakusgarri izan zen, Segak kontsola etxekoak fabrikatzeari utzi zion garai batean.</text>
+			<text lang="gl">Chihiro é unha placa arcade desenvolvida a comezos dos 2000 por Sega en colaboración con Microsoft. Baseada no hardware da Xbox orixinal, compartía compoñentes como o procesador Intel e unha GPU NVIDIA, o que facilitou a adaptación de xogos entre ambas plataformas.
+	
+Foi deseñada para xogos arcade cunha maior capacidade gráfica e rendemento, e utilizouse en títulos como OutRun 2 e Virtua Cop 3. Aínda que non acadou unha adopción masiva nos salóns de arcade, foi unha mostra da alianza temporal entre Sega e Microsoft nunha época na que Sega acababa de deixar de fabricar consolas domésticas.</text>
+			<text lang="fr">Chihiro est une carte arcade développée au début des années 2000 par Sega en collaboration avec Microsoft. Basée sur le matériel de la Xbox originale, elle partageait des composants comme le processeur Intel et un GPU NVIDIA, ce qui facilitait l'adaptation des jeux entre les deux plateformes.
+	
+Elle a été conçue pour des jeux d'arcade avec une plus grande capacité graphique et des performances accrues, et a été utilisée dans des titres comme OutRun 2 et Virtua Cop 3. Bien qu'elle n'ait pas connu une adoption massive dans les salles d'arcade, elle a témoigné de l'alliance temporaire entre Sega et Microsoft à une époque où Sega venait juste de cesser de fabriquer des consoles domestiques.</text>
+			<text lang="pt">Chihiro é uma placa arcade desenvolvida no início dos anos 2000 pela Sega em colaboração com a Microsoft. Baseada no hardware do Xbox original, compartilhava componentes como o processador Intel e uma GPU NVIDIA, o que facilitou a adaptação de jogos entre ambas as plataformas.
+	
+Foi projetada para jogos de arcade com maior capacidade gráfica e desempenho, sendo utilizada em títulos como OutRun 2 e Virtua Cop 3. Embora não tenha alcançado uma adoção massiva nas salas de arcade, foi uma demonstração da aliança temporária entre Sega e Microsoft numa época em que a Sega tinha acabado de parar de fabricar consoles domésticos.</text>
+			<text lang="it">Chihiro è una scheda arcade sviluppata all'inizio degli anni 2000 da Sega in collaborazione con Microsoft. Basata sull'hardware della Xbox originale, condivideva componenti come il processore Intel e una GPU NVIDIA, il che facilitava l'adattamento dei giochi tra le due piattaforme.
+	
+È stata progettata per giochi arcade con maggiore capacità grafica e prestazioni, ed è stata utilizzata in titoli come OutRun 2 e Virtua Cop 3. Sebbene non abbia raggiunto un'adozione di massa nelle sale giochi, ha rappresentato un esempio dell'alleanza temporanea tra Sega e Microsoft in un periodo in cui Sega aveva appena smesso di produrre console domestiche.</text>
+			<text lang="de">Chihiro ist ein Arcade-Board, das Anfang der 2000er Jahre von Sega in Zusammenarbeit mit Microsoft entwickelt wurde. Basierend auf der Hardware der ursprünglichen Xbox, teilte es Komponenten wie den Intel-Prozessor und eine NVIDIA-GPU, was die Anpassung von Spielen zwischen beiden Plattformen erleichterte.
+	
+Es wurde für Arcade-Spiele mit größerer grafischer Kapazität und Leistung entwickelt und in Titeln wie OutRun 2 und Virtua Cop 3 verwendet. Obwohl es keine weitverbreitete Verbreitung in Spielhallen fand, war es ein Beispiel für die zeitweilige Allianz zwischen Sega und Microsoft in einer Zeit, als Sega gerade die Herstellung von Heimkonsolen eingestellt hatte.</text>
+			<text lang="pl">Chihiro to płyta arcade opracowana na początku lat 2000 przez firmę Sega we współpracy z Microsoftem. Bazując na sprzęcie oryginalnej konsoli Xbox, dzieliła komponenty, takie jak procesor Intel i GPU NVIDIA, co ułatwiało adaptację gier między obiema platformami.
+	
+Została zaprojektowana do gier arcade o większej wydajności graficznej i wydajnościowej i była używana w takich tytułach, jak OutRun 2 i Virtua Cop 3. Mimo że nie zdobyła masowej popularności w salonach gier, była dowodem na tymczasowy sojusz między Sega a Microsoftem w czasach, gdy Sega dopiero co przestała produkować konsole domowe.</text>
+			<text lang="ru">Chihiro — это аркадная плата, разработанная в начале 2000-х годов компанией Sega в сотрудничестве с Microsoft. Основанная на оборудовании оригинальной Xbox, она имела такие же компоненты, как процессор Intel и графический процессор NVIDIA, что облегчало адаптацию игр между обеими платформами.
+	
+Эта плата была предназначена для аркадных игр с повышенной графической мощностью и производительностью, и использовалась в таких играх, как OutRun 2 и Virtua Cop 3. Хотя она не получила широкого распространения в аркадных залах, она стала примером временного альянса между Sega и Microsoft в период, когда Sega только что прекратила выпуск домашних консолей.</text>
+			<text lang="zh">Chihiro 是由 Sega 与微软合作在 2000 年代初开发的街机主板。它基于原版 Xbox 的硬件，拥有 Intel 处理器和 NVIDIA GPU 等组件，从而使两个平台之间的游戏适配变得更加容易。
+	
+它专为图形性能更强的街机游戏设计，并用于《OutRun 2》和《Virtua Cop 3》等游戏。虽然它在街机厅中没有被广泛采用，但它展示了 Sega 和微软之间的短暂联盟，那时 Sega 刚刚停止制造家用游戏机。</text>
+			<text lang="ar">تشيهيرو هي لوحة أركيد تم تطويرها في أوائل العقد الأول من القرن الحادي والعشرين بواسطة سيجا بالتعاون مع مايكروسوفت. استندت إلى العتاد الأصلي لجهاز إكس بوكس، وشاركت مكونات مثل معالج إنتل ووحدة معالجة الرسومات NVIDIA، مما سهل تكييف الألعاب بين كلا النظامين.
+	
+تم تصميمها للألعاب الأركيدية ذات القدرة الرسومية والأداء العالي، وتم استخدامها في عناوين مثل OutRun 2 وVirtua Cop 3. على الرغم من أنها لم تحقق اعتمادًا واسعًا في صالات الأركيد، إلا أنها كانت دليلًا على التحالف المؤقت بين سيجا ومايكروسوفت في وقت كانت فيه سيجا قد توقفت للتو عن تصنيع أجهزة الألعاب المنزلية.</text>
+			<text lang="he">Chihiro היא לוח ארקייד שפותח בתחילת שנות ה-2000 על ידי סגה בשיתוף פעולה עם מיקרוסופט. הוא מבוסס על החומרה של ה-Xbox המקורי, ומשתף רכיבים כמו מעבד אינטל ו-GPU של NVIDIA, מה שהקל על התאמת משחקים בין שתי הפלטפורמות.
+	
+הוא עוצב למשחקי ארקייד עם יכולת גרפית וביצועים גבוהים יותר, ושימש בכותרים כמו OutRun 2 ו-Virtua Cop 3. למרות שהוא לא זכה לאימוץ רחב בארקיידים, הוא היה דוגמה לשיתוף הפעולה הזמני בין סגה למיקרוסופט בתקופה שבה סגה הפסיקה לייצר קונסולות ביתיות.</text>
+			<text lang="ja">Chihiroは、2000年代初頭にセガとマイクロソフトの協力によって開発されたアーケード基板です。オリジナルのXboxのハードウェアをベースにしており、IntelプロセッサやNVIDIAのGPUなどのコンポーネントを共有し、両プラットフォーム間でのゲームの適応が容易になりました。
+	
+この基板は、より高いグラフィック性能とパフォーマンスを備えたアーケードゲーム向けに設計され、OutRun 2やVirtua Cop 3などのタイトルに使用されました。アーケードにおいて広く普及することはありませんでしたが、セガが家庭用コンソールの製造を中止した時期におけるセガとマイクロソフトの一時的な提携の一例となりました。</text>
+			</text>
 				
 		<text name="system_name" extra="true">
-			<text>Chihiro</text>
+			<text>SEGA Chihiro</text>
 		</text>
-	</view>
+</view>
+
+<view name="system,detailed, grid">
+	<image name="linea-inferior" extra="static">
+		<color>FF0000</color>
+		<colorEnd>e21811</colorEnd>
+	</image>
+</view>
 </theme>

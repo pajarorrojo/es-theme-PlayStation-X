@@ -24,7 +24,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </video>
 
       <video ifSubset="game-video:window|inside|default" name="game-video">
-         <!-- <default>./../_theme_options/colorsets/blue/background-psx-blue.mp4</default> -->
+         <!-- <default>${themePath}/_theme_options/colorsets/blue/background-psx-blue.mp4</default> -->
          <pos>0.760 0.405</pos>
          <pos ifSubset="aspect-ratio:4-3">0.760 0.345</pos>
          <pos ifSubset="aspect-ratio:5-4">0.760 0.343</pos>
@@ -132,9 +132,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       
       </customView>
 
-<!-- classic -->
+<!-- ps4Style -->
 
-      <customView name="classic">
+      <customView name="ps4Style">
 
          <imagegrid name="gamegrid" ifSubset="game-video:inside|default">
             <showVideoAtDelay ifSubset="video-gamelist-delay:0s">1</showVideoAtDelay>
@@ -209,9 +209,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          </imagegrid>
 
          <video ifSubset="game-video:window" name="game-video">
-            <pos>0.152 0.710</pos>
-            <maxSize>0.258 0.338</maxSize>
-            <maxSize ifSubset="aspect-ratio:4-3|5-4">0.278 0.338</maxSize>
+            <pos>0.15 0.760</pos>
+            <maxSize>0.25 0.3</maxSize>
             <visible>true</visible>
          </video>
 

@@ -13,11 +13,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </variables>
    <variables>
       <sistema.lineainferior>FF4DFF</sistema.lineainferior>
-      <splash.progressbarActive>FF4DFF</splash.progressbarActive>
       <gamelistSelectorColor>FF4DFF</gamelistSelectorColor>
       <backgroundgridSelect>FF4DFF</backgroundgridSelect>
-      <gamelist.starFill>FF4DFF</gamelist.starFill>
-      <grid.starFill>FF4DFF</grid.starFill>
    </variables>
 
 </theme>

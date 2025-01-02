@@ -28,14 +28,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <manualOnColor>3CAEFB</manualOnColor>
       <savegameOnColor>3CAEFB</savegameOnColor>
       <cheevosOnColor>F3C300</cheevosOnColor>
-      <splash.progressbarActive ifSubset="secondary_colorset:default">0070d1</splash.progressbarActive>
+      <splash.progressbarActive>0070d1</splash.progressbarActive>
       <splash.progressbarActiveEnd>003791</splash.progressbarActiveEnd>
       <splash.progressbar>ffffff80</splash.progressbar>
       <splash.labelColor>ffffff</splash.labelColor>
       <sistema.lineainferior ifSubset="secondary_colorset:default">0070d1</sistema.lineainferior>
       <sistema.pie>030a18</sistema.pie>
       <gamelist.starFill ifSubset="secondary_colorset:default">DF0024</gamelist.starFill>
-      <classic.tile.background>020C29</classic.tile.background>
+      <ps4Style.tile.background>020C29</ps4Style.tile.background>
       <grid.starFill ifSubset="secondary_colorset:default">F3C300</grid.starFill>
       <dimColor>808080</dimColor>
    </variables>
@@ -54,11 +54,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="menu">
       <menuBackground name="menubg">
          <path>./blue/fond_menu.png</path>
+         <fadePath>./blue/fond_menu_fade.png</fadePath>
       </menuBackground>
 
+      
       <menuTextEdit name="menutextedit">
-         <inactive>./../../_theme_inc/images/caja-texto-azul.png</inactive>
-         <active>./../../_theme_inc/images/caja-texto-azul-activa.png</active>
+         <inactive>${themePath}/_theme_inc/images/caja-texto-azul.png</inactive>
+         <active>${themePath}/_theme_inc/images/caja-texto-azul-activa.png</active>
       </menuTextEdit>
    </view>
 </theme>

@@ -60,21 +60,25 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   <!-- GRID -->
 
   <view name="grid">
-    <control name="contenedor-iconos, contenedor-gamedata, contenedor-gamedata2, console-grid-view, image-grid, image-carousel, image-classic, image-single, thumbnail-grid, thumbnail-carousel, thumbnail-classic, thumbnail-single, marquee-grid, marquee-carousel, marquee-classic, marquee-single, boxart-grid, boxart-carousel, boxart-classic, boxart-single, cartridge-grid, cartridge-carousel, cartridge-classic, cartridge-single, fanart-grid, fanart-carousel, fanart-classic, fanart-single, titleshot-grid, titleshot-carousel, titleshot-classic, titleshot-single, md_description, system-name, , image-full-grid thumbnail-full-grid, boxart-full-grid, marquee-full-grid, boxback-full-grid, fanart-full-grid, titleshot-full-grid, cartridge-full-grid,gamename-full-grid, gamename-grid, gamename-single, boxback-carousel, boxback-grid, boxback-classic, boxback-single, gallery_image, gallery_video">
+    <control name="start-single, contenedor-iconos, contenedor-gamedata, contenedor-gamedata2, console-grid-view, image-grid, image-carousel, image-ps4Style, image-single, thumbnail-grid, thumbnail-carousel, thumbnail-ps4Style, thumbnail-single, marquee-grid, marquee-carousel, marquee-ps4Style, marquee-single, boxart-grid, boxart-carousel, boxart-ps4Style, boxart-single, cartridge-grid, cartridge-carousel, cartridge-ps4Style, cartridge-single, fanart-grid, fanart-carousel, fanart-ps4Style, fanart-single, titleshot-grid, titleshot-carousel, titleshot-ps4Style, titleshot-single, md_description, system-name, , image-full-grid thumbnail-full-grid, boxart-full-grid, marquee-full-grid, boxback-full-grid, fanart-full-grid, titleshot-full-grid, cartridge-full-grid,gamename-full-grid, gamename-grid, gamename-single, boxback-carousel, boxback-grid, boxback-ps4Style, boxback-single, gallery_image, gallery_video">
       <storyboard event="open">
         <animation property="offsetY" from="0.25" to="0" begin="50" duration="500" mode="easeOutCubic" />
       </storyboard>
       <storyboard event="activateNext">
-        <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
+        <animation property="offsetX" from="0.05" to="0" duration="300" mode="easeOutCubic" />
       </storyboard>
       <storyboard event="activatePrev">
-        <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
+        <animation property="offsetX" from="-0.05" to="0" duration="300" mode="easeOutCubic" />
       </storyboard>
       <storyboard event="deactivateNext">
-        <animation property="opacity" to="0" duration="100" mode="easeOut" />
+        <animation property="opacity" to="0" duration="300" mode="easeOut" />
+        <animation property="offsetX" to="-0.05" duration="300" mode="easeOutCubic" />
+
       </storyboard>
       <storyboard event="deactivatePrev">
-        <animation property="opacity" to="0" duration="100" mode="easeOut" />
+        <animation property="opacity" to="0" duration="300" mode="easeOut" />
+        <animation property="offsetX" to="0.05" duration="300" mode="easeOutCubic" />
+
       </storyboard>
     </control>
   
@@ -85,7 +89,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </storyboard>
     <storyboard event="activateNext">
       <animation property="offsetX" from="0.02" to="0" begin="0" duration="400" mode="easeOut" />
-      <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+      <animation property="opacity" from="0" zto="1" duration="300" mode="easeOut" />
       <animation property="offsetY" begin="100"  to="0.15" duration="30000" mode="ease"/>
       <animation property="scale" begin="100"  to="1.3" duration="30000" mode="linear"/>
       </storyboard>
@@ -108,9 +112,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 
-  <!-- classic -->
+  <!-- ps4Style -->
 
-  <customView name="classic">
+  <customView name="ps4Style">
 
     <control name="marco-activo">
       <storyboard event="open">
@@ -159,7 +163,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </control>
 
-    <control name="gamename-classic">
+    <control name="gamename-ps4Style">
       <storyboard event="open">
         <animation property="offsetY" from="0.06" to="0" duration="500" mode="easeOut" />
         <animation property="opacity" from="0" to="1" duration="500" mode="linear" />
@@ -180,7 +184,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
     </control>
 
-    <control name="marquee-classic-view, thumbnail-classic-view, thumbnail-classic-view">
+    <control name="marquee-ps4Style-view, thumbnail-ps4Style-view">
       <storyboard event="open">
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
@@ -205,7 +209,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   <customView name="single">
 
-    <control name="marquee-single-view, thumbnail-single-view, thumbnail-single-view">
+    <control name="marquee-single-view, thumbnail-single-view">
       <storyboard event="open">
         <animation property="scale" from="0.9" to="1.0" duration="350" mode="bump" />
       </storyboard>
@@ -223,29 +227,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </storyboard>
       </control>
 
-      <control name="start-single">
-        <storyboard event="open">
-          <animation property="offsetY" from="0.1" to="0" begin="50" duration="600" mode="easeOutCubic" />
-          <animation property="opacity" from="1" to="0.6" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />      
-        </storyboard>
-        <storyboard event="activateNext">
-          <animation property="offsetX" from="0.30" to="0" duration="200" mode="easeOutCubic" />
-          <animation property="opacity" from="1" to="0.6" begin="500" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />      
-        </storyboard>
-        <storyboard event="activatePrev">
-          <animation property="offsetX" from="-0.30" to="0" duration="200" mode="easeOutCubic" />
-          <animation property="opacity" from="0" to="1" duration="200" mode="easeOut" />
-          <animation property="opacity" from="1" to="0.6" begin="500" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />      
-        </storyboard>
-        <storyboard event="deactivateNext">
-          <animation property="offsetX" from="0.30" to="0" duration="200" mode="easeOutCubic" />
-          <animation property="opacity" to="0" duration="100" mode="linear" />
-        </storyboard>
-        <storyboard event="deactivatePrev">
-          <animation property="offsetX" from="0" to="0.1" duration="200" mode="easeOutCubic" />
-          <animation property="opacity" to="0" duration="100" mode="linear" />
-        </storyboard>
-      </control>
 
   </customView>
 
@@ -321,7 +302,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
      <!-- retardo del video de 0, 05 y 1 seg -->
 
-  <image ifSubset="game-video:window, video-gamelist-delay:0s|05s|1s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-classic, boxback-single">
+  <image ifSubset="game-video:window, video-gamelist-delay:0s|05s|1s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-ps4Style, thumbnail-ps4Style, fanart-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, marquee-ps4Style, boxback-ps4Style, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-ps4Style, boxback-single">
     <storyboard event="open">
        <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
        <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
@@ -329,27 +310,29 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
        <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
     </storyboard>
     <storyboard event="activateNext">
-       <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
-       <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+       <animation property="offsetX" from="0.05" to="0" duration="300" mode="easeOutCubic" />
        <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
     </storyboard>
     <storyboard event="activatePrev">
-       <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
-       <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+       <animation property="offsetX" from="-0.05" to="0" duration="300" mode="easeOutCubic" />
        <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="800" duration="600" mode="easeInOut" />
     </storyboard>
     <storyboard event="deactivateNext">
        <animation property="opacity" to="0" duration="100" mode="easeOut" />
+       <animation property="offsetX" to="-0.05" duration="300" mode="easeOutCubic" />
+
     </storyboard>
     <storyboard event="deactivatePrev">
        <animation property="opacity" to="0" duration="100" mode="easeOut" />
+       <animation property="offsetX" to="0.05" duration="300" mode="easeOutCubic" />
+
     </storyboard>
  </image>
 
 
    <!-- retardo del video de 2 y 3 seg -->
 
- <image ifSubset="game-video:window, video-gamelist-delay:2s|3s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-classic, thumbnail-classic, fanart-classic, boxart-classic, cartridge-classic, titleshot-classic, marquee-classic, boxback-classic, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-classic, boxback-single">
+ <image ifSubset="game-video:window, video-gamelist-delay:2s|3s" name="image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, boxback-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-ps4Style, thumbnail-ps4Style, fanart-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, marquee-ps4Style, boxback-ps4Style, image-single, thumbnail-single, fanart-single, boxart-single, cartridge-single, titleshot-single, marquee-single, boxback-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, boxback-full-grid, boxback-carousel, boxback-grid, boxback-ps4Style, boxback-single">
   <storyboard event="open">
      <animation property="opacity" from="0" to="0" duration="100" mode="linear" />
      <animation property="offsetY" from="-0.5" to="0" begin="50" duration="500" mode="easeOutCubic" />
@@ -357,20 +340,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
      <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
   </storyboard>
   <storyboard event="activateNext">
-     <animation property="offsetX" from="0.30" to="0" duration="300" mode="easeOutCubic" />
-     <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+     <animation property="offsetX" from="0.05" to="0" duration="300" mode="easeOutCubic" />
      <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
   </storyboard>
   <storyboard event="activatePrev">
-     <animation property="offsetX" from="-0.30" to="0" duration="300" mode="easeOutCubic" />
-     <animation property="opacity" from="0" to="1" duration="300" mode="easeOut" />
+     <animation property="offsetX" from="-0.05" to="0" duration="300" mode="easeOutCubic" />
      <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1800" duration="600" mode="easeInOut" />
   </storyboard>
   <storyboard event="deactivateNext">
      <animation property="opacity" to="0" duration="100" mode="easeOut" />
+     <animation property="offsetX" to="-0.05" duration="300" mode="easeOutCubic" />
+
   </storyboard>
   <storyboard event="deactivatePrev">
      <animation property="opacity" to="0" duration="100" mode="easeOut" />
+     <animation property="offsetX" to="0.05" duration="300" mode="easeOutCubic" />
+
   </storyboard>
 </image>
 </view>

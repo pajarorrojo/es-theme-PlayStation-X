@@ -1,7 +1,43 @@
-Version 40 (12/08/2024)
+Version 41 (January 2, 2025)
+
+- New: New overlaid images in the systems view. Optional via theme configuration. Only available for some systems (WIP).
+- New: New overlaid images in the PS4-Style and Game by game gamelist. Optional via theme configuration and only for some available games (WIP).
+- New: New game loading screen design (only for Batocera 41 and later).
+- New: A block with basic system information (hardware type, year, and manufacturer) has been added above the system descriptions.
+- New: A new "clean" design for the top area is available through theme options. Cleaner and without PSN icons, dummy numbers, etc.
+- New: The "none" option has been added for the background image in the games list.
+- New: Spider-Man and Batman collections have been added to the automatic custom collections.
+- New: Theme option to choose the type of game box displayed in the "ps4Style" and "game by game" views (thumbnail, boxart, boxback, cartridge, none). If the boxart or boxback media is unavailable, thumbnail is displayed by default.
+- New: Theme option to show or hide the game logo in the "ps4Style" and "game by game" views.
+- New: A specific layout has been created for the retrobat system folder with a grid of emulator logos
+- Change: The animation of game lists has been adjusted for smoother performance.
+- Change: Positions of elements and fonts in various game views have been adjusted.
+- Change: The game title font has been changed to bold in some views.
+- Change: The "none" message has been replaced with "0" for "none favorites" and "none played" in the systems view.
+- Change: The auto-scroll timing and the speed of game and system descriptions have been improved.
+- Change: The height of the system descriptions has been reduced.
+- Change: Region names have been translated into the different languages supported by the theme.
+- Change: The default view name "Classic Carousel" has been renamed to "PS4 Style".
+- Change: The layout of the "game by game" view has been slightly modified, placing the game logo above the "Start" button.
+- Change: Transparency in game list layouts has been slightly adjusted to improve text readability.
+- Change: Disabled gray icons for "no savestate" and "no manual" have been removed from the games list. Now they only appear in yellow when the game has one of these features.
+- Added: A small arrow has been added to the right side in the "game by game" view.
+- Added: The publisher has been added to the game info line.
+- Added: A keyboard-to-pad icon has been added to the game info when the game has a pad-to-key configuration.
+- Added: A kidgame icon has been added to the game info when the game is marked as a kid game.
+- Added: Missed media data and/or information has been added for the Recordings, SEGA Chihiro, SEGA System SP, PS4, Trackball collection, Spinner collection, Hyper Neo-Geo 64, Sega ST-V and Nokia N-Gage in the systems view (thanks to Oldgamers for the N-Gage media).
+
+
+
+
+
+
+
+-----------------------
+Version 40 (August 12, 2024)
 
 - Fix: The scroll delay in system descriptions has been corrected.
-- Fix: An issue in image galleries displaying a small thumbnail when forced to classic or "game by game" view has been corrected.
+- Fix: An issue in image galleries displaying a small thumbnail when forced to Classic or "game by game" view has been corrected.
 - Fix: Snap video audio in carousel view with grid mode enabled has been corrected.
 - Fix: Typo in Spanish language.
 - Fix: System video (commercial) for Game Boy color (2 players).
@@ -17,7 +53,7 @@ Version 40 (12/08/2024)
 
 
 -----------------------
-Version 39 (09/02/2024)
+Version 39 (February 9, 2024)
 
 **Warning:** Due to substantial changes in the source code of Batocera EmulationStation regarding theme building, this theme version is only compatible with Batocera 39 or RetroBat 6 and next versions. If you encounter issues, please update your frontend or downgrade to an earlier version of the theme.
 
@@ -101,7 +137,7 @@ Version 39 (09/02/2024)
 
 
 -----------------------
-Version 38 (26/10/2023)
+Version 38 (October 26, 2023)
 
 - Add: New Steering wheel icon in the controller activity area when a steering wheel is connected.
 - Add: New Plane mode icon in menu and the low bar info when the plane mode is enabled.
@@ -124,7 +160,7 @@ Version 38 (26/10/2023)
 
 
 -----------------------
-Version 37 (08/06/2023)
+Version 37 (June 8, 2023)
 
 - New and improved game list environment, customizable per system and adjustable according to the combination of options.
 - New: Added a new gamelist view called "Classic Carousel," which can be configured with any type of image (thumbnail, image, marquee, cartridge, box art, fanart...) and customized per system.
@@ -141,7 +177,7 @@ Version 37 (08/06/2023)
 - New: Added new tags in the top info area for the "grouped collections" system (number of collections and number of games).
 - New: Created a detailed list version for the screenshot gallery and library systems.
 - Change: Adjusted various grid layouts for the new views and image options.
-- Change: Set the new classic game list view as the default.
+- Change: Set the new Classic game list view as the default.
 - Change: Set the new full grid game list view as the default for tiny screens.
 - Change: Set fanart background as the default image for game lists. If fanart is not available, the system's default background image is displayed.
 - Change: Adjusted the default view for grouped collections.
@@ -157,7 +193,7 @@ Version 37 (08/06/2023)
 
 
 -----------------------
-Version 36 (14/03/2023)
+Version 36 (March 14, 2023)
 
 
 - Added: 9 New languages to the theme interface. Now the theme supports up to 14 languages!
@@ -181,7 +217,7 @@ Version 36 (14/03/2023)
    - Two faces picto to open the netplay window
    - Diskette icon in gamelist to open the savestate manager
    - Controller icon (players) to open the game options
-- New: Added a new view in the game list called "carousel", configurable with any type of image (thumbnail, image, marquee, cartridge, boxart, fanart) and customizable per system. Also now the classic grid view does not automatically change the layout to "fake carousel", when displaying media like thumnail or boxart
+- New: Added a new view in the game list called "carousel", configurable with any type of image (thumbnail, image, marquee, cartridge, boxart, fanart) and customizable per system. Also now the Classic grid view does not automatically change the layout to "fake carousel", when displaying media like thumnail or boxart
 - New: Added hotkey quick help guide buttons on welcome and game splash screens. Optional from theme config. (Note: game splash only compatible with Pc boards)
 - New subset of options for the background image in systems view, options are:
    - Default
@@ -223,7 +259,7 @@ Version 36 (14/03/2023)
 
 
 -----------------------
-Version 35.1 (16/10/2022)
+Version 35.1 (October 16, 2022)
 
 
 - Changed controller icon position, now is above the clock
@@ -245,7 +281,7 @@ Version 35.1 (16/10/2022)
 
 
 -----------------------
-Version 35 (21/09/2022)
+Version 35 (September 21, 2022)
 
 
 - Now theme can detect the aspect ratio and automatically adjust to the following types of screens (requires Batocera 35 or higher)
@@ -262,7 +298,7 @@ Version 35 (21/09/2022)
 
 
 -----------------------
-Version 34 (25/05/2022)
+Version 34 (May 25, 2022)
 
 
 - UX/UI: New theme option: Secondary color scheme for selectors and some theme layout's details. Colors available:
@@ -294,7 +330,7 @@ Version 34 (25/05/2022)
 
 
 -----------------------
-Version 33.2 (16/03/2022)
+Version 33.2 (March 16, 2022)
 
 
 - UX/UI: Changed top trophy picto behaviour. Now the trophy highlights in system view when the system has trophy compatibility and blinks in the gamelist view when a game have achievements. Requires retroachievements enabled
@@ -307,7 +343,7 @@ Version 33.2 (16/03/2022)
 
 
 -----------------------
-Version 33.1 (02/03/2022)
+Version 33.1 (March 2, 2022)
 
 
 - UX/UI: Minor changes in black colorset mode
@@ -320,7 +356,7 @@ Version 33.1 (02/03/2022)
 
 
 -----------------------
-Version 33 (06/02/2022)
+Version 33 (February 2, 2022)
 
 
 - UX/UI Complete rebuilt of the theme layouts to support multiple aspect ratios and tiny screens. You can select your display type aspect ratio in theme settings with the following options:
@@ -358,7 +394,7 @@ Version 33 (06/02/2022)
 
 
 -----------------------
-Version 32.2 (01/11/2021)
+Version 32.2 (November 1, 2021)
 
 - Performance: Changes, improves and fixes in code, graphics, languages and UX in general
 - Theme option: New supported images source options for medias in views. Now we can choose between next metadata tags for a better user customization layouts: 
@@ -378,7 +414,7 @@ Version 32.2 (01/11/2021)
 
 
 ------------------------
-Version 32.1 (hotfix) (04/10/2021)
+Version 32.1 (hotfix) (October 4, 2021)
 
 
 - fixed an issue that showed the option "splash" in Theme configuration settings -> Gamelist view style
@@ -386,7 +422,7 @@ Version 32.1 (hotfix) (04/10/2021)
 
 ------------------------
 
-Version 32 (03/10/2021)
+Version 32 (October 3, 2021)
 
 
 - New: Theme option: Select image source in detailed view (image, thumbnail or marquee)
@@ -398,7 +434,7 @@ Version 32 (03/10/2021)
 
 
 ------------------------
-Version 31.1 (03/07/2021)
+Version 31.1 (July 3, 2021)
 
 
 - Design: Game list layouts redesigned with username, infos etc. according to system view layout. 
@@ -411,7 +447,7 @@ Version 31.1 (03/07/2021)
 - Note: For a better user experience with the new gamelist layout, is recommended to set instant transition style in the User Interface global settings
 
 ------------------------
-Version 31 (19/06/2021)
+Version 31 (June 19, 2021)
 
 - Ready for batocera 31!
 - New: Now compatible with multi region (EU / JP / US) 
@@ -432,7 +468,7 @@ Version 31 (19/06/2021)
 
 
 ------------------------
-Version 30.5 (19/04/2021)
+Version 30.5 (April 19, 2021)
 
 - New: Reworking and redesign of entire carousel images. Now the carousel images are HQ, optimized and ready for high resolution 4k Tv's
 - Added: Metal Slug and Outrun preset avatars
@@ -440,7 +476,7 @@ Version 30.5 (19/04/2021)
 - Fix: controller activity icon sizes
 
 ------------------------
-Version 30.4.2 (12/04/2021)
+Version 30.4.2 (April 12, 2021)
 
 - Added: xml data to Commodore Plus/4 system
 - Fixed: Gamecube Media names
@@ -448,7 +484,7 @@ Version 30.4.2 (12/04/2021)
 
 
 ------------------------
-Version 30.4.1 (11/04/2021)
+Version 30.4.1 (April 11, 2021)
 
 - Added: new medias and data to Solarus, Wii, Gamecube, Atari Jaguar, Nintendo 3ds, Nintendo Ds, Mugen, tic-80 (thanks to Soaresden for aporting some materials)
 - Added: xml data to Commander Genius system
@@ -459,7 +495,7 @@ Version 30.4.1 (11/04/2021)
 - Graphics changes and performance in some carousel logos
 
 ------------------------
-Version 30.4 (06/04/2021)
+Version 30.4 (April 6, 2021)
 
 - New theme option: Show logos and consoles in system view (yes, no, random game)
 - New theme option: theme colorsets (blue or black)
@@ -476,7 +512,7 @@ Version 30.4 (06/04/2021)
 - Minor changes in some system descriptions (ES)
 
 ------------------------
-Version 30.3 (30/03/2021)
+Version 30.3 (March 30, 2021)
 
 - New Video snapshot delay customizable in theme options (0secs, 0.5, 1, 2, 3, video off)
 - New italian (IT) language to interface (not systems desc.)
@@ -490,20 +526,20 @@ Version 30.3 (30/03/2021)
 
 
 -----------------------
-Version 30.2 (25/03/2021)
+Version 30.2 (March 23, 2021)
 
 - Added New Avatars and Nickname presets! choose between more than 20 Avatars or Nicknames in theme options.
 - Fixed an issue where snapshot slots could not be identified.
 - Fixed a problem with the 12h clock format in the new beta 31
 
 -----------------------
-Version 30.1 (22/03/2021)
+Version 30.1 (March 22, 2021)
 
 - Added a new grid gamelist view (looks better with no scraped image mixes)
 - Added thumbnails and data to “arcade systems” in systems view.
 
 -----------------------
-Version 30 (08/03/2021)
+Version 30 (March 8, 2021)
 
 - Ready for batocera 30
 - Added new info bar icons in gamelist, show/hide is optional in theme config 
@@ -519,7 +555,7 @@ Version 30 (08/03/2021)
 - Change Version number according to batocera compatible version
 
 -------------------------
-Version 2.1 (13/12/2020)
+Version 2.1 (December 13, 2020)
 
 - Ready for batocera 29
 - Added animated storyboards in many items of the interface. Now the interface is more precise and fluid with the new effects. (only compatible with batocera 29)
@@ -530,7 +566,7 @@ Version 2.1 (13/12/2020)
 - Some minor graphics changes have been made to improve the user experience
 
 --------------------------
-Version 2.0 (12/11/2020)
+Version 2.0 (November 12, 2020)
 
 - More customizable  via theme options.
 - New spot videos in systems view!. (Enable or disable is optional in theme config).
@@ -541,6 +577,6 @@ Version 2.0 (12/11/2020)
 - Added a defatult logo (cover) for system when no image available.
 
 ---------------------------
-Version 1 (31/10/2020)
+Version 1 (Octoberr 31, 2020)
 - theme published on github, until this version it was a custom private theme, there is no registered change log 
 
