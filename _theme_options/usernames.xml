@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<formatVersion>7</formatVersion>
 	<variables>
 		<!-- listado de usuarios-->
-		<theme.nick ifSubset="system-username:batocera">Batocera</theme.nick>
+		<theme.nick ifSubset="system-username:batocera">HARMONIC</theme.nick>
 		<theme.nick ifSubset="system-username:batocera-plus">Batocera Plus</theme.nick>
 		<theme.nick ifSubset="system-username:belmont">Gabriel Belmont</theme.nick>
 		<theme.nick ifSubset="system-username:cloud">Cloud Strife</theme.nick>
