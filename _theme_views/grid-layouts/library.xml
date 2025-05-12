@@ -108,7 +108,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.5 0.3</pos>
          <origin>0.5 0.3</origin>
          <zIndex>100</zIndex>
-         <visible>true</visible>      
+         <visible>true</visible>    
+         <delay>0.5</delay>
+         <effect>none</effect>
+         <loops>-1</loops>  
       </video>
 
 
@@ -136,7 +139,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system,detailed,grid">
 
       
-      <text name="gamename-full-grid, gamename-grid,linea-infos,systemInfoEx, systemInfoEx2, md_description,gamename-ps4Style, background-art, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-ps4Style, thumbnail-ps4Style,marquee-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, fanart-ps4Style, image-single, thumbnail-single,marquee-single, boxart-single, cartridge-single, titleshot-single, fanart-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, start-single, gamename-single" extra="true">
+      <text name="md_description, gamename-full-grid, gamename-grid,linea-infos,systemInfoEx, systemInfoEx2, md_description,gamename-ps4Style, background-art, image-detailed, thumbnail-detailed, marquee-detailed, boxart-detailed,cartridge-detailed, fanart-detailed, titleshot-detailed, image-grid, thumbnail-grid,marquee-grid, boxart-grid, cartridge-grid, titleshot-grid, fanart-grid, image-carousel, thumbnail-carousel,marquee-carousel, boxart-carousel, cartridge-carousel, titleshot-carousel, fanart-carousel, image-ps4Style, thumbnail-ps4Style,marquee-ps4Style, boxart-ps4Style, cartridge-ps4Style, titleshot-ps4Style, fanart-ps4Style, image-single, thumbnail-single,marquee-single, boxart-single, cartridge-single, titleshot-single, fanart-single, image-full-grid, thumbnail-full-grid,marquee-full-grid, boxart-full-grid, cartridge-full-grid, titleshot-full-grid, fanart-full-grid, start-single, gamename-single" extra="true">
          <opacity>0</opacity>
          <visible>false</visible>
          <pos>-2 -2</pos>
