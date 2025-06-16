@@ -1,3 +1,20 @@
+![](https://es-theme-playstation-x.tocapixels.com/41/00.jpg)
+
+|                                    |                                    |
+| :--------------------------------: | :--------------------------------: |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/12.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/14.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/18.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |
+
+
 # PlayStation-X Retrogaming theme
 A theme inspired by the PlayStation 3/4 interface, featuring custom avatars, usernames, retroachievements compatibility and much more for Batocera, RetroBat, and EmuElec frontends.
 
@@ -125,22 +142,6 @@ Playstation-X has specific navigation sounds to enrich the user experience. Bato
 
 --------------------------------
 
-![](https://es-theme-playstation-x.tocapixels.com/41/00.jpg)
-
-|                                    |                                    |
-| :--------------------------------: | :--------------------------------: |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/02.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/12.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/14.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/18.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |
-
 Thanks and credits:
 -------
 - Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing batocera-emulationstation. https://github.com/fabricecaruso
@@ -164,9 +165,6 @@ https://discord.gg/mYREusrT
 
 Batocera reddit:
 https://www.reddit.com/r/batocera/
-
-Batocera forum:
-https://forum.batocera.org/
 
 Batocera wiki:
 https://wiki.batocera.org/
