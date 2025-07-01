@@ -21,7 +21,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <text name="gamename-grid">
+      <text name="gamename-grid, gamedesc-grid">
          <visible>false</visible>
       </text>
 
@@ -117,6 +117,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.13 0.055</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.15 0.055</size>
          <padding>0.013 0</padding>
+         <visible>{system:total} &gt; 0 ? 1 : 0</visible>
       </text>
 
       <text name="gamename-single" extra="true">
@@ -144,7 +145,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <pos>0.026 0.475</pos>
+         <pos>0.026 0.480</pos>
       </stackpanel>
 
       <text name="system-name" extra="true">
@@ -156,12 +157,27 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y>0.525</y>
       </stackpanel>
 
-      <text name="md_description">
+
+      <text name="gamedesc-single" extra="true">
+         <text>{game:desc}</text>
          <color>ffffff</color>
          <pos>0.3 0.645</pos>
          <size>0.42 0.156</size>
-         <lineSpacing>1.1</lineSpacing>
+         <size tinyScreen="true">0.55 0.070</size>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <lineSpacing>1.11</lineSpacing>
+         <origin>0 0</origin>
          <backgroundColor>ff000000</backgroundColor>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
+         <zIndex>90</zIndex>
+         <visible>!empty({game:desc})</visible>
+         <visible ifSubset="game-description:no">false</visible>
+         <autoScroll>vertical</autoScroll>
+         <autoScrollDelay>10000</autoScrollDelay>
+         <autoScrollSpeed>100</autoScrollSpeed>
+         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <verticalAlignment>top</verticalAlignment>
       </text>
 
       <image name="pie-barra" extra="static" ifHelpPrompts="true">
@@ -185,27 +201,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12" extra="static">
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13" extra="static">
          <visible>true</visible>
       </image>
 
    </customView>
 
-   <customView name="single"  ifSubset="main-origin:none, game-video:background|oversize|inside|off">
-      <text name="md_description">
+   <customView name="single"  ifSubset="main-origin:none, game-video:default|background|oversize|inside|off">
+      <text name="gamedesc-single">
          <x>0.026</x>
+         <y>0.59</y>
       </text>
    </customView>
 
-   <customView name="single"  ifSubset="info-bar:NO">
-      <text name="md_description">
-         <y>0.62</y>
-      </text>
-   </customView>
 
    <customView name="single"  ifSubset="info-bar:NO, main-origin:none, game-video:background|oversize|inside|off|default">
-      <text name="md_description">
-         <y>0.4</y>
+      <text name="gamedesc-single">
+         <y>0.46</y>
       </text>
    </customView>
 
@@ -223,7 +235,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <y>0.475</y>
+         <y>0.480</y>
       </stackpanel>
 
    </customView>

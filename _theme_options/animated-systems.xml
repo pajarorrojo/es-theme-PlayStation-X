@@ -38,7 +38,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
     <text name="system_name,system-folder" extra="true">
       <storyboard>
-        <animation property="h" from="0.2" duration="350" mode="easeOutCubic" />
+        <animation property="offsetY" from="0.1" duration="350" mode="easeOutCubic" />
         <animation property="opacity" from="0" duration="500" mode="linear" />
       </storyboard>
     </text>
@@ -46,7 +46,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <control name="system_description, contenedor-systemdata" extra="true">
       <storyboard>
         <animation property="opacity" from="0" to="0" duration="1" mode="linear" />
-        <animation property="opacity" from="0" to="1" begin="300" duration="350" mode="linear" />
+        <animation property="opacity" to="1" begin="400" duration="300" mode="linear" />
+
+        <animation property="offsetY" from="0.2" begin="200" duration="350" mode="easeOut" />
       </storyboard>
     </control>
 
@@ -67,7 +69,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   </view>
 
-  <view name="detailed,grid">
+  <view name="detailed,grid" ifSubset="carousel-type:PS4">
 
     <image name="caratula-overlay" extra="true">
       <origin>0 0</origin>

@@ -5,23 +5,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <view name="system" >
 
-      <image name="logo">
-         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.png</path>
-         <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/${system.theme}-b.png</path>
-         <tile>false</tile>
-         <linearSmooth>true</linearSmooth>
-         <zIndex>0</zIndex>
-      </image>
-      <image name="logo" region="us" extra="true">
-         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.png</path>
-      </image>
-
-      <image name="logo" region="jp" extra="true">
-         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.png</path>
-      </image>
 
       <carousel name="systemcarousel">
          <type>horizontal</type>
@@ -32,88 +15,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <defaultTransition ifSubset="anim-system:NO">instant</defaultTransition>
          <defaultTransition ifSubset="anim-system:YES">fade &amp; slide</defaultTransition>
          <transitionSpeed>600</transitionSpeed>
-         <minLogoOpacity>0.7</minLogoOpacity>
-         <itemTemplate>
-            <container>
-               <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
-                  <path>{system:logo}</path>
-                  </image>
-               <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
-                  <path ifSubset="colorset:blue">${themePath}/_theme_inc/images/caratulas/default.png</path>
-                  <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/default-b.png</path>
-                  <visible>!exists({system:logo})</visible>
-               </image>
-               <text name="substitutionText" color="white" alignment="center" multiLine="true">
-                  <visible>!exists({system:logo})</visible>
-                  <text>{system:fullName}</text>
-                  <fontSize ifSubset="carousel:big">0.04</fontSize>
-                  <fontSize ifSubset="carousel:medium">0.035</fontSize>
-                  <fontSize ifSubset="carousel:small">0.03</fontSize>
-                  <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-                  <forceUppercase>false</forceUppercase>
-                  <lineSpacing>1.2</lineSpacing>
-                  <color>white</color>
-                  <size>0.625 1</size>
-                  <pos>0.19 0</pos>
-                  <padding>0.04 0 0.04 0</padding>
-               </text>
-               <storyboard ifSubset="nav-sound:ps4">
-                  <sound path="${themePath}/_theme_inc/sound-effects/ps4/enter-system.ogg"/>
-                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
-               </storyboard>
-               <storyboard ifSubset="nav-sound:ff">
-                  <sound  path="${themePath}/_theme_inc/sound-effects/ff/enter-system.ogg"/>
-                  <animation property="y" from="0.5" duration="300" mode="easeOutCubic" />
-               </storyboard>
-               <storyboard ifSubset="nav-sound:sd">
-                  <sound  path="${themePath}/_theme_inc/sound-effects/sd/enter-system.ogg"/>
-                  <animation property="y" from="0.5" duration="400" mode="easeOutCubic" />
-               </storyboard>
-               <storyboard ifSubset="nav-sound:ps5">
-                  <sound path="${themePath}/_theme_inc/sound-effects/ps5/enter-system.ogg"/>
-                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
-               </storyboard>
-             </container>
-          </itemTemplate>
+      
       </carousel>
 
-      <image name="marco-activo" extra="static">
-         <path>${themePath}/_theme_inc/images/marco-activo-iso.png</path>
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <zIndex>97</zIndex>
-      </image>
-
-      <text name="start" extra="true">
-         <text>${theme.start}</text>
-         <backgroundColor>00000069</backgroundColor>
-         <alignment>center</alignment>
-         <color>FFFFFF</color>
-         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <zIndex>97</zIndex>
-      </text>
-
-      <text name="system_name" extra="true">
-         <size>0.6 0.001</size>
-         <size ifSubset="aspect-ratio:3-2">0.57 0.001</size>
-         <alignment>left</alignment>
-         <color>FFFFFF</color>
-         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
-         <fontPath ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
-         <zIndex>99</zIndex>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-         <fontSize>0.068</fontSize>
-         <fontSize ifSubset="aspect-ratio:16-9">0.068</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|9-16|5-4">0.055</fontSize>
-         <fontSize ifSubset="aspect-ratio:3-2">0.06</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">0.042</fontSize>
-         <fontSize ifSubset="aspect-ratio:3-2" tinyScreen="true">0.046</fontSize>
-         <fontSize ifSubset="aspect-ratio:16-10">0.066</fontSize>
-         <backgroundColor>ff000000</backgroundColor>
-      </text>
+      
 
       <image name="background-art" extra="true" region="eu" />
       <image name="background-art" extra="true" ifSubset="background-system:default|fanart">
@@ -134,7 +39,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>48</zIndex>
       </image>
 
-      <image name="background-art, overlay, background-fanart">
+      <image name="background-art, overlay, background-fanart, background">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <minSize>1 1</minSize>
@@ -143,6 +48,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoFade>false</autoFade>
       </image>
 
+      
       <image name="overlay-arts" extra="true" ifSubset="overlay-arts:YES">
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
@@ -183,7 +89,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <opacity>0.4</opacity>
       </image>
 
-      <image name="logo2" extra="true">
+      <image name="logo2" extra="true" ifSubset="system-logo:YES">
          <pos>0.825 0.77</pos>
          <alignment>center</alignment>
          <maxSize>0.16 0.12</maxSize>
@@ -201,7 +107,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>100</zIndex>
       </image>
 
-      <image name="logo2" extra="true" region="eu" />
+      <image name="logo2" extra="true" region="eu"/>
       <image name="logo2" extra="true" region="us">
          <path>${themePath}/_theme_inc/images/logos/us/${system.theme}.png</path>
          <!--  svg -->
@@ -209,7 +115,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <!--  svg white -->
          <path>${themePath}/_theme_inc/images/logos/us/${system.theme}-w.svg</path>
       </image>
-      <image name="logo2" extra="true" region="jp">
+      <image name="logo2" extra="true" region="jp" >
          <path>${themePath}/_theme_inc/images/logos/jp/${system.theme}.png</path>
          <!--  svg -->
          <path>${themePath}/_theme_inc/images/logos/jp/${system.theme}.svg</path>
@@ -217,18 +123,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <path>${themePath}/_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
       </image>
 
-      <image name="system-console" extra="true">
+      <image name="system-console" extra="true" ifSubset="system-console:YES">
          <tile>false</tile>
          <pos>0.825 0.48</pos>
          <origin>0 0</origin>
          <verticalAlignment>bottom</verticalAlignment>
          <alignment>center</alignment>
          <maxSize>0.16 0.25</maxSize>
-         <path>{random:marquee}</path>
          <path>${themePath}/_theme_inc/images/consoles/${system.theme}.png</path>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
+
+        <image name="system-console" ifSubset="system-logo:NO">
+         <y>0.66</y>
+      </image>
+
+
 
       <image name="system-console" extra="true" region="eu" />
       <image name="system-console" extra="true" region="us">

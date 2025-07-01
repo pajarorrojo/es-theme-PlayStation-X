@@ -82,7 +82,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 41</text>
+			<text>Theme by pajarorrojo - Version 42</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>

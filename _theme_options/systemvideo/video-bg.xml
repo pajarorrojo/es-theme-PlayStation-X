@@ -3,6 +3,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
       <formatVersion>7</formatVersion>
+
+
+
+
+
+
       <view name="system" ifSubset="video-system:background-option">
             <video name="system_video_bg" extra="true" >
                   <pos>0 0</pos>
@@ -63,5 +69,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                   <pos ifSubset="aspect-ratio:16-9|16-10">0.163 0.635</pos>
             </text>
 
+      </view>
+
+      <view name="system" ifSubset="carousel-type:PS3">
+
+            <stackpanel name="contenedor-systemdata" extra="true">
+                  <pos>0.02 0.52</pos>
+            </stackpanel>
+
+            <text name="system_description" extra="true">
+                  <pos>0.02 0.56</pos>
+            </text>
       </view>
 </theme>

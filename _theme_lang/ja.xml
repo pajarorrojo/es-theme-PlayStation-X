@@ -115,5 +115,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.gamelistOverlayExtra>ゲームリストに重ね合わせアートを表示</theme.gamelistOverlayExtra>
 		<theme.nonumbers>バージョン番号と年号なし</theme.nonumbers>
 		<theme.highVramRequired>(高いVRAM値が必要です)</theme.highVramRequired>
+		<CarouselType>システムのカルーセルスタイル</CarouselType>
+		<theme.SystemConsole>システムビューでのコンソール画像</theme.SystemConsole>
+		<theme.SystemLogo>システムビューでのロゴ画像</theme.SystemLogo>		
 	</variables>
 </theme>

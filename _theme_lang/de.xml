@@ -113,5 +113,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamelistOverlayExtra>Überlagerte Kunstwerke in der Spieleanzeige anzeigen</theme.gamelistOverlayExtra>
     <theme.nonumbers>Keine Versions- und Jahreszahlen anzeigen</theme.nonumbers>
     <theme.highVramRequired>(erfordert hohe VRAM-Werte)</theme.highVramRequired>
+    <CarouselType>Karussellstil der Systeme</CarouselType>
+    <theme.SystemConsole>Konsolenbild in der Systemansicht</theme.SystemConsole>
+    <theme.SystemLogo>Logobild in der Systemansicht</theme.SystemLogo>    
   </variables>
 </theme>

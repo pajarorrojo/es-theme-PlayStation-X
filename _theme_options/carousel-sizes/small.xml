@@ -3,7 +3,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
    <formatVersion>7</formatVersion>
-   <view name="system">
+
+   <!-- PS4 PS4 PS4 -->
+   <view name="system"  ifSubset="carousel-type:PS4">
       <!-- CARRUSEL PEQUEÑO -->
       <carousel name="systemcarousel">
          <logoScale>1.48</logoScale>
@@ -102,6 +104,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.034</fontSize>
       </text>
 
+
+   </view>
+
+
+   <!-- PS3 PS3 PS3 -->
+   <view name="system"  ifSubset="carousel-type:PS3">
+      <!-- CARRUSEL PEQUEÑO -->
+      <carousel name="systemcarousel">
+         <logoScale>2</logoScale>
+         <logoSize>0.07</logoSize>
+         <scaledLogoSpacing>1.08</scaledLogoSpacing>
+         <maxLogoCount>28</maxLogoCount>
+      </carousel>
 
    </view>
 

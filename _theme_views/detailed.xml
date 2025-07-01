@@ -89,7 +89,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  {game:publisher} / {game:developer} </text>
             <visible>{game:publisher} != {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
-            <color>${developerColor}</color>
+            <color>ffffff</color>
             <singleLineScroll>true</singleLineScroll>
             <autoScrollDelay>0</autoScrollDelay>
          </text>
@@ -99,7 +99,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  {game:developer}</text>
             <visible>{game:publisher} == {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
-            <color>${developerColor}</color>
+            <color>ffffff</color>
             <singleLineScroll>true</singleLineScroll>
             <autoScrollDelay>0</autoScrollDelay>
          </text>
@@ -109,7 +109,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  {game:developer}</text>
             <visible>empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
-            <color>${developerColor}</color>
+            <color>ffffff</color>
             <singleLineScroll>true</singleLineScroll>
             <autoScrollDelay>0</autoScrollDelay>
          </text>
@@ -119,7 +119,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>•  {game:publisher}</text>
             <visible>empty({game:developer}) &amp;&amp; !empty({game:publisher})</visible>
-            <color>${developerColor}</color>
+            <color>ffffff</color>
             <singleLineScroll>true</singleLineScroll>
             <autoScrollDelay>0</autoScrollDelay>
          </text>
@@ -221,7 +221,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
 
-      <text name="md_description">
+
+      <text name="gamedesc-detailed" extra="true">
+         <text>{game:desc}</text>
          <color>ffffff</color>
          <pos>0.55 0.780</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.55 0.65</pos>
@@ -234,7 +236,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>0000FF00</backgroundColor>
          <forceUppercase tinyScreen="true">true</forceUppercase>
          <zIndex>52</zIndex>
+         <visible>!empty({game:desc})</visible>
          <visible ifSubset="game-description:no">false</visible>
+         <verticalAlignment>top</verticalAlignment>
+         <autoScroll>vertical</autoScroll>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
       </text>
 
       <image name="pie-barra" extra="static" ifHelpPrompts="true">
@@ -247,13 +255,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>98</zIndex>
       </image>
-
-
-      <text name="md_description">
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
-      </text>
 
       <image name="linea-inferior" extra="static">
          <path>${themePath}/_theme_inc/images/pixel-blanco.png</path>

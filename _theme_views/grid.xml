@@ -149,27 +149,30 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <origin>0 0</origin>
          <zIndex>100</zIndex>
          <singleLineScroll>true</singleLineScroll>
-         <autoScrollDelay>0</autoScrollDelay>
+         <autoScrollDelay>2000</autoScrollDelay>
          <backgroundColor>ff000000</backgroundColor>
       </text>
 
-      <text name="md_description">
+      <text name="gamedesc-grid" extra="true">
+         <text>{game:desc}</text>
          <color>ffffff</color>
          <pos>0.30 0.287</pos>
          <size>0.55 0.09</size>
          <size tinyScreen="true">0.55 0.070</size>
          <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.029</fontSize>
-         <lineSpacing>1.1</lineSpacing>
+         <lineSpacing>1.11</lineSpacing>
          <origin>0 0</origin>
          <backgroundColor>ff000000</backgroundColor>
          <forceUppercase tinyScreen="true">true</forceUppercase>
          <zIndex>90</zIndex>
+         <visible>!empty({game:desc})</visible>
          <visible ifSubset="game-description:no">false</visible>
+         <autoScroll>vertical</autoScroll>
          <autoScrollDelay>10000</autoScrollDelay>
          <autoScrollSpeed>100</autoScrollSpeed>
          <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
-
+         <verticalAlignment>top</verticalAlignment>
       </text>
 
 
@@ -183,76 +186,83 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundColor>ff000000</backgroundColor>
          <zIndex>99</zIndex>
 
+         <text name="system-name" if="${system.manufacturer} == 'Collections'">
+            <text>${theme.systemName}</text>
+            <fontSize>0.023</fontSize>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <color>000000</color>
+            <padding>0.004 0.004</padding>
+            <backgroundColor>ffffff</backgroundColor>
+         </text> 
+
+         <text name="contenedor-separador2" if="${system.manufacturer} == 'Collections'">
+            <text>•</text>
+            <alignment>center</alignment>
+            <fontSize>0.022</fontSize>
+            <color>${releaseColor}</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <visible>!empty({game:releaseyear})</visible>
+          </text>
+         
          <text name="gamedata-releaseyear">
             <fontSize>0.023</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>{game:releaseyear}</text>
+            <emptyTextDefaults>true</emptyTextDefaults>
             <visible>!empty({game:releaseyear})</visible>
             <color>${releaseColor}</color>
          </text>
 
-         <text name="gamedata-noreleaseyear">
-            <fontSize>0.023</fontSize>
+         <text name="contenedor-separador-dev">
+            <text>•</text>
+            <fontSize>0.022</fontSize>
+            <color>ffffff</color>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>------</text>
-            <visible>empty({game:releaseyear})</visible>
-            <color>${dimColor}</color>
-         </text>
+            <visible>!empty({game:releaseyear})  &amp;&amp; !empty({game:developer})  || !empty({game:releaseyear})  &amp;&amp; !empty({game:publisher})</visible>
+          </text>
 
          <text name="gamedata-publisher-developer">
             <fontSize>0.023</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  {game:publisher} / {game:developer} </text>
+            <text>{game:publisher}  –  {game:developer}</text>
             <visible>{game:publisher} != {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
-            <color>${developerColor}</color>
+            <color>ffffff</color>
+            <autoScrollDelay>3000</autoScrollDelay>
             <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
          </text>
 
          <text name="gamedata-developer">
             <fontSize>0.023</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  {game:developer}</text>
+            <text>{game:developer}</text>
             <visible>{game:publisher} == {game:developer} &amp;&amp; !empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
-            <color>${developerColor}</color>
-            <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
+            <color>ffffff</color>
          </text>
 
          <text name="gamedata-developer">
             <fontSize>0.023</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  {game:developer}</text>
+            <text>{game:developer}</text>
             <visible>empty({game:publisher}) &amp;&amp; !empty({game:developer})</visible>
-            <color>${developerColor}</color>
-            <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
+            <color>ffffff</color>
          </text>
 
          <text name="gamedata-publisher">
             <fontSize>0.023</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  {game:publisher}</text>
+            <text>{game:publisher}</text>
             <visible>empty({game:developer}) &amp;&amp; !empty({game:publisher})</visible>
-            <color>${developerColor}</color>
+            <color>ffffff</color>
             <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
          </text>
 
-         <text name="gamedata-nodeveloper">
-            <fontSize>0.023</fontSize>
-            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  -------------</text>
-            <visible>empty({game:developer}) &amp;&amp; empty({game:publisher})</visible>
-            <color>${dimColor}</color>
-         </text>
       </stackpanel>
      
       <!-- stackpanel para datos de juegos 2a linea-->
 
       <stackpanel name="contenedor-gamedata2" extra="true" ifSubset="info-bar:YES">
          <separator>0.015</separator>
-         <pos>0.3 0.250</pos>
+         <pos>0.3 0.255</pos>
          <size>0.5 0.028</size>
          <orientation>horizontal</orientation>
 			<backgroundColor>ff000000</backgroundColor>
@@ -265,43 +275,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <visible>!empty({game:stars})</visible>
          </text>
 
-         <text name="game-nostars">
-            <fontSize>0.023</fontSize>
+         <text name="contenedor-separador-genre">
+            <text>•</text>
+            <fontSize>0.022</fontSize>
+            <color>${genreColor}</color>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>------</text>
-            <visible>empty({game:stars})</visible>
-            <color>${dimColor}</color>
-         </text>
+            <visible>!empty({game:stars}) &amp;&amp; !empty({game:genre})</visible>
+          </text>
 
          <text name="gamedata-genre">
             <fontSize>0.023</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  {game:genre}</text>
+            <text>{game:genre}</text>
             <visible>!empty({game:genre})</visible>
             <color>${genreColor}</color>
+            <autoScrollDelay>3000</autoScrollDelay>
             <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
-         </text>
-
-         <text name="gamedata-nogenre">
-            <fontSize>0.023</fontSize>
-            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <text>•  -------------</text>
-            <visible>empty({game:genre})</visible>
-            <color>${dimColor}</color>
          </text>
       </stackpanel>
 
       <!-- stackpanel para iconos de juegos -->
       <stackpanel name="contenedor-iconos" extra="true" ifSubset="info-bar:YES" >
          <separator>0.015</separator>
-         <pos>0.3 0.4</pos>
+         <x>0.3</x>
+         <y>empty({game:desc}) ? 0.3 : 0.4</y>
          <size>0.7 0.03</size>
          <orientation>horizontal</orientation>
 			<backgroundColor>ff000000</backgroundColor>
          <zIndex>99</zIndex>
-
-
           <image name="flag-region">
             <path>${themePath}/_theme_inc/images/flags/${theme.region-flag}.png</path>
             <maxSize>1</maxSize>
@@ -348,8 +349,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>{game:lang}.upper()</text>
             <color>${releaseColor}</color>
-            <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
             <y>0.02</y>
             <visible>contains(lower({game:lang}), ',') &amp;&amp; !empty({game:lang}) &amp;&amp; {system:showFlags}  !=0</visible>
             <visible if="${system.manufacturer} == 'Collections'">contains(lower({game:lang}), ',') &amp;&amp; !empty({game:lang})</visible>
@@ -434,6 +433,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <color>${grid.starFill}e6</color>
          </image>
 
+         <text name="trackball-game">
+            <text>trackball compatible</text>
+            <fontSize>0.024</fontSize>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <color>${psx-theme-yellow}</color>
+            <padding>0.008 0.008</padding>
+            <visible>{game:trackballGame}</visible>
+         </text>
+
+         <text name="spinner-game">
+            <text>spinner compatible</text>
+            <fontSize>0.024</fontSize>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <color>${psx-theme-yellow}</color>
+            <padding>0.008 0.008</padding>
+            <visible>{game:spinnerGame}</visible>
+         </text>
+
          <text name="contenedor-separador-kb">
             <text>•</text>
             <fontSize>0.022</fontSize>
@@ -465,43 +482,22 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           </text>
 
 
-          <text name="multidisc-game" ifSubset="info-bar:YES" extra="true">
+          <text name="multidisc-game">
             <text>${theme.multidisc}</text>
             <fontSize>0.024</fontSize>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <color>${psx-theme-yellow}</color>
             <padding>0.008 0.008</padding>
             <backgroundColor>00000066</backgroundColor>
-            <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
             <visible>${theme.game-hasMultidisc}</visible>            
             <storyboard>
                <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
             </storyboard>
          </text>
-         
 
-         <text name="contenedor-separador2" if="${system.manufacturer} == 'Collections'">
-            <text>•</text>
-            <alignment>center</alignment>
-            <fontSize>0.022</fontSize>
-            <color>ffffff</color>
-            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-          </text>
-
-         <text name="system-name" if="${system.manufacturer} == 'Collections'">
-            <text>{game:systemName}</text>
-            <fontSize>0.024</fontSize>
-            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <color>ffffff</color>
-            <padding>0.008 0.008</padding>
-            <backgroundColor>00000066</backgroundColor>
-            <singleLineScroll>true</singleLineScroll>
-            <autoScrollDelay>0</autoScrollDelay>
-         </text> 
        </stackpanel>
 
-      <text name="md_description, gamename-grid, system-name">
+      <text name="gamedesc-grid, gamename-grid, system-name">
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -533,7 +529,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.9 0.08</size>
       </text>
       
-      <text name="md_description, gamename-grid">
+      <text name="gamedesc-grid, gamename-grid">
          <x>0.025</x>
       </text>
 
@@ -564,7 +560,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <y>0.285</y>
+         <y>0.290</y>
       </stackpanel>
 
       <stackpanel name="contenedor-iconos">
@@ -574,7 +570,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </view>
 
    <view name="grid"  ifSubset="info-bar:NO">
-      <text name="md_description">
+      <text name="gamedesc-grid">
          <y>0.225</y>
       </text>
    </view>

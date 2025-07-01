@@ -115,5 +115,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamelistOverlayExtra>Mostrar artes sobrepostos na lista de xogos</theme.gamelistOverlayExtra>
     <theme.nonumbers>Sen números de versión e ano</theme.nonumbers>
     <theme.highVramRequired>(requiere valores elevados de VRAM)</theme.highVramRequired>
+    <CarouselType>Estilo de carrusel dos sistemas</CarouselType>
+    <theme.SystemConsole>Imaxe da consola na vista de sistemas</theme.SystemConsole>
+    <theme.SystemLogo>Imaxe do logotipo na vista de sistemas</theme.SystemLogo>    
   </variables>
 </theme>

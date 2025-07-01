@@ -1,0 +1,140 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="system" >
+<image name="logo">
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.svg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.png</path>
+
+         <tile>false</tile>
+         <linearSmooth>true</linearSmooth>
+         <zIndex>0</zIndex>
+      </image>
+      <image name="logo" region="us" extra="true">
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.svg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.png</path>
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-us.svg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-us.png</path>
+      </image>
+
+      <image name="logo" region="jp" extra="true">
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.png</path>
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-jp.svg</path>
+         <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-jp.png</path>
+</image>
+
+      <carousel name="systemcarousel">
+         <minLogoOpacity>1</minLogoOpacity>
+         <pos>-0.545 0.15</pos>
+         <pos ifSubset="aspect-ratio:16-9">-0.545 0.15</pos>
+         <pos ifSubset="aspect-ratio:16-10">-0.622 0.15</pos>
+         <pos ifSubset="aspect-ratio:4-3">-0.881 0.15</pos>
+         <pos ifSubset="aspect-ratio:5-4">-0.945 0.15</pos>
+         <pos ifSubset="aspect-ratio:3-2">-0.682 0.151</pos>
+         <pos ifSubset="aspect-ratio:5-3">-0.605 0.15</pos>
+      
+      
+         <size>1.56 1</size>
+         <size ifSubset="aspect-ratio:16-9">1.56 1</size>
+         <size ifSubset="aspect-ratio:16-10">1.73 1</size>
+         <size ifSubset="aspect-ratio:4-3">2.08 1</size>
+         <size ifSubset="aspect-ratio:5-4">2.22 1</size>
+         <size ifSubset="aspect-ratio:3-2">1.86 1</size>
+         <size ifSubset="aspect-ratio:5-3">1.69 1</size>
+         <itemTemplate>
+            <container>
+               <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
+                  <path>{system:logo}</path>
+                  <saturation>0</saturation>
+               </image>
+
+               <text name="substitutionText" color="white" alignment="center" multiLine="true">
+                  <visible>!exists({system:logo})</visible>
+                  <text>{system:fullName}</text>
+                  <fontSize ifSubset="carousel:big">0.04</fontSize>
+                  <fontSize ifSubset="carousel:medium">0.035</fontSize>
+                  <fontSize ifSubset="carousel:small">0.03</fontSize>
+                  <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+                  <forceUppercase>false</forceUppercase>
+                  <lineSpacing>1.2</lineSpacing>
+                  <color>white</color>
+                  <size>0.625 1</size>
+                  <pos>0.19 0</pos>
+                  <padding>0.04 0 0.04 0</padding>
+               </text>
+
+               <storyboard ifSubset="nav-sound:ps4">
+                  <sound path="${themePath}/_theme_inc/sound-effects/ps4/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:ff">
+                  <sound  path="${themePath}/_theme_inc/sound-effects/ff/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="300" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:sd">
+                  <sound  path="${themePath}/_theme_inc/sound-effects/sd/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="400" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:ps5">
+                  <sound path="${themePath}/_theme_inc/sound-effects/ps5/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
+               </storyboard>
+             </container>
+          </itemTemplate>
+      </carousel>
+
+      <text name="system_name" extra="true">
+         <text>{system:fullName}.proper()</text>
+         <pos>0.02 0.45</pos>
+         <size>0.6 0.001</size>
+         <alignment>left</alignment>
+         <color>FFFFFF</color>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <zIndex>99</zIndex>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <fontSize>0.068</fontSize>
+         <fontSize ifSubset="aspect-ratio:16-9">0.068</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|9-16|5-4">0.055</fontSize>
+         <fontSize ifSubset="aspect-ratio:3-2">0.06</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|9-16|5-4" tinyScreen="true">0.042</fontSize>
+         <fontSize ifSubset="aspect-ratio:3-2" tinyScreen="true">0.046</fontSize>
+         <fontSize ifSubset="aspect-ratio:16-10">0.066</fontSize>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+      <text name="fullName" extra="true">
+         <pos>0.165 0.135</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.135</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.066 0.135</pos>
+         <size>0.138 0.245</size>
+         <size ifSubset="aspect-ratio:16-9">0.138 0.245</size>
+         <size ifSubset="aspect-ratio:4-3">0.187 0.245</size>
+         <size ifSubset="aspect-ratio:3-2">0.166 0.245</size>
+         <size ifSubset="aspect-ratio:16-10">0.156 0.245</size>
+         <size ifSubset="aspect-ratio:5-3">0.149 0.245</size>
+         <size ifSubset="aspect-ratio:5-4">0.2 0.245</size>
+
+         <fontSize>0.029</fontSize>
+      </text>
+
+      <text name="manufacturerName" extra="static">
+         <pos>0.165 0.17</pos>
+         <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.17</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.066 0.17</pos>
+         <size>0.139 0.1</size>
+         <size ifSubset="aspect-ratio:16-9">0.139 0.1</size>
+         <size ifSubset="aspect-ratio:4-3|5-4">0.187 0.1</size>
+         <size ifSubset="aspect-ratio:3-2">0.166 0.1</size>
+         <size ifSubset="aspect-ratio:16-10">0.156 0.1</size>
+         <size ifSubset="aspect-ratio:5-3">0.149 0.1</size>
+
+         <fontSize>0.034</fontSize>
+      </text>
+
+   </view>
+
+</theme>

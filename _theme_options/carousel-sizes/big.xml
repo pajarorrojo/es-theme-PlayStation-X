@@ -3,14 +3,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 -->
 <theme>
    <formatVersion>7</formatVersion>
-   <view name="system">
-      <!-- CARRUSEL GRANDE -->
+    <!-- PS4 PS4 PS4 -->
+    <view name="system"  ifSubset="carousel-type:PS4">     
       <carousel name="systemcarousel">
          <logoSize>0.249</logoSize>
          <logoScale>1.49</logoScale>
          <scaledLogoSpacing>1.08</scaledLogoSpacing>
          <maxLogoCount>11</maxLogoCount>
-
 
          <pos>-0.523 0.111</pos>
          <pos ifSubset="aspect-ratio:16-9">-0.515 0.111</pos>
@@ -20,9 +19,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:3-2">-0.646 0.111</pos>
          <pos ifSubset="aspect-ratio:5-3">-0.57 0.111</pos>
 
-
-
-        
          <size>1.57 1</size>
          <size ifSubset="aspect-ratio:16-9">1.57 1</size>
          <size ifSubset="aspect-ratio:16-10">1.73 1</size>
@@ -30,14 +26,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:5-4">2.265 1</size>
          <size ifSubset="aspect-ratio:3-2">1.87 1</size>
          <size ifSubset="aspect-ratio:5-3">1.69 1</size>
-
-
-
-
-
-      
-
-
 
       </carousel>
 
@@ -114,6 +102,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          <fontSize>0.040</fontSize>
       </text>
+
+
+   </view>
+
+
+    <!-- PS3 PS3 PS3 -->
+    <view name="system"  ifSubset="carousel-type:PS3">
+      <carousel name="systemcarousel">
+         <logoScale>1.8</logoScale>
+         <logoSize>0.11</logoSize>
+         <scaledLogoSpacing>1.08</scaledLogoSpacing>
+         <maxLogoCount>18</maxLogoCount>
+      </carousel>
 
 
    </view>

@@ -1,3 +1,26 @@
+Version 42 (July 1, 2025)
+
+- New: New PS3-style system carousel option (thanks for the icon collection)
+- New: New theme options to hide the console and the logo in the systems view
+- Change: The system name has been placed on the first info line along with the year in the collections
+- Change: Horizontal scroll issues have been fixed
+- Change: The publisher and developer text color has been changed from green to white
+- Change: The placeholder "-----" has been removed for missing game data (year, developer, genre, etc.)
+- Change: The animation of the elements in the systems view has been slightly modified
+- Change: The position of the game description in the different variants of the single view has been slightly adjusted
+- Change: The position of the game icons or info is adjusted when the game description is empty to avoid layout gaps
+- Change: The vertical position of the PS4-style gamelist thumbnail is adjusted if the game marquee is missing
+- Change: Updated Russian translation (Thanks to Vortex)
+- Fix: Some adjustments in the code that manages the overlay art display conditions in the game lists
+- Added: Missing media data and/or information has been added for the Lindbergh, Dicex, Perfect Dark, Starship, 3DSen, P2000T, Vircon32, CommanderX16, and Oric systems
+- Added: Overlay art characters for Devil May Cry, Toy Story, Virtua Fighter, Aladdin, Ratchet, Onimusha, Pinocchio, Alisia Dragoon, The Goonies, Darkstalkers, and Soulcalibur
+- Added: Mappy preset avatars
+
+
+
+
+
+-----------------------
 Version 41 (January 2, 2025)
 
 - New: New overlaid images in the systems view. Optional via theme configuration. Only available for some systems (WIP).
@@ -26,9 +49,6 @@ Version 41 (January 2, 2025)
 - Added: A keyboard-to-pad icon has been added to the game info when the game has a pad-to-key configuration.
 - Added: A kidgame icon has been added to the game info when the game is marked as a kid game.
 - Added: Missed media data and/or information has been added for the Recordings, SEGA Chihiro, SEGA System SP, PS4, Trackball collection, Spinner collection, Hyper Neo-Geo 64, Sega ST-V and Nokia N-Gage in the systems view (thanks to Oldgamers for the N-Gage media).
-
-
-
 
 
 
@@ -159,6 +179,7 @@ Version 38 (October 26, 2023)
 
 
 
+
 -----------------------
 Version 37 (June 8, 2023)
 
@@ -189,6 +210,7 @@ Version 37 (June 8, 2023)
 - Add: Added a new set of button help icons called "Xbox."
 - Updated and/or translated descriptions in all languages for the Pc Engine CD, Atari Jaguar, Vectrex, Nintendo Wii, Nintendo Wii U and SEGA Saturn systems.
 - Added: Media data and/or information for the Pyxel, Othello Multivision, Zelda Classic, and Commander Genius systems.
+
 
 
 
@@ -258,6 +280,8 @@ Version 36 (March 14, 2023)
 - Added: Medias data and / or infos for LowRes NX, MSU-MD, PlayStation Vita, Triforce, Sam Coupe, Flatpak, ikemen, wasm-4 and Nintendo WiiU systems
 
 
+
+
 -----------------------
 Version 35.1 (October 16, 2022)
 
@@ -280,6 +304,7 @@ Version 35.1 (October 16, 2022)
 
 
 
+
 -----------------------
 Version 35 (September 21, 2022)
 
@@ -295,6 +320,7 @@ Version 35 (September 21, 2022)
 -  New: Now you can choose your Netplay ID as displayed username in theme option (requires Batocera 35 or higher and Netplay enabled)
 - Remove: Some text glows for weak devices for a better performance
 - Added: Medias data and / or infos for Library, Od-commander, PDP-1, Atari 8 Bits, Lightguns, Vtech Laser 310, Video computer 4000 and Game Park 32 systems
+
 
 
 -----------------------
@@ -329,6 +355,8 @@ Version 34 (May 25, 2022)
 - Added: Strider, Nanaki (FFVII), Rastan, Willow (Arcade), Mazinger Z, Robocop (Arcade),Rolling Thunder, Super Pang, Guy (Final Fight) and Q-Bert preset avatars 
 
 
+
+
 -----------------------
 Version 33.2 (March 16, 2022)
 
@@ -342,6 +370,8 @@ Version 33.2 (March 16, 2022)
 - Changed the yellow plus logo for a new svg logo with four letters "BATO" replacing the official playstation icons
 
 
+
+
 -----------------------
 Version 33.1 (March 2, 2022)
 
@@ -352,6 +382,7 @@ Version 33.1 (March 2, 2022)
 - UX/UI: New autolayouts in grid view and thumbnail/boxart mode for some systems 
 - Options Changes: Set retrobat option as default in "Favorite Frontend" subset if Retrobat software detected
 - Added: Kingdom Hearts (Sora), Pole Position, Dragon's Lair and Super Hang-On (bike) preset avatars
+
 
 
 
@@ -393,6 +424,7 @@ Version 33 (February 2, 2022)
 
 
 
+
 -----------------------
 Version 32.2 (November 1, 2021)
 
@@ -413,11 +445,15 @@ Version 32.2 (November 1, 2021)
 - Added: Claptrap preset avatar
 
 
+
+
 ------------------------
 Version 32.1 (hotfix) (October 4, 2021)
 
 
 - fixed an issue that showed the option "splash" in Theme configuration settings -> Gamelist view style
+
+
 
 
 ------------------------
@@ -433,6 +469,8 @@ Version 32 (October 3, 2021)
 - Minor changes, improves and fixes in graphics, languages and UX in general
 
 
+
+
 ------------------------
 Version 31.1 (July 3, 2021)
 
@@ -445,6 +483,9 @@ Version 31.1 (July 3, 2021)
 - Added: Lara Croft, PlayStation logo and Bubble Bobble preset avatars
 - Minor changes, improves and fixes in graphics and UX in general
 - Note: For a better user experience with the new gamelist layout, is recommended to set instant transition style in the User Interface global settings
+
+
+
 
 ------------------------
 Version 31 (June 19, 2021)
@@ -467,6 +508,8 @@ Version 31 (June 19, 2021)
 - Note: Some new features only are supported in Batocera 31
 
 
+
+
 ------------------------
 Version 30.5 (April 19, 2021)
 
@@ -475,12 +518,17 @@ Version 30.5 (April 19, 2021)
 - Added: data and media for Devilution X, Cannonball, Mrboom, Prboom and Sdlpop systems
 - Fix: controller activity icon sizes
 
+
+
+
 ------------------------
 Version 30.4.2 (April 12, 2021)
 
 - Added: xml data to Commodore Plus/4 system
 - Fixed: Gamecube Media names
 - Minor: changes in some systems description (ES)
+
+
 
 
 ------------------------
@@ -493,6 +541,9 @@ Version 30.4.1 (April 11, 2021)
 - Minor: changes in some storyboards (animations)
 - Minor: changes in french language (thx to soaresden)
 - Graphics changes and performance in some carousel logos
+
+
+
 
 ------------------------
 Version 30.4 (April 6, 2021)
@@ -511,6 +562,9 @@ Version 30.4 (April 6, 2021)
 - Minor changes in menu colors (blue) to improve contrast in selected items
 - Minor changes in some system descriptions (ES)
 
+
+
+
 ------------------------
 Version 30.3 (March 30, 2021)
 
@@ -525,6 +579,8 @@ Version 30.3 (March 30, 2021)
 - Fixed Gamecube system data
 
 
+
+
 -----------------------
 Version 30.2 (March 23, 2021)
 
@@ -532,11 +588,17 @@ Version 30.2 (March 23, 2021)
 - Fixed an issue where snapshot slots could not be identified.
 - Fixed a problem with the 12h clock format in the new beta 31
 
+
+
+
 -----------------------
 Version 30.1 (March 22, 2021)
 
 - Added a new grid gamelist view (looks better with no scraped image mixes)
 - Added thumbnails and data to “arcade systems” in systems view.
+
+
+
 
 -----------------------
 Version 30 (March 8, 2021)
@@ -554,6 +616,9 @@ Version 30 (March 8, 2021)
 - PSX iconset to SVG 
 - Change Version number according to batocera compatible version
 
+
+
+
 -------------------------
 Version 2.1 (December 13, 2020)
 
@@ -565,6 +630,9 @@ Version 2.1 (December 13, 2020)
 - Console images in system menu and game list
 - Some minor graphics changes have been made to improve the user experience
 
+
+
+
 --------------------------
 Version 2.0 (November 12, 2020)
 
@@ -575,6 +643,9 @@ Version 2.0 (November 12, 2020)
 - Added a scroll sound on systems selection  (enable or disable in theme config).
 - Added a default animated background for systems when no background image available.
 - Added a defatult logo (cover) for system when no image available.
+
+
+
 
 ---------------------------
 Version 1 (Octoberr 31, 2020)

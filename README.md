@@ -1,24 +1,31 @@
+# How to install
+Playstation-X theme is integrated into the official download manager of Batocera-EmulationStation, and you can download it from your favorite frontend (Batocera, Retrobat, EmuElec, etc...). To do so, go to 
+"MAIN MENU -> UPDATES & DOWNLOADS -> THEMES -> Playstation-X". 
+It's that simple.
+
+## Manual Installation
+Download the Zip file from GitHub repository, unzip and copy its contents into the "/userdata/themes/" or "/share/themes/" folder. 
+
+# PlayStation-X Retrogaming theme
+
+
 ![](https://es-theme-playstation-x.tocapixels.com/41/00.jpg)
 
 |                                    |                                    |
 | :--------------------------------: | :--------------------------------: |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/02.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/03.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/01.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/02.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/12.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/14.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/18.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/03.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |
 
-
-# PlayStation-X Retrogaming theme
 A theme inspired by the PlayStation 3/4 interface, featuring custom avatars, usernames, retroachievements compatibility and much more for Batocera, RetroBat, and EmuElec frontends.
-
-Installation is simple – unzip the file and copy its contents into the "/userdata/themes/" or "/share/themes/" folder. Additionally, you can install it directly through the themes downloader in your favorite frontend.
 
 We hope you enjoy it! Any suggestions are fully welcomed.
 
@@ -153,9 +160,10 @@ Thanks and credits:
 - CadmiumRED for helping with some test and medias https://github.com/CadmiumRED/
 - renetrox87 for inspiration with the overlayed arts https://github.com/Renetrox/
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
+- Zoidburg13 For its collection of icons, some of which are used in the PS3 carousel https://github.com/Zoidburg13
 - To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community.
 
-Some media files like system backgrounds, consoles or logos have been selected from the default Carbon theme by @f.caruso
+Some media files like system backgrounds, consoles or logos have been selected from the default Carbon theme
 
 Youtube Channel:
 https://www.youtube.com/@pajarorrojo/featured

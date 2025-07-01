@@ -108,6 +108,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="zelda" displayName="Link (Zelda NES)" />
 		<include name="zelda-ocarina" displayName="Link (Zelda Ocarina)" />
 		<include name="mario" displayName="Mario Bros." />
+		<include name="mappy" displayName="Mappy" />
 		<include name="mazinger" displayName="Mazinger Z" />
 		<include name="megaman" displayName="Mega-Man" />
 		<include name="metal-gear" displayName="Metal Gear" />
@@ -189,6 +190,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="clean" displayName="${theme.clean}">./_theme_views/top-info-clean.xml</include>
 	</subset>
 
+	<!-- ESTILO DE CARRUSEL-->
+	<subset name="carousel-type" displayName="${CarouselType}">
+		<include name="PS4" displayName="PS4">./_theme_options/systemcarousels/carousel-ps4.xml</include>
+		<include name="PS3" displayName="PS3">./_theme_options/systemcarousels/carousel-ps3.xml</include>
+	</subset>
+
+	<!--TAMAÑO CARRUSEL-->
+	<subset name="carousel" displayName="${CarouselImageSize}">
+		<include name="big" displayName="${big}" tinyScreen="true">./_theme_options/carousel-sizes/big.xml</include>
+		<include name="medium" displayName="${medium}">./_theme_options/carousel-sizes/medium.xml</include>
+		<include name="big" displayName="${big}" tinyScreen="false">./_theme_options/carousel-sizes/big.xml</include>
+		<include name="small" displayName="${small}">./_theme_options/carousel-sizes/small.xml</include>
+	</subset>
+
 	<!--SETS DE ICONOS-->
 	<subset name="iconset" displayName="${iconset}">
 		<include name="psx" displayName="PSX">./_theme_options/iconsets/psx.xml</include>
@@ -221,13 +236,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="black" displayName="${black}">./_theme_options/colorsets/secondary_colors/black.xml</include>
 	</subset>
 
-	<!--TAMAÑO CARRUSEL-->
-	<subset name="carousel" displayName="${CarouselImageSize}">
-		<include name="big" displayName="${big}" tinyScreen="true">./_theme_options/carousel-sizes/big.xml</include>
-		<include name="medium" displayName="${medium}">./_theme_options/carousel-sizes/medium.xml</include>
-		<include name="big" displayName="${big}" tinyScreen="false">./_theme_options/carousel-sizes/big.xml</include>
-		<include name="small" displayName="${small}">./_theme_options/carousel-sizes/small.xml</include>
-	</subset>
+
 
 
 	<!--ARTE SUPERPUESTO-->
@@ -243,6 +252,18 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="default" displayName="${default}" />
 		<include name="fanart" displayName="${randomFanart}" />
 		<include name="none" displayName="${none}" />
+	</subset>
+
+	<!--IMAGEN CONSOLA-->
+	<subset name="system-console" displayName="${theme.SystemConsole}">
+		<include name="YES" displayName="${yes}" />
+		<include name="NO" displayName="${no}" />
+	</subset>
+
+	<!--IMAGEN LOGO-->
+	<subset name="system-logo" displayName="${theme.SystemLogo}">
+		<include name="YES" displayName="${yes}" />
+		<include name="NO" displayName="${no}" />
 	</subset>
 
 	<!--OPCIONES DE VIDEO SISTEMAS-->
@@ -266,7 +287,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="disable-audio" displayName="${no}" />
 		<include name="enable-audio" displayName="${yes}" />
 	</subset>
-
 
 	<!--SONIDOS DE NAVEGACION-->
 	<subset name="nav-sound" displayName="${theme.nav-sounds}">
@@ -595,7 +615,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<glowSize ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
 			<glowOffset ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
-		
+
 	</view>
 
 
@@ -614,6 +634,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<include>./_theme_views/grid-layouts/${system.theme}.xml</include>
 	<include>./_theme_views/test-media.xml</include>
 	<include>./_theme_inc/infos/${system.theme}.xml</include>
+	<include>./videomarks.xml</include>
 
 
 <!-- VARIABLES DE LAYOUT -->
@@ -633,6 +654,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<theme.region-flag>{game:region}</theme.region-flag>
 		<theme.game-hasMultidisc>contains(lower({game:rom}), 'disk 1') || contains(lower({game:rom}), 'disk 2') || contains(lower({game:rom}), 'disk 3') || contains(lower({game:rom}), 'disk 4') || contains(lower({game:rom}), 'disk 5') || contains(lower({game:rom}), 'disk 6') || contains(lower({game:rom}), 'disk1') || contains(lower({game:rom}), 'disk2') || contains(lower({game:rom}), 'disk3') || contains(lower({game:rom}), 'disk4') || contains(lower({game:rom}), 'disk5') || contains(lower({game:rom}), 'disc a') || contains(lower({game:rom}), 'disc b') || contains(lower({game:rom}), 'disc 1') || contains(lower({game:rom}), 'disc-1') || contains(lower({game:rom}), 'disc1') || contains(lower({game:rom}), 'disc 2') || contains(lower({game:rom}), 'disc-2') || contains(lower({game:rom}), 'disc2') || contains(lower({game:rom}), 'disc 3') || contains(lower({game:rom}), 'disc-3') || contains(lower({game:rom}), 'disc3') || contains(lower({game:rom}), 'disc 4') || contains(lower({game:rom}), 'disc-4') || contains(lower({game:rom}), 'disc4') || contains(lower({game:rom}), 'disc 5') || contains(lower({game:rom}), 'disc-5') || contains(lower({game:rom}), 'disc5') || contains(lower({game:rom}), 'disc 6') || contains(lower({game:rom}), 'disc-6') || contains(lower({game:rom}), 'disc6') || contains(lower({game:rom}), 'disc 7') || contains(lower({game:rom}), 'disc-7') || contains(lower({game:rom}), 'disc7') || contains(lower({game:rom}), 'disc 8') || contains(lower({game:rom}), 'disc-8') || contains(lower({game:rom}), 'disc8') || contains(lower({game:rom}), 'disc 9') || contains(lower({game:rom}), 'disc-9') || contains(lower({game:rom}), 'disc9')  || contains(lower({game:rom}), 'parte 1') || contains(lower({game:rom}), 'parte 2') || contains(lower({game:rom}), 'parte 3')  || contains(lower({game:rom}), 'parte 4') || contains(lower({game:rom}), 'part-1') || contains(lower({game:rom}), 'part-2') || contains(lower({game:rom}), 'part-3') || contains(lower({game:rom}), 'part-4') || contains(lower({game:rom}), 'disc_1') || contains(lower({game:rom}), 'disc_2') || contains(lower({game:rom}), 'disc_3') || contains(lower({game:rom}), 'disc_')</theme.game-hasMultidisc>
 		<theme.overlayArtsPath>_theme_inc/images/overlay-arts</theme.overlayArtsPath>
+		<theme.systemName>contains(lower({game:systemName}), 'super nintendo') ? 'Super Nintendo' : {game:systemName} || contains(lower({game:systemName}), 'nintendo entertainment') ? 'Nintendo NES' : {game:systemName} || contains(lower({game:systemName}), 'sega cd') ? 'Mega-CD' : {game:systemName} || {game:systemName} == 'Mame' ? 'M.A.M.E.' : {game:systemName} || contains(lower({game:systemName}), 'gx4000') ? 'Amstrad GX4000 ' : {game:systemName}</theme.systemName>
 	</variables>
 
 </theme>

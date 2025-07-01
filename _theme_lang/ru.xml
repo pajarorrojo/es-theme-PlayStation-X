@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
   <formatVersion>7</formatVersion>
   
   <variables lang="ru">
-    <theme.welcome>Добро пожаловать в Playstation X для</theme.welcome>
+<theme.welcome>Добро пожаловать в Playstation X для</theme.welcome>
     <theme.start>Пуск</theme.start>
     <theme.mostplayed>Самая запускаемая:</theme.mostplayed>
     <theme.items>Элементы:</theme.items>
@@ -21,7 +21,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <purple>Фиолетовый</purple>
     <orange>Оранжевый</orange>
     <pink>Розовый</pink>cus
-    <default>Стандартный</default>
+    <default>По умолчанию</default>
     <big>Большой</big>
     <medium>Средний</medium>
     <small>Маленький</small>
@@ -52,7 +52,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.systemConsole>Показывать логотип и консоли в списке систем</theme.systemConsole>
     <randomGame>Случайная игра</randomGame>
     <theme.colorset>Основной цвет темы</theme.colorset>
-    <theme.secondaryColorset>Дополнительный цвет</theme.secondaryColorset>
+    <theme.secondaryColorset>Дополнительный цвет темы</theme.secondaryColorset>
     <theme.gridvideo>Отображать видеофрагмент игры</theme.gridvideo>
     <theme.videoSnapAudio>Включить звук в видеофрагментах</theme.videoSnapAudio>
     <theme.animatedList>Анимированные переходы в списке игр</theme.animatedList>
@@ -79,10 +79,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.forced>Принудительно</theme.forced>
     <theme.gameDescription>Показать описания игр</theme.gameDescription>
     <carouselViewName>Горизонтальная карусель</carouselViewName>
+    <ps4StylelViewName>В стиле PS4</ps4StylelViewName>
     <classiclViewName>Классическая карусель</classiclViewName>
     <theme.mainImage>Главное изображение</theme.mainImage>
     <theme.gridImage>Изображение сетки</theme.gridImage>
-    <fullGridlViewName>Полная сетка</fullGridlViewName>
+    <fullGridlViewName>Полноразмерная сетка</fullGridlViewName>
     <theme.gamesplash-type>Экран загрузки игры</theme.gamesplash-type>
     <image-full-size>Изображение на весь экран</image-full-size>
     <theme.nav-sounds>Звуки навигации</theme.nav-sounds>
@@ -103,17 +104,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.hardwareType if="${system.hardwareType} == 'portable'">Портативная консоль</theme.hardwareType>
     <theme.hardwareType if="${system.hardwareType} == 'system'">Cистема</theme.hardwareType>
     <theme.hardwareType if="${system.hardwareType} == 'auto collection'">Автоматическая коллекция</theme.hardwareType>
-    <theme.thumbnail-type>Тип игровой коробки (приоритет)</theme.thumbnail-type>
+    <theme.hardwareType if="${system.hardwareType} == 'port'">Порт</theme.hardwareType>
+    <theme.thumbnail-type>Тип коробки игры (приоритет)</theme.thumbnail-type>
     <theme.showlogo>Показать логотип игры</theme.showlogo>
-    <theme.topinfoarea>Область верхней информации</theme.topinfoarea>
-    <theme.clean>Чистый/минимальный</theme.clean>
+    <theme.topinfoarea>Вид верхней инфо-области</theme.topinfoarea>
+    <theme.clean>Чистая/минимальная</theme.clean>
     <theme.region>Регион</theme.region>
     <theme.europe>Европа</theme.europe>
     <theme.usa>США</theme.usa>
     <theme.japan>Япония</theme.japan>
-    <theme.overlayExtra>Показать наложенные изображения в представлении систем</theme.overlayExtra>
-    <theme.gamelistOverlayExtra>Показать наложенные изображения в списке игр</theme.gamelistOverlayExtra>
-    <theme.nonumbers>Без номеров версии и года</theme.nonumbers>
-    <theme.highVramRequired>(требуются высокие значения VRAM)</theme.highVramRequired>
+    <theme.overlayExtra>Показать картинки-наложения в списке систем</theme.overlayExtra>
+    <theme.gamelistOverlayExtra>Показать картинки-наложения в списке игр</theme.gamelistOverlayExtra>
+    <theme.nonumbers>Без номера версии и года</theme.nonumbers>
+    <theme.highVramRequired>(требуется много VRAM)</theme.highVramRequired>
+    <CarouselType>Стиль карусели систем</CarouselType>
+    <theme.SystemConsole>Изображение консоли в виде систем</theme.SystemConsole>
+    <theme.SystemLogo>Изображение логотипа в виде систем</theme.SystemLogo>    
   </variables>
 </theme>

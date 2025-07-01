@@ -115,5 +115,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamelistOverlayExtra>Wyświetl sztukę nakładającą się na listę gier</theme.gamelistOverlayExtra>
     <theme.nonumbers>Brak numerów wersji i roku</theme.nonumbers>
     <theme.highVramRequired>(wymaga wysokich wartości VRAM)</theme.highVramRequired>
+    <CarouselType>Styl karuzeli systemów</CarouselType>
+    <theme.SystemConsole>Obraz konsoli w widoku systemów</theme.SystemConsole>
+    <theme.SystemLogo>Obraz logo w widoku systemów</theme.SystemLogo>
   </variables>
 </theme>

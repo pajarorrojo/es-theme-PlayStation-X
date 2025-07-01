@@ -10,7 +10,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <visible>false</visible>      
       </image>
 
-      <text name="gamename-grid">
+      <text name="gamename-grid, gamedesc-grid">
          <visible>false</visible>
       </text>
 
@@ -160,7 +160,9 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:16-10">0.178 0.05</size>
          <size ifSubset="aspect-ratio:3-2">0.192 0.05</size>
          <size ifSubset="aspect-ratio:5-3">0.173 0.05</size>
+         <visible>{system:total} &gt; 0 ? 1 : 0</visible>
       </text>
+
 
       <text name="gamename-ps4Style" extra="true">
          <text>{game:name}</text>
@@ -206,10 +208,10 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <path ifSubset="thumbnail-type:boxback">firstfile({game:boxback}, {game:thumbnail})</path>
          <path ifSubset="thumbnail-type:cartridge">firstfile({game:cartridge}, {game:thumbnail})</path>
          <tile>false</tile>
-         <pos>0.91 0.63</pos>
+         <x>0.91</x>
+         <y>empty({game:marquee}) ? 0.75 : 0.63</y>
          <maxSize>0.125 0.26</maxSize>
-         <pos ifSubset="showlogo:disabled">0.91 0.73</pos>
-         <maxSize ifSubset="showlogo:disabled">0.14 0.29</maxSize>
+         <y ifSubset="showlogo:disabled">0.75</y>
          <origin>0.5 0.5</origin>
          <verticalAlignment>center</verticalAlignment>
          <alignment>center</alignment>
@@ -217,33 +219,50 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>  
       
-      <text name="md_description">
+
+      <text name="gamedesc-ps4Style-view" extra="true">
+         <text>{game:desc}</text>
          <color>ffffff</color>
-         <pos>0.30 0.586</pos>
+         <pos>0.30 0.621</pos>
          <size>0.42 0.156</size>
          <size tinyScreen="true">0.41 0.139</size>
-         <lineSpacing>1.1</lineSpacing>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <lineSpacing>1.11</lineSpacing>
+         <origin>0 0</origin>
          <backgroundColor>ff000000</backgroundColor>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
+         <zIndex>90</zIndex>
+         <visible>!empty({game:desc})</visible>
+         <visible ifSubset="game-description:no">false</visible>
+         <autoScroll>vertical</autoScroll>
+         <autoScrollDelay>10000</autoScrollDelay>
+         <autoScrollSpeed>100</autoScrollSpeed>
+         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <verticalAlignment>top</verticalAlignment>
       </text>
 
+
+
       <stackpanel name="contenedor-gamedata">
-         <pos>0.300 0.755</pos>
+         <pos>0.300 0.58</pos>
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <pos>0.3 0.785</pos>
+         <x>0.3</x>
+         <y>empty({game:desc}) ? 0.625 : 0.790</y>
       </stackpanel>
 
       <stackpanel name="contenedor-iconos">
          <x>0.3</x>
-         <y>0.835</y>
+         <y>empty({game:desc}) ? 0.67 : 0.835</y>
       </stackpanel>
 
       <image name="pie-barra" extra="static" ifHelpPrompts="true">
          <visible>true</visible>
       </image>
 
-      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12" extra="static">
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13" extra="static">
          <visible>true</visible>
       </image>
       
@@ -255,7 +274,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <x>0.360</x>
       </text>
 
-      <text name="md_description">
+      <text name="gamedesc-ps4Style-view">
          <x>0.163</x>
       </text>
 
@@ -275,20 +294,16 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
 
    <customView name="ps4Style"  ifSubset="game-description:no">
 
-      <image name="overlay-front" extra="true">
-         <path>${themePath}/_theme_inc/images/overlay-full-grid.png</path>
-      </image>
-
       <text name="system-name" extra="true">
          <y>0.682</y>
       </text>
 
       <stackpanel name="contenedor-gamedata">
-         <y>0.590</y>
+         <y>0.585</y>
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <y>0.62</y>
+         <y>0.625</y>
       </stackpanel>
 
       <stackpanel name="contenedor-iconos" >
@@ -297,11 +312,12 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
 
    </customView>
 
-   <customView name="ps4Style"  ifSubset="info-bar:NO">
-      <text name="md_description">
-         <y>0.59</y>
-      </text>
+
+   <customView name="ps4Style"  ifSubset="game-description:no, info-bar:NO">
+
+      <image name="overlay-front" extra="true">
+         <path>${themePath}/_theme_inc/images/overlay-full-grid.png</path>
+      </image>
    </customView>
-   
 
 </theme>

@@ -115,5 +115,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamelistOverlayExtra>在游戏列表中显示叠加艺术</theme.gamelistOverlayExtra>
     <theme.nonumbers>没有版本号和年份</theme.nonumbers>
     <theme.highVramRequired>(需要较高的VRAM值)</theme.highVramRequired>
+    <CarouselType>系统轮播样式</CarouselType>
+    <theme.SystemConsole>系统视图中的主机图像</theme.SystemConsole>
+    <theme.SystemLogo>系统视图中的标志图像</theme.SystemLogo>
   </variables>
 </theme>

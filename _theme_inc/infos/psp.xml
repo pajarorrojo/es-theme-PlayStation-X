@@ -47,7 +47,7 @@ PSPにはWi-Fiを介したワイヤレス接続もあり、世界中の他のプ
 		</text>	
 	
 		<text name="system_name" extra="true">
-			<text>Sony PlayStation Portable</text>
+			<text>Sony PSP</text>
 		</text>
 	</view>
 	<view name="system,detailed, grid">

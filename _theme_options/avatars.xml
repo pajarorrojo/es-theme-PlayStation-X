@@ -39,6 +39,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<image.avatar ifSubset="system-avatar:zelda-ocarina">zelda-ocarina.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:zelda">zelda.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:mario">mario-avatar.png</image.avatar>
+		<image.avatar ifSubset="system-avatar:mappy">mappy.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:mazinger">mazinger.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:megaman">megaman.png</image.avatar>
 		<image.avatar ifSubset="system-avatar:metal-gear">metal-gear.jpg</image.avatar>

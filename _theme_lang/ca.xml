@@ -109,9 +109,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.region>Regió</theme.region>
     <theme.europe>Europa</theme.europe>
     <theme.usa>Estats Units</theme.usa>
-    <theme.japan>Japó</theme.japan>  </variables>
+    <theme.japan>Japó</theme.japan>
     <theme.overlayExtra>Mostrar sobreimpressions d'arts a la vista de sistemes</theme.overlayExtra>
     <theme.gamelistOverlayExtra>Mostrar sobreimpressions d'arts a la llista de jocs</theme.gamelistOverlayExtra>
     <theme.nonumbers>Sense números de versió i any</theme.nonumbers>
     <theme.highVramRequired>(requereix valors elevats de VRAM)</theme.highVramRequired>
+    <CarouselType>Estil de carrusel dels sistemes</CarouselType>
+    <theme.SystemConsole>Imatge de la consola a la vista de sistemes</theme.SystemConsole>
+    <theme.SystemLogo>Imatge del logotip a la vista de sistemes</theme.SystemLogo>
+  </variables>
 </theme>

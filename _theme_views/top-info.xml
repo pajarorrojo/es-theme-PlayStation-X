@@ -284,7 +284,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <text name="gameInfoEx2" extra="static">
-         <text>'' + '${theme-lastplayedLabel}' + '... ' + {game:lastplayed}.elapsed().proper() + ''</text>
+         <text>'' + '${theme-lastplayedLabel}' + ': ' + {game:lastplayed}.elapsed().proper() + ''</text>
          <opacity>0</opacity>
          <visible>{game:gametime} &gt; 0 ? 1 : 0</visible>
       </text>
@@ -410,7 +410,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="version" extra="static" ifSubset="top-info:default">
-         <text>v.41</text>
+         <text>v.42</text>
          <pos>0.563 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
          <size>0.064 0.035</size>

@@ -48,7 +48,7 @@ Popularizował także kontroler z użyciem krzyżowego padu kierunkowego i przyc
 		
 
 		<text name="system_name" extra="true">
-			<text>Nintendo Entertainment System</text>
+			<text>Nintendo NES</text>
 			<text region="jp">Famicom</text>
 		</text>	
 	</view>

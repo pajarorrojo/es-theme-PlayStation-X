@@ -114,5 +114,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamelistOverlayExtra>Jokoen zerrendan gaineko arteak erakutsi</theme.gamelistOverlayExtra>
     <theme.nonumbers>Ez bertsio eta urteko zenbakiak</theme.nonumbers>
     <theme.highVramRequired>(VRAM balio altuak behar ditu)</theme.highVramRequired>
+    <CarouselType>Sistemaren karusel estiloa</CarouselType>
+    <theme.SystemConsole>Konsolaren irudia sistema ikuspegian</theme.SystemConsole>
+    <theme.SystemLogo>Logotipoaren irudia sistema ikuspegian</theme.SystemLogo>
   </variables>
 </theme>

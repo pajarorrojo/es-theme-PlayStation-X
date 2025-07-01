@@ -24,13 +24,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <lineSpacing>1.2</lineSpacing>
       </textlist>
 
-      <text name="md_description">
-         <visible>false</visible>
-      </text>
-
       <image name="linea-infos">
          <visible>false</visible>
 		</image>
+
+      <text name="gamedesc-detailed" extra="true">
+         <visible >false</visible>
+      </text>
 
 
 

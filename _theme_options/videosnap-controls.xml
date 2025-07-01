@@ -59,7 +59,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <effect>none</effect>
             <loops>-1</loops>
             <origin>0.5 0.5</origin>
-
          </video>
 
          <video ifSubset="game-video:window" name="game-video">

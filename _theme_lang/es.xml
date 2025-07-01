@@ -92,7 +92,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.romFolder>Mostrar info de la carpeta de ROMs</theme.romFolder>
     <dim>Atenuado</dim>
     <theme-lastplayedLabel>Jugaste por última vez</theme-lastplayedLabel>
-    <theme-timesPlayedLabel>Partidas Jugadas:</theme-timesPlayedLabel>
+    <theme-timesPlayedLabel>Partidas:</theme-timesPlayedLabel>
     <theme-gameTimeLabel>Tiempo Jugado:</theme-gameTimeLabel>
     <theme.dummydata>Mostrar versión y año en la parte superior</theme.dummydata>
     <dummydata.showversion>Solo versión</dummydata.showversion>
@@ -115,5 +115,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamelistOverlayExtra>Mostrar artes superpuestos en la lista de juegos</theme.gamelistOverlayExtra>
     <theme.nonumbers>Sin números de versión y año</theme.nonumbers>
     <theme.highVramRequired>(requiere valores elevados de VRAM)</theme.highVramRequired>
+    <CarouselType>Estilo de carrusel de sistemas</CarouselType>
+    <theme.SystemConsole>Imagen de consola en la vista de sistemas</theme.SystemConsole>
+    <theme.SystemLogo>Imagen de logo en la vista de sistemas</theme.SystemLogo>
   </variables>
 </theme>

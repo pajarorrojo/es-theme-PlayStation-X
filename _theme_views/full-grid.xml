@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>false</visible>      
       </image>
 
-      <text name="gamename-grid">
+      <text name="gamename-grid, gamedesc-grid">
          <visible>false</visible>
       </text>
 
@@ -130,42 +130,44 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <pos>x 0.605</pos>
+         <pos>x 0.610</pos>
          <x>0.015</x>
          <w>0.27</w>
          <singleLineScroll>true</singleLineScroll>
 
       </stackpanel>
 
-      <text name="md_description">
+
+      <text name="gamedesc-full-grid" extra="true">
+         <text>{game:desc}</text>
+         <color>ffffff</color>
          <pos>x 0.645</pos>
          <x>0.015</x>
          <size>0.255 0.12</size>
-         <lineSpacing>1.15</lineSpacing>
+         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.022</fontSize>
+         <lineSpacing>1.15</lineSpacing>
+         <origin>0 0</origin>
+         <backgroundColor>ff000000</backgroundColor>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
+         <zIndex>90</zIndex>
+         <visible>!empty({game:desc})</visible>
+         <visible ifSubset="game-description:no">false</visible>
+         <autoScroll>vertical</autoScroll>
+         <autoScrollDelay>10000</autoScrollDelay>
+         <autoScrollSpeed>100</autoScrollSpeed>
+         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <verticalAlignment>top</verticalAlignment>
       </text>
 
 
 
       <stackpanel name="contenedor-iconos">
-         <y>0.785</y>
+         <y>empty({game:desc}) ? 0.655 : 0.785</y>
          <x>0.015 </x>
          <w>0.27</w>
       </stackpanel>
 
-
-      <image name="console-grid-view" extra="true" if="${system.manufacturer} == 'Collections'">
-         <path>${themePath}/_theme_inc/images/consoles/{game:system}.png</path>
-         <tile>false</tile>
-         <pos>0.048 0.875</pos>
-         <origin>0.5 0.5</origin>
-         <verticalAlignment>center</verticalAlignment>
-         <alignment>center</alignment>
-         <maxSize>0.08</maxSize>
-         <zIndex>99</zIndex>
-         <linearSmooth>true</linearSmooth>
-         <visible ifSubset="info-bar:NO">false</visible>
-      </image>
 
       <image name="linea-inferior" extra="static" ifHelpPrompts="false">
          <y>0.995</y>
@@ -186,10 +188,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <y>0.270</y>
+         <y>0.275</y>
       </stackpanel>
 
-      <text name="md_description">
+      <text name="gamedesc-full-grid">
          <y>0.310</y>
          <h>0.222</h>
       </text>
@@ -198,9 +200,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <y>0.565</y>
       </stackpanel>
 
-      <image name="console-grid-view" extra="true">
-         <y>0.67</y>
-      </image>
       <text name="system-name" extra="true">
          <y>0.64</y>
       </text>
@@ -222,19 +221,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <y>0.605</y>
+         <y>0.610</y>
       </stackpanel>
 
       <stackpanel name="contenedor-iconos">
          <y>0.655</y>
       </stackpanel>
-
-      <image name="console-grid-view" extra="true">
-         <y>0.775</y>
-      </image>
-
-
-
 
    </customView>
 
@@ -249,27 +241,23 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <stackpanel name="contenedor-gamedata2">
-         <y>0.270</y>
+         <y>0.275</y>
       </stackpanel>
 
       <stackpanel name="contenedor-iconos">
          <y>0.32</y>
       </stackpanel>
 
-      <image name="console-grid-view">
-         <y>0.450</y>
-      </image>
-
    </customView>
 
    <customView name="full-grid"  ifSubset="info-bar:NO">
-      <text name="md_description">
+      <text name="gamedesc-full-grid">
          <y>0.570</y>
       </text>
    </customView>
 
    <customView name="full-grid"  ifSubset="info-bar:NO, main-origin:none, game-video:background|oversize|inside|off">
-      <text name="md_description">
+      <text name="gamedesc-full-grid">
          <y>0.240</y>
       </text>
    </customView>
