@@ -1,6 +1,6 @@
 Version 42 (July 1, 2025)
 
-- New: New PS3-style system carousel option (thanks for the icon collection)
+- New: New PS3-style system carousel option
 - New: New theme options to hide the console and the logo in the systems view
 - Change: The system name has been placed on the first info line along with the year in the collections
 - Change: Horizontal scroll issues have been fixed
