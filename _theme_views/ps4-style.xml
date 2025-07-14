@@ -135,7 +135,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="marco-activo" extra="static">
-         <path>${themePath}/_theme_inc/images/marco-activo-iso.png</path>
+         <path>${themePath}/_theme_inc/images/marco-activo-iso-21-9.png</path>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>89</zIndex>
