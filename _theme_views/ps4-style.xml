@@ -4,7 +4,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
 <theme>
    <formatVersion>7</formatVersion>
 
-    <customView name="ps4Style" inherits="grid" displayName="${ps4StylelViewName}">
+    <customView name="ps4Style_21-9" inherits="grid" displayName="${ps4Style_21-9lViewName}">
       
       <image name="background" extra="static">
          <visible>false</visible>      
@@ -135,7 +135,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="marco-activo" extra="static">
-         <path>${themePath}/_theme_inc/images/marco-activo-iso-21-9.png</path>
+		 <path>./_theme_inc/images/marco-activo-iso-21-9.png</path>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>89</zIndex>
@@ -164,7 +164,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
 
-      <text name="gamename-ps4Style" extra="true">
+      <text name="gamename-ps4Style_21-9" extra="true">
          <text>{game:name}</text>
          <pos>0.335 0.418</pos>
          <x ifSubset="aspect-ratio:4-3">0.390</x>
@@ -190,7 +190,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 <!-- mmedios que apareecen en la esquina inf. der. -->
 
-      <image name="marquee-ps4Style-view" extra="true" ifSubset="showlogo:enabled">
+      <image name="marquee-ps4Style_21-9-view" extra="true" ifSubset="showlogo:enabled">
          <path>{game:marquee}</path>
          <tile>false</tile>
          <pos>0.91 0.84</pos>
@@ -202,7 +202,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="thumbnail-ps4Style-view" extra="true">
+      <image name="thumbnail-ps4Style_21-9-view" extra="true">
          <path ifSubset="thumbnail-type:thumbnail">{game:thumbnail}</path>
          <path ifSubset="thumbnail-type:boxart">firstfile({game:boxart}, {game:thumbnail})</path>
          <path ifSubset="thumbnail-type:boxback">firstfile({game:boxback}, {game:thumbnail})</path>
@@ -220,7 +220,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </image>  
       
 
-      <text name="gamedesc-ps4Style-view" extra="true">
+      <text name="gamedesc-ps4Style_21-9-view" extra="true">
          <text>{game:desc}</text>
          <color>ffffff</color>
          <pos>0.30 0.621</pos>
@@ -268,13 +268,13 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       
    </customView>
 
-   <customView name="ps4Style"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
+   <customView name="ps4Style_21-9"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
 
       <text name="system-name" extra="true">
          <x>0.360</x>
       </text>
 
-      <text name="gamedesc-ps4Style-view">
+      <text name="gamedesc-ps4Style_21-9-view">
          <x>0.163</x>
       </text>
 
@@ -292,7 +292,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
 
    </customView>
 
-   <customView name="ps4Style"  ifSubset="game-description:no">
+   <customView name="ps4Style_21-9"  ifSubset="game-description:no">
 
       <text name="system-name" extra="true">
          <y>0.682</y>
@@ -313,7 +313,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
    </customView>
 
 
-   <customView name="ps4Style"  ifSubset="game-description:no, info-bar:NO">
+   <customView name="ps4Style_21-9"  ifSubset="game-description:no, info-bar:NO">
 
       <image name="overlay-front" extra="true">
          <path>${themePath}/_theme_inc/images/overlay-full-grid.png</path>
