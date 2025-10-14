@@ -39,7 +39,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
             contains(lower({game:name}), 'last of us') ||contains(lower({game:rom}), 'last of us') ? '${themePath}/${theme.overlayArtsPath}/Last of Us.png' : ''
             || contains(lower({game:name}), 'zelda') &amp;&amp; !contains(lower({game:name}), 'ocarina') &amp;&amp; !contains(lower({game:name}), 'breath') ? '${themePath}/${theme.overlayArtsPath}/Zelda.png' : ''
             || contains(lower({game:name}), 'zelda') &amp;&amp; contains(lower({game:name}), 'ocarina')  ? '${themePath}/${theme.overlayArtsPath}/Zelda Ocarina.png' : ''
-            || contains(lower({game:name}), 'zelda') &amp;&amp; contains(lower({game:name}), 'breath')  ? '${themePath}/${theme.overlayArtsPath}/wiiu.png' : ''
+            || contains(lower({game:name}), 'zelda') &amp;&amp; contains(lower({game:name}), 'breath')  ? '${themePath}/${theme.overlayArtsPath}/systems/wiiu.png' : ''
             || contains(lower({game:name}), 'rayman') || contains(lower({game:rom}), 'rayman') ? '${themePath}/${theme.overlayArtsPath}/Rayman.png' : ''
             || contains(lower({game:name}), 'street fighter') || contains(lower({game:rom}), 'street fighter') ? '${themePath}/${theme.overlayArtsPath}/Street Fighter.png' : ''
             || contains(lower({game:name}), 'tekken') || contains(lower({game:rom}), 'tekken') ? '${themePath}/${theme.overlayArtsPath}/Tekken.png' : ''
