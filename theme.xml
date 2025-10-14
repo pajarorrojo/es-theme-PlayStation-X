@@ -450,8 +450,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<batteryIndicator name="batteryIndicator">
 			<pos>0.96 0.961</pos>
 			<size>0.05</size>
-			<size tinyScreen="true">0.09</size>
-			<pos tinyScreen="true">0.9 0.9</pos>
 			<color>666666</color>
 			<planemodeIcon>./_theme_inc/menu_icons/Planemode.png</planemodeIcon>
 		</batteryIndicator>

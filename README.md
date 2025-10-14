@@ -19,7 +19,7 @@ We hope you enjoy it! Your feedback is always welcome, and if you like the theme
 | :--------------------------------: | :--------------------------------: |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/42/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/02.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/42/04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/05.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/42/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/04.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
