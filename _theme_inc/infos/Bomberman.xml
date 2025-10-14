@@ -1,0 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>Bomberman was created in 1983 by Hudson Soft as a simple maze game in which the player placed bombs to clear paths and defeat enemies. Its fast and accessible mechanics made it a classic on 8-bit and 16-bit consoles, expanding across multiple platforms during the 80s and 90s, where in Europe it was also known as Dynablaster.
+
+Over time, Bomberman became one of the most iconic titles in video game history, with dozens of installments and variations on consoles, handhelds, and mobile devices. Although its formula has remained almost unchanged, its competitive style and simple gameplay have kept it relevant as a historical benchmark of the multiplayer genre.</text>        
+			<text lang="es,gl,ca,eu">Bomberman nació en 1983 de la mano de Hudson Soft como un juego sencillo de laberintos en el que el jugador colocaba bombas para abrir caminos y derrotar enemigos. Su mecánica rápida y accesible lo convirtió en un clásico de las consolas de 8 y 16 bits, expandiéndose en múltiples plataformas durante los años 80 y 90, donde en Europa fue conocido también bajo el nombre de Dynablaster.
+
+Con el paso del tiempo, Bomberman se consolidó como uno de los títulos más icónicos de la historia de los videojuegos, con decenas de entregas y variaciones en consolas, portátiles y móviles. Aunque su fórmula ha permanecido casi intacta, su estilo competitivo y la sencillez de su jugabilidad lo han mantenido vigente como un referente histórico del género multijugador.</text>         
+		</text>	
+
+		<text name="system_name" extra="true">
+			<text>Bomberman</text> 
+		</text>
+	</view>
+
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<color>669900</color>
+			<colorEnd>990033</colorEnd>
+		</image>
+	</view>
+</theme>

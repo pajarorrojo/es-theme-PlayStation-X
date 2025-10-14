@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <carouselViewName>الدائري الأفقي</carouselViewName>
     <ps4StylelViewName>نمط PS4</ps4StylelViewName>    
     <theme.mainImage>الصورة المميزة</theme.mainImage>    
-    <theme.gridImage>صورة الشبكة</theme.gridImage>
+    <theme.gridImage>صورة دائرية أو شبكية</theme.gridImage>
     <fullGridlViewName>الشبكة الكاملة</fullGridlViewName>
     <theme.gamesplash-type>شاشة تحميل الألعاب</theme.gamesplash-type>
     <image-full-size>صورة بحجم الشاشة الكاملة</image-full-size>

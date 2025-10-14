@@ -15,7 +15,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <maxLogoCount>15</maxLogoCount>
 
          <pos>-0.595 0.115</pos>
-         <pos ifSubset="aspect-ratio:16-9">-0.595 0.115</pos>
+         <pos >-0.595 0.115</pos>
          <pos ifSubset="aspect-ratio:16-10">-0.680 0.116</pos>
          <pos ifSubset="aspect-ratio:4-3">-0.94 0.115</pos>
          <pos ifSubset="aspect-ratio:5-4">-1.028 0.115</pos>
@@ -24,7 +24,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
          
          <size>1.68 1</size>
-         <size ifSubset="aspect-ratio:16-9">1.68 1</size>
+         <size >1.68 1</size>
          <size ifSubset="aspect-ratio:16-10">1.87 1</size>
          <size ifSubset="aspect-ratio:4-3">2.23 1</size>
          <size ifSubset="aspect-ratio:5-4">2.42 1</size>
@@ -47,7 +47,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <text name="start" extra="true">
          <pos>0.165 0.424</pos>
-         <pos ifSubset="aspect-ratio:16-9">0.165 0.424</pos>
+         <pos >0.165 0.424</pos>
          <pos ifSubset="aspect-ratio:16-10">0.165 0.424</pos>
          <pos ifSubset="aspect-ratio:4-3">0.067 0.425</pos>
 
@@ -56,7 +56,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:3-2">0.165 0.423</pos>
 
          <size>0.16 0.05</size>
-         <size ifSubset="aspect-ratio:16-9">0.161 0.05</size>
+         <size >0.161 0.05</size>
          <size ifSubset="aspect-ratio:4-3">0.215 0.051</size>
          <size ifSubset="aspect-ratio:16-10">0.18 0.052</size>
          <size ifSubset="aspect-ratio:3-2">0.190 0.051</size>
@@ -69,7 +69,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <text name="system_name" extra="true">
          <text>{system:fullName}.proper()</text>
          <pos>0.335 0.451</pos>
-         <pos ifSubset="aspect-ratio:16-9">0.335 0.451</pos>
+         <pos >0.335 0.451</pos>
          <pos ifSubset="aspect-ratio:4-3|9-16">0.295 0.451</pos>
          <pos ifSubset="aspect-ratio:3-2">0.364 0.453</pos>
          <pos ifSubset="aspect-ratio:16-10">0.353 0.451</pos>
@@ -84,7 +84,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:5-3">0.165 0.137</pos>
 
          <size>0.161 0.288</size>
-         <size ifSubset="aspect-ratio:16-9">0.161 0.288</size>
+         <size >0.161 0.288</size>
          <size ifSubset="aspect-ratio:4-3">0.216 0.288</size>
          <size ifSubset="aspect-ratio:16-10">0.18 0.288</size>
          <size ifSubset="aspect-ratio:3-2">0.190 0.288</size>
@@ -96,6 +96,75 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
    </view>
+
+         <!-- PS5 PS5 PS5 -->
+
+         <view name="system" ifSubset="carousel-type:PS5">
+            <!-- CARRUSEL MEDIANO -->
+            <carousel name="systemcarousel">
+               <logoSize>0.13</logoSize>
+               <logoScale>1.5</logoScale>
+               <scaledLogoSpacing>1.05</scaledLogoSpacing>
+               <maxLogoCount ifSubset="aspect-ratio:16-10">20</maxLogoCount>
+               <maxLogoCount >22</maxLogoCount>
+               <maxLogoCount ifSubset="aspect-ratio:4-3">17</maxLogoCount>
+               <maxLogoCount ifSubset="aspect-ratio:5-4">16</maxLogoCount>
+               <maxLogoCount ifSubset="aspect-ratio:3-2">19</maxLogoCount>
+
+
+
+
+               <pos>-0.685 0.13</pos>
+               <size >1.7 1</size>
+               <size ifSubset="aspect-ratio:4-3|5-4|3-2">1.73 1</size>
+
+            </carousel>
+
+            <image name="marco-activo" extra="static">
+               <pos >0.109 0.141</pos>
+               <pos ifSubset="aspect-ratio:16-10">0.103 0.141</pos>
+               <pos ifSubset="aspect-ratio:4-3">0.105 0.141</pos>
+               <pos ifSubset="aspect-ratio:5-4">0.1 0.141</pos>
+               <pos ifSubset="aspect-ratio:3-2">0.113 0.141</pos>
+
+
+
+               <maxSize>0.199</maxSize>
+               
+            </image>
+      
+      
+            <text name="system_name" extra="true">
+               <text>{system:fullName}.proper()</text>
+               <pos ifSubset="aspect-ratio:16-10">0.233 0.3</pos>
+               <pos >0.228 0.3</pos>
+               <pos ifSubset="aspect-ratio:4-3">0.262 0.3</pos>
+               <pos ifSubset="aspect-ratio:5-4">0.268 0.3</pos>
+               <pos ifSubset="aspect-ratio:3-2">0.25 0.3</pos>
+
+
+
+               <fontSize>0.042</fontSize>
+            </text>
+      
+            <text name="fullName" extra="true">
+               <pos>0.164 0.136</pos>
+               <pos ifSubset="aspect-ratio:16-9|16-10">0.164 0.136</pos>
+               <pos ifSubset="aspect-ratio:4-3|5-4">0.066 0.136</pos>
+               <pos ifSubset="aspect-ratio:5-3">0.165 0.137</pos>
+               <size>0.161 0.288</size>
+               <size >0.161 0.288</size>
+               <size ifSubset="aspect-ratio:4-3">0.216 0.288</size>
+               <size ifSubset="aspect-ratio:16-10">0.18 0.288</size>
+               <size ifSubset="aspect-ratio:3-2">0.190 0.288</size>
+               <size ifSubset="aspect-ratio:5-3">0.172 0.287</size>
+               <size ifSubset="aspect-ratio:5-4">0.232 0.288</size>
+      
+               <fontSize>0.028</fontSize>
+      
+            </text>
+      
+         </view>
 
      <!-- PS3 PS3 PS3 -->
      <view name="system"  ifSubset="carousel-type:PS3">

@@ -22,10 +22,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:4-3|5-4">0 0.46</pos>
          <pos ifSubset="aspect-ratio:3-2|16-9" tinyScreen="true">0 0.48</pos>
          <size>1 0.45</size>
+         <size tinyScreen="true" ifSubset="aspect-ratio:4-3|5-4">1 0.52</size>
          <zIndex>99</zIndex>
          <padding>0.008 0.05</padding>
          <margin>0.005 0.006</margin>
          <autoLayout>5 1</autoLayout>
+         <autoLayout tinyScreen="true" ifSubset="aspect-ratio:4-3|5-4" >3 1</autoLayout>
          <autoLayout tinyScreen="false" if="{screen.ratio} != '4/3'" ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">9 1</autoLayout>
          <autoLayout tinyScreen="false" if="{screen.ratio} != '4/3'" ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == '3ds' || {system.theme} == 'megaduck' || {system.theme} == 'pcengine' || {system.theme} == 'pce-cd' ">7 1</autoLayout>
          <scrollDirection>horizontal</scrollDirection>
@@ -53,6 +55,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundCornerSize>0</backgroundCornerSize>
          <backgroundEdgeColor>00000000</backgroundEdgeColor>
          <reflexion>0.25 0</reflexion>
+         <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
       </gridtile>
 
       <ninepatch name="gridtile.background:selected">

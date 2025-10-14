@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<carouselViewName>水平回転木馬</carouselViewName>
 		<ps4StylelViewName>PS4 スタイル</ps4StylelViewName>		
 		<theme.mainImage>注目の画像</theme.mainImage>		
-		<theme.gridImage>グリッド画像</theme.gridImage>
+		<theme.gridImage>カルーセルまたはグリッド画像</theme.gridImage>
 		<fullGridlViewName>フルグリッド</fullGridlViewName>
 		<theme.gamesplash-type>ゲームローディング画面</theme.gamesplash-type>
 		<image-full-size>フルスクリーン画像</image-full-size>

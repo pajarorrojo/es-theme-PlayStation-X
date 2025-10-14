@@ -14,11 +14,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <alignment>right</alignment>
          <size>0.075 0.038</size>
          <fontSize>0.029</fontSize>
-         <fontSize tinyScreen="true">0.027</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.032</fontSize>
          <x>0.920</x>
          <x ifSubset="aspect-ratio:3-2|16-10|5-3|16-9">0.918 </x>
          <x ifSubset="aspect-ratio:4-3|5-4">0.912</x>
+         <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
          <y>0.047</y>
+         <y ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.005</y>
          <color>ffffff</color>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
@@ -125,7 +128,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="trophy-picto" extra="static" onclick="cheevos"  if="{global.cheevos} == true &amp;&amp; {system.cheevos} == true">
          <path>${themePath}/_theme_inc/images/trophy-picto.svg</path>
          <pos>0.681 0.059</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.675 0.059</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.660 0.059</pos>
          <maxSize>0.025</maxSize>
          <color>ffffff</color>
          <verticalAlignment>top</verticalAlignment>
@@ -133,6 +136,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>999</zIndex>
          <visible>${system.showCheevos}</visible>
+         <visible ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">false</visible>
+
       </image>
 
    </view>
@@ -291,10 +296,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos ifSubset="aspect-ratio:4-3|5-4">0.065 0.042</pos>
          <pos tinyScreen="true">0.065 0.045</pos>
          <size>0.487 0.05</size>
-         <size ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.5 0.055</size>
+         <size ifSubset="aspect-ratio:4-3">0.6 0.055</size>
+         <size ifSubset="aspect-ratio:5-4|3-2|5-3">0.5 0.055</size>
          <color>FFFFFF</color>
          <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
          <fontSize>0.029</fontSize>
+         <fontSize tinyScreen="true">0.04</fontSize>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -307,7 +316,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="puntoazul-2" extra="static">
          <path>${themePath}/_theme_inc/images/punto-azul.png</path>
          <pos>0.704 0.063</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.705 0.063</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4">0.69 0.063</pos>
          <maxSize>0.016</maxSize>
          <color>ffffff</color>
          <verticalAlignment>top</verticalAlignment>
@@ -316,25 +325,30 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>99</zIndex>
          <saturation if="{global.cheevos} == false">0</saturation>
          <saturation if="{global.cheevos} == true">1</saturation>
+         <visible ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">false</visible>
       </image>
 
       <image name="avatar" extra="static">
          <path>${themePath}/_theme_options/avatars/${image.avatar}</path>
          <path ifSubset="system-avatar:custom">${themePath}/custom-avatar.png</path>
          <pos>0.718 0.039</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.725 0.039</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.710 0.039</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.685 0.02</pos>
          <maxSize>0.063 0.063</maxSize>
-         <zIndex>99</zIndex>
+         <maxSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.09 0.09</maxSize>
+         <zIndex>90</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
 
 
       <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
          <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
-         <pos>0.718 0.035</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.725 0.035</pos>
+         <pos>0.718 0.039</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.710 0.039</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.685 0.02</pos>
          <maxSize>0.063 0.063</maxSize>
-         <zIndex>99</zIndex>
+         <maxSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.09 0.09</maxSize>
+         <zIndex>90</zIndex>
          <linearSmooth>true</linearSmooth>
        </webimage>
 
@@ -344,13 +358,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.760 0.05</pos>
          <pos ifSubset="aspect-ratio:16-10">0.762 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.78 0.05</pos>
-         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.795 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4|3-2" tinyScreen="true">0.765 0.045</pos>
          <size>0.165 0.04</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.185 0.04</size>
          <size ifSubset="aspect-ratio:3-2">0.205 0.04</size>
          <color>ffffff</color>
          <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+         <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
          <fontSize>0.028</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.042</fontSize>
          <fontSize ifSubset="aspect-ratio:3-2">0.03</fontSize>
          <alignment>left</alignment>
          <glowColor>00000035</glowColor>
@@ -367,7 +383,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>1 0.001</size>
          <color>ff00ff00</color>
          <zIndex>9999</zIndex>
-         <visible>false</visible>
+         <visible >false</visible>
       </image>
 
       <image name="linea-guia-TEST-VERT" extra="static">

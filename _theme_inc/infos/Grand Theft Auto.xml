@@ -1,0 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Grand Theft Auto (GTA) franchise began in 1997 by DMA Design (now Rockstar Games) with a top-down perspective game that already offered the freedom to explore cities, complete criminal missions, and face the police. Over the years, the series evolved into 3D open worlds, gaining major recognition with titles like GTA III (2001), which marked a turning point in video game history for its freedom of exploration and mature storytelling.
+
+In the following decades, GTA established itself as one of the most influential and successful series in the industry, with releases such as Vice City (2002), San Andreas (2004), GTA IV (2008), and GTA V (2013), the latter becoming one of the best-selling games of all time. Its blend of open-world gameplay, social satire, and constant technological innovation has made the franchise a historical benchmark in video game culture.</text>
+			<text lang="es,gl,ca,eu">La franquicia Grand Theft Auto (GTA) comenzó en 1997 de la mano de DMA Design (hoy Rockstar Games) con un juego en perspectiva cenital que ya ofrecía la libertad de recorrer ciudades, cumplir misiones criminales y enfrentarse a la policía. Con el paso de los años, la saga evolucionó hacia mundos abiertos en 3D, alcanzando gran reconocimiento con títulos como GTA III (2001), que marcó un antes y un después en la historia de los videojuegos por su libertad de exploración y narrativa adulta.
+
+Durante las décadas siguientes, GTA se consolidó como una de las series más influyentes y exitosas de la industria, con entregas como Vice City (2002), San Andreas (2004), GTA IV (2008) y GTA V (2013), este último convertido en uno de los juegos más vendidos de la historia. Su propuesta de mundo abierto, sátira social y constante innovación tecnológica han hecho que la franquicia sea un referente histórico en la cultura del videojuego.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Grand Theft Auto</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>FF0000</colorEnd>
+			<color>7A4DFF</color>
+		</image>
+	</view>
+</theme>

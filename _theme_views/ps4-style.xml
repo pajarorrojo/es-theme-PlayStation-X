@@ -238,7 +238,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <autoScroll>vertical</autoScroll>
          <autoScrollDelay>10000</autoScrollDelay>
          <autoScrollSpeed>100</autoScrollSpeed>
-         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <autoScrollSpeed >60</autoScrollSpeed>
          <verticalAlignment>top</verticalAlignment>
       </text>
 
@@ -262,10 +262,12 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <visible>true</visible>
       </image>
 
-      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13" extra="static">
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14" extra="static">
+         <!--<visible>empty({game:family})</visible>-->
          <visible>true</visible>
       </image>
       
+
    </customView>
 
    <customView name="ps4Style"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">

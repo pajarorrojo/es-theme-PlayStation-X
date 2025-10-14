@@ -145,7 +145,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
          <fontSize>0.05</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
-         <fontSize tinyScreen="true">0.047</fontSize>
+         <fontSize tinyScreen="true">0.064</fontSize>
          <origin>0 0</origin>
          <zIndex>100</zIndex>
          <singleLineScroll>true</singleLineScroll>
@@ -171,7 +171,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoScroll>vertical</autoScroll>
          <autoScrollDelay>10000</autoScrollDelay>
          <autoScrollSpeed>100</autoScrollSpeed>
-         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <autoScrollSpeed >60</autoScrollSpeed>
          <verticalAlignment>top</verticalAlignment>
       </text>
 
@@ -189,9 +189,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <text name="system-name" if="${system.manufacturer} == 'Collections'">
             <text>${theme.systemName}</text>
             <fontSize>0.023</fontSize>
+            <fontSize tinyScreen="true">0.032</fontSize>
+            <forceUppercase tinyScreen="true">true</forceUppercase>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <color>000000</color>
             <padding>0.004 0.004</padding>
+            <padding tinyScreen="true">0.006 0.006</padding>
+
             <backgroundColor>ffffff</backgroundColor>
          </text> 
 
@@ -206,6 +210,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          
          <text name="gamedata-releaseyear">
             <fontSize>0.023</fontSize>
+            <fontSize tinyScreen="true">0.032</fontSize>
+            <forceUppercase tinyScreen="true">true</forceUppercase>
             <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
             <text>{game:releaseyear}</text>
             <emptyTextDefaults>true</emptyTextDefaults>
@@ -300,6 +306,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <x>0.3</x>
          <y>empty({game:desc}) ? 0.3 : 0.4</y>
          <size>0.7 0.03</size>
+         <size tinyScreen="true">0.7 0.05</size>
          <orientation>horizontal</orientation>
 			<backgroundColor>ff000000</backgroundColor>
          <zIndex>99</zIndex>

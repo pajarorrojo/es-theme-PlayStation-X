@@ -31,11 +31,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           </video>
 
           <stackpanel name="contenedor-systemdata" extra="true">
-               <pos>0.24 0.608</pos>
+               <pos>0.25 0.608</pos>
           </stackpanel>
 
           <text name="system_description" extra="true">
-               <pos>0.24 0.648</pos>
+               <pos>0.25 0.648</pos>
           </text>
      </view>
 

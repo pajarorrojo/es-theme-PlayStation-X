@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <carouselViewName>Carousel orizzontale</carouselViewName>
     <ps4StylelViewName>Stile PS4</ps4StylelViewName>    
     <theme.mainImage>Immagine in evidenza</theme.mainImage>    
-    <theme.gridImage>Immagine griglia</theme.gridImage>
+    <theme.gridImage>Immagine carosello o griglia</theme.gridImage>
     <fullGridlViewName>Griglia completa</fullGridlViewName>  
     <theme.gamesplash-type>Schermata di caricamento del gioco</theme.gamesplash-type>
     <image-full-size>Immagine a schermo intero</image-full-size>

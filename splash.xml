@@ -82,7 +82,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 42</text>
+			<text>Theme by pajarorrojo - Version 42.1</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -121,7 +121,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.038</fontSize>
-			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.03</fontSize>
+			<fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+			<forceUppercase tinyScreen="true">true</forceUppercase>
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
@@ -138,7 +139,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<path>${themePath}/_theme_inc/images/frame-splash.png</path>
 			<pos>0.5 0.326</pos>
 			<maxSize>0.255 0.255</maxSize>
-
 			<linearSmooth>true</linearSmooth>
 			<zIndex>9</zIndex>
 		</image>
@@ -156,10 +156,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<text name="username" extra="true">
 			<text>${theme.nick}</text>
 			<text ifSubset="system-username:custom">${custom.nick}</text>
-			<pos>0 0.58</pos>
+			<pos>0 0.59</pos>
 			<size>1 0.034</size>
 			<color>ffffff</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+			<fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.038</fontSize>
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>

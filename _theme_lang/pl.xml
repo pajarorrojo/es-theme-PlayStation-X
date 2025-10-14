@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <carouselViewName>Karuzela pozioma</carouselViewName>
     <ps4StylelViewName>Styl PS4</ps4StylelViewName>    
     <theme.mainImage>Obraz wyróżniony</theme.mainImage>    
-    <theme.gridImage>Obraz siatki</theme.gridImage>
+    <theme.gridImage>Obraz karuzeli lub siatki</theme.gridImage>
     <fullGridlViewName>Pełna siatka</fullGridlViewName>
     <theme.gamesplash-type>Ekran ładowania gry</theme.gamesplash-type>
     <image-full-size>Obraz na pełnym ekranie</image-full-size>

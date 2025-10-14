@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <carouselViewName>水平旋转木马</carouselViewName>
     <ps4StylelViewName>PS4 风格</ps4StylelViewName>    
     <theme.mainImage>特色图片</theme.mainImage>    
-    <theme.gridImage>网格图像</theme.gridImage>
+    <theme.gridImage>旋转木马或网格图像</theme.gridImage>
     <fullGridlViewName>完整网格</fullGridlViewName>
     <theme.gamesplash-type>游戏加载屏幕</theme.gamesplash-type>
     <image-full-size>全屏图像</image-full-size>

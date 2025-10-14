@@ -156,7 +156,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoScroll>vertical</autoScroll>
          <autoScrollDelay>10000</autoScrollDelay>
          <autoScrollSpeed>100</autoScrollSpeed>
-         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <autoScrollSpeed >60</autoScrollSpeed>
          <verticalAlignment>top</verticalAlignment>
       </text>
 

@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <carouselViewName>Carrossel horizontal</carouselViewName>
     <ps4StylelViewName>Estilo PS4</ps4StylelViewName>    
     <theme.mainImage>Imagem de destaque</theme.mainImage>    
-    <theme.gridImage>Imagem de grade</theme.gridImage>
+    <theme.gridImage>Imagem de carrossel ou grade</theme.gridImage>
     <fullGridlViewName>Grade completa</fullGridlViewName>
     <theme.gamesplash-type>Tela de carregamento do jogo</theme.gamesplash-type>
     <image-full-size>Imagem em tela cheia</image-full-size>

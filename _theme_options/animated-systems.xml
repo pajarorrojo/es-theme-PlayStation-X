@@ -20,7 +20,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     </image>
 
 
-    <image name="marco-activo" extra="static">
+    <image name="marco-activo" extra="static" ifSubset="carousel-type:PS4">
       <storyboard>
         <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
         <animation property="offsetX" to="-0.003" duration="150" mode="ease" autoreverse="true" />
@@ -69,13 +69,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   </view>
 
-  <view name="detailed,grid" ifSubset="carousel-type:PS4">
+  <view name="detailed,grid" ifSubset="carousel-type:PS4|PS5">
 
     <image name="caratula-overlay" extra="true">
       <origin>0 0</origin>
       <pos ifSubset="carousel:big">0.166 0.136</pos>
       <pos ifSubset="carousel:medium">0.164 0.136</pos>
       <pos ifSubset="carousel:small">0.165 0.134</pos>
+      <roundCorners ifSubset="carousel-type:PS5">0.15</roundCorners>
 
       <pos ifSubset="aspect-ratio:4-3|5-4,carousel:big">0.068 0.136</pos>
       <pos ifSubset="aspect-ratio:4-3|5-4,carousel:medium|small">0.066 0.136</pos>

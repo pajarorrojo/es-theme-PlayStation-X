@@ -22,8 +22,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontPath ifSubset="aspect-ratio:4-3|5-4">${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
          <glowColor>00000035</glowColor>
-         <glowSize ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-         <glowOffset ifArch="rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+         <glowSize ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+         <glowOffset ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
          <fontSize>0.035</fontSize>
          <alignment>left</alignment>
          <lineSpacing>1.45</lineSpacing>

@@ -15,9 +15,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <defaultTransition ifSubset="anim-system:NO">instant</defaultTransition>
          <defaultTransition ifSubset="anim-system:YES">fade &amp; slide</defaultTransition>
          <transitionSpeed>600</transitionSpeed>
-      
       </carousel>
-
+   
       
 
       <image name="background-art" extra="true" region="eu" />
@@ -54,7 +53,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <tile>false</tile>
          <autoFade>false</autoFade>
          <size>0 1</size>
-         <path>${themePath}/${theme.overlayArtsPath}/${system.theme}.png</path>
+         <path>${themePath}/${theme.overlayArtsPath}/systems/${system.theme}.png</path>
          <zIndex>98</zIndex>
          <opacity>0</opacity>
          <origin>1 0.5</origin>
@@ -129,7 +128,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <origin>0 0</origin>
          <verticalAlignment>bottom</verticalAlignment>
          <alignment>center</alignment>
-         <maxSize>0.16 0.25</maxSize>
+         <maxSize >0.16 0.25</maxSize>
          <path>${themePath}/_theme_inc/images/consoles/${system.theme}.png</path>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>

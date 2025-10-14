@@ -1,0 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Pokémon was born in 1996 with the games Pokémon Red and Pokémon Green in Japan for the Game Boy, created by Game Freak and published by Nintendo. Its concept revolved around capturing, training, and battling creatures called Pokémon, combining exploration with turn-based combat. From the very beginning, the idea quickly expanded worldwide, accompanied not only by the anime and merchandising but also by the Pokémon Trading Card Game, which allowed players to collect and trade cards in a phenomenon that ran parallel to the video games.
+
+Over time, Pokémon became one of the most successful franchises in the entertainment industry, with generations of games introducing new creatures, regions, and mechanics, while the card game remained a competitive and collectible staple. Today, it continues to stand as a historical benchmark in video games and beyond, thanks to its ability to remain relevant across multiple formats and generations of players.</text>
+			<text lang="es,gl,ca,eu">Pokémon nació en 1996 con los juegos Pokémon Red y Pokémon Green en Japón para la Game Boy, creados por Game Freak y publicados por Nintendo. Su propuesta giraba en torno a capturar, entrenar y enfrentar criaturas llamadas Pokémon, combinando exploración y combates por turnos. Desde sus inicios, la idea se expandió rápidamente a nivel mundial, acompañada no solo por el anime y el merchandising, sino también por el Pokémon Trading Card Game, que permitió a los jugadores coleccionar e intercambiar cartas en un fenómeno paralelo a los videojuegos.
+
+Con el tiempo, Pokémon se consolidó como una de las sagas más exitosas de la industria del entretenimiento, con generaciones de juegos que introducen nuevas criaturas, regiones y mecánicas, mientras que el juego de cartas sigue siendo un pilar competitivo y coleccionable. Hoy en día continúa siendo un referente histórico en los videojuegos y más allá, gracias a su capacidad de mantenerse vigente en múltiples formatos y generaciones de jugadores.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Pokémon</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>FFFF00</colorEnd>
+			<color>2169B9</color>
+		</image>
+	</view>
+</theme>

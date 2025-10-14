@@ -1,3 +1,18 @@
+Version 42.1 (October 14, 2025)
+
+- New: New PS5-style system carousel option
+- New: predefined theme collections for Bomberman, Pokémon, and Grand Theft Auto
+- Change: Several layout adjustments have been made for small screens (480p)
+- Change: Carousel-style game view is now set as default for small screens (480p)
+- Change: Animations and effects are now enabled by default on RPi4 and RPi5
+- Added: Overlay art characters for Barbie, Altered Beast, and Battletoads
+- Added: Bomberman, Grand theft auto, Mega man, Metal Gear, Metal Slug, Metroid, Street Fighter, Pac-Man, Pokémon, Sonic, Star Wars, and Zelda images to the PS3-style system carousel
+
+
+
+
+
+-----------------------
 Version 42 (July 1, 2025)
 
 - New: New PS3-style system carousel option
@@ -15,7 +30,6 @@ Version 42 (July 1, 2025)
 - Added: Missing media data and/or information has been added for the Lindbergh, Dicex, Perfect Dark, Starship, 3DSen, P2000T, Vircon32, CommanderX16, and Oric systems
 - Added: Overlay art characters for Devil May Cry, Toy Story, Virtua Fighter, Aladdin, Ratchet, Onimusha, Pinocchio, Alisia Dragoon, The Goonies, Darkstalkers, and Soulcalibur
 - Added: Mappy preset avatars
-
 
 
 

@@ -21,10 +21,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <autoScrollSpeed>45</autoScrollSpeed>
                <autoScrollSpeed ifSubset="aspect-ratio:16-10">100</autoScrollSpeed>
                <size>0.46 0.139</size>
+               <size ifSubset="aspect-ratio:4-3|5-4">0.55 0.239</size>
                <fontSize>0.028</fontSize>
+               <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.04</fontSize>
+               <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+               <forceUppercase tinyScreen="true">true</forceUppercase>
           </text>
 
-      <!-- stackpanel para datos de sistemas -->
+           <!-- stackpanel para datos de sistemas -->
 
        <stackpanel name="contenedor-systemdata" extra="true" >
       
@@ -36,6 +40,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
  
           <text name="systemdata-hardware">
                <fontSize>0.023</fontSize>
+               <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.04</fontSize>
                <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
                <text>${theme.hardwareType}</text>
                <visible>!empty({system:hardwareType})</visible>
@@ -43,11 +48,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <singleLineScroll>true</singleLineScroll>
                <autoScrollDelay>0</autoScrollDelay>
                <forceUppercase>true</forceUppercase>
-
+ 
             </text>
    
           <text name="systemdata-releaseyear">
              <fontSize>0.023</fontSize>
+             <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.04</fontSize>
              <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
              <text>• {system:releaseYear}</text>
              <visible>!empty({system:releaseYear})</visible>
@@ -56,6 +62,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
  
           <text name="systemdata-manufacturer">
                <fontSize>0.023</fontSize>
+               <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.04</fontSize>
                <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
                <text>• {system:manufacturer}</text>
                <visible>!empty({system:releaseYear}) &amp;&amp; {system:manufacturer} != 'Ports' &amp;&amp; {system:manufacturer}.lower() != {system:hardwareType}.lower()</visible>
@@ -63,9 +70,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <singleLineScroll>true</singleLineScroll>
                <autoScrollDelay>0</autoScrollDelay>
                <forceUppercase>true</forceUppercase>
-
+ 
             </text>
    
        </stackpanel>
+
+     
      </view>
 </theme>

@@ -1,0 +1,5 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<!-- force gamelist grid view for tiny low res screens -->
+<theme defaultView="carousel"></theme>

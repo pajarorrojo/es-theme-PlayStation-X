@@ -70,6 +70,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <maxSize>0.6 0.6</maxSize>
          <pos>0.15 0.1</pos>
          <color>FFFF99cc</color>
+         <opacity>0</opacity>
+         <opacity ifSubset="aspect-ratio:16-9|16-10">1</opacity>
       </image>
 
       <image name="gridtile.favorite">
@@ -176,7 +178,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoScroll>vertical</autoScroll>
          <autoScrollDelay>10000</autoScrollDelay>
          <autoScrollSpeed>100</autoScrollSpeed>
-         <autoScrollSpeed ifSubset="aspect-ratio:16-9">60</autoScrollSpeed>
+         <autoScrollSpeed >60</autoScrollSpeed>
          <verticalAlignment>top</verticalAlignment>
       </text>
 
@@ -201,7 +203,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13" extra="static">
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14" extra="static">
+         <!--<visible>empty({game:family})</visible>-->
          <visible>true</visible>
       </image>
 

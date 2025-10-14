@@ -11,10 +11,15 @@ Download the Zip file from GitHub repository, unzip and copy its contents into t
 
 ![](https://es-theme-playstation-x.tocapixels.com/41/00.jpg)
 
+A PlayStation-inspired theme that brings the look and feel of the PS3, PS4, and PS5 interfaces, with custom avatars, usernames, RetroAchievements support, and much more for Batocera, RetroBat, and EmuElec (Or any frontend using the Batocera EmulationStation fork)
+
+We hope you enjoy it! Your feedback is always welcome, and if you like the theme, don’t forget to give it a ⭐ on GitHub to help others discover it!
+
 |                                    |                                    |
 | :--------------------------------: | :--------------------------------: |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/01.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/42/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/02.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/42/04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/05.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
@@ -25,11 +30,6 @@ Download the Zip file from GitHub repository, unzip and copy its contents into t
 | ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |
 
-A theme inspired by the PlayStation 3/4 interface, featuring custom avatars, usernames, retroachievements compatibility and much more for Batocera, RetroBat, and EmuElec frontends.
-
-We hope you enjoy it! Any suggestions are fully welcomed.
-
-If you enjoyed the theme, please give it a star on GitHub to help more people discover it.
 
 [![Playstation X Config guide](https://es-theme-playstation-x.tocapixels.com/thumbvideo/psx-video-guide.jpg)](https://www.youtube.com/watch?v=6xfdHXLDhWs)
 

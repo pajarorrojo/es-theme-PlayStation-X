@@ -386,6 +386,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <color>FFFFFF</color>
          <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
          <fontSize>0.029</fontSize>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.04</fontSize>
+         <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+         <forceUppercase tinyScreen="true">true</forceUppercase>
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -466,7 +469,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <pos>0.660 0.05</pos>
          <pos ifSubset="aspect-ratio:16-10">0.662 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.68 0.05</pos>
-         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.695 0.045</pos>
+         <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.685 0.045</pos>
          <size>0.165 0.04</size>
          <size ifSubset="aspect-ratio:4-3|5-4">0.185 0.04</size>
          <size ifSubset="aspect-ratio:3-2">0.205 0.04</size>
@@ -481,6 +484,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <zIndex>99</zIndex>
          <singleLineScroll>true</singleLineScroll>
          <backgroundColor>ff000000</backgroundColor>
+         <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.04</fontSize>
+         <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
       </text>
 
       <image name="users-picto" extra="static" if="{global.netplay} == false">

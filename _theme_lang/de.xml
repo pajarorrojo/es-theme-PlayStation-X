@@ -81,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <carouselViewName>Horizontales Karussell</carouselViewName>
     <ps4StylelViewName>PS4-Stil</ps4StylelViewName>    
     <theme.mainImage>Ausgewähltes Bild</theme.mainImage>    
-    <theme.gridImage>Gitterbild</theme.gridImage>  
+    <theme.gridImage>Karussell- oder Rasterbild</theme.gridImage>  
     <fullGridlViewName>Vollständiges Raster</fullGridlViewName>
     <theme.gamesplash-type>Ladescreen für Spiele</theme.gamesplash-type>
     <image-full-size>Bild im Vollbildmodus</image-full-size>
