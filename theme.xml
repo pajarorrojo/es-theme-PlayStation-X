@@ -375,6 +375,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--OPCIONES DE IMAGENES (PRINCIPAL)-->
 	<subset name="main-origin" displayName="${theme.mainImage}" appliesTo="detailed, grid, ps4Style, carousel, full-grid, single">
+		<include name="none" displayName="${none}" tinyScreen="true" />
 		<include name="default" displayName="${default}" />
 		<include name="image" displayName="image" />
 		<include name="thumbnail" displayName="thumbnail (${theme.box})" />
@@ -384,7 +385,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="boxart" displayName="boxart" />
 		<include name="cartridge" displayName="cartridge" />
 		<include name="boxback" displayName="boxback" />
-		<include name="none" displayName="${none}" />
+		<include name="none" displayName="${none}" tinyScreen="false" />
 	</subset>
 
 	<!-- CAJA EN VISTA CLASICA Y SINGLE -->
