@@ -138,7 +138,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <text name="gamename-grid" extra="true">
          <text>{game:name}</text>
          <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
          <size>0.630 0.08</size>
          <color>ffffff</color>
          <pos>0.30 0.140</pos>
