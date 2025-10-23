@@ -5,7 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <view name="system">
       <carousel name="systemcarousel">
-         <scrollSound>${themePath}/_theme_inc/sound-effects/ps4/system-scroll.ogg</scrollSound>
+         <scrollSound>${themePath}/_theme_inc/sound-effects/ps4/gamelist-scroll.ogg</scrollSound>
       </carousel>
    </view>
 

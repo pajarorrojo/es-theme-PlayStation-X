@@ -52,13 +52,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="system">
       <image name="frontend-logo" extra="true">
-         <path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/logo-bato-front.svg</path>
-         <path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/retrobat-logo.png</path>
-         <path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/batocera_plus_logo.png</path>
-         <path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/emuelec-logo.png</path>
-         <path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/jelos-logo.png</path>
-			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/es-logo.png</path>
+         <path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/frontends/logo-bato-front.svg</path>
+         <path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/frontends/retrobat-logo.png</path>
+         <path ifSubset="frontend:knulli">${themePath}/_theme_inc/images/frontends/knulli-logo-splash.png</path>
+         <path ifSubset="frontend:rocknix">${themePath}/_theme_inc/images/frontends/rocknix-logo-splash.png</path>
+         <path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/frontends/batocera_plus_logo.png</path>
+         <path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/frontends/emuelec-logo.png</path>
+         <path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/frontends/projectarcade-logo.png</path>
+			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/frontends/jelos-logo.png</path>
+			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/frontends/es-logo.png</path>
          <pos>0.009 0.012</pos>
          <maxSize>0.096</maxSize>
          <color>ffffff</color>

@@ -14,6 +14,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout>5 2</autoLayout>
+         <autoLayout  ifSubset="aspect-ratio:21-9">7 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail">9 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">5 2</autoLayout>
          <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>

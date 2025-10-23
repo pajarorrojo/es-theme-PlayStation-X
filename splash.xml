@@ -82,7 +82,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 42.1</text>
+			<text>Theme by pajarorrojo - Version 42.2</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -97,13 +97,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.03 0.05</pos>
 			<maxSize>0.25 0.25</maxSize>
 			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.1 0.1</maxSize>
-			<path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/batocera-logo-splash.svg</path>
-			<path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/retrobat-logo-splash.png</path>
-			<path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/batocera_plus_logo.png</path>
-			<path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/emuelec-logo-splash.png</path>
-			<path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/jelos-logo-splash.png</path>
-			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/es-logo-splash.png</path>
+			<path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/frontends/batocera-logo-splash.svg</path>
+			<path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/frontends/batocera_plus_logo.png</path>
+			<path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/frontends/emuelec-logo-splash.png</path>
+			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/frontends/es-logo-splash.png</path>
+			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/frontends/jelos-logo-splash.png</path>
+			<path ifSubset="frontend:knulli">${themePath}/_theme_inc/images/frontends/knulli-logo-splash.png</path>
+			<path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/frontends/projectarcade-logo.png</path>
+			<path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/frontends/retrobat-logo-splash.png</path>
+			<path ifSubset="frontend:rocknix">${themePath}/_theme_inc/images/frontends/rocknix-logo-splash.png</path>
+
 			<linearSmooth>true</linearSmooth>
 		</image>
 
@@ -116,7 +119,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text ifSubset="frontend:projectarcade">${theme.welcome} ProjectArcade</text>
 			<text ifSubset="frontend:jelos">${theme.welcome} JELOS</text>
 			<text ifSubset="frontend:emulationstation">${theme.welcome} EmulationStation</text>
-			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
+			<text ifSubset="frontend:none">${theme.welcome} EmulationStation</text>
+			<text ifSubset="frontend:knulli">${theme.welcome} Knulli</text>
+			<text ifSubset="frontend:rocknix">${theme.welcome} Rocknix</text>
 			<color>ffffff</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.04</fontSize>

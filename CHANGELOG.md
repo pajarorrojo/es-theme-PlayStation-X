@@ -1,3 +1,17 @@
+Version 42.2 (October 24, 2025)
+
+- New: 21:9 Aspect ratio compatibility (UltraWide screen)
+- Fix: PS5 style system carousel for 16:10 and 5:3 aspect ratios
+- Added: PS2 Navigation sounds (Thanks to doctorXwindo for the files)
+- Added: PS3 and PS4 Navigation sounds
+- Remove: Playstation 3/4 Navigation sounds 'mix' option
+- Added: Two new favorite frontends option in the theme options: Knulli and Rocknix.
+- Added: Missing media data and/or information has been added for the Actionmax, Amazon gaming, Amiga 4000, Aquarius, Dragon 32, EA games, Epic games, Game Boy MSU, Gemrb, Casio Loopy, Löve, Namco 3xx, Open Goal, Open Jazz, Philips P2000T, Perfect Dark, Pegasus, Pinball FX, Pinball FX2, Pinball FX3, Pinball M, Ship of Harkinian,  Starship, Philips VG5000 and Zaccariapinball systems
+
+
+
+
+-----------------------
 Version 42.1 (October 14, 2025)
 
 - New: New PS5-style system carousel option
@@ -7,7 +21,6 @@ Version 42.1 (October 14, 2025)
 - Change: Animations and effects are now enabled by default on RPi4 and RPi5
 - Added: Overlay art characters for Barbie, Altered Beast, and Battletoads
 - Added: Bomberman, Grand theft auto, Mega man, Metal Gear, Metal Slug, Metroid, Street Fighter, Pac-Man, Pokémon, Sonic, Star Wars, and Zelda images to the PS3-style system carousel
-
 
 
 

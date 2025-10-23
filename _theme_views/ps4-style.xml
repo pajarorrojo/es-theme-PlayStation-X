@@ -42,15 +42,20 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <x ifSubset="aspect-ratio:16-10">-0.595 0.085</x>
          <x ifSubset="aspect-ratio:3-2">-0.615 0.085</x>
          <x ifSubset="aspect-ratio:5-3">-0.585 0.085</x>
+         <x ifSubset="aspect-ratio:21-9">-0.6 0.085</x>
+
          <size>1.501 0.39</size>
          <size ifSubset="aspect-ratio:4-3">2 0.39</size>
          <size ifSubset="aspect-ratio:5-4">2.180 0.39</size>
          <size ifSubset="aspect-ratio:16-10">1.7 0.39</size>
          <size ifSubset="aspect-ratio:3-2">1.75 0.39</size>
          <size ifSubset="aspect-ratio:5-3">1.67 0.39</size>
+         <size ifSubset="aspect-ratio:21-9">1.65 0.39</size>
+
          <zIndex>60</zIndex>
          <padding>0.008 0.05</padding>
          <autoLayout>9 1</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:21-9">13 1</autoLayout>
          <scrollDirection>horizontal</scrollDirection>
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
@@ -160,6 +165,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:16-10">0.178 0.05</size>
          <size ifSubset="aspect-ratio:3-2">0.192 0.05</size>
          <size ifSubset="aspect-ratio:5-3">0.173 0.05</size>
+         <size ifSubset="aspect-ratio:21-9">0.12 0.05</size>
          <visible>{system:total} &gt; 0 ? 1 : 0</visible>
       </text>
 
@@ -172,6 +178,8 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <x ifSubset="aspect-ratio:16-10">0.352</x>
          <x ifSubset="aspect-ratio:3-2">0.365</x>
          <x ifSubset="aspect-ratio:5-3">0.35</x>
+         <x ifSubset="aspect-ratio:21-9">0.29</x>
+
          <size>0.65 0.08</size>
          <size ifSubset="aspect-ratio:5-3">0.62 0.08</size>
          <color>ffffff</color>

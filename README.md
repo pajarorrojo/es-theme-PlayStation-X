@@ -70,7 +70,8 @@ Have fun with retro gaming!
 Theme Compatible with common used aspect ratios including tiny screens, the theme automatically fits to the next compatible screen resolutions: 
 - 4:3 
 - 16:9 
-- 16:10 
+- 16:10
+- 21:9
 - 3:2
 - 5:3
 - 5:4 

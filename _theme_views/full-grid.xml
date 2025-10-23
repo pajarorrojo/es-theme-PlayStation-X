@@ -36,6 +36,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout>5 5</autoLayout>
+         <autoLayout  ifSubset="aspect-ratio:21-9">7 5</autoLayout>
          <autoLayout tinyScreen="true">3 3</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail">6 3</autoLayout>
          <autoLayout tinyScreen="true" ifSubset="grid-origin:boxart|thumbnail">4 2</autoLayout>

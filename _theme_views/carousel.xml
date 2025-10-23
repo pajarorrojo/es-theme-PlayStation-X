@@ -27,6 +27,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <padding>0.008 0.05</padding>
          <margin>0.005 0.006</margin>
          <autoLayout>5 1</autoLayout>
+         <autoLayout  ifSubset="aspect-ratio:21-9">7 1</autoLayout>
          <autoLayout tinyScreen="true" ifSubset="aspect-ratio:4-3|5-4" >3 1</autoLayout>
          <autoLayout tinyScreen="false" if="{screen.ratio} != '4/3'" ifSubset="grid-origin:thumbnail|boxart|default|cartridge|marquee">9 1</autoLayout>
          <autoLayout tinyScreen="false" if="{screen.ratio} != '4/3'" ifSubset="grid-origin:thumbnail|boxart|default" if="{system.theme} == 'segacd' || {system.theme} == 'gb' ||  {system.theme} == 'gb2players' || {system.theme} == 'gba' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' || {system.theme} == 'lcdgames' || {system.theme} == 'n64' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'gbc' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == '3ds' || {system.theme} == 'megaduck' || {system.theme} == 'pcengine' || {system.theme} == 'pce-cd' ">7 1</autoLayout>

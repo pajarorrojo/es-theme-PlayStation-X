@@ -31,13 +31,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--RELACION DE ASPECTO (auto deteccion)-->
 	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
-		<include if="${screen.width} == '800' &amp;&amp; ${screen.height} == '480' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch (ojo, solo para pantallas tiny <= 480p)-->
-		<include if="${screen.width} == '1200' &amp;&amp; ${screen.height} == '720' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
-		<include if="${screen.width} == '1800' &amp;&amp; ${screen.height} == '1080' " name="5-3" displayName="5:3 (${theme.forced})" /> <!--FIX 5:3 no detectado por retroarch-->
+		<include if="${screen.width} == '800' &amp;&amp; ${screen.height} == '480' " name="5-3" displayName="5:3 (${theme.detected})" /> <!--FIX 5:3 no detectado por ES (ojo, solo para pantallas tiny <= 480p)-->
+		<include if="${screen.width} == '1200' &amp;&amp; ${screen.height} == '720' " name="5-3" displayName="5:3 (${theme.detected})" /> <!--FIX 5:3 no detectado por ES-->
+		<include if="${screen.width} == '1600' &amp;&amp; ${screen.height} == '960' " name="5-3" displayName="5:3 (${theme.detected})" /> <!--FIX 5:3 no detectado por ES-->
+		<include if="${screen.width} == '1800' &amp;&amp; ${screen.height} == '1080' " name="5-3" displayName="5:3 (${theme.detected})" /> <!--FIX 5:3 no detectado por ES-->
 		<include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 (${theme.detected})" />
 		<include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2 (${theme.detected})" />
 		<include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4 (${theme.detected})" />
 		<include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 (${theme.detected})" />
+		<include if="{screen.ratio} == '21/9'" name="21-9" displayName="21:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '30/17'" name="16-9" displayName="16:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})"/>
 	</subset>
@@ -48,6 +50,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="16-9" displayName="16:9 widescreen" />
 		<include name="4-3" displayName="4:3 standard" />
 		<include name="16-10" displayName="16:10" />
+	    <include name="21-9" displayName="21:9 Ultra Widescreen" />
 		<include name="5-4" displayName="5:4" />	
 		<include name="3-2" displayName="3:2" />
 		<include name="5-3" displayName="5:3" />
@@ -63,9 +66,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include name="batocera" displayName="batocera" />
 		<include name="batocera-plus" displayName="batocera plus" />
 		<include name="emuelec" displayName="emuelec" />
-		<include name="projectarcade" displayName="ProjectArcade" />
-		<include name="jelos" displayName="JELOS" />
 		<include name="emulationstation" displayName="EmulationStation" />
+		<include name="jelos" displayName="JELOS" />
+		<include name="knulli" displayName="Knulli" />
+		<include name="projectarcade" displayName="ProjectArcade" />
+		<include name="rocknix" displayName="Rocknix" />
 		<include name="none" displayName="${none}" tinyScreen="false" />
 	</subset>
 
@@ -192,9 +197,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!-- ESTILO DE CARRUSEL-->
 	<subset name="carousel-type" displayName="${CarouselType}">
-		<include name="PS4" displayName="PS4">./_theme_options/systemcarousels/carousel-ps4.xml</include>
-		<include name="PS5" displayName="PS5">./_theme_options/systemcarousels/carousel-ps5.xml</include>
-		<include name="PS3" displayName="PS3">./_theme_options/systemcarousels/carousel-ps3.xml</include>
+		<include name="PS4" displayName="PlayStation 4">./_theme_options/systemcarousels/carousel-ps4.xml</include>
+		<include name="PS5" displayName="PlayStation 5">./_theme_options/systemcarousels/carousel-ps5.xml</include>
+		<include name="PS3" displayName="PlayStation 3">./_theme_options/systemcarousels/carousel-ps3.xml</include>
 	</subset>
 
 	<!--TAMAÑO CARRUSEL-->
@@ -290,7 +295,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--SONIDOS DE NAVEGACION-->
 	<subset name="nav-sound" displayName="${theme.nav-sounds}">
 		<include name="ps5" displayName="PlayStation 5">./_theme_options/sound-effects/ps5.xml</include>
-		<include name="ps4" displayName="PlayStation 3/4">./_theme_options/sound-effects/ps4.xml</include>
+		<include name="ps4" displayName="PlayStation 4">./_theme_options/sound-effects/ps4.xml</include>
+		<include name="ps3" displayName="PlayStation 3">./_theme_options/sound-effects/ps3.xml</include>
+		<include name="ps2" displayName="PlayStation 2">./_theme_options/sound-effects/ps2.xml</include>
 		<include name="sd" displayName="Steam Deck">./_theme_options/sound-effects/sd.xml</include>
 		<include name="ff" displayName="Final Fantasy">./_theme_options/sound-effects/ff.xml</include>
 	</subset>

@@ -49,6 +49,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                   <pos>0.19 0</pos>
                   <padding>0.04 0 0.04 0</padding>
                </text>
+               <storyboard ifSubset="nav-sound:ps2">
+                  <sound path="${themePath}/_theme_inc/sound-effects/ps2/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
+               </storyboard>
+               <storyboard ifSubset="nav-sound:ps3">
+                  <sound path="${themePath}/_theme_inc/sound-effects/ps3/enter-system.ogg"/>
+                  <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
+               </storyboard>
                <storyboard ifSubset="nav-sound:ps4">
                   <sound path="${themePath}/_theme_inc/sound-effects/ps4/enter-system.ogg"/>
                   <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
@@ -65,6 +73,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                   <sound path="${themePath}/_theme_inc/sound-effects/ps5/enter-system.ogg"/>
                   <animation property="y" from="0.5" duration="500" mode="easeOutCubic" />
                </storyboard>
+
+
              </container>
           </itemTemplate>
       </carousel>
