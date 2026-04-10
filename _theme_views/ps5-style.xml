@@ -25,6 +25,35 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
+
+
+      <image name="gamegrid-console" extra="true">
+         <tile>false</tile>
+         <pos>0.92 0.115</pos>
+         <origin>1 0</origin>
+         <verticalAlignment>bottom</verticalAlignment>
+         <alignment>center</alignment>
+         <maxSize>0.125 0.17</maxSize>
+         <path>${themePath}/_theme_inc/images/consoles/${system.theme}.png</path>
+         <zIndex>98</zIndex>
+         <linearSmooth>true</linearSmooth>
+         <opacity>0</opacity>
+         <storyboard>
+            <animation property="offsetY" from="0.2" duration="600" mode="easeOutCubic" />
+            <animation property="opacity" to="1" duration="350" mode="linear" />
+          </storyboard>
+      </image>
+
+      <image name="gamegrid-console" extra="true" region="eu" />
+      <image name="gamegrid-console" extra="true" region="us">
+         <path>${themePath}/_theme_inc/images/consoles/us/${system.theme}.png</path>
+      </image>
+      <image name="gamegrid-console" extra="true" region="jp">
+         <path>${themePath}/_theme_inc/images/consoles/jp/${system.theme}.png</path>
+      </image>
+
+
+
       <imagegrid name="gamegrid">
          <imageSource ifSubset="grid-origin:image">image</imageSource>
          <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
@@ -34,7 +63,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout>5 2</autoLayout>
-         <autoLayout ifSubset="aspect-ratio:4-3|5-4">4 2</autoLayout>
+         <autoLayout ifSubset="aspect-ratio:4-3|5-4|3-2">4 2</autoLayout>
          <autoLayout  ifSubset="aspect-ratio:21-9">7 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail">9 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail" if="{system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'gameandwatch'">5 2</autoLayout>
@@ -42,6 +71,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1.08</autoLayoutSelectedZoom>
          <margin>0.01 0.013</margin>
+         <margin ifSubset="aspect-ratio:21-9">0.005 0.013</margin>
          <size >0.85 0.6</size>
          <h ifSubset="aspect-ratio:16-10|4-3|5-4">0.55</h>
          <pos>0.075 0.34</pos>

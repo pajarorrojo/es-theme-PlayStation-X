@@ -17,15 +17,15 @@ We hope you enjoy it! Your feedback is always welcome, and if you like the theme
 
 |                                    |                                    |
 | :--------------------------------: | :--------------------------------: |
+| ![](https://es-theme-playstation-x.tocapixels.com/42/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/04.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/42/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/02.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/42/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/04.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/06.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/43/01.png) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/12.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/14.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/03.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |
@@ -41,7 +41,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X/releases/tag/Previous-rele
 
 ## An improved game lists enviroment!
 
-Since version 37 the game list combines the following theme options: 6 view types (detailed, grid, horizontal carousel, ps4Style carousel, full grid and Game by game), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
+The game list combines the following theme options: 7 view types (detailed list , grid, horizontal carousel, PS4 Style carousel, PS5 Style grid, full grid and game by game), all scraped image formats for both the main position and within the grid (image, thumbnail, marquee, fanart, boxart, boxback, cartridge, and titleshot, or none), 5 ways to display game videos (window, background video, within the grid, and overlay, or none), background fanart, and the ability to hide or show game descriptions and extra information. And of course, all adapted to the screen aspect ratios already supported by the theme.
 
 [![Playstation X 37 Re-viewed (All Views)](https://es-theme-playstation-x.tocapixels.com/thumbvideo/thumb-01.jpg)](https://www.youtube.com/watch?v=cbo0sx8Mk3Eb)
 
@@ -146,7 +146,7 @@ You can also activate the default music tracks from batocera turning off the "pl
 
 ### ENABLE NAVIGATION SOUNDS
 
-Playstation-X has specific navigation sounds to enrich the user experience. Batocera has this feature disabled by default. You can activate the navigation sounds in "Enable navigation sounds" option under the batocera sound menu.
+Playstation-X has specific navigation sounds to enrich the user experience. Batocera and other frontends has this feature disabled by default. You can activate the navigation sounds in "Enable navigation sounds" option under the batocera sound menu.
 
 --------------------------------
 
@@ -157,12 +157,13 @@ Thanks and credits:
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
 - Snapouille and Soaresden, for helping with French translation https://github.com/Snapouille
 - Janderson for helping with Portuguese translation https://github.com/JandersonJS
-- TheDayG0ne and Vortex or helping with Russian translation https://github.com/TheDayG0ne
+- TheDayG0ne and Vortex for helping with Russian translation https://github.com/TheDayG0ne
 - CadmiumRED for helping with some test and medias https://github.com/CadmiumRED/
 - renetrox87 for inspiration with the overlayed arts https://github.com/Renetrox/
+- Manu for helping with some overlay arts https://github.com/manutortosa-collab/
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
 - Zoidburg13 For its collection of icons, some of which are used in the PS3 carousel https://github.com/Zoidburg13
-- To the entire batocera team, members and contributors, for making and incredible piece of software and a truly open community.
+- To the entire batocera team, members and contributors, for making an incredible masterpiece of software and a truly open community.
 
 Some media files like system backgrounds, consoles or logos have been selected from the default Carbon theme
 

@@ -12,14 +12,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
       </image>
-      <image name="logo" region="us" extra="true">
+      <image name="logo" region="us">
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.svg</path>
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.png</path>
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-us.svg</path>
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-us.png</path>
       </image>
 
-      <image name="logo" region="jp" extra="true">
+      <image name="logo" region="jp">
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}.png</path>
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-jp.svg</path>
          <path>${themePath}/_theme_inc/images/caratulas/carousel-ps3/${system.theme}-jp.png</path>

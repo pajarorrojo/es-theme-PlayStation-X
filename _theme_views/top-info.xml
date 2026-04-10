@@ -16,7 +16,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.029</fontSize>
          <fontSize tinyScreen="true">0.027</fontSize>
          <x>0.920</x>
-         <x ifSubset="aspect-ratio:3-2|16-10|5-3|16-9">0.918 </x>
+         <x ifSubset="aspect-ratio:3-2|16-10|5-3|16-9">0.91 </x>
          <x ifSubset="aspect-ratio:4-3|5-4">0.912</x>
          <y>0.047</y>
          <color>ffffff</color>
@@ -418,7 +418,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="version" extra="static" ifSubset="top-info:default">
-         <text>v.42</text>
+         <text>v.43</text>
          <pos>0.563 0.012</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.547 0.012</pos>
          <size>0.064 0.035</size>
@@ -472,6 +472,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <text>${theme.nick}</text>
          <text ifSubset="system-username:custom">${custom.nick}</text>
          <pos>0.660 0.05</pos>
+         <pos ifSubset="aspect-ratio:21-9">0.65 0.05</pos>
          <pos ifSubset="aspect-ratio:16-10">0.662 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.68 0.05</pos>
          <pos ifSubset="aspect-ratio:4-3" tinyScreen="true">0.685 0.045</pos>
@@ -511,7 +512,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <text name="theme-release-year" extra="static" ifSubset="top-info:default">
-         <text>2025</text>
+         <text>2026</text>
          <pos>0.875 0.052</pos>
          <pos ifSubset="aspect-ratio:16-10">0.88 0.052</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4">0.87 0.052</pos>

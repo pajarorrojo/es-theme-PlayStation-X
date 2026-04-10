@@ -1,0 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Kirby franchise is a video game series created by Nintendo and mainly developed by HAL Laboratory. It began in 1992 with Kirby’s Dream Land for the Game Boy. The main character is Kirby, a small and friendly pink creature who lives in Dream Land on Planet Popstar. His most famous ability is inhaling enemies and copying their powers, allowing him to use different skills such as fire, sword, ice, and many more.
+
+Kirby games are known for their colorful style, cheerful music, and accessible gameplay suitable for all kinds of players. Although they may seem simple at first, many titles include optional challenges and hidden secrets. The series has appeared on multiple Nintendo consoles, featuring both 2D and 3D platformers, as well as spin-offs and multiplayer modes that expand the classic experience.</text>
+			<text lang="es,gl,ca,eu">La franquicia Kirby es una serie de videojuegos creada por Nintendo y desarrollada principalmente por HAL Laboratory. Comenzó en 1992 con Kirby’s Dream Land para Game Boy. El protagonista es Kirby, una pequeña y simpática criatura rosada que vive en Dream Land, en el planeta Pop Star. Su habilidad más famosa es inhalar enemigos y copiar sus poderes, lo que le permite usar diferentes habilidades como fuego, espada, hielo y muchas más.
+
+Los juegos de Kirby se caracterizan por su estilo colorido, música alegre y una jugabilidad accesible para todo tipo de jugadores. Aunque parecen sencillos, muchos títulos incluyen desafíos opcionales y secretos. La serie ha abarcado múltiples consolas de Nintendo, con juegos de plataformas en 2D y 3D, además de spin-offs y modos multijugador que amplían la experiencia clásica.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Kirby</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>FF0000</colorEnd>
+			<color>7A4DFF</color>
+		</image>
+	</view>
+</theme>

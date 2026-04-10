@@ -69,7 +69,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</image>
 
       <image name="gridtile.marquee:videoplaying" ifSubset="grid-origin:marquee|default">
-         <pos>0.5 0.15</pos>
+         <pos>0.5 0.85</pos>
          <maxSize>0.5 0.2</maxSize>
       </image>
 
@@ -457,6 +457,94 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <padding>0.008 0.008</padding>
             <visible>{game:spinnerGame}</visible>
          </text>
+
+         <text name="contenedor-separador-tags">
+            <text>•</text>
+            <fontSize>0.022</fontSize>
+            <color>FFFFFF</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <visible>!empty({game:tags})</visible>
+          </text>
+
+         <image name="finished-ico">
+            <visible>inlist(lower({game:tags}), 'finished')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/F11E.png</path>
+            <maxSize>1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image> 
+
+         <image name="inprogress-ico">
+            <visible>inlist(lower({game:tags}), 'in progress')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/F144.png</path>
+            <maxSize>1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image> 
+
+
+         <image name="slow-ico">
+            <visible>inlist(lower({game:tags}), 'slow')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/F071.png</path>
+            <maxSize>1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image>
+
+
+         <image name="notwork-ico">
+            <visible>inlist(lower({game:tags}), 'not working')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/F057.png</path>
+            <maxSize>1 1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image> 
+
+         <image name="bug-ico">
+            <visible>inlist(lower({game:tags}), 'buggy')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/F070.png</path>
+            <maxSize>1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image>
+
+         <image name="like-ico">
+            <visible>inlist(lower({game:tags}), 'liked')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/like.png</path>
+            <maxSize>1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image>
+
+         <image name="dislike-ico">
+            <visible>inlist(lower({game:tags}), 'disliked')</visible>
+            <linearSmooth>true</linearSmooth>
+            <padding>0 0</padding>
+            <path>${themePath}/resources/fontoverrides/dislike.png</path>
+            <maxSize>1</maxSize>
+            <storyboard>
+               <animation property="opacity" from="1" to="0.6" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" />      
+            </storyboard>
+         </image>
+
 
          <text name="contenedor-separador-kb">
             <text>•</text>

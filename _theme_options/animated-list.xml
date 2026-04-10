@@ -73,12 +73,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <storyboard event="deactivateNext">
         <animation property="opacity" to="0" duration="300" mode="easeOut" />
         <animation property="offsetX" to="-0.05" duration="300" mode="easeOutCubic" />
-
       </storyboard>
       <storyboard event="deactivatePrev">
         <animation property="opacity" to="0" duration="300" mode="easeOut" />
         <animation property="offsetX" to="0.05" duration="300" mode="easeOutCubic" />
-
       </storyboard>
     </control>
   
@@ -204,7 +202,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   </customView>
 
-  <!-- ps5Style 
+  <!-- ps5Style -->
 
   <customView name="ps5Style">
 
@@ -251,7 +249,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
   </customView>
 
-  -->
+
   <!-- single -->
 
   <customView name="single">

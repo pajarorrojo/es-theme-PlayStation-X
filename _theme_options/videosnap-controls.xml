@@ -169,7 +169,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       </customView>
 
-       <!-- ps5Style 
+       <!-- ps5Style -->
 
  <customView name="ps5Style"  ifSubset="game-video:inside|default|window">
 
@@ -198,7 +198,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    </video>
  
  </customView>
- -->
+
 
       <!--carousel-->
 

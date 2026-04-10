@@ -1,3 +1,19 @@
+Version 43 (April 10, 2026)
+
+- New: New PS5-style game list!
+- New: Icons for the new metadata tags (Finished, In progress, Bug etc.) in all views.
+- New: Predefined theme collections for Kirby and Tomb Raider.
+- Change: Optimized the code that handles overlay art in game lists.
+- Change: Amiga and NES system videos.
+- Change: Now the theme has been adapted to allow the incorporation of system overlay arts for each region.
+- Fix: Chinese strings (Thanks to lanlan3292).
+- Added: System videos for Amiga 1200, Gamate, Nintendo Switch, Philips Videopac, Casio PV-1000, Oric, RetroBat, TI-99, and Super Cassette Vision.
+- Added: Overlay art characters for Kirby, Silent Hill (Pyramid Head), Final Fight (Guy), Final Fantasy XIII, Parasite Eve, Robotnik, Chrono Trigger, Spyro and X-Men (Wolverine). Also added from Manu's collab fork: Banjo-Kazooie, Vajra Fight, Ranma ½, Aleste, Pentaro, Demon Slayer, Valorant, Gravity Rush and Hollow Knight.
+- Added: Missing media data and/or information for the PC-60, Cassette Vision, Game.com, BennuGD, EA Games, GOG, SuperGrafx, Blake Stone, and Enterprise systems.
+
+
+
+-----------------------
 Version 42.3 (December 19, 2025)
 
 - Change: Logos for 3DO system
@@ -6,6 +22,7 @@ Version 42.3 (December 19, 2025)
 - Update: RU translation (Thanks to Vortex)
 - Fix: 3DO and 32X labels displayed Nintendo NES in automatic and custom collection.
 - Added: Spider-Man (Thx to renetrox) to image avatar list.
+
 
 
 

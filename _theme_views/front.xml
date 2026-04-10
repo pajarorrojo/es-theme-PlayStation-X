@@ -54,6 +54,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <autoFade>false</autoFade>
          <size>0 1</size>
          <path>${themePath}/${theme.overlayArtsPath}/systems/${system.theme}.png</path>
+         <path region="jp">${themePath}/${theme.overlayArtsPath}/systems/jp/${system.theme}-jp.png</path>
+         <path region="us">${themePath}/${theme.overlayArtsPath}/systems/us/${system.theme}-us.png</path>
          <zIndex>98</zIndex>
          <opacity>0</opacity>
          <origin>1 0.5</origin>

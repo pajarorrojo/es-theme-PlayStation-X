@@ -42,11 +42,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include if="{screen.ratio} == '21/9'" name="21-9" displayName="21:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '30/17'" name="16-9" displayName="16:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})"/>
-	</subset>
-
-
-	<!--RELACION DE ASPECTO NO DETECTADA (mostramos todas las opciones) -->
-	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
 		<include name="16-9" displayName="16:9 widescreen" />
 		<include name="4-3" displayName="4:3 standard" />
 		<include name="16-10" displayName="16:10" />
@@ -532,7 +527,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
-			<fontSize>0.0235</fontSize>
+			<fontSize>0.021</fontSize>
 			<fontSize tinyScreen="true">0.022</fontSize>
 			<forceUppercase tinyScreen="true">true</forceUppercase>
 			<color>ffffff</color>
@@ -634,7 +629,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<include>./_theme_views/grid.xml</include>
 	<include ifSubset="overlay-gamelist-arts:YES">${themePath}/_theme_options/gamelist-overlay.xml</include>
 	<include>./_theme_views/ps4-style.xml</include>
-	<!-- <include>./_theme_views/ps5-style.xml</include> -->
+	<include>./_theme_views/ps5-style.xml</include>
 	<include>./_theme_views/carousel.xml</include>
 	<include>./_theme_views/full-grid.xml</include>
 	<include>./_theme_views/single.xml</include>

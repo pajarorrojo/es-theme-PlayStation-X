@@ -16,7 +16,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <fontSize>0.029</fontSize>
          <fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.032</fontSize>
          <x>0.920</x>
-         <x ifSubset="aspect-ratio:3-2|16-10|5-3|16-9">0.918 </x>
+         <x ifSubset="aspect-ratio:3-2|16-10|5-3|16-9">0.91 </x>
          <x ifSubset="aspect-ratio:4-3|5-4">0.912</x>
          <fontPath tinyScreen="true">${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
          <forceUppercase tinyScreen="true">true</forceUppercase>

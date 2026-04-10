@@ -1,0 +1,28 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Tomb Raider saga is an action-adventure video game series that began in 1996, originally developed by Core Design and published by Eidos Interactive. The story follows the adventures of Lara Croft, a skilled archaeologist and explorer who travels around the world in search of ancient artifacts and lost civilizations. During her journeys, she faces dangerous traps, wild environments, and powerful enemies.
+
+Tomb Raider stands out for combining exploration, platforming, puzzle-solving, and combat. Over the years, the series evolved and included a modern reboot that presents a more realistic and deeper version of Lara Croft’s character. With numerous main titles, spin-offs, and adaptations into other media, it has become one of the most influential and recognized sagas in video game history.</text>
+			<text lang="es,gl,ca,eu">La saga Tomb Raider es una serie de videojuegos de acción y aventura que comenzó en 1996, desarrollada originalmente por Core Design y publicada por Eidos Interactive. La historia sigue las aventuras de Lara Croft, una arqueóloga y exploradora experta que recorre el mundo en busca de artefactos antiguos y civilizaciones perdidas. En sus viajes se enfrenta a trampas peligrosas, entornos salvajes y enemigos poderosos.
+
+Tomb Raider destaca por combinar exploración, plataformas, resolución de puzles y combate. Con el paso de los años, la serie evolucionó e incluyó un reinicio moderno que presenta una versión más realista y profunda del personaje de Lara Croft. Con numerosos títulos principales, entregas derivadas y adaptaciones a otros medios, se ha convertido en una de las sagas más influyentes y reconocidas de la historia de los videojuegos.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Tomb Raider</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>FF0000</colorEnd>
+			<color>7A4DFF</color>
+		</image>
+	</view>
+</theme>

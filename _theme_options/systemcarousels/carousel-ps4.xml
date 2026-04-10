@@ -12,12 +12,12 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
       </image>
-      <image name="logo" region="us" extra="true">
+      <image name="logo" region="us">
          <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
          <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.png</path>
       </image>
 
-      <image name="logo" region="jp" extra="true">
+      <image name="logo" region="jp">
          <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
          <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.png</path>
       </image>
