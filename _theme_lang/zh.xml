@@ -1,4 +1,4 @@
-﻿<!-- Theme by pajarorrojo
+<!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
 <theme>
@@ -80,7 +80,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gameDescription>显示游戏描述</theme.gameDescription>
     <carouselViewName>水平旋转木马</carouselViewName>
     <ps4StylelViewName>PS4 风格</ps4StylelViewName>    
-    <ps5StylelViewName>PS5 风格</ps5StylelViewName>    
+    <ps5StylelViewName>PS5 风格</ps5StylelViewName>   
     <theme.mainImage>特色图片</theme.mainImage>    
     <theme.gridImage>旋转木马或网格图像</theme.gridImage>
     <fullGridlViewName>完整网格</fullGridlViewName>
@@ -99,17 +99,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <dummydata.showversion>仅版本</dummydata.showversion>
     <dummydata.showyear>仅年份</dummydata.showyear>
     <theme.hardwareType if="${system.hardwareType} == 'console'">游戏机</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'extension'">额外扩展</theme.hardwareType>
     <theme.hardwareType if="${system.hardwareType} == 'computer'">电脑</theme.hardwareType>
-    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">自定义收藏</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'arcade'">街机</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'custom collection'">自定义合集</theme.hardwareType>
     <theme.hardwareType if="${system.hardwareType} == 'portable'">便携式游戏机</theme.hardwareType>
     <theme.hardwareType if="${system.hardwareType} == 'system'">系统</theme.hardwareType>
-    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">自动收藏</theme.hardwareType>
-    <theme.thumbnail-type>游戏盒子类型（优先</theme.thumbnail-type>
+    <theme.hardwareType if="${system.hardwareType} == 'port'">移植</theme.hardwareType>
+    <theme.hardwareType if="${system.hardwareType} == 'auto collection'">自动合集</theme.hardwareType>
+    <theme.thumbnail-type>游戏盒子类型(优先)</theme.thumbnail-type>
     <theme.showlogo>显示游戏徽标</theme.showlogo>
     <theme.topinfoarea>热门信息区域</theme.topinfoarea>
     <theme.clean>干净/最小</theme.clean>
     <theme.region>区域</theme.region>
-    <theme.europa>欧洲</theme.europa>
+    <theme.europe>欧洲</theme.europe>
     <theme.usa>美国</theme.usa>
     <theme.japan>日本</theme.japan>  
     <theme.overlayExtra>显示系统视图中的叠加艺术</theme.overlayExtra>
