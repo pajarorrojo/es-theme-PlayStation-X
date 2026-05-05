@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Commander X16 is a modern computer platform inspired by classic 8-bit home systems. It was designed as a retro-style machine for enthusiasts who enjoy programming, gaming, and learning how computers worked during the home computing era, while still benefiting from modern development tools and an active community.
+
+The project focuses on simplicity, accessibility, and a close connection to the spirit of vintage computers such as the Commodore 64. Its software environment encourages users to create games, experiment with BASIC and assembly language, and explore low-level programming in a way that feels direct and approachable.
+
+More than just a piece of hardware, Commander X16 represents a celebration of retro computing culture. It appeals to hobbyists, developers, and collectors interested in a system that combines nostalgic design with a fresh platform for new creations.</text>
+			<text lang="es,gl,ca,eu">Commander X16 es una plataforma informática moderna inspirada en los clásicos ordenadores domésticos de 8 bits. Fue concebida como una máquina de estilo retro para aficionados a la programación, los videojuegos y el aprendizaje de cómo funcionaban los ordenadores en la era doméstica, pero aprovechando al mismo tiempo herramientas modernas de desarrollo y una comunidad activa.
+
+El proyecto apuesta por la sencillez, la accesibilidad y una conexión muy clara con el espíritu de equipos clásicos como el Commodore 64. Su entorno de software anima a crear juegos, experimentar con BASIC y ensamblador, y explorar la programación de bajo nivel de una forma directa y accesible.
+
+Más que un simple hardware, Commander X16 representa una celebración de la cultura de la informática retro. Resulta atractivo para entusiastas, desarrolladores y coleccionistas que buscan un sistema con sabor nostálgico y, al mismo tiempo, una base nueva sobre la que crear proyectos originales.</text>
+			<text lang="fr">Commander X16 est une plateforme informatique moderne inspirée des ordinateurs familiaux 8 bits classiques. Elle a été pensée comme une machine au style rétro pour les passionnés de programmation, de jeux vidéo et d’informatique ancienne, tout en profitant d’outils de développement modernes et d’une communauté active.
+
+Le projet met l’accent sur la simplicité, l’accessibilité et un lien évident avec l’esprit de machines emblématiques comme le Commodore 64. Son environnement logiciel encourage les utilisateurs à créer des jeux, expérimenter avec le BASIC et l’assembleur, et découvrir la programmation bas niveau d’une manière directe et abordable.
+
+Plus qu’un simple matériel, Commander X16 représente une célébration de la culture informatique rétro. Il attire les amateurs, les développeurs et les collectionneurs qui recherchent un système au charme nostalgique, mais aussi une nouvelle plateforme pour créer des projets inédits.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Commander X16</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>1c1c1c</colorEnd> <!-- gris oscuro del hardware -->
+			<color>2f5fff</color> <!-- azul retro informático -->
+		</image>
+	</view>
+</theme>

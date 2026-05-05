@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Rayman is a platform game series created by Ubisoft that began in 1995. It follows Rayman, a limbless hero with floating hands and feet, who embarks on adventures across imaginative worlds to restore balance and defeat various villains. The series is known for its colorful environments, whimsical characters, and creative level design.
+
+Over the years, Rayman has evolved through different styles and gameplay approaches. Early entries focused on traditional 2D platforming, while later titles explored 3D environments before returning to a refined 2D style with games like Rayman Origins and Rayman Legends. These modern entries are especially praised for their fluid animation, tight controls, and cooperative multiplayer modes.
+
+With its distinctive artistic direction, memorable music, and accessible yet challenging gameplay, Rayman has remained one of Ubisoft’s most iconic properties, appealing to both casual players and platforming fans alike.</text>
+			<text lang="es,gl,ca,eu">Rayman es una serie de videojuegos de plataformas creada por Ubisoft que comenzó en 1995. El protagonista es Rayman, un héroe sin extremidades con manos y pies flotantes, que vive aventuras en mundos imaginativos para restaurar el equilibrio y enfrentarse a distintos villanos. La saga destaca por sus escenarios coloridos, personajes carismáticos y un diseño de niveles muy creativo.
+
+A lo largo de los años, Rayman ha evolucionado con diferentes estilos y enfoques jugables. Las primeras entregas apostaban por plataformas en 2D, mientras que títulos posteriores exploraron entornos en 3D antes de regresar a un estilo 2D modernizado con juegos como Rayman Origins y Rayman Legends. Estas entregas modernas son especialmente valoradas por sus animaciones fluidas, controles precisos y modos cooperativos.
+
+Gracias a su dirección artística única, su música memorable y una jugabilidad accesible pero desafiante, Rayman se ha mantenido como una de las propiedades más emblemáticas de Ubisoft, atrayendo tanto a jugadores casuales como a amantes de las plataformas.</text>
+			<text lang="fr">Rayman est une série de jeux de plateformes créée par Ubisoft, lancée en 1995. Elle met en scène Rayman, un héros sans membres aux mains et pieds flottants, qui part à l’aventure dans des mondes imaginatifs pour rétablir l’équilibre et affronter divers ennemis. La série se distingue par ses environnements colorés, ses personnages originaux et son level design inventif.
+
+Au fil des années, Rayman a évolué à travers différents styles et approches de gameplay. Les premiers épisodes proposaient des plateformes en 2D classiques, tandis que certains titres ont exploré la 3D avant de revenir à un style 2D modernisé avec des jeux comme Rayman Origins et Rayman Legends. Ces épisodes récents sont particulièrement appréciés pour leurs animations fluides, leurs contrôles précis et leurs modes coopératifs.
+
+Grâce à sa direction artistique unique, sa musique marquante et un gameplay accessible mais exigeant, Rayman reste l’une des licences les plus emblématiques d’Ubisoft, séduisant aussi bien les joueurs occasionnels que les amateurs de jeux de plateformes.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Rayman</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>c217d9</colorEnd>
+			<color>f37c0c</color>
+		</image>
+	</view>
+</theme>

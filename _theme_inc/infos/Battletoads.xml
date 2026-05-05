@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Battletoads is a series of action games created by Rare, first released in 1991. The games follow a group of anthropomorphic toads—Rash, Zitz, and Pimple—who take on various enemies to rescue their friends and defeat the Dark Queen. Known for their exaggerated style and humor, the characters rely on powerful transformations and over-the-top attacks during combat.
+
+The series mixes beat 'em up gameplay with platforming sections and a variety of unique mechanics, often changing style from level to level. Some stages focus on traditional combat, while others introduce high-speed sequences, obstacle courses, or vehicle-based challenges, making each level feel distinct.
+
+Battletoads became especially famous for its high difficulty and memorable design, gaining a reputation as one of the most challenging experiences of its era. Over time, it has appeared on multiple platforms, including modern reboots, maintaining its identity through fast-paced gameplay, striking visuals, and a strong sense of personality.</text>
+			<text lang="es,gl,ca,eu">Battletoads es una serie de juegos de acción creada por Rare que comenzó en 1991. Los protagonistas son Rash, Zitz y Pimple, tres sapos antropomórficos que se enfrentan a todo tipo de enemigos para rescatar a sus aliados y derrotar a la Reina Oscura. Destacan por su estilo exagerado, su humor y sus ataques transformables durante el combate.
+
+La serie combina acción tipo beat 'em up con secciones de plataformas y mecánicas muy variadas, cambiando con frecuencia el estilo de juego en cada fase. Algunos niveles se centran en el combate clásico, mientras que otros introducen secuencias de alta velocidad, fases de obstáculos o desafíos con vehículos, haciendo que cada tramo sea diferente.
+
+Battletoads se hizo especialmente conocida por su elevada dificultad y su diseño memorable, ganándose fama como una de las experiencias más exigentes de su época. Con el tiempo ha aparecido en varias plataformas, incluyendo versiones modernas, manteniendo su identidad gracias a su ritmo rápido, su estética llamativa y su gran personalidad.</text>
+			<text lang="fr">Battletoads est une série de jeux d’action créée par Rare, lancée en 1991. Elle met en scène Rash, Zitz et Pimple, trois crapauds anthropomorphes qui affrontent de nombreux ennemis pour sauver leurs alliés et vaincre la Reine Noire. Les personnages se distinguent par leur style exagéré, leur humour et leurs attaques spectaculaires basées sur des transformations.
+
+La série mélange beat 'em up, plateformes et une grande variété de mécaniques, avec des niveaux qui changent régulièrement de style. Certains se concentrent sur le combat classique, tandis que d’autres proposent des séquences rapides, des parcours d’obstacles ou des phases avec véhicules, rendant chaque niveau unique.
+
+Battletoads est particulièrement connue pour sa difficulté élevée et son design marquant, étant souvent considérée comme l’un des jeux les plus exigeants de son époque. Elle a depuis été adaptée sur plusieurs plateformes, y compris avec des versions modernes, tout en conservant son rythme dynamique, son style visuel distinctif et son humour caractéristique.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Battletoads</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>e0d315</colorEnd>
+			<color>39ff14</color> <!-- verde neón -->
+		</image>
+	</view>
+</theme>

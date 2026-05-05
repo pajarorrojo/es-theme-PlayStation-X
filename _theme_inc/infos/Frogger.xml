@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Frogger is a long-running arcade and video game series that began in 1981, originally created by Konami. The games usually place the player in control of a frog that must cross roads, rivers, and other hazardous environments while avoiding vehicles, water, enemies, and moving obstacles.
+
+The series became famous for its simple premise, immediate challenge, and highly recognizable gameplay. While the original formula focused on timing, movement, and quick decision-making, later entries expanded the concept with new settings, characters, level structures, and visual styles, adapting the idea to different generations of hardware.
+
+Over the years, Frogger has appeared in arcades, home consoles, handheld systems, and modern digital platforms. Its accessible design and iconic concept have made it one of the most enduring names in classic gaming, remembered both for its arcade roots and its many reinterpretations.</text>
+			<text lang="es,gl,ca,eu">Frogger es una veterana serie de videojuegos y recreativas que comenzó en 1981, creada originalmente por Konami. En sus distintas entregas, el jugador suele controlar a una rana que debe cruzar carreteras, ríos y otros entornos peligrosos, esquivando vehículos, agua, enemigos y obstáculos en movimiento.
+
+La serie se hizo famosa por su propuesta sencilla, su desafío inmediato y una jugabilidad muy fácil de reconocer. Aunque la fórmula original se basaba en el tiempo de reacción, el movimiento y la toma rápida de decisiones, las entregas posteriores ampliaron la idea con nuevos escenarios, personajes, estructuras de niveles y estilos visuales, adaptándola a distintas generaciones.
+
+Con el paso de los años, Frogger ha aparecido en recreativas, consolas domésticas, portátiles y plataformas digitales modernas. Su diseño accesible y su concepto icónico la han convertido en uno de los nombres más duraderos del videojuego clásico, recordado tanto por sus orígenes arcade como por sus numerosas reinterpretaciones.</text>
+			<text lang="fr">Frogger est une série emblématique de jeux vidéo et d’arcade apparue en 1981, créée à l’origine par Konami. Dans la plupart de ses versions, le joueur contrôle une grenouille qui doit traverser des routes, des rivières et d’autres environnements dangereux en évitant les véhicules, l’eau, les ennemis et divers obstacles mobiles.
+
+La série s’est fait connaître grâce à son principe simple, son défi immédiat et un gameplay instantanément reconnaissable. Si la formule d’origine reposait surtout sur le timing, le déplacement et la rapidité de décision, les épisodes suivants ont enrichi le concept avec de nouveaux décors, personnages, structures de niveaux et styles visuels, en l’adaptant à différentes époques du jeu vidéo.
+
+Au fil des années, Frogger est apparu sur bornes d’arcade, consoles, systèmes portables et plateformes numériques modernes. Son accessibilité et son concept iconique en ont fait l’un des noms les plus durables du jeu vidéo classique, aussi bien pour ses racines arcade que pour ses nombreuses réinterprétations.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Frogger</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>1f6fb2</colorEnd>
+			<color>4caf50</color>
+		</image>
+	</view>
+</theme>

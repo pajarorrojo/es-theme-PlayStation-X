@@ -20,12 +20,12 @@ We hope you enjoy it! Your feedback is always welcome, and if you like the theme
 | ![](https://es-theme-playstation-x.tocapixels.com/42/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/04.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/04.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/42/01.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/02.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/43/01.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/41/15.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/43/05.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/07.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/08.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/09.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/10.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/11.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/12.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/43/02.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/43/03.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/13.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/14.jpg) |
-| ![](https://es-theme-playstation-x.tocapixels.com/41/05.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
+| ![](https://es-theme-playstation-x.tocapixels.com/43/04.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/16.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/17.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/42/03.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/19.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/20.jpg) |
 | ![](https://es-theme-playstation-x.tocapixels.com/41/21.jpg) | ![](https://es-theme-playstation-x.tocapixels.com/41/22.jpg) |

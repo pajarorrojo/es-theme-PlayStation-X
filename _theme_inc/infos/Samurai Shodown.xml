@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Samurai Shodown is a weapon-based fighting game series developed by SNK, first released in 1993. Set in a stylized version of feudal Japan, the games feature samurai, ninjas, and other warriors who engage in duels using swords and traditional weapons, with a strong emphasis on timing and precision.
+
+Unlike many other fighting games, the series focuses on slower, more deliberate combat, where a single well-placed strike can deal significant damage. This creates a tense and strategic pace, rewarding patience, spacing, and careful decision-making over rapid combos.
+
+Over the years, Samurai Shodown has evolved with multiple entries that refine its mechanics while maintaining its core identity. Known for its distinctive art style inspired by Japanese ink paintings and its unique approach to combat, the series remains one of SNK’s most respected and recognizable fighting game properties.</text>
+			<text lang="es,gl,ca,eu">Samurai Shodown es una serie de juegos de lucha con armas desarrollada por SNK que comenzó en 1993. Ambientada en una versión estilizada del Japón feudal, presenta samuráis, ninjas y otros guerreros que se enfrentan en duelos utilizando espadas y armas tradicionales, con un fuerte énfasis en el tiempo y la precisión.
+
+A diferencia de otros juegos de lucha, la serie apuesta por combates más lentos y calculados, donde un solo golpe bien ejecutado puede causar un gran daño. Esto genera un ritmo tenso y estratégico, en el que se premian la paciencia, la distancia y la toma de decisiones.
+
+Con el paso del tiempo, Samurai Shodown ha evolucionado con múltiples entregas que refinan sus mecánicas sin perder su esencia. Destaca por su estilo artístico inspirado en la pintura japonesa tradicional y por su enfoque único dentro del género, siendo una de las sagas más reconocidas de SNK.</text>
+			<text lang="fr">Samurai Shodown est une série de jeux de combat à armes développée par SNK, lancée en 1993. Située dans une version stylisée du Japon féodal, elle met en scène des samouraïs, ninjas et autres guerriers qui s’affrontent en duel avec des armes traditionnelles, avec un fort accent sur le timing et la précision.
+
+Contrairement à de nombreux autres jeux de combat, la série privilégie un rythme plus lent et stratégique, où une seule attaque bien placée peut infliger de lourds dégâts. Cela crée des affrontements tendus, récompensant la patience, le positionnement et la réflexion.
+
+Au fil des années, Samurai Shodown a évolué avec plusieurs épisodes qui ont affiné ses mécaniques tout en conservant son identité. Elle se distingue par son style artistique inspiré de la peinture japonaise à l’encre et par son approche unique du combat, ce qui en fait l’une des séries les plus respectées de SNK.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Samurai Shodown</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>f5f5f0</colorEnd> <!-- blanco papel japonés -->
+			<color>b30000</color> <!-- rojo intenso tipo sello/sol -->
+		</image>
+	</view>
+</theme>

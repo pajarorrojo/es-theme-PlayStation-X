@@ -1,0 +1,31 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Earthworm Jim is a video game series created by Doug TenNapel that debuted in 1994. It follows Jim, an ordinary earthworm who becomes a superhero after discovering a powerful robotic suit that grants him strength, intelligence, and human-like abilities. With these new powers, Jim embarks on bizarre and humorous adventures across surreal worlds filled with strange enemies and absurd situations.
+
+The games are known for their unique blend of platforming and run-and-gun mechanics, along with a distinctive cartoon style and offbeat humor. Earthworm Jim gained popularity on 16-bit consoles like the Sega Genesis and Super Nintendo, standing out for its fluid animation and creative level design. Over time, it expanded into sequels, a television show, and other media, becoming a cult classic remembered for its originality and comedic tone.</text>
+			<text lang="es,gl,ca,eu">Earthworm Jim es una serie de videojuegos creada por Doug TenNapel que debutó en 1994. La historia sigue a Jim, una lombriz de tierra común que se convierte en superhéroe tras encontrar un poderoso traje robótico que le otorga fuerza, inteligencia y habilidades humanas. Con estos nuevos poderes, vive aventuras extrañas y llenas de humor en mundos surrealistas repletos de enemigos peculiares y situaciones absurdas.
+
+Los juegos destacan por su combinación de plataformas y acción tipo run and gun, además de su estilo visual caricaturesco y su humor irreverente. Earthworm Jim alcanzó gran popularidad en consolas de 16 bits como Sega Mega Drive y Super Nintendo, sobresaliendo por sus animaciones fluidas y su diseño de niveles creativo. Con el tiempo, dio lugar a secuelas, una serie de televisión y otras adaptaciones, convirtiéndose en un clásico de culto muy recordado por su originalidad y tono cómico.</text>
+			<text lang="fr">Earthworm Jim est une série de jeux vidéo créée par Doug TenNapel, apparue en 1994. Elle met en scène Jim, un simple ver de terre qui devient un super-héros après avoir trouvé une puissante combinaison robotique lui conférant force, intelligence et capacités humaines. Grâce à ses nouveaux pouvoirs, il vit des aventures étranges et pleines d’humour dans des mondes surréalistes remplis d’ennemis insolites et de situations absurdes.
+
+Les jeux se distinguent par leur mélange de plateformes et d’action de type run and gun, ainsi que par leur style visuel cartoon et leur humour décalé. Earthworm Jim s’est fait connaître sur les consoles 16 bits comme la Sega Mega Drive et la Super Nintendo, grâce à ses animations fluides et à son level design créatif. Avec le temps, la série a donné lieu à des suites, une série télévisée et d’autres adaptations, devenant un classique culte apprécié pour son originalité et son ton comique.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Earthworm Jim</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>0b7fb1</colorEnd>
+			<color>fbf9f8</color>
+		</image>
+	</view>
+</theme>

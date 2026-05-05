@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Double Dragon is a classic beat 'em up series developed by Technōs Japan, first released in arcades in 1987. The games follow martial artists Billy and Jimmy Lee as they fight their way through gangs of enemies to rescue kidnapped allies and restore order in crime-filled streets.
+
+The series is widely regarded as one of the pioneers of the side-scrolling beat 'em up genre, introducing cooperative multiplayer and a strong focus on hand-to-hand combat. Players can punch, kick, grab weapons, and perform various martial arts techniques while progressing through urban environments filled with enemies and bosses.
+
+Over time, Double Dragon expanded with sequels, adaptations, and crossovers, refining its mechanics and adding new moves, characters, and modes. Its influence can be seen in many later titles, and it remains a key reference point in the evolution of action games.</text>
+			<text lang="es,gl,ca,eu">Double Dragon es una clásica serie de videojuegos tipo beat 'em up desarrollada por Technōs Japan, cuyo origen se remonta a los salones recreativos en 1987. En estos juegos, los protagonistas Billy y Jimmy Lee recorren calles llenas de enemigos para rescatar a sus seres queridos y enfrentarse a distintas bandas criminales.
+
+La serie está considerada una de las pioneras del género de acción con desplazamiento lateral, destacando por introducir el modo cooperativo y un sistema de combate centrado en las artes marciales. Los jugadores pueden golpear, patear, usar armas y ejecutar diferentes técnicas mientras avanzan por escenarios urbanos repletos de rivales y jefes finales.
+
+Con el paso del tiempo, Double Dragon fue ampliando su propuesta con secuelas, adaptaciones y colaboraciones con otras sagas, incorporando nuevos movimientos, personajes y modos de juego. Su influencia es evidente en muchos títulos posteriores y sigue siendo una referencia dentro del género.</text>
+			<text lang="fr">Double Dragon est une série classique de jeux de type beat 'em up développée par Technōs Japan, apparue dans les salles d’arcade en 1987. Les jeux mettent en scène Billy et Jimmy Lee, deux experts en arts martiaux, qui affrontent des gangs dans des rues dangereuses pour sauver leurs proches et rétablir l’ordre.
+
+La série est considérée comme l’une des pionnières du beat 'em up à défilement horizontal, notamment grâce à l’introduction du mode coopératif et à un système de combat axé sur les techniques de combat rapproché. Les joueurs peuvent frapper, donner des coups de pied, utiliser des armes et enchaîner différentes attaques tout en progressant dans des environnements urbains remplis d’ennemis et de boss.
+
+Au fil du temps, Double Dragon a évolué avec de nombreuses suites, adaptations et collaborations, enrichissant son gameplay avec de nouveaux mouvements, personnages et modes. Son influence se retrouve dans de nombreux jeux d’action, et elle reste une référence majeure du genre.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Double Dragon</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>efb625</colorEnd>
+			<color>078309</color>
+		</image>
+	</view>
+</theme>

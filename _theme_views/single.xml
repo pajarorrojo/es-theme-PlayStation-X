@@ -122,25 +122,62 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>{system:total} &gt; 0 ? 1 : 0</visible>
       </text>
 
-      <text name="gamename-single" extra="true">
-         <text>{game:name}</text>
-         <pos>0.025 0.37</pos>
-         <y if="${screen.height} &lt;= '480' ">0.29</y>
-         <size>0.9 0.08</size>
-         <color>ffffff</color>
+
+      <stackpanel name="gamename-single" extra="true" >
+         <separator>0.005</separator>
+         <pos>0.025 0.378</pos>
+         <y if="${screen.height} &lt;= '480' ">0.278</y>
+         <size>0.9 0.06</size>
+         <orientation>horizontal</orientation>
          <backgroundColor>ff000000</backgroundColor>
-         <fontSize>0.05</fontSize>
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <origin>0 0</origin>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <autoScrollDelay>0</autoScrollDelay>
-      </text>
+
+         <image name="system-logo" if="${system.manufacturer} == 'Collections'">
+            <path>firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <path region="us">firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + "-us.png", "${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <path region="jp">firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + "-jp.png", "${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <maxSize>1 1</maxSize>
+            <color>ffffff</color>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <pos>0 0</pos>
+            <saturation>0</saturation>
+         </image> 
+
+         <text name="game-name">
+            <text>{game:name}</text>
+            <color>ffffff</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontSize>0.05</fontSize>
+            <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
+            <fontSize tinyScreen="true">0.064</fontSize>
+            <singleLineScroll>true</singleLineScroll>
+            <autoScrollDelay>2000</autoScrollDelay>
+            <backgroundColor>ff000000</backgroundColor>
+            <glowColor>00000035</glowColor>
+            <glowSize>1</glowSize>
+            <glowOffset>3 2</glowOffset>
+            <size>0.71 0.001</size>
+         </text>
+
+         <text name="system-name" if="${system.manufacturer} == 'Collections'">
+            <text>${theme.systemName}</text>
+            <fontSize>0.023</fontSize>
+            <fontSize tinyScreen="true">0.032</fontSize>
+            <forceUppercase tinyScreen="true">true</forceUppercase>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold Italic.ttf</fontPath>
+            <color>000000</color>
+            <padding>0.004 0.004</padding>
+            <padding tinyScreen="true">0.006 0.006</padding>
+            <backgroundColor>ffffff00</backgroundColor>
+            <size>1 0.001</size>
+            <glowColor>ffffffe3</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>0 0</glowOffset>
+            <pos>0 0.13</pos>
+         </text> 
+
+       </stackpanel>
 
       <stackpanel name="contenedor-gamedata">
          <pos>0.026 0.445</pos>
@@ -203,7 +240,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14, overlay-art15" extra="static">
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14, overlay-art15, overlay-art16" extra="static">
          <!--<visible>empty({game:family})</visible>-->
          <visible>true</visible>
       </image>

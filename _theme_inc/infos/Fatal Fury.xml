@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Fatal Fury is a fighting game series developed by SNK, first released in 1991. Set in the fictional South Town, the story follows martial artists such as Terry Bogard, Andy Bogard, and Joe Higashi as they face powerful opponents and seek revenge against crime lord Geese Howard.
+
+The series played a key role in shaping the early fighting game genre, introducing mechanics like multi-plane battles and a strong emphasis on storytelling and character rivalries. Its gameplay combines precise timing, special moves, and strategic spacing, offering both accessibility and depth for competitive play.
+
+Over time, Fatal Fury evolved with new installments that refined its mechanics and expanded its cast, eventually leading to titles like Garou: Mark of the Wolves, which introduced fresh systems and a new generation of fighters. The series remains closely tied to SNK’s legacy and has influenced many later fighting games.</text>
+			<text lang="es,gl,ca,eu">Fatal Fury es una serie de juegos de lucha desarrollada por SNK que comenzó en 1991. Ambientada en la ciudad ficticia de South Town, sigue a luchadores como Terry Bogard, Andy Bogard y Joe Higashi, que se enfrentan a poderosos rivales mientras buscan vengarse del criminal Geese Howard.
+
+La serie tuvo un papel clave en el desarrollo del género de lucha, introduciendo mecánicas como los combates en múltiples planos y una mayor atención a la narrativa y las rivalidades entre personajes. Su jugabilidad combina precisión, movimientos especiales y estrategia, ofreciendo tanto accesibilidad como profundidad.
+
+Con el paso del tiempo, Fatal Fury evolucionó con nuevas entregas que perfeccionaron sus sistemas y ampliaron su plantel de luchadores, dando lugar a títulos como Garou: Mark of the Wolves, que aportaron ideas frescas y una nueva generación de personajes. Sigue siendo una parte importante del legado de SNK e influyó en numerosos juegos posteriores.</text>
+			<text lang="fr">Fatal Fury est une série de jeux de combat développée par SNK, lancée en 1991. L’action se déroule dans la ville fictive de South Town et suit des combattants comme Terry Bogard, Andy Bogard et Joe Higashi, qui affrontent de puissants adversaires tout en cherchant à se venger du criminel Geese Howard.
+
+La série a joué un rôle important dans l’évolution du genre du jeu de combat, en introduisant des mécaniques comme les combats sur plusieurs plans et en mettant davantage l’accent sur la narration et les rivalités entre personnages. Son gameplay repose sur la précision, les techniques spéciales et la stratégie, offrant un bon équilibre entre accessibilité et profondeur.
+
+Au fil des années, Fatal Fury a évolué avec de nouveaux épisodes qui ont affiné ses mécaniques et enrichi son roster, menant à des titres comme Garou: Mark of the Wolves, qui ont introduit de nouvelles idées et une nouvelle génération de combattants. Elle reste une référence importante dans l’histoire de SNK et du jeu de combat.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Fatal Fury</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>ffcc00</colorEnd> <!-- amarillo/dorado -->
+			<color>b30000</color> <!-- rojo intenso -->
+		</image>
+	</view>
+</theme>

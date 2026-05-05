@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Tandy Video Information System, commonly known as Tandy VIS, is a multimedia home entertainment system released in 1992 by Tandy Corporation. It was designed as a CD-ROM-based platform intended for interactive content, combining elements of a game console and a multimedia player.
+
+The system focused on educational software, interactive movies, and family-oriented applications rather than traditional video games. It used CD-ROM discs to deliver richer audio and visual experiences compared to cartridge-based systems of the time, aiming to introduce users to a new form of digital entertainment.
+
+Despite its ambitious concept, Tandy VIS had a limited commercial impact and a relatively small software library. Today, it is remembered as an experimental system from the early multimedia era, representing a transitional step between traditional consoles and modern digital media platforms.</text>
+			<text lang="es,gl,ca,eu">Tandy Video Information System, conocido como Tandy VIS, es un sistema multimedia doméstico lanzado en 1992 por Tandy Corporation. Fue concebido como una plataforma basada en CD-ROM para contenidos interactivos, combinando características de consola y reproductor multimedia.
+
+El sistema se centró en software educativo, películas interactivas y aplicaciones familiares, en lugar de videojuegos tradicionales. Utilizaba discos CD-ROM para ofrecer experiencias audiovisuales más ricas que los sistemas basados en cartuchos de la época, con la intención de introducir nuevas formas de entretenimiento digital.
+
+A pesar de su propuesta innovadora, Tandy VIS tuvo un impacto comercial limitado y un catálogo reducido. Hoy se recuerda como un sistema experimental de la primera etapa multimedia, representando una transición entre las consolas tradicionales y las plataformas digitales modernas.</text>
+			<text lang="fr">Le Tandy Video Information System, ou Tandy VIS, est un système multimédia domestique lancé en 1992 par Tandy Corporation. Il a été conçu comme une plateforme basée sur le CD-ROM pour des contenus interactifs, combinant des éléments de console de jeu et de lecteur multimédia.
+
+Le système était principalement orienté vers les logiciels éducatifs, les films interactifs et les applications familiales, plutôt que vers les jeux vidéo traditionnels. Il utilisait des disques CD-ROM pour offrir des expériences audio et visuelles plus riches que les systèmes à cartouches de l’époque, dans le but d’introduire de nouvelles formes de divertissement numérique.
+
+Malgré son concept ambitieux, le Tandy VIS a rencontré un succès commercial limité et disposait d’une bibliothèque de logiciels réduite. Il est aujourd’hui considéré comme un système expérimental de l’ère multimédia naissante, représentant une étape de transition entre les consoles traditionnelles et les plateformes numériques modernes.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Tandy VIS</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>c92a2a</colorEnd> <!-- rojo logo -->
+			<color>00aaff</color> <!-- azul tecnológico multimedia -->
+		</image>
+	</view>
+</theme>

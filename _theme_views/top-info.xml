@@ -52,15 +52,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="system">
       <image name="frontend-logo" extra="true">
-         <path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/frontends/logo-bato-front.svg</path>
-         <path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/frontends/retrobat-logo.png</path>
-         <path ifSubset="frontend:knulli">${themePath}/_theme_inc/images/frontends/knulli-logo-splash.png</path>
-         <path ifSubset="frontend:rocknix">${themePath}/_theme_inc/images/frontends/rocknix-logo-splash.png</path>
-         <path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/frontends/batocera_plus_logo.png</path>
-         <path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/frontends/emuelec-logo.png</path>
-         <path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/frontends/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/frontends/jelos-logo.png</path>
-			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/frontends/es-logo.png</path>
+			<path>${themePath}/_theme_inc/images/frontend-logos/${subset.frontend}-splash.png</path>
+			<path>${themePath}/_theme_inc/images/frontend-logos/${subset.frontend}-splash.svg</path>
+         <path>${themePath}/_theme_inc/images/frontend-logos/${subset.frontend}-logo.png</path>
+			<path>${themePath}/_theme_inc/images/frontend-logos/${subset.frontend}-logo.svg</path>
          <pos>0.009 0.012</pos>
          <maxSize>0.096</maxSize>
          <color>ffffff</color>
@@ -244,11 +239,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>bottom</verticalAlignment>
          <maxSize>0.096</maxSize>
          <maxSize ifSubset="aspect-ratio:3-2">0.085 0.1</maxSize>
-         <path>${themePath}/_theme_inc/images/caratulas/default.png</path>
-         <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/default-b.png</path>
-         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.png</path>
-         <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/${system.theme}-b.png</path>
+         <path>${themePath}/${theme.caratulasPath}/default.png</path>
+         <path ifSubset="colorset:black">${themePath}/${theme.caratulasPath}/default-b.png</path>
+         <path>${themePath}/${theme.caratulasPath}/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.caratulasPath}/${system.theme}.png</path>
+         <path ifSubset="colorset:black">${themePath}/${theme.caratulasPath}/${system.theme}-b.png</path>
          <autoFade>false</autoFade>
          <opacity>0</opacity>
          <zIndex>99</zIndex>
@@ -271,14 +266,16 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="caratula-top" extra="static" region="eu" />
       <image name="caratula-top" extra="static" region="us">
-         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.png</path>
+         <path>${themePath}/${theme.caratulasPath}/us/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.caratulasPath}/us/${system.theme}.png</path>
       </image>
 
       <image name="caratula-top" extra="static" region="jp">
-         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+         <path>${themePath}/${theme.caratulasPath}/jp/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.caratulasPath}/jp/${system.theme}.png</path>
       </image>
+
+      
 
 
 
@@ -449,7 +446,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="avatar" extra="static">
-         <path>${themePath}/_theme_options/avatars/${image.avatar}</path>
+         <path>${themePath}/_theme_options/avatars/${subset.system-avatar}.png</path>
          <path ifSubset="system-avatar:custom">${themePath}/custom-avatar.png</path>
          <pos>0.618 0.039</pos>
          <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.625 0.039</pos>
@@ -469,8 +466,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
        </webimage>
 
        <text name="username" extra="static">
-         <text>${theme.nick}</text>
+         <text>${subset.system-username}</text>
          <text ifSubset="system-username:custom">${custom.nick}</text>
+         <text ifSubset="system-username:cheevos" if="{global.cheevos} == true">${cheevos.username}</text>
+         <text ifSubset="system-username:netplay" if="{global.netplay} == true">${global.netplay.username}</text>
          <pos>0.660 0.05</pos>
          <pos ifSubset="aspect-ratio:21-9">0.65 0.05</pos>
          <pos ifSubset="aspect-ratio:16-10">0.662 0.05</pos>

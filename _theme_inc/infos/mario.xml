@@ -21,4 +21,10 @@ La primera entrega de la serie fue Mario Bros. en 1983, aunque Mario había hech
 			<text>Mario Bros.</text>
 		</text>
 	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>FF0000</colorEnd>
+			<color>ffffff</color>
+		</image>
+	</view>
 </theme>

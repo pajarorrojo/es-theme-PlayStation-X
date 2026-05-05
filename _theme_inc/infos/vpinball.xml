@@ -6,14 +6,32 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<view name="system">
 
+		<text name="system_description" extra="true">
+			<text>Visual Pinball is a software platform that allows users to recreate, simulate, and play pinball tables on a computer. Originally released in the early 2000s, it provides tools for designing tables, scripting game logic, and accurately reproducing the physics and behavior of real pinball machines.
+
+The platform is driven by a strong community that creates and shares a wide variety of tables, ranging from faithful recreations of classic machines to original designs. With the help of additional tools and components, such as physics engines and backglass simulators, Visual Pinball can offer highly detailed and immersive pinball experiences.
+
+Over time, Visual Pinball has evolved into one of the most popular solutions for digital pinball enthusiasts. Its flexibility, depth, and active user base have made it a key reference point for those interested in preserving and enjoying pinball in a virtual format.</text>
+			<text lang="es,gl,ca,eu">Visual Pinball es una plataforma de software que permite recrear, simular y jugar mesas de pinball en ordenador. Lanzado a principios de los años 2000, ofrece herramientas para diseñar mesas, programar su funcionamiento y reproducir con bastante fidelidad la física y el comportamiento de las máquinas reales.
+
+La plataforma cuenta con una comunidad muy activa que crea y comparte una gran variedad de mesas, desde recreaciones fieles de clásicos hasta diseños completamente originales. Con la ayuda de herramientas adicionales, como motores de físicas o simuladores de backglass, Visual Pinball puede ofrecer experiencias muy completas e inmersivas.
+
+Con el paso del tiempo, Visual Pinball se ha convertido en una de las referencias principales dentro del pinball digital. Su flexibilidad, profundidad y comunidad lo han consolidado como una opción clave para quienes quieren preservar y disfrutar del pinball en formato virtual.</text>
+			<text lang="fr">Visual Pinball est une plateforme logicielle permettant de recréer, simuler et jouer à des tables de flipper sur ordinateur. Lancée au début des années 2000, elle propose des outils pour concevoir des tables, programmer leur fonctionnement et reproduire fidèlement la physique et le comportement des machines réelles.
+
+La plateforme s’appuie sur une communauté active qui crée et partage une grande variété de tables, allant de reproductions fidèles de flippers classiques à des créations originales. Avec l’aide d’outils complémentaires, comme des moteurs physiques ou des simulateurs de backglass, Visual Pinball offre des expériences riches et immersives.
+
+Au fil des années, Visual Pinball est devenu une référence incontournable pour les amateurs de flipper numérique. Sa flexibilité, sa profondeur et sa communauté engagée en font une solution essentielle pour préserver et profiter du flipper sous forme virtuelle.</text>
+		</text>
+
 		<text name="system_name" extra="true">
 			<text>Visual Pinball</text>
 		</text>
 	</view>
 	<view name="system,detailed, grid">
 		<image name="linea-inferior" extra="static">
-			<color>fff700</color>
-			<colorEnd>e93737</colorEnd>
+			<colorEnd>0033cc</colorEnd> <!-- azul eléctrico -->
+			<color>ffcc00</color> <!-- amarillo luces pinball -->
 		</image>
 	</view>
 </theme>

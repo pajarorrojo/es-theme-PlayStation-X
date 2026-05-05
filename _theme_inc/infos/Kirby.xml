@@ -21,8 +21,8 @@ Los juegos de Kirby se caracterizan por su estilo colorido, música alegre y una
 	</view>
 	<view name="system,detailed, grid">
 		<image name="linea-inferior" extra="static">
-			<colorEnd>FF0000</colorEnd>
-			<color>7A4DFF</color>
+			<colorEnd>FFBFFF</colorEnd>
+			<color>e93b87</color>
 		</image>
 	</view>
 </theme>

@@ -11,13 +11,10 @@
                <zIndex>47</zIndex>
           </video>
 
-          <video name="default_background" extra="static" ifSubset="colorset:blue">
-               <path>${themePath}/_theme_options/colorsets/blue/background-psx-blue.mp4</path>
+          <video name="default_background" extra="static">
+               <path>${themePath}/_theme_options/colorsets/${subset.colorset}/background-movie.mp4</path>
           </video>
 
-          <video name="default_background" extra="static" ifSubset="colorset:black">
-               <path>${themePath}/_theme_options/colorsets/black/background-psx-black.mp4</path>
-          </video>
 
      </view>
 

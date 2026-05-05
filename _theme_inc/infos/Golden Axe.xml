@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Golden Axe is a fantasy action game series created by Sega that began in arcades in 1989. The games are set in a world of swords, magic, and mythical creatures, where heroes such as Ax Battler, Tyris Flare, and Gilius Thunderhead fight against evil forces led by Death Adder and other powerful enemies.
+
+The series is especially known for combining side-scrolling combat with a medieval fantasy setting, offering cooperative play, magic attacks, and the ability to ride creatures that assist during battle. Its mix of action, colorful environments, and memorable characters helped it stand out among classic arcade games of its era.
+
+Over the years, Golden Axe expanded with sequels and adaptations on home consoles, refining its mechanics while keeping its core identity intact. It remains one of Sega’s most recognizable action series and a beloved reference point for fans of arcade-style fantasy adventures.</text>
+			<text lang="es,gl,ca,eu">Golden Axe es una serie de juegos de acción y fantasía creada por Sega que comenzó en los salones recreativos en 1989. Sus títulos están ambientados en un mundo de espadas, magia y criaturas míticas, donde héroes como Ax Battler, Tyris Flare y Gilius Thunderhead luchan contra las fuerzas del mal lideradas por Death Adder y otros poderosos enemigos.
+
+La serie es especialmente conocida por combinar combates con desplazamiento lateral y ambientación de fantasía medieval, ofreciendo juego cooperativo, ataques mágicos y la posibilidad de montar criaturas que ayudan durante la batalla. Su mezcla de acción, escenarios coloridos y personajes memorables hizo que destacara entre los grandes clásicos arcade de su época.
+
+Con el paso de los años, Golden Axe recibió secuelas y adaptaciones para consolas domésticas, refinando sus mecánicas sin perder su identidad principal. Sigue siendo una de las sagas de acción más reconocibles de Sega y una referencia muy querida para los aficionados a las aventuras de fantasía con estilo arcade.</text>
+			<text lang="fr">Golden Axe est une série de jeux d’action et de fantasy créée par Sega, apparue dans les salles d’arcade en 1989. Les jeux se déroulent dans un univers de magie, d’épées et de créatures mythiques, où des héros comme Ax Battler, Tyris Flare et Gilius Thunderhead affrontent les forces du mal menées par Death Adder et d’autres ennemis redoutables.
+
+La série est surtout connue pour son mélange de combat à défilement horizontal et d’ambiance médiévale fantastique, avec un mode coopératif, des attaques magiques et la possibilité de chevaucher des créatures utiles au combat. Son alliance entre action, décors colorés et personnages marquants lui a permis de devenir l’un des grands classiques de l’arcade.
+
+Au fil du temps, Golden Axe a connu plusieurs suites et adaptations sur consoles de salon, en faisant évoluer ses mécaniques tout en conservant son identité principale. Elle reste l’une des séries d’action les plus emblématiques de Sega et une référence appréciée des amateurs d’aventures fantasy au style arcade.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Golden Axe</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>7a0c0c</colorEnd>
+			<color>d4a017</color>
+		</image>
+	</view>
+</theme>

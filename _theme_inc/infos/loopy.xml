@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Casio Loopy is a home video game console released by Casio in 1995 exclusively in Japan. Designed primarily with a young female audience in mind, it stood out from other systems of its era thanks to its distinctive style and its built-in color sticker printer, which allowed players to create and print images directly from compatible games.
+
+The system featured software focused on creativity, fashion, communication, and light interactive experiences rather than traditional action or arcade-style gameplay. Many of its titles reflected this approach, offering activities such as customizing characters, decorating scenes, and printing personalized stickers.
+
+Although Casio Loopy had a short commercial life and a limited library, it remains a unique and memorable part of video game history. Its unusual concept, specialized audience, and integrated printing feature have made it a curious and distinctive console among collectors and retro gaming enthusiasts.</text>
+			<text lang="es,gl,ca,eu">Casio Loopy es una videoconsola doméstica lanzada por Casio en 1995 exclusivamente en Japón. Fue diseñada principalmente pensando en un público infantil femenino y destacó frente a otros sistemas de su época por su estilo particular y por incluir una impresora de pegatinas en color integrada, que permitía crear e imprimir imágenes directamente desde los juegos compatibles.
+
+El sistema contó con un catálogo centrado en la creatividad, la moda, la comunicación y experiencias interactivas ligeras, en lugar de apostar por la acción tradicional o el estilo arcade. Muchas de sus obras seguían esa idea, ofreciendo actividades como personalizar personajes, decorar escenas o imprimir pegatinas personalizadas.
+
+Aunque Casio Loopy tuvo una vida comercial breve y una biblioteca reducida, sigue siendo una pieza muy singular dentro de la historia del videojuego. Su concepto poco habitual, su público específico y su función de impresión integrada la han convertido en una consola curiosa y muy recordada entre coleccionistas y aficionados al retro.</text>
+			<text lang="fr">La Casio Loopy est une console de salon sortie par Casio en 1995 exclusivement au Japon. Conçue principalement pour un jeune public féminin, elle se distinguait des autres machines de son époque par son style particulier et par son imprimante couleur intégrée, qui permettait de créer et d’imprimer des images directement depuis les jeux compatibles.
+
+La machine proposait des logiciels davantage orientés vers la créativité, la mode, la communication et des expériences interactives légères que vers l’action traditionnelle ou le jeu d’arcade. Beaucoup de ses titres suivaient cette idée, en proposant par exemple de personnaliser des personnages, décorer des scènes ou imprimer des autocollants.
+
+Même si la Casio Loopy a connu une courte carrière commerciale et un catalogue limité, elle reste un objet très singulier dans l’histoire du jeu vidéo. Son concept original, son public ciblé et sa fonction d’impression intégrée en ont fait une console curieuse et mémorable pour les collectionneurs et les amateurs de rétrogaming.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Casio Loopy</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>ffffff</colorEnd> <!-- blanco de la consola -->
+			<color>f58bb8</color> <!-- rosa característico -->
+		</image>
+	</view>
+</theme>

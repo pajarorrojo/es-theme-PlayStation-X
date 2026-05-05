@@ -37,8 +37,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<image name="background">
 			<linearSmooth>true</linearSmooth>
-			<path ifSubset="colorset:blue">${themePath}/_theme_options/colorsets/blue/background.jpg</path>
-			<path ifSubset="colorset:black">${themePath}/_theme_options/colorsets/black/background.jpg</path>
+			<path>${themePath}/_theme_options/colorsets/${subset.colorset}/background.jpg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<minSize>1 1</minSize>
@@ -82,7 +81,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 43</text>
+			<text>Theme by pajarorrojo - Version 43.1</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -97,31 +96,15 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<pos>0.03 0.05</pos>
 			<maxSize>0.25 0.25</maxSize>
 			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.1 0.1</maxSize>
-			<path ifSubset="frontend:batocera">${themePath}/_theme_inc/images/frontends/batocera-logo-splash.svg</path>
-			<path ifSubset="frontend:batocera-plus">${themePath}/_theme_inc/images/frontends/batocera_plus_logo.png</path>
-			<path ifSubset="frontend:emuelec">${themePath}/_theme_inc/images/frontends/emuelec-logo-splash.png</path>
-			<path ifSubset="frontend:emulationstation">${themePath}/_theme_inc/images/frontends/es-logo-splash.png</path>
-			<path ifSubset="frontend:jelos">${themePath}/_theme_inc/images/frontends/jelos-logo-splash.png</path>
-			<path ifSubset="frontend:knulli">${themePath}/_theme_inc/images/frontends/knulli-logo-splash.png</path>
-			<path ifSubset="frontend:projectarcade">${themePath}/_theme_inc/images/frontends/projectarcade-logo.png</path>
-			<path ifSubset="frontend:retrobat">${themePath}/_theme_inc/images/frontends/retrobat-logo-splash.png</path>
-			<path ifSubset="frontend:rocknix">${themePath}/_theme_inc/images/frontends/rocknix-logo-splash.png</path>
-
+			<path>${themePath}/_theme_inc/images/frontend-logos/${subset.frontend}-splash.png</path>
+			<path>${themePath}/_theme_inc/images/frontend-logos/${subset.frontend}-splash.svg</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
 
 
 		<text name="welcome" extra="true">
-			<text ifSubset="frontend:batocera">${theme.welcome} Batocera</text>
-			<text ifSubset="frontend:retrobat">${theme.welcome} Retrobat</text>
-			<text ifSubset="frontend:batocera-plus">${theme.welcome} Batocera Plus</text>
-			<text ifSubset="frontend:emuelec">${theme.welcome} EmuElec</text>
-			<text ifSubset="frontend:projectarcade">${theme.welcome} ProjectArcade</text>
-			<text ifSubset="frontend:jelos">${theme.welcome} JELOS</text>
-			<text ifSubset="frontend:emulationstation">${theme.welcome} EmulationStation</text>
+			<text>${theme.welcome} ${subset.frontend}</text>
 			<text ifSubset="frontend:none">${theme.welcome} EmulationStation</text>
-			<text ifSubset="frontend:knulli">${theme.welcome} Knulli</text>
-			<text ifSubset="frontend:rocknix">${theme.welcome} Rocknix</text>
 			<color>ffffff</color>
 			<fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
 			<fontSize>0.04</fontSize>
@@ -159,8 +142,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 		<text name="username" extra="true">
-			<text>${theme.nick}</text>
+			<text>${subset.system-username}</text>
 			<text ifSubset="system-username:custom">${custom.nick}</text>
+			<text ifSubset="system-username:netplay">PlayStation-X</text>
+   
 			<pos>0 0.59</pos>
 			<size>1 0.034</size>
 			<color>ffffff</color>
@@ -188,9 +173,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		<!-- CONFIGURACION EXTRA PARA AVATARES -->
 		<image name="avatar" extra="true">
-			<path>${themePath}/_theme_options/avatars/${image.avatar}</path>
+			<path>${themePath}/_theme_options/avatars/${subset.system-avatar}.png</path>
 			<path ifSubset="system-avatar:custom">${themePath}/custom-avatar.png</path>
-			<path ifSubset="system-avatar:cheevos">${themePath}/_theme_options/avatars/ps-x-logo-avatar.png</path>
+			<path ifSubset="system-avatar:cheevos">${themePath}/_theme_options/avatars/psx-logo.png</path>
 		</image>
 		<!--
 		<webimage name="avatar-test"  extra="true">
@@ -205,8 +190,4 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		-->
 	</view>
 	<include>${themePath}/custom-username.xml</include>
-	<include>${themePath}/_theme_options/usernames.xml</include>
-	<include>${themePath}/_theme_options/avatars.xml</include>
-
-
 </theme>

@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Sega Lindbergh is an arcade system board introduced by Sega in the mid-2000s for a new generation of coin-operated games. Built around PC-based architecture, it was designed to deliver more advanced 3D graphics, improved performance, and greater flexibility for developers compared with earlier arcade hardware.
+
+The platform was used for a wide range of arcade titles, including racing games, shooters, action games, and large-scale cabinet experiences. Its technical capabilities allowed Sega and other developers to create visually more detailed games with smoother animation and more complex effects, helping arcades keep pace with contemporary home systems.
+
+Sega Lindbergh became an important part of Sega’s later arcade era and powered several well-known releases in amusement centers. It is remembered as one of the company’s major arcade platforms from the HD generation, bridging traditional arcade design with more modern computer-based technology.</text>
+			<text lang="es,gl,ca,eu">Sega Lindbergh es una placa arcade presentada por Sega a mediados de los años 2000 para una nueva generación de juegos recreativos. Basada en una arquitectura de tipo PC, fue concebida para ofrecer gráficos 3D más avanzados, mejor rendimiento y una mayor flexibilidad para los desarrolladores en comparación con hardware arcade anterior.
+
+La plataforma se utilizó en una amplia variedad de títulos, incluyendo juegos de conducción, disparos, acción y experiencias con cabinas de gran formato. Sus capacidades técnicas permitieron a Sega y a otros estudios crear juegos más detallados a nivel visual, con animaciones más fluidas y efectos más complejos, ayudando a que los salones recreativos siguieran siendo competitivos frente a los sistemas domésticos de la época.
+
+Sega Lindbergh ocupa un lugar importante dentro de la etapa más moderna del arcade de Sega y dio vida a varios lanzamientos muy conocidos en centros recreativos. Se recuerda como una de las grandes plataformas arcade de la era HD, al unir el diseño tradicional de las recreativas con una tecnología más cercana a la informática moderna.</text>
+			<text lang="fr">Sega Lindbergh est une carte d’arcade lancée par Sega au milieu des années 2000 pour une nouvelle génération de jeux en salle. Reposant sur une architecture de type PC, elle a été conçue pour offrir des graphismes 3D plus avancés, de meilleures performances et une plus grande flexibilité pour les développeurs par rapport aux systèmes d’arcade précédents.
+
+La plateforme a été utilisée pour un large éventail de jeux, notamment des jeux de course, de tir, d’action et de grandes bornes immersives. Ses capacités techniques ont permis à Sega et à d’autres studios de proposer des titres visuellement plus détaillés, avec des animations plus fluides et des effets plus complexes, aidant les salles d’arcade à rester attractives face aux consoles de salon de l’époque.
+
+Sega Lindbergh occupe une place importante dans la période moderne de l’arcade chez Sega et a servi de base à plusieurs sorties marquantes dans les centres de loisirs. Elle est considérée comme l’une des grandes plateformes d’arcade de l’ère HD, faisant le lien entre l’arcade traditionnelle et une technologie plus proche de l’informatique moderne.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>SEGA Lindbergh</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>0a1f5a</colorEnd> <!-- azul SEGA oscuro -->
+			<color>e5e5e5</color> <!-- gris claro metálico del hardware -->
+		</image>
+	</view>
+</theme>

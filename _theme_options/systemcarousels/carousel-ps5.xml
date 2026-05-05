@@ -5,21 +5,21 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <view name="system" >
 <image name="logo">
-         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/${system.theme}.png</path>
-         <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/${system.theme}-b.png</path>
+         <path>${themePath}/${theme.caratulasPath}/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.caratulasPath}/${system.theme}.png</path>
+         <path ifSubset="colorset:black">${themePath}/${theme.caratulasPath}/${system.theme}-b.png</path>
          <tile>false</tile>
          <linearSmooth>true</linearSmooth>
          <zIndex>0</zIndex>
       </image>
       <image name="logo" region="us">
-         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/us/${system.theme}.png</path>
+         <path>${themePath}/${theme.caratulasPath}/us/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.caratulasPath}/us/${system.theme}.png</path>
       </image>
 
       <image name="logo" region="jp">
-         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.jpg</path>
-         <path>${themePath}/_theme_inc/images/caratulas/jp/${system.theme}.png</path>
+         <path>${themePath}/${theme.caratulasPath}/jp/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.caratulasPath}/jp/${system.theme}.png</path>
       </image>
 
       <carousel name="systemcarousel">
@@ -32,8 +32,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                   <roundCorners>0.15</roundCorners>
                   </image>
                <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
-                  <path ifSubset="colorset:blue">${themePath}/_theme_inc/images/caratulas/default.png</path>
-                  <path ifSubset="colorset:black">${themePath}/_theme_inc/images/caratulas/default-b.png</path>
+                  <path ifSubset="colorset:blue">${themePath}/${theme.caratulasPath}/default.png</path>
+                  <path ifSubset="colorset:black">${themePath}/${theme.caratulasPath}/default-b.png</path>
                   <visible>!exists({system:logo})</visible>
                   <roundCorners>0.15</roundCorners>
 

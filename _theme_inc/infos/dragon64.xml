@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Dragon 64 is an 8-bit home computer released in 1984 as an enhanced version of the earlier Dragon 32. Developed in the United Kingdom, it was part of the wave of affordable home computers that became popular during the 1980s, aimed at both gaming and learning programming.
+
+The system featured improved memory compared to its predecessor, allowing for more complex software and better multitasking capabilities. Like many computers of its time, it supported BASIC programming out of the box, encouraging users to create their own programs and games.
+
+Dragon 64 shares many similarities with the Tandy Color Computer, as both systems are based on similar hardware architecture. It was used for gaming, education, and hobbyist programming, and remains a notable example of the European home computing scene of the 1980s.</text>
+			<text lang="es,gl,ca,eu">Dragon 64 es un ordenador doméstico de 8 bits lanzado en 1984 como una versión mejorada del Dragon 32. Desarrollado en el Reino Unido, formó parte de la ola de ordenadores asequibles de los años 80, orientados tanto al entretenimiento como al aprendizaje de programación.
+
+El sistema ofrecía una mayor cantidad de memoria que su predecesor, lo que permitía ejecutar programas más complejos y mejorar la gestión de tareas. Como muchos equipos de su época, incluía soporte para programación en BASIC desde el inicio, animando a los usuarios a crear sus propios programas y juegos.
+
+El Dragon 64 comparte muchas similitudes con el Tandy Color Computer, ya que ambos se basan en una arquitectura de hardware parecida. Fue utilizado tanto para juegos como para educación y programación doméstica, siendo un ejemplo representativo de la informática europea de los años 80.</text>
+			<text lang="fr">Le Dragon 64 est un ordinateur personnel 8 bits lancé en 1984 comme une version améliorée du Dragon 32. Développé au Royaume-Uni, il fait partie de la vague d’ordinateurs domestiques abordables des années 1980, destinés à la fois au jeu et à l’apprentissage de la programmation.
+
+Le système disposait de plus de mémoire que son prédécesseur, permettant l’exécution de logiciels plus complexes et une meilleure gestion des tâches. Comme beaucoup d’ordinateurs de son époque, il intégrait le langage BASIC, encourageant les utilisateurs à créer leurs propres programmes et jeux.
+
+Le Dragon 64 présente de nombreuses similitudes avec le Tandy Color Computer, car ils reposent sur une architecture matérielle proche. Il a été utilisé pour le jeu, l’éducation et la programmation amateur, et reste un exemple marquant de l’informatique européenne des années 1980.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Dragon 64</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>000000</colorEnd> <!-- negro del hardware -->
+			<color>33ff33</color> <!-- verde fósforo típico de monitores -->
+		</image>
+	</view>
+</theme>

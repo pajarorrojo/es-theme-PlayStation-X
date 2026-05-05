@@ -1,3 +1,19 @@
+Version 43.1 (May 05, 2026)
+
+- New: A system icon has been added next to the beginning of the game name in auto and custom collections.
+- New: Predefined theme collections for Arkanoid, Battletoads, Digimon, Double dragon, Earthworm Jim, Fatal Fury, Frogger, Galaxian, Golden Axe, King of Fighters, LEGO, Samurai Shodown, Simpsons, Streets of Rage, Rayman, Superman and X-Men.
+- Change: The system name string has been moved to the end of the game name in auto and custom collections.
+- Change: In the PS5 grid style gameview the console corresponding to the selected game's system is now displayed instead of the collection's console or image in custom and auto collections.
+- Change: Use of new theme subset variables to minimize and optimize the code (Requires Batocera 42 / RetroBat 7.2 or higher).
+- Fix: Some Chinese translation strings (Thanks to lanlan3292).
+- Change: In the top info area (clean mode) the image at the top-left has been changed to a icon when browsing game lists.
+- Added: Overlay art characters for Digimon and Arkanoid.
+- Added: Missing media data and/or information for the Casio Loopy, Commander X16, DICE, SEGA Lindbergh, Vircon 32, Visual Pinball, Tandy VIS and Sinclair ZX81.
+
+
+
+
+-----------------------
 Version 43 (April 10, 2026)
 
 - New: New PS5-style game list!
@@ -10,6 +26,7 @@ Version 43 (April 10, 2026)
 - Added: System videos for Amiga 1200, Gamate, Nintendo Switch, Philips Videopac, Casio PV-1000, Oric, RetroBat, TI-99, and Super Cassette Vision.
 - Added: Overlay art characters for Kirby, Silent Hill (Pyramid Head), Final Fight (Guy), Final Fantasy XIII, Parasite Eve, Robotnik, Chrono Trigger, Spyro and X-Men (Wolverine). Also added from Manu's collab fork: Banjo-Kazooie, Vajra Fight, Ranma ½, Aleste, Pentaro, Demon Slayer, Valorant, Gravity Rush and Hollow Knight.
 - Added: Missing media data and/or information for the PC-60, Cassette Vision, Game.com, BennuGD, EA Games, GOG, SuperGrafx, Blake Stone, and Enterprise systems.
+
 
 
 

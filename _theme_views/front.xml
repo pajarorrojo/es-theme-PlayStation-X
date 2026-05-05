@@ -22,9 +22,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="background-art" extra="true" region="eu" />
       <image name="background-art" extra="true" ifSubset="background-system:default|fanart">
          <path>{random:fanart}</path>
-         <path>${themePath}/_theme_inc/images/background/${system.theme}.jpg</path>
-         <path region="us">${themePath}/_theme_inc/images/background/us/${system.theme}.jpg</path>
-         <path region="jp">${themePath}/_theme_inc/images/background/jp/${system.theme}.jpg</path>
+         <path>${themePath}/${theme.backgroundPath}/${system.theme}.jpg</path>
+         <path region="us">${themePath}/${theme.backgroundPath}/us/${system.theme}.jpg</path>
+         <path region="jp">${themePath}/${theme.backgroundPath}/jp/${system.theme}.jpg</path>
          <zIndex>45</zIndex>
       </image>
       
@@ -97,31 +97,31 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <origin>0 0</origin>
          <path>{random:marquee}</path>
          <!--  png -->
-         <path>${themePath}/_theme_inc/images/logos/${system.theme}.png</path>
+         <path>${themePath}/${theme.logosPath}/${system.theme}.png</path>
          <!--  svg -->
-         <path>${themePath}/_theme_inc/images/logos/${system.theme}.svg</path>
+         <path>${themePath}/${theme.logosPath}/${system.theme}.svg</path>
          <!--  svg white -->
-         <path>${themePath}/_theme_inc/images/logos/${system.theme}-w.svg</path>
+         <path>${themePath}/${theme.logosPath}/${system.theme}-w.svg</path>
          <!-- check if lang resources exist -->
-         <path>${themePath}/_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-         <path>${themePath}/_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
+         <path>${themePath}/${theme.logosPath}/${system.theme}-${lang}.png</path>
+         <path>${themePath}/${theme.logosPath}/${system.theme}-${lang}.svg</path>
          <zIndex>100</zIndex>
       </image>
 
       <image name="logo2" extra="true" region="eu"/>
       <image name="logo2" extra="true" region="us">
-         <path>${themePath}/_theme_inc/images/logos/us/${system.theme}.png</path>
+         <path>${themePath}/${theme.logosPath}/us/${system.theme}.png</path>
          <!--  svg -->
-         <path>${themePath}/_theme_inc/images/logos/us/${system.theme}.svg</path>
+         <path>${themePath}/${theme.logosPath}/us/${system.theme}.svg</path>
          <!--  svg white -->
-         <path>${themePath}/_theme_inc/images/logos/us/${system.theme}-w.svg</path>
+         <path>${themePath}/${theme.logosPath}/us/${system.theme}-w.svg</path>
       </image>
       <image name="logo2" extra="true" region="jp" >
-         <path>${themePath}/_theme_inc/images/logos/jp/${system.theme}.png</path>
+         <path>${themePath}/${theme.logosPath}/jp/${system.theme}.png</path>
          <!--  svg -->
-         <path>${themePath}/_theme_inc/images/logos/jp/${system.theme}.svg</path>
+         <path>${themePath}/${theme.logosPath}/jp/${system.theme}.svg</path>
          <!--  svg white -->
-         <path>${themePath}/_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
+         <path>${themePath}/${theme.logosPath}/jp/${system.theme}-w.svg</path>
       </image>
 
       <image name="system-console" extra="true" ifSubset="system-console:YES">
@@ -131,7 +131,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>bottom</verticalAlignment>
          <alignment>center</alignment>
          <maxSize >0.16 0.25</maxSize>
-         <path>${themePath}/_theme_inc/images/consoles/${system.theme}.png</path>
+         <path>${themePath}/${theme.consolesPath}/${system.theme}.png</path>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
@@ -144,10 +144,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <image name="system-console" extra="true" region="eu" />
       <image name="system-console" extra="true" region="us">
-         <path>${themePath}/_theme_inc/images/consoles/us/${system.theme}.png</path>
+         <path>${themePath}/${theme.consolesPath}/us/${system.theme}.png</path>
       </image>
       <image name="system-console" extra="true" region="jp">
-         <path>${themePath}/_theme_inc/images/consoles/jp/${system.theme}.png</path>
+         <path>${themePath}/${theme.consolesPath}/jp/${system.theme}.png</path>
       </image>
 
       <image name="gamefolder" extra="static" if="${system.manufacturer} != 'Collections'  &amp;&amp; ${system.hardwareType} != 'system'">

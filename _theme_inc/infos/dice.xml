@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>DICE is an early arcade-style electronic game released around 1972, during the pioneering years of the video game industry. It belongs to the first wave of coin-operated machines that experimented with simple interactive concepts, often inspired by traditional games such as dice, sports, or basic competitive challenges.
+
+Like many titles from this era, DICE focused on straightforward mechanics and immediate player feedback rather than complex graphics or deep gameplay systems. These early machines typically relied on minimal visual elements and simple controls, offering quick sessions that emphasized accessibility and novelty.
+
+Although little detailed documentation survives for many of these early releases, systems like DICE represent an important step in the evolution of arcade gaming. They reflect a time of experimentation and rapid innovation that helped shape the foundations of the modern video game industry.</text>
+			<text lang="es,gl,ca,eu">DICE es un temprano juego electrónico de estilo arcade lanzado alrededor de 1972, durante los primeros años de la industria del videojuego. Forma parte de la primera generación de máquinas recreativas que experimentaban con conceptos interactivos simples, a menudo inspirados en juegos tradicionales como los dados, deportes o desafíos básicos.
+
+Como muchos títulos de esta época, DICE se centraba en mecánicas sencillas y en ofrecer una respuesta inmediata al jugador, en lugar de gráficos complejos o sistemas profundos. Estas máquinas solían presentar elementos visuales muy básicos y controles simples, pensados para partidas rápidas y accesibles.
+
+Aunque existe poca documentación detallada sobre muchos de estos primeros lanzamientos, sistemas como DICE representan un paso importante en la evolución del arcade. Reflejan una etapa de experimentación e innovación que ayudó a sentar las bases de la industria del videojuego moderna.</text>
+			<text lang="fr">DICE est un jeu électronique de type arcade apparu vers 1972, durant les premières années de l’industrie du jeu vidéo. Il fait partie de la première génération de machines à pièces qui expérimentaient des concepts interactifs simples, souvent inspirés de jeux traditionnels comme les dés, les sports ou des défis basiques.
+
+Comme beaucoup de titres de cette époque, DICE se concentrait sur des mécaniques simples et une réponse immédiate du joueur, plutôt que sur des graphismes élaborés ou des systèmes complexes. Ces machines proposaient généralement des éléments visuels minimalistes et des contrôles simples, favorisant des parties rapides et accessibles.
+
+Même si peu d’informations détaillées subsistent sur ces premières productions, des systèmes comme DICE représentent une étape importante dans l’évolution des jeux d’arcade. Ils témoignent d’une période d’expérimentation et d’innovation qui a contribué à poser les bases du jeu vidéo moderne.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>DICE</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>1a1a1a</colorEnd> <!-- negro arcade primitivo -->
+			<color>8b5a2b</color> <!-- marrón madera máquina -->
+		</image>
+	</view>
+</theme>

@@ -22,7 +22,7 @@ Tomb Raider destaca por combinar exploración, plataformas, resolución de puzle
 	<view name="system,detailed, grid">
 		<image name="linea-inferior" extra="static">
 			<colorEnd>FF0000</colorEnd>
-			<color>7A4DFF</color>
+			<color>523a09</color>
 		</image>
 	</view>
 </theme>

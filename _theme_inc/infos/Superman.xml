@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Superman is a long-running video game presence based on the iconic superhero from DC Comics, first appearing in games in the late 1970s. Across multiple titles, players take control of Clark Kent’s alter ego, using his extraordinary powers such as flight, super strength, heat vision, and invulnerability to protect Metropolis and face famous villains like Lex Luthor, Brainiac, and General Zod.
+
+Over the years, Superman games have taken different forms, ranging from simple action titles to more ambitious attempts at open-world gameplay. Some entries focused on recreating the feeling of freely flying through the city, while others emphasized combat or story-driven missions. Despite mixed results in terms of quality, the character’s abilities have always offered unique gameplay possibilities compared to other superheroes.
+
+Thanks to his status as one of the most recognizable comic book heroes, Superman has remained a recurring figure in video games, appearing both in solo titles and as part of crossover games featuring other DC characters.</text>
+			<text lang="es,gl,ca,eu">Superman es una presencia constante en el mundo de los videojuegos, basada en el icónico superhéroe de DC Comics, que apareció por primera vez en este medio a finales de los años 70. A lo largo de distintos títulos, el jugador controla al alter ego de Clark Kent, utilizando sus poderes como el vuelo, la superfuerza, la visión calorífica o la invulnerabilidad para proteger Metrópolis y enfrentarse a villanos conocidos como Lex Luthor, Brainiac o el General Zod.
+
+Con el paso del tiempo, los juegos de Superman han adoptado diferentes enfoques, desde títulos de acción sencillos hasta propuestas más ambiciosas con mundos abiertos. Algunos se centraron en transmitir la sensación de volar libremente por la ciudad, mientras que otros apostaron por el combate o las misiones con narrativa. Aunque la calidad ha sido irregular, sus habilidades siempre han ofrecido posibilidades jugables únicas frente a otros superhéroes.
+
+Gracias a su enorme popularidad, Superman ha seguido apareciendo en videojuegos tanto en títulos propios como en juegos compartidos con otros personajes del universo DC.</text>
+			<text lang="fr">Superman est une figure récurrente dans le monde du jeu vidéo, basée sur le célèbre super-héros de DC Comics, apparu dans ce média dès la fin des années 1970. Dans ces jeux, le joueur incarne l’alter ego de Clark Kent et utilise ses pouvoirs emblématiques, comme le vol, la super force, la vision thermique ou l’invulnérabilité, pour protéger Metropolis et affronter des ennemis tels que Lex Luthor, Brainiac ou le Général Zod.
+
+Au fil des années, les jeux Superman ont adopté des approches variées, allant de titres d’action simples à des tentatives plus ambitieuses en monde ouvert. Certains mettaient l’accent sur la liberté de voler à travers la ville, tandis que d’autres privilégiaient le combat ou la narration. Malgré une qualité inégale, les capacités du personnage ont toujours offert des possibilités de gameplay uniques.
+
+Grâce à sa popularité mondiale, Superman continue d’apparaître dans de nombreux jeux, que ce soit dans des titres dédiés ou aux côtés d’autres héros de l’univers DC.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Superman</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>e32b1d</colorEnd>
+			<color>171dd9</color>
+		</image>
+	</view>
+</theme>

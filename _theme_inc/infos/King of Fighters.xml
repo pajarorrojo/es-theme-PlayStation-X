@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The King of Fighters is a fighting game series developed by SNK that began in 1994. It brings together characters from different SNK games and original fighters in team-based tournaments, usually built around three-on-three battles. The series is especially known for its large cast, recurring story arcs, and fast-paced combat system.
+
+Unlike many other fighting games, The King of Fighters places strong emphasis on team composition, movement, and offensive pressure. Its mechanics evolved over time through features such as rolls, evasive movement, power gauges, and advanced combo systems, giving the series a distinctive rhythm and a high skill ceiling for experienced players.
+
+Over the years, The King of Fighters has become one of the most important names in the genre, with numerous main entries, spin-offs, and updated editions. Its mix of competitive depth, memorable characters, and long-running narrative has made it one of SNK’s most iconic and enduring video game sagas.</text>
+			<text lang="es,gl,ca,eu">The King of Fighters es una serie de juegos de lucha desarrollada por SNK que comenzó en 1994. Reúne a personajes procedentes de distintos juegos de SNK junto a luchadores originales en torneos por equipos, normalmente estructurados en combates de tres contra tres. La saga es especialmente conocida por su amplio plantel, sus arcos argumentales recurrentes y su sistema de combate rápido.
+
+A diferencia de muchos otros juegos de lucha, The King of Fighters pone un fuerte énfasis en la composición del equipo, la movilidad y la presión ofensiva. Sus mecánicas evolucionaron con el tiempo mediante elementos como esquivas, movimientos evasivos, barras de energía y sistemas avanzados de combos, dando lugar a un ritmo muy característico y a una gran profundidad para los jugadores más experimentados.
+
+Con el paso de los años, The King of Fighters se ha convertido en uno de los nombres más importantes del género, con numerosas entregas principales, spin-offs y versiones revisadas. Su mezcla de profundidad competitiva, personajes memorables y narrativa continuada la ha consolidado como una de las sagas más icónicas y duraderas de SNK.</text>
+			<text lang="fr">The King of Fighters est une série de jeux de combat développée par SNK, lancée en 1994. Elle réunit des personnages issus de différents jeux SNK ainsi que des combattants originaux dans des tournois par équipes, généralement organisés autour de combats en trois contre trois. La série est particulièrement connue pour son vaste casting, ses arcs narratifs récurrents et son système de combat rapide.
+
+Contrairement à beaucoup d’autres jeux de combat, The King of Fighters met fortement l’accent sur la composition d’équipe, la mobilité et la pression offensive. Ses mécaniques ont évolué au fil du temps avec des éléments comme les roulades, les mouvements d’évitement, les jauges de puissance et des systèmes de combos avancés, donnant à l’ensemble un rythme très distinctif et une grande profondeur pour les joueurs expérimentés.
+
+Au fil des années, The King of Fighters est devenu l’un des noms les plus importants du genre, avec de nombreux épisodes principaux, spin-offs et éditions améliorées. Son mélange de profondeur compétitive, de personnages marquants et de narration continue en fait l’une des sagas les plus emblématiques et durables de SNK.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>The King of Fighters</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>0b1d51</colorEnd> <!-- azul oscuro clásico -->
+			<color>f28c00</color> <!-- naranja energético -->
+		</image>
+	</view>
+</theme>

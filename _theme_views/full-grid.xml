@@ -28,13 +28,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       
       <imagegrid name="gamegrid">
          <pos>0.29 0.128</pos>
-         <imageSource ifSubset="grid-origin:image">image</imageSource>
-         <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
-         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
-         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
+         <imageSource>${subset.grid-origin}</imageSource>
          <imageSource ifSubset="grid-origin:fanart|default">fanart</imageSource>
-         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
-         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout>5 5</autoLayout>
          <autoLayout  ifSubset="aspect-ratio:21-9">7 5</autoLayout>
          <autoLayout tinyScreen="true">3 3</autoLayout>
@@ -64,7 +59,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundCenterColor>ffffff99</backgroundCenterColor>
          <backgroundCenterColor ifSubset="grid-origin:thumbnail|boxart|cartridge">00000000</backgroundCenterColor>
          <imageSizeMode>minSize</imageSizeMode>
-         <backgroundImage>${themePath}/_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
+         <backgroundImage>${themePath}/${theme.caratulasPath}/default-gamelist.png</backgroundImage>
          <imageSizeMode ifSubset="grid-origin:thumbnail|boxart|cartridge">maxSize</imageSizeMode>
          <padding>6</padding>
          <padding ifSubset="aspect-ratio:16-9|16-10">8</padding>
@@ -88,6 +83,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
          <pos>0.777 0.777</pos>
          <maxSize>0.2  0.2</maxSize>
+         <opacity>{system:showCheevos} ? "1" : "0"</opacity>
       </image>
 
       <image name="gridtile.favorite">

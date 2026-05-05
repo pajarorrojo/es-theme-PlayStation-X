@@ -1,0 +1,31 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Arkanoid is a video game franchise created by Taito that began in 1986 as an arcade game. It belongs to the block breaker genre, where the player controls the Vaus, a paddle-like spacecraft, and must bounce a ball to destroy formations of blocks while preventing it from falling off the screen. The series expanded on the ideas of earlier games like Breakout by adding power-ups, enemy obstacles, and a distinctive futuristic style.
+
+Arkanoid games are known for their simple but highly addictive gameplay, requiring precision, reflexes, and good control of the ball. Throughout the years, the franchise has appeared on arcade machines, home consoles, computers, and modern platforms, with sequels and updated versions that introduced new mechanics and visual styles while preserving the classic formula that made the series popular.</text>
+			<text lang="es,gl,ca,eu">La franquicia Arkanoid es una serie de videojuegos creada por Taito que comenzó en 1986 como un juego arcade. Pertenece al género de romper bloques, en el que el jugador controla la Vaus, una nave con forma de paleta, y debe hacer rebotar una bola para destruir formaciones de bloques evitando que caiga fuera de la pantalla. La serie amplió las ideas de juegos anteriores como Breakout añadiendo potenciadores, enemigos y un característico estilo futurista.
+
+Los juegos de Arkanoid son conocidos por su jugabilidad sencilla pero muy adictiva, que exige precisión, reflejos y un buen control de la bola. A lo largo de los años, la franquicia ha aparecido en máquinas recreativas, consolas domésticas, ordenadores y plataformas modernas, con secuelas y versiones actualizadas que introdujeron nuevas mecánicas y estilos visuales sin perder la fórmula clásica que hizo popular a la serie.</text>
+			<text lang="fr">La franchise Arkanoid est une série de jeux vidéo créée par Taito, qui a débuté en 1986 dans les salles d’arcade. Elle appartient au genre des casse-briques, dans lequel le joueur contrôle le Vaus, un vaisseau en forme de palette, et doit faire rebondir une balle pour détruire des rangées de blocs sans la laisser tomber hors de l’écran. La série a développé les idées de jeux antérieurs comme Breakout en ajoutant des bonus, des ennemis et une esthétique futuriste caractéristique.
+
+Les jeux Arkanoid sont connus pour leur jouabilité simple mais extrêmement addictive, qui demande de la précision, de bons réflexes et un excellent contrôle de la balle. Au fil des années, la franchise est apparue sur bornes d’arcade, consoles, ordinateurs et plateformes modernes, avec des suites et des versions remises au goût du jour qui ont introduit de nouvelles mécaniques et styles visuels tout en conservant la formule classique qui a fait le succès de la série.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Arkanoid</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>171dd9</colorEnd>
+			<color>e32b1d</color>
+		</image>
+	</view>
+</theme>

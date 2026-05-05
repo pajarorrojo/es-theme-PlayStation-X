@@ -6,13 +6,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="grid">
 
       <imagegrid name="gamegrid">
-         <imageSource ifSubset="grid-origin:image">image</imageSource>
-         <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
-         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
-         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
+         <imageSource>${subset.grid-origin}</imageSource>
          <imageSource ifSubset="grid-origin:fanart|default">fanart</imageSource>
-         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
-         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <autoLayout>5 2</autoLayout>
          <autoLayout  ifSubset="aspect-ratio:21-9">7 2</autoLayout>
          <autoLayout ifSubset="grid-origin:boxart|thumbnail">9 2</autoLayout>
@@ -34,7 +29,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <backgroundEdgeColor>${backgroundgridSelect}</backgroundEdgeColor>
          <backgroundCenterColor>ffffff99</backgroundCenterColor>
          <imageSizeMode>minSize</imageSizeMode>
-         <backgroundImage>${themePath}/_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
+         <backgroundImage>${themePath}/${theme.caratulasPath}/default-gamelist.png</backgroundImage>
          <imageSizeMode ifSubset="grid-origin:thumbnail|boxart|cartridge">maxSize</imageSizeMode>
          <padding>6</padding>
          <padding ifSubset="aspect-ratio:5-4">7</padding>
@@ -69,7 +64,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</image>
 
       <image name="gridtile.marquee:videoplaying" ifSubset="grid-origin:marquee|default">
-         <pos>0.5 0.85</pos>
+         <pos>0.5 0.15</pos>
          <maxSize>0.5 0.2</maxSize>
       </image>
 
@@ -105,6 +100,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>bottom</verticalAlignment>
          <origin>0 0</origin>
          <color>F2BC00</color>
+         <opacity>{system:showCheevos} ? "1" : "0"</opacity>
       </image>
 
       <image name="gridtile.cheevos" if="{system.name} == 'retroachievements'">
@@ -136,22 +132,62 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <tile>false</tile>
       </image>
 
-      <text name="gamename-grid" extra="true">
-         <text>{game:name}</text>
-         <alignment>left</alignment>
-         <size>0.630 0.08</size>
-         <color>ffffff</color>
-         <pos>0.30 0.140</pos>
-         <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-         <fontSize>0.05</fontSize>
-         <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
-         <fontSize tinyScreen="true">0.064</fontSize>
-         <origin>0 0</origin>
-         <zIndex>100</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <autoScrollDelay>2000</autoScrollDelay>
+
+
+      <stackpanel name="gamename-grid">
+         <separator>0.005</separator>
+         <pos>0.30 0.145</pos>
+         <size>0.68 0.06</size>
+         <orientation>horizontal</orientation>
          <backgroundColor>ff000000</backgroundColor>
-      </text>
+         <zIndex>99</zIndex>
+
+         <image name="system-logo" if="${system.manufacturer} == 'Collections'">
+            <path>firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <path region="us">firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + "-us.png", "${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <path region="jp">firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + "-jp.png", "${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <maxSize>1 1</maxSize>
+            <color>ffffff</color>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <pos>0 0</pos>
+            <saturation>0</saturation>
+         </image> 
+
+         <text name="game-name">
+            <text>{game:name}</text>
+            <color>ffffff</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
+            <fontSize>0.05</fontSize>
+            <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
+            <fontSize tinyScreen="true">0.064</fontSize>
+            <singleLineScroll>true</singleLineScroll>
+            <autoScrollDelay>2000</autoScrollDelay>
+            <backgroundColor>ff000000</backgroundColor>
+            <glowColor>00000035</glowColor>
+            <glowSize>1</glowSize>
+            <glowOffset>3 2</glowOffset>
+            <size>0.71 0.001</size>
+         </text>
+
+         <text name="system-name" if="${system.manufacturer} == 'Collections'">
+            <text>${theme.systemName}</text>
+            <fontSize>0.023</fontSize>
+            <fontSize tinyScreen="true">0.032</fontSize>
+            <forceUppercase tinyScreen="true">true</forceUppercase>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold Italic.ttf</fontPath>
+            <color>000000</color>
+            <padding>0.004 0.004</padding>
+            <padding tinyScreen="true">0.006 0.006</padding>
+            <backgroundColor>ffffff00</backgroundColor>
+            <size>1 0.001</size>
+            <glowColor>ffffffe3</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>0 0</glowOffset>
+            <pos>0 0.13</pos>
+         </text> 
+
+       </stackpanel>
 
       <text name="gamedesc-grid" extra="true">
          <text>{game:desc}</text>
@@ -178,7 +214,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
       <!-- stackpanel para datos de juegos -->
 
-      <stackpanel name="contenedor-gamedata" extra="true" ifSubset="info-bar:YES">
+      <stackpanel name="contenedor-gamedata" ifSubset="info-bar:YES">
          <separator>0.015</separator>
          <pos>0.3 0.22</pos>
          <size>0.5 0.028</size>
@@ -195,19 +231,10 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
             <color>000000</color>
             <padding>0.004 0.004</padding>
             <padding tinyScreen="true">0.006 0.006</padding>
-
+            <visible>false</visible>
             <backgroundColor>ffffff</backgroundColor>
          </text> 
 
-         <text name="contenedor-separador2" if="${system.manufacturer} == 'Collections'">
-            <text>•</text>
-            <alignment>center</alignment>
-            <fontSize>0.022</fontSize>
-            <color>${releaseColor}</color>
-            <fontPath>${themePath}/_theme_inc/fonts/SST Bold.ttf</fontPath>
-            <visible>!empty({game:releaseyear})</visible>
-          </text>
-         
          <text name="gamedata-releaseyear">
             <fontSize>0.023</fontSize>
             <fontSize tinyScreen="true">0.032</fontSize>
@@ -266,7 +293,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
      
       <!-- stackpanel para datos de juegos 2a linea-->
 
-      <stackpanel name="contenedor-gamedata2" extra="true" ifSubset="info-bar:YES">
+      <stackpanel name="contenedor-gamedata2" ifSubset="info-bar:YES">
          <separator>0.015</separator>
          <pos>0.3 0.255</pos>
          <size>0.5 0.028</size>
@@ -301,7 +328,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </stackpanel>
 
       <!-- stackpanel para iconos de juegos -->
-      <stackpanel name="contenedor-iconos" extra="true" ifSubset="info-bar:YES" >
+      <stackpanel name="contenedor-iconos" ifSubset="info-bar:YES" >
          <separator>0.015</separator>
          <x>0.3</x>
          <y>empty({game:desc}) ? 0.3 : 0.4</y>
@@ -592,7 +619,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
        </stackpanel>
 
-      <text name="gamedesc-grid, gamename-grid, system-name">
+      <text name="gamedesc-grid, system-name">
          <glowColor>00000035</glowColor>
          <glowSize>1</glowSize>
          <glowOffset>3 2</glowOffset>
@@ -620,11 +647,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="grid"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
 
-      <text name="gamename-grid">
-         <size>0.9 0.08</size>
-      </text>
+      <stackpanel name="gamename-grid">
+         <size>0.9 0.06</size>
+         <x>0.025</x>
+      </stackpanel>
+
       
-      <text name="gamedesc-grid, gamename-grid">
+      <text name="gamedesc-grid">
          <x>0.025</x>
       </text>
 
@@ -646,9 +675,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
    <view name="grid"  ifSubset="game-description:no">
 
-      <text name="gamename-grid">
+      <stackpanel name="gamename-grid">
          <y>0.16</y>
-      </text>
+      </stackpanel>
 
       <stackpanel name="contenedor-gamedata">
          <y>0.255</y>

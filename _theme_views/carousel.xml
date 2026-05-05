@@ -5,13 +5,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <formatVersion>7</formatVersion>
    <customView name="carousel" inherits="grid"  displayName="${carouselViewName}">
       <imagegrid name="gamegrid">
-         <imageSource ifSubset="grid-origin:image">image</imageSource>
+         <imageSource>${subset.grid-origin}</imageSource>
          <imageSource ifSubset="grid-origin:thumbnail|default">thumbnail</imageSource>
-         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
-         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
-         <imageSource ifSubset="grid-origin:fanart">fanart</imageSource>
-         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
-         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>
          <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
@@ -96,6 +91,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <verticalAlignment>bottom</verticalAlignment>
          <origin>0 0</origin>
          <color>Ffffff</color>
+         <opacity>{system:showCheevos} ? "1" : "0"</opacity>
       </image>
    
    </customView>

@@ -22,14 +22,14 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
           contains(lower({game:name} + ' ' + {game:rom}), 'nights into dreams') ? '${themePath}/${theme.overlayArtsPath}/Nights into dreams.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'ghost of tsushima') ? '${themePath}/${theme.overlayArtsPath}/Ghost of Tsushima.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'dragon ball') || contains(lower({game:name} + ' ' + {game:rom}), 'dragonball') ? '${themePath}/${theme.overlayArtsPath}/Dragon Ball.png' : ''
-          || contains(lower({game:name} + ' ' + {game:rom}), 'mario ') ? '${themePath}/${theme.overlayArtsPath}/Mario.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'pac-man') || contains(lower({game:name} + ' ' + {game:rom}), 'pacman') || contains(lower({game:name} + ' ' + {game:rom}), 'pac-land') ? '${themePath}/${theme.overlayArtsPath}/Pac-Man.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'mortal kombat') ? '${themePath}/${theme.overlayArtsPath}/Mortal Kombat.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'navy moves') ? '${themePath}/${theme.overlayArtsPath}/Navy Moves.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'mega man') || contains(lower({game:name} + ' ' + {game:rom}), 'rockman') ? '${themePath}/${theme.overlayArtsPath}/Mega Man.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'metal slug') ? '${themePath}/${theme.overlayArtsPath}/Metal Slug.png' : ''
           || (contains(lower({game:name} + ' ' + {game:rom}), 'super ghouls') || contains(lower({game:name} + ' ' + {game:rom}), 'makaimura') || ( contains(lower({game:name} + ' ' + {game:rom}), 'ghosts') &amp;&amp; ( contains(lower({game:name} + ' ' + {game:rom}), 'goblins') || contains(lower({game:name} + ' ' + {game:rom}), 'ghouls') ) ) ) ? '${themePath}/${theme.overlayArtsPath}/Ghosts Goblins.png' : ''
-          </path>
+          || contains(lower({game:name} + ' ' + {game:rom}), 'rayman') ? '${themePath}/${theme.overlayArtsPath}/Rayman.png' : ''
+        </path>
       </image>
 
       <image name="overlay-art2" extra="static">
@@ -38,11 +38,11 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
           || contains(lower({game:name}), 'zelda') &amp;&amp; !contains(lower({game:name}), 'ocarina') &amp;&amp; !contains(lower({game:name}), 'breath') ? '${themePath}/${theme.overlayArtsPath}/Zelda.png' : ''
           || contains(lower({game:name}), 'zelda') &amp;&amp; contains(lower({game:name}), 'ocarina')  ? '${themePath}/${theme.overlayArtsPath}/Zelda Ocarina.png' : ''
           || contains(lower({game:name}), 'zelda') &amp;&amp; contains(lower({game:name}), 'breath')  ? '${themePath}/${theme.overlayArtsPath}/systems/wiiu.png' : ''
-          || contains(lower({game:name} + ' ' + {game:rom}), 'rayman') ? '${themePath}/${theme.overlayArtsPath}/Rayman.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'spider-man') ? '${themePath}/${theme.overlayArtsPath}/Spider-Man.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'x-men') || contains(lower({game:name} + ' ' + {game:rom}), 'x men') || contains(lower({game:name} + ' ' + {game:rom}), 'xmen') || contains(lower({game:name} + ' ' + {game:rom}), 'children of the atom') || contains(lower({game:name} + ' ' + {game:rom}), 'mutant apocalypse') || contains(lower({game:name} + ' ' + {game:rom}), 'mutant academy') ? '${themePath}/${theme.overlayArtsPath}/X-Men.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'street fighter') &amp;&amp; !contains(lower({game:name} + ' ' + {game:rom}), '2010') ? '${themePath}/${theme.overlayArtsPath}/Street Fighter.png' : ''         
           || contains(lower({game:name}), 'sonic the hedgehog') || !contains(lower({game:name}), 'boom')  &amp;&amp; !contains(lower({game:name}), 'knuckles')  &amp;&amp; contains(lower({game:name}), 'sonic')  &amp;&amp; contains(lower({game:publisher}), 'sega') ? '${themePath}/${theme.overlayArtsPath}/Sonic the Hedgehog.png' : ''
+          || contains(lower({game:name} + ' ' + {game:rom}), 'mario ') ? '${themePath}/${theme.overlayArtsPath}/Mario.png' : ''
           || contains(lower({game:name}), 'knuckles') ? '${themePath}/${theme.overlayArtsPath}/Knuckles.png' : ''
           </path>
       </image>
@@ -240,14 +240,20 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
           || contains(lower({game:name} + ' ' + {game:rom}), 'chrono trigger') ? '${themePath}/${theme.overlayArtsPath}/Chrono Trigger.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'spyro') ? '${themePath}/${theme.overlayArtsPath}/Spyro.png' : ''
           || contains(lower({game:name} + ' ' + {game:rom}), 'parasite eve') ? '${themePath}/${theme.overlayArtsPath}/Parasite Eve.png' : ''
+        </path>
+      </image>
 
+      <image name="overlay-art16" extra="static">
+        <path>
+          contains(lower({game:name} + ' ' + {game:rom}), 'digimon') ? '${themePath}/${theme.overlayArtsPath}/Digimon.png' : ''
+          || contains(lower({game:name} + ' ' + {game:rom}), 'arkanoid') ? '${themePath}/${theme.overlayArtsPath}/Arkanoid.png' : ''
         </path>
       </image>
 
 
         <!-- añadir tambien en vistas especificas ps4 y single -->
 
-        <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14, overlay-art15" extra="static">
+        <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14, overlay-art15, overlay-art16" extra="static">
             <zIndex>70</zIndex>
             <size>0 1</size>
             <origin>1 1</origin>

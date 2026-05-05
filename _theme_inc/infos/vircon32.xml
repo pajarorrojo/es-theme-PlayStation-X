@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Vircon32 is a virtual game console platform designed for modern development with a retro-inspired approach. It was created as a software-based system that emulates the structure and limitations of a traditional console, allowing developers to create games in a controlled and consistent environment.
+
+The platform focuses on simplicity and accessibility, offering tools and documentation that make it easier to design games while maintaining a classic development feel. By defining clear hardware-like constraints, Vircon32 encourages creativity and efficient use of resources, similar to older console development.
+
+More than just an emulator, Vircon32 acts as a complete ecosystem for game creation, distribution, and execution. It appeals to hobbyists, programmers, and retro enthusiasts who want to build and share original projects within a defined virtual system.</text>
+			<text lang="es,gl,ca,eu">Vircon32 es una plataforma de consola virtual diseñada para el desarrollo moderno con un enfoque inspirado en lo retro. Se trata de un sistema basado en software que emula la estructura y las limitaciones de una consola tradicional, permitiendo crear juegos en un entorno controlado y coherente.
+
+La plataforma apuesta por la sencillez y la accesibilidad, ofreciendo herramientas y documentación que facilitan el desarrollo de juegos manteniendo una sensación clásica. Al establecer restricciones similares a las del hardware antiguo, Vircon32 fomenta la creatividad y el uso eficiente de los recursos.
+
+Más que un simple emulador, Vircon32 funciona como un ecosistema completo para la creación, distribución y ejecución de juegos. Resulta especialmente atractivo para aficionados, programadores y entusiastas del retro que buscan desarrollar y compartir proyectos dentro de un sistema virtual definido.</text>
+			<text lang="fr">Vircon32 est une plateforme de console virtuelle conçue pour le développement moderne avec une approche inspirée du rétro. Il s’agit d’un système logiciel qui reproduit la structure et les limitations d’une console traditionnelle, permettant de créer des jeux dans un environnement contrôlé et cohérent.
+
+La plateforme met l’accent sur la simplicité et l’accessibilité, en proposant des outils et une documentation facilitant le développement tout en conservant une sensation classique. En imposant des contraintes similaires à celles du matériel ancien, Vircon32 encourage la créativité et l’optimisation des ressources.
+
+Plus qu’un simple émulateur, Vircon32 constitue un écosystème complet pour la création, la distribution et l’exécution de jeux. Il s’adresse aux passionnés, développeurs et amateurs de rétro qui souhaitent concevoir et partager leurs propres projets au sein d’un système virtuel dédié.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Vircon32</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>000000</colorEnd> <!-- negro digital -->
+			<color>00cfff</color> <!-- azul brillante tecnológico -->
+		</image>
+	</view>
+</theme>

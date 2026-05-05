@@ -83,11 +83,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
       <video name="game-video" extra="true" ifSubset="game-video:window|inside|default|background|oversize|off">
-         <delay ifSubset="video-gamelist-delay:0s">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:05s">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:1s">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:2s">0.01</delay>
-         <delay ifSubset="video-gamelist-delay:3s">0.01</delay>
+         <delay>${subset.video-gamelist-delay}</delay>
          <visible ifSubset="game-video:off">true</visible>
          <default>${themePath}/_theme_inc/images/no-video-default.mp4</default>
          <y>0.29</y>

@@ -55,9 +55,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 			<image name="background-system" extra="true" region="eu" />
 			<image name="background-system" extra="true">
-				<path>"${themePath}/_theme_inc/images/background/"+ {game:system} +".jpg</path>
-				<path region="us">"${themePath}/_theme_inc/images/background/us/"+ {game:system} +".jpg</path>
-				<path region="jp">"${themePath}/_theme_inc/images/background/jp/"+ {game:system} +".jpg</path>
+				<path>"${themePath}/${theme.backgroundPath}/"+ {game:system} +".jpg</path>
+				<path region="us">"${themePath}/${theme.backgroundPath}/us/"+ {game:system} +".jpg</path>
+				<path region="jp">"${themePath}/${theme.backgroundPath}/jp/"+ {game:system} +".jpg</path>
 				<visible>empty({game:fanart}) &amp;&amp; empty({game:thumbnail}) &amp;&amp; empty({game:image})</visible>
 			</image>
 
@@ -131,13 +131,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 		 <image name="console-splash" extra="true" region="eu" />
 		 <image name="console-splash" extra="true">
-			<path>"${themePath}/_theme_inc/images/consoles/"+ {game:system} +".png</path>
+			<path>"${themePath}/${theme.consolesPath}/"+ {game:system} +".png</path>
 		 </image>
 		 <image name="console-splash" extra="true" region="jp">
-			<path>"${themePath}/_theme_inc/images/consoles/jp/"+ {game:system} +".png</path>
+			<path>"${themePath}/${theme.consolesPath}/jp/"+ {game:system} +".png</path>
 		 </image>
 		 <image name="console-splash" extra="true" region="us">
-			<path>"${themePath}/_theme_inc/images/consoles/us/"+ {game:system} +".png</path>
+			<path>"${themePath}/${theme.consolesPath}/us/"+ {game:system} +".png</path>
 		 </image>
 
 

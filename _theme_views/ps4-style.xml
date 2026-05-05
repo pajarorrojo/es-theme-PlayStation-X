@@ -26,13 +26,8 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <imagegrid name="gamegrid">
-         <imageSource ifSubset="grid-origin:image">image</imageSource>
-         <imageSource ifSubset="grid-origin:marquee">marquee</imageSource>
-         <imageSource ifSubset="grid-origin:thumbnail">thumbnail</imageSource>
-         <imageSource ifSubset="grid-origin:boxart">boxart</imageSource>
+         <imageSource>${subset.grid-origin}</imageSource>
          <imageSource ifSubset="grid-origin:fanart|default">fanart</imageSource>
-         <imageSource ifSubset="grid-origin:titleshot">titleshot</imageSource>
-         <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <gameImage>${themePath}/_theme_inc/images/no-image-default.png</gameImage>
          <folderImage>${themePath}/_theme_inc/images/no-image-default.png</folderImage>
          <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
@@ -66,7 +61,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <padding>0 0</padding>
          <selectionMode>full</selectionMode>
          <imageSizeMode>minSize</imageSizeMode>
-         <backgroundImage>${themePath}/_theme_inc/images/caratulas/default-gamelist.png</backgroundImage>
+         <backgroundImage>${themePath}/${theme.caratulasPath}/default-gamelist.png</backgroundImage>
          <imageSizeMode ifSubset="grid-origin:boxart|cartridge">maxSize</imageSizeMode>
          <padding ifSubset="grid-origin:boxart|cartridge">18 18</padding>
          <backgroundEdgeColor>ffffff99</backgroundEdgeColor>
@@ -125,6 +120,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
          <pos>0.85 0.85</pos>
          <maxSize>0.1 0.1</maxSize>
+         <opacity>{system:showCheevos} ? "1" : "0"</opacity>
       </image>
 
       <image name="gridtile.cheevos:selected" if="{global.cheevos} == true">
@@ -132,6 +128,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <color>F2BC00dd</color>
          <maxSize>0.09 0.09</maxSize>
          <visible>true</visible>
+         <opacity>{system:showCheevos} ? "1" : "0"</opacity>
       </image>
 
       <image name="gridtile.cheevos:selected" if="{system.name} == 'retroachievements'">
@@ -170,32 +167,69 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </text>
 
 
-      <text name="gamename-ps4Style" extra="true">
-         <text>{game:name}</text>
-         <pos>0.335 0.418</pos>
+
+
+      <stackpanel name="gamename-ps4Style">
+         <separator>0.005</separator>
+         <pos>0.335 0.430</pos>
+         <y if="${screen.height} &lt;= '480' ">0.278</y>
          <x ifSubset="aspect-ratio:4-3">0.390</x>
          <x ifSubset="aspect-ratio:5-4">0.405</x>
          <x ifSubset="aspect-ratio:16-10">0.352</x>
          <x ifSubset="aspect-ratio:3-2">0.365</x>
          <x ifSubset="aspect-ratio:5-3">0.35</x>
          <x ifSubset="aspect-ratio:21-9">0.29</x>
-
-         <size>0.65 0.08</size>
-         <size ifSubset="aspect-ratio:5-3">0.62 0.08</size>
-         <color>ffffff</color>
+         <size>0.63 0.06</size>
+         <size ifSubset="aspect-ratio:5-3">0.62 0.06</size>
+         <orientation>horizontal</orientation>
          <backgroundColor>ff000000</backgroundColor>
-         <fontSize>0.054</fontSize>
-         <alignment>left</alignment>
-         <verticalAlignment>top</verticalAlignment>
-         <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
-         <origin>0 0</origin>
-         <glowColor>00000035</glowColor>
-         <glowSize>1</glowSize>
-         <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
-         <singleLineScroll>true</singleLineScroll>
-         <autoScrollDelay>0</autoScrollDelay>
-      </text>
+
+         <image name="system-logo" if="${system.manufacturer} == 'Collections'">
+            <path>firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <path region="us">firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + "-us.png", "${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <path region="jp">firstfile("${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + "-jp.png", "${themePath}/${theme.caratulasPath}/iconset/" + {game:system} + ".png", "${themePath}/_theme_inc/images/pix-transp.png")</path>
+            <maxSize>1 1</maxSize>
+            <color>ffffff</color>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <pos>0 0</pos>
+            <saturation>0</saturation>
+         </image> 
+
+         <text name="game-name">
+            <text>{game:name}</text>
+            <color>ffffff</color>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Light.ttf</fontPath>
+            <fontSize>0.054</fontSize>
+            <fontSize ifSubset="aspect-ratio:4-3|5-4">0.050</fontSize>
+            <fontSize tinyScreen="true">0.064</fontSize>
+            <singleLineScroll>true</singleLineScroll>
+            <autoScrollDelay>2000</autoScrollDelay>
+            <backgroundColor>ff000000</backgroundColor>
+            <glowColor>00000035</glowColor>
+            <glowSize>1</glowSize>
+            <glowOffset>3 2</glowOffset>
+            <size>0.71 0.001</size>
+         </text>
+
+         <text name="system-name-stack" if="${system.manufacturer} == 'Collections'">
+            <text>${theme.systemName}</text>
+            <fontSize>0.023</fontSize>
+            <fontSize tinyScreen="true">0.032</fontSize>
+            <forceUppercase tinyScreen="true">true</forceUppercase>
+            <fontPath>${themePath}/_theme_inc/fonts/SST Bold Italic.ttf</fontPath>
+            <color>000000</color>
+            <padding>0.004 0.004</padding>
+            <padding tinyScreen="true">0.006 0.006</padding>
+            <backgroundColor>ffffff00</backgroundColor>
+            <glowColor>ffffffe3</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>0 0</glowOffset>
+            <pos>0 0.175</pos>
+         </text> 
+
+       </stackpanel>
 <!-- mmedios que apareecen en la esquina inf. der. -->
 
       <image name="marquee-ps4Style-view" extra="true" ifSubset="showlogo:enabled">
@@ -270,7 +304,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <visible>true</visible>
       </image>
 
-      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14, overlay-art15" extra="static">
+      <image name="overlay-art, overlay-art1, overlay-art2, overlay-art3, overlay-art4, overlay-art5, overlay-art6, overlay-art7, overlay-art8, overlay-art9, overlay-art10, overlay-art11, overlay-art12, overlay-art13, overlay-art14, overlay-art15, overlay-art16" extra="static">
          <!--<visible>empty({game:family})</visible>-->
          <visible>true</visible>
       </image>

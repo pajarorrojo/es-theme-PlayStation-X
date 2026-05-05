@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Simpsons is a long-running video game series based on the popular animated television show. Since the late 1980s, the franchise has appeared in a wide variety of genres, including arcade beat 'em ups, platformers, racing games, and open-world adventures, often featuring the Simpson family and the residents of Springfield.
+
+The games are known for capturing the humor, style, and tone of the original series, allowing players to control characters like Homer, Bart, Lisa, and Marge. Many titles recreate familiar locations and storylines, while others introduce original plots filled with references and parody elements.
+
+Over time, The Simpsons games have evolved across multiple generations of consoles and platforms. From classic arcade experiences like The Simpsons Arcade Game to more expansive titles such as Hit & Run, the series has remained a recognizable and entertaining part of video game history.</text>
+			<text lang="es,gl,ca,eu">The Simpsons es una amplia serie de videojuegos basada en la popular serie de animación. Desde finales de los años 80, ha aparecido en una gran variedad de géneros, incluyendo beat 'em ups arcade, plataformas, conducción y aventuras de mundo abierto, protagonizados por la familia Simpson y los habitantes de Springfield.
+
+Los juegos destacan por capturar el humor, el estilo y el tono de la serie original, permitiendo controlar a personajes como Homer, Bart, Lisa y Marge. Muchos títulos recrean escenarios y situaciones conocidas, mientras que otros presentan historias originales llenas de referencias y parodias.
+
+Con el paso del tiempo, los juegos de The Simpsons han evolucionado a través de distintas generaciones de consolas y plataformas. Desde clásicos arcade como The Simpsons Arcade Game hasta propuestas más amplias como Hit & Run, han mantenido su presencia como parte reconocible y divertida del mundo del videojuego.</text>
+			<text lang="fr">The Simpsons est une série de jeux vidéo basée sur la célèbre série télévisée d’animation. Depuis la fin des années 1980, elle s’est déclinée dans de nombreux genres, notamment le beat 'em up, les jeux de plateformes, de course et les aventures en monde ouvert, mettant en scène la famille Simpson et les habitants de Springfield.
+
+Les jeux sont connus pour reproduire l’humour, le style et l’ambiance de la série originale, en permettant d’incarner des personnages comme Homer, Bart, Lisa et Marge. Certains titres reprennent des lieux et des situations familiers, tandis que d’autres proposent des histoires inédites riches en références et en parodies.
+
+Au fil des années, les jeux The Simpsons ont évolué sur de nombreuses générations de consoles et plateformes. Des classiques d’arcade comme The Simpsons Arcade Game à des titres plus ambitieux comme Hit & Run, ils occupent une place durable et reconnaissable dans l’histoire du jeu vidéo.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>The Simpsons</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>6ec1ff</colorEnd> <!-- azul cielo Springfield -->
+			<color>ffd90f</color> <!-- amarillo Simpson -->
+		</image>
+	</view>
+</theme>

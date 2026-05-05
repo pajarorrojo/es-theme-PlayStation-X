@@ -1,0 +1,31 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Digimon is a Japanese multimedia franchise that began in 1997 as Digital Monster, a virtual pet line created by Bandai. The series revolves around Digimon, or Digital Monsters, creatures that inhabit the Digital World, a parallel universe connected to human communication networks and digital technology. Over time, the franchise expanded into anime, manga, video games, films, and a trading card game, becoming one of the most recognizable monster-themed series in popular culture.
+
+Digimon is known for combining adventure, action, and themes of friendship, growth, and evolution. One of its most distinctive features is digivolution, the process by which Digimon transform into stronger forms. Throughout the years, the franchise has featured many different stories, characters, and settings, while maintaining the central idea of the bond between humans and their Digimon partners. Its popularity has made it a long-running series with a strong presence across multiple generations of fans.</text>
+			<text lang="es,gl,ca,eu">La franquicia Digimon es una saga multimedia japonesa que comenzó en 1997 como Digital Monster, una línea de mascotas virtuales creada por Bandai. La serie gira en torno a los Digimon, o Monstruos Digitales, criaturas que habitan el Mundo Digital, un universo paralelo conectado con las redes de comunicación humanas y la tecnología digital. Con el tiempo, la franquicia se expandió al anime, manga, videojuegos, películas y un juego de cartas, convirtiéndose en una de las series de monstruos más reconocibles de la cultura popular.
+
+Digimon se caracteriza por combinar aventura, acción y temas de amistad, crecimiento y evolución. Una de sus características más distintivas es la digievolución, el proceso mediante el cual los Digimon se transforman en formas más poderosas. A lo largo de los años, la franquicia ha presentado muchas historias, personajes y ambientaciones diferentes, manteniendo siempre la idea central del vínculo entre los humanos y sus compañeros Digimon. Su popularidad la ha convertido en una serie de larga trayectoria con presencia en varias generaciones de seguidores.</text>
+			<text lang="fr">Digimon est une franchise multimédia japonaise qui a commencé en 1997 sous le nom de Digital Monster, une gamme d’animaux virtuels créée par Bandai. La série tourne autour des Digimon, ou Monstres Digitaux, des créatures qui vivent dans le Monde Digital, un univers parallèle relié aux réseaux de communication humains et à la technologie numérique. Avec le temps, la franchise s’est étendue à l’anime, au manga, aux jeux vidéo, aux films et à un jeu de cartes, devenant l’une des séries de monstres les plus reconnaissables de la culture populaire.
+
+Digimon est connue pour mêler aventure, action et thèmes liés à l’amitié, à la croissance et à l’évolution. L’une de ses caractéristiques les plus emblématiques est la digivolution, le processus par lequel les Digimon se transforment en formes plus puissantes. Au fil des années, la franchise a proposé de nombreuses histoires, personnages et univers différents, tout en conservant l’idée centrale du lien entre les humains et leurs partenaires Digimon. Sa popularité en a fait une série durable, présente auprès de plusieurs générations de fans.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Digimon</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>ec800e</colorEnd>
+			<color>f1e50f</color>
+		</image>
+	</view>
+</theme>

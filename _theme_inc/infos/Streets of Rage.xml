@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Streets of Rage is a side-scrolling beat 'em up series developed by Sega that began in 1991. Set in a crime-ridden city, the games follow a group of former police officers and fighters who take the law into their own hands to restore order and dismantle powerful criminal organizations.
+
+The series is known for its mix of hand-to-hand combat, weapon use, and cooperative gameplay, allowing players to battle through urban environments filled with enemies and bosses. Its mechanics focus on timing, positioning, and crowd control, offering a balance between accessibility and depth.
+
+Streets of Rage gained particular recognition for its atmospheric presentation, combining detailed pixel art with a memorable electronic soundtrack composed by Yuzo Koshiro. Over time, the series has evolved with new entries that update its visuals and gameplay while preserving the core identity that made it a classic of the genre.</text>
+			<text lang="es,gl,ca,eu">Streets of Rage es una serie de juegos de acción tipo beat 'em up con desplazamiento lateral desarrollada por Sega que comenzó en 1991. Ambientada en una ciudad dominada por el crimen, sigue a un grupo de ex policías y luchadores que deciden enfrentarse a las organizaciones criminales para devolver el orden a las calles.
+
+La serie destaca por su combinación de combate cuerpo a cuerpo, uso de armas y juego cooperativo, permitiendo avanzar por entornos urbanos llenos de enemigos y jefes finales. Su jugabilidad se basa en el control del espacio, el ritmo y la gestión de grupos de enemigos, ofreciendo una experiencia accesible pero con profundidad.
+
+Streets of Rage es especialmente recordada por su atmósfera, con un estilo visual detallado y una banda sonora electrónica muy influyente compuesta por Yuzo Koshiro. Con el paso del tiempo, ha evolucionado con nuevas entregas que modernizan su aspecto y mecánicas, manteniendo la esencia que la convirtió en un clásico del género.</text>
+			<text lang="fr">Streets of Rage est une série de jeux d’action de type beat 'em up à défilement horizontal développée par Sega, lancée en 1991. Située dans une ville envahie par le crime, elle met en scène un groupe d’anciens policiers et de combattants qui luttent contre des organisations criminelles pour rétablir l’ordre.
+
+La série se distingue par son mélange de combat rapproché, d’utilisation d’armes et de jeu coopératif, permettant de progresser dans des environnements urbains remplis d’ennemis et de boss. Son gameplay repose sur le timing, le positionnement et la gestion des groupes d’adversaires, offrant une expérience accessible mais stratégique.
+
+Streets of Rage est également célèbre pour son ambiance unique, avec un style visuel détaillé et une bande-son électronique marquante composée par Yuzo Koshiro. Au fil des années, la série a évolué avec de nouveaux épisodes qui modernisent ses graphismes et ses mécaniques tout en conservant son identité d’origine.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Streets of Rage</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>0a1f44</colorEnd> <!-- azul noche urbana -->
+			<color>ff6a00</color> <!-- naranja neón -->
+		</image>
+	</view>
+</theme>

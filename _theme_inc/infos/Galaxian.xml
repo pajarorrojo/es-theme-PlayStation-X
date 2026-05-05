@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Galaxian is a series of classic arcade shoot 'em up games developed by Namco, beginning in 1979. The games place the player in control of a spacecraft that must defend against formations of alien enemies, combining precise shooting with careful movement to survive increasingly difficult waves.
+
+Across its different entries, the series introduced important innovations to the genre, such as enemies that break formation to launch diving attacks and more dynamic movement patterns. It also evolved visually and mechanically over time, leading to successors like Galaga, which expanded on the original ideas with deeper gameplay and new features.
+
+Known for its fast-paced action and simple yet challenging design, Galaxian helped shape the foundations of early arcade shooters. Its influence can be seen in many later titles, and it remains an important part of the history of video games.</text>
+			<text lang="es,gl,ca,eu">Galaxian es una serie de clásicos videojuegos arcade de tipo shoot 'em up desarrollada por Namco a partir de 1979. En estos juegos, el jugador controla una nave espacial que debe enfrentarse a formaciones de enemigos alienígenas, combinando precisión en el disparo con buenos reflejos para superar oleadas cada vez más desafiantes.
+
+A lo largo de sus distintas entregas, la serie introdujo innovaciones importantes en el género, como enemigos que abandonan su formación para atacar en picado y patrones de movimiento más dinámicos. Con el tiempo, evolucionó tanto a nivel visual como jugable, dando lugar a sucesores como Galaga, que ampliaron las ideas originales con nuevas mecánicas y mayor profundidad.
+
+Conocida por su acción rápida y su diseño sencillo pero exigente, Galaxian ayudó a sentar las bases de los shooters arcade. Su influencia puede apreciarse en muchos títulos posteriores y sigue siendo una parte importante de la historia del videojuego.</text>
+			<text lang="fr">Galaxian est une série de jeux d’arcade de type shoot 'em up développée par Namco à partir de 1979. Le joueur y contrôle un vaisseau spatial chargé de repousser des formations d’ennemis extraterrestres, en combinant précision et réflexes pour survivre à des vagues de plus en plus difficiles.
+
+Au fil de ses différentes versions, la série a introduit des innovations importantes dans le genre, comme des ennemis quittant leur formation pour attaquer en piqué et des schémas de mouvement plus dynamiques. Elle a également évolué sur le plan visuel et mécanique, donnant naissance à des successeurs comme Galaga, qui ont enrichi la formule avec de nouvelles idées et davantage de profondeur.
+
+Connue pour son action rapide et son gameplay simple mais exigeant, Galaxian a contribué à poser les bases des shooters d’arcade. Son influence se retrouve dans de nombreux jeux ultérieurs et elle reste une référence importante dans l’histoire du jeu vidéo.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>Galaxian</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>0ef042</colorEnd>
+			<color>f7f706</color>
+		</image>
+	</view>
+</theme>

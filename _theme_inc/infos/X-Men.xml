@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>X-Men is a long-running presence in video games based on the Marvel Comics team of mutants. Since the late 1980s, the X-Men have appeared in a wide variety of titles, including arcade beat 'em ups, action games, fighting games, and role-playing adventures, often featuring multiple playable characters with unique abilities.
+
+The games typically allow players to control well-known members such as Wolverine, Cyclops, Storm, and Nightcrawler, each with distinct powers like regeneration, optic blasts, weather control, or teleportation. This variety encourages different playstyles and cooperative strategies, especially in multiplayer-focused titles.
+
+Over time, X-Men games have evolved across many platforms, from classic arcade experiences to modern adaptations within larger Marvel titles. Their mix of teamwork, superpowers, and iconic characters has made them a recurring and recognizable part of video game history.</text>
+			<text lang="es,gl,ca,eu">X-Men es una presencia constante en el mundo de los videojuegos basada en el famoso grupo de mutantes de Marvel Comics. Desde finales de los años 80, han aparecido en una gran variedad de títulos, incluyendo beat 'em ups arcade, juegos de acción, lucha y aventuras, normalmente con varios personajes jugables con habilidades únicas.
+
+Los juegos suelen permitir controlar a miembros conocidos como Wolverine, Cyclops, Storm o Nightcrawler, cada uno con poderes distintos como regeneración, rayos ópticos, control del clima o teletransporte. Esta variedad favorece diferentes estilos de juego y estrategias cooperativas, especialmente en títulos multijugador.
+
+Con el paso del tiempo, los juegos de X-Men han evolucionado en múltiples plataformas, desde clásicos arcade hasta apariciones en juegos modernos dentro del universo Marvel. Su combinación de trabajo en equipo, superpoderes y personajes icónicos los ha convertido en una parte reconocible del mundo del videojuego.</text>
+			<text lang="fr">X-Men est une présence importante dans le jeu vidéo, basée sur l’équipe de mutants de Marvel Comics. Depuis la fin des années 1980, les X-Men sont apparus dans de nombreux types de jeux, notamment des beat 'em up, des jeux d’action, de combat et d’aventure, avec souvent plusieurs personnages jouables disposant de capacités uniques.
+
+Les jeux permettent généralement d’incarner des membres célèbres comme Wolverine, Cyclope, Tornade ou Diablo, chacun possédant des pouvoirs spécifiques tels que la régénération, les rayons optiques, le contrôle du climat ou la téléportation. Cette diversité encourage différents styles de jeu et la coopération entre joueurs.
+
+Au fil des années, les jeux X-Men ont évolué sur de nombreuses plateformes, des classiques d’arcade aux apparitions dans des titres Marvel plus récents. Leur combinaison de travail d’équipe, de superpouvoirs et de personnages emblématiques en fait une série très reconnaissable dans l’histoire du jeu vidéo.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>X-Men</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>0b1f5b</colorEnd> <!-- azul oscuro X-Men -->
+			<color>ffd400</color> <!-- amarillo clásico traje -->
+		</image>
+	</view>
+</theme>

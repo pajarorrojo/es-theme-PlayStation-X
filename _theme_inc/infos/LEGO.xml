@@ -1,0 +1,37 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>LEGO is a long-running video game series inspired by the popular building toy brand, with titles developed over the years by different studios, especially Traveller’s Tales. These games adapt famous universes such as Star Wars, Batman, Harry Potter, Indiana Jones, Marvel, and many others, reimagining them with LEGO characters, humor, and a family-friendly style.
+
+The series is especially known for combining action, platforming, puzzle-solving, and cooperative gameplay. Players explore levels, break objects into bricks, build structures, unlock characters, and use the unique abilities of each hero or villain to progress. One of its most recognizable traits is its lighthearted tone, often retelling well-known stories with visual comedy and little or no dialogue in some of its classic entries.
+
+Over time, LEGO games have become one of the most successful and recognizable families of licensed video games. Their accessible design, wide variety of settings, and enjoyable cooperative play have made them popular with both younger players and longtime fans of the franchises they represent.</text>
+			<text lang="es,gl,ca,eu">LEGO es una extensa serie de videojuegos inspirada en la popular línea de construcción, con títulos desarrollados a lo largo de los años por distintos estudios, especialmente Traveller’s Tales. Estos juegos adaptan universos muy conocidos como Star Wars, Batman, Harry Potter, Indiana Jones, Marvel y muchos otros, reinterpretándolos con personajes LEGO, humor y un estilo apto para todos los públicos.
+
+La saga destaca por combinar acción, plataformas, puzles y juego cooperativo. Los jugadores recorren niveles, destruyen objetos para convertirlos en piezas, construyen estructuras, desbloquean personajes y aprovechan las habilidades especiales de cada héroe o villano para avanzar. Uno de sus rasgos más reconocibles es su tono desenfadado, que reinterpreta historias famosas con comedia visual y, en algunas de sus entregas clásicas, con poco o ningún diálogo.
+
+Con el paso del tiempo, los juegos de LEGO se han convertido en una de las familias de videojuegos con licencia más exitosas y reconocibles. Su diseño accesible, la gran variedad de mundos que abarca y su divertido cooperativo han hecho que resulten muy populares tanto entre jugadores jóvenes como entre seguidores de las sagas representadas.</text>
+			<text lang="fr">LEGO est une longue série de jeux vidéo inspirée de la célèbre marque de construction, avec des titres développés au fil des années par différents studios, notamment Traveller’s Tales. Ces jeux adaptent des univers très connus comme Star Wars, Batman, Harry Potter, Indiana Jones, Marvel et bien d’autres, en les réinventant avec des personnages LEGO, de l’humour et un style accessible à tous.
+
+La série se distingue par son mélange d’action, de plateformes, d’énigmes et de coopération. Les joueurs parcourent les niveaux, détruisent des objets pour récupérer des briques, construisent des structures, débloquent des personnages et utilisent les capacités propres à chaque héros ou méchant pour progresser. L’un de ses traits les plus reconnaissables est son ton léger, qui revisite des histoires célèbres avec beaucoup d’humour visuel et, dans certains épisodes classiques, avec peu ou pas de dialogues.
+
+Au fil du temps, les jeux LEGO sont devenus l’une des familles de jeux sous licence les plus connues et les plus populaires. Leur accessibilité, la diversité de leurs univers et leur mode coopératif amusant les rendent appréciés aussi bien par les jeunes joueurs que par les fans des séries qu’ils adaptent.</text>
+		</text>
+
+		<text name="system_name" extra="true">
+			<text>LEGO</text>
+		</text>
+	</view>
+	<view name="system,detailed, grid">
+		<image name="linea-inferior" extra="static">
+			<colorEnd>ffcc00</colorEnd> <!-- amarillo LEGO -->
+			<color>c8102e</color> <!-- rojo LEGO -->
+		</image>
+	</view>
+</theme>
