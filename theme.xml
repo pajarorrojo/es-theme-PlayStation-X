@@ -267,10 +267,11 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	<!--OPCIONES DE VIDEO SISTEMAS-->
 	<subset name="video-system" displayName="${theme.videoBackground}">
 		<include name="NO" displayName="${VideoOff}" tinyScreen="true">./_theme_options/systemvideo/video-bg.xml</include>
-		<include name="NO" ifNotArch="bcm2711, bcm2712,rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${VideoOff}">./_theme_options/systemvideo/video-bg.xml</include>
-		<include  name="small-screen" ifArch="bcm2711, bcm2712, rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
+		<include name="NO" ifNotArch="bcm2711, bcm2712,rpi5,rpi4,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4" displayName="${VideoOff}">./_theme_options/systemvideo/video-bg.xml</include>
+		<include  name="small-screen" displayName="${theme.smallScreenOption}">./_theme_options/systemvideo/enable-video-small.xml</include>
 		<include name="background-option" displayName="${theme.backgroundVideoOption}">./_theme_options/systemvideo/video-bg.xml</include>
 		<include name="NO" displayName="${VideoOff}" tinyScreen="false">./_theme_options/systemvideo/video-bg.xml</include>
+
 	</subset>
 
 	<!--RANDOM VIDEOS ON/OFF-->
@@ -311,13 +312,13 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 	</subset>
 
 	<!--MOSTRAR AYUDA HOTKEYS-->
-	<subset ifNotArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey}">
+	<subset ifNotArch="windows,x86,x86_64,x86-64-v3" name="hotkey-guide" displayName="${theme.hotkey}">
 		<include tinyScreen="true" name="NO" displayName="${no}" />
 		<include name="YES" displayName="${yes}" />
 		<include tinyScreen="false" name="NO" displayName="${no}" />
 	</subset>
 
-	<subset ifArch="windows,x86,x86_64" name="hotkey-guide" displayName="${theme.hotkey-x86}">
+	<subset ifArch="windows,x86,x86_64,x86-64-v3" name="hotkey-guide" displayName="${theme.hotkey-x86}">
 		<include tinyScreen="true" name="never" displayName="${never}" />
 		<include name="splash" displayName="${theme.hotkey.splash}" />
 		<include name="both" displayName="${theme.hotkey.both}" />
@@ -334,9 +335,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--FONDO ANIMADO-->
 	<subset name="animated-backg" displayName="${theme.animated-background}">
-		<include ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+		<include ifArch="bcm2712,rpi5,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 		<include name="NO" displayName="${no}" />
-		<include ifNotArch="bcm2712, rpi5,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
+		<include ifNotArch="bcm2712, rpi5,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-background.xml</include>
 	</subset>
 	
 <!--OPCIONES GAMELISTS-->
@@ -439,9 +440,9 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 	<!--ANIMACION DE LISTAS-->
 	<subset name="anim-list" displayName="${theme.animatedList}" appliesTo="detailed, grid, ps4Style, ps5Style, carousel, full-grid, single">
-		<include ifArch="bcm2711, bcm2712, rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+		<include ifArch="bcm2711, bcm2712, rpi5,rpi4,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
 		<include name="NO" displayName="${no}" />
-		<include ifNotArch="bcm2711, bcm2712, rpi5,rpi4,windows,x86,x86_64,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
+		<include ifNotArch="bcm2711, bcm2712, rpi5,rpi4,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4" name="YES" displayName="${yes}">./_theme_options/animated-list.xml</include>
 	</subset>
 
 	
@@ -598,8 +599,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontSize>0.03</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
 			<glowColor>00000035</glowColor>
-			<glowSize ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-			<glowOffset ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+			<glowSize ifArch="bcm2712,rpi5,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4">1</glowSize>
+			<glowOffset ifArch="bcm2712,rpi5,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 	</view>
 
@@ -614,8 +615,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<fontSize ifSubset="aspect-ratio:4-3|5-4">0.03</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.026</fontSize>
 			<glowColor>00000035</glowColor>
-			<glowSize ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-			<glowOffset ifArch="bcm2712,rpi5,windows,x86,x86_64,odroidc4,odroidxu4">3 2</glowOffset>
+			<glowSize ifArch="bcm2712,rpi5,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4">1</glowSize>
+			<glowOffset ifArch="bcm2712,rpi5,windows,x86,x86_64,x86-64-v3,odroidc4,odroidxu4">3 2</glowOffset>
 		</helpsystem>
 
 	</view>
