@@ -155,11 +155,12 @@ Thanks and credits:
 - Fabrice Caruso, for inspiring me with his awesome carbon theme for batocera, and for always updating and performing batocera-emulationstation. https://github.com/fabricecaruso
 - Seis, for being the first person to recommend the theme for the batocera's official list https://github.com/seeiis
 - Lio, for posting the theme on batocera's official list and making it known to the community : https://github.com/lbrpdx
-- Snapouille and Soaresden, for helping with French translation https://github.com/Snapouille
+- Snapouille and Soaresden, for helping with French translation https://github.com/Snapouille https://github.com/soaresden
 - Janderson for helping with Portuguese translation https://github.com/JandersonJS
 - TheDayG0ne and Vortex for helping with Russian translation https://github.com/TheDayG0ne
 - CadmiumRED for helping with some test and medias https://github.com/CadmiumRED/
-- renetrox87 for inspiration with the overlayed arts https://github.com/Renetrox/
+- renetrox87 for the Retropie port and for inspiration with the overlayed arts https://github.com/Renetrox/
+- RobZombie for the ES-DE port https://github.com/RobZombie9043/playstation-x-es-de
 - Manu for helping with some overlay arts https://github.com/manutortosa-collab/
 - Nexusone and their indomitable ARRM scraping software, which I recommend to keep your media collections always up to date. (http://jujuvincebros.fr/telechargements2/file/10-arrm-another-recalbox-roms-manager)
 - Zoidburg13 For its collection of icons, some of which are used in the PS3 carousel https://github.com/Zoidburg13
